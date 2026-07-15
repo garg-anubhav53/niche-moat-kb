@@ -67,22 +67,25 @@ Survivors proceed. Expect most runs to yield **0–2 survivors.** Zero is a fine
 
 ## §4 — PROMISE SCORE (inline — the sharpening gate)
 
-For each survivor, ONE confirming search (live cap, volume, analyst count, latest gross margin, revenue trend). Then score 0–2 on each of five axes:
+For each survivor, ONE confirming search (live cap, volume, analyst count, latest gross margin, revenue trend, returns on capital). Then score 0–2 on each of **six** axes — asymmetry AND quality:
 
 | Axis | 0 | 1 | 2 |
 |---|---|---|---|
 | **Moat clarity** | vague | plausible, one mechanism | textbook sole-source/regulatory/monopoly, named customers |
+| **Business quality** | declining / poor returns on capital / value-destructive | stable, decent returns, defensible | high ROIC, durable or growing revenue, expanding/high margins, owner-operator aligned, reinvestment runway (a real compounder) |
 | **Coverage void** | 3-4 analysts | 1-2 | 0, or foreign-listed English desert |
 | **Valuation gap** | fair | modest discount | trades ≪ moat-justified multiple (e.g. <2x sales on 50%+ GM franchise) |
 | **Catalyst proximity** | none visible | vague/12mo+ | specific event <6 months (earnings inflection, initiation, contract, cert) |
 | **Floor quality** | thin | positive equity, some cash | net cash + profitable on zero new orders |
 
-**Total /10 decides the candidate's fate:**
-- **≥8** → `QUEUED_HOT`: unlocks a deep-dive THIS run (§5). These are the rare best ideas.
-- **5–7** → `QUEUED`: added to universe, deep-dive deferred to a future run when hot queue is empty.
-- **≤4** → `PARK` (note in UNIVERSE with score, no further spend) or kill if a gate is marginal.
+**Total /12 decides the candidate's fate:**
+- **≥10** → `QUEUED_HOT`: unlocks a deep-dive THIS run (§5). The rare best ideas — cheap AND good.
+- **6–9** → `QUEUED`: added to universe, deep-dive deferred to a future run when hot queue is empty.
+- **≤5** → `PARK` (note in UNIVERSE with score, no further spend) or kill if a gate is marginal.
 
-This score is the whole point: **deep tokens flow only to ≥8s.** Everything else waits or dies cheap.
+**Hard quality rule (anti-value-trap):** Business quality must be **≥1** for a name to ever reach WATCH. A quality=0 name is a value trap no matter how cheap — cap it at PARK/CANDIDATE and never deep-dive it. We want a *good business* at an asymmetric price, not a bad business that looks cheap.
+
+This score is the whole point: **deep tokens flow only to ≥10s that are also genuinely good businesses.** Everything else waits or dies cheap.
 
 ---
 

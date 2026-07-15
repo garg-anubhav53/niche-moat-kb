@@ -18,9 +18,10 @@ If you can't name the catalyst AND the floor in one sentence each → not WATCH-
 ### Kill-fast (any one)
 - 12-mo return >+100% (asymmetry spent) · negative book equity · >4 analysts · bankruptcy/delisting/serial dilution · no identifiable moat · commodity product
 
-### Promise Score (the sharpening gate) — 0–2 on each, /10
-Moat clarity · Coverage void · Valuation gap · Catalyst proximity · Floor quality.
-**≥8 → deep-dive now (HOT). 5–7 → queue. ≤4 → park/kill.** Deep tokens flow only to ≥8s.
+### Promise Score (the sharpening gate) — 0–2 on each, /12
+Moat clarity · **Business quality** · Coverage void · Valuation gap · Catalyst proximity · Floor quality.
+**≥10 → deep-dive now (HOT). 6–9 → queue. ≤5 → park/kill.** Deep tokens flow only to ≥10s.
+**Anti-value-trap rule:** Business quality must be ≥1 to ever reach WATCH — we want a *good business* at an asymmetric price, never a bad business that merely looks cheap.
 
 ---
 
