@@ -1,0 +1,20 @@
+# Local environment
+.env
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+.DS_Store
+
+# Briefs and memos (will be generated)
+briefs/
+memos/
+
+# Logs
+*.log
