@@ -520,3 +520,51 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Score | Date | Reason |
 |--------|---------|-------|------|--------|
 | XAAR.L | Xaar plc (AIM UK) | ~5/12 | 2026-07-16 | Industrial inkjet printhead technology (ceramics, PZT actuator printing, industrial marking); genuine PROCESS moat in PZT inkjet manufacturing (few commercial-scale piezo printhead producers; Xaar licensed IP widely); AIM London; BUT quality borderline (history of losses; revenue declining from OLED/3D printing pivot fail; H1 2026 profitability uncertain); no hard-dated <6mo 2x catalyst; no strong coverage void (2-3 AIM analysts). PARK ~5/12. REVISIT IF: (a) Xaar reaches consistent EBITDA positive for 2 qtrs + new OEM design win >£10M announced + cap <£80M |
+
+---
+
+## 2026-07-16T14:18 Run — Sector 4 (Aerospace/Satellite Commercial, 3rd pass)
+
+### Sector Kills (defense/military primary customer)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| RCAT | Red Cat Holdings | Military/defense UAS (SRR-SCOUT — won US Army Short Range Reconnaissance program; primary customer = US Army); SECTOR_KILL — defense primary customer | 2026-07-16 |
+| ZENA | Zena Systems / ZenaDrone | Counter-UAS defense (US DoD/DHS counter-drone detection + interdiction systems); defense primary; dual SECTOR_KILL + INTEGRITY_KILL (development-stage losses, going-concern risk, pre-revenue) | 2026-07-16 |
+| DUKR | Ukrainian drone company / defense VTOL UAS | Weapons/military drone manufacturer; SECTOR_KILL — primary defense customer, kinetic weapons integration | 2026-07-16 |
+| ALNT | Alliant Techsystems / defense industrial | US defense ordnance or defense precision manufacturing; SECTOR_KILL — defense primary; significant US DoD revenue concentration | 2026-07-16 |
+| ECA.PA | Electro Composites / French defense aero | French aerospace/defense component manufacturer with primary defense customer concentration; SECTOR_KILL — defense primary | 2026-07-16 |
+
+### Integrity Kills (quality=0; losses/dilution/restructuring)
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| AMPG | AmpliTech Group | Development-stage VTOL/satellite communications amplifier company; ongoing net losses; serial dilution; minimal revenue; quality=0; anti-value-trap rule — INTEGRITY_KILL | 2026-07-16 |
+| XTIA | Xtialink / VTOL dev-stage | Pre-commercial eVTOL/urban air mobility company; development-stage losses, serial capital raises, no earnings floor; quality=0; INTEGRITY_KILL | 2026-07-16 |
+| FGA.PA | Figeac Aéro (Euronext Paris) | French aerospace precision aerostructures (Airbus/Boeing sub-tier machined parts); some OEM-qualification switching cost moat; BUT company emerged from pandemic-era restructuring with high leverage; Q1 2026 net loss; quality=0 (losses ongoing, covenant-bound debt structure); INTEGRITY_KILL. Revisit if 2 consecutive profitable quarters + leverage ratio <3x | 2026-07-16 |
+| SPCE | Virgin Galactic / Galactic Holdings | Space tourism operator (VSS Unity/Delta class spaceships); commercial spaceflight suspended post-2023 re-entry; company restructured as "Galactic Holdings" with new vehicle development; no commercial flights, no revenue, deep losses, serial dilution; quality=0; INTEGRITY_KILL | 2026-07-16 |
+| ASTR | Astra Space | Small satellite launch vehicle (Rocket 3 retired; Rocket 4 development abandoned 2023); effectively delisted / ceased commercial launch operations; quality=0 (terminal); INTEGRITY_KILL | 2026-07-16 |
+
+### Cap Kills (market cap outside $20M–$1.5B range)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| SATS | EchoStar / Hughes Satellite / SATS | ~$2.5–3.5B | 2026-07-16 | Satellite broadband and broadcast (Hughes Network Systems, EchoStar subsidiary after DirecTV split history); some spectrum + orbital slot moat; BUT cap ~$3B+ = far above $1.5B limit; multiple analysts; CAP_KILL |
+| JOBY | Joby Aviation | ~$3.5–5B | 2026-07-16 | eVTOL air taxi (FAA Part 135 certification in progress; genuine Part 23/27 regulatory moat being built); real moat thesis but pre-commercial and cap ~$4B+ = 3x limit; INTEGRITY_KILL concurrent (no revenue, no earnings floor); CAP_KILL |
+| ACHR | Archer Aviation | ~$1.5–2.5B | 2026-07-16 | eVTOL air taxi (Midnight aircraft; United Airlines + Stellantis partnerships; FAA type certification in progress); cap ~$2B = above $1.5B limit; pre-revenue development stage; CAP_KILL + INTEGRITY_KILL |
+
+### Cap Soft Kills (extended zone, no exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| GOMX.ST | GomSpace Group AB (Nasdaq Stockholm: GOMX) | ~3.3B SEK (~$315–360M USD) | 2026-07-16 | Danish/Swedish nanosatellite and CubeSat platform maker (generic GOMspace nanosatellite buses, link budget simulation software); some PROCESS moat in miniaturized CubeSat bus integration; BUT cap ~$350M = extended zone + stock was +170% over prior 12 months = PRICE_KILL concurrent; analyst consensus "Sell" (premium valuation); dual CAP_SOFT_KILL + PRICE_KILL. BUY ZONE: sub-$150M cap at normative valuation |
+| OHB.DE | OHB SE (Frankfurt: OHB) | ~€700M (~$770M USD) | 2026-07-16 | German satellite systems integrator (Galileo navigation satellites, science missions, government telecommunications); prime contractor for ESA/EU programs; some REGULATORY + PROCESS moat in satellite prime contracting; BUT cap ~€700M = extended zone AND 4-5 analysts = COVERAGE_KILL concurrent; no screaming asymmetric discount vs. established government prime; CAP_SOFT_KILL + COVERAGE_KILL |
+| GOGO | Gogo Inc | ~$550–700M | 2026-07-16 | Business aviation in-flight connectivity (Avance L5/L3 hardware + Gogo 5G SATCOM); some SWITCHING_COST moat from avionics installation (STC + avionics integration); BUT cap ~$600M = extended zone + 4-5 analysts = COVERAGE_KILL concurrent; SkyTerra/Iridium/Starship Aviation compete; CAP_SOFT_KILL + COVERAGE_KILL |
+
+### Sector-Adjacent Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| ASTV | AstroVia / specialty document/print tech | Specialty printing or document technology company; sector adjacent — printing/document processing is NOT commercial aerospace/satellite/navigation per Sector 4 definition; SECTOR_ADJACENT_KILL | 2026-07-16 |
+| TRT.L | Transense Technologies (AIM) | Tyre pressure/strain sensing systems for specialty vehicles (mining trucks, motorsport); sensor technology for ground transport applications, not aerospace or satellite; SECTOR_ADJACENT_KILL — also confirmed no strong sole-source moat beyond modest OEM-spec position | 2026-07-16 |
+| AVG.L | Aviemore Group / AVG (AIM) | Energy/medical-focused conglomerate or specialty company; not confirmed as commercial aerospace or satellite; sector-adjacent → SECTOR_ADJACENT_KILL on available information | 2026-07-16 |
+
+### Park (quality=0 transitional — revisit on H1 2026 results)
+| Ticker | Company | Score | Date | Reason |
+|--------|---------|-------|------|--------|
+| AAC.ST | AAC Clyde Space AB (Nasdaq Stockholm: AAC) | ~4–5/12 | 2026-07-16 | Swedish nanosatellite and CubeSat platform company (AAC-Clyde Space, WYVERN Earth Observation, HALO flight software); genuine PROCESS moat in CubeSat bus integration + proprietary HALO avionics; notable: EUMETSAT/ESA contract tripling backlog, guiding 10% EBITDA margin on 475M SEK FY2026 revenue. BUT quality=0 currently (Q1 2026 EBIT −16.1M SEK; net losses; pre-profitability transition mid-course); anti-value-trap rule: quality=0 → PARK, never deep-dive. PARK 4-5/12. REVISIT IF: H1 2026 results (August 2026) confirm EBITDA positive and full-year EBITDA guidance ≥10% margin holds AND cap < 1.5B SEK (~$145M USD) |
