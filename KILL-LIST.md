@@ -14,6 +14,13 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Market Cap | Date | Note |
 |--------|---------|-----------|------|------|
+| FEIM | Frequency Electronics | $746M (May 2026) | 2026-07-16 | Precision timing/frequency for commercial satellites + government; genuine PROCESS moat; but cap 2.5x limit; revenue target $150M by 2029 |
+| PRV.L | Porvair plc | £392M (~$500M USD) | 2026-07-16 | UK AIM specialty filtration/ceramics (aerospace, nuclear, industrial); moat real (REGULATORY+PROCESS); 3 analysts; H1 2026 record revenue £106.2M; CAP_KILL + COVERAGE_KILL |
+| GRC | Gorman-Rupp | ~$500-600M | 2026-07-16 | Industrial pumps; some moat in custom pump configurations; cap over limit |
+| TWIN | Twin Disc | ~$500M | 2026-07-16 | Power transmission (marine/industrial); specialty products; cap over limit |
+| THR | Thermon Group | ~$400M | 2026-07-16 | Industrial process heating; some moat in heat-trace systems; cap over limit |
+| SCII | Scientific Industries | ~$8-12M | 2026-07-16 | Vortex mixer monopoly for labs; genuine moat; but cap below $20M floor |
+| POCI | Precision Optics Corp | ~$15-20M (estimated) | 2026-07-16 | Precision optics for single-use medical endoscopes; FDA moat; but cap likely below $20M floor |
 | IPI | Intrepid Potash | ~$537M | 2026-07-16 | Only US langbeinite (Trio) producer but cap too large |
 | KOP | Koppers Holdings | ~$500M | 2026-07-16 | Coal tar derivatives moat but too big |
 | AMSC | American Superconductor | ~$400M | 2026-07-16 | HTS wire moat but cap over limit |
@@ -56,6 +63,8 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Analyst Count | Date |
 |--------|---------|---|------|
+| IQE.L | IQE plc (AIM UK) | 3–5 AIM analysts | 2026-07-16 | Compound semiconductor epiwafers (InP, GaAs) for 5G/photonics; genuine PROCESS moat; but coverage above threshold |
+| CECO | CECO Environmental | 3–5 analysts | 2026-07-16 | Industrial air/liquid environmental control systems; some specialty filtration positions; coverage above threshold |
 | HDSN | Hudson Technologies | 5–6 analysts | 2026-07-16 |
 | SRDX | SurModics | ~4 analysts (med-device coatings) | 2026-07-16 |
 | UUUU | Energy Fuels | ~4 analysts | 2026-07-16 |
@@ -99,6 +108,10 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
+| OPXS | Optex Systems | Military sighting/optical systems for combat vehicles and weapons; defense is primary customer | 2026-07-16 |
+| CVU | CPI Aerostructures | ~70% military airframe structures (F-16, C-17 components); defense primary | 2026-07-16 |
+| GHM | Graham Corporation | Defense propulsion heat exchangers + naval vacuum systems; defense is primary segment | 2026-07-16 |
+| ATNY | API Technologies | Specialty RF/microwave components and modules; ~70%+ defense revenue; defense primary | 2026-07-16 |
 | PPTA | Perpetua Resources | DoD is primary near-term customer (antimony for defense/batteries) | 2026-07-16 |
 | APFC | American Pacific Corp | Ammonium perchlorate for solid rocket motors; primary defense/military customer | 2026-07-16 |
 | KOPN | Kopin Corp | Specialty helmet displays and gun-sight optics; DoD is primary customer | 2026-07-16 |
@@ -111,6 +124,12 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
+| NWPX | Northwest Pipe | Commodity steel pipe; multiple domestic and import competitors; no lock-in | 2026-07-16 |
+| IIIN | Insteel Industries | Commodity steel wire products (PC strand, welded wire reinforcement); price-taker | 2026-07-16 |
+| SUP | Superior Industries | Aluminum wheels for OEM automotive; commodity, multiple suppliers, secular share loss | 2026-07-16 |
+| IEC | IEC Electronics | EMS contract manufacturer (build-to-spec, no own IP); no differentiation | 2026-07-16 |
+| KTCC | Key Tronic | Commodity contract electronics manufacturing; no proprietary IP or lock-in | 2026-07-16 |
+| CVGI | Commercial Vehicle Group | Truck interior/electrical components; competitive market, 4+ analysts likely | 2026-07-16 |
 | AMVAC | American Vanguard | Multi-competitor ag-chem; no true sole-source/regulatory moat (also: integrity concerns) | 2026-07-16 |
 | LXU | LSB Industries | Ammonia/nitrogen chemicals commodity-sensitive; no durable differentiation | 2026-07-16 |
 | TREC | Trecora Resources | Specialty solvent refinery; not sole-source; multiple solvent producers | 2026-07-16 |
@@ -135,6 +154,9 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
+| RNO.L | Renold plc (AIM UK) | Specialty precision roller chains for industrial (textile/mining/food); genuine PROCESS moat; profitable; ~£75M cap; but UK industrial capex recovery = slow grind, no hard-dated event | 2026-07-16 |
+| TAYD | Taylor Devices | Precision fluid shock absorbers for seismic isolation (ATC-certified, bridge/building protection); PROCESS + REGULATORY moat; ~$20-25M cap (borderline); 0 analysts; BUT seismic isolation is project-by-project with no pipeline visibility; no hard-dated catalyst | 2026-07-16 |
+| TRI.L | Trifast plc (AIM UK) | Specialty industrial fasteners (precision fasteners for auto/HVAC/electronics OEM); ~£150M cap; PROCESS moat; 1-2 AIM analysts; no hard-dated <6mo 2x catalyst; auto/industrial cycle recovery = slow grind | 2026-07-16 |
 | NTIC | Northern Technologies Intl | VpCI corrosion inhibitor moat real; no proximate 2x catalyst or hard-dated event | 2026-07-16 |
 | NVEC | NVE Corporation | Spintronics/GMR IP moat real; stable royalty stream; no specific 2x trigger in 12mo | 2026-07-16 |
 | FSI | Flexible Solutions Intl | Polyaspartate proprietary but tiny/slow; no near-term re-rating catalyst | 2026-07-16 |
@@ -158,6 +180,11 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
+| BOOM | DMC Global | DynaEnergetics (perforating gun sole-source) moat plausible; BUT quality=0 (near-zero EBITDA, Q4 2025 -$1.6M adjusted EBITDA + $7M write-offs; revenue declining YoY); price targets cut to $7; no earnings floor; 3/12 → KILL | 2026-07-16 |
+| PSIX | Power Solutions International | EPA/CARB-certified industrial engines (REGULATORY moat); BUT quality=0 (22.9% GM, revenue -5% YoY, securities class action re misleading sales/mfg cost disclosures); 3/12 → KILL | 2026-07-16 |
+| PCTI | PCTEL Inc | Antenna products (testing reference antennas with govt calibration moat); ACQUIRED by Amphenol — no longer public, not investable | 2026-07-16 |
+| EML | Eastern Company | Spec'd-in truck/container hardware (SOLE_SOURCE moderate); BUT quality concern: Q1 2026 net income only $0.6M on $59.7M revenue (~1% net margin); no earnings floor at trough; trucking cycle recovery = slow grind; QUALITY_KILL | 2026-07-16 |
+| RELL | Richardson Electronics | Last major supplier of specialty power vacuum tubes (genuine MONOPOLY for some tube types); BUT quality=0 (31% GM, Q2 2026 small net loss, declining legacy business, pivot to Green Energy Storage unproven); anti-value-trap rule: quality=0 → PARK 5/12, never deep-dive | 2026-07-16 |
 | SYNL | Synalloy | Uncertain current corporate structure (possible merger/divestiture); not pursued | 2026-07-16 |
 | CPSH | CPS Technologies | AlSiC MMC process moat genuine; PARK 5/12 (no valuation gap ~3x P/S, no hard catalyst); revisit if cap corrects or EV/SiC order surge materializes | 2026-07-16 |
 
