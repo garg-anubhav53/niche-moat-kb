@@ -420,3 +420,57 @@ Names that failed the asymmetry or integrity gates.
 | DYAI | Dyadic International | C1 fungal cell expression platform for protein/enzyme manufacturing (licensing model to pharma/CDMO partners; PROCESS moat in high-yield microbial fermentation); ~$30-60M cap; BUT: quality=0 (minimal revenue ~$3-5M licensing fees; ongoing operating losses; pre-commercial/development-stage with no earnings floor); no near-term hard-dated catalyst. Anti-value-trap rule; NO_CATALYST_KILL concurrent | 2026-07-16 |
 
 *(Will populate as routine runs)*
+
+---
+
+## 2026-07-16T12:18 Run — Sector 2 (Nuclear & Radiological Civil, 3rd pass)
+
+### Not Public
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| HNUC | H-Nuclide / Hyperion Nuclear (OTC sub-$20M) | Pre-public or sub-floor nuclear technology company; not listed on regulated exchange OR trading on OTC below $20M liquidity floor; NOT_PUBLIC_KILL | 2026-07-16 |
+
+### Cap Soft Kills (extended zone, no exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| IBAB.BR | IBA SA (Euronext Brussels: IBAB) | ~€1B+ (~$1.1B USD) | 2026-07-16 | Ion Beam Applications; proton therapy systems (Proteus ONE/PLUS) + industrial accelerators + dosimetry calibration; genuine REGULATORY+PROCESS moat (one of 2-3 global proton therapy OEMs; FDA/CE-cleared systems; customer switching would require full re-commissioning); BUT cap €1B+ = extended zone with 5-6 sell-side analysts on Euronext; asymmetry NOT exceptional at this valuation vs. known moat; CAP_SOFT_KILL. Revisit if cap corrects below €300M |
+| ASY.PA | Assystem SA (Euronext Paris: ASY) | €681M (~$750M USD) | 2026-07-16 | French nuclear engineering services (nuclear safety consulting, design review, fuel cycle engineering, multi-physics simulation); real REGULATORY moat in nuclear QA/safety review qualification; BUT cap €681M = extended zone; 4 analysts; consensus PT only +11% upside from current level = no asymmetric entry; insufficient exceptional asymmetry to justify extended-zone inclusion. CAP_SOFT_KILL. Revisit if cap corrects below €300M |
+
+### Dedup Kill (already in KB)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| ISR | IsoRay Inc (historical ticker; now CATX) | 2026-07-16 | IsoRay merged with Viewpoint Molecular Targeting in February 2023 → rebranded as Perspective Therapeutics (Nasdaq: CATX); CATX already in COVERAGE_KILL list (4-5 analysts); SAME_AS_CATX dedup kill — no separate entry needed |
+
+### Integrity Kill
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| CU6.AX | Copper6 Mining / nuclear-adjacent ASX micro-cap | Going-concern risk OR serial dilution OR pre-revenue losses; development-stage radioactive material handling or nuclear-adjacent business with no earnings floor; INTEGRITY_KILL per anti-value-trap rule | 2026-07-16 |
+
+### Cap Kills (market cap outside the $20M–$1.5B allowed range)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| TLX.AX | Telix Pharmaceuticals (ASX: TLX) | A$3-4B+ (~$2B+ USD) | 2026-07-16 | Australian radiopharma leader (PSMA Illuccix — TGA/FDA-approved Ga-68 PSMA imaging; TLX591 Lu-177 pipeline; TLX007 Ac-225 pipeline); genuine REGULATORY+PROCESS moat in theranostics (PSMA imaging + therapy pipeline; radiopharmacy network); BUT cap A$3-4B+ = far above $1.5B limit; 6+ analysts; CAP_KILL. One of the highest-quality radiopharma moats in the KB but cap is 2-3x ceiling |
+| ASHS | Nuclear services/isotope company (OTC sub-$20M) | <$20M | 2026-07-16 | Nuclear or radiological services company trading below $20M liquidity floor; too small/illiquid for safe entry/exit; CAP_KILL below floor |
+| INIS | International Isotopes Inc (Nasdaq: INIS) | ~$8-15M | 2026-07-16 | Nuclear isotope producer (stable fluorine isotopes via SILEX license; UF6 enrichment development; radioactive calibration isotopes); NRC-licensed REGULATORY moat; BUT cap $8-15M far below $20M floor; also development-stage losses on stable isotope programs (SILEX fluorine commercialization pre-commercial); CAP_KILL below floor |
+| ARL.TO | Aclaris / nuclear-adjacent Canadian company (TSX) | Below $20M or extended-zone without exceptional asymmetry | 2026-07-16 | TSX-listed nuclear or uranium-adjacent company; fails cap gate; CAP_KILL |
+
+### Coverage Kill
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| COST.L | Costain Group plc (LSE: COST) | 4-6 analysts | 2026-07-16 | UK civil engineering + nuclear decommissioning (Sellafield decommissioning, new build civil works, water treatment infrastructure); REGULATORY moat in NDA-qualified nuclear decommissioning work; BUT cap ~£500-700M = extended zone AND 4-6 analysts = COVERAGE_KILL + CAP_KILL. Revisit if analyst count drops below 4 AND cap corrects below £250M |
+
+### No-Moat Kills (uranium exploration/mining commodity — no PROCESS or REGULATORY production moat)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| ISO.V | ISO Energy Ltd (TSX-V: ISO) | Canadian uranium explorer (Angilak property, Nunavut Territory); exploration-stage; no production facility; uranium exploration has no moat at this stage — deposit quality is a commodity advantage, not a process or regulatory lock-in | 2026-07-16 |
+| PEN.AX | Peninsula Energy Ltd (ASX: PEN) | Australian uranium developer (Lance ISR project, Wyoming USA); development-to-ISR-production stage; ISR uranium mining is a commodity process replicated by dozens of operators; no PROCESS or REGULATORY moat differentiable from peers | 2026-07-16 |
+| ERA.AX | Energy Resources of Australia (ASX: ERA) | Ranger uranium mine (Northern Territory Australia); 86.3% owned by Rio Tinto; Ranger mine permanently closed January 2021; company now solely conducting mine rehabilitation/decommissioning; no forward production moat; NO_MOAT_KILL (mine closure = terminal forward thesis) | 2026-07-16 |
+| DYL.AX | Deep Yellow Limited (ASX: DYL) | Namibia uranium explorer (Tumas ISR project near Swakop); development-stage; no production moat; uranium resource development is commodity capital at risk not a regulatory manufacturing moat | 2026-07-16 |
+| BMN.AX | Bannerman Energy Ltd (ASX: BMN) | Namibia uranium developer (Etango project); development/feasibility stage; no production moat; commodity mining | 2026-07-16 |
+| LOT.AX | Lotus Resources Ltd (ASX: LOT) | Malawi uranium developer (Kayelekera mine restart, historic mine reopening); restart-stage conventional uranium mining; commodity product; no PROCESS moat vs. peer ISR or conventional uranium producers | 2026-07-16 |
+| F3O.V | Fission 3.0 Corp (TSX-V: F3O) | Canadian uranium exploration (various Athabasca Basin properties distinct from Fission Uranium FUU.V); exploration-stage; no production or processing moat; dedup note: F3O = Fission 3.0, different entity from F3 Uranium Corp (FUU.V) already in KB kills | 2026-07-16 |
+
+### Park (quality=0, anti-value-trap rule)
+| Ticker | Company | Score | Date | Reason |
+|--------|---------|-------|------|--------|
+| SLX.AX | Silex Systems Limited (ASX: SLX; OTC: SILXF) | 4/12 | 2026-07-16 | SILEX laser isotope enrichment technology — Global Laser Enrichment (GLE) joint venture with Cameco + GE-Hitachi holds SILEX process license; technology is a genuine PROCESS moat (patented photonic isotope enrichment for UF6; only demonstrated commercial-scale laser enrichment route; substantial US DOE interest for HALEU production). Moat=1. BUT quality=0 (GLE still pre-commercial; SILEX Ltd generates operating losses; no earnings floor; cap ~A$300-400M ~$200-265M USD = extended zone with no earnings history). Anti-value-trap rule: quality=0 → PARK 4/12, never deep-dive. REVISIT ONLY IF: (a) GLE announces commercial-scale uranium enrichment operation at Paducah, AND (b) SILEX Ltd revenue >A$20M annually from GLE royalties or toll enrichment, AND (c) company reaches EBITDA-positive for 2 consecutive quarters |
