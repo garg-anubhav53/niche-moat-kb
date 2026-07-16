@@ -13,6 +13,17 @@ Names that failed the asymmetry or integrity gates.
 
 ## Cap Kills (market cap >$300M or <$20M — outside exclusion zone)
 
+| VPG | Vishay Precision Group | Far above $300M (2026-07-16) | 2026-07-16 | Sensors, strain gages, specialty resistors, force/weight/pressure measurement; +281.6% YTD return = cap far above $300M on AI/semiconductor demand surge; Q1 2026 rev $84.4M +17.6% YoY; bookings +25.5% sequentially; genuine PROCESS moat in foil resistor technology; but asymmetry spent on valuation |
+| LPTH | LightPath Technologies | $896.6M (May 2026) | 2026-07-16 | IR molded optics (chalcogenide glass, ZnSe, infrared optical components); proprietary mass-production PROCESS moat for commercial IR lenses; Q3 2026 rev $19.1M +109% YoY; acquired Amorphous Materials Jan 2026 for domestic germanium-free optics; BUT cap $896.6M = 3x our $300M limit on AI/defense optics narrative; 24x P/S on $37M TTM rev; CAP_KILL despite genuine moat. Revisit if cap corrects below $300M |
+| AMOT | Allied Motion Technologies | ~$400M | 2026-07-16 | Specialty motion control drives and motors for industrial/medical; some OEM spec-in moat; over cap limit |
+| TRNS | Transcat Inc | ~$700–900M | 2026-07-16 | Calibration services + precision measurement instruments distribution; REGULATORY moat in NIST-traceable calibration lab services; well over cap limit; 5+ analysts |
+| SXI | Standex International | ~$1B | 2026-07-16 | Diversified industrial (engineering technologies, food service, electronics, scientific); some specialty positions; well over cap limit |
+| ASTE | Astec Industries | ~$800M–1B | 2026-07-16 | Road construction/asphalt equipment (Astec, Roadtec, GEFCO brands); competes with Gencor in asphalt equipment but far larger; over limit |
+| LYTS | LSI Industries | ~$300–500M | 2026-07-16 | Commercial LED lighting + digital signage; specialty LED for petrol station canopies and retail; at or above cap limit; no strong sole-source moat |
+| POWL | Powell Industries | ~$400–600M | 2026-07-16 | Switchgear and motor control centers for hazardous locations (oil/gas, petrochemical, mining); genuine REGULATORY moat (ATEX/IECEx/UL Hazloc certified); over cap limit; 4+ analysts |
+| ARTW | Art's Way Manufacturing | ~$15–20M | 2026-07-16 | Specialty farm equipment (rotary cutters, grinders, dump boxes, sugar beet processing equipment); some specialty niche in sugar beet equipment; but cap at or below $20M floor; too small |
+| MIND | MIND Technology | ~$20–40M | 2026-07-16 | Marine seismic geophysical equipment (Seamap GeoEel solid-state streamers, DigiShot+ air gun systems); proprietary PROCESS moat in compact marine seismic sources; cap borderline/below floor; declining TAM (seismic equipment spending contracting as industry moves to OBN/nodal systems away from streamers); NO_CATALYST concurrent |
+
 | UCLE | US Nuclear Corp | $1.8M (OTC-QB, July 2026) | 2026-07-16 | Radiation detection instruments + tritium monitoring; dominant tritium monitor supplier; genuine small moat; BUT cap far below $20M floor; revenue $2.2M TTM; operating losses |
 | IMSR | Terrestrial Energy | $802M (Nasdaq, Jul 2026) | 2026-07-16 | IMSR-400 integral molten salt reactor developer; NRC pre-licensing; DOE selected; BUT pre-commercial $0 revenue; cap 2.7x limit; $28M net loss 2025; going-concern risk likely |
 | YCA.L | Yellow Cake plc | ~£600M (~$750M) | 2026-07-16 | Physical uranium holding company (UO3 stored at ConverDyn); AIM London; uranium price exposure; BUT no operational moat; cap 2.5x limit |
@@ -165,6 +176,11 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
+| TPCS | TechPrecision Corporation | Precision machined structural components; defense primary (US Navy submarine components, USMC military helicopters, defense aerospace programs); commercial revenue exists but military is primary customer | 2026-07-16 |
+| OMG.L | Oxford Metrics plc (AIM:OMG) | Motion capture software (Vicon) + infrastructure GIS software (Yotta); SOFTWARE/TECHNOLOGY company, not physical industrial precision components; wrong sector for Sector-3 (specialty bearings/seals/tooling/filtration/analytical consumables); analyst target 87.5p vs 39p price = compelling return but wrong universe | 2026-07-16 |
+| GNSS | Genasys Inc (formerly LRAD Corporation) | Acoustic mass notification devices (LRAD) + Alert emergency communication software; defense/emergency management government primary customers; not industrial precision components; pivoted to software = wrong sector | 2026-07-16 |
+| SOLI.L | Solid State plc (AIM:SOLI) | Specialist electronics for industrial/defense/transportation; military communications, specialist defense batteries, rugged electronics = defense/government significant revenue; not commercial industrial precision components | 2026-07-16 |
+| EFOI | Energy Focus Inc | Marine-spec LED lighting systems; primary customers are US Navy and commercial vessels retrofitting for Navy-grade requirements; defense/military vessels primary = SECTOR_KILL | 2026-07-16 |
 | OPXS | Optex Systems | Military sighting/optical systems for combat vehicles and weapons; defense is primary customer | 2026-07-16 |
 | KLIC | Kulicke & Soffa Industries | Semiconductor packaging equipment (wire bonders, die attach, wedge bonders) — this is EQUIPMENT not specialty chemical/material; wrong sector for sector-0 run | 2026-07-16 |
 | LFCR | Lifecore Biomedical | HA (hyaluronic acid) specialty CDMO + pharmaceutical manufacturing — sector 1 (Medical Diagnostics & Consumables), not sector 0 (Specialty Chemicals) | 2026-07-16 |
@@ -184,6 +200,12 @@ Names that failed the asymmetry or integrity gates.
 ---
 
 ## No-Moat Kills (commodity product, many substitutes, no lock-in)
+
+| PPIH | Perma-Pipe International Holdings | Pre-insulated piping systems for district energy + leak detection; multiple competitors (Logstor, Isoplus, Thermacor); project-based construction services; no textbook sole-source or regulatory moat; thin margins | 2026-07-16 |
+| AMCO.L | Amcomri Group (AIM:AMCO) | Generalist "engineering and industrial manufacturing" UK AIM; £91M cap (~$115M); no identifiable sole-source moat mechanism; diversified industrial services | 2026-07-16 |
+| BWEN | Broadwind Inc | Wind tower manufacturing (commodity structural fabrication, multiple competitors) + precision gearing division (specialty; some OEM position in wind/oil-gas gearing); consolidated: tower business overwhelms gearing moat; quality=0 on consolidated entity (high leverage + volatile wind demand) | 2026-07-16 |
+| UFAB | Unique Fabricating | Custom die-cut foam/rubber/tape sealing solutions for OEM automotive + HVAC; OEM design-lock moat exists (6–12mo requalification) BUT: (a) automotive exposure = cyclical/EV transition headwind; (b) GM likely 20–25% well below 40% threshold; (c) significant acquisition-driven leverage → integrity concern; quality=0 → anti-value-trap rule | 2026-07-16 |
+| HPS.A | Hammond Power Solutions (TSX) | Dry-type specialty transformers for industrial applications (food & bev, oil & gas, mining, data centers); brand/specification moat (some DOT/municipal specs call out Hammond) but transformer manufacturing has multiple large competitors (ABB, Eaton, Siemens electrical); not textbook sole-source; cap C$300-400M (~$220-295M USD) borderline | 2026-07-16 |
 
 | GXU.V | GoviEx Uranium | No viable development path (Niger project frozen since coup July 2023); also NO_CATALYST | 2026-07-16 |
 | CUR.V | Consolidated Uranium | Uranium asset consolidator (TSX-V); no operational moat; multiple exploration-stage assets; no near-term production | 2026-07-16 |
@@ -254,6 +276,7 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
+| SCX | L.S. Starrett Company | 170-year precision measuring tool brand (micrometers, calipers, optical comparators, hardness testers); brand + switching cost moat real (machinists specify Starrett; specification-by-name in many industrial processes); ~$121M cap; 0–1 analysts; BUT: (a) entered merger agreement with MiddleGround Capital for going-private transaction → merger-arb only; no public market re-rating possible; (b) GM 33.4% below 40% threshold; (c) Brazilian manufacturing (50%+ of revenue) creates FX drag + operational complexity; quality=1 borderline. NO_CATALYST_KILL: going-private = terminal event for public equity thesis. If MiddleGround deal falls through, revisit at <$100M cap | 2026-07-16 |
 | RNO.L | Renold plc (AIM UK) | Specialty precision roller chains for industrial (textile/mining/food); genuine PROCESS moat; profitable; ~£75M cap; but UK industrial capex recovery = slow grind, no hard-dated event | 2026-07-16 |
 | ADES | Advanced Emissions Solutions | Activated carbon sorbents (SARATM) for mercury removal at coal power plants; EPA MATS compliance requires use; genuine PROCESS moat in activated carbon formulation; BUT: coal power plant retirements accelerating = shrinking TAM; no positive catalyst for quick 2x; revenue declining trend | 2026-07-16 |
 | TAYD | Taylor Devices | Precision fluid shock absorbers for seismic isolation (ATC-certified, bridge/building protection); PROCESS + REGULATORY moat; ~$20-25M cap (borderline); 0 analysts; BUT seismic isolation is project-by-project with no pipeline visibility; no hard-dated catalyst | 2026-07-16 |
