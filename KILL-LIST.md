@@ -779,3 +779,52 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Seen In | Reason |
 |--------|---------|--------|
 | LIQT | Run #1 | LiqTech International — silicon carbide ceramic membrane filtration; already in KB from run #1; SEEN |
+
+---
+
+## Run #22 Kills — 2026-07-16T21:18Z | Sector 1: Medical Diagnostics & Consumables (5th pass)
+
+### Coverage Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| ANGO | AngioDynamics | 4-5 sell-side analysts covering; vascular/oncology device with some SOLE_SOURCE contract characteristics but well-covered; COVERAGE_KILL | 2026-07-16 |
+| KIDS | OrthoPediatrics Corp | 4-6 analysts; pediatric orthopedic implant specialist; COVERAGE_KILL | 2026-07-16 |
+| AORT | Artivion Inc (CryoLife spin) | 4-5 analysts; cardiac/aortic surgery devices; COVERAGE_KILL | 2026-07-16 |
+| AVNS | Avanos Medical | Extended zone (~$400-600M cap) + 4-5 analysts; CSAP Pain Management + NovaBay; CAP_SOFT_KILL + COVERAGE_KILL concurrent | 2026-07-16 |
+| PNV.AX | PolyNovo Limited | ASX; extended zone (~A$900M-1.2B cap) + 4-5 analysts; NovoSorb BTM wound care; CAP_SOFT_KILL + COVERAGE_KILL concurrent | 2026-07-16 |
+
+### Cap Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| INSP | Inspire Medical Systems | >$1.5B cap (~$2-3B); hypoglossal nerve stimulator for sleep apnea; moat real (FDA PMA-only device) but far above limit; CAP_KILL | 2026-07-16 |
+| VRCI.L | Verici Dx plc | AIM London; <£15M cap (~$19M USD) — below $20M floor; pre-revenue renal transplant rejection test; CAP_KILL + INTEGRITY_KILL concurrent | 2026-07-16 |
+
+### Integrity Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| PEB.NZ | Pacific Edge Limited | NZX/ASX; revenue -47% after US Medicare non-coverage decision for Cxbladder bladder cancer test (2024 NCD); quality=0 (operating losses, going-concern risk); INTEGRITY_KILL | 2026-07-16 |
+| SMA.TO | Spectral Medical Inc | TSX; development-stage/pre-commercial PMX column for sepsis (approved Canada/EU but US FDA pathway complex); GAAP losses; quality=0; INTEGRITY_KILL | 2026-07-16 |
+| IMMU.ST | Immunovia AB | Nasdaq Stockholm; development-stage pancreatic cancer blood test; pre-revenue losses; quality=0; INTEGRITY_KILL | 2026-07-16 |
+| IIQ.AX | InVivo Therapeutics / IVD tiny cap | ASX; development-stage; tiny cap <$5M AUD; INTEGRITY_KILL + CAP_KILL concurrent | 2026-07-16 |
+| RHY.AX | Rhythm Biosciences Limited | ASX; development-stage colorectal cancer blood test; pre-revenue losses; tiny cap; INTEGRITY_KILL + CAP_KILL concurrent | 2026-07-16 |
+
+### Not Public / Acquired
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| ONC.L | Oncimmune / Alden Scientific | AIM; acquired by Alden Scientific; no longer independently publicly traded; NOT_PUBLIC | 2026-07-16 |
+| IUG.L | Intuity Medical / Surgical Science | AIM; Surgical Science acquired; no longer independently publicly traded; NOT_PUBLIC | 2026-07-16 |
+| CSII | Cardiovascular Systems Inc | Nasdaq; acquired by Abbott Laboratories in 2023 (orbital atherectomy ORBITAL system); NOT_PUBLIC | 2026-07-16 |
+| VIVO | Meridian Bioscience / Vivo | Nasdaq; acquired by SD Biosensor consortium in 2022; NOT_PUBLIC | 2026-07-16 |
+
+### No-Moat Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| OFIX | Orthofix Medical Inc | Nasdaq; spine/ortho implant manufacturer; spine is competitive (Globus Medical, Alphatec, NuVasive, Stryker all compete); no sole-source or regulatory-certification moat distinguishing from peer set; NO_MOAT_KILL | 2026-07-16 |
+| PGNY | Progyny Inc | Nasdaq; fertility benefits administrator for employers; no manufacturing moat; network/administrative service business (multiple competitors: Carrot, Maven, WINFertility); NO_MOAT_KILL | 2026-07-16 |
+| CCRN | Cross Country Healthcare | Nasdaq; healthcare staffing and workforce solutions; pure commodity service with no moat; multiple direct competitors; NO_MOAT_KILL | 2026-07-16 |
+| FDBK.L | Feedback Medical / AI diagnostics | AIM London; AI-powered medical imaging software; software-only; multiple AI radiology competitors (Imagen, Aidoc, Intelerad, Sectra); no REGULATORY+PROCESS moat at manufacturing level; NO_MOAT_KILL | 2026-07-16 |
+
+### Sector-Adjacent Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| MNMD | Mind Medicine (MindMed) Inc | Nasdaq; psychedelic-based drug development (LSD analog MM120); pharmaceutical drug not diagnostic/consumable; SECTOR_ADJACENT (drug, not Sector 1 diagnostic/consumable); also development-stage losses = INTEGRITY concurrent | 2026-07-16 |
