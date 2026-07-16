@@ -13,16 +13,17 @@ Analyzed this week: 17
 
 ## Legend
 
-**Status:**
-- WATCH: moat verified, asymmetry confirmed, >2x upside + real floor
-- CANDIDATE: moat plausible, needs deeper diligence, asymmetry uncertain
-- QUEUED: found by scouts, passes triage gates, awaiting deep diligence
-- PASS: fundamentally sound, fair-priced (not an investment thesis)
-- PRICE_KILL: moat is real but already 2x+ priced in
-- CAP_KILL: graduated above $300M market cap
-- SECTOR_KILL: defense, commoditized, declining TAM
-- COVERAGE_KILL: >4 analysts, institutional coverage dense
-- INTEGRITY_KILL: negative book equity, accounting issues, bankruptcy risk
+**Status (tiers — see METHOD.md; annotate with grade A/B/C/D + Q/F/R/C):**
+- CORE: high-quality, well-protected business (Q≥4 & F≥4) — own & wait; catalyst optional upside
+- CATALYST: near-term re-rate likely (R≥4), floor real — time the catalyst
+- WATCH: would be CORE/CATALYST but confidence (C) is low — verify the open questions first
+- CANDIDATE: real business but entry/timing/confidence off — track the buy-zone
+- QUEUED / QUEUED_HOT / QUEUED_CORE: passed triage, awaiting deep-dive (CORE = quality-without-catalyst)
+- PASS: fundamentally sound, fair-priced (not a thesis)
+- PARK: moat real but asymmetry thin now — revisit on trigger
+- PRICE_KILL: already 2x+ priced in · SECTOR_KILL: defense/commodity/declining
+- CAP_KILL: <$20M illiquid or >$1.5B (out of exclusion zone) · CAP_SOFT_KILL: $300M–$1.5B without exceptional asymmetry
+- COVERAGE_KILL: >4 analysts · INTEGRITY_KILL: neg equity / going-concern / delisting / serial dilution
 
 **Moat Type:**
 - MONOPOLY: sole producer, no substitutes

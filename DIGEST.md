@@ -1,27 +1,31 @@
 # Niche Moat KB — Cross-Industry Asymmetric Upside
 
-## Doctrine: Moat-First, Promise-Gated Re-Rating
+## Doctrine: Moat-First, Risk-Adjusted Asymmetry (full method in `METHOD.md`)
 
-**The edge:** Find companies where the moat is so defensible and so undervalued that when the market recognizes it, the stock re-rates ~2x on multiple expansion — while the moat itself is the downside floor. Then **spend deep research tokens ONLY on the names that clear a high promise bar.**
+**The edge:** Own moat-protected businesses where the moat is the downside floor, bought below what the moat is worth. **Two independent reasons to be interested — decoupled:**
+1. **High-quality, well-protected business** — worth owning *even without* a near-term re-rate (a **CORE** hold; the re-rate is optional upside). A franchise is never killed for lacking a catalyst.
+2. **A near-term re-rating is likely** — adds urgency (a **CATALYST** trade).
+
+The headline verdict is a **risk-adjusted asymmetry grade (A/B/C/D)** — asymmetric value *relative to* risk, scaled by our **confidence** in the data — not a raw factor count. Rank on that.
 
 **Avoid:** Defense/military, commodities, commoditizing markets, deteriorating unit economics, dilution machines.
 
-### The Asymmetry Bar (every WATCH must clear both)
-- **~2x soon on re-rating** — a *specific* catalyst (analyst initiation, contract win, capacity constraint biting, margin inflection printing, cert/approval, index inclusion). Not "cheap and hope."
-- **Little rational downside** — moat = durable earnings/asset floor; earns on zero new orders; net cash or <1x leverage; no dilution/going-concern/delisting risk.
+### Size discipline (gradient, not a cliff)
+Smaller cap = likelier under institutional radar = a real edge. **$20M–$300M is the core zone (bulk of effort).** **$300M–$1.5B allowed only if asymmetry is exceptional** (e.g. an ~$800M grade-A name qualifies). **>$1.5B out** unless a rare under-covered special situation. **<$20M** usually too illiquid.
 
-If you can't name the catalyst AND the floor in one sentence each → not WATCH-grade.
+### The four deep-dive sub-scores (each 1–5, see `METHOD.md`)
+**Q** Business quality · **F** Downside floor · **R** Re-rate likelihood (incl. historical base rate) · **C** Confidence / data quality.
 
-### Screen gates (all required)
-- Market cap $20M–$300M · daily $vol <$3M · analysts 0–4 · gross margin >40% · positive book equity · non-defense · a *nameable* moat mechanism
+### The Skeptic's Confirmation Checklist (never take a moat/contract/milestone at face value)
+Confirm with evidence: revenue **will be recognized** · **won't be lost** (cancelable? re-tender?) · **won't go to a competitor** (truly sole-source?) · **moat stays sticky over time** (in-source/license-away risk) · plus customer concentration, pricing power, accounting quality, dilution, input dependency, management credibility. Unverified items lower **C**; a thesis-breaking RED-FLAG caps the grade.
 
-### Kill-fast (any one)
-- 12-mo return >+100% (asymmetry spent) · negative book equity · >4 analysts · bankruptcy/delisting/serial dilution · no identifiable moat · commodity product
+### Historical base rate (directional confidence)
+Name 2–4 analogous past companies; did they re-rate, and what was the swing factor? Consult the sibling `rerating-situations-kb`. No analog re-rated → R is low even with a moat.
 
-### Promise Score (the sharpening gate) — 0–2 on each, /12
-Moat clarity · **Business quality** · Coverage void · Valuation gap · Catalyst proximity · Floor quality.
-**≥10 → deep-dive now (HOT). 6–9 → queue. ≤5 → park/kill.** Deep tokens flow only to ≥10s.
-**Anti-value-trap rule:** Business quality must be ≥1 to ever reach WATCH — we want a *good business* at an asymmetric price, never a bad business that merely looks cheap.
+### Scout funnel score (cheap filter only, /12): Moat · Quality · Coverage void · Valuation gap · Catalyst · Floor
+**≥10 → deep-dive now. 6–9 → queue. ≤5 → park/kill.** **CORE override:** Moat+Quality+Floor = 6/6 with no catalyst still queues (`QUEUED_CORE`). **Anti-value-trap:** business quality must be ≥1 to ever reach WATCH/CORE.
+
+### Tiers: **CORE** (own & wait) · **CATALYST** (time the re-rate) · **WATCH** (verify first, low confidence) · **CANDIDATE** (track buy-zone) · **PARK/KILL**.
 
 ---
 
