@@ -3,8 +3,8 @@
 Sector is chosen statelessly by (UTC hour mod 5) — see ROUTINE.md §1. This file is the append-only run log and counters.
 
 ## Counters
-Total runs: 10
-Universe size: 17 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, GENC QUEUED, EKF.L QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK)
+Total runs: 11
+Universe size: 19 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, GENC QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK)
 WATCH count: 0
 QUEUED_HOT pending deep-dive: 0
 
@@ -13,7 +13,6 @@ QUEUED_HOT pending deep-dive: 0
 
 | Ticker | Promise Score | Sector | Added |
 |--------|---------------|--------|-------|
-| EKF.L | 6/12 | Medical Dx & Consumables (POC Hematology + Life Sciences) | 2026-07-16 — deep-dive when NHS/global health contract >$10M OR life sciences segment 20%+ growth OR cap corrects below $100M |
 | GENC | 6/12 | Industrial Precision (Asphalt Plant Equipment) | 2026-07-16 — deep-dive when Q3 2026 EPS beat >$0.50 + IIJA spending ramp visible in backlog |
 
 ## Run Log
@@ -32,3 +31,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-16T06:18 | 1-Medical Dx & Consumables (2nd pass) | 35 (CTSO,ICCC,DCTH,BLFS,ZYXI,PAHC,CEMI,PRPH,EKF.L,SDI.L,TTOO,FLGT,CDNA,CHEK,VNRX,LMAT,MOTS,NVCR,NTUS,GNMK,SWAV,CFMS,NSTG,HTGM,EMBC,TMDX,ATRC,AXNX,CRTX,LUCD,SIGA,TXMD,NTRB,PRPO + PDEX deferred deep-dive) | 33 kills (5 INTEGRITY: ZYXI/CTSO/TTOO/CEMI + going-concern; 14 CAP: DCTH $357M/BLFS $1.4B/PAHC/FLGT/CDNA/LMAT/NVCR/EMBC/TMDX/ATRC/SIGA/MOTS/CHEK/VNRX/HTGM/LUCD/PRPH/PRPO below floor; 1 NO_CATALYST: ICCC Re-Tain rejected; 5 NO_MOAT/SECTOR_ADJ: SDI.L/TXMD/NTRB/CRTX; 8 not-public/acquired: NTUS/GNMK/SWAV/CFMS/NSTG/AXNX + others) | 1 new QUEUED: EKF.L 6/12 (AIM POC hematology + life sciences; $148M cap; 51% GM; 1 analyst; catalyst=0) | 1 deferred deep-dive (PDEX → CANDIDATE 7/12; moat confirmed SOLE_SOURCE OEM; September 3 2026 hard-dated catalyst; Q3 beat 93.55%; memo memos/PDEX-2026-07-16.md) | 7/12 PDEX (CANDIDATE) | PENDING |
 | 2026-07-16T07:18 | 2-Nuclear & Radiological Civil (2nd pass) | 20 (UCLE,IMSR,SVIK.ST,DRTS,YCA.L,FCU.TO,GXU.V,CUR.V,STND.V,SYH.V,FUU.V,AAZ.V,AEC.V,SASK.V,MGA.TO,NAVB,PSTV + Standard_Nuclear/Holtec/SHINE pre-IPO) | 19 kills (6 CAP: UCLE $1.8M/IMSR $802M/YCA.L $750M/FCU.TO/AEC.V/PSTV; 8 NO_MOAT: CUR.V/STND.V/SYH.V/FUU.V/AAZ.V/SASK.V/MGA.TO/GXU.V; 2 INTEGRITY: DRTS/NAVB; 3 NOT_PUBLIC: SHINE/Holtec/Standard_Nuclear) | 1 PARK: SVIK.ST 5/12 (Studsvik AB nuclear services; $221M cap; 0 analysts; 3.74% net margin; no catalyst; expensive ~71x PE) | 1 deferred (CIX → CANDIDATE 8/12; moat OEM lock confirmed; floor confirmed $23.6M annualized net income; catalyst ABSENT — Contran 85% structural trap; memo memos/CIX-2026-07-16.md) | 8/12 CIX (CANDIDATE) | PENDING |
 | 2026-07-16T08:18 | 3-Industrial Precision (3rd pass) | 22 (VPG,PPIH,TPCS,OMG.L,AMCO.L,GNSS,SCX,LPTH,BWEN,UFAB,MIND,GENC,ARTW,SOLI.L,HPS.A,EFOI,AMOT,TRNS,SXI,ASTE,LYTS,POWL) | 21 kills (10 CAP: VPG/LPTH$896M/AMOT/TRNS/SXI/ASTE/LYTS/POWL/>$300M + ARTW/MIND<$20M; 5 SECTOR: TPCS/OMG.L/GNSS/SOLI.L/EFOI; 5 NO_MOAT: PPIH/AMCO.L/BWEN/UFAB/HPS.A; 1 NO_CATALYST: SCX going-private merger) | 1 new QUEUED: GENC 6/12 ($218M asphalt plant OEM; DOT specification moat; 2 analysts; Q2 2026 EPS miss; infrastructure gradual) | 1 deferred deep-dive (KVHI → CANDIDATE 6/12; FOG PROCESS moat confirmed post-VSAT-divestiture; +70% FOG growth ×2 qtrs; $130-145M 2026 rev guided; floor thin net income; no hard-dated 2x event; defense mix post-VSAT unverified; memo memos/KVHI-2026-07-16.md) | 6/12 GENC/KVHI | PENDING |
+| 2026-07-16T09:18 | 4-Aerospace/Satellite Commercial (2nd pass) | 25 (ASLE,WLFC,TATT,TIK,BLDE,SIDU,AIRG,ONDS,UAVS,UP,MESA,MAL.TO,HRX.TO,EVTL,EH,DCO,TGI,ATSG,MWE.L,SNCY,SKYW,SAFE,CAE,KAMN + EKF.L deferred deep-dive) | 23 kills (6 SECTOR: TIK/MAL.TO/HRX.TO/DCO/TGI/MDA; 13 NO_MOAT: WLFC/BLDE/SIDU/AIRG/UAVS/UP/MESA/EVTL/ATSG/MWE.L/SNCY/SKYW/KAMN; 4 CAP: TATT$569M/EH$400M/SAFE$6-8B/CAE$5B; 1 INTEGRITY: ONDS serial dilution going-concern; 1 PARK: ASLE quality=0 net-loss MRO) | 0 new QUEUED (no survivors this sector after 2nd pass exhausted commercial aero niche); 1 PARK: ASLE 3/12 | 1 deferred deep-dive (EKF.L → CANDIDATE 7/12 revised up from 6; moat DiaSpect/HemoControl consumable lock-in + β-HB CDMO enzyme switching cost confirmed; floor £15.8M net cash/no debt/51%GM/£12.4M EBITDA confirmed; catalyst ABSENT — life sciences +7.2% not 20%; memo memos/EKF.L-2026-07-16.md) | 7/12 EKF.L | PENDING |
