@@ -3,8 +3,8 @@
 Sector is chosen statelessly by (UTC hour mod 5) — see ROUTINE.md §1. This file is the append-only run log and counters.
 
 ## Counters
-Total runs: 19
-Universe size: 21 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, ELVA.TO CATALYST, GENC WATCH, EUZ.DE CORE, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK)
+Total runs: 20
+Universe size: 26 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, ELVA.TO CATALYST, GENC WATCH, EUZ.DE CORE, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, DETEC.HE QUEUED, SINT.ST QUEUED, CGS.L QUEUED, MCON.L PARK, JDG.L PARK)
 WATCH count: 1 (GENC — Grade B — first WATCH name in KB history)
 CORE count: 1 (EUZ.DE — Grade B — first CORE name in KB history; extended-zone franchise hold)
 CATALYST count: 1 (ELVA.TO — Grade B — Q4/F3/R4/C3; Amazon warrant deal; extended-zone inclusion justified)
@@ -13,11 +13,13 @@ QUEUED_HOT pending deep-dive: 0
 ## Deferred Deep-Dive Queue
 (QUEUED names awaiting a deep-dive when a future run has budget — highest promise score first)
 
-**Queue empty as of run #19 (2026-07-16T17:18).** Both prior entries resolved: CEMX.TO deep-dived → CANDIDATE Grade C; CHEMM.CO gate-resolved → COVERAGE_KILL (8 analysts confirmed MarketScreener/Berenberg).
+**Queue updated: run #20 (2026-07-16T18:18).** Three new QUEUED entries from Sector 3 (5th pass). Prior queue was empty entering run #20; queue rebuilt from run survivors.
 
 | Ticker | Score | Added | Sector | Notes |
 |--------|-------|-------|--------|-------|
-| *(none)* | — | — | — | — |
+| DETEC.HE | 7/12 | 2026-07-16 | 3-Industrial Precision | Detection Technology Oyj; X-ray detector OEM; €128M cap; PROCESS photon-counting moat; 3 Helsinki analysts; deep-dive priority |
+| SINT.ST | 6/12 | 2026-07-16 | 3-Industrial Precision | SinterCast AB; CGI process control SOLE_SOURCE; $79M cap; 22% net margin; revenue -20% FY2025 (EV headwind) |
+| CGS.L | 6/12 | 2026-07-16 | 3-Industrial Precision | Castings plc; SG/CGI iron castings OEM for CV engines; ~£85M cap; AIM; 1-2 analysts; profitable |
 
 ## Run Log
 (UTC · sector · #names_processed · #killed · #queued · #deep-dived · top promise score · push status)
@@ -44,3 +46,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-16T15:18 | 0-Specialty Chem/Materials (4th pass) | 20 (LAKE,CDXS,AMMO,SPL.AX,SGI.L,TEKNA.OL,NNO.TO,CRL.L,MCON.L,FGR.AX,EIS,KRNT,ABTC,CBAT,PLUR,RECSI.OL,CEMX.TO,ELVA.TO,CXL.AX + 1 unnamed §3 kill) | 18 killed (§3: LAKE NO_MOAT, CDXS INTEGRITY, AMMO NO_MOAT, SPL.AX INTEGRITY, SGI.L INTEGRITY, TEKNA.OL INTEGRITY+CAP, NNO.TO INTEGRITY, CRL.L NO_MOAT, MCON.L SECTOR_ADJACENT, FGR.AX INTEGRITY+CAP, EIS CAP_SOFT+SECTOR, KRNT CAP_SOFT+SECTOR, ABTC INTEGRITY, CBAT NO_MOAT, PLUR SECTOR+INTEGRITY, RECSI.OL CAP_SOFT+NO_CATALYST; §4: CXL.AX INTEGRITY quality=0 post-confirming-search) | 2 new QUEUED: ELVA.TO 8/12, CEMX.TO 6/12 | 0 (no QUEUED_HOT ≥10; deferred queue was empty entering this run; §5 skipped) | 8/12 ELVA.TO | PENDING |
 | 2026-07-16T16:18 | 1-Medical Dx & Consumables (4th pass) | 28 (int'l pivot: NIOX.L,IDS.L,GSS.AX,CHEMM.CO + ~24 other int'l/US med-dx names screened; full name list partially lost to context compression; confirmed: NIOX.L COVERAGE, IDS.L NOT_PUBLIC, GSS.AX CAP_KILL, CHEMM.CO 8/12 survived) | 27 killed (NIOX.L: COVERAGE_KILL 10 analysts; IDS.L: NOT_PUBLIC acquired by Revvity 2021; GSS.AX: CAP_KILL ~$18M USD below floor; ~24 others from international 4th-pass sweep) | 1 new QUEUED: CHEMM.CO 8/12 (ChemoMetec Copenhagen Nasdaq; NucleoCounter consumable; 57% EBITDA; Sept 10 2026 Annual Report hard-dated) | 1 deferred (ELVA.TO → CATALYST Grade B; Q4/F3/R4/C3; Amazon warrant deal July 15 2026 US$280M; ~US$475-547M cap EXTENDED ZONE; 2 analysts; buy-zone US$8-10.50; 2 CONFIRMED/4 PLAUSIBLE/2 UNVERIFIED/2 RED-FLAG; memo memos/ELVA-2026-07-16.md) | 8/12 CHEMM.CO | PENDING |
 | 2026-07-16T17:18 | 2-Nuclear & Radiological Civil (4th pass) | ~25 processed (RADX,DETEC.HE,FSJ.L,STGH,OSIS,COGT.SW,EKTA-B.ST,TGX,LAM.TO,SPIE.PA + ~15 others from domain-knowledge sweep; nuclear civil sector substantially exhausted at $20-300M screen after 4 passes; 0 new names outside SEEN set cleared triage) | ~24 killed: CHEMM.CO COVERAGE_KILL (8 analysts confirmed MarketScreener + Berenberg initiation; gate resolved from run 18 deferred queue); RADX INTEGRITY_KILL; DETEC.HE SECTOR_ADJACENT_KILL; FSJ.L dual COVERAGE+SECTOR_KILL; STGH CAP_KILL; OSIS dual CAP+SECTOR_KILL; COGT.SW dual SECTOR+CAP_KILL; EKTA-B.ST CAP_KILL; TGX NOT_PUBLIC; LAM.TO NO_MOAT_KILL; SPIE.PA CAP_KILL; ~13 additional kills from 4th-pass nuclear sweep | 0 new QUEUED (nuclear civil 4th pass: sector exhausted; 0 survivors; valid run) | 1 deferred deep-dive: **CEMX.TO → CANDIDATE Grade C** (Q2/F2/R2/C3; 5.2x EV/EBITDA vs 8-10x peers; Q1 2026 GM collapse RED-FLAG; buy-zone C$0.45–0.55; memo memos/CEMX.TO-2026-07-16.md) | 6/12 CEMX.TO (CANDIDATE C) | PENDING |
+| 2026-07-16T18:18 | 3-Industrial Precision (5th pass) | 27 (PFIN,PRES.L,BUFAB.ST,NOLA-B.ST,TROAX.ST,ACCON.ST,MPAC.L,M4N.DE,FTG.TO,HLIO,ALU.L,DUROC.ST,DBO.TO,HMM-A.TO,TFW.L,MCE.AX,PKE,SGL.DE,EIN3.DE,SDI.AX,Jason_Industries,Kaydon_Corp + SINT.ST,CGS.L,MCON.L,DETEC.HE,JDG.L; sector substantially exhausted after 4 prior passes; DETEC.HE reactivated from prior SECTOR_ADJACENT_KILL with Sector-3 forwarding note) | 22 killed (1 PRICE: PFIN +157% 12-mo; 1 SECTOR+INTEGRITY: PRES.L defense+losses; 2 CAP: BUFAB.ST $2.1B/NOLA-B.ST $1.54B; 4 CAP_SOFT: TROAX.ST $690M/HLIO $1.5B/TFW.L $360M/SGL.DE €500M; 1 COVERAGE+CAP_SOFT: FTG.TO 6 analysts+$417M; 1 INTEGRITY: ACCON.ST quality=0 pre-profitable; 6 NO_MOAT: MPAC.L/M4N.DE/DUROC.ST/DBO.TO/HMM-A.TO/EIN3.DE; 4 SECTOR_ADJACENT: ALU.L building materials/MCE.AX oilfield/PKE Sector-0 laminates/SDI.AX Sector-1 dental; 2 NOT_PUBLIC: Jason_Industries/Kaydon_Corp) | 3 new QUEUED: DETEC.HE 7/12, SINT.ST 6/12, CGS.L 6/12; 2 PARK: MCON.L 5/12, JDG.L 5/12 | 0 (no QUEUED_HOT ≥10; deferred queue empty entering run; §5 skipped) | 7/12 DETEC.HE | PENDING |

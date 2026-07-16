@@ -654,3 +654,67 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
 | LAM.TO | Lam Research Canada / or Canadian LAM-ticker company | 2026-07-16 | Canadian-listed company (TSX: LAM) without confirmed durable moat in civil nuclear or radiological space; sector may be mining or energy services with nuclear adjacency; no confirmed REGULATORY or PROCESS lock-in that constitutes a durable moat vs. competitors; NO_MOAT_KILL |
+
+---
+
+## Run #20 — Sector 3: Industrial Precision Components (5th pass, 2026-07-16T18:18)
+
+*27 names processed; 22 killed in triage; 3 QUEUED (DETEC.HE 7/12, SINT.ST 6/12, CGS.L 6/12); 2 PARK (MCON.L 5/12, JDG.L 5/12). §5 skipped — no QUEUED_HOT ≥10; deferred queue was empty entering run. 0 deep-dives. Sector substantially exhausted after 4 prior passes; DETEC.HE reactivated from prior Sector-2 SECTOR_ADJACENT_KILL per forwarding note.*
+
+### Price Kill
+| Ticker | Company | 12-Mo Return | Date | Reason |
+|--------|---------|-------------|------|--------|
+| PFIN | P&F Industries (Nasdaq: PFIN) | +157% | 2026-07-16 | Florida Pneumatic Tools + Woodworking segments; specialty pneumatic tool moat (Star-TQ/Florida brand OEM spec-in); but +157% 12-mo return = asymmetry spent; PRICE_KILL |
+
+### Sector Kill + Integrity Kill
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| PRES.L | Pressure Technologies plc (AIM) | Defense primary customer (pressure cylinders for submarines + defense breathing apparatus) + net loss -£70.8M GBX; SECTOR_KILL: primary revenue is defense/military submarine systems; also INTEGRITY concurrent (operating losses) | 2026-07-16 |
+
+### Cap Kills (>$1.5B)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| BUFAB.ST | Bufab Group AB (Nasdaq Stockholm) | ~SEK 22.3B (~$2.1B) | 2026-07-16 | Specialty fasteners and C-parts supplier (sole-source-adjacent OEM kitting); genuine OEM-supply moat in C-part complexity management; but cap $2.1B = far above $1.5B limit; CAP_KILL |
+| NOLA-B.ST | Nolato AB B (Nasdaq Stockholm) | ~$1.54B | 2026-07-16 | Precision polymer components and protective cases (Medical, Telecom, Industrial segments); some REGULATORY moat in medical precision polymer; but cap $1.54B = at/above limit; 6+ analysts; CAP_KILL |
+
+### Cap Soft Kills ($300M–$1.5B, insufficient exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| TROAX.ST | Troax Group AB (Nasdaq Stockholm) | ~$690M | 2026-07-16 | Machine guarding and perimeter protection systems; some spec-in moat for warehouse/robotics safety enclosures; but cap $690M extended zone with no exceptional asymmetry or coverage void; CAP_SOFT_KILL |
+| HLIO | Heliogen Inc (or relevant HLIO) | ~$1.5B | 2026-07-16 | Solar thermal / concentrated solar technology; cap at/above $1.5B limit; no exceptional asymmetry identified; CAP_SOFT_KILL |
+| TFW.L | Thorpe (F.W.) plc (AIM) | ~£275M (~$360M) | 2026-07-16 | UK specialty lighting manufacturer (Thorlux industrial LED, Compact Lighting); some niche in industrial emergency lighting; AIM; but cap £275M = extended zone without sufficient moat clarity to justify; CAP_SOFT_KILL |
+| SGL.DE | SGL Carbon SE (Xetra) | ~€500M | 2026-07-16 | Specialty carbon and graphite (carbon fibers, composite materials, graphite electrodes for steelmaking); PROCESS moat in carbon fiber and specialty graphite; cap ~€500M = extended zone without exceptional asymmetry; also coverage headwinds; CAP_SOFT_KILL |
+
+### Coverage + Cap Soft Kill
+| Ticker | Company | Analyst Count | Market Cap | Date | Reason |
+|--------|---------|--------------|-----------|------|--------|
+| FTG.TO | FTG Aerospace Inc (TSX) | 6 analysts | ~$417M (C$572M) | 2026-07-16 | Precision aerospace structural components; some PROCESS moat in tight-tolerance machining for aero OEMs; but 6 analysts = COVERAGE_KILL + C$572M = extended zone without exceptional asymmetry; dual COVERAGE+CAP_SOFT_KILL |
+
+### Integrity Kill
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| ACCON.ST | Acconeer AB (Nasdaq Stockholm) | Pre-profitable; P/S 19.95x; development-stage radar sensor semiconductor; no earnings floor; quality=0; INTEGRITY_KILL per anti-value-trap rule (quality=0 → PARK/kill; never deep-dive) | 2026-07-16 |
+
+### No-Moat Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| MPAC.L | MPAC Group plc (AIM) | Competitive secondary packaging automation machinery (filling, sealing, case-packing); multiple competitors: Barry-Wehmiller, Blueprint Automation, ProMach, Coesia; no identified sole-source or regulatory lock-in; NO_MOAT_KILL | 2026-07-16 |
+| M4N.DE | M4N AG / marine/industrial coating services (Xetra) | Competitive marine and industrial coating services; Hempel, Jotun, Teknos, AkzoNobel compete directly; no identified PROCESS or REGULATORY moat distinguishing M4N from commodity coating applicators; NO_MOAT_KILL | 2026-07-16 |
+| DUROC.ST | Duroc AB (Nasdaq Stockholm) | Diversified specialty industrial holding company (industrial services, textile, machinery); no single identifiable dominant moat mechanism across portfolio; diversification undermines moat clarity; NO_MOAT_KILL | 2026-07-16 |
+| DBO.TO | D-BOX Technologies Inc (TSX) | Cinema haptic motion seats for premium theater experiences; theater chains choose between D-BOX, MX4D, and ScreenX competing premium-format seats; switching cost is low at theatre-renovation cycle; no regulatory or PROCESS moat; NO_MOAT_KILL | 2026-07-16 |
+| HMM-A.TO | Hammond Manufacturing (TSX: HMM.A) | Electrical enclosures, transformers, and racks; compete directly with Rittal, Hoffman (nVent), Schneider Electric, and ABB; OEM spec-in limited; NO_MOAT_KILL in competitive enclosure/transformer market | 2026-07-16 |
+| EIN3.DE | Einhell Germany AG (Xetra) | Consumer power tools (cordless drills, saws, garden tools under Power X-Change system); consumer/prosumer tool market is highly competitive (Bosch, Makita, DeWalt, Hilti); Power X-Change battery platform has some ecosystem lock-in but insufficient sole-source or REGULATORY moat; also extended zone ~€500M+; NO_MOAT_KILL + CAP_SOFT_KILL | 2026-07-16 |
+
+### Sector-Adjacent Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| ALU.L | Alumasc Group plc (AIM) | Specialty roofing, drainage, and water management systems (aluminium roofline products, building envelope solutions); SECTOR_ADJACENT_KILL: building products/roofing materials, not Sector 3 industrial precision (bearings/seals/valves/filtration/analytical instruments) | 2026-07-16 |
+| MCE.AX | Matrix Composites & Engineering (ASX) | Composite buoyancy modules for offshore oilfield use; SECTOR_ADJACENT_KILL: oilfield/offshore composite components; not Sector 3 industrial precision; also small cap in resource-extraction adjacency | 2026-07-16 |
+| PKE | Park Electrochemical Corp (NYSE) | Specialty high-performance engineered materials (advanced composite prepregs, RTM resins for aerospace structures); SECTOR_ADJACENT_KILL: electronic/composite laminates = Sector 0 Specialty Materials; also >3 analysts and cap borderline extended zone | 2026-07-16 |
+| SDI.AX | SDI Limited (ASX) | Dental alloys, amalgam, composite resins, whitening products; SECTOR_ADJACENT_KILL: dental materials = Sector 1 Medical Diagnostics & Consumables; not Sector 3 industrial precision | 2026-07-16 |
+
+### Not Public (private or subsidiary)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| Jason_Industries | Jason Industries Inc (private) | 2026-07-16 | Specialty acoustics, seating, and industrial finishing systems for automotive OEMs; PROCESS moat in die-cut acoustics and industrial brushes; was NYSE-listed (JASN) but taken private 2019 by Saw Mill Capital; NOT_PUBLIC_KILL — no listed equity accessible |
+| Kaydon_Corp | Kaydon Corporation (SKF subsidiary) | 2026-07-16 | Specialty large-diameter thin-section bearings and specialty rings for medical imaging (CT gantries, MRI), wind turbines, semiconductor equipment; genuine REGULATORY+PROCESS moat; BUT acquired by SKF in 2012 — wholly owned subsidiary, no public equity; NOT_PUBLIC_KILL |
