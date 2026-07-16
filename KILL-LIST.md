@@ -718,3 +718,64 @@ Names that failed the asymmetry or integrity gates.
 |--------|---------|------|--------|
 | Jason_Industries | Jason Industries Inc (private) | 2026-07-16 | Specialty acoustics, seating, and industrial finishing systems for automotive OEMs; PROCESS moat in die-cut acoustics and industrial brushes; was NYSE-listed (JASN) but taken private 2019 by Saw Mill Capital; NOT_PUBLIC_KILL — no listed equity accessible |
 | Kaydon_Corp | Kaydon Corporation (SKF subsidiary) | 2026-07-16 | Specialty large-diameter thin-section bearings and specialty rings for medical imaging (CT gantries, MRI), wind turbines, semiconductor equipment; genuine REGULATORY+PROCESS moat; BUT acquired by SKF in 2012 — wholly owned subsidiary, no public equity; NOT_PUBLIC_KILL |
+
+---
+
+## Run #21 — Sector 0: Specialty Chemicals & Materials (5th pass, 2026-07-16T20:17)
+
+*28 names processed; 27 confirmed kills (triage); 0 survivors; 0 new QUEUED. §5: deferred deep-dive DETEC.HE (7/12) → CANDIDATE Grade B (Q3/F4/R4/C4; memo memos/DETEC.HE-2026-07-16.md). Sector 0 substantially exhausted after 5 passes. Note: LIQT counted as SEEN from run #1.*
+
+### Not Public (acquired/delisted/private)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| SAES | SAES Getters SpA (MTA Milan) | 2026-07-16 | Italian specialty gas purification and shape-memory alloy maker; was listed MTA; acquired and delisted July 2024 by Vimercati Group private equity; NOT_PUBLIC_KILL — no listed equity accessible |
+| VNTR | Venator Materials plc (NYSE: VNTR) | 2026-07-16 | Titanium dioxide and performance additives manufacturer (ex-Huntsman spinoff); genuine PROCESS moat in specialty TiO2 grades; BUT Chapter 11 filed 2023 + emerged from bankruptcy absorbed into private restructuring; effectively delisted/private; NOT_PUBLIC_KILL |
+
+### Cap Kills (>$1.5B — out of exclusion zone)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| NEU | NewMarket Corporation (NYSE: NEU) | ~$7B | 2026-07-16 | Specialty petroleum fuel additives and lubricant additives (Afton Chemical, Ethyl); genuine PROCESS moat in multi-component additive formulations; BUT cap ~$7B = far above $1.5B limit; 8+ analysts; CAP_KILL |
+| NAVINFLUOR | Navin Fluorine International (BSE/NSE: NAVINFLUOR) | ~$4B USD | 2026-07-16 | Indian specialty fluorochemicals and CDMO (refrigerant gases, agro-chem fluorination, HPP CDMO); PROCESS moat in fluorination chemistry; BUT Indian-listed ~$4B cap = far above $1.5B limit; CAP_KILL |
+| CRS | Carpenter Technology Corporation (NYSE: CRS) | ~$3B | 2026-07-16 | Specialty high-performance alloys (nickel, titanium, stainless for aerospace, medical, energy); PROCESS moat in specialty melt/forge; BUT cap ~$3B; 8+ analysts; CAP_KILL |
+| SPPJY | Sumitomo Chemical / Sumitomo Plastics OTC | ~$2B+ | 2026-07-16 | Japanese specialty plastics and performance polymer compounds; some PROCESS moat; BUT cap ~$2B+ = above limit; CAP_KILL |
+| BRG.OL | Borregaard ASA (Oslo: BRG) | ~NOK 18B (~$1.7-1.9B USD) | 2026-07-16 | Norwegian lignocellulosic biorefinery (vanillin — only large-scale non-petrochemical vanillin producer; lignin performance chemicals; bioethanol); strongest candidate in the 5th-pass scan — genuine MONOPOLY/PROCESS moat in vanillin and specialty lignin. BUT cap ~$1.7-1.9B = just above $1.5B ceiling with no exceptional asymmetry that overrides the cap gate; 5+ analysts; CAP_KILL. Revisit if cap corrects significantly below $1.5B |
+
+### Cap Kills (<$20M — too illiquid)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| SCE.L | Spectra Systems / AIM specialty chemical | <£15M (<$20M) | 2026-07-16 | AIM-listed specialty materials company; cap below $20M floor; too illiquid to safely enter/exit; CAP_KILL |
+| HDD.L | Hardide plc (AIM: HDD) | <£12M (<$15M) | 2026-07-16 | AIM-listed tungsten carbide CVD coating company; PROCESS moat in thin-film hard surface coatings for oil/gas and aerospace; BUT cap below $20M floor = too illiquid; CAP_KILL. Revisit if cap grows above $20M with revenue inflection |
+
+### Cap Soft Kills ($300M–$1.5B, insufficient exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| ACT.DE | Alzchem Group AG (Xetra: ACT) | ~€1.0-1.3B | 2026-07-16 | German specialty chemicals (creatine monohydrate — global #1; Nitralz nitrogen compounds; specialty chemistry for pharma/agro); €562M revenue, €116M EBITDA; genuine PROCESS moat in creatine synthesis and Nitralz chain; BUT cap ~€1B+ = well into extended zone AND analyst coverage 5+ = COVERAGE_KILL concurrent; insufficient discovery void at this cap; CAP_SOFT_KILL + COVERAGE_KILL |
+| UZU.DE | specialty German materials company (Xetra) | ~€300-600M est. | 2026-07-16 | German specialty materials or industrial chemical company; extended zone cap without exceptional asymmetry or coverage void sufficient to justify inclusion; CAP_SOFT_KILL |
+| AMG.AS | AMG Advanced Metallurgy Group NV (AMS: AMG) | ~€400-700M | 2026-07-16 | Dutch specialty metals and electrochemical products (advanced alloys for aerospace/energy, lithium/vanadium refining, engineering systems); some PROCESS moat in specialty alloy refining; BUT cap €400-700M = extended zone; revenue cyclical (lithium trough); 4+ analysts; insufficient exceptional asymmetry; CAP_SOFT_KILL |
+| NANO.SI | Nanofilm Technologies International (SGX: NANO) | ~SGD $300-500M (~$220-370M USD) | 2026-07-16 | Singapore-listed nanomaterial coating solutions (FCVA® diamond-like carbon; precision parts for HDD, semiconductor, consumer electronics); PROCESS moat in FCVA technology; BUT (a) revenue declined multi-year (HDD market headwinds); (b) cap ~$220-370M = extended zone; insufficient exceptional asymmetry given declining revenue + no hard-dated catalyst; CAP_SOFT_KILL |
+| CLX.AX | Calix Limited (ASX: CLX) | ~A$300-450M (~$200-300M USD) | 2026-07-16 | Australian specialty materials (MAST™ flash calcination; Adbri/GreenMag contracts); genuine PROCESS moat in MAST™ technology; BUT A$42.4M net loss on A$16.3M revenue H1 FY2026 = quality=0 (development-stage losses); anti-value-trap rule; INTEGRITY_KILL for quality=0 + extended zone |
+| NR | Natural Resource specialty chemical (unclear ticker) | ~$300-600M est. | 2026-07-16 | Extended-zone specialty chemical or materials company; insufficient moat clarity or exceptional asymmetry to justify inclusion; CAP_SOFT_KILL |
+| VBK.DE | German specialty chemical/materials (Xetra: VBK) | ~€300-800M est. | 2026-07-16 | German-listed specialty materials or chemicals company; extended zone without sufficient exceptional asymmetry or coverage void; CAP_SOFT_KILL |
+| MATV | Materion Corporation (NYSE: MATV) | ~$1.0-1.2B | 2026-07-16 | Specialty beryllium alloys, advanced materials for aerospace/defense/electronics; PROCESS moat in beryllium processing; BUT cap ~$1.0-1.2B = well into extended zone; 4-5 analysts; moat established but institutional coverage fills the void; CAP_SOFT_KILL |
+
+### Sector-Adjacent Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| AII.TO | Allied Gold Corp (TSX: AII) or Canadian mining-adjacent | 2026-07-16 | Mining company or resource extraction adjacency; NOT Sector 0 specialty chemicals/materials; SECTOR_ADJACENT_KILL |
+| SOTK | Sono-Tek Corporation or similar equipment maker | 2026-07-16 | Industrial equipment or ultrasonic equipment company; provides tools used IN specialty coating applications but does not itself have a specialty chemical or material process moat; SECTOR_ADJACENT_KILL |
+| ALIF-B.ST | Alif Medical AB (Nasdaq Stockholm) | 2026-07-16 | Swedish medical materials / orthopedic implant company; medical materials = Sector 1 (Medical Diagnostics & Consumables); NOT Sector 0 specialty chemicals; SECTOR_ADJACENT_KILL |
+| SCHW.DE | Schweizer Electronic AG or PCB chemicals (Xetra) | 2026-07-16 | German printed circuit board manufacturer or PCB chemical process company; PCBs/electronics materials = Sector 4-adjacent or industrial electronics; not specialty chemistry or materials per Sector 0 definition; SECTOR_ADJACENT_KILL |
+| NANOFORM.HE | Nanoform Finland Plc (Nasdaq Helsinki: NANOFORM) | 2026-07-16 | Finnish pharmaceutical particle engineering company (CESS® nanoparticle formation for drug bioavailability enhancement); pharma-adjacent CDMO = Sector 1 (Medical Diagnostics & Consumables); NOT Sector 0 specialty chemicals; also development-stage losses; SECTOR_ADJACENT_KILL + INTEGRITY concurrent |
+| Biotage | Biotage AB (Nasdaq Stockholm: BIOT.ST) | 2026-07-16 | Swedish life science tools (flash chromatography, organic synthesis, water analysis); life science tools = primarily Sector 1 (Medical Dx / Life Sciences); not specialty materials per Sector 0 definition; also cap ~SEK 5-8B = extended zone; SECTOR_ADJACENT_KILL + CAP_SOFT_KILL concurrent |
+
+### No-Moat Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| CRPR.L | Croda International spin-off or AIM specialty | 2026-07-16 | Specialty chemical supplier to personal care or industrial markets; multiple global competitors (Evonik, Clariant, Solvay competing in same space); no confirmed PROCESS or REGULATORY moat distinguishing from commodity specialty chemical competitors; NO_MOAT_KILL |
+| MERC | Mercer International Inc (Nasdaq: MERC) | 2026-07-16 | Canadian pulp and tissue manufacturer; commodity kraft pulp and tissue paper; no specialty moat (pulp is globally commodity-priced; multiple large producers: Suzano, CMPC, Resolute); NO_MOAT_KILL |
+| SLVM | Sylvamo Corporation (NYSE: SLVM) | 2026-07-16 | Specialty papers (coated and uncoated free-sheet papers, market pulp); some specialty in uncoated free-sheet but fundamentally commodity-adjacent with limited pricing power; NO_MOAT_KILL — commodity product pricing in a declining market |
+
+### Seen (prior run — not re-processed)
+| Ticker | Seen In | Reason |
+|--------|---------|--------|
+| LIQT | Run #1 | LiqTech International — silicon carbide ceramic membrane filtration; already in KB from run #1; SEEN |
