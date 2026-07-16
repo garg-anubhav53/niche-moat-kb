@@ -13,6 +13,22 @@ Names that failed the asymmetry or integrity gates.
 
 ## Cap Kills (market cap >$300M or <$20M — outside exclusion zone)
 
+| WDFC | WD-40 Company | ~$2.5-3B | 2026-07-16 | Specialty lubricant/cleaner (WD-40 global consumer brand); genuine brand moat; but cap 8-10x limit |
+| CSWI | CSW Industrials | ~$2B+ | 2026-07-16 | HVAC/specialty industrial products (WTCE refrigerant accessories, Smoke Guard fire protection); real specialty moat in some segments; cap far over limit |
+| MTX | Minerals Technologies Inc | ~$1.4B | 2026-07-16 | Specialty PCC minerals (PROCESS moat in precipitated calcium carbonate paper mill co-siting); cap 4.7x limit; 6+ analysts |
+| AVNT | Avient Corporation | ~$3B | 2026-07-16 | Specialty polymer solutions; some formulation moat; cap far over limit |
+| KWR | Quaker Houghton | ~$3B | 2026-07-16 | Specialty metalworking fluids and process lubricants; PROCESS moat in OEM-qualified metalworking chemistry; cap 10x limit |
+| FUL | H.B. Fuller | ~$3B | 2026-07-16 | Specialty adhesives; PROCESS moat in formulated adhesive applications; cap 10x limit |
+| USLM | United States Lime & Minerals | ~$2-3B | 2026-07-16 | Domestic limestone/lime (SCARCITY moat — quarry locations near demand centers); cap well over limit |
+| SCL | Stepan Company | ~$700-800M | 2026-07-16 | Specialty surfactants (phthalate-free plasticizers, sulfonic acid); cap 2.3-2.7x limit |
+| ELM.L | Elementis plc | ~£400-500M (~$500-625M) | 2026-07-16 | Specialty chemicals (chromium-free coatings, talc rheology, personal care actives); UK FTSE; cap over limit |
+| VCT.L | Victrex plc | ~£500M (~$625M) | 2026-07-16 | PEEK polymer (ultra-high-performance engineering plastic); genuine PROCESS moat; cap 2x limit; 6+ analysts |
+| AREC | American Resources Corporation | <$20M | 2026-07-16 | Rare earth element recovery from coal byproducts; below $20M floor |
+| SCIA | SciSparc Ltd | <$15M | 2026-07-16 | Specialty pharma/cannabis derivatives; below floor; integrity concerns |
+| VRS.L | Versarien plc (AIM) | <£20M (~<$25M) | 2026-07-16 | Graphene-enhanced materials (AIM UK); below floor; development-stage losses |
+| NANO.L | Nanoco Group plc (AIM) | ~£8.5M (~$10.5M) | 2026-07-16 | Cadmium-free quantum dot materials (AIM UK); PROCESS moat for InP QD display materials; BUT cap £8.5M far below $20M floor; post-Samsung licensing settlement; minimal revenue; below floor |
+| NAII | Natural Alternatives International | ~$16.59M | 2026-07-16 | Custom nutritional supplement CDMO (dietary supplement manufacturing for major brands); some OEM PROCESS moat but cap $16.59M = below $20M floor; also net loss -10.13% + delayed 10-K filing = INTEGRITY_CONCURRENT |
+
 | VPG | Vishay Precision Group | Far above $300M (2026-07-16) | 2026-07-16 | Sensors, strain gages, specialty resistors, force/weight/pressure measurement; +281.6% YTD return = cap far above $300M on AI/semiconductor demand surge; Q1 2026 rev $84.4M +17.6% YoY; bookings +25.5% sequentially; genuine PROCESS moat in foil resistor technology; but asymmetry spent on valuation |
 | LPTH | LightPath Technologies | $896.6M (May 2026) | 2026-07-16 | IR molded optics (chalcogenide glass, ZnSe, infrared optical components); proprietary mass-production PROCESS moat for commercial IR lenses; Q3 2026 rev $19.1M +109% YoY; acquired Amorphous Materials Jan 2026 for domestic germanium-free optics; BUT cap $896.6M = 3x our $300M limit on AI/defense optics narrative; 24x P/S on $37M TTM rev; CAP_KILL despite genuine moat. Revisit if cap corrects below $300M |
 | AMOT | Allied Motion Technologies | ~$400M | 2026-07-16 | Specialty motion control drives and motors for industrial/medical; some OEM spec-in moat; over cap limit |
@@ -126,6 +142,9 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Analyst Count | Date |
 |--------|---------|---|------|
+| ZTF.L | Zotefoams plc (AIM UK) | ~5 analysts | 2026-07-16 | Specialty cross-linked polyolefin foam (PROCESS moat; Azote/Zotek brands for aviation, medical, marine); AIM London; genuine moat; but coverage above threshold; cap ~£120-150M |
+| TET.L | Treatt plc (AIM UK) | ~8 analysts | 2026-07-16 | Specialty natural flavor/fragrance ingredients (orange terpenes, aroma chemicals); PROCESS moat in steam-distillation extraction; AIM London; well-covered; cap ~£250-300M |
+| NEO.TO | Neo Performance Materials (TSX) | ~12 analysts | 2026-07-16 | Rare earth separation and specialty magnet materials (PROCESS moat in rare earth refining + magnetics); TSX; well-covered; cap C$400-600M over limit |
 | IQE.L | IQE plc (AIM UK) | 3–5 AIM analysts | 2026-07-16 | Compound semiconductor epiwafers (InP, GaAs) for 5G/photonics; genuine PROCESS moat; but coverage above threshold |
 | CECO | CECO Environmental | 3–5 analysts | 2026-07-16 | Industrial air/liquid environmental control systems; some specialty filtration positions; coverage above threshold |
 | HDSN | Hudson Technologies | 5–6 analysts | 2026-07-16 |
@@ -147,6 +166,11 @@ Names that failed the asymmetry or integrity gates.
 
 ## Integrity Kills (negative book equity, accounting flags, bankruptcy risk)
 
+| SYNT.L | Synectics plc (AIM UK) | Specialty CCTV/video surveillance systems for energy facilities (OIL & GAS offshore platforms, refineries); AIM London; cap ~£20-30M; BUT: significant restructuring (profit warning, strategic review 2025); loss-making in 2025; quality=0 = INTEGRITY_KILL. Revisit if restructuring resolves and returns to profitability | 2026-07-16 |
+| ORGN | Origin Materials | Bio-based PET plastic (5-HMF → FDCA → PEF; PROCESS moat in bio-based furanics); Nasdaq; BUT development-stage cash burn: ~$40-60M annual operating loss; going-concern risk; no commercial revenue at scale; serial dilution; quality=0 | 2026-07-16 |
+| VTNR | Vertex Energy | Texas specialty refinery (renewable diesel, ultra-low sulfur diesel); some REGULATORY moat in Tier-3 spec; BUT financial distress (sold Mobile refinery 2025 after RD pivot failed; significant debt; potential bankruptcy/restructuring 2026); quality=0 = INTEGRITY_KILL | 2026-07-16 |
+| IKA.L | Ilika plc (AIM UK) | Solid-state battery technology (Stereax micro-solid-state batteries for IoT/medical; Goliath EV-scale); genuine PROCESS moat in thin-film SSB manufacturing; AIM London; BUT development-stage cash burn; no commercial revenue; pre-revenue IoT sales only; quality=0 | 2026-07-16 |
+| NAII | Natural Alternatives International | CDMO nutritional supplement manufacturer (~$16.59M cap, below $20M floor); net loss -10.13% net margin; delayed 10-K filing 2025; CAP_KILL + INTEGRITY concurrent | 2026-07-16 |
 | ONDS | Ondas Holdings | Commercial drones (American Robotics autonomous agricultural inspection + Airobotics) + railroad tech; FAA BVLOS approval moat real (first to get fully autonomous drone approval); BUT serial equity dilution (multiple ATM offerings, negative equity likely), sub-$5M quarterly revenue, going-concern risk, cash burn ongoing; quality=0; INTEGRITY_KILL (serial dilution + cash-burn) | 2026-07-16 |
 | DRTS | Alpha-Tau Medical | Ra-224 alpha DaRT seeds for solid tumors (Israeli Nasdaq); genuine radiological civil moat (sole commercial Ra-224 diffusing alpha therapy); BUT development stage; pre-commercial cash burn; serial dilution expected; no earnings floor | 2026-07-16 |
 | NAVB | Navidea Biopharmaceuticals | Tilmanocept (Lymphoseek) Tc-99m radiolabeling agent for lymph node mapping (OTC); development-stage losses; also SECTOR_ADJACENT (sector 1 not 2) | 2026-07-16 |
@@ -212,6 +236,8 @@ Names that failed the asymmetry or integrity gates.
 
 ## No-Moat Kills (commodity product, many substitutes, no lock-in)
 
+| IPHS | Innophos Holdings | Specialty phosphate ingredients (food + nutraceutical + industrial); acquired by One Rock Capital Partners 2019 → no longer publicly listed; NOT_PUBLIC_KILL | 2026-07-16 |
+| DGL.AX | DGL Group (ASX) | Specialty chemicals distribution and manufacturing (Australia/NZ; dangerous goods logistics, contract mixing); ASX-listed; BUT primarily a distribution business not a manufacturing-moat business; no proprietary chemistry or regulatory lock-in; competitive distribution market; NO_MOAT for KB purposes | 2026-07-16 |
 | PPIH | Perma-Pipe International Holdings | Pre-insulated piping systems for district energy + leak detection; multiple competitors (Logstor, Isoplus, Thermacor); project-based construction services; no textbook sole-source or regulatory moat; thin margins | 2026-07-16 |
 | WLFC | Willis Lease Finance Corp | Aircraft engine leasing (commercial CFM56/LEAP/V2500 pool); NO_MOAT: commodity lease business — any well-capitalized lessor can accumulate a competing engine pool; no proprietary certification, no regulatory lock-in; pricing set by secondary market | 2026-07-16 |
 | BLDE | Blade Air Mobility | Helicopter/air taxi marketplace and charter; NO_MOAT: marketplace with no network lock-in; any logistics/aviation operator can build competing service; Delta partnership not exclusive nor durable | 2026-07-16 |

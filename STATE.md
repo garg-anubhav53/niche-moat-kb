@@ -3,9 +3,9 @@
 Sector is chosen statelessly by (UTC hour mod 5) — see ROUTINE.md §1. This file is the append-only run log and counters.
 
 ## Counters
-Total runs: 11
-Universe size: 19 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, GENC QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK)
-WATCH count: 0
+Total runs: 12
+Universe size: 20 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, GENC WATCH, IOF.L QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK)
+WATCH count: 1 (GENC — Grade B — first WATCH name in KB history)
 QUEUED_HOT pending deep-dive: 0
 
 ## Deferred Deep-Dive Queue
@@ -13,7 +13,7 @@ QUEUED_HOT pending deep-dive: 0
 
 | Ticker | Promise Score | Sector | Added |
 |--------|---------------|--------|-------|
-| GENC | 6/12 | Industrial Precision (Asphalt Plant Equipment) | 2026-07-16 — deep-dive when Q3 2026 EPS beat >$0.50 + IIJA spending ramp visible in backlog |
+| IOF.L | 9/12 | Specialty Chemicals & Materials (Iodine Extraction; AIM London) | 2026-07-16 — deep-dive when H2 2026 full-year results confirm record production (460-485MT guided) + FY2026 PBT >£8M; iodine spot $40-45/kg |
 
 ## Run Log
 (UTC · sector · #names_processed · #killed · #queued · #deep-dived · top promise score · push status)
@@ -32,3 +32,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-16T07:18 | 2-Nuclear & Radiological Civil (2nd pass) | 20 (UCLE,IMSR,SVIK.ST,DRTS,YCA.L,FCU.TO,GXU.V,CUR.V,STND.V,SYH.V,FUU.V,AAZ.V,AEC.V,SASK.V,MGA.TO,NAVB,PSTV + Standard_Nuclear/Holtec/SHINE pre-IPO) | 19 kills (6 CAP: UCLE $1.8M/IMSR $802M/YCA.L $750M/FCU.TO/AEC.V/PSTV; 8 NO_MOAT: CUR.V/STND.V/SYH.V/FUU.V/AAZ.V/SASK.V/MGA.TO/GXU.V; 2 INTEGRITY: DRTS/NAVB; 3 NOT_PUBLIC: SHINE/Holtec/Standard_Nuclear) | 1 PARK: SVIK.ST 5/12 (Studsvik AB nuclear services; $221M cap; 0 analysts; 3.74% net margin; no catalyst; expensive ~71x PE) | 1 deferred (CIX → CANDIDATE 8/12; moat OEM lock confirmed; floor confirmed $23.6M annualized net income; catalyst ABSENT — Contran 85% structural trap; memo memos/CIX-2026-07-16.md) | 8/12 CIX (CANDIDATE) | PENDING |
 | 2026-07-16T08:18 | 3-Industrial Precision (3rd pass) | 22 (VPG,PPIH,TPCS,OMG.L,AMCO.L,GNSS,SCX,LPTH,BWEN,UFAB,MIND,GENC,ARTW,SOLI.L,HPS.A,EFOI,AMOT,TRNS,SXI,ASTE,LYTS,POWL) | 21 kills (10 CAP: VPG/LPTH$896M/AMOT/TRNS/SXI/ASTE/LYTS/POWL/>$300M + ARTW/MIND<$20M; 5 SECTOR: TPCS/OMG.L/GNSS/SOLI.L/EFOI; 5 NO_MOAT: PPIH/AMCO.L/BWEN/UFAB/HPS.A; 1 NO_CATALYST: SCX going-private merger) | 1 new QUEUED: GENC 6/12 ($218M asphalt plant OEM; DOT specification moat; 2 analysts; Q2 2026 EPS miss; infrastructure gradual) | 1 deferred deep-dive (KVHI → CANDIDATE 6/12; FOG PROCESS moat confirmed post-VSAT-divestiture; +70% FOG growth ×2 qtrs; $130-145M 2026 rev guided; floor thin net income; no hard-dated 2x event; defense mix post-VSAT unverified; memo memos/KVHI-2026-07-16.md) | 6/12 GENC/KVHI | PENDING |
 | 2026-07-16T09:18 | 4-Aerospace/Satellite Commercial (2nd pass) | 25 (ASLE,WLFC,TATT,TIK,BLDE,SIDU,AIRG,ONDS,UAVS,UP,MESA,MAL.TO,HRX.TO,EVTL,EH,DCO,TGI,ATSG,MWE.L,SNCY,SKYW,SAFE,CAE,KAMN + EKF.L deferred deep-dive) | 23 kills (6 SECTOR: TIK/MAL.TO/HRX.TO/DCO/TGI/MDA; 13 NO_MOAT: WLFC/BLDE/SIDU/AIRG/UAVS/UP/MESA/EVTL/ATSG/MWE.L/SNCY/SKYW/KAMN; 4 CAP: TATT$569M/EH$400M/SAFE$6-8B/CAE$5B; 1 INTEGRITY: ONDS serial dilution going-concern; 1 PARK: ASLE quality=0 net-loss MRO) | 0 new QUEUED (no survivors this sector after 2nd pass exhausted commercial aero niche); 1 PARK: ASLE 3/12 | 1 deferred deep-dive (EKF.L → CANDIDATE 7/12 revised up from 6; moat DiaSpect/HemoControl consumable lock-in + β-HB CDMO enzyme switching cost confirmed; floor £15.8M net cash/no debt/51%GM/£12.4M EBITDA confirmed; catalyst ABSENT — life sciences +7.2% not 20%; memo memos/EKF.L-2026-07-16.md) | 7/12 EKF.L | PENDING |
+| 2026-07-16T10:18 | 0-Specialty Chem/Materials (3rd pass) | 25 (WDFC,CSWI,MTX,AVNT,KWR,FUL,USLM,SCL,ELM.L,VCT.L,ZTF.L,TET.L,NEO.TO,SYNT.L,ORGN,VTNR,IKA.L,NAII,AREC,SCIA,VRS.L,NANO.L,DGL.AX,IPHS + GENC deferred deep-dive) | 23 kills (7 CAP_KILL: WDFC/CSWI/MTX/AVNT/KWR/FUL/USLM >$300M; 5 CAP_KILL below floor: AREC/SCIA/VRS.L/NANO.L/NAII <$20M; 3 CAP_SOFT: SCL/ELM.L/VCT.L $300-800M; 3 COVERAGE: ZTF.L/TET.L/NEO.TO >4 analysts; 5 INTEGRITY: SYNT.L/ORGN/VTNR/IKA.L/NAII; 1 NOT_PUBLIC: IPHS; 1 NO_MOAT: DGL.AX distribution) | 1 new QUEUED: IOF.L 9/12 (Iofina AIM; IOsorb® iodine extraction; £50.84M cap; 0-1 analysts; +22% rev FY2025; record H1 2026 production +29%) | 1 deep-dived: **GENC → WATCH B 10/12** (revised from 6/12 on new Q2 FY2026 data: backlog $60.5M +118% YoY RECORD; $155.1M cash; EV=$63M; Q3 August 2026 hard-dated catalyst; all 4 WATCH tests pass; memo memos/GENC-2026-07-16.md — **FIRST WATCH NAME IN KB HISTORY**) | **10/12 GENC WATCH B** | PENDING |
