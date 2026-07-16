@@ -9,10 +9,22 @@
 ## The Asymmetry Bar (what "best" means)
 
 A WATCH-grade idea must have BOTH, concretely:
-- **Legitimate chance to ~2x soon on a re-rating** — a specific, dated-or-near catalyst (analyst initiation, contract win, capacity constraint biting, index inclusion, margin inflection printing) that forces the market to reprice. Not "cheap and hope."
+- **Legitimate chance to ~2x QUICKLY on a re-rating** — a specific catalyst with a **hard date or clear trigger inside ~6 months** (earnings inflection printing, analyst initiation, contract award decision, regulatory/cert decision, trial readout, index rebalance, capacity constraint biting NOW). The re-rating must be capable of happening in 6–12 months, not a 3–5 year grind. Not "cheap and hope."
 - **Very little rational downside** — the moat produces a durable earnings/asset floor. On zero new orders the business still earns; net cash or <1x leverage; no dilution machine; no going-concern/ delisting/ negative-equity risk.
 
-If you cannot name the catalyst AND the floor mechanism in one sentence each, it is NOT WATCH-grade. Most names are not. That is correct.
+If you cannot name the near-term catalyst AND the floor mechanism in one sentence each, it is NOT WATCH-grade. Most names are not. That is correct.
+
+## Throughput Mandate (run to the max, cheaply)
+
+Every run must **push as many ideas as possible through the cheap funnel** while spending expensive tokens only where earned. The efficiency trick: **triage is free** (knowledge + scout snippets only, NO per-name searches). Only survivors of the free gates cost a search.
+
+Per-run targets:
+- **Surface 20–40 raw names** (breadth — cast wide in the sector).
+- **Triage ALL of them for ~free** in one batch pass; kill-fast most.
+- **Confirming-search only the ≤8 survivors** (bounded expensive step).
+- **Deep-dive ≤2** of the very best (score ≥10). Everything else queues or dies.
+
+Log `names_processed` every run so throughput is visible and can be pushed higher over time.
 
 ---
 
@@ -34,23 +46,24 @@ Read `STATE.md` only to append the run log — sector is clock-derived, no curso
 
 ---
 
-## §2 — SCOUT (inline, sonnet-tier, ≤4 searches)
+## §2 — SCOUT (inline, sonnet-tier, ≤6 broad searches, cast WIDE)
 
 Before searching, load the **SEEN set**: all tickers already in `UNIVERSE.md` and `KILL-LIST.md`. Never re-surface a SEEN name (wastes tokens).
 
-Run **≤4 broad web searches** for this sector. Prefer queries that surface the exclusion zone directly:
-- `"[sector niche] sole-source supplier" small-cap stock 2026`
-- `"[sector]" "only manufacturer" OR "sole qualified" public company under $300M`
-- `[sector] OTC OR AIM OR TSX listed "no analyst coverage" niche leader`
-- `[sector] company "long-term agreement" OR "sole supplier" 10-K 2025 2026`
+Run **≤6 broad web searches** for this sector, each aimed at returning MANY names at once (lists, screens, sector round-ups — not single companies). Prefer queries that surface the exclusion zone directly:
+- `"[sector niche] sole-source supplier" small-cap stocks list 2026`
+- `"[sector]" "only manufacturer" OR "sole qualified" public companies under $300M`
+- `[sector] micro-cap OTC OR AIM OR TSX "no analyst coverage" niche leaders list`
+- `[sector] "long-term agreement" OR "sole supplier" 10-K 2025 2026 small-cap`
+- `[sector] companies near-term catalyst 2026 earnings inflection OR FDA OR contract award`
 
-One broad search beats many narrow ones. Dedup before any fetch. Surface 3–8 raw names with: ticker, one-line business, why-excluded guess, rough cap.
+One broad search beats many narrow ones; harvest every ticker each result mentions. Dedup before any fetch. **Target 20–40 raw names** with: ticker, one-line business, why-excluded guess, rough cap. Breadth here is the whole point — more raw names = more throughput.
 
 ---
 
-## §3 — TRIAGE GATE (inline, kill-fast — cheapest stage does the most work)
+## §3 — TRIAGE GATE (inline, FREE — no per-name searches; cheapest stage does the most work)
 
-For each raw name, apply gates **in this order** and STOP at first failure (cheapest checks first):
+Triage **every** raw name using only your knowledge + the scout snippets — **do NOT search per name.** Apply gates in this order, STOP at first failure (cheapest first):
 
 1. **Sector** — defense/military primary customer → `SECTOR_KILL`
 2. **Moat present?** — if you cannot name a specific moat mechanism (sole-source, regulatory cert, proprietary process, consumable lock-in, structural scarcity), → `NO_MOAT_KILL`. Commodity with many suppliers → kill.
@@ -58,10 +71,9 @@ For each raw name, apply gates **in this order** and STOP at first failure (chea
 4. **Coverage** — >4 sell-side analysts → `COVERAGE_KILL`
 5. **Price** — 12-mo return >+100% → `PRICE_KILL` (asymmetry spent)
 6. **Integrity** — negative book equity / going-concern / active delisting / serial dilution → `INTEGRITY_KILL`
+7. **Velocity** — no plausible catalyst inside ~12 months → `NO_CATALYST_KILL` (we want *quick* 2x, not a slow grind)
 
-Killed names → append one row to `KILL-LIST.md` (ticker, reason, date). Do not spend another token on them.
-
-Survivors proceed. Expect most runs to yield **0–2 survivors.** Zero is a fine, correct outcome — do not manufacture candidates.
+Killed names → one compact row each to `KILL-LIST.md` (ticker, reason, date). This batch pass is nearly free — run all 20–40 names through it. Expect to kill most; keep the **≤8 strongest survivors** for §4. Zero survivors is a valid run — do not manufacture candidates.
 
 ---
 
@@ -87,11 +99,13 @@ For each survivor, ONE confirming search (live cap, volume, analyst count, lates
 
 This score is the whole point: **deep tokens flow only to ≥10s that are also genuinely good businesses.** Everything else waits or dies cheap.
 
+**WATCH guardrail (hard):** The inline scout may NEVER write a name to the DIGEST WATCH list. The best a scout pass can do is `QUEUED_HOT`. A name becomes WATCH **only** after a §5 deep-dive produces a `memos/[TICKER]-[DATE].md` verdict confirming moat + floor + a nameable near-term catalyst. No memo → not WATCH. This prevents a generous inline score from minting an unverified WATCH.
+
 ---
 
-## §5 — DEEP-DIVE (only for QUEUED_HOT, or one deferred QUEUED if no hot name this run)
+## §5 — DEEP-DIVE (only for QUEUED_HOT ≥10, or one deferred QUEUED if none this run)
 
-Max **ONE** deep-dive per run (protect the budget). Dispatch a focused sub-agent **only here**:
+Deep-dive **up to TWO** names per run — but ONLY genuine `QUEUED_HOT` (score ≥10, quality ≥1). If two clear the bar, do both (they are the point of the whole run); if one, do one; if none, pull the single highest-scoring deferred QUEUED from `STATE.md` and do that one. Never deep-dive a name below the bar to fill a quota. Dispatch a focused sub-agent **only here**:
 - Moat + floor reasoning that needs judgment → **opus** sub-agent, ≤8 tool calls, NO schema (heavy writer), returns a distilled verdict.
 - If the name is mechanical to verify → keep inline on sonnet.
 
@@ -113,7 +127,7 @@ Write the verdict to `memos/[TICKER]-[YYYY-MM-DD].md`. Promote to **DIGEST WATCH
    - `KILL-LIST.md` — all kills this run with reason.
    - `INDEX.md` — any CANDIDATE/WATCH quick-ref row.
    - `DIGEST.md` — any new WATCH; bump date.
-   - `STATE.md` — append run log line (UTC, sector, #found, #killed, #queued_hot, top score).
+   - `STATE.md` — append run log line (UTC, sector, #names_processed, #killed, #queued, #deep-dived, top score, push); update counters + deferred deep-dive queue.
    - `memos/` — deep-dive verdict if §5 ran.
 2. Commit + push (retry/rebase loop):
 ```
@@ -127,11 +141,14 @@ git push origin main || { echo "PUSH_FAILED"; }
 
 ---
 
-## Token Discipline (hard rules)
+## Token Discipline (hard rules) — max throughput, gated depth
 
-- Hourly budget **~4–5k tokens**. One sector, inline, ≤4 scout searches + ≤1 confirm each survivor + ≤1 deep-dive.
-- **Kill-fast:** cheapest gate first; never screen a name that a prior gate already killed.
-- **Deep tokens are gated by promise score ≥8** — never deep-dive a mediocre name.
+- Budget **~5–7k tokens/run**. Spend it on BREADTH (many names triaged free), not on searching every name.
+- **Triage is free:** knowledge + scout snippets only, no per-name searches. Process 20–40 names/run.
+- **Searches are bounded:** ≤6 broad scout searches + ≤1 confirm per survivor (≤8 survivors) + the deep-dive(s).
+- **Kill-fast:** cheapest gate first; never screen a name a prior gate already killed.
+- **Deep tokens gated by score ≥10 AND quality ≥1** — up to 2 deep-dives, never a mediocre name.
 - Dedup before fetch; fetch any page once; one broad search beats many narrow.
 - Stop-and-write-with-gaps; never block on a straggler; 0 survivors is a valid run.
 - Sub-agents only in §5, and only when judgment genuinely needs opus.
+- **Log `names_processed`** each run — throughput is a tracked metric; push it up over time.

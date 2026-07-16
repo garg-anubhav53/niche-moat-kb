@@ -41,7 +41,7 @@ Analyzed this week: 2
 
 | Ticker | Company | Sector | Moat Type | Excl. Reason | Date Added | Last Analyzed | Status | Floor | 2x Catalyst |
 |--------|---------|--------|-----------|--------------|------------|---------------|--------|-------|------------|
-| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST | — | 2026-07-15 | 2026-07-15 | WATCH | $50M cash / $0 debt (34% of $146M cap) | Q3 FY2026 profitability print ~Nov 2026 on +41% order surge |
+| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (soft) | — | 2026-07-15 | 2026-07-15 | QUEUED_HOT | $50M cash / $0 debt (34% of $146M cap) | Q3 FY2026 profitability print ~Nov 2026 on +41% order surge — deep-dive pending before WATCH |
 | OFLX | Omega Flex | Industrial Precision (CSST Flexible Gas Piping) | REGULATORY + PROCESS | — | 2026-07-15 | 2026-07-15 | QUEUED | Profitable, likely net cash, dividend-paying | No specific catalyst visible; re-rating if new construction cycles up |
 
 *(Will populate hourly as scouts find candidates)*

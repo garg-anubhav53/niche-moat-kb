@@ -25,19 +25,25 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 ---
 
-## Current WATCH List (moat + floor + catalyst all confirmed)
+## Current WATCH List (moat + floor + catalyst ALL confirmed by a deep-dive memo)
 
 | Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Date |
 |--------|---------|--------|------|-----------|-------|-------------|------|
-| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (WinMax conversational control, 30-yr moat vs Haas/Fanuc) | ~$146M | $50M cash / $0 debt / $166.9M working capital | Q3 FY2026 profitability print (~Nov 2026) on +41% order surge; EV $96M = 0.53x revenue | 2026-07-15 |
+| *(none yet — WATCH requires a completed §5 deep-dive memo; see QUEUED_HOT below)* | | | | | | | |
 
 ---
+
+## QUEUED_HOT (scored ≥10, awaiting deep-dive to confirm/deny WATCH)
+
+| Ticker | Company | Sector | Scout Score | Caveat |
+|--------|---------|--------|-------------|--------|
+| HURC | Hurco Companies | Industrial Precision (CNC) | 10/12 (scout, unverified) | Switching-cost moat is *soft* (WinMax vs Haas/Fanuc); flat decade revenue → business-quality likely 1 not 2; catalyst = Q3 FY2026 print ~Nov. Deep-dive must confirm before WATCH — prior semis-KB analysis judged it 2:1, not a clean quick-2x. |
 
 ## CANDIDATE List (promising, catalyst not yet proximate)
 
 | Ticker | Company | Sector | Promise Score | Note |
 |--------|---------|--------|---------------|------|
-| OFLX | Omega Flex | Industrial Precision (CSST) | 8/12 — strong moat (CSST near-monopoly, regulatory cert), profitable, 0-1 analysts, no catalyst visible |
+| OFLX | Omega Flex | Industrial Precision (CSST) | 8/12 — strong moat (CSST near-monopoly, regulatory cert), profitable, 0-1 analysts, no near-term catalyst visible |
 
 ---
 
