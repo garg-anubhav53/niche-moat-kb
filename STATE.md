@@ -1,6 +1,37 @@
 # STATE — Run Cursor & Log
 
-Sector is chosen statelessly by (UTC hour mod 5) — see ROUTINE.md §1. This file is the append-only run log and counters.
+Sector is chosen by the **Sector Rotation cursor** below (ROUTINE.md §1 v3): pick the next non-EXHAUSTED sector after the last run, rotate the geographic lens, mark a sector EXHAUSTED after 2 consecutive 0-new passes (revive later with a new geography/down-cap sweep).
+
+## Sector Rotation (cursor)
+Last sector run: **3 (Industrial Precision, 5th pass)** · Last geo lens: Nordics/Europe
+NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/$20-300M. **Priority now = the NEW sectors 5-19 (fresh ground) and fresh geographies on 0-4.**
+
+| id | Sector | Passes | Status | Last new find |
+|----|--------|--------|--------|---------------|
+| 0 | Specialty chem/materials | 5 | THIN (try new geo) | IOF.L (run 19) |
+| 1 | Medical dx & consumables | 5 | THIN (try new geo) | 4549.T (run 22) |
+| 2 | Nuclear & radiological civil | 5 | EXHAUSTED (US/UK) | EUZ.DE (run 19) |
+| 3 | Industrial precision | 5 | THIN | DETEC.HE/SINT.ST (run 20) |
+| 4 | Aerospace/satellite commercial | 4 | EXHAUSTED (US/UK) | ELVA.TO (run ~14) |
+| 5 | Testing/inspection/certification | 0 | FRESH | — |
+| 6 | Vertical/mission-critical software & data | 0 | FRESH | — |
+| 7 | Specialty food & ag ingredients | 0 | FRESH | — |
+| 8 | Building & infrastructure products | 0 | FRESH | — |
+| 9 | Environmental/waste/water | 0 | FRESH | — |
+| 10 | Value-added/sole-line distribution | 0 | FRESH | — |
+| 11 | Electrical & power components | 0 | FRESH | — |
+| 12 | Life-science tools & lab consumables | 0 | FRESH | — |
+| 13 | Rail & transport safety systems | 0 | FRESH | — |
+| 14 | Consumer niche & branded franchises | 0 | FRESH | — |
+| 15 | Exchanges/data/niche financials | 0 | FRESH | — |
+| 16 | Energy-transition picks-and-shovels | 0 | FRESH | — |
+| 17 | Semiconductor & electronics supply chain | 0 | FRESH | — |
+| 18 | Precision instruments & sensing | 0 | FRESH | — |
+| 19 | Specialty healthcare services & niche pharma | 0 | FRESH | — |
+
+**Next 6 runs: prioritise FRESH sectors 5,6,7,8,9,10 (in order) to break the exhaustion.** Then 11-19, then revisit 0-4 with new geographies.
+
+This file is the run log + counters.
 
 ## Counters
 Total runs: 22

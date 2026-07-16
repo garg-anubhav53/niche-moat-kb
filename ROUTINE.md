@@ -34,21 +34,42 @@ Log `names_processed` every run so throughput is visible and can be pushed highe
 
 ---
 
-## §1 — SECTOR SELECT (stateless, by clock)
+## §1 — SECTOR SELECT (cursor-driven over a WIDE universe; skip exhausted)
 
-Pick THIS run's sector = **(UTC hour mod 5)**:
+The old 5-sector clock rotation exhausted itself (each niche swept 4–5×, runs returning 0 new names). We now rotate a **cursor** through a **20-sector universe** so we are always working relatively fresh ground.
 
-| hour%5 | Sector | Example moats (non-defense) |
+**Procedure:**
+1. Read the **Sector Rotation** table in `STATE.md` (sector id · passes · status · last-new-find).
+2. Pick the **next non-EXHAUSTED sector after the last one run** (wrap around). Skip any sector marked `EXHAUSTED` unless every sector is exhausted (then pick the one with the oldest last-new-find and treat it as a fresh-angle re-sweep).
+3. After the run, update that sector's row: increment `passes`; if the run found **0 new QUEUED names**, note it — **2 consecutive 0-new passes → mark `EXHAUSTED`** (it can be revived later by a new geographic lens or a down-cap sweep).
+4. Also pick a **geographic lens** for this run = one of {US micro, UK AIM, Japan, Korea/Taiwan, Nordics, Canada/Australia, Continental Europe} — rotate it each run (e.g. by passes mod 7) so the same sector surfaces *different* names on later passes. A sector is only truly exhausted once multiple geographies are dry.
+
+**The 20-sector universe (all non-defense):**
+
+| id | Sector | Example moats |
 |---|---|---|
-| 0 | Specialty chemicals & materials | sputtering targets, specialty coatings, thermal-interface, catalyst supports, electronic-grade gases, photoresist ancillaries |
-| 1 | Medical diagnostics & consumables | assay kits, calibration standards, contrast media, single-use surgical consumables, imaging detector components |
-| 2 | Nuclear & radiological (civil only) | radiation detectors, shielding, decommissioning tooling, isotope/radiopharma production, civil reactor components |
-| 3 | Industrial precision components | specialty bearings/seals, valve trim, tooling inserts, precision filtration, analytical-instrument consumables |
-| 4 | Aerospace/satellite (COMMERCIAL only) | commercial avionics parts, LEO/GEO subsystems, RF/mmWave, connectors — **civil/commercial customers only** |
+| 0 | Specialty chemicals & materials | sputtering targets, coatings, electronic-grade gases, catalysts |
+| 1 | Medical diagnostics & consumables | assays, calibration standards, contrast media, single-use surgical |
+| 2 | Nuclear & radiological (civil) | detectors, shielding, decommissioning, isotopes/radiopharma |
+| 3 | Industrial precision components | bearings/seals, valve trim, tooling inserts, precision filtration |
+| 4 | Aerospace/satellite (commercial) | avionics parts, LEO/GEO subsystems, RF/mmWave, connectors |
+| 5 | Testing, inspection & certification | labs, standards, calibration services, NDT, product certification |
+| 6 | Vertical / mission-critical software & data | niche SaaS, exchange/market data, regulatory/compliance systems |
+| 7 | Specialty food & agricultural ingredients | flavors, enzymes, cultures, seed traits, feed additives |
+| 8 | Building & infrastructure products | code-driven materials, fire/safety products, specialty fittings |
+| 9 | Environmental, waste & water treatment | hazmat/nuclear waste, filtration media, water chemicals, recycling |
+| 10 | Value-added / sole-line distribution | pricing-power distributors, spec-in resellers, aftermarket parts |
+| 11 | Electrical & power components | connectors, sensors, transformers, grid protection, magnetics |
+| 12 | Life-science tools & lab consumables | reagents, chromatography, CDMO, bioprocess consumables |
+| 13 | Rail & transport safety systems | signaling, axle/brake components, certification-locked hardware |
+| 14 | Consumer niche & branded franchises | small durable category-monopoly brands, razor-and-blade consumer |
+| 15 | Exchanges, data & niche insurance/financials | moaty micro-cap financial infrastructure, specialty underwriting |
+| 16 | Energy-transition picks-and-shovels (non-commodity) | grid, storage components, efficiency, metering |
+| 17 | Semiconductor & electronics supply chain | equipment consumables, materials, test/inspection, subsystems |
+| 18 | Precision instruments & sensing | metrology, optical/photonic, analytical instruments, IoT sensing |
+| 19 | Specialty healthcare services & niche pharma | orphan/niche formulations, specialty compounding, device services |
 
-**Hard exclusion:** any company whose primary customer is military/defense/weapons → do not surface; if surfaced, `SECTOR_KILL: defense`.
-
-Read `STATE.md` only to append the run log — sector is clock-derived, no cursor contention.
+**Hard exclusion:** any company whose primary customer is military/defense/weapons → `SECTOR_KILL: defense`.
 
 ---
 
@@ -56,10 +77,21 @@ Read `STATE.md` only to append the run log — sector is clock-derived, no curso
 
 Before searching, load the **SEEN set**: all tickers already in `UNIVERSE.md` and `KILL-LIST.md`. Never re-surface a SEEN name (wastes tokens).
 
-Run **≤6 broad web searches** for this sector, each aimed at returning MANY names at once (lists, screens, sector round-ups — not single companies). Prefer queries that surface the exclusion zone directly:
-- `"[sector niche] sole-source supplier" small-cap stocks list 2026`
-- `"[sector]" "only manufacturer" OR "sole qualified" public companies under $300M`
-- `[sector] micro-cap OTC OR AIM OR TSX "no analyst coverage" niche leaders list`
+Apply THIS run's **geographic lens** (from §1) so a re-swept sector surfaces *fresh* names: append the region to queries (e.g. "Japan", "AIM London", "Korea KOSDAQ", "Nordic Stockholm/Helsinki", "TSX/ASX", "Deutsche Börse/Euronext").
+
+Run **≤6 broad web searches**, each aimed at returning MANY names at once (lists/screens/round-ups, not single companies). **Rotate across TWO angle-families so we don't re-mine the same lists every pass** — pick 3 from the moat-angle set and 2-3 from the situation-angle set:
+
+**Moat angles:** 
+- `"[sector niche] sole-source supplier" small-cap stocks [region] 2026`
+- `"[sector]" "only manufacturer" OR "sole qualified" public companies under $1B [region]`
+- `[sector] micro-cap [region] "no analyst coverage" niche leaders list`
+- `[sector] >40% gross margin small-cap "market leader" [region]`
+
+**Situation angles (surface names the moat-lists miss):**
+- `[sector] recent spin-off OR carve-out small-cap [region] 2025 2026`
+- `[sector] orphaned post-IPO OR de-SPAC under-followed [region]`
+- `[sector] activist OR 13D OR insider buying cluster small-cap 2026`
+- `[sector] raised guidance OR record backlog small-cap [region] 2026`
 - `[sector] "long-term agreement" OR "sole supplier" 10-K 2025 2026 small-cap`
 - `[sector] companies near-term catalyst 2026 earnings inflection OR FDA OR contract award`
 
@@ -73,7 +105,7 @@ Triage **every** raw name using only your knowledge + the scout snippets — **d
 
 1. **Sector** — defense/military primary customer → `SECTOR_KILL`
 2. **Moat present?** — if you cannot name a specific moat mechanism (sole-source, regulatory cert, proprietary process, consumable lock-in, structural scarcity), → `NO_MOAT_KILL`. Commodity with many suppliers → kill.
-3. **Cap (gradient, not a cliff — see METHOD.md Size Discipline):** <$20M → `CAP_KILL` (too illiquid) unless a clear liquidity path. $20M–$300M → core zone, pass. $300M–$1.5B → **extended zone: pass ONLY if the asymmetry looks exceptional** (wide moat + real floor + genuine catalyst or franchise quality); otherwise `CAP_SOFT_KILL`. >$1.5B → `CAP_KILL` unless a rare, genuinely under-covered special situation (say why).
+3. **Cap (gradient, not a cliff — see METHOD.md Size Discipline):** <$20M → `CAP_KILL` (too illiquid) unless a clear liquidity path. $20M–$300M → core zone, pass. $300M–$1.5B → **extended zone: do NOT reflexively kill.** Keep it if it has *either* franchise-quality (a wide/durable moat, high returns) *or* a genuine near-term catalyst — i.e. it could plausibly be a CORE or grade-A/B. Only `CAP_SOFT_KILL` if it's *also* mediocre (no standout moat AND no catalyst). An ~$800M grade-A name is exactly what we want. >$1.5B → `CAP_KILL` unless a rare, genuinely under-covered special situation (say why). *(EUZ.DE at ~$1.1B cleared this and became our first CORE — extended-zone quality is real.)*
 4. **Coverage** — >4 sell-side analysts → `COVERAGE_KILL`
 5. **Price** — 12-mo return >+100% → `PRICE_KILL` (asymmetry spent)
 6. **Integrity** — negative book equity / going-concern / active delisting / serial dilution → `INTEGRITY_KILL`
