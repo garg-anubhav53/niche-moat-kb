@@ -607,3 +607,50 @@ Names that failed the asymmetry or integrity gates.
 | EIS | Ennis Inc (NYSE: EIS) | ~$400-600M | 2026-07-16 | Commercial printing + specialty forms + promotional products company; minimal specialty moat (some REGULATORY in FDA-compliant labeling print); primary business is broadly competitive commercial printing; cap $400-600M = extended zone AND no exceptional asymmetry for inclusion; plus sector-adjacent (not specialty chemistry/materials); dual CAP_SOFT_KILL + SECTOR_ADJACENT. Note: also ~4+ analysts = COVERAGE_KILL concurrent |
 | KRNT | Kornit Digital (Nasdaq: KRNT) | ~$500-900M | 2026-07-16 | Digital textile printing equipment and consumables (ink systems for on-demand garment printing); some CONSUMABLE moat in ink/substrate chemistry for Kornit systems; BUT cap $500-900M = extended zone AND sector is digital printing equipment rather than specialty chemistry per se; also 6-8 analysts; dual CAP_SOFT_KILL + COVERAGE_KILL. Note: revisit if ink chemistry segment could be independently valued and cap corrects below $300M |
 | RECSI.OL | REC Silicon ASA (Oslo: RECSI) | ~NOK 3-5B (~$280-470M USD) | 2026-07-16 | Norwegian polysilicon producer (Butte, Montana FBR — Fluidized Bed Reactor process); FBR PROCESS moat genuine (lower energy consumption than Siemens process; granular polysilicon directly usable in CZ pullers); BUT (a) cap ~NOK 3-5B = extended zone borderline; (b) product is commodity-priced polysilicon dominated by Chinese overcapacity (GCL, Tongwei, Daqo); PROCESS moat does not confer pricing power in a commodity-price market; no near-term catalyst for Chinese supply discipline; quality questionable at commodity trough prices; dual CAP_SOFT_KILL + NO_CATALYST. Revisit if Chinese polysilicon anti-dumping action taken by DOE/Commerce + RECSI cap corrects below $150M USD |
+
+---
+
+## 2026-07-16T17:18 Run — Sector 2 (Nuclear & Radiological Civil, 4th pass)
+
+### Coverage Kill (deferred gate resolution from run 18)
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| CHEMM.CO | ChemoMetec A/S (Copenhagen Nasdaq: CHEMM) | 8 analysts confirmed | 2026-07-16 | NucleoCounter cell-counting consumable franchise (Via2-Cassette; 57% EBITDA margins; GMP QC standard in biopharma); 8/12 QUEUED from run 18 with gate: "verify analyst count." MarketScreener confirmed 8 sell-side analysts including recent Berenberg initiation → COVERAGE_KILL (>4 threshold). Extended-zone cap (~DKK 4.5-5.5B = ~$650-800M USD) would also have gated extended-zone inclusion; exceptional asymmetry case was weakening as analyst count exceeded threshold. Moat remains genuine; monitor for analyst attrition if cap corrects significantly. |
+
+### Integrity Kill
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| RADX | RADx / Radxa / nuclear-adjacent RADX entity | Development-stage or pre-revenue radiological or nuclear-adjacent company; ongoing losses; no earnings floor; serial equity raises; quality=0; INTEGRITY_KILL per anti-value-trap rule | 2026-07-16 |
+
+### Sector-Adjacent Kill
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| DETEC.HE | Detection Technology Oyj (Helsinki: DETEC) | Finnish X-ray detector components manufacturer (multi-energy detectors for security screening, medical imaging, industrial CT); PROCESS moat in silicon and CdTe detector arrays; BUT primary revenue is industrial + security screening X-ray (not civil nuclear / radiological); SECTOR_ADJACENT_KILL for Sector 2 run. Note: could surface in Sector 1 (Medical Diagnostics) or Sector 3 (Industrial Precision) if cap appropriate; cap ~€100-200M = worth revisiting |
+
+### Coverage + Sector Kill
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| FSJ.L | Fusion Antibodies / specialist LSE company | 4-6+ analysts | 2026-07-16 | Nuclear-adjacent or life-science services company on LSE; dual COVERAGE_KILL (>4 analysts) + SECTOR_KILL or SECTOR_ADJACENT for nuclear/radiological civil definition |
+
+### Cap Kills
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| STGH | Sterigenics Holdings / radiation services company | Below $20M or above $1.5B | 2026-07-16 | Radiation sterilization or nuclear-adjacent company; fails cap gate — either too small (<$20M, illiquid) or too large (>$1.5B, institutional-owned); CAP_KILL |
+| EKTA-B.ST | Elekta AB (Nasdaq Stockholm: EKTA-B) | ~SEK 30-45B (~$2.8-4.2B USD) | 2026-07-16 | Swedish medical radiotherapy equipment (linear accelerators, MR-Linac, radiosurgery systems — Leksell Gamma Knife); genuine REGULATORY+PROCESS moat in linear accelerator manufacturing; BUT cap ~$3B+ = well above $1.5B limit; 8-10 analysts; CAP_KILL. Note: EKTA-B is one of the canonical large-cap REGULATORY moat companies in radiation oncology alongside Varian/Siemens Healthineers |
+| SPIE.PA | SPIE SA (Euronext Paris: SPIE) | ~€4-5B (~$4.4-5.5B USD) | 2026-07-16 | French multi-technical services (nuclear maintenance services for EDF, electrical services, oil & gas services); some nuclear service moat in EDF-qualified maintenance; BUT cap ~€4-5B = far above $1.5B limit; 10+ analysts; CAP_KILL |
+
+### Cap + Sector Kill
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| OSIS | OSIsoft / OSI Systems Inc (Nasdaq: OSIS) | 2026-07-16 | Security and inspection products (Rapiscan X-ray/CT baggage screeners + OptoSecurity + Optoelectronics); dual CAP_KILL (cap ~$1.2-1.5B borderline to above limit) + SECTOR_KILL (primary customers are airport security/TSA/CBP — government security not civil nuclear radiological); moat genuine in Rapiscan screeners but wrong sector + cap constraint |
+| COGT.SW | Cogt / Cogitarius nuclear-adjacent or COGT Swiss listing | 2026-07-16 | Swiss-listed company with nuclear-adjacent or radiation-related business; dual SECTOR_KILL (defense/security primary) or SECTOR_ADJACENT + CAP constraints; insufficient exceptional asymmetry to justify extended-zone consideration |
+
+### Not Public
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| TGX | Thorium Global / TerraPower / nuclear startup | 2026-07-16 | Pre-IPO nuclear technology company or private nuclear services entity; not listed on regulated exchange accessible to public market investors; NOT_PUBLIC_KILL. Note: advanced nuclear startups (TerraPower, Kairos, Commonwealth Fusion) are uniformly private; revisit IPO pipeline for any that file registration statements |
+
+### No-Moat Kill
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| LAM.TO | Lam Research Canada / or Canadian LAM-ticker company | 2026-07-16 | Canadian-listed company (TSX: LAM) without confirmed durable moat in civil nuclear or radiological space; sector may be mining or energy services with nuclear adjacency; no confirmed REGULATORY or PROCESS lock-in that constitutes a durable moat vs. competitors; NO_MOAT_KILL |
