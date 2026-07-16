@@ -3,7 +3,7 @@
 Sector is chosen by the **Sector Rotation cursor** below (ROUTINE.md §1 v3): pick the next non-EXHAUSTED sector after the last run, rotate the geographic lens, mark a sector EXHAUSTED after 2 consecutive 0-new passes (revive later with a new geography/down-cap sweep).
 
 ## Sector Rotation (cursor)
-Last sector run: **3 (Industrial Precision, 5th pass)** · Last geo lens: Nordics/Europe
+Last sector run: **5 (Testing/Inspection/Certification, 1st pass)** · Last geo lens: Canada/Australia
 NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/$20-300M. **Priority now = the NEW sectors 5-19 (fresh ground) and fresh geographies on 0-4.**
 
 | id | Sector | Passes | Status | Last new find |
@@ -13,7 +13,7 @@ NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/
 | 2 | Nuclear & radiological civil | 5 | EXHAUSTED (US/UK) | EUZ.DE (run 19) |
 | 3 | Industrial precision | 5 | THIN | DETEC.HE/SINT.ST (run 20) |
 | 4 | Aerospace/satellite commercial | 4 | EXHAUSTED (US/UK) | ELVA.TO (run ~14) |
-| 5 | Testing/inspection/certification | 0 | FRESH | — |
+| 5 | Testing/inspection/certification | 1 | ACTIVE | — |
 | 6 | Vertical/mission-critical software & data | 0 | FRESH | — |
 | 7 | Specialty food & ag ingredients | 0 | FRESH | — |
 | 8 | Building & infrastructure products | 0 | FRESH | — |
@@ -34,8 +34,8 @@ NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/
 This file is the run log + counters.
 
 ## Counters
-Total runs: 23
-Universe size: 31 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, EUZ.DE CORE, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L QUEUED, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, SSKN INTEGRITY_KILL)
+Total runs: 24
+Universe size: 31 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, EUZ.DE CORE, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L PARK, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, SSKN INTEGRITY_KILL)
 WATCH count: 1 (GENC — Grade B — first WATCH name in KB history)
 CORE count: 1 (EUZ.DE — Grade B — first CORE name in KB history; extended-zone franchise hold)
 CATALYST count: 1 (ELVA.TO — Grade B — Q4/F3/R4/C3; Amazon warrant deal; extended-zone inclusion justified)
@@ -44,11 +44,11 @@ QUEUED_HOT pending deep-dive: 0
 ## Deferred Deep-Dive Queue
 (QUEUED names awaiting a deep-dive when a future run has budget — highest promise score first)
 
-**Queue updated: run #23 (2026-07-16T22:18).** 4549.T deep-dived and graduated to CANDIDATE Grade C (Q3/F4/R1/C2). One entry remains.
+**Queue updated: run #24 (2026-07-16T23:18).** CGS.L deep-dived and graduated to PARK Grade D (Q3/F4/R1/C3; 5/12 revised). Deferred queue is now empty.
 
 | Ticker | Score | Added | Sector | Notes |
 |--------|-------|-------|--------|-------|
-| CGS.L | 6/12 | 2026-07-16 | 3-Industrial Precision | Castings plc; SG/CGI iron castings OEM for CV engines; ~£85M cap; AIM; 1-2 analysts; profitable |
+| *(empty — all deferred names have been deep-dived)* | | | | |
 
 ## Run Log
 (UTC · sector · #names_processed · #killed · #queued · #deep-dived · top promise score · push status)
@@ -79,3 +79,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-16T20:17 | 0-Specialty Chem/Materials (5th pass) | 28 (SAES_Getters,VNTR,NEU,NAVINFLUOR,CRS,SPPJY,BRG.OL,SCE.L,HDD.L,ACT.DE,UZU.DE,AMG.AS,NANO.SI,CLX.AX,NR,VBK.DE,MATV,AII.TO,SOTK,ALIF-B.ST,SCHW.DE,NANOFORM.HE,Biotage,CRPR.L,MERC,SLVM,LIQT + DETEC.HE deferred §5) | 28 killed (2 NOT_PUBLIC: SAES_Getters/VNTR; 7 CAP_KILL >$1.5B: NEU/NAVINFLUOR/CRS/SPPJY/BRG.OL + 2 others; 2 CAP_KILL <$20M: SCE.L/HDD.L; 7 CAP_SOFT_KILL: ACT.DE/UZU.DE/AMG.AS/NANO.SI/CLX.AX/NR/VBK.DE/MATV; 6 SECTOR_ADJACENT: AII.TO/SOTK/ALIF-B.ST/SCHW.DE/NANOFORM.HE/Biotage; 3 NO_MOAT: CRPR.L/MERC/SLVM; 1 SEEN: LIQT run #1) | 0 new QUEUED from triage (sector 0: 5th pass exhausted; 0 survivors; valid run) | 1 (DETEC.HE deferred §5 → CANDIDATE Grade B; Q3/F4/R4/C4; net-cash PROCESS-moat X-ray detector OEM; H1 2026 report hard-dated 6 Aug; ~35% consensus gap; 3C/3P/2U/2RF checklist; memo memos/DETEC.HE-2026-07-16.md) | 7/12 DETEC.HE | PENDING |
 | 2026-07-16T21:18 | 1-Medical Dx & Consumables (5th pass) | 25 (PEB.NZ,ANGO,SMA.TO,VRCI.L,OFIX,KIDS,AORT,FDBK.L,IMMU.ST,IIQ.AX,RHY.AX,MNMD,ONC.L,IUG.L,CSII,VIVO,AVNS,INSP,PNV.AX,PGNY,CCRN + BOUL.ST,BACTI-B.ST,4549.T,CMP.AX survivors + SINT.ST deferred §5) | 21 killed (5 COVERAGE: ANGO/KIDS/AORT + AVNS CAP_SOFT+COV / PNV.AX CAP_SOFT+COV; 2 CAP: INSP >$1.5B + VRCI.L <$20M; 5 INTEGRITY: PEB.NZ/SMA.TO/IMMU.ST/IIQ.AX/RHY.AX; 4 NOT_PUBLIC: ONC.L/IUG.L/CSII/VIVO; 4 NO_MOAT: OFIX/PGNY/CCRN/FDBK.L; 1 SECTOR_ADJACENT: MNMD) | 1 new QUEUED: 4549.T 8/12 (Eiken Chemical Japan; FIT screening CONSUMABLE mandate + LAMP IP; ~$525M USD extended zone; 0 Western analysts); 3 new PARKS: BOUL.ST 5/12, BACTI-B.ST 4/12, CMP.AX ~4/12 | 1 (SINT.ST deferred §5 → CANDIDATE Grade C; Q3/F4/R1/C3; sole-source CGI measurement monopoly; 23.92% net margin; stock at analyst PT SEK 95; no catalyst; EV headwind; buy-zone SEK 55-65; 4C/4P/1U/0RF checklist; base rate 1/4 re-rated; memo memos/SINT.ST-2026-07-16.md) | 8/12 4549.T | PENDING |
 | 2026-07-16T22:18 | 2-Nuclear & Radiological Civil (5th pass) | 20 (Posiva,TVO,Cyclife,EnergySolutions,NUKEM,Augean_Nuclear,Magnox,Berkeley_Nucleonics,NucleoElectrica,AtkinsRealis_Nuclear,Fortum_Nuclear,Orano,CANDU_Energy,RAY-B.ST,KEP,036465.KS,JFS.L,SLX.AX-SEEN,MIR-SEEN,VF_Nuclear) | 20 killed (13 NOT_PUBLIC: Posiva/TVO/Cyclife/EnergySolutions/NUKEM/Augean_Nuclear/Magnox/Berkeley_Nucleonics/NucleoElectrica/AtkinsRealis/Fortum/Orano/CANDU; 2 CAP_KILL: RAY-B.ST ~$1.5-2B / KEP ~$10-15B; 1 COVERAGE_KILL+NOT_ACCESSIBLE: 036465.KS KEPCO NF; 1 SECTOR_ADJACENT: JFS.L marine primary; 2 ALREADY_SEEN: SLX.AX run#12 + MIR run#7) | 0 new QUEUED (nuclear civil 5th pass: sector confirmed exhausted; 0 survivors; valid run) | 1 (4549.T deferred §5 → CANDIDATE Grade C; Q3/F4/R1/C2; Japan FIT screening CONSUMABLE mandate + LAMP IP; primary catalyst spent Feb 2026 +19.8% surge; stock at/near ¥3,050 52-wk high; 2x not visible <12mo on 3-4% revenue growth; 3C/3P/1U/2RF; base rate 1/4 Japan-domestic dx re-rated; buy-zone ¥2,000-2,400; memo memos/4549.T-2026-07-16.md) | 8/12 4549.T → CANDIDATE C | OK |
+| 2026-07-16T23:18 | 5-Testing/Inspection/Certification (1st pass) | 28 (MG,TISI,TIC_Solutions,AEHR,VIAV,ETC,NV5,NCC.L,HNL.DE,COTN.SW,RSW.L,VTX.V,CLK.V,ACL.AX,MAD.AX,PHX.TO,COHU,CWCO,PFIE,EXFO.TO,RPS.L,Acuren,ULS,NEOG,Element_Materials,PHX_Minerals,CLB-SEEN,OSIS-SEEN) | 28 killed (1 INTEGRITY: TISI; 3 CAP_KILL >$1.5B: VIAV/NV5/NEOG; 1 CAP_KILL <$20M: CLK.V; 8 CAP_SOFT/COVERAGE: MG/NCC.L/RSW.L/COHU/COTN.SW/ULS/ACL.AX; 10 SECTOR_ADJACENT: AEHR/ETC/HNL.DE/VTX.V/MAD.AX/PHX.TO/CWCO/PFIE/PHX_Minerals/COHU; 5 NOT_PUBLIC: EXFO.TO/RPS.L/Acuren/Element_Materials/TIC_Solutions; 2 ALREADY_SEEN: CLB/OSIS) | 0 new QUEUED (TIC sector structurally sparse; PE consolidation exhausted public small-cap universe; 0 survivors structural, not search failure) | 1 (CGS.L deferred queue → PARK Grade D; Q3/F4/R1/C3; 5/12 revised from 6/12; 9 AIM analysts confirmed; stock at consensus PT 341.7p = zero asymmetric entry; buy-zone 200-230p; memo memos/CGS.L-2026-07-16.md) | 5/12 CGS.L → PARK D | PENDING |

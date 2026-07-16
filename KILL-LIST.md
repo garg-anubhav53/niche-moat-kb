@@ -874,3 +874,65 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
 | JFS.L | James Fisher and Sons plc (LSE: JFS) | UK marine and specialist technical services company (subsea services, marine testing, specialist engineering); nuclear services division exists (decommissioning support, health physics) but primary revenue is MARINE services (marine products, specialist technical, offshore oil); SECTOR_ADJACENT — marine services primary, nuclear is a secondary segment; cap ~£200-300M = borderline extended zone; also financial distress history (profit warnings 2022-2023, ongoing recovery); SECTOR_ADJACENT_KILL concurrent with quality concerns |
+
+---
+
+## Run #24 Kills — 2026-07-16T23:18Z | Sector 5: Testing, Inspection & Certification (1st pass) | Geo lens: Canada/Australia
+
+**Structural context:** TIC sector ($20M–$300M public company) is structurally sparse due to aggressive PE consolidation. Acuren→NV5 (~2023), Applus+ taken private Apollo/I Squared 2024, ATS→SGS Jan 2026, Element Materials Technology PE-owned (ASTORG/Temasek). Large-cap TIC all >$5B (SGS, Bureau Veritas, Intertek, ALS, Eurofins). 0 survivors is a structural fact, not a search failure. Best access to TIC moat = large-cap CORE (EUZ.DE calibration sources) or cross-sector regulatory-specification moats (GENC DOT Ultraplant spec-in). **Deferred queue note:** CGS.L (Castings plc) was the sole entry in the deferred deep-dive queue entering this run; deep-dived and resolved to PARK Grade D (Q3/F4/R1/C3; 5/12 revised from 6/12; 9 AIM analysts confirmed; stock at consensus PT; deferred queue now empty).
+
+### Integrity Kill
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| TISI | Team Inc (NYSE) | ~$81M | 2026-07-16 | NDT/industrial inspection services; genuine field TIC moat in inspection/heat treatment/leak repair services; BUT confirming §4 search: Q1 2026 net loss −$11.3M; net debt $293.7M; quality=0; anti-value-trap rule blocks. INTEGRITY_KILL. |
+
+### Cap Kills (>$1.5B)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| VIAV | Viavi Solutions (Nasdaq) | >$1.5B | 2026-07-16 | Optical networking/fiber test equipment; fiber quality management solutions for telcos and labs; genuine test/measurement PROCESS moat; BUT cap >$1.5B = CAP_KILL. |
+| NV5 | NV5 Global (Nasdaq) | >$1.5B | 2026-07-16 | Infrastructure testing, inspection, and technology consulting; acquired Acuren (North American NDT leader) ~2023; real TIC moat embedded in infrastructure inspection; BUT cap >$1.5B = CAP_KILL. |
+| NEOG | Neogen Corp (Nasdaq) | ~$2-3B | 2026-07-16 | Food and animal safety testing/certification; HACCP inspection solutions; genuine REGULATORY/CONSUMABLE moat in food safety TIC; BUT cap ~$2-3B + 7-8 analysts = dual CAP_KILL + COVERAGE_KILL. |
+
+### Cap Kill (<$20M)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| CLK.V | (TSX-V) | <$20M | 2026-07-16 | Small-cap TSX-V TIC-adjacent name; cap below $20M floor = too illiquid for core zone; CAP_KILL. |
+
+### Cap Soft Kills / Coverage Kills ($300M–$1.5B without exceptional asymmetry, or >4 analysts)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| MG | Mistras Group (NYSE) | ~$598.8M | 2026-07-16 | US NDT/asset integrity inspection services (oil/gas, power, aerospace); genuine REGULATORY+PROCESS TIC moat in infrastructure inspection; BUT ~$598.8M cap = extended zone without exceptional asymmetry to justify inclusion; CAP_SOFT_KILL. |
+| NCC.L | NCC Group plc (AIM London) | ~£350-450M | 2026-07-16 | UK cybersecurity testing, assurance, and software escrow; moat in source code escrow and penetration testing; BUT ~£350-450M (~$440-560M USD) = extended zone + 4-5 analysts = dual CAP_SOFT_KILL + COVERAGE_KILL. |
+| RSW.L | (AIM London) | ~£360M+ | 2026-07-16 | AIM-listed UK precision metrology/measurement instruments; screened in TIC context; BUT cap ~£360M+ = extended zone + 4+ analysts; CAP_SOFT_KILL + COVERAGE_KILL. Sector overlap with Sector 3 not pure TIC. |
+| COHU | Cohu Inc (Nasdaq) | ~$700-800M | 2026-07-16 | Semiconductor test handlers and inspection equipment (wafer-level test, MEMS probe); not field TIC services; ~$700-800M cap = extended zone + 4-5 analysts = SECTOR_ADJACENT_KILL + CAP_SOFT_KILL + COVERAGE_KILL (triple kill). |
+| COTN.SW | (SIX Swiss Exchange) | Extended zone / >$1.5B | 2026-07-16 | Swiss TIC-adjacent company; cap in extended zone or above $1.5B ceiling; CAP_KILL. |
+| ULS | (TIC-adjacent) | Extended zone | 2026-07-16 | TIC-adjacent company at extended zone cap without exceptional asymmetry; CAP_SOFT_KILL. |
+| ACL.AX | Australian Clinical Labs (ASX) | ~A$800M-1B | 2026-07-16 | Australian pathology/clinical diagnostics (medical lab testing); NOT industrial TIC (clinical labs = Sector-1 medical diagnostics, not Sector-5 TIC); ~A$800M-1B AUD = extended zone + SECTOR_ADJACENT concurrent; dual kill. |
+
+### Sector-Adjacent Kills (not Sector 5 TIC per methodology definition)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| AEHR | Aehr Test Systems (Nasdaq) | Semiconductor wafer burn-in test equipment for SiC/power device pre-production screening; not field testing/inspection/certification services; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+| ETC | Environmental Tectonics Corp (NYSE) | Flight simulators and crew training systems; defense/government primary customer; aviation training is SECTOR_ADJACENT to TIC; SECTOR_KILL (defense primary) concurrent. | 2026-07-16 |
+| HNL.DE | (Xetra, German industrial) | German industrial company; screened as TIC-adjacent but primary business not Sector 5 testing/inspection/certification per methodology; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+| VTX.V | Vertex Resource Group (TSX-V) | Environmental remediation and industrial services (site cleanup, waste management, industrial cleaning); not TIC; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+| MAD.AX | Mader Group (ASX) | Heavy equipment maintenance and shutdown services for Australian mining (FIFO maintenance crews, equipment repair); not inspection/certification; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+| PHX.TO | PHX Energy Services (TSX) | Oilfield horizontal directional drilling services for unconventional oil/gas; not TIC; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+| CWCO | Consolidated Water Co (Nasdaq) | Desalination/water utility operations (Cayman Islands, Belize, US); not TIC; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+| PFIE | Profire Energy (Nasdaq) | Combustion management/burner management systems for oil/gas production; equipment OEM not inspection/certification services; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+| PHX | PHX Minerals Inc (NYSE: PHX) | Natural gas royalty company (Oklahoma/Mid-Continent royalty interests); entirely unrelated to TIC; SECTOR_ADJACENT_KILL. | 2026-07-16 |
+
+### Not Public (PE-Owned, Acquired, or Subsidiary — no standalone listed equity)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| TIC_Solutions | TIC Solutions (NV5 Global division) | NV5 Global division providing testing/inspection/certification services (materials testing labs, calibration services, environmental testing); no standalone listed equity; NOT_PUBLIC — NV5 subsidiary. | 2026-07-16 |
+| EXFO.TO | EXFO Inc (formerly TSX: EXF) | Fiber optic test and measurement instruments for telecom; taken private by Viavi Solutions in 2022; NOT_PUBLIC. | 2026-07-16 |
+| RPS.L | RPS Group plc (formerly AIM: RPS) | Environmental and engineering consultancy with TIC elements (environmental testing, technical assurance); acquired by Tetra Tech Inc. April 2023; NOT_PUBLIC. | 2026-07-16 |
+| Acuren | Acuren Group Inc | North American industrial inspection/NDT leader (pipeline inspection, weld inspection, rope access NDE); acquired by NV5 Global ~2023; now NV5 subsidiary; NOT_PUBLIC. | 2026-07-16 |
+| Element_Materials | Element Materials Technology | Global materials testing, product qualification, and calibration TIC services; PE-owned (ASTORG + Temasek); formerly had partial public listings but currently NOT_PUBLIC. | 2026-07-16 |
+
+### Already Seen (killed in prior runs — not re-evaluated)
+| Ticker | Company | Prior Kill | Date |
+|--------|---------|------------|------|
+| CLB | Core Laboratories N.V. (NYSE) | Run #22 SECTOR_KILL (oilfield reservoir description/characterization services; oilfield services not TIC) | 2026-07-16 |
+| OSIS | OSI Systems Inc (Nasdaq) | Run #19 dual CAP_KILL + SECTOR_KILL (security screening detection equipment; mixed defense/government primary revenue; cap extended zone) | 2026-07-16 |
