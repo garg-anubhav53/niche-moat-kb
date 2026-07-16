@@ -474,3 +474,49 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Score | Date | Reason |
 |--------|---------|-------|------|--------|
 | SLX.AX | Silex Systems Limited (ASX: SLX; OTC: SILXF) | 4/12 | 2026-07-16 | SILEX laser isotope enrichment technology — Global Laser Enrichment (GLE) joint venture with Cameco + GE-Hitachi holds SILEX process license; technology is a genuine PROCESS moat (patented photonic isotope enrichment for UF6; only demonstrated commercial-scale laser enrichment route; substantial US DOE interest for HALEU production). Moat=1. BUT quality=0 (GLE still pre-commercial; SILEX Ltd generates operating losses; no earnings floor; cap ~A$300-400M ~$200-265M USD = extended zone with no earnings history). Anti-value-trap rule: quality=0 → PARK 4/12, never deep-dive. REVISIT ONLY IF: (a) GLE announces commercial-scale uranium enrichment operation at Paducah, AND (b) SILEX Ltd revenue >A$20M annually from GLE royalties or toll enrichment, AND (c) company reaches EBITDA-positive for 2 consecutive quarters |
+
+---
+
+## 2026-07-16T13:18 Run — Sector 3 (Industrial Precision, 4th pass)
+
+### Integrity Kill (deep-dive confirmed)
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| SSKN | STRATA Skin Sciences (Nasdaq) | INTEGRITY_KILL (deep-dive §5 confirmed): Nasdaq-delisted effective Feb 19 2026 (failed to cure $2.5M minimum-stockholders'-equity deficiency); filed Form 25 + Form 15 → going dark, terminating SEC reporting; MidCap term loan (~$15M drawn, 12.48%) in default + accelerated to current; going-concern qualification in FY2025 10-K; stock collapsed ~$0.82 → ~$0.09 (−89%); Altman Z −11.59; accumulated deficit $254.4M. The per-treatment XTRAC consumable moat remains genuine (+8.5% billings/device in Q3'25, best since Q4'22; 842 clinics) but equity is subordinate to $16M of defaulted secured debt and the re-rating mechanism (disclosure, discovery, liquidity) is being voluntarily removed. Grade D · PARK. Memo: memos/SSKN-2026-07-16.md. Upgrade trigger: MidCap non-wiping recap + funded capital raise + relisting/continued reporting | 2026-07-16 |
+
+### Cap Kills
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| CTS | CTS Corporation | ~$600–900M | 2026-07-16 | Electronic sensors, actuators, and connectivity components for industrial/transportation/medical; some OEM design-lock moat in specialty sensors; BUT cap well above $300M limit + multiple sell-side analysts; CAP_KILL |
+| PLPC | Preformed Line Products | ~$500M | 2026-07-16 | Specialty line hardware for utilities/telecom (guy wire attachments, cable anchors, splice closures); some specification moat with utility OEMs; BUT cap ~$500M = extended zone without exceptional asymmetry + multiple analysts; CAP_KILL |
+| AZZ | AZZ Inc | ~$900M | 2026-07-16 | Galvanizing services + power delivery infrastructure coatings; genuine PROCESS moat in hot-dip galvanizing (location-specific batch galvanizing facilities; multi-year EPA permits); BUT cap ~$900M = 3x limit; CAP_KILL |
+| BEL | Bel Fuse Inc | ~$400–600M | 2026-07-16 | Electronic connectors and power conversion modules for industrial/aerospace/networking; some OEM design-lock in custom power modules; BUT cap extended zone + multiple analysts; CAP_KILL |
+| VLX.L | Volex plc (AIM UK) | ~£350–400M (~$440–500M) | 2026-07-16 | Cable assemblies and power cords for medical/EV/industrial OEMs; genuine OEM-qualification moat in custom cable assemblies (12-18mo requalification); BUT cap ~£375M = extended zone without exceptional asymmetry; CAP_KILL |
+| ABDP.L | AB Dynamics plc (AIM UK) | ~£150–200M (~$190–250M) | 2026-07-16 | Automotive chassis test systems and ADAS testing rigs; genuine PROCESS+REGULATORY moat in automotive homologation test equipment (UK test standards, OEM-qualified rigs); AIM-listed; BUT cap borderline and no hard-dated <6mo 2x catalyst; CAP_KILL (borderline, revisit if below £120M with ADAS adoption catalyst) |
+| TPE.DE | Technotrans SE (Xetra: TTR1.DE) | ~€150–250M | 2026-07-16 | Specialty thermal management and filtration systems for printing/industrial applications; some recurring service moat on installed printing presses; German Xetra; BUT no strong sole-source or regulatory lock-in; NO_MOAT concurrent; CAP_KILL borderline |
+| KENDR.AS | Kendrion NV (Euronext Amsterdam) | ~€250M (~$275M) | 2026-07-16 | Electromagnetic clutches, brakes, and solenoids for industrial automation; some OEM design-lock in custom electromagnetic actuation; BUT multiple strong competitors (Ogura, Moog, Hilliard, Sunstrand); NO_MOAT concurrent; cap borderline extended zone without exceptional asymmetry; CAP_KILL |
+
+### Sector Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| AAOI | Applied Optoelectronics | Datacom/telecom optical transceivers (VCSEL/DFB lasers for cloud hyperscaler networks); SECTOR_KILL — telecom optics, not industrial precision components (bearings/seals/tooling/filtration/analytical consumables per ROUTINE §1) | 2026-07-16 |
+| ITI | Iteris Inc | Traffic management sensors and software (ClearGuide analytics platform, traffic signal optimization); SECTOR_KILL — traffic software/SaaS, not industrial precision components; also wrong vertical for Sector 3 | 2026-07-16 |
+| CLB | Core Laboratories | Oilfield reservoir description and fluid analysis (rock core/fluid analysis; production enhancement); genuine PROCESS moat in reservoir description but SECTOR_KILL — oilfield services, not industrial precision components | 2026-07-16 |
+| OIS | Oil States International | Subsea infrastructure connectors and wellsite completion services; some specialty proprietary connector moat for subsea equipment; SECTOR_KILL — oilfield/subsea services, not industrial precision per ROUTINE §1 definition | 2026-07-16 |
+| PWR.AX | PWR Holdings (ASX) | High-performance cooling systems for motorsport/aerospace/defense (radiators, intercoolers, heat exchangers); genuine PROCESS moat in precision cooling; BUT defense/US government orders are a significant and growing revenue segment → SECTOR_SOFT_KILL; cannot confirm commercial-only primary customer set without further disclosure | 2026-07-16 |
+
+### No-Moat Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| KLS.TO | Kelso Technologies (TSX) | Tank car service equipment (pressure-relief valves, tank car skirts, manway safety systems); Transport Canada/DOT regulatory qualification is some moat; BUT small commodity-adjacent market, multiple competitors in tank car fitting space, minimal pricing power; no textbook sole-source or strong regulatory lock-in → NO_MOAT_KILL |  2026-07-16 |
+| VOXX | VOXX International | Consumer electronics accessories (automotive safety accessories, premium audio, wireless speaker brands); NO_MOAT — competitive commodity consumer electronics market; no sole-source OEM lock-in; quality=0 (losses); anti-value-trap rule | 2026-07-16 |
+| MGNA.L | Magna Group (AIM) | Diversified industrial holding; no identifiable sole-source moat mechanism; NO_MOAT_KILL | 2026-07-16 |
+| LAWS | Lawson Products | Industrial fastener and MRO distribution (cutting tools, fasteners, adhesives to maintenance departments); NO_MOAT — industrial distribution is competitive; Grainger/McMaster-Carr/Amazon Business all compete; no sole-source or regulatory lock-in | 2026-07-16 |
+| DSCV.L | Discovery (AIM UK) | Diversified industrial services or specialty engineering company; no confirmed sole-source moat mechanism on available information; NO_MOAT_KILL | 2026-07-16 |
+| MANZ.DE | Manz AG (Xetra) | Automation and processing equipment for battery/solar/electronics manufacturing; custom engineering equipment with some design-lock on commissioned lines; BUT competitive market (multiple European automation OEMs); no textbook sole-source or regulatory moat; quality concerns (losses, cyclical order book); NO_MOAT_KILL | 2026-07-16 |
+| EXC.TO | Exco Technologies (TSX) | Precision metal forming dies and extruded plastic trim for automotive OEMs; OEM tooling has some requalification moat (6-12mo); BUT automotive commodity tooling with multiple competitors; EV transition risk to die tooling; quality borderline (thin margins, cyclical); NO_MOAT_KILL | 2026-07-16 |
+
+### Park (borderline — quality marginal, no catalyst)
+| Ticker | Company | Score | Date | Reason |
+|--------|---------|-------|------|--------|
+| XAAR.L | Xaar plc (AIM UK) | ~5/12 | 2026-07-16 | Industrial inkjet printhead technology (ceramics, PZT actuator printing, industrial marking); genuine PROCESS moat in PZT inkjet manufacturing (few commercial-scale piezo printhead producers; Xaar licensed IP widely); AIM London; BUT quality borderline (history of losses; revenue declining from OLED/3D printing pivot fail; H1 2026 profitability uncertain); no hard-dated <6mo 2x catalyst; no strong coverage void (2-3 AIM analysts). PARK ~5/12. REVISIT IF: (a) Xaar reaches consistent EBITDA positive for 2 qtrs + new OEM design win >£10M announced + cap <£80M |
