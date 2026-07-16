@@ -4,10 +4,10 @@ This file is the living map of all niche-moat candidates ever surfaced by the ho
 
 ## Rotation Cursor
 
-Next to analyze: **OFLX** (highest-score QUEUED; ANIK at 9/12 also ready)
-Last rotation completed: **NEVER**
-Universe size: 6 (HURC CANDIDATE, OFLX QUEUED, CPSH PARK, PDEX QUEUED, ANIK QUEUED, KRMD PARK)
-Analyzed this week: 6
+Next to analyze: **OFLX** (highest-score QUEUED; ANIK deep-dived to CANDIDATE)
+Last rotation completed: **ANIK** (2026-07-16 → CANDIDATE; see memos/ANIK-2026-07-16.md)
+Universe size: 8 (HURC CANDIDATE, ANIK CANDIDATE, OFLX QUEUED, KMK QUEUED, PDEX QUEUED, CPSH PARK, KRMD PARK)
+Analyzed this week: 8
 
 ---
 
@@ -45,8 +45,9 @@ Analyzed this week: 6
 | OFLX | Omega Flex | Industrial Precision (CSST Flexible Gas Piping) | REGULATORY + PROCESS | — | 2026-07-15 | 2026-07-15 | QUEUED | Profitable, likely net cash, dividend-paying | No specific catalyst visible; re-rating if new construction cycles up |
 | CPSH | CPS Technologies | Specialty Materials (AlSiC MMC power electronics) | PROCESS | — | 2026-07-16 | 2026-07-16 | PARK | ~$95M cap, $32.6M rev; profitable at current volumes | PARK 5/12: AlSiC moat genuine (base plates for IGBT/SiC power modules) but ~3x P/S, no hard catalyst; revisit if cap corrects or EV/SiC volume surge materializes |
 | PDEX | Pro-Dex Inc | Medical Diagnostics / Surgical Instruments | SOLE_SOURCE (OEM) | — | 2026-07-16 | 2026-07-16 | QUEUED | Profitable; Monogram investment cash gains; no leverage | QUEUED 7/12: OEM autoclavable surgical driver supplier to ortho/thoracic OEMs; 2 analysts; 24% revenue growth; APM acquisition adds new revenue line; no hard-dated <6mo 2x catalyst; 31% GM limits quality score |
-| ANIK | Anika Therapeutics | Medical Diagnostics & Consumables (HA platform) | PROCESS + REGULATORY | — | 2026-07-16 | 2026-07-16 | QUEUED | Profitable; 64% GM; minimal debt; earnings floor on existing HA business | QUEUED 9/12: HA manufacturing process moat + Hyalofast FDA PMA (response received Jan 2026, resubmission developing); $120M guided rev 2026 +13% YoY; 64% GM; trades ~1.7x revenue = deeply cheap vs. moat-justified ~3-4x; 2-3 analysts; catalyst = Hyalofast FDA decision (6-12mo, not hard-dated). Promote to QUEUED_HOT if Hyalofast resubmission accepted for review (sets PDUFA date) |
+| ANIK | Anika Therapeutics | Medical Diagnostics & Consumables (HA platform) | PROCESS + REGULATORY | — | 2026-07-16 | 2026-07-16 | CANDIDATE | $57.5M cash, zero debt, 64% GM, buyback ($15M 10b5-1), positive FCF — textbook earnings floor | CANDIDATE 10/12 (deep-dived 2026-07-16; memo: memos/ANIK-2026-07-16.md): Moat=2 (HA process + OEM regulatory lock-in), Quality=2 (64% GM, +13% rev, buyback, no debt, lean mfg transformation), Coverage=2, Valuation=2 (1.7x sales deeply cheap), Catalyst=0 (IMPAIRED: Phase III missed co-primary endpoints; FDA deficiency letter Jan 2026; no PDUFA; likely 2027), Floor=2. Fails WATCH test on catalyst. UPGRADE TRIGGER: FDA accepts Hyalofast resubmission with 180-day review clock set → WATCH. DOWNGRADE TRIGGER: Not-Approvable/CRL → PASS. Organic HA growing +13%; buying back stock; ~1.7x sales on 64% GM = organic business alone justifies 2.5-3x re-rating. |
 | KRMD | KORU Medical Systems | Medical Diagnostics & Consumables (SubQ infusion) | REGULATORY + CONSUMABLE | — | 2026-07-16 | 2026-07-16 | PARK | Weak floor (growth-stage, likely cash-burning; no earnings floor) | PARK 4/12: Freedom60 SubQ infusion system for PIDD/CIDP/SIDD/PNH; regulatory clearance + sticky consumable model; but business quality=0 (growth-stage losses, serial dilution risk); 510(k) expanded indication filed Dec 2025; revisit only if company reaches breakeven + cap <$150M |
+| KMK | Kromek Group plc | Nuclear & Radiological Civil (CZT Radiation Detection) | PROCESS + SOLE_SOURCE | AIM-listed (London); US investors may need ADR/OTC access | 2026-07-16 | 2026-07-16 | QUEUED | Profitable; £2.15M PBT on £27.2M revenue; growing CBRN + imaging; positive equity, no debt flags | QUEUED 8/12: Proprietary CZT (cadmium zinc telluride) detector manufacturing — one of very few commercial-scale CZT producers globally; serves nuclear power monitoring, civil nuclear security, SPECT medical imaging; Siemens Healthineers OEM relationship; 2 AIM analysts; cap ~$98M (£78M); moat=2, quality=1, coverage=2, valuation=1 (3.5x P/S), catalyst=1 (FY results ~Sep 2026, new CBRN contracts), floor=1; no hard-dated <6mo 2x trigger today |
 
 *(Will populate hourly as scouts find candidates)*
 
@@ -56,7 +57,7 @@ Analyzed this week: 6
 
 | Ticker | Company | Sector | Signal | Added | Priority |
 |--------|---------|--------|--------|-------|----------|
-| ANIK | Anika Therapeutics | Medical Dx & Consumables | PROCESS + REGULATORY (HA platform, Hyalofast PMA pending); 9/12 QUEUED; 64% GM; 1.7x rev = cheap; Hyalofast FDA decision 6-12mo | 2026-07-16 | High (9/12 — first to deep-dive when QUEUED_HOT) |
-| OFLX | Omega Flex | Industrial Precision | REGULATORY moat (CSST near-monopoly), 0-1 analysts, score 8/12 | 2026-07-15 | Medium |
+| KMK | Kromek Group plc | Nuclear & Radiological (CZT Detection) | PROCESS + SOLE_SOURCE (CZT detector mfg); 8/12 QUEUED; £27M rev; 2 AIM analysts; Siemens OEM; profitable | 2026-07-16 | High (next to deep-dive if CBRN catalyst emerges) |
+| OFLX | Omega Flex | Industrial Precision | REGULATORY moat (CSST near-monopoly), 0-1 analysts, score 8/12 | 2026-07-15 | High |
 | PDEX | Pro-Dex Inc | Medical Dx & Consumables / Surgical | SOLE_SOURCE OEM (autoclavable surgical drivers); 7/12 QUEUED; 24% rev growth; 2 analysts; no hard catalyst <6mo | 2026-07-16 | Low-Medium |
 | CPSH | CPS Technologies | Specialty Materials (AlSiC) | PROCESS moat (power electronics thermal mgmt), score 5/12 PARK; revisit at lower cap or hard catalyst | 2026-07-16 | Low |

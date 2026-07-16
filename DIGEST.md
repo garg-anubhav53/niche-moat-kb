@@ -40,6 +40,7 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 | Ticker | Company | Sector | Score | Note |
 |--------|---------|--------|-------|------|
 | HURC | Hurco Companies | Industrial Precision (CNC) | 9/12 (deep-dived) | Thorough memo confirms it is NOT a WATCH: moat moderate/soft (WinMax retention, G-code-compatible, Takumi runs Fanuc); floor is **balance-sheet not earnings** (operating losses FY24–FY26, dividend suspended); 2x is **cyclical** (base +40-60%, clean 2x needs full-cycle recovery); stock **~$22.76 near 52-wk high $23.75**; institutions already own ~75%. Fails WATCH tests 2/3/4. **Buy-zone $16-19.** Memo: `memos/HURC-2026-07-16.md` |
+| ANIK | Anika Therapeutics | Medical Dx & Consumables (HA) | **10/12 (deep-dived 2026-07-16)** | Floor exceptional ($57.5M cash, zero debt, 64% GM, +13% rev, buyback — textbook earnings floor). Moat confirmed (HA process + J&J OEM lock-in). **Catalyst IMPAIRED**: Phase III FastTRACK missed both co-primary endpoints; FDA deficiency letter Jan 2026; no PDUFA; decision likely 2027. Fails WATCH catalyst test. Stock at ~1.7x sales on 64% GM with buyback = organic business alone worth 2.5-3x. **UPGRADE TRIGGER**: FDA accepts Hyalofast resubmission with 180-day review clock → WATCH. Memo: `memos/ANIK-2026-07-16.md` |
 | OFLX | Omega Flex | Industrial Precision (CSST) | 8/12 | Strong moat (CSST near-monopoly, regulatory cert), profitable, 0-1 analysts, no near-term catalyst visible |
 
 ---
@@ -54,7 +55,10 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 6. **Medical diagnostics well-covered despite small caps** — most moated med-device/dx names in the $100-300M range carry 4-6 analysts; true coverage voids are exceptional. The better edge: well-moated businesses under 3 analysts with FDA catalysts pending.
 7. **Medicare reimbursement risk is as binary as FDA approval** — a CMS recoupment notice can be existential at small caps (MDXH: $10.4M recoupment on $25M cap). Favor companies where reimbursement codes are mature and established.
 8. **31% GM OEM manufacturers are not high-moat businesses** — despite sole-source position, if GM is <40%, the pricing power is limited and the quality score cannot reach 2; avoid unless catalyst is exceptional.
+9. **Phase III clinical endpoint miss is not always fatal — but it is always a catalyst discount** — a co-primary miss with post-hoc rescue creates FDA back-and-forth; downgrade catalyst proximity to 0 until resubmission accepted; do not underwrite the optionality until a review clock is set.
+10. **Nuclear civil sector is extremely concentrated in large-caps** — Centrus ($3.3B), ASPI ($891M), Mirion ($1.5B), NNE ($410M) all over limit; LEU, OKLO, NXE all 5-10x cap ceiling; the genuine small-cap civil nuclear edge is in: (a) AIM-listed UK radiation detection (Kromek), (b) nuclear waste handling services (Perma-Fix — revisit when going-concern resolves), (c) isotope supply chains. Civil nuclear is best accessed in future runs via UK/European OTC small-caps.
+11. **Going-concern + huge specific catalyst = revisit not kill** — Perma-Fix is the canonical example: INTEGRITY_KILL strictly per rules, but the Hanford DFLAW inflection ($89-99M revenue expected 2H 2026 from $59M LTM) is one of the most specific, large, near-term catalysts in the KB. Flag with a strong revisit note.
 
 ---
 
-*Doctrine formalized 2026-07-16. Hourly scout, one sector per run (hour mod 5), promise-gated deep-dives. DIGEST last updated 2026-07-16T01:17Z (sector 1: Medical Diagnostics & Consumables).*
+*Doctrine formalized 2026-07-16. Hourly scout, one sector per run (hour mod 5), promise-gated deep-dives. DIGEST last updated 2026-07-16T02:17Z (sector 2: Nuclear & Radiological Civil).*

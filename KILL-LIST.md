@@ -37,6 +37,18 @@ Names that failed the asymmetry or integrity gates.
 | TCMD | Tactile Systems Technology | ~$500M+ (confirmed: $360M+ revenue guidance 2026) | 2026-07-16 | Flexitouch lymphedema compression; moat real (REGULATORY+CONSUMABLE); cap out of range |
 | MDXG | MiMedx Group | $566M (confirmed) | 2026-07-16 | Placental allografts (Amniofix/EpiFix); 82% GM but cap graduated above $300M |
 | SMLR | Semler Scientific | $310M (confirmed June 2026) | 2026-07-16 | QuantaFlo PAD moat genuine (de facto monopoly); BUT cap just above limit AND 5 analysts; ALSO pivoting to Bitcoin accumulation; revisit if cap corrects below $200M |
+| ASPI | ASP Isotopes | ~$891M | 2026-07-16 | Proprietary isotope separation + HALEU subsidiary (Quantum Leap Energy); moat genuine but cap 3x limit |
+| LEU | Centrus Energy | $3.27B + 17 analysts | 2026-07-16 | Only US commercial HALEU enrichment; extraordinary moat; cap 10x limit AND 17 analysts; re-enter if broken below $300M |
+| NNE | Nano Nuclear Energy | $410M | 2026-07-16 | Micro-SMR developer (ZEUS, ODIN); pre-revenue dev stage; cap over limit |
+| OKLO | Oklo Inc | >$1B (nuclear AI narrative) | 2026-07-16 | Advanced fission microreactors; Sam Altman chair; cap well over limit on AI/nuclear narrative |
+| UEC | Uranium Energy Corp | ~$1-1.5B | 2026-07-16 | ISR uranium; cap out of range |
+| DNN | Denison Mines | ~$1.5B | 2026-07-16 | Phoenix ISR uranium; cap out of range |
+| NXE | NexGen Energy | ~$2.5B | 2026-07-16 | Arrow uranium deposit; cap far out of range |
+| MIR | Mirion Technologies | ~$1.5B | 2026-07-16 | Radiation detection & measurement; cap out of range |
+| EU | enCore Energy | ~$300-400M | 2026-07-16 | ISR uranium miner (TX/WY); cap at or above limit |
+| URG | Ur-Energy | ~$300-400M | 2026-07-16 | ISR uranium (Wyoming); cap at or above limit |
+| PALAF | Paladin Energy | A$1B+ | 2026-07-16 | Namibia uranium (Langer Heinrich); ASX primary; cap out of range |
+| BOSSF | Boss Energy | A$500M+ | 2026-07-16 | Australian uranium ISR (Honeymoon mine); ASX primary; cap out of range |
 
 ---
 
@@ -57,6 +69,7 @@ Names that failed the asymmetry or integrity gates.
 | TELA | TELA Bio | 4–5 analysts | 2026-07-16 | OviTex biologic mesh; moat moderate; covered above threshold |
 | NYXH | Nyxoah SA | 4–5 analysts (Euro + US) | 2026-07-16 | Genio sleep apnea neurostimulation; Belgian-listed; covered above threshold |
 | BVS | Bioventus | 4–6 analysts | 2026-07-16 | Exogen bone healing (REGULATORY moat) + ortho biologics; well-covered |
+| ARAY | Accuray | ~4-6 analysts | 2026-07-16 | CyberKnife + Radixact radiation therapy; real installed-base moat; but mid-size med device = above analyst threshold |
 
 ---
 
@@ -74,6 +87,11 @@ Names that failed the asymmetry or integrity gates.
 | AXDX | Accelerate Diagnostics | Going-concern disclosures; serial equity dilution; heavy cash burn on ACCELERATE Pheno platform | 2026-07-16 |
 | ECOR | Electrocore | Serial equity dilution; ongoing operating losses; no earnings floor on gammaCore VNS device | 2026-07-16 |
 | MDXH | MDxHealth SA | $10.4M Medicare recoupment notice on ~$25M market cap (existential); multiple analyst downgrades (PT cut to $1.00–$1.50); discontinued Resolve test; quality score = 0 | 2026-07-16 |
+| SMR | NuScale Power | Going concern disclosed post-UAMPS-cancellation (Nov 2023); serial dilution to stay alive; pre-commercial → no earnings floor | 2026-07-16 |
+| XE | X-Energy Reactor | Xe-100 pebble bed SMR; pre-commercial dev stage; went public via SPAC 2024; no revenue; going-concern probable; no floor | 2026-07-16 |
+| ATNM | Actinium Pharmaceuticals | Ac-225 targeted alpha therapy; clinical stage; serial dilution; no revenue; no floor | 2026-07-16 |
+| PESI | Perma-Fix Environmental Services | NRC-licensed nuclear waste treatment; genuine REGULATORY moat + Hanford DFLAW inflection ($89-99M rev expected 2H 2026 vs $59M LTM); BUT going-concern disclosed Q1 2026 (Q1 rev -20%, gross margin -36%). REVISIT urgently in future run when/if going-concern resolved — Hanford DFLAW + grouting ($75-216M/yr) is one of the most specific catalysts in the KB; cap ~$300M (borderline) | 2026-07-16 |
+| GVP | GSE Systems | Nuclear plant simulation/training (strong switching-cost moat: NRC-required simulators, custom-built per plant, 2-4yr requalification); financial distress history; possible delisting/acquisition — integrity uncertain | 2026-07-16 |
 
 ---
 
@@ -85,6 +103,7 @@ Names that failed the asymmetry or integrity gates.
 | APFC | American Pacific Corp | Ammonium perchlorate for solid rocket motors; primary defense/military customer | 2026-07-16 |
 | KOPN | Kopin Corp | Specialty helmet displays and gun-sight optics; DoD is primary customer | 2026-07-16 |
 | ULBI | Ultralife Corp | Specialty batteries; ~50%+ revenue from DoD/military communications | 2026-07-16 |
+| BWXT | BWX Technologies | Naval nuclear (submarines/carriers) is primary segment; some civil isotopes but DoD = primary customer | 2026-07-16 |
 
 ---
 
@@ -103,6 +122,7 @@ Names that failed the asymmetry or integrity gates.
 | ASIX | AdvanSix | Nylon-6 intermediates; globally competitive, several caprolactam producers | 2026-07-16 |
 | CBT | Cabot Corp | Carbon black primarily commodity; specialty portion too small fraction | 2026-07-16 |
 | DRAD | Digirad Corporation | Mobile nuclear cardiology imaging services; no sole-source competitive position | 2026-07-16 |
+| WUC | Western Uranium & Vanadium | Sunday Mine Complex conventional uranium+vanadium; no process moat or regulatory lock-in; commodity mining | 2026-07-16 |
 | HBIO | Harvard Bioscience | Research instruments (bioreactors, electrophysiology); competes with Thermo, Eppendorf, etc. | 2026-07-16 |
 | BASS | Bioanalytical Systems | Generic HPLC instruments + CRO services; no unique lock-in | 2026-07-16 |
 | INFU | InfuSystem Holdings | Oncology infusion pump services; competes with Option Care, others; no moat | 2026-07-16 |
@@ -128,6 +148,9 @@ Names that failed the asymmetry or integrity gates.
 | VNDA | Vanda Pharmaceuticals | Hetlioz (Non-24) faces generic entry; FDA orphan drug moat eroding; headwind not catalyst | 2026-07-16 |
 | CLPT | ClearPoint Neuro | MRI-guided neurosurgery platform; neurosurgery ramp is slow; no hard-dated event | 2026-07-16 |
 | ICAD | iCAD Inc | Pending acquisition by RadNet Inc.; merger arb only; no re-rating upside remaining | 2026-07-16 |
+| GLATF | Global Atomic Corp | Dasa uranium (Niger); Niger coup July 2023 → junta in power; project in limbo; no viable near-term production path | 2026-07-16 |
+| LTBR | Lightbridge Corp | Proprietary metallic nuclear fuel rod technology (genuine process moat); patent grants Canada/US/EU 2026; thermal-hydraulics test program with Stern Labs; BUT pre-commercial, no revenue, no hard-dated <6mo 2x re-rating event; 14-year cash runway unusual but still no near-term catalyst | 2026-07-16 |
+| UROY | Uranium Royalty Corp | Uranium royalties (contractual); ~$100-200M cap; 0-1 analysts; decent structure; BUT uranium demand theme is multi-year, no specific hard-dated event for quick 2x; re-check if royalty mine ramp sets specific cash-flow inflection date | 2026-07-16 |
 
 ---
 
