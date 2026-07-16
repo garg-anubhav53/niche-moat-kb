@@ -30,7 +30,7 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Issue | Date |
 |--------|---------|-------|------|
-| | | | |
+| NNBR | NN Inc | ~$300M+ debt on $63M cap; -58% 12-mo; serial dilution risk; leveraged balance sheet indicates financial distress | 2026-07-15 |
 
 ---
 

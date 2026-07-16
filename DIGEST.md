@@ -29,7 +29,7 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 | Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Date |
 |--------|---------|--------|------|-----------|-------|-------------|------|
-| *(populated when a deep-dive confirms the full bar)* | | | | | | | |
+| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (WinMax conversational control, 30-yr moat vs Haas/Fanuc) | ~$146M | $50M cash / $0 debt / $166.9M working capital | Q3 FY2026 profitability print (~Nov 2026) on +41% order surge; EV $96M = 0.53x revenue | 2026-07-15 |
 
 ---
 
@@ -37,7 +37,7 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 | Ticker | Company | Sector | Promise Score | Note |
 |--------|---------|--------|---------------|------|
-| *(populated as runs surface QUEUED names)* | | | | |
+| OFLX | Omega Flex | Industrial Precision (CSST) | 8/12 — strong moat (CSST near-monopoly, regulatory cert), profitable, 0-1 analysts, no catalyst visible |
 
 ---
 

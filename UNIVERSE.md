@@ -4,10 +4,10 @@ This file is the living map of all niche-moat candidates ever surfaced by the ho
 
 ## Rotation Cursor
 
-Next to analyze: **START** (beginning of first rotation)
+Next to analyze: **HURC** (first rotation start)
 Last rotation completed: **NEVER**
-Universe size: 0 (will grow hourly)
-Analyzed this week: 0
+Universe size: 2 (HURC WATCH, OFLX QUEUED)
+Analyzed this week: 2
 
 ---
 
@@ -41,7 +41,8 @@ Analyzed this week: 0
 
 | Ticker | Company | Sector | Moat Type | Excl. Reason | Date Added | Last Analyzed | Status | Floor | 2x Catalyst |
 |--------|---------|--------|-----------|--------------|------------|---------------|--------|-------|------------|
-| | | | | | | | | | |
+| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST | — | 2026-07-15 | 2026-07-15 | WATCH | $50M cash / $0 debt (34% of $146M cap) | Q3 FY2026 profitability print ~Nov 2026 on +41% order surge |
+| OFLX | Omega Flex | Industrial Precision (CSST Flexible Gas Piping) | REGULATORY + PROCESS | — | 2026-07-15 | 2026-07-15 | QUEUED | Profitable, likely net cash, dividend-paying | No specific catalyst visible; re-rating if new construction cycles up |
 
 *(Will populate hourly as scouts find candidates)*
 
@@ -51,6 +52,6 @@ Analyzed this week: 0
 
 | Ticker | Company | Sector | Signal | Added | Priority |
 |--------|---------|--------|--------|-------|----------|
-| | | | | | |
+| OFLX | Omega Flex | Industrial Precision | REGULATORY moat (CSST near-monopoly), 0-1 analysts, score 8/12 | 2026-07-15 | Medium |
 
 *(Will populate as candidates pass triage)*
