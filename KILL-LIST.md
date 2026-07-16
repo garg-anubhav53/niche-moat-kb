@@ -828,3 +828,49 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
 | MNMD | Mind Medicine (MindMed) Inc | Nasdaq; psychedelic-based drug development (LSD analog MM120); pharmaceutical drug not diagnostic/consumable; SECTOR_ADJACENT (drug, not Sector 1 diagnostic/consumable); also development-stage losses = INTEGRITY concurrent | 2026-07-16 |
+
+---
+
+## Run #23 Kills — 2026-07-16T22:18Z | Sector 2: Nuclear & Radiological Civil (5th pass)
+
+*20 names processed; 20 killed in triage; 0 new QUEUED; 0 new PARK. §5: deferred deep-dive 4549.T (8/12) → CANDIDATE Grade C (Q3/F4/R1/C2; memo memos/4549.T-2026-07-16.md). Nuclear civil sector confirmed exhausted after 5 passes at $20-300M cap screen. Valid run with zero survivors.*
+
+### Already Seen (prior runs — not re-processed)
+| Ticker | Company | Seen In | Reason |
+|--------|---------|---------|--------|
+| SLX.AX | Silex Systems Limited | Run #12 | PARK 4/12 (quality=0, pre-commercial SILEX laser enrichment); already in KB; ALREADY_SEEN |
+| MIR | Mirion Technologies | Run #7 | CAP_KILL (~$1.5B); radiation detection and measurement; already in KB kills; ALREADY_SEEN |
+
+### Not Public (private, government-owned, or subsidiary)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| Posiva | Posiva Oy (Finland) | 2026-07-16 | Finnish nuclear waste management company (Onkalo deep geological repository for spent nuclear fuel); wholly owned by TVO + Fortum (Finnish nuclear utilities); NOT_PUBLIC — no listed equity; government/utility subsidiary |
+| TVO | Teollisuuden Voima Oyj (Finland) | 2026-07-16 | Finnish nuclear power utility (Olkiluoto 1/2/3 reactors); nuclear power generation; privately held by Finnish industrial consortium; NOT_PUBLIC |
+| VF_Nuclear | Various French nuclear subsidiaries | 2026-07-16 | French civil nuclear operations subsidiaries (e.g. Cyclife, Areva clean-up entities, ASN-regulated decommissioning operators); NOT_PUBLIC — unlisted French nuclear decommissioning and waste management subsidiaries |
+| Cyclife | Cyclife AB (EDF subsidiary, Sweden) | 2026-07-16 | Swedish nuclear waste management company (Cyclife = former Studsvik Nuclear decommissioning division, acquired by EDF Group 2019); NOT_PUBLIC — EDF subsidiary, no listed equity |
+| EnergySolutions | EnergySolutions LLC | 2026-07-16 | US nuclear waste treatment and decommissioning (private equity owned: Energy Capital Partners); NOT_PUBLIC — private equity portfolio company, no listed equity |
+| NUKEM | NUKEM Technologies (Orano subsidiary) | 2026-07-16 | German nuclear fuel cycle services and decommissioning (NUKEM Technologies Engineering Services); NOT_PUBLIC — fully owned by Orano (French state nuclear group); unlisted subsidiary |
+| Augean_Nuclear | Augean Nuclear (AIM: AUG, nuclear division) | 2026-07-16 | UK nuclear waste disposal (Augean plc nuclear services division for low/intermediate level waste); ACQUIRED: Augean plc was taken private by Energy Capital Partners in 2022; NOT_PUBLIC |
+| Magnox | Magnox Ltd (NDA subsidiary) | 2026-07-16 | UK Magnox reactor decommissioning (NDA-owned subsidiary operating 10 shut-down Magnox stations); NOT_PUBLIC — UK government / Nuclear Decommissioning Authority wholly owned subsidiary; no listed equity |
+| Berkeley_Nucleonics | Berkeley Nucleonics Corporation | 2026-07-16 | US radiation detection instrument maker (pulse generators, radiation meters, nuclear instruments); privately held; NOT_PUBLIC |
+| NucleoElectrica | Nuclearelectrica SA (BSE: SNN.RO) | 2026-07-16 | Romanian nuclear power utility (Cernavodă CANDU reactors); listed on Bucharest Stock Exchange; BUT ~RON 14-20B cap = well above $1.5B limit = CAP_KILL concurrent; also energy utility not diagnostics/detection services; NOT_IN_RANGE |
+| AtkinsRealis_Nuclear | AtkinsRéalis nuclear division | 2026-07-16 | Canadian nuclear engineering services (CANDU reactor design, nuclear fuel cycle, Chalk River decommissioning support); NOT_PUBLIC as standalone — division of AtkinsRéalis Group Inc. (TSX: ATRL; cap ~C$5-7B = far above limit); NOT_PUBLIC + CAP_KILL concurrent |
+| Fortum_Nuclear | Fortum Corporation nuclear assets | 2026-07-16 | Finnish energy company (owns TVO stake; Loviisa 1/2 NPP in Finland); listed on Helsinki (FORTUM.HE) but cap ~€8-12B = far above $1.5B limit; CAP_KILL; nuclear generation is utility business not niche detection/services moat |
+| Orano | Orano SA (French State) | 2026-07-16 | French nuclear fuel cycle company (mining, enrichment, reprocessing, waste management — La Hague, Melox MOX, NUKEM subsidiary); wholly owned by French state (CEA + others); NOT_PUBLIC |
+| CANDU_Energy | CANDU Energy Inc (SNC-Lavalin/AtkinsRéalis subsidiary) | 2026-07-16 | Canadian CANDU reactor technology licensor and service provider; NOT_PUBLIC — wholly owned by AtkinsRéalis Group; no listed equity |
+
+### Cap Kills (market cap outside $20M–$1.5B range)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| RAY-B.ST | RaySearch Laboratories AB (Nasdaq Stockholm: RAY-B) | ~SEK 15-20B (~$1.5-2B USD) | 2026-07-16 | Swedish radiation therapy treatment planning software (RayStation TPS; RayCare OIS); genuine REGULATORY + PROCESS moat (FDA 510(k)-cleared TPS; OEM partnerships with Elekta and IBA; installed base at 1,000+ cancer centers globally; 12-24mo migration barrier); BUT cap ~$1.5-2B = at/above $1.5B limit; 5-6 Stockholm analysts; CAP_KILL. Revisit if cap corrects below $1.0B |
+| KEP | Korea Electric Power Corporation (NYSE: KEP) | ~$10-15B (KRX primary) | 2026-07-16 | South Korean nuclear power utility (multiple APR-1400 units operational; KHNP subsidiary for nuclear operations); nuclear power generation utility; cap far above limit; also utility not niche detection/services; CAP_KILL |
+
+### Coverage Kill + Subsidiary Kill
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| 036465.KS | KEPCO Nuclear Fuel Co. Ltd (KRX: 036465) | ~3-5 Korean analysts; subsidiary structure | 2026-07-16 | South Korean nuclear fuel manufacturer (UF6 conversion, pellet fabrication for Korean NPPs); REGULATORY moat in Korean nuclear fuel supply; BUT (a) subsidiary of KEPCO (Korea Electric Power = state-owned utility), effectively not independently investable; (b) Korean-listed with no English-language ADR or accessible OTC equivalent; (c) cap in KRW = extended zone but inaccessible to Western investors; COVERAGE_KILL + NOT_ACCESSIBLE concurrent |
+
+### Sector-Adjacent Kill
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| JFS.L | James Fisher and Sons plc (LSE: JFS) | UK marine and specialist technical services company (subsea services, marine testing, specialist engineering); nuclear services division exists (decommissioning support, health physics) but primary revenue is MARINE services (marine products, specialist technical, offshore oil); SECTOR_ADJACENT — marine services primary, nuclear is a secondary segment; cap ~£200-300M = borderline extended zone; also financial distress history (profit warnings 2022-2023, ongoing recovery); SECTOR_ADJACENT_KILL concurrent with quality concerns |
