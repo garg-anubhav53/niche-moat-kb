@@ -7,6 +7,7 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | 12-Mo Return | Date | Reason | Re-entry threshold |
 |--------|---------|-------------|------|--------|-------------------|
 | AXTI | AXT Inc (InP/GaAs substrates) | +155% since 2/28/2026; ~$6-8B market cap | 2026-07-16 | AI/datacom InP thesis was correct — market already re-rated spectacularly; cap >> $300M; also 5–11 analysts | Re-entry only if cap corrects below $300M and catalyst remains |
+| RYAM | Rayonier Advanced Materials | +84% YTD 2026; cap ~$500M+ post-recovery | 2026-07-16 | Specialty cellulose (high-alpha for acetate/nitrocellulose); PROCESS+SCARCITY moat genuine (one of very few producers); but leverage-amplified recovery pushed cap well above $300M limit after restructuring; also potential prior going-concern issues | Revisit if cap corrects below $250M AND debt resolved |
 
 ---
 
@@ -15,6 +16,12 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Market Cap | Date | Note |
 |--------|---------|-----------|------|------|
 | FLTCF | Filtronic plc (AIM: FTC) | ~$850M USD | 2026-07-16 | UK AIM; GaN RF amplifiers for SpaceX Starlink LEO (5-yr Starlink deal, Cerus32 E-band SSPA sole supplier); genuine PROCESS moat; moat confirmed but cap ~2.8x limit; ~$115M+ cumulative SpaceX contracts; revisit if cap corrects below $300M |
+| LXFR | Luxfer Holdings plc | $462.89M (July 2026) | 2026-07-16 | UK/NYSE; specialty composite gas cylinders (DOT/CE/NIOSH REGULATORY moat) + zirconium chemicals (PROCESS) + magnesium specialty alloys; 2 AIM analysts; adjusted EPS $1.12-$1.22 guided 2026; revenue $355-370M; solid moat but cap 1.54x limit; defense/aerospace driving growth (Elektron segment) — revisit if cap corrects below $280M |
+| PRM | Perimeter Solutions Inc | ~$700M-$1.5B (PE-backed, SPAC listing 2021) | 2026-07-16 | Phos-Chek aerial wildfire retardant (near-monopoly; USFS FS-5100-304 specification → sole qualified supplier); REGULATORY+PROCESS moat; also lubricant additives segment; genuine MONOPOLY in aerial fire retardant; revenue ~$400-600M; cap well above limit due to EQT Partners PE ownership and growth narrative; revisit if cap corrects below $300M |
+| SXT | Sensient Technologies | ~$1.5B | 2026-07-16 | Specialty colors, flavors, fragrances (PROCESS moat in specialty dyes/pigments/flavors); well-established business; cap 5x limit |
+| PLAB | Photronics Inc | ~$600-700M | 2026-07-16 | Photomask manufacturer for semiconductor (PROCESS + REGULATORY moat — capital-intensive clean rooms, customer qualification 2-3 year cycle, only handful of global producers); genuine moat; but 4-5 analysts + cap 2x limit |
+| HWKN | Hawkins Inc | ~$1-1.5B | 2026-07-16 | Specialty water treatment chemicals and industrial ingredients; strong revenue growth from Water Treatment segment acquisitions; cap well above limit; also NO_MOAT (primarily blending/distribution, not sole-source) |
+| TROX | Tronox Holdings plc | ~$600M-$1B | 2026-07-16 | TiO2 producer; commodity product with multiple global competitors (Kronos, Chemours, Tronox, Venator); no sole-source moat; cap over limit |
 | MYNA | Mynaric AG | ~$3.87M | 2026-07-16 | Laser communication terminals for LEO constellations (Telesat, Northrop commercial programs); real moat in OISL terminals; BUT cap collapsed below $20M floor — company in severe financial distress |
 | ATRO | Astronics Corporation | ~$400-500M | 2026-07-16 | Commercial avionics power/lighting (seat power, LED lighting for commercial airlines); real SOLE_SOURCE moat for some airline OEM programs; cap over limit |
 | RDW | Redwire Corporation | ~$400-600M | 2026-07-16 | Space infrastructure (solar arrays, bioprinting, structures for commercial + civil space); cap over limit |
@@ -97,6 +104,8 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Issue | Date |
 |--------|---------|-------|------|
 | NNBR | NN Inc | ~$300M+ debt on $63M cap; -58% 12-mo; serial dilution risk; leveraged balance sheet | 2026-07-15 |
+| EAF | GrafTech International | Negative equity -$194M; $1.125B gross debt ($1.005B net debt); net loss in 2026 (consensus EPS -$5.19 FY2026); volume gains offset by pricing collapse; specialty graphite electrodes have moat (needle coke integration + some LTA contracts) but balance sheet prohibits thesis — INTEGRITY_KILL | 2026-07-16 |
+| NVX | Novonix Limited | Synthetic graphite anode material for EV batteries (DPMG PROCESS moat; Panasonic partnership); ASX+Nasdaq dual-listed; BUT development-to-early-commercial stage: operating losses, serial equity dilution, no earnings floor | 2026-07-16 |
 | GURE | Gulf Resources | China operations opacity; historical accounting questions; cash unverifiable by US standards | 2026-07-16 |
 | FTK | Flotek Industries | Reverse merger Jan 2021 with JP3; serial equity dilution; ongoing capital structure concerns | 2026-07-16 |
 | LWLG | Lightwave Logic | Dev-stage cash burn; no commercial revenue; serial dilution risk | 2026-07-16 |
@@ -125,6 +134,8 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
 | OPXS | Optex Systems | Military sighting/optical systems for combat vehicles and weapons; defense is primary customer | 2026-07-16 |
+| KLIC | Kulicke & Soffa Industries | Semiconductor packaging equipment (wire bonders, die attach, wedge bonders) — this is EQUIPMENT not specialty chemical/material; wrong sector for sector-0 run | 2026-07-16 |
+| LFCR | Lifecore Biomedical | HA (hyaluronic acid) specialty CDMO + pharmaceutical manufacturing — sector 1 (Medical Diagnostics & Consumables), not sector 0 (Specialty Chemicals) | 2026-07-16 |
 | CVU | CPI Aerostructures | ~70% military airframe structures (F-16, C-17 components); defense primary | 2026-07-16 |
 | GHM | Graham Corporation | Defense propulsion heat exchangers + naval vacuum systems; defense is primary segment | 2026-07-16 |
 | ATNY | API Technologies | Specialty RF/microwave components and modules; ~70%+ defense revenue; defense primary | 2026-07-16 |
@@ -145,6 +156,17 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
 | NWPX | Northwest Pipe | Commodity steel pipe; multiple domestic and import competitors; no lock-in | 2026-07-16 |
+| HWKN_NM | Hawkins Inc (no-moat angle) | Chemical distributor/blender for water treatment and industrial; no sole-source position; competes with multiple specialty distributors; also CAP_KILL | 2026-07-16 |
+| TROX_NM | Tronox Holdings (no-moat angle) | TiO2 commodity; 5+ global competitors; multiple substitutes; also CAP_KILL | 2026-07-16 |
+| AMTX | Aemetis Inc | Biofuels (renewable diesel, ethanol) + sustainable aviation fuel; competitive market with no proprietary position; RFS/IRA policy risk | 2026-07-16 |
+| OEC | Orion Engineered Carbons | Specialty carbon black; multiple global competitors (Birla Carbon, Cabot, Orion, Columbian); price-taking in most grades | 2026-07-16 |
+| HAYD | Haydale Graphene Industries (AIM) | Graphene-enhanced composites and inks (UK AIM); genuine materials science but graphene is being produced by 10+ commercial suppliers; no regulatory or sole-source moat; no pricing power | 2026-07-16 |
+| GEF | Greif Inc | Industrial packaging containers (drums, IBCs, jerricans); competitive market with multiple suppliers; some specialty value-add but no durable sole-source position | 2026-07-16 |
+| NL | NL Industries | Holding company for Kronos Worldwide (TiO2 = already CAP_KILL as KRO) and CompX International (specialty locks = already in UNIVERSE as CIX); no independent moat beyond subsidiaries already tracked | 2026-07-16 |
+| CLMT | Calumet Specialty Products | Specialty hydrocarbons from petroleum refining (white oils, waxes, solvents, lubricants); competitive with multiple refiners; MLP structure; no sole-source or regulatory moat | 2026-07-16 |
+| MBII | Marrone Bio Innovations | Bio-based biopesticides and biostimulants; competitive with synthetic pesticides at lower cost; multiple bio-based competitors emerging; no regulatory sole-source | 2026-07-16 |
+| UAMY | US Antimony Corp | Domestic antimony mining and processing; SCARCITY moat (one of very few US producers) is geographic not technical; mining extraction with no downstream processing IP; no hard-dated 2x catalyst | 2026-07-16 |
+| GRFX | Graphex Group | Graphene-coated spherical graphite for EV battery anodes; development-stage; no differentiated market position vs. larger Asian producers | 2026-07-16 |
 | IIIN | Insteel Industries | Commodity steel wire products (PC strand, welded wire reinforcement); price-taker | 2026-07-16 |
 | SUP | Superior Industries | Aluminum wheels for OEM automotive; commodity, multiple suppliers, secular share loss | 2026-07-16 |
 | IEC | IEC Electronics | EMS contract manufacturer (build-to-spec, no own IP); no differentiation | 2026-07-16 |
@@ -182,6 +204,7 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
 | RNO.L | Renold plc (AIM UK) | Specialty precision roller chains for industrial (textile/mining/food); genuine PROCESS moat; profitable; ~£75M cap; but UK industrial capex recovery = slow grind, no hard-dated event | 2026-07-16 |
+| ADES | Advanced Emissions Solutions | Activated carbon sorbents (SARATM) for mercury removal at coal power plants; EPA MATS compliance requires use; genuine PROCESS moat in activated carbon formulation; BUT: coal power plant retirements accelerating = shrinking TAM; no positive catalyst for quick 2x; revenue declining trend | 2026-07-16 |
 | TAYD | Taylor Devices | Precision fluid shock absorbers for seismic isolation (ATC-certified, bridge/building protection); PROCESS + REGULATORY moat; ~$20-25M cap (borderline); 0 analysts; BUT seismic isolation is project-by-project with no pipeline visibility; no hard-dated catalyst | 2026-07-16 |
 | TRI.L | Trifast plc (AIM UK) | Specialty industrial fasteners (precision fasteners for auto/HVAC/electronics OEM); ~£150M cap; PROCESS moat; 1-2 AIM analysts; no hard-dated <6mo 2x catalyst; auto/industrial cycle recovery = slow grind | 2026-07-16 |
 | NTIC | Northern Technologies Intl | VpCI corrosion inhibitor moat real; no proximate 2x catalyst or hard-dated event | 2026-07-16 |
@@ -209,6 +232,7 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
+| FF | FutureFuel Corp | PARK 4/12 (quality=0, anti-value-trap): Custom specialty chemicals (LTC, SOLE_SOURCE moat, 54% of 2025 revenue) + biodiesel (IRA 45Z restart catalyst). BUT: FY2025 chemicals revenue -26% from contract expiration; Q1 2026 gross loss of -$2.5M in chemicals + -$15.9M total; dividend slashed to $0.01/share. Quality=0 (not earning its cost of capital; gross losses; major LTC expired). Anti-value-trap rule: quality=0 → PARK, never deep-dive. Cap $185.54M; 3 analysts. Revisit if: (a) Q3 2026 chemicals segment returns to gross profit, AND (b) new LTC signed, AND (c) biodiesel gross profit positive for 2 consecutive quarters | 2026-07-16 |
 | BOOM | DMC Global | DynaEnergetics (perforating gun sole-source) moat plausible; BUT quality=0 (near-zero EBITDA, Q4 2025 -$1.6M adjusted EBITDA + $7M write-offs; revenue declining YoY); price targets cut to $7; no earnings floor; 3/12 → KILL | 2026-07-16 |
 | PSIX | Power Solutions International | EPA/CARB-certified industrial engines (REGULATORY moat); BUT quality=0 (22.9% GM, revenue -5% YoY, securities class action re misleading sales/mfg cost disclosures); 3/12 → KILL | 2026-07-16 |
 | PCTI | PCTEL Inc | Antenna products (testing reference antennas with govt calibration moat); ACQUIRED by Amphenol — no longer public, not investable | 2026-07-16 |
