@@ -10,7 +10,7 @@ Names that failed the asymmetry or integrity gates.
 
 ---
 
-## Cap Kills (market cap >$300M — graduated from exclusion zone)
+## Cap Kills (market cap >$300M or <$20M — outside exclusion zone)
 
 | Ticker | Company | Market Cap | Date | Note |
 |--------|---------|-----------|------|------|
@@ -27,6 +27,16 @@ Names that failed the asymmetry or integrity gates.
 | ECVT | Ecovyst | ~$400–700M | 2026-07-16 | Silica/catalyst supports, sole/dual supplier to Dow/ExxonMobil; cap out of range |
 | SOLS | Solstice Advanced Materials | ~$1B+ | 2026-07-16 | HFOs/specialty fluids; Honeywell spinoff Oct 2025; cap out of range |
 | UFPT | UFP Technologies | ~$500–700M | 2026-07-16 | Specialty foam/composite packaging; cap out of range |
+| MLAB | Mesa Labs | ~$350M+ | 2026-07-16 | Biological indicators + calibration moat real; cap graduated above $300M limit |
+| OSUR | OraSure Technologies | ~$400–500M | 2026-07-16 | Oral fluid diagnostics (OraQuick HIV); FDA moat real but cap out of range |
+| LNTH | Lantheus Holdings | ~$3B+ | 2026-07-16 | PYLARIFY PSMA PET moat real; cap far out of range |
+| NURO | Nuo Therapeutics | <$20M | 2026-07-16 | MIST therapy bioelectric wound care; below $20M floor |
+| ATRI | Atrion Corporation | ~$500–600M | 2026-07-16 | Balloon inflation devices + cardiac MPS moat (SOLE_SOURCE); cap out of range |
+| VREX | Varex Imaging | ~$400–500M | 2026-07-16 | X-ray imaging components; cap out of range |
+| HSKA | Heska Corporation | ~$400–500M | 2026-07-16 | Veterinary diagnostics (consumable model); cap out of range |
+| TCMD | Tactile Systems Technology | ~$500M+ (confirmed: $360M+ revenue guidance 2026) | 2026-07-16 | Flexitouch lymphedema compression; moat real (REGULATORY+CONSUMABLE); cap out of range |
+| MDXG | MiMedx Group | $566M (confirmed) | 2026-07-16 | Placental allografts (Amniofix/EpiFix); 82% GM but cap graduated above $300M |
+| SMLR | Semler Scientific | $310M (confirmed June 2026) | 2026-07-16 | QuantaFlo PAD moat genuine (de facto monopoly); BUT cap just above limit AND 5 analysts; ALSO pivoting to Bitcoin accumulation; revisit if cap corrects below $200M |
 
 ---
 
@@ -39,6 +49,14 @@ Names that failed the asymmetry or integrity gates.
 | UUUU | Energy Fuels | ~4 analysts | 2026-07-16 |
 | PLL | Piedmont Lithium | ~3–4 analysts | 2026-07-16 |
 | SLI | Standard Lithium | ~3–4 analysts | 2026-07-16 |
+| QTRX | Quanterix | 5–6 analysts | 2026-07-16 | Simoa ultra-sensitive biomarker platform moat genuine; well-covered |
+| MASS | 908 Devices | 4–5 analysts | 2026-07-16 | Handheld mass spec moat; covered above threshold |
+| CATX | Perspective Therapeutics | 4–5 analysts | 2026-07-16 | Alpha-emitter radiopharmaceuticals; clinical-stage, well-followed |
+| RCEL | Avita Medical | 4–6 analysts | 2026-07-16 | RECELL burn cell spray; SOLE_SOURCE moat; but well-covered |
+| SENS | Senseonics Holdings | 4–6 analysts | 2026-07-16 | Eversense 365-day implantable CGM; REGULATORY moat; but well-covered |
+| TELA | TELA Bio | 4–5 analysts | 2026-07-16 | OviTex biologic mesh; moat moderate; covered above threshold |
+| NYXH | Nyxoah SA | 4–5 analysts (Euro + US) | 2026-07-16 | Genio sleep apnea neurostimulation; Belgian-listed; covered above threshold |
+| BVS | Bioventus | 4–6 analysts | 2026-07-16 | Exogen bone healing (REGULATORY moat) + ortho biologics; well-covered |
 
 ---
 
@@ -53,6 +71,9 @@ Names that failed the asymmetry or integrity gates.
 | GEVO | Gevo Inc | Negative equity; going-concern risk; bio-isobutanol/SAF dev stage | 2026-07-16 |
 | AMVAC | American Vanguard | $165–196M net debt; credit facility extended only to Dec 2026; going-concern adjacent; 2025 net loss $49.9M | 2026-07-16 |
 | APDN | Applied DNA Sciences | Below $20M market cap floor | 2026-07-16 |
+| AXDX | Accelerate Diagnostics | Going-concern disclosures; serial equity dilution; heavy cash burn on ACCELERATE Pheno platform | 2026-07-16 |
+| ECOR | Electrocore | Serial equity dilution; ongoing operating losses; no earnings floor on gammaCore VNS device | 2026-07-16 |
+| MDXH | MDxHealth SA | $10.4M Medicare recoupment notice on ~$25M market cap (existential); multiple analyst downgrades (PT cut to $1.00–$1.50); discontinued Resolve test; quality score = 0 | 2026-07-16 |
 
 ---
 
@@ -81,6 +102,12 @@ Names that failed the asymmetry or integrity gates.
 | GSM | Ferroglobe | Silicon metal; multiple global suppliers, commodity pricing | 2026-07-16 |
 | ASIX | AdvanSix | Nylon-6 intermediates; globally competitive, several caprolactam producers | 2026-07-16 |
 | CBT | Cabot Corp | Carbon black primarily commodity; specialty portion too small fraction | 2026-07-16 |
+| DRAD | Digirad Corporation | Mobile nuclear cardiology imaging services; no sole-source competitive position | 2026-07-16 |
+| HBIO | Harvard Bioscience | Research instruments (bioreactors, electrophysiology); competes with Thermo, Eppendorf, etc. | 2026-07-16 |
+| BASS | Bioanalytical Systems | Generic HPLC instruments + CRO services; no unique lock-in | 2026-07-16 |
+| INFU | InfuSystem Holdings | Oncology infusion pump services; competes with Option Care, others; no moat | 2026-07-16 |
+| POAI | Predictive Oncology | AI oncology platform; no sole-source lock-in; competitive AI space | 2026-07-16 |
+| HROW | Harrow | Ophthalmology compounding pharmacy; no regulatory moat over other compounders | 2026-07-16 |
 
 ---
 
@@ -95,6 +122,12 @@ Names that failed the asymmetry or integrity gates.
 | ACNT | Ascent Industries | Weak moat in chemicals segment; no identified near-term catalyst | 2026-07-16 |
 | CMT | Core Molding Technologies | FRP composites for heavy trucks; trucking cycle recovery is slow, no hard-dated trigger | 2026-07-16 |
 | AP | Ampco-Pittsburgh | Specialty rolls for steel mills; steel capex cycle, no hard-dated event | 2026-07-16 |
+| IRIX | Iridex Corporation | Ophthalmic laser + TxCell consumables; transition to recurring model is slow; no hard-dated re-rating event | 2026-07-16 |
+| ORGO | Organogenesis Holdings | Wound care collagen matrices (Apligraf/Dermagraft); multiple competitors; growth slow; no hard trigger | 2026-07-16 |
+| RMTI | Rockwell Medical | IV iron Triferic for dialysis; limited commercial upside; no near-term catalyst | 2026-07-16 |
+| VNDA | Vanda Pharmaceuticals | Hetlioz (Non-24) faces generic entry; FDA orphan drug moat eroding; headwind not catalyst | 2026-07-16 |
+| CLPT | ClearPoint Neuro | MRI-guided neurosurgery platform; neurosurgery ramp is slow; no hard-dated event | 2026-07-16 |
+| ICAD | iCAD Inc | Pending acquisition by RadNet Inc.; merger arb only; no re-rating upside remaining | 2026-07-16 |
 
 ---
 

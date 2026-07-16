@@ -51,7 +51,10 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 3. **Consumables with installed-base lock-in re-rate reliably** — specified into an OEM tool, the base replaces annually.
 4. **Strategic acquirers value moats at 3–6x sales vs. market's 1–2x** — acquisition attractiveness is itself a catalyst.
 5. **Foreign listings (Japan/Germany/UK/Canada mid-cap) with US OTC lines are English-language deserts** — initiation re-rates 20–40%.
+6. **Medical diagnostics well-covered despite small caps** — most moated med-device/dx names in the $100-300M range carry 4-6 analysts; true coverage voids are exceptional. The better edge: well-moated businesses under 3 analysts with FDA catalysts pending.
+7. **Medicare reimbursement risk is as binary as FDA approval** — a CMS recoupment notice can be existential at small caps (MDXH: $10.4M recoupment on $25M cap). Favor companies where reimbursement codes are mature and established.
+8. **31% GM OEM manufacturers are not high-moat businesses** — despite sole-source position, if GM is <40%, the pricing power is limited and the quality score cannot reach 2; avoid unless catalyst is exceptional.
 
 ---
 
-*Doctrine formalized 2026-07-16. Hourly scout, one sector per run (hour mod 5), promise-gated deep-dives. DIGEST last updated 2026-07-16.*
+*Doctrine formalized 2026-07-16. Hourly scout, one sector per run (hour mod 5), promise-gated deep-dives. DIGEST last updated 2026-07-16T01:17Z (sector 1: Medical Diagnostics & Consumables).*
