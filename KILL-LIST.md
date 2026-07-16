@@ -368,4 +368,55 @@ Names that failed the asymmetry or integrity gates.
 
 | ASLE | AerSale Corp | PARK 3/12 (quality=0, anti-value-trap): Aircraft whole-unit MRO + used parts (USM) + leasing; ~$296M cap; TTM rev $335M; Q1 2026 net loss -$3.5M (improving from -$5.3M); Adj EBITDA $46.1M; 31.6% GM; 2 analysts. EchoRT STC moat claim unverifiable in confirming search — core business (USM parts, aircraft MRO) is competitive with GA Telesis/HEICO Parts/Kellstrom. Quality=0 (net losses; capital-intensive; cyclical). Anti-value-trap rule: quality=0 → PARK, never deep-dive. Total 3/12. Revisit only if EchoRT STC confirmed with specific disclosed revenue + company achieves net income positive 2 consecutive quarters + cap below $200M | 2026-07-16 |
 
+---
+
+## 2026-07-16T11:18 Run Kills — Sector 1 (Medical Diagnostics & Consumables, 3rd pass)
+
+### Integrity Kills
+
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| NCYT.L | Novacyt (AIM London; UK OTC) | Post-COVID PCR diagnostic revenue cliff: FY2025 revenue £19.45M down from COVID-era £65M peak; ongoing operating losses; going-concern probable; Southern Cross Diagnostics acquisition adds footprint but not earnings floor. Despite real PCR chemistry platform, quality=0 | 2026-07-16 |
+| BDSX | Biodesix | Specialty pulmonology diagnostics (Nodify CDT + XL2 for lung nodule triage; proteomic biomarker platform); genuine PROCESS moat; BUT serial equity dilution + ongoing cash burn (no earnings floor); history of going-concern risk. Anti-value-trap: quality=0 (losses); INTEGRITY_KILL | 2026-07-16 |
+| NMTC | NeuroOne Medical Technologies | Neural electrode arrays for epilepsy monitoring/BCI; development-stage; no commercial revenue; pre-commercial cash burn; no earnings floor. Note: NeuroPace = NPCE (different ticker) | 2026-07-16 |
+| CREO.L | Creo Medical (AIM London) | CROMA platform (Combo Radiofrequency + Microwave for endoscopic GI ablation); REGULATORY moat (CE marking); ~£30-40M cap; BUT pre-commercial stage losses; cash-burning development company; no earnings floor | 2026-07-16 |
+| AVR.AX | Anteris Technologies (ASX) | DurAVR transcatheter aortic valve (single-piece biomimetic TAVR; CE marked Jan 2024; FDA IDE trial underway); genuine REGULATORY moat; ~A$250M cap = ~$160M USD; BUT pre-commercial zero revenue; cash-burning development stage; INTEGRITY_KILL | 2026-07-16 |
+| BFLY | Butterfly Network | Handheld CMUT ultrasound (Butterfly iQ — only all-in-one single-probe ultrasound using CMUT chip; genuine PROCESS moat); ~$200-300M cap; Revenue ~$60-80M; BUT ongoing GAAP losses + serial equity dilution (multiple shelf filings); no earnings floor; INTEGRITY_KILL. Revisit if EBITDA positive + dilution ceases | 2026-07-16 |
+| NNOX | Nano-X Imaging | Digital X-ray (Nanox.ARC multi-source X-ray system); ~$100-200M cap; BUT: Muddy Waters short report (Aug 2020) + SEC investigation; pre-commercial revenue; ongoing losses; integrity concerns unresolved | 2026-07-16 |
+| BNGO | Bionano Genomics | Saphyr optical genome mapping (SOLE_SOURCE OGM for structural chromosome variants; FDA cleared prenatal + hematology use); ~$20-40M cap; genuine moat; BUT: serial equity dilution (10+ registered offerings 2020-2026), ongoing losses ~$50M/yr, no earnings floor, going-concern risk. INTEGRITY_KILL despite genuine moat | 2026-07-16 |
+| CODX | Co-Diagnostics | Modular PCR diagnostic kit platform (Logix Smart); ~$15M cap (below $20M floor also CAP_KILL); post-COVID revenue collapse; operating losses | 2026-07-16 |
+| OXB.L | Oxford Biomedica (AIM London) | GMP lentiviral vector CDMO (gene therapy manufacturing); genuine PROCESS moat in lentiviral manufacturing; ~£200-250M = ~$250-312M (extended zone); BUT 3-4 AIM analysts (borderline COVERAGE_KILL) + no hard-dated <6mo 2x catalyst + loss-making CAP_SOFT_KILL | 2026-07-16 |
+| GHH.L | Gama Healthcare (UK) | Clinell infection-control wipes (NHS-specified brand; genuine CONSUMABLE moat); £70-80M estimated cap; BUT private company — not publicly listed or traded | 2026-07-16 |
+
+### Cap Kills (>$1.5B, or <$20M floor, or extended-zone without exceptional asymmetry)
+
+| Ticker | Company | Market Cap | Reason | Date |
+|--------|---------|-----------|--------|------|
+| GDR.L | Genedrive (AIM London) | £11.44M = ~$14M | POC molecular Dx (HCV/COVID; HLA-B typing for abacavir sensitivity); genuine niche moat; BUT cap below $20M floor | 2026-07-16 |
+| NPCE | NeuroPace | $542M (confirmed Jul 2026) | RNS System (sole commercial closed-loop responsive neurostimulator for drug-resistant epilepsy; SOLE_SOURCE genuine moat; FDA approved 2013); Q1 2026 TTM revenue $100M +20% YoY; 2026 guidance $99-101M; BUT cap $542M = extended zone; ongoing GAAP losses (Q1 GAAP net loss -$6.7M) + likely 4+ analysts at $100M revenue Nasdaq company. Revisit if cap corrects below $300M AND earnings positive | 2026-07-16 |
+| AMS.L | Advanced Medical Solutions (AIM London) | £603.82M = ~$750M | Tissue adhesives + wound care (LIQUIBAND® FDA-cleared internal/external; OEM to BSN Medical/Mölnlycke; genuine REGULATORY moat); FY2025 revenue £228.94M +29%; BUT cap 2.5x our $300M limit + multiple analysts; CAP_SOFT_KILL | 2026-07-16 |
+| AXGN | Axogen | ~$400M | Peripheral nerve repair (AvanceNerve processed human allograft + AxoGuard conduits; AATB accreditation moat; genuine REGULATORY/PROCESS moat); growing 15-20% revenue; BUT cap extended zone + 5-6 analysts; COVERAGE_KILL + CAP_SOFT_KILL | 2026-07-16 |
+| SIBN | SI-BONE | ~$300-350M | iFuse triangular titanium implants for SI joint fusion (REGULATORY moat; FDA cleared; specific anatomical approach); growing revenue; BUT cap extended zone + 4-5 analysts; COVERAGE_KILL + CAP_SOFT_KILL | 2026-07-16 |
+
+### Coverage Kills (>4 sell-side analysts)
+
+| Ticker | Company | Analyst Count | Date |
+|--------|---------|---|------|
+| CSTL | Castle Biosciences | 5-6 analysts | Dermatology gene expression profiling (DecisionDx-Melanoma, -UM, -SCC — FDA validated CPT-reimbursed panels; genuine PROCESS moat); ~$350-400M cap also CAP_SOFT_KILL; revenue growing; well-covered on Nasdaq | 2026-07-16 |
+| LUNG | Pulmonx | 4-5 analysts | Zephyr EBV (sole commercial US endobronchial valve for COPD emphysema; FDA approved 2018; SOLE_SOURCE genuine moat); ~$100-150M cap; revenue ~$60-80M growing; BUT 4-5 analysts; COVERAGE_KILL | 2026-07-16 |
+
+### No-Moat Kills
+
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| IHC.L | Inspiration Healthcare (AIM London) | Neonatal/pediatric ICU devices (SleepSafe CPAP, airway management); ~£15-20M cap (also CAP_KILL borderline); BUT multiple competitors in neonatal respiratory support (Dräger, Fisher & Paykel Healthcare, Intersurgical, Hamilton Medical); no confirmed sole-source or regulatory lock-in position; NO_MOAT_KILL | 2026-07-16 |
+
+### Quality Kills / Anti-Value-Trap (quality=0)
+
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| STXS | Stereotaxis | Magnetic robotic cardiac EP navigation (Niobe/Genesis/GenesisX RMN — only commercial magnetic navigation system for cardiac EP; SOLE_SOURCE genuine moat; 2 analysts; ~$184M cap); FY2025 revenue $32.4M +20% YoY; 2026 guidance >$40M (24% systems growth). BUT: **net loss -$22.9M on $32.4M revenue = 71% loss rate; anti-value-trap rule: quality=0 → PARK/KILL, never deep-dive.** Revisit ONLY if EBITDA positive for 2 consecutive quarters and net loss narrows to <$5M annually | 2026-07-16 |
+| SRTS | Sensus Healthcare | SRT-100/Vision superficial radiation therapy for non-melanoma skin cancer (FDA 510(k) cleared; BalancedCare per-treatment recurring revenue model); $76.38M cap; BUT: Q1 2026 revenue $3.4M vs $8.3M Q1 2025 = **-59% YoY revenue collapse**; FY2025 revenue $27.5M with net loss -$7.7M; gross margin 47.95%; competition from Xstrahl and increasing Mohs surgical adoption. Quality=0 (losses + declining revenue); anti-value-trap | 2026-07-16 |
+| DYAI | Dyadic International | C1 fungal cell expression platform for protein/enzyme manufacturing (licensing model to pharma/CDMO partners; PROCESS moat in high-yield microbial fermentation); ~$30-60M cap; BUT: quality=0 (minimal revenue ~$3-5M licensing fees; ongoing operating losses; pre-commercial/development-stage with no earnings floor); no near-term hard-dated catalyst. Anti-value-trap rule; NO_CATALYST_KILL concurrent | 2026-07-16 |
+
 *(Will populate as routine runs)*
