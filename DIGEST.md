@@ -27,9 +27,9 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 ## Current WATCH List (moat + floor + catalyst ALL confirmed by a deep-dive memo)
 
-| Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Date |
-|--------|---------|--------|------|-----------|-------|-------------|------|
-| *(none yet — WATCH requires a completed §5 deep-dive memo; see QUEUED_HOT below)* | | | | | | | |
+| Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Date Added |
+|--------|---------|--------|------|-----------|-------|-------------|-----------|
+| HURC | Hurco Companies | Industrial Precision (CNC) | SOFT switching cost (WinMax operator retention); Takumi line runs Fanuc so moat does NOT lock in new buyers | ~$147M (~$22.76/sh, near 52-week high of $23.75) | $50.06M cash, $0 debt, 0.77x book — balance-sheet floor; not earnings floor (losses at <$200M rev due to tariff drag on Taiwan/China mfg) | Earnings normalization to ~$3-4/sh mid-cycle (~2x from ~$22); Q3 FY2026 operating-breakeven print ~early Sept 2026 is confirmation catalyst; optimal entry on pullback to $16-19 | 2026-07-16 |
 
 ---
 
@@ -37,7 +37,7 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 | Ticker | Company | Sector | Scout Score | Caveat |
 |--------|---------|--------|-------------|--------|
-| HURC | Hurco Companies | Industrial Precision (CNC) | 10/12 (scout, unverified) | Switching-cost moat is *soft* (WinMax vs Haas/Fanuc); flat decade revenue → business-quality likely 1 not 2; catalyst = Q3 FY2026 print ~Nov. Deep-dive must confirm before WATCH — prior semis-KB analysis judged it 2:1, not a clean quick-2x. |
+| *(none — HURC promoted to WATCH after 2026-07-16 deep-dive)* | | | | |
 
 ## CANDIDATE List (promising, catalyst not yet proximate)
 
@@ -57,4 +57,4 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 ---
 
-*Doctrine formalized 2026-07-16. Hourly scout, one sector per run (hour mod 5), promise-gated deep-dives.*
+*Doctrine formalized 2026-07-16. Hourly scout, one sector per run (hour mod 5), promise-gated deep-dives. DIGEST last updated 2026-07-16.*

@@ -6,7 +6,7 @@ This file is the living map of all niche-moat candidates ever surfaced by the ho
 
 Next to analyze: **HURC** (first rotation start)
 Last rotation completed: **NEVER**
-Universe size: 2 (HURC WATCH, OFLX QUEUED)
+Universe size: 2 (HURC WATCH-conditional, OFLX QUEUED)
 Analyzed this week: 2
 
 ---
@@ -41,7 +41,7 @@ Analyzed this week: 2
 
 | Ticker | Company | Sector | Moat Type | Excl. Reason | Date Added | Last Analyzed | Status | Floor | 2x Catalyst |
 |--------|---------|--------|-----------|--------------|------------|---------------|--------|-------|------------|
-| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (soft) | — | 2026-07-15 | 2026-07-15 | QUEUED_HOT | $50M cash / $0 debt (34% of $146M cap) | Q3 FY2026 profitability print ~Nov 2026 on +41% order surge — deep-dive pending before WATCH |
+| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (soft, retention not lock-in) | — | 2026-07-15 | 2026-07-16 | WATCH (conditional) | $50.06M cash / $0 debt / 0.77x book — balance-sheet floor (not earnings floor; loses money <$200M rev due to tariff margin drag) | Q3 FY2026 operating-breakeven print ~early Sept 2026; 2x via earnings normalization to ~$3-4/share mid-cycle; entry best on pullback to $16-19 |
 | OFLX | Omega Flex | Industrial Precision (CSST Flexible Gas Piping) | REGULATORY + PROCESS | — | 2026-07-15 | 2026-07-15 | QUEUED | Profitable, likely net cash, dividend-paying | No specific catalyst visible; re-rating if new construction cycles up |
 
 *(Will populate hourly as scouts find candidates)*
