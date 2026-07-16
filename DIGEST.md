@@ -27,9 +27,17 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 ## Current WATCH List (moat + floor + catalyst ALL confirmed by a deep-dive memo)
 
-| Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Date Added |
-|--------|---------|--------|------|-----------|-------|-------------|-----------|
-| HURC | Hurco Companies | Industrial Precision (CNC) | SOFT switching cost (WinMax operator retention); Takumi line runs Fanuc so moat does NOT lock in new buyers | ~$147M (~$22.76/sh, near 52-week high of $23.75) | $50.06M cash, $0 debt, 0.77x book — balance-sheet floor; not earnings floor (losses at <$200M rev due to tariff drag on Taiwan/China mfg) | Earnings normalization to ~$3-4/sh mid-cycle (~2x from ~$22); Q3 FY2026 operating-breakeven print ~early Sept 2026 is confirmation catalyst; optimal entry on pullback to $16-19 | 2026-07-16 |
+*Updated 2026-07-16*
+
+| Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Deep-Dive Score | Date |
+|--------|---------|--------|------|-----------|-------|-------------|-----------------|------|
+| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (moderate — WinMax conversational control creates operator-familiarity + service-relationship lock-in; G-code compatible, not a hard lock-in; Takumi line runs Fanuc so moat does NOT lock in new buyers) | ~$147M (~$22.76/sh, near 52-week high of $23.75) | $50.1M cash / $0 debt / $166.9M working capital; balance-sheet floor (not earnings floor — operating losses in FY2024–FY2026 trough; dividend suspended) | **Sept 4 2026 Q3 earnings print** off +41% order surge ($61.6M Q2 orders vs $47.6M rev); target revenue ~$52–56M + first profitability print since trough; base case +40–60%; clean 2x needs full-cycle recovery (~$250M rev, 8–10% EBIT); optimal entry on pullback to $16–19 | 9/12 (moat 1, quality 1, coverage 2, valuation 1, catalyst 2, floor 2) | 2026-07-16 |
+
+**HURC watch notes:**
+- Institutions already own ~75%+ (Oakmark/Nygren 9.2%, Brandes 7.7%, Acuitas 6.6%) — NOT an undiscovered name; re-rate is fundamental (profitability print), not discovery
+- Key risk: Americas order surge (+63%) may be tariff pull-forward; Europe (~55–60% of sales, +17% orders, sales actually fell in Q2) is Hurco's dominant market and remains in industrial recession
+- Dividend suspended; reinstating at Q3/Q4 print would be a confirming signal
+- Memo: `memos/HURC-2026-07-16.md`
 
 ---
 
@@ -43,7 +51,7 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 | Ticker | Company | Sector | Promise Score | Note |
 |--------|---------|--------|---------------|------|
-| OFLX | Omega Flex | Industrial Precision (CSST) | 8/12 — strong moat (CSST near-monopoly, regulatory cert), profitable, 0-1 analysts, no near-term catalyst visible |
+| OFLX | Omega Flex | Industrial Precision (CSST) | 8/12 | Strong moat (CSST near-monopoly, regulatory cert), profitable, 0-1 analysts, no near-term catalyst visible |
 
 ---
 

@@ -12,9 +12,8 @@
 *.tmp
 .DS_Store
 
-# Briefs and memos (will be generated)
+# Briefs (auto-generated, not versioned)
 briefs/
-memos/
 
 # Logs
 *.log

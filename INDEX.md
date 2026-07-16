@@ -2,9 +2,10 @@
 
 Quick reference for all tracked companies.
 
-| Ticker | Company | Sector | Verdict | Mkt Cap | Analysts | Moat | Floor | 2x Catalyst | Next Review |
-|--------|---------|--------|---------|---------|----------|------|-------|-------------|------------|
-| HURC | Hurco Companies | Industrial Precision (CNC) | WATCH (conditional) | ~$147M ($22.76/sh, near $23.75 high) | 0 | SWITCHING COST soft (WinMax retention, not lock-in; Takumi runs Fanuc) | $50M cash / $0 debt / 0.77x book — balance-sheet floor; loses money at <$200M rev | ~2x via earnings normalization ($3-4/sh mid-cycle); Sept 2026 Q3 print is next catalyst; optimal entry $16-19 | Q3 FY2026 print ~early September 2026 |
+| Ticker | Company | Sector | Verdict | Mkt Cap | Analysts | Moat | Floor Quality | 2x Upside | Next Review |
+|--------|---------|--------|---------|---------|----------|------|---------------|-----------|------------|
+| HURC | Hurco Companies | Industrial Precision (CNC) | WATCH (cautious) — 9/12 | ~$147M (~$22.76/sh) | 0–2 | SWITCHING COST (WinMax, moderate; Takumi line runs Fanuc so moat is retention not lock-in) | $50.1M cash / $0 debt / $166.9M working capital (balance-sheet floor; loses money at <$200M rev) | Base +40–60%; clean 2x needs full-cycle recovery. Entry best on pullback to $16–19. Risk: tariff pull-forward + European recession | **Sept 4 2026 Q3 earnings** — watch for revenue ~$52–56M + breakeven/profitability print |
 | OFLX | Omega Flex | Industrial Precision (CSST) | QUEUED | ~$298M | 0–1 | REGULATORY + PROCESS | Profitable, dividend, net cash | Needs catalyst discovery; moat strong, no trigger visible | Next construction cycle data |
+| CPSH | CPS Technologies | Specialty Materials (AlSiC MMC) | PARK — 5/12 | ~$95M | ~0–2 | PROCESS (AlSiC base plates, power electronics) | Profitable, ~$32.6M rev | No valuation gap; no hard catalyst. Revisit at lower cap or SiC/EV volume surge | When cap corrects to <1.5x P/S or hard catalyst emerges |
 
 *(Populated as routine runs)*
