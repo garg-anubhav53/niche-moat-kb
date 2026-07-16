@@ -1,14 +1,14 @@
 # Niche Moat KB — Cross-Industry Asymmetric Upside Hunter
 
-An hourly Claude Routine that scouts for undervalued, moat-protected small-caps across all industries (except defense), and spends deep-research tokens **only** on the names that clear a high asymmetry bar.
+An hourly Claude Routine that scouts for moat-protected companies (mostly small-cap, all industries except defense) and spends deep-research tokens **only** on the names that earn them — then grades each on **risk-adjusted asymmetric value**.
 
 ## The Thesis
-Find companies where (a) the moat is defensible enough to be the downside floor, and (b) the market hasn't priced it, with (c) a specific catalyst that forces a ~2x re-rating. Institutions are structurally excluded from these $20–300M, thinly-traded, under-covered names — an individual is not.
+Own moat-protected businesses where the moat is the downside floor, bought below what the moat is worth. **Two independent reasons to be interested, decoupled:** (1) a genuinely high-quality, protected business is worth owning *even without* a near-term re-rate (**CORE** — own & wait); (2) a likely near-term re-rating adds urgency (**CATALYST** — time the trade). Smaller cap = likelier off institutional radar, so size is a **gradient** (core zone $20–300M; larger allowed if asymmetry is exceptional — an ~$800M grade-A name qualifies; >$1.5B out).
 
-## Architecture — cheap funnel, gated depth
-- **Hourly funnel (~4–5k tokens):** one sector per run (UTC hour mod 5), ≤4 searches, kill-fast triage gates, then a 0–10 **promise score**. All five sectors covered every 5 hours.
-- **Promise gate:** only a candidate scoring **≥8/10** unlocks a deep-dive (max one per run). 5–7 queue for later; ≤4 park or die. Deep tokens never touch a mediocre name.
-- **Deep-dive:** answers the five asymmetry questions (moat, floor, catalyst, what's-priced, what-kills-it); promotes to WATCH only if moat + floor + a <~12-month catalyst all confirm.
+## Architecture — cheap funnel, gated depth, rigorous deep-dive
+- **Hourly funnel (~5–7k tokens):** one sector/run (UTC hour mod 5), ≤6 broad searches, **free** batch triage of 20–40 names, a /12 funnel score on ≤8 survivors. All five sectors covered every 5 hours.
+- **Gate:** ≥10 → deep-dive now; 6–9 → queue; a 6/6 quality-and-floor name with no catalyst still queues (`QUEUED_CORE`). Deep tokens never touch a mediocre name.
+- **Deep-dive (`METHOD.md`):** four sub-scores (Quality, Floor, Re-rate, Confidence) + a 10-item **skeptic's confirmation checklist** (revenue recognized? not lost? not captured by a rival? moat stays sticky?) + a **historical base-rate** analog check + a final **risk-adjusted asymmetry grade (A/B/C/D)** and tier.
 
 ## Files
 | File | Purpose |
