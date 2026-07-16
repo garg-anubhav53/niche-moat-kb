@@ -8,11 +8,12 @@
 
 ## The Asymmetry Bar (what "best" means)
 
-A WATCH-grade idea must have BOTH, concretely:
-- **Legitimate chance to ~2x QUICKLY on a re-rating** — a specific catalyst with a **hard date or clear trigger inside ~6 months** (earnings inflection printing, analyst initiation, contract award decision, regulatory/cert decision, trial readout, index rebalance, capacity constraint biting NOW). The re-rating must be capable of happening in 6–12 months, not a 3–5 year grind. Not "cheap and hope."
-- **Very little rational downside** — the moat produces a durable earnings/asset floor. On zero new orders the business still earns; net cash or <1x leverage; no dilution machine; no going-concern/ delisting/ negative-equity risk.
+A WATCH-grade idea must have ALL THREE, concretely:
+- **Legitimate chance to ~2x QUICKLY on a re-rating** — a specific catalyst with a **hard date or clear trigger inside ~6 months** that forces a *re-rating* (analyst initiation, contract award, regulatory/cert decision, trial readout, index rebalance, capacity constraint biting NOW, an earnings *inflection* that reveals hidden earning power). **NOT a slow cyclical earnings recovery to "mid-cycle" over multiple years** — that is a grind, not a quick 2x, and does NOT qualify. If the 2x needs the whole industry cycle to turn, it is CANDIDATE at best.
+- **The asymmetric entry must exist NOW** — if the stock is near its 52-week high, the cheap entry is already gone → CANDIDATE (with a buy-zone), never WATCH. WATCH = buyable today with the 2x still ahead.
+- **Very little rational downside** — the moat produces a durable **earnings** floor (still earns on zero new orders), not merely an asset/book floor. Net cash or <1x leverage; no dilution machine; no going-concern/ delisting/ negative-equity risk. A name that *loses money* at trough revenue has only a balance-sheet floor → cap at CANDIDATE.
 
-If you cannot name the near-term catalyst AND the floor mechanism in one sentence each, it is NOT WATCH-grade. Most names are not. That is correct.
+If you cannot name the near-term *re-rating* catalyst, a buyable-today entry, AND the earnings-floor mechanism each in one sentence, it is NOT WATCH-grade. Most names are not. That is correct.
 
 ## Throughput Mandate (run to the max, cheaply)
 
@@ -99,7 +100,12 @@ For each survivor, ONE confirming search (live cap, volume, analyst count, lates
 
 This score is the whole point: **deep tokens flow only to ≥10s that are also genuinely good businesses.** Everything else waits or dies cheap.
 
-**WATCH guardrail (hard):** The inline scout may NEVER write a name to the DIGEST WATCH list. The best a scout pass can do is `QUEUED_HOT`. A name becomes WATCH **only** after a §5 deep-dive produces a `memos/[TICKER]-[DATE].md` verdict confirming moat + floor + a nameable near-term catalyst. No memo → not WATCH. This prevents a generous inline score from minting an unverified WATCH.
+**WATCH guardrail (hard):** The inline scout may NEVER write a name to the DIGEST WATCH list. The best a scout pass can do is `QUEUED_HOT`. A name becomes WATCH **only** when ALL of these hold:
+1. A §5 deep-dive has actually written `memos/[TICKER]-[DATE].md` (the file must exist and be committed).
+2. The 2x catalyst is a genuine near-term **re-rating** (not a multi-year cyclical recovery).
+3. The stock is **not near its 52-week high** — the asymmetric entry still exists today.
+4. The floor is an **earnings** floor (profitable at trough), not merely an asset/book floor.
+If any of 2–4 fail, the name is **CANDIDATE with a buy-zone**, not WATCH. There is no "conditional" or "cautious WATCH" status — it is WATCH or it is CANDIDATE. A deep-dive that scores ~9/12 with a cyclical catalyst and an asset-only floor is a **CANDIDATE**, full stop.
 
 ---
 

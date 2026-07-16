@@ -6,7 +6,7 @@ This file is the living map of all niche-moat candidates ever surfaced by the ho
 
 Next to analyze: **OFLX** (HURC deep-dive completed 2026-07-16)
 Last rotation completed: **NEVER**
-Universe size: 3 (HURC WATCH cautious, OFLX QUEUED, CPSH PARK)
+Universe size: 3 (HURC CANDIDATE, OFLX QUEUED, CPSH PARK)
 Analyzed this week: 3
 
 ---
@@ -41,7 +41,7 @@ Analyzed this week: 3
 
 | Ticker | Company | Sector | Moat Type | Excl. Reason | Date Added | Last Analyzed | Status | Floor | 2x Catalyst |
 |--------|---------|--------|-----------|--------------|------------|---------------|--------|-------|------------|
-| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (moderate) | — | 2026-07-15 | 2026-07-16 | WATCH (cautious) | $50.1M cash / $0 debt / $166.9M working capital; balance-sheet floor (not earnings floor — operating losses FY2024–FY2026 trough; dividend suspended) | Sept 4 2026 Q3 print off +41% order surge; base case +40–60%; clean 2x = full-cycle recovery (~$250M rev, 8–10% EBIT). Risk: tariff pull-forward + European recession. Memo: memos/HURC-2026-07-16.md |
+| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (moderate) | — | 2026-07-15 | 2026-07-16 | CANDIDATE | $50.1M cash / $0 debt / $166.9M WC; balance-sheet floor NOT earnings floor (operating losses FY2024–FY2026; dividend suspended) | Cyclical 2x (base +40–60%, clean 2x = full-cycle recovery); near 52-wk high; buy-zone $16-19 — fails WATCH tests 2/3/4. Memo: memos/HURC-2026-07-16.md |
 | OFLX | Omega Flex | Industrial Precision (CSST Flexible Gas Piping) | REGULATORY + PROCESS | — | 2026-07-15 | 2026-07-15 | QUEUED | Profitable, likely net cash, dividend-paying | No specific catalyst visible; re-rating if new construction cycles up |
 | CPSH | CPS Technologies | Specialty Materials (AlSiC MMC power electronics) | PROCESS | — | 2026-07-16 | 2026-07-16 | PARK | ~$95M cap, $32.6M rev; profitable at current volumes | PARK 5/12: AlSiC moat genuine (base plates for IGBT/SiC power modules) but ~3x P/S, no hard catalyst; revisit if cap corrects or EV/SiC volume surge materializes |
 

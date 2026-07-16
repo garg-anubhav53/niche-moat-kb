@@ -25,32 +25,21 @@ Moat clarity · **Business quality** · Coverage void · Valuation gap · Cataly
 
 ---
 
-## Current WATCH List (moat + floor + catalyst ALL confirmed by a deep-dive memo)
+## Current WATCH List (buyable today · quick re-rating catalyst · earnings floor · deep-dive memo on file)
 
 *Updated 2026-07-16*
 
-| Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Deep-Dive Score | Date |
-|--------|---------|--------|------|-----------|-------|-------------|-----------------|------|
-| HURC | Hurco Companies | Industrial Precision (CNC Machine Tools) | SWITCHING COST (moderate — WinMax conversational control creates operator-familiarity + service-relationship lock-in; G-code compatible, not a hard lock-in; Takumi line runs Fanuc so moat does NOT lock in new buyers) | ~$147M (~$22.76/sh, near 52-week high of $23.75) | $50.1M cash / $0 debt / $166.9M working capital; balance-sheet floor (not earnings floor — operating losses in FY2024–FY2026 trough; dividend suspended) | **Sept 4 2026 Q3 earnings print** off +41% order surge ($61.6M Q2 orders vs $47.6M rev); target revenue ~$52–56M + first profitability print since trough; base case +40–60%; clean 2x needs full-cycle recovery (~$250M rev, 8–10% EBIT); optimal entry on pullback to $16–19 | 9/12 (moat 1, quality 1, coverage 2, valuation 1, catalyst 2, floor 2) | 2026-07-16 |
-
-**HURC watch notes:**
-- Institutions already own ~75%+ (Oakmark/Nygren 9.2%, Brandes 7.7%, Acuitas 6.6%) — NOT an undiscovered name; re-rate is fundamental (profitability print), not discovery
-- Key risk: Americas order surge (+63%) may be tariff pull-forward; Europe (~55–60% of sales, +17% orders, sales actually fell in Q2) is Hurco's dominant market and remains in industrial recession
-- Dividend suspended; reinstating at Q3/Q4 print would be a confirming signal
-- Memo: `memos/HURC-2026-07-16.md`
+| Ticker | Company | Sector | Moat | Market Cap | Floor | 2x Catalyst | Date |
+|--------|---------|--------|------|-----------|-------|-------------|------|
+| *(none yet — no name has cleared all four WATCH tests. HURC deep-dived to 9/12 → CANDIDATE, see below)* | | | | | | | |
 
 ---
 
-## QUEUED_HOT (scored ≥10, awaiting deep-dive to confirm/deny WATCH)
+## CANDIDATE List (real quality &/or a real deep-dive, but not a buyable-today quick-2x — track the buy-zone)
 
-| Ticker | Company | Sector | Scout Score | Caveat |
-|--------|---------|--------|-------------|--------|
-| *(none — HURC promoted to WATCH after 2026-07-16 deep-dive)* | | | | |
-
-## CANDIDATE List (promising, catalyst not yet proximate)
-
-| Ticker | Company | Sector | Promise Score | Note |
-|--------|---------|--------|---------------|------|
+| Ticker | Company | Sector | Score | Note |
+|--------|---------|--------|-------|------|
+| HURC | Hurco Companies | Industrial Precision (CNC) | 9/12 (deep-dived) | Thorough memo confirms it is NOT a WATCH: moat moderate/soft (WinMax retention, G-code-compatible, Takumi runs Fanuc); floor is **balance-sheet not earnings** (operating losses FY24–FY26, dividend suspended); 2x is **cyclical** (base +40-60%, clean 2x needs full-cycle recovery); stock **~$22.76 near 52-wk high $23.75**; institutions already own ~75%. Fails WATCH tests 2/3/4. **Buy-zone $16-19.** Memo: `memos/HURC-2026-07-16.md` |
 | OFLX | Omega Flex | Industrial Precision (CSST) | 8/12 | Strong moat (CSST near-monopoly, regulatory cert), profitable, 0-1 analysts, no near-term catalyst visible |
 
 ---

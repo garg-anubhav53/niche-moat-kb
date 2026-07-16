@@ -4,8 +4,8 @@ Sector is chosen statelessly by (UTC hour mod 5) — see ROUTINE.md §1. This fi
 
 ## Counters
 Total runs: 2
-Universe size: 3 (HURC WATCH cautious, OFLX QUEUED, CPSH PARK)
-WATCH count: 1 (HURC — cautious, Sept 4 2026 catalyst)
+Universe size: 3 (HURC CANDIDATE, OFLX QUEUED, CPSH PARK)
+WATCH count: 0 (HURC 9/12 → CANDIDATE: cyclical 2x, near 52-wk high, asset-only floor)
 QUEUED_HOT pending deep-dive: 0
 
 ## Deferred Deep-Dive Queue
