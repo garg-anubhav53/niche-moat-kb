@@ -15,6 +15,24 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Market Cap | Date | Note |
 |--------|---------|-----------|------|------|
+| DCTH | Delcath Systems | $357M (Jun 2026) | 2026-07-16 | HEPZATO KIT sole FDA-approved hepatic chemosaturation for uveal melanoma liver mets; genuine SOLE_SOURCE REGULATORY moat; $100M+ FY2026 rev guidance; BUT cap over $300M + 6 analysts. Revisit if cap corrects below $250M |
+| BLFS | BioLife Solutions | $1.4B (Jul 2026) | 2026-07-16 | Cell therapy biopreservation media (PROCESS moat — validated in FDA CAR-T submissions); 10 analysts; cap far out of range |
+| PAHC | Phibro Animal Health | ~$400-600M est. | 2026-07-16 | Specialty animal health medicated feed additives + veterinary pharmaceuticals; some regulatory moat; multiple analysts; cap over limit |
+| FLGT | Fulgent Genetics | ~$400-500M | 2026-07-16 | Genetic testing / sequencing; clinical testing services; well-covered; cap over limit |
+| CDNA | CareDx | ~$400-500M | 2026-07-16 | Transplant diagnostics (AlloSure, AlloMap); REGULATORY moat (transplant surveillance); cap over limit |
+| LMAT | LeMaitre Vascular | ~$1B | 2026-07-16 | Specialty vascular surgery devices; cap well over limit |
+| NVCR | NovoCure | ~$1-2B | 2026-07-16 | TTFields cancer therapy (Optune); cap well over limit |
+| EMBC | Embecta | ~$1B | 2026-07-16 | Insulin delivery devices (BD spinoff); cap over limit |
+| TMDX | TransMedics Group | ~$2B | 2026-07-16 | Organ Care System for transplant; cap well over limit |
+| ATRC | Atricure | ~$2B | 2026-07-16 | Cardiac surgery ablation devices; cap well over limit |
+| SIGA | SIGA Technologies | ~$600M | 2026-07-16 | TPOXX smallpox/mpox antiviral (REGULATORY moat, US Govt sole supplier); cap over limit post-mpox surge |
+| MOTS | Motus GI Holdings | <$10M | 2026-07-16 | AI-powered colonoscopy purge device; cap far below $20M floor |
+| CHEK | Check-Cap | <$20M | 2026-07-16 | Colon cancer prep capsule; cap below $20M floor |
+| VNRX | VolitionRx | <$20M | 2026-07-16 | Liquid biopsy/nucleosome technology; development stage; cap below floor |
+| HTGM | HTG Molecular | ~$10M est. | 2026-07-16 | HTG EdgeSeq molecular profiling; likely below $20M floor |
+| LUCD | Lucid Diagnostics | <$20M | 2026-07-16 | EsoGuard esophageal cancer test; development stage; below floor |
+| PRPH | ProPhase Labs | <$20M est. | 2026-07-16 | Specialty diagnostics + biotech; likely below $20M floor; no specific moat confirmed |
+| PRPO | Precipio Diagnostics | <$10M | 2026-07-16 | Hematology oncology diagnostics; cap far below floor |
 | FLTCF | Filtronic plc (AIM: FTC) | ~$850M USD | 2026-07-16 | UK AIM; GaN RF amplifiers for SpaceX Starlink LEO (5-yr Starlink deal, Cerus32 E-band SSPA sole supplier); genuine PROCESS moat; moat confirmed but cap ~2.8x limit; ~$115M+ cumulative SpaceX contracts; revisit if cap corrects below $300M |
 | LXFR | Luxfer Holdings plc | $462.89M (July 2026) | 2026-07-16 | UK/NYSE; specialty composite gas cylinders (DOT/CE/NIOSH REGULATORY moat) + zirconium chemicals (PROCESS) + magnesium specialty alloys; 2 AIM analysts; adjusted EPS $1.12-$1.22 guided 2026; revenue $355-370M; solid moat but cap 1.54x limit; defense/aerospace driving growth (Elektron segment) — revisit if cap corrects below $280M |
 | PRM | Perimeter Solutions Inc | ~$700M-$1.5B (PE-backed, SPAC listing 2021) | 2026-07-16 | Phos-Chek aerial wildfire retardant (near-monopoly; USFS FS-5100-304 specification → sole qualified supplier); REGULATORY+PROCESS moat; also lubricant additives segment; genuine MONOPOLY in aerial fire retardant; revenue ~$400-600M; cap well above limit due to EQT Partners PE ownership and growth narrative; revisit if cap corrects below $300M |
@@ -126,6 +144,10 @@ Names that failed the asymmetry or integrity gates.
 | SATX | SatixFy Communications | Satellite modem chips (DVB-S2X; LEO return modems); Israel-based Nasdaq; custom silicon for LEO payloads is real moat; BUT development-stage cash burning; no commercial revenue at scale | 2026-07-16 |
 | KULR | KULR Technology | Thermal management for electronics/space (carbon fiber thermal interface materials); real PROCESS moat for battery thermal management; BUT company pivoted to Bitcoin treasury strategy; no earnings floor on operations; no near-term 2x catalyst from thermal business | 2026-07-16 |
 | SRFM | Surf Air Mobility | Electric regional aviation (Cessna Caravans to hybrid-electric); development stage; no commercial revenue; going-concern probable | 2026-07-16 |
+| ZYXI | Zynex Medical | Chapter 11 bankruptcy filed December 2025; stock market cap collapsed to ~$972K; TENS/NovaBay noninvasive monitoring devices; moat was consumable but company insolvent | 2026-07-16 |
+| CTSO | CytSorbents Corp | CytoSorb hemoadsorption beads (sole CE-marked extracorporeal cytokine adsorber for ICU/cardiac surgery; genuine PROCESS + REGULATORY moat; 71% GM; 3 analysts; $30M cap); BUT going-concern risk cited in disclosures; targeting operating cash-flow break-even H2 2026; DrugSorb-ATR FDA De Novo submission deferred to late 2026/early 2027 after August 2026 pre-submission meetings needed. Revenue $37.1M growing only 2-4% YoY. INTEGRITY_KILL + NO_CATALYST_KILL. REVISIT if: (a) going-concern resolved + H2 2026 operating cash flow positive + (b) FDA De Novo submission filed for DrugSorb-ATR | 2026-07-16 |
+| TTOO | T2 Biosystems | T2Bacteria + T2Fungi molecular sepsis diagnostics (FDA-cleared; sole-source pathogen detection panel without blood culture; sub-4hr results — genuine REGULATORY moat); BUT going-concern disclosures; serial equity dilution; heavy cash burn; no earnings floor | 2026-07-16 |
+| CEMI | Chembio Diagnostics | Rapid HIV/TB/malaria POC diagnostics (FDA-approved, WHO pre-qualified; REGULATORY moat); SEC investigation history 2021-22; likely financial restructuring; integrity concerns | 2026-07-16 |
 
 ---
 
@@ -196,6 +218,16 @@ Names that failed the asymmetry or integrity gates.
 | SKYH | Sky Harbour Group | Aviation hangar infrastructure campuses for business aviation; real estate development/leasing business; no component manufacturing or regulatory moat | 2026-07-16 |
 | VISL | Vislink Technologies | Broadcast satellite ENG (electronic newsgathering) and in-venue wireless (stadium streaming); competitive market; satellite ENG declining as 5G cellular replaces satellite news uplinks; no sole-source position | 2026-07-16 |
 | LGL | LGL Group | Precision frequency control products (MtronPTI — crystal oscillators for satellite/avionics/timing); PROCESS moat was genuine (frequency control components); BUT MtronPTI sold to private buyer ~2023-24; remaining LGL entity is essentially a shell/holding company with diminished moat | 2026-07-16 |
+| SDI.L | SDI Group plc (AIM UK) | Conglomerate of scientific instruments + imaging cameras (AstroCamera, Atik); some specialty products for biomedical imaging; ~£100-150M cap AIM; but diverse industrial conglomerate = NO_MOAT in specific diagnostic sole-source sense; no recurring consumable lock-in at the consolidated company level | 2026-07-16 |
+| TXMD | TherapeuticsMD | Specialty pharma (HRT, oral contraceptives); pharma not diagnostic consumables; SECTOR_ADJACENT | 2026-07-16 |
+| NTRB | Nutriband | Abuse-deterrent transdermal fentanyl patch (AVERSA); REGULATORY moat (DEA + FDA); but pharma drug delivery, not medical diagnostics consumables; SECTOR_ADJACENT | 2026-07-16 |
+| AXNX | Axonics Modulation Technologies | Acquired by Boston Scientific 2024; no longer independent | 2026-07-16 |
+| GNMK | GenMark Diagnostics | Acquired by Roper Technologies; no longer independent | 2026-07-16 |
+| SWAV | ShockWave Medical | Acquired by Johnson & Johnson; no longer independent | 2026-07-16 |
+| CFMS | CareFusion | Acquired by BD (Becton Dickinson); no longer independent | 2026-07-16 |
+| NSTG | NanoString Technologies | Acquired by Bruker Corporation; no longer independent | 2026-07-16 |
+| NTUS | Natus Medical | Taken private by private equity; no longer publicly listed | 2026-07-16 |
+| CRTX | Cortexyme / Quince Therapeutics | Drug-stage biotech; not medical diagnostics consumables; SECTOR_ADJACENT | 2026-07-16 |
 
 ---
 
@@ -220,6 +252,7 @@ Names that failed the asymmetry or integrity gates.
 | VNDA | Vanda Pharmaceuticals | Hetlioz (Non-24) faces generic entry; FDA orphan drug moat eroding; headwind not catalyst | 2026-07-16 |
 | CLPT | ClearPoint Neuro | MRI-guided neurosurgery platform; neurosurgery ramp is slow; no hard-dated event | 2026-07-16 |
 | ICAD | iCAD Inc | Pending acquisition by RadNet Inc.; merger arb only; no re-rating upside remaining | 2026-07-16 |
+| ICCC | ImmuCell Corporation | Bovine biologics (First Defense colostrum-based calf scours protection; USDA REGULATORY moat); $60-96M cap; 0-1 analysts; 45% GM; Q1 FY2026 +28% revenue growth; profitable; positive equity. BUT Re-Tain FDA rejected December 23 2025 (FDA Incomplete Letter after CMO failed inspection); ceased focus on Re-Tain. Without Re-Tain, only catalyst is organic First Defense growth — no hard-dated <12mo 2x re-rating event. NO_CATALYST_KILL. Revisit if: (a) Boehringer/Zoetis competitive dynamics shift creating moat expansion, OR (b) new USDA-regulated product secures major distributor contract | 2026-07-16 |
 | GLATF | Global Atomic Corp | Dasa uranium (Niger); Niger coup July 2023 → junta in power; project in limbo; no viable near-term production path | 2026-07-16 |
 | LTBR | Lightbridge Corp | Proprietary metallic nuclear fuel rod technology (genuine process moat); patent grants Canada/US/EU 2026; thermal-hydraulics test program with Stern Labs; BUT pre-commercial, no revenue, no hard-dated <6mo 2x re-rating event; 14-year cash runway unusual but still no near-term catalyst | 2026-07-16 |
 | UROY | Uranium Royalty Corp | Uranium royalties (contractual); ~$100-200M cap; 0-1 analysts; decent structure; BUT uranium demand theme is multi-year, no specific hard-dated event for quick 2x; re-check if royalty mine ramp sets specific cash-flow inflection date | 2026-07-16 |

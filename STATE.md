@@ -3,8 +3,8 @@
 Sector is chosen statelessly by (UTC hour mod 5) — see ROUTINE.md §1. This file is the append-only run log and counters.
 
 ## Counters
-Total runs: 7
-Universe size: 12 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX QUEUED, CIX QUEUED, KVHI QUEUED, CPSH PARK, RELL PARK, KRMD PARK, FF PARK)
+Total runs: 8
+Universe size: 14 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX QUEUED, KVHI QUEUED, EKF.L QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK)
 WATCH count: 0
 QUEUED_HOT pending deep-dive: 0
 
@@ -13,9 +13,9 @@ QUEUED_HOT pending deep-dive: 0
 
 | Ticker | Promise Score | Sector | Added |
 |--------|---------------|--------|-------|
-| PDEX | 7/12 | Medical Dx & Consumables / Surgical OEM | 2026-07-16 — deep-dive when robotics OEM backlog data or next earnings print shows sustained >20% growth |
 | CIX | 7/12 | Industrial Precision (Specialty Locks + Marine/Turbine) | 2026-07-16 — deep-dive when marine/turbine component order win drives growth inflection OR cap corrects below $200M |
 | KVHI | 6/12 | Aerospace/Satellite Commercial (Marine VSAT + FOG) | 2026-07-16 — deep-dive when 2 consecutive quarters >25% revenue growth + margin expansion >5% net confirmed |
+| EKF.L | 6/12 | Medical Dx & Consumables (POC Hematology + Life Sciences) | 2026-07-16 — deep-dive when NHS/global health contract >$10M OR life sciences segment 20%+ growth OR cap corrects below $100M |
 
 ## Run Log
 (UTC · sector · #names_processed · #killed · #queued · #deep-dived · top promise score · push status)
@@ -30,3 +30,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-16T03:18 | 3-Industrial Precision Components | 29 (CODA,CIX,EML,RELL,BOOM,PSIX,OPXS,CVU,GHM,ATNY,SCII,FEIM,NWPX,IIIN,SUP,GRC,TWIN,THR,RNO.L,PRV.L,POCI,CECO,IEC,KTCC,TAYD,TRI.L,IQE.L,CVGI,PCTI) | 27 killed (4 SECTOR_KILL, 7 CAP_KILL, 7 NO_MOAT, 2 COVERAGE_KILL, 1 QUALITY_KILL, 3 VELOCITY_KILL, 1 NOT_PUBLIC + 2 §4 KILL quality=0 BOOM/PSIX) | 2 new: CODA CANDIDATE 10/12 (deep-dived), CIX QUEUED 7/12; 1 PARK: RELL 5/12 | 1 (CODA QUEUED_HOT → CANDIDATE; moat + floor confirmed; catalyst not hard-dated; stock near $14 analyst fair value; memo memos/CODA-2026-07-16.md) | 10/12 CODA | PENDING |
 | 2026-07-16T04:18 | 4-Aerospace/Satellite Commercial | 32 (FLTCF,GILT,KVHI,MYNA,TIKK,BKSY,SATL,MNTS,LGL,CMTL,SATX,KULR,ISSC,RFIL,ATRO,RDW,SPIR,OSS,INTT,CMI.V,EMKR,PL,DUOS,LUNR,SKYH,SRFM,AIRI,SVT,SIF,VISL,BKSY,ISSC) | 29 killed (10 CAP: FLTCF/MYNA/ATRO/RDW/SPIR/PL/LUNR/CMI.V/ISSC/GILT; 4 SECTOR: TIKK/OSS/EMKR/AIRI; 6 INTEGRITY: SATL/MNTS/CMTL/SATX/KULR/SRFM; 7 NO_MOAT: BKSY/RFIL/INTT/DUOS/SKYH/VISL/LGL; 2 NO_CATALYST: SVT/SIF) | 1 new QUEUED: KVHI 6/12 (marine VSAT + FOG, $176M cap, 27% Q1 growth, 3 analysts) | 1 deferred (OFLX → CANDIDATE 8/12; moat DUOPOLY confirmed; floor confirmed earnings 60%GM $8M/yr; catalyst ABSENT — housing 1.177M SAAR cycle low; 37x trough PE expensive; memo memos/OFLX-2026-07-16.md) | 8/12 OFLX (CANDIDATE) | PENDING |
 | 2026-07-16T05:18 | 0-Specialty Chem/Materials (2nd pass) | 23 (FF,LXFR,RYAM,EAF,PRM,UAMY,HWKN,TROX,AMTX,MBII,ADES,OEC,KLIC,SXT,CLMT,HAYD,LFCR,GEF,NL,PLAB,NVX,GRFX + KMK deferred deep-dive) | 21 new kills/parks (7 NO_MOAT: HWKN/TROX/AMTX/OEC/HAYD/GEF/NL/CLMT/MBII/UAMY/GRFX; 1 SECTOR: KLIC/LFCR; 5 CAP: LXFR/PRM/SXT/PLAB/HWKN; 2 INTEGRITY: EAF/NVX; 1 NO_CATALYST: ADES; 1 PRICE_KILL: RYAM; 1 PARK quality=0: FF 4/12) | 0 new queued from triage | 1 deferred (KMK → CANDIDATE 8/12; moat CZT confirmed; floor conditional on Siemens; catalyst September FY26 results = hard-dated but 2x needs upside; memo memos/KMK-2026-07-16.md) | 8/12 KMK (CANDIDATE) | PENDING |
+| 2026-07-16T06:18 | 1-Medical Dx & Consumables (2nd pass) | 35 (CTSO,ICCC,DCTH,BLFS,ZYXI,PAHC,CEMI,PRPH,EKF.L,SDI.L,TTOO,FLGT,CDNA,CHEK,VNRX,LMAT,MOTS,NVCR,NTUS,GNMK,SWAV,CFMS,NSTG,HTGM,EMBC,TMDX,ATRC,AXNX,CRTX,LUCD,SIGA,TXMD,NTRB,PRPO + PDEX deferred deep-dive) | 33 kills (5 INTEGRITY: ZYXI/CTSO/TTOO/CEMI + going-concern; 14 CAP: DCTH $357M/BLFS $1.4B/PAHC/FLGT/CDNA/LMAT/NVCR/EMBC/TMDX/ATRC/SIGA/MOTS/CHEK/VNRX/HTGM/LUCD/PRPH/PRPO below floor; 1 NO_CATALYST: ICCC Re-Tain rejected; 5 NO_MOAT/SECTOR_ADJ: SDI.L/TXMD/NTRB/CRTX; 8 not-public/acquired: NTUS/GNMK/SWAV/CFMS/NSTG/AXNX + others) | 1 new QUEUED: EKF.L 6/12 (AIM POC hematology + life sciences; $148M cap; 51% GM; 1 analyst; catalyst=0) | 1 deferred deep-dive (PDEX → CANDIDATE 7/12; moat confirmed SOLE_SOURCE OEM; September 3 2026 hard-dated catalyst; Q3 beat 93.55%; memo memos/PDEX-2026-07-16.md) | 7/12 PDEX (CANDIDATE) | PENDING |
