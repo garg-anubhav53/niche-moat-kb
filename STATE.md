@@ -3,18 +3,20 @@
 Sector is chosen statelessly by (UTC hour mod 5) — see ROUTINE.md §1. This file is the append-only run log and counters.
 
 ## Counters
-Total runs: 5
-Universe size: 10 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX QUEUED, KMK QUEUED, PDEX QUEUED, CIX QUEUED, CPSH PARK, RELL PARK, KRMD PARK)
+Total runs: 6
+Universe size: 11 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK QUEUED, PDEX QUEUED, CIX QUEUED, KVHI QUEUED, CPSH PARK, RELL PARK, KRMD PARK)
 WATCH count: 0
 QUEUED_HOT pending deep-dive: 0
 
 ## Deferred Deep-Dive Queue
-(QUEUED_HOT names awaiting a deep-dive when a future run has budget — highest promise score first)
+(QUEUED names awaiting a deep-dive when a future run has budget — highest promise score first)
 
 | Ticker | Promise Score | Sector | Added |
 |--------|---------------|--------|-------|
-| OFLX | 8/12 | Industrial Precision (CSST gas piping) | 2026-07-15 — deep-dive when new construction cycle catalyst identified |
-| KMK | 8/12 | Nuclear & Radiological Civil (CZT detection) | 2026-07-16 — deep-dive when CBRN contract win or FY results catalyst confirmed |
+| KMK | 8/12 | Nuclear & Radiological Civil (CZT detection) | 2026-07-16 — deep-dive when CBRN contract win or FY results catalyst confirmed; FY26 results ~Sep 2026 = first hard-dated potential catalyst |
+| PDEX | 7/12 | Medical Dx & Consumables / Surgical OEM | 2026-07-16 — deep-dive when robotics OEM backlog data or next earnings print shows sustained >20% growth |
+| CIX | 7/12 | Industrial Precision (Specialty Locks + Marine/Turbine) | 2026-07-16 — deep-dive when marine/turbine component order win drives growth inflection OR cap corrects below $200M |
+| KVHI | 6/12 | Aerospace/Satellite Commercial (Marine VSAT + FOG) | 2026-07-16 — deep-dive when 2 consecutive quarters >25% revenue growth + margin expansion >5% net confirmed |
 
 ## Run Log
 (UTC · sector · #names_processed · #killed · #queued · #deep-dived · top promise score · push status)
@@ -27,3 +29,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-16T01:17 | 1-Medical Dx & Consumables | 36 (MDXH,KRMD,IRIX,DRAD,PDEX,SMLR,MLAB,HBIO,QTRX,MASS,ICAD,ANIK,AXDX,OSUR,LNTH,NURO,BASS,INFU,ATRI,CATX,ECOR,RCEL,SENS,POAI,ORGO,TCMD,RMTI,VREX,TELA,MDXG,CLPT,NYXH,BVS,VNDA,HSKA,HROW) | 33 killed (6 NO_MOAT, 9 CAP, 9 COVERAGE, 3 INTEGRITY, 6 NO_CATALYST) | 2 new QUEUED: ANIK 9/12, PDEX 7/12; 1 PARK: KRMD 4/12 | 0 (no QUEUED_HOT; deferred queue was empty) | 9/12 ANIK | PENDING |
 | 2026-07-16T02:17 | 2-Nuclear & Radiological Civil | 24 (ASPI,LEU,NNE,LTBR,EU,URG,UROY,ARAY,GVP,OKLO,SMR,UEC,DNN,NXE,ATNM,WUC,GLATF,MIR,BWXT,PESI,XE,BOSSF,PALAF,KMK) | 23 killed (12 CAP, 1 SECTOR, 5 INTEGRITY, 1 NO_MOAT, 3 NO_CATALYST, 1 COVERAGE) | 1 new QUEUED: KMK 8/12 | 1 deferred deep-dive (ANIK → CANDIDATE 10/12; memo memos/ANIK-2026-07-16.md; catalyst impaired by Phase III endpoint miss + FDA deficiency letter) | 10/12 ANIK (downgraded from QUEUED HOT to CANDIDATE; catalyst=0) | PENDING |
 | 2026-07-16T03:18 | 3-Industrial Precision Components | 29 (CODA,CIX,EML,RELL,BOOM,PSIX,OPXS,CVU,GHM,ATNY,SCII,FEIM,NWPX,IIIN,SUP,GRC,TWIN,THR,RNO.L,PRV.L,POCI,CECO,IEC,KTCC,TAYD,TRI.L,IQE.L,CVGI,PCTI) | 27 killed (4 SECTOR_KILL, 7 CAP_KILL, 7 NO_MOAT, 2 COVERAGE_KILL, 1 QUALITY_KILL, 3 VELOCITY_KILL, 1 NOT_PUBLIC + 2 §4 KILL quality=0 BOOM/PSIX) | 2 new: CODA CANDIDATE 10/12 (deep-dived), CIX QUEUED 7/12; 1 PARK: RELL 5/12 | 1 (CODA QUEUED_HOT → CANDIDATE; moat + floor confirmed; catalyst not hard-dated; stock near $14 analyst fair value; memo memos/CODA-2026-07-16.md) | 10/12 CODA | PENDING |
+| 2026-07-16T04:18 | 4-Aerospace/Satellite Commercial | 32 (FLTCF,GILT,KVHI,MYNA,TIKK,BKSY,SATL,MNTS,LGL,CMTL,SATX,KULR,ISSC,RFIL,ATRO,RDW,SPIR,OSS,INTT,CMI.V,EMKR,PL,DUOS,LUNR,SKYH,SRFM,AIRI,SVT,SIF,VISL,BKSY,ISSC) | 29 killed (10 CAP: FLTCF/MYNA/ATRO/RDW/SPIR/PL/LUNR/CMI.V/ISSC/GILT; 4 SECTOR: TIKK/OSS/EMKR/AIRI; 6 INTEGRITY: SATL/MNTS/CMTL/SATX/KULR/SRFM; 7 NO_MOAT: BKSY/RFIL/INTT/DUOS/SKYH/VISL/LGL; 2 NO_CATALYST: SVT/SIF) | 1 new QUEUED: KVHI 6/12 (marine VSAT + FOG, $176M cap, 27% Q1 growth, 3 analysts) | 1 deferred (OFLX → CANDIDATE 8/12; moat DUOPOLY confirmed; floor confirmed earnings 60%GM $8M/yr; catalyst ABSENT — housing 1.177M SAAR cycle low; 37x trough PE expensive; memo memos/OFLX-2026-07-16.md) | 8/12 OFLX (CANDIDATE) | PENDING |

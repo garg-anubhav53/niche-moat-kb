@@ -14,6 +14,16 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Market Cap | Date | Note |
 |--------|---------|-----------|------|------|
+| FLTCF | Filtronic plc (AIM: FTC) | ~$850M USD | 2026-07-16 | UK AIM; GaN RF amplifiers for SpaceX Starlink LEO (5-yr Starlink deal, Cerus32 E-band SSPA sole supplier); genuine PROCESS moat; moat confirmed but cap ~2.8x limit; ~$115M+ cumulative SpaceX contracts; revisit if cap corrects below $300M |
+| MYNA | Mynaric AG | ~$3.87M | 2026-07-16 | Laser communication terminals for LEO constellations (Telesat, Northrop commercial programs); real moat in OISL terminals; BUT cap collapsed below $20M floor — company in severe financial distress |
+| ATRO | Astronics Corporation | ~$400-500M | 2026-07-16 | Commercial avionics power/lighting (seat power, LED lighting for commercial airlines); real SOLE_SOURCE moat for some airline OEM programs; cap over limit |
+| RDW | Redwire Corporation | ~$400-600M | 2026-07-16 | Space infrastructure (solar arrays, bioprinting, structures for commercial + civil space); cap over limit |
+| SPIR | Spire Global | ~$300-500M | 2026-07-16 | Satellite data (radio occultation weather, maritime AIS, aviation tracking); cap at or over limit |
+| PL | Planet Labs | ~$500-700M | 2026-07-16 | Commercial satellite imagery; well-covered; cap over limit |
+| LUNR | Intuitive Machines | ~$400-600M | 2026-07-16 | Lunar cargo delivery (NASA CLPS); commercial payload; cap over limit |
+| CMI.V | C-Com Satellite Systems | ~C$8M | 2026-07-16 | TSX-V; iNetVu motorized vehicle-mount satellite antennas; moat plausible (patents on auto-pointing); cap below $20M floor |
+| ISSC | Innovative Aerosystems (ISSC) | $323M (June 2026) | 2026-07-16 | FAA STC-certified avionics upgrade systems (flat-panel displays, autothrottle, air data for commercial aviation); 100+ TSOs, 12 STCs, 11 PMAs; genuine REGULATORY moat; 54% GM; +36.5% Q1 2026 revenue; estimated $91M FY2026 rev; 4 analysts; cap just graduated above $300M limit; revisit if cap corrects below $280M |
+| GILT | Gilat Satellite Networks | ~$870M est. | 2026-07-16 | Commercial VSAT broadband operator (rural broadband, in-flight connectivity, enterprise); Q1 2026 +20% rev growth; guided $500-520M FY2026 rev; cap far above $300M limit; 3 analysts |
 | FEIM | Frequency Electronics | $746M (May 2026) | 2026-07-16 | Precision timing/frequency for commercial satellites + government; genuine PROCESS moat; but cap 2.5x limit; revenue target $150M by 2029 |
 | PRV.L | Porvair plc | £392M (~$500M USD) | 2026-07-16 | UK AIM specialty filtration/ceramics (aerospace, nuclear, industrial); moat real (REGULATORY+PROCESS); 3 analysts; H1 2026 record revenue £106.2M; CAP_KILL + COVERAGE_KILL |
 | GRC | Gorman-Rupp | ~$500-600M | 2026-07-16 | Industrial pumps; some moat in custom pump configurations; cap over limit |
@@ -101,6 +111,12 @@ Names that failed the asymmetry or integrity gates.
 | ATNM | Actinium Pharmaceuticals | Ac-225 targeted alpha therapy; clinical stage; serial dilution; no revenue; no floor | 2026-07-16 |
 | PESI | Perma-Fix Environmental Services | NRC-licensed nuclear waste treatment; genuine REGULATORY moat + Hanford DFLAW inflection ($89-99M rev expected 2H 2026 vs $59M LTM); BUT going-concern disclosed Q1 2026 (Q1 rev -20%, gross margin -36%). REVISIT urgently in future run when/if going-concern resolved — Hanford DFLAW + grouting ($75-216M/yr) is one of the most specific catalysts in the KB; cap ~$300M (borderline) | 2026-07-16 |
 | GVP | GSE Systems | Nuclear plant simulation/training (strong switching-cost moat: NRC-required simulators, custom-built per plant, 2-4yr requalification); financial distress history; possible delisting/acquisition — integrity uncertain | 2026-07-16 |
+| SATL | Satellogic | Earth observation micro-satellites (Argentina-based; NASDAQ listed); development-stage cash burn; serial dilution; insufficient earnings floor | 2026-07-16 |
+| MNTS | Momentus Inc | In-space transportation (Vigoride orbital tug); multiple going-concern disclosures; pre-commercial cash burn; no earnings floor | 2026-07-16 |
+| CMTL | Comtech Telecommunications | Satellite ground systems + troposcatter; genuine technology moat (SATCOM, BAN, ELT); BUT severe financial distress by 2025-2026 (heavy debt, revolving credit maturity, restructuring negotiations) | 2026-07-16 |
+| SATX | SatixFy Communications | Satellite modem chips (DVB-S2X; LEO return modems); Israel-based Nasdaq; custom silicon for LEO payloads is real moat; BUT development-stage cash burning; no commercial revenue at scale | 2026-07-16 |
+| KULR | KULR Technology | Thermal management for electronics/space (carbon fiber thermal interface materials); real PROCESS moat for battery thermal management; BUT company pivoted to Bitcoin treasury strategy; no earnings floor on operations; no near-term 2x catalyst from thermal business | 2026-07-16 |
+| SRFM | Surf Air Mobility | Electric regional aviation (Cessna Caravans to hybrid-electric); development stage; no commercial revenue; going-concern probable | 2026-07-16 |
 
 ---
 
@@ -117,6 +133,10 @@ Names that failed the asymmetry or integrity gates.
 | KOPN | Kopin Corp | Specialty helmet displays and gun-sight optics; DoD is primary customer | 2026-07-16 |
 | ULBI | Ultralife Corp | Specialty batteries; ~50%+ revenue from DoD/military communications | 2026-07-16 |
 | BWXT | BWX Technologies | Naval nuclear (submarines/carriers) is primary segment; some civil isotopes but DoD = primary customer | 2026-07-16 |
+| TIKK | Tel-Instrument Electronics | IFF (Identification Friend or Foe) transponder test sets for flight-line aviation; 95% of IFF test market; IFF is a military identification system; defense primary customer | 2026-07-16 |
+| OSS | One Stop Systems | Rugged AI computing for aerospace (JetFlash, storage solutions for commercial + military); defense programs >50% revenue; SECTOR_KILL despite commercial aviation exposure | 2026-07-16 |
+| EMKR | EMCORE Corporation | Fiber optic inertial navigation systems (gyroscopes) + space solar electronics; defense primary for inertial nav (missile guidance, military platforms); some civil space solar but defense = primary | 2026-07-16 |
+| AIRI | Air Industries Group | Aerospace structural assemblies (wing components, control surfaces) for Sikorsky helicopters, F/A-18, etc.; defense primary customer (military aircraft programs) | 2026-07-16 |
 
 ---
 
@@ -147,6 +167,13 @@ Names that failed the asymmetry or integrity gates.
 | INFU | InfuSystem Holdings | Oncology infusion pump services; competes with Option Care, others; no moat | 2026-07-16 |
 | POAI | Predictive Oncology | AI oncology platform; no sole-source lock-in; competitive AI space | 2026-07-16 |
 | HROW | Harrow | Ophthalmology compounding pharmacy; no regulatory moat over other compounders | 2026-07-16 |
+| BKSY | BlackSky Technology | Commercial satellite imagery and analytics; US gov/intelligence community is significant customer; multiple imagery competitors (Planet Labs, Satellogic, Maxar, etc.); no sole-source or regulatory moat | 2026-07-16 |
+| RFIL | RF Industries | RF connectors and cable assemblies; commodity connectors market; multiple competitors (Amphenol, TE Connectivity, Belden); defense + commercial; no durable sole-source position | 2026-07-16 |
+| INTT | inTEST Corporation | General test/measurement equipment (thermal, semiconductor); serves aerospace and defense but no specific sole-source moat; competes with Teradyne, National Instruments ecosystem | 2026-07-16 |
+| DUOS | Duos Technologies Group | AI-powered inspection systems for rail transportation; wrong primary sector (rail not aerospace/satellite); no strong moat in rail inspection imaging | 2026-07-16 |
+| SKYH | Sky Harbour Group | Aviation hangar infrastructure campuses for business aviation; real estate development/leasing business; no component manufacturing or regulatory moat | 2026-07-16 |
+| VISL | Vislink Technologies | Broadcast satellite ENG (electronic newsgathering) and in-venue wireless (stadium streaming); competitive market; satellite ENG declining as 5G cellular replaces satellite news uplinks; no sole-source position | 2026-07-16 |
+| LGL | LGL Group | Precision frequency control products (MtronPTI — crystal oscillators for satellite/avionics/timing); PROCESS moat was genuine (frequency control components); BUT MtronPTI sold to private buyer ~2023-24; remaining LGL entity is essentially a shell/holding company with diminished moat | 2026-07-16 |
 
 ---
 
@@ -173,6 +200,8 @@ Names that failed the asymmetry or integrity gates.
 | GLATF | Global Atomic Corp | Dasa uranium (Niger); Niger coup July 2023 → junta in power; project in limbo; no viable near-term production path | 2026-07-16 |
 | LTBR | Lightbridge Corp | Proprietary metallic nuclear fuel rod technology (genuine process moat); patent grants Canada/US/EU 2026; thermal-hydraulics test program with Stern Labs; BUT pre-commercial, no revenue, no hard-dated <6mo 2x re-rating event; 14-year cash runway unusual but still no near-term catalyst | 2026-07-16 |
 | UROY | Uranium Royalty Corp | Uranium royalties (contractual); ~$100-200M cap; 0-1 analysts; decent structure; BUT uranium demand theme is multi-year, no specific hard-dated event for quick 2x; re-check if royalty mine ramp sets specific cash-flow inflection date | 2026-07-16 |
+| SVT | Servotronics Inc | Precision servo sensors for aerospace flight controls + cutlery (dual unrelated businesses); aerospace servo instruments have some REGULATORY moat (FAA qualification); BUT dual-business dilutes story; cap ~$20-35M borderline; no visible near-term 2x catalyst | 2026-07-16 |
+| SIF | SIFCO Industries | Selective electroplating + aerospace forgings; PROCESS moat in selective plating for turbine blade MRO; ~$40-50M revenue; BUT primarily industrial MRO wrong sub-sector for aerospace/satellite run; defense significant portion; no hard-dated <6mo catalyst | 2026-07-16 |
 
 ---
 
