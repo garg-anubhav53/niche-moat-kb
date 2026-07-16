@@ -161,6 +161,7 @@ Names that failed the asymmetry or integrity gates.
 | NYXH | Nyxoah SA | 4–5 analysts (Euro + US) | 2026-07-16 | Genio sleep apnea neurostimulation; Belgian-listed; covered above threshold |
 | BVS | Bioventus | 4–6 analysts | 2026-07-16 | Exogen bone healing (REGULATORY moat) + ortho biologics; well-covered |
 | ARAY | Accuray | ~4-6 analysts | 2026-07-16 | CyberKnife + Radixact radiation therapy; real installed-base moat; but mid-size med device = above analyst threshold |
+| NIOX.L | NIOX Group plc (AIM UK) | 10 analysts (AIM + US healthcare) | 2026-07-16 | FeNO (fractional exhaled nitric oxide) exhaled breath analysis for asthma diagnosis and management; NIOXone + NIOX VERO devices; REGULATORY moat (FDA-cleared, multiple country approvals); consumable mouthpiece model; BUT 10 confirmed sell-side analysts far exceeds >4 threshold — well-covered despite AIM listing; cap ~£240-280M (~10-360M USD) also EXTENDED ZONE |
 
 ---
 
@@ -319,6 +320,7 @@ Names that failed the asymmetry or integrity gates.
 | NSTG | NanoString Technologies | Acquired by Bruker Corporation; no longer independent | 2026-07-16 |
 | NTUS | Natus Medical | Taken private by private equity; no longer publicly listed | 2026-07-16 |
 | CRTX | Cortexyme / Quince Therapeutics | Drug-stage biotech; not medical diagnostics consumables; SECTOR_ADJACENT | 2026-07-16 |
+| IDS.L | Immunodiagnostic Systems Holdings plc (AIM UK) | Acquired by Revvity (RVTY) July 12 2021 — no longer an independent public company; de-listed from AIM | 2026-07-16 | Specialty manual + automated immunoassay analyzers (IDS-iSYS; 25-OHD Vitamin D, testosterone, cortisol); genuine CONSUMABLE + REGULATORY moat (calibrated reagent kits for IDS-iSYS platform; clinical laboratory lock-in); moat confirmed but company is fully acquired; any thesis requires acquiring RVTY (>B cap) |
 
 ---
 
