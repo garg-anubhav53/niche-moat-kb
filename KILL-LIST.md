@@ -13,6 +13,13 @@ Names that failed the asymmetry or integrity gates.
 
 ## Cap Kills (market cap >$300M or <$20M — outside exclusion zone)
 
+| UCLE | US Nuclear Corp | $1.8M (OTC-QB, July 2026) | 2026-07-16 | Radiation detection instruments + tritium monitoring; dominant tritium monitor supplier; genuine small moat; BUT cap far below $20M floor; revenue $2.2M TTM; operating losses |
+| IMSR | Terrestrial Energy | $802M (Nasdaq, Jul 2026) | 2026-07-16 | IMSR-400 integral molten salt reactor developer; NRC pre-licensing; DOE selected; BUT pre-commercial $0 revenue; cap 2.7x limit; $28M net loss 2025; going-concern risk likely |
+| YCA.L | Yellow Cake plc | ~£600M (~$750M) | 2026-07-16 | Physical uranium holding company (UO3 stored at ConverDyn); AIM London; uranium price exposure; BUT no operational moat; cap 2.5x limit |
+| FCU.TO | Fission Uranium | ~C$400-600M | 2026-07-16 | Patterson Lake South uranium development (TSX); world-class deposit; BUT development stage with no moat at current stage; cap over limit |
+| AEC.V | Anfield Energy | <$20M (TSX-V) | 2026-07-16 | Uranium/vanadium mining startup; below $20M floor |
+| PSTV | Plus Therapeutics | <$20M (OTC) | 2026-07-16 | Rhenium-186 NanoLiposome targeted radiation therapy; development stage; below $20M floor |
+
 | Ticker | Company | Market Cap | Date | Note |
 |--------|---------|-----------|------|------|
 | DCTH | Delcath Systems | $357M (Jun 2026) | 2026-07-16 | HEPZATO KIT sole FDA-approved hepatic chemosaturation for uveal melanoma liver mets; genuine SOLE_SOURCE REGULATORY moat; $100M+ FY2026 rev guidance; BUT cap over $300M + 6 analysts. Revisit if cap corrects below $250M |
@@ -119,6 +126,9 @@ Names that failed the asymmetry or integrity gates.
 
 ## Integrity Kills (negative book equity, accounting flags, bankruptcy risk)
 
+| DRTS | Alpha-Tau Medical | Ra-224 alpha DaRT seeds for solid tumors (Israeli Nasdaq); genuine radiological civil moat (sole commercial Ra-224 diffusing alpha therapy); BUT development stage; pre-commercial cash burn; serial dilution expected; no earnings floor | 2026-07-16 |
+| NAVB | Navidea Biopharmaceuticals | Tilmanocept (Lymphoseek) Tc-99m radiolabeling agent for lymph node mapping (OTC); development-stage losses; also SECTOR_ADJACENT (sector 1 not 2) | 2026-07-16 |
+
 | Ticker | Company | Issue | Date |
 |--------|---------|-------|------|
 | NNBR | NN Inc | ~$300M+ debt on $63M cap; -58% 12-mo; serial dilution risk; leveraged balance sheet | 2026-07-15 |
@@ -174,6 +184,15 @@ Names that failed the asymmetry or integrity gates.
 ---
 
 ## No-Moat Kills (commodity product, many substitutes, no lock-in)
+
+| GXU.V | GoviEx Uranium | No viable development path (Niger project frozen since coup July 2023); also NO_CATALYST | 2026-07-16 |
+| CUR.V | Consolidated Uranium | Uranium asset consolidator (TSX-V); no operational moat; multiple exploration-stage assets; no near-term production | 2026-07-16 |
+| STND.V | Standard Uranium | Uranium exploration (Athabasca Basin); early exploration; no production moat | 2026-07-16 |
+| SYH.V | Skyharbour Resources | Uranium exploration (Athabasca Basin); exploration-stage; no production moat | 2026-07-16 |
+| FUU.V | F3 Uranium | Uranium exploration (Patterson Lake area); exploration-stage; no moat | 2026-07-16 |
+| AAZ.V | Azincourt Energy | Uranium exploration; development-stage; no moat | 2026-07-16 |
+| SASK.V | Atha Energy | Uranium exploration (Athabasca Basin); development-stage; no moat | 2026-07-16 |
+| MGA.TO | Mega Uranium | Uranium royalty aggregator (TSX); no proprietary sole-source position; royalty book vs. production moat | 2026-07-16 |
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
