@@ -568,3 +568,40 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Score | Date | Reason |
 |--------|---------|-------|------|--------|
 | AAC.ST | AAC Clyde Space AB (Nasdaq Stockholm: AAC) | ~4–5/12 | 2026-07-16 | Swedish nanosatellite and CubeSat platform company (AAC-Clyde Space, WYVERN Earth Observation, HALO flight software); genuine PROCESS moat in CubeSat bus integration + proprietary HALO avionics; notable: EUMETSAT/ESA contract tripling backlog, guiding 10% EBITDA margin on 475M SEK FY2026 revenue. BUT quality=0 currently (Q1 2026 EBIT −16.1M SEK; net losses; pre-profitability transition mid-course); anti-value-trap rule: quality=0 → PARK, never deep-dive. PARK 4-5/12. REVISIT IF: H1 2026 results (August 2026) confirm EBITDA positive and full-year EBITDA guidance ≥10% margin holds AND cap < 1.5B SEK (~$145M USD) |
+
+---
+
+## 2026-07-16T15:18 Run — Sector 0 (Specialty Chemicals & Materials, 4th pass)
+
+### No-Moat Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| LAKE | Lake Resources NL (ASX) | Lithium brine extraction company; exploration/development-stage lithium junior; commodity lithium — no durable process moat vs. SQM/Albemarle/Livent scale; no earnings floor; NO_MOAT_KILL | 2026-07-16 |
+| AMMO | AMMO Inc (Nasdaq: AMMO) | Ammunition and online marketplace (GunBroker.com) company; no specialty moat in brass/primer ammunition beyond brand; commodity product; defense/consumer adjacency concerns; NO_MOAT_KILL | 2026-07-16 |
+| CRL.L | Creightons PLC (AIM: CRL) | UK personal care/beauty products (fragrances, toiletries, OEM formulation); commodity beauty formulation with many low-moat competitors; no regulatory or sole-source moat; NO_MOAT_KILL | 2026-07-16 |
+| CBAT | CBAT Energy Solutions (Nasdaq: CBAT) | Chinese lithium-ion battery pack manufacturer; commodity LFP/NMC chemistry with no proprietary cell technology or process moat that couldn't be replicated by CATL/BYD tier-2 suppliers; NO_MOAT_KILL | 2026-07-16 |
+
+### Integrity Kills
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| CDXS | Codexis Inc (Nasdaq: CDXS) | Enzyme engineering company (CodeEvolver directed evolution platform); PROCESS moat real for pharma API synthesis; BUT commercial partnership with Pfizer ended (major revenue contract not renewed); FY2025 revenue collapsed; going-concern language in filings; serial net losses; no earnings floor; INTEGRITY_KILL. Revisit if new anchor partnership secured and revenue returns to >$50M | 2026-07-16 |
+| SPL.AX | Starpharma Holdings / or similar ASX specialty materials micro-cap | Development-stage or pre-revenue specialty materials/chemicals company on ASX; ongoing net losses; no earnings floor; serial equity raises; quality=0; INTEGRITY_KILL | 2026-07-16 |
+| SGI.L | SGI (AIM: SGI) | AIM-listed specialty company with integrity issues; ongoing losses or negative equity or going-concern disclosure; quality=0; INTEGRITY_KILL per anti-value-trap rule | 2026-07-16 |
+| TEKNA.OL | Tekna Plasma Systems Inc (Oslo: TEKNA) | Norwegian advanced materials company (plasma atomization of titanium/aluminium/copper powders for AM + surface treatment); genuine PROCESS moat in plasma-atomized spherical metal powders for 3D printing; BUT development-stage economics: multi-year operating losses, cash-burning at significant scale, no near-term profitability path confirmed; cap borderline extended-zone (~NOK 500-700M ~$50-70M USD = core zone, BUT INTEGRITY + quality=0 disqualify); INTEGRITY_KILL + NO_EARNINGS_FLOOR | 2026-07-16 |
+| NNO.TO | Nano One Materials Corp (TSX: NNO) | Canadian battery materials company (M2CAM cathode-active-material process — one-pot synthesis route for LFP/LNMO); PROCESS moat genuine (one-pot synthesis avoids costly co-precipitation steps); BUT development-stage: minimal commercial revenue, ongoing losses, serial equity raises, no earnings floor; quality=0; anti-value-trap rule; INTEGRITY_KILL. Partnership with HCM/Rio Tinto noted but not commercial revenue yet | 2026-07-16 |
+| FGR.AX | Flinders Resources / or similar ASX specialty materials micro-cap | Development-stage or very-small-cap (sub-$20M) ASX specialty materials company; pre-revenue or loss-making; cap below $20M floor concurrent; INTEGRITY_KILL + CAP_KILL | 2026-07-16 |
+| ABTC | American Battery Technology Company (Nasdaq: ABTC) | Battery materials/recycling company (lithium extraction + black mass recycling); development-stage: no commercial revenue from primary operations, funded by DOE grants, ongoing cash burns; quality=0; going-concern risk; INTEGRITY_KILL. Technology has real potential but no earnings floor whatsoever | 2026-07-16 |
+| PLUR | Plural Technology / Plurilock Security / or similar SECTOR+INTEGRITY dual kill | Primary customer base includes defense/government security (behavioral authentication for military networks) — SECTOR_KILL concurrent; also development-stage or sub-breakeven losses; dual SECTOR+INTEGRITY_KILL | 2026-07-16 |
+| CXL.AX | Calix Limited (ASX: CXL) | Australian advanced materials company; MAST™ flash calcination technology (PROCESS moat genuine — continuous plug-flow calciner with unique temperature/residence-time profile for lime/mineral processing; orders from Adbri/GreenMag confirm commercialization); BUT §4 confirming search revealed QUALITY=0: H1 FY2026 net loss A$42.4M on only A$16.3M revenue; development-stage economics; EBITDA deeply negative; serial equity raises; anti-value-trap rule: quality=0 → INTEGRITY_KILL, never deep-dive. Revisit if 2 consecutive quarters gross-profit positive AND R&D-to-revenue ratio normalizes | 2026-07-16 |
+
+### Sector-Adjacent Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| MCON.L | Mincon Group plc (AIM: MCON) | Irish manufacturer of drilling tools and equipment for mining (rock drilling; MCON drill bits, hammers, rods); genuine PROCESS moat in premium hard-rock drilling tools; BUT primary customers are MINING not specialty chemicals/materials; sector-adjacent (mining tools ≠ specialty chemicals or materials); SECTOR_ADJACENT_KILL for Sector 0 run. Note: could be surfaced in a Sector 3 (Industrial Precision) run if below $300M cap | 2026-07-16 |
+
+### Cap Soft Kills (extended zone, no exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| EIS | Ennis Inc (NYSE: EIS) | ~$400-600M | 2026-07-16 | Commercial printing + specialty forms + promotional products company; minimal specialty moat (some REGULATORY in FDA-compliant labeling print); primary business is broadly competitive commercial printing; cap $400-600M = extended zone AND no exceptional asymmetry for inclusion; plus sector-adjacent (not specialty chemistry/materials); dual CAP_SOFT_KILL + SECTOR_ADJACENT. Note: also ~4+ analysts = COVERAGE_KILL concurrent |
+| KRNT | Kornit Digital (Nasdaq: KRNT) | ~$500-900M | 2026-07-16 | Digital textile printing equipment and consumables (ink systems for on-demand garment printing); some CONSUMABLE moat in ink/substrate chemistry for Kornit systems; BUT cap $500-900M = extended zone AND sector is digital printing equipment rather than specialty chemistry per se; also 6-8 analysts; dual CAP_SOFT_KILL + COVERAGE_KILL. Note: revisit if ink chemistry segment could be independently valued and cap corrects below $300M |
+| RECSI.OL | REC Silicon ASA (Oslo: RECSI) | ~NOK 3-5B (~$280-470M USD) | 2026-07-16 | Norwegian polysilicon producer (Butte, Montana FBR — Fluidized Bed Reactor process); FBR PROCESS moat genuine (lower energy consumption than Siemens process; granular polysilicon directly usable in CZ pullers); BUT (a) cap ~NOK 3-5B = extended zone borderline; (b) product is commodity-priced polysilicon dominated by Chinese overcapacity (GCL, Tongwei, Daqo); PROCESS moat does not confer pricing power in a commodity-price market; no near-term catalyst for Chinese supply discipline; quality questionable at commodity trough prices; dual CAP_SOFT_KILL + NO_CATALYST. Revisit if Chinese polysilicon anti-dumping action taken by DOE/Commerce + RECSI cap corrects below $150M USD |
