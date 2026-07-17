@@ -18,7 +18,7 @@ NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/
 | 7 | Specialty food & ag ingredients | 1 | ACTIVE | LWAY (run 26) |
 | 8 | Building & infrastructure products | 1 | ACTIVE | SMID (run 27) |
 | 9 | Environmental/waste/water | 1 | ACTIVE (Nordic lens sparse; try UK AIM or US next pass; forward BQE.TO from Sector 8) | WATR.L PARK 5/12 (run #28) |
-| 10 | Value-added/sole-line distribution | 0 | FRESH | — |
+| 10 | Value-added/sole-line distribution | 1 | ACTIVE (US micro-cap geo lens sparse; sector thin for true moated micro-caps; PE consolidation removed most quality names; WINA→Sector 14; JOUT/NATR better fits Sector 14; next pass try UK/European wholesale distributors) | JOUT 8/12, NATR 7/12, HBB 6/12 (run #29) |
 | 11 | Electrical & power components | 0 | FRESH | — |
 | 12 | Life-science tools & lab consumables | 0 | FRESH | — |
 | 13 | Rail & transport safety systems | 0 | FRESH | — |
@@ -34,8 +34,8 @@ NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/
 This file is the run log + counters.
 
 ## Counters
-Total runs: 28
-Universe size: 36 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, FAA.VI WATCH, EUZ.DE CORE, LWAY CANDIDATE, SMID QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L PARK, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, ALHVS.PA PARK, WATR.L PARK, SSKN INTEGRITY_KILL)
+Total runs: 29
+Universe size: 39 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, FAA.VI WATCH, EUZ.DE CORE, LWAY CANDIDATE, SMID CANDIDATE, JOUT QUEUED, HBB QUEUED, NATR QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L PARK, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, ALHVS.PA PARK, WATR.L PARK, SSKN INTEGRITY_KILL)
 WATCH count: 2 (GENC — Grade B; FAA.VI — Grade A — first WATCH A in KB history)
 CORE count: 1 (EUZ.DE — Grade B — first CORE name in KB history; extended-zone franchise hold)
 CATALYST count: 1 (ELVA.TO — Grade B — Q4/F3/R4/C3; Amazon warrant deal; extended-zone inclusion justified)
@@ -44,11 +44,13 @@ QUEUED_HOT pending deep-dive: 0
 ## Deferred Deep-Dive Queue
 (QUEUED names awaiting a deep-dive when a future run has budget — highest promise score first)
 
-**Queue updated: run #28 (2026-07-17).** LWAY deep-dived this run → CANDIDATE Grade C; removed from queue. SMID (6/12) remains; highest priority next §5.
+**Queue updated: run #29 (2026-07-17).** SMID deep-dived this run → CANDIDATE Grade C (Q3/F4/R3/C3); removed from queue. Three new names added from Sector 10 scout; JOUT (8/12) is highest priority.
 
 | Ticker | Score | Added | Sector | Notes |
 |--------|-------|-------|--------|-------|
-| SMID | 6/12 | 2026-07-17 (run #27) | Sector 8 | Smith-Midland precast barrier IP; ~$157M cap; 0 analysts; highest §5 priority (only item in queue) |
+| JOUT | 8/12 | 2026-07-17 (run #29) | Sector 10 (→Sector 14) | Johnson Outdoors; Minn Kota/Humminbird/SCUBAPRO category leaders; ~$350-450M extended zone; 1 analyst; highest §5 priority |
+| NATR | 7/12 | 2026-07-17 (run #29) | Sector 10 (→Sector 14) | Nature's Sunshine Products; 73% GM nutritional supplements direct sales; ~$374M extended zone; 2 analysts |
+| HBB | 6/12 | 2026-07-17 (run #29) | Sector 10 (→Sector 14) | Hamilton Beach Brands; Hamilton Beach + Proctor Silex brands; ~$284M core zone; 0-1 analysts |
 
 ## Run Log
 (UTC · sector · #names_processed · #killed · #queued · #deep-dived · top promise score · push status)
@@ -84,3 +86,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-17 | 7-Specialty food & ag ingredients (1st pass) | ~28 (LWAY,SANW,MGPI,LMNR,FARM,ODC,EVGN,JBSS,CVGW,WFCF,HAIN,REED,STKL,EVE.SW,BIOG-B.ST,BU.TO,HLF.TO,PBH.TO,AFN.TO,2924.T,4118.T,2809.T,2531.T,097950.KS,007310.KS,111110.KS,ANDE,2892.T) | 27 killed (2 QUALITY: SANW/EVGN; 5 COVERAGE: MGPI/JBSS/HAIN/STKL/BIOG-B.ST; 6 NO_MOAT: LMNR/FARM/CVGW/2924.T/111110.KS/2892.T; 7 CAP: WFCF/REED/PBH.TO/4118.T/2809.T/097950.KS/007310.KS; 1 PRICE+CAP_SOFT: ODC; 2 INTEGRITY: EVE.SW/BU.TO; 4 SECTOR_ADJACENT: HLF.TO/AFN.TO/2531.T/ANDE) | 1 new QUEUED: LWAY 9/12 (Lifeway Foods; US kefir BRAND+CONSUMABLE; ~$408M cap extended zone; 2 analysts; 26 consecutive growth quarters; Q1 2026 +36.7% YoY) | 1 deferred deep-dive completed (FAA.VI → WATCH A; Grade A · Q5/F4/R5/C3; EV/EBIT 8.5x; +108% PT gap; IDOX/Vitec analogs; 7C/2P/1U/0RF; memo memos/FAA.VI-2026-07-17.md; first WATCH A in KB history) | 9/12 LWAY | PENDING |
 | 2026-07-17 | 8-Building & infrastructure products (1st pass, Canada/AU) | 33 (SSD,ZWS,MWA,WTS,WMS,ROCK,AAON,AMRZ,RWC,BKW,SJ,RCH,PATK,APOG,NX,LMB,FBU,JLG,SIS,ADEN,WGN.AX,GWA.AX,NWH,MGH,SRG,AMWD,GDL,DXT,BDT,IPD.AX,TBI.TO,BQE,SMID) | 32 killed (13 CAP_KILL >$1.5B: SSD/ZWS/MWA/WTS/WMS/ROCK/AAON/AMRZ/RWC/BKW/SJ/RCH/PATK; 7 CAP_SOFT_KILL: APOG/NX/LMB/FBU/JLG/SIS/ADEN; 1 PRICE_KILL+CAP_SOFT: WGN.AX +132% 12mo; 1 COVERAGE_KILL: GWA.AX 5 analysts; 8 NO_MOAT: NWH/MGH/AMWD/GDL/DXT/BDT/IPD.AX/TBI.TO; 2 SECTOR_ADJACENT: SRG fire-protection/BQE mine-water→sector 9) | 1 new QUEUED: SMID 6/12 (Smith-Midland precast barrier IP; ~$157M; 0 analysts; IIJA tailwind) | 0 (no QUEUED_HOT ≥10; deferred queue empty entering run; §5 skipped) | 6/12 SMID | PENDING |
 | 2026-07-17 | 9-Environmental/waste/water (1st pass, Nordics) | 28 (CWST,SRCL,CLH,GFL.CA,6370.T,SES.ST,SDIP-B.ST,BWT.VI,RWI.AS,ARIS,9551.T,ETX.L,BLGO,AQMS,EQTEC.L,HYR.L,ENVI.AS,NES,PRMW,NRC.OL,LOOP,LICY,ACC.OL,Cambi,Soiltech,NOAP.OL,WATR.L + LWAY deferred §5) | 25 killed §3 (5 CAP_KILL >$1.5B: CWST/SRCL/CLH/GFL.CA/6370.T; 5 CAP_KILL <$20M: ETX.L/BLGO/AQMS/EQTEC.L/HYR.L; 5 CAP_SOFT_KILL: SDIP-B.ST/BWT.VI/RWI.AS/ARIS/9551.T; 1 COVERAGE_KILL: ENVI.AS 5 analysts; 3 NO_MOAT: NES/PRMW/NRC.OL; 4 INTEGRITY: SES.ST/LOOP/LICY/ACC.OL; 2 NOT_PUBLIC: Cambi/Soiltech; 1 SECTOR_ADJACENT: NOAP.OL) | 0 new QUEUED; 1 PARK: WATR.L 5/12 (4 analysts knocked coverage axis to 0; thin 5.6% net margin; no catalyst) | 1 (LWAY deferred 9/12 → CANDIDATE Grade C; memo memos/LWAY-2026-07-17.md; Q3/F3/R2/C3; buy-zone ≤$18-20/sh; WATCH tests fail) | 5/12 WATR.L PARK; LWAY → CANDIDATE C | PENDING |
+| 2026-07-17 | 10-Value-added/sole-line distribution (1st pass, US micro-cap) | ~26 (PKOH,GMS,EPAC,DXPE,DNOW,PRTS,WINA,UNFI,SPTN,BECN,WOR,CMCO,MNRO,HZO,ARKO,SPWH,MRC,SXC,VSEC,MPAA,HLLY,CLFD,DSGR + JOUT,HBB,NATR + SMID deferred §5) | ~23 killed (1 COVERAGE: PKOH 7 analysts; 4 CAP: GMS/BECN/WOR/MRC; 4 CAP_SOFT: EPAC/DXPE/CMCO/HZO; 5 NO_MOAT: PRTS/SPTN/ARKO/SPWH/MPAA; 4 SECTOR_ADJACENT: CLFD/MNRO/SXC/WINA→Sector14; 2 INTEGRITY: HLLY/UNFI; 1 DEDUP: DSGR; 2 M&A: DNOW/MRC; 1 CAP_SOFT+SECTOR: VSEC) | 3 new QUEUED: JOUT 8/12, NATR 7/12, HBB 6/12 | 1 (SMID deferred §5 → CANDIDATE Grade C; Q3/F4/R3/C3; buy-zone $22-24; IIJA cliff RED-FLAG Sep 30 2026; memo memos/SMID-2026-07-17.md) | 8/12 JOUT | PENDING |

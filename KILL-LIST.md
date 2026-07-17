@@ -1193,3 +1193,64 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Score | Date | Reason |
 |--------|---------|-------|------|--------|
 | WATR.L | Water Intelligence plc (AIM: WATR) | 5/12 | 2026-07-17 | Non-intrusive acoustic leak detection for water utilities (AEM methodology; licensed franchise + subsidiary territory network; ~£41M cap; AIM London). Moat=1 (AEM PROCESS moat plausible; non-intrusive reduces excavation 80%+; but moat thin vs other acoustic leak detection providers; not regulatory-locked), Quality=1 (profitable; 5.6% net margin thin), Coverage=0 (4 analysts confirmed = exactly at §3 gate threshold; passes gate but scores 0 in §4 — "≤2 analysts" is the real coverage-void signal), Valuation=2 (115% gap to analyst PT), Catalyst=0 (no hard-dated <6mo event), Floor=1 (profitable; conditional). Total 5/12 PARK. REVISIT IF: (a) net margin >10% AND (b) analyst count drops to ≤2 AND (c) cap <£30M. |
+
+---
+
+## Run #29 Kills — 2026-07-17 | Sector 10: Value-added/sole-line distribution (1st pass) | Geo lens: US micro-cap
+
+*~26 names processed; ~23 killed in triage/§4; 3 QUEUED (JOUT 8/12, NATR 7/12, HBB 6/12); 0 QUEUED_HOT; 1 deferred deep-dive completed (SMID → CANDIDATE Grade C; Q3/F4/R3/C3; memo memos/SMID-2026-07-17.md). Structural context: value-added/sole-line distribution sector is structurally sparse for true moated micro-caps — PE consolidation (Genuine Parts, W.W. Grainger, Fastenal, MSC Industrial, Applied Industrial all large-cap incumbents) removed most quality names. Most surviving public distributors either lack pricing power (commodity distribution) or have already graduated to the extended zone. The 3 QUEUED survivors (JOUT, NATR, HBB) are better classified as Sector 14 (Consumer niche/branded franchises) — category-leader consumer brands, not traditional distribution moats. Forwarding noted.*
+
+### Coverage Kill (>4 sell-side analysts)
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| PKOH | Park-Ohio Holdings Corp (Nasdaq: PKOH) | 7 confirmed sell-side analysts | 2026-07-17 | US supply chain management and product distribution (fasteners, plastics, electronic components; value-added distribution with engineering/kitting services for manufacturers; Supply Technologies segment has some OEM-spec-in moat from custom kitting and VMI arrangements). BUT 7 confirmed sell-side analysts = institutional coverage well above threshold. COVERAGE_KILL. Revisit if analyst count drops to ≤3. |
+
+### Cap Kills (market cap >$1.5B — out of exclusion zone)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| GMS | GMS Inc (NYSE: GMS) | ~$2.5-3B | 2026-07-17 | US specialty building products distribution (wallboard, ceilings, steel framing — #2 US wallboard distributor; some SWITCHING_COST moat from project sequencing and inventory management for drywall contractors); cap far above $1.5B limit; 5-6 analysts. CAP_KILL. |
+| BECN | Beacon Roofing Supply (Nasdaq: BECN) | ~$5-6B | 2026-07-17 | US roofing/waterproofing materials distribution (#2 US roofing distributor; some OEM-preferred-channel moat from manufacturer distribution agreements and contractor loyalty programs); cap far above $1.5B limit; 8+ analysts. CAP_KILL. |
+| WOR | Worthington Enterprises (NYSE: WOR) | ~$1.5-2B | 2026-07-17 | US pressure cylinders and steel processing (consumer products division: tanks, tools, outdoor appliances; industrial division: pressure cylinders for HVAC, fuel storage; PROCESS moat in DOT-specification steel pressure vessels); cap at/above $1.5B limit; 4-5 analysts. CAP_KILL. |
+| MRC | MRC Global (NYSE: MRC) | ~$1-1.5B | 2026-07-17 | US pipes, valves, and fittings distribution for energy/industrial (largest US PVF distributor for oil/gas and industrial customers; some SWITCHING_COST from ERP integration and just-in-time delivery for refinery MRO); cap above $1.5B limit; 4-5 analysts. CAP_KILL + CAP_SOFT concurrent. |
+
+### Cap Soft Kills ($300M–$1.5B — extended zone without exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| EPAC | Enerpac Tool Group (NYSE: EPAC) | ~$800-1000M | 2026-07-17 | US high-force hydraulic tools and workholding (Enerpac high-pressure hydraulic cylinders/pumps/actuators for heavy industry maintenance; genuine BRAND + PROCESS moat in specification hydraulic tooling for OEM maintenance applications; 40%+ GM confirms pricing power); cap ~$800-1000M extended zone; 4-5 analysts = concurrent COVERAGE_KILL. Dual CAP_SOFT_KILL + COVERAGE_KILL. |
+| DXPE | DXP Enterprises (Nasdaq: DXPE) | ~$500-700M | 2026-07-17 | US industrial parts and services distribution (pumps, bearings, seals for energy/industrial — MFCP pumping systems distribution with some application engineering moat; Innovative Pumping Solutions engineering services); cap ~$500-700M extended zone; 4-5 analysts. CAP_SOFT_KILL. |
+| CMCO | Columbus McKinnon (Nasdaq: CMCO) | ~$700-900M | 2026-07-17 | US hoists, rigging, and material handling products (Yale, CM, Coffing brand hoists; PROCESS moat in load-bearing specification hardware for ASME/OSHA-compliance in factory/construction lifting operations; 12-18mo re-certification barrier per hoist type); cap ~$700-900M extended zone; 4-5 analysts concurrent COVERAGE_KILL. Dual CAP_SOFT_KILL + COVERAGE_KILL. |
+| HZO | MarineMax Inc (NYSE: HZO) | ~$400-600M | 2026-07-17 | US marine retailer and services (Sea Ray, Boston Whaler dealer; yacht storage/service; Superyacht management via Fraser Yachts; some OEM-exclusive dealer moat from manufacturer territory exclusivity agreements); cap ~$400-600M extended zone; insufficient exceptional asymmetry (luxury marine retail = cyclical, no regulatory lock-in). CAP_SOFT_KILL. |
+| VSEC | VSE Corporation (Nasdaq: VSEC) | ~$1.2-1.4B | 2026-07-17 | US aviation parts supply chain distribution and maintenance services (Wheeler Fleet Solutions for government vehicle parts; Aviation segment for FAA/EASA-approved aircraft parts distribution with certified sourcing traceability); cap ~$1.2-1.4B extended zone + defense/government primary mix = SECTOR_ADJACENT (defense aviation) concurrent. Dual CAP_SOFT_KILL + SECTOR_ADJACENT. |
+
+### No-Moat Kills (commodity distribution, competitive retail, no regulatory or process lock-in)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| PRTS | CarParts.com Inc (Nasdaq: PRTS) | US online auto parts retailer (collision repair parts: fenders, hoods, bumpers; discount OEM-replacement parts sold direct-to-consumer online); no proprietary product moat — competitive with LKQ, AutoZone, O'Reilly, Amazon; price-taking commodity parts market. NO_MOAT_KILL. | 2026-07-17 |
+| SPTN | SpartanNash Company (Nasdaq: SPTN) | US grocery wholesale distribution and retail (wholesale grocery distribution to independent retailers + corporate-owned retail food store chain in Midwest); commodity grocery wholesale with no regulatory or process lock-in — Sysco/US Foods/UNFI compete directly; thin margins confirm price-taker. NO_MOAT_KILL. | 2026-07-17 |
+| ARKO | ARKO Corp (Nasdaq: ARKO) | US convenience store chain and fuel distribution (Fas Mart, ExpressStop, Roadrunner; acquired regional C-store chains; fuel distribution wholesale arm); C-store fuel retail with no differentiated moat — commodity fuel, similar footprint to Couche-Tard/Circle K, Murphy USA; private-label food revenue small fraction. NO_MOAT_KILL. | 2026-07-17 |
+| SPWH | Sportsman's Warehouse Holdings (Nasdaq: SPWH) | US outdoor/sporting goods retailer (firearms, ammunition, hunting/fishing/camping gear); competitive retail with no sole-source or specification moat — competes directly with Bass Pro Shops/Cabela's, Academy Sports, local gun dealers. NO_MOAT_KILL. | 2026-07-17 |
+| MPAA | Motorcar Parts of America (Nasdaq: MPAA) | US remanufactured alternators, starters, and brake calipers for the automotive aftermarket (hard parts remanufacturing for retail auto parts chains); generic remanufacturing market (multiple competitors: Remy, Standard Motor Products); no regulatory certification or sole-source position. NO_MOAT_KILL. | 2026-07-17 |
+
+### Sector-Adjacent Kills (better fit Sector 14 consumer/branded or non-distribution moats)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| CLFD | Clearfield Inc (Nasdaq: CLFD) | US fiber optic distribution and management equipment (FieldSmart fiber build-out enclosures, cabinets, and equipment for telecom carriers and MSOs; some SPECIFICATION moat in carrier-approved FieldSmart enclosure designs); primary business is telecom infrastructure equipment OEM, not value-added distribution — SECTOR_ADJACENT → Sector 11 (Telecom infrastructure) or Sector 3 (Industrial Precision) better fit. SECTOR_ADJACENT_KILL. | 2026-07-17 |
+| MNRO | Monro Inc (Nasdaq: MNRO) | US auto service chain (tire replacement, oil change, brakes, exhaust for consumer vehicles; ~1,300 locations across 32 states); automotive services retail — bid-market consumer service with no distribution or sole-source moat; tire pricing is commodity (Goodyear, Michelin, Bridgestone compete on price through any channel). SECTOR_ADJACENT_KILL (service chain ≠ distribution moat). | 2026-07-17 |
+| SXC | SunCoke Energy Inc (NYSE: SXC) | US metallurgical coke production for steel mills (cokemaking using proprietary heat-recovery oven technology; long-term take-or-pay supply contracts with US Steel, AK Steel/Clevelands-Cliffs; PROCESS moat in SXC's heat-recovery ovens which generate power as byproduct); cokemaking is commodity-priced raw material supply for steelmakers, not value-added distribution — SECTOR_ADJACENT (materials processing) ≠ Sector 10 distribution moat. Also cap ~$400-600M extended zone concurrent. SECTOR_ADJACENT_KILL + CAP_SOFT_KILL. | 2026-07-17 |
+| WINA | Winmark Corporation (Nasdaq: WINA) | US branded franchise resale retail (Play It Again Sports, Once Upon A Child, Plato's Closet, Style Encore, Music Go Round franchises; BRAND + FRANCHISE moat in the "buy/sell/trade" used-goods retail segment; asset-light royalty model on franchise system); better fit Sector 14 (Consumer niche & branded franchises) — franchise licensing royalty model is not Sector 10 distribution. SECTOR_ADJACENT → FORWARD TO SECTOR 14. | 2026-07-17 |
+
+### Integrity Kills (losses, excessive debt, or quality=0)
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| HLLY | Holley Inc (NYSE: HLLY) | US automotive performance and aftermarket parts (Holley carburetors, MSD ignition, Flowmaster exhaust — genuine BRAND moat in performance aftermarket components; category-dominant in carburetors and ignition systems). BUT ongoing GAAP net losses from serial acquisition overhang; $700M+ net debt post-going-public SPAC; quality=0 (losses + leverage = no earnings floor); anti-value-trap rule applies. INTEGRITY_KILL. Revisit if debt reduces below $300M and 2 consecutive quarters of net income confirmed. | 2026-07-17 |
+| UNFI | United Natural Foods Inc (Nasdaq: UNFI) | US natural and organic food wholesale distributor (#1 US natural/organic food distributor; sole/primary distribution partner for Whole Foods Market historical; genuine SWITCHING_COST moat from ERP integration and proprietary network with independent natural food retailers and Whole Foods). BUT net losses multi-quarter; ~$2.5-3B net debt (post-Supervalu acquisition); quality=0 (earnings losses + extreme leverage = going-concern-adjacent). INTEGRITY_KILL. Revisit if debt restructured below $1.5B and net margin positive. | 2026-07-17 |
+
+### M&A / Going-Private Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| DNOW | NOW Inc (NYSE: DNOW) | US industrial pipes, valves, fittings and supply chain services distribution (oil/gas and industrial MRO PVF distribution; SWITCHING_COST moat from ERP/eProcurement integration and on-site vending/VMI services for refinery and midstream customers). BUT going-private announced: NOW Inc received acquisition proposal from private equity; pending deal conversion to merger-arb only. No public-market re-rating possible under pending going-private. M&A_KILL. | 2026-07-17 |
+
+### De-Duplicate Kills (already in KB from prior runs)
+| Ticker | Company | Seen In | Date | Reason |
+|--------|---------|---------|------|--------|
+| DSGR | Distribution Solutions Group (Nasdaq: DSGR) | Run #27 triage | 2026-07-17 | US specialty distribution holding company (Lawson Products MRO, TestEquity electronics/lab equipment distribution, Gexpro Services supply chain services for utilities/renewables); appeared in run #27 sector screening; DEDUP — already reviewed and classified (extended zone ~$500-700M cap + 4+ analysts = CAP_SOFT_KILL + COVERAGE_KILL). DEDUP_KILL. |
