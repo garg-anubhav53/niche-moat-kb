@@ -16,6 +16,8 @@ Names that failed the asymmetry or integrity gates.
 | 033640.KQ | Nepes | +100%+ YTD 2026 (KOSDAQ, semiconductor packaging/bumping) | 2026-07-17 | Korean fan-out wafer-level packaging specialist; FOWLP PROCESS moat; but price-killed on packaging demand surge | Revisit if corrects below $300M |
 | 084370.KQ | Eugene Technology | +100%+ YTD 2026 (KOSDAQ, ALD equipment for DRAM) | 2026-07-17 | Korean ALD equipment for DRAM cell capacitors; process recipe lock-in; 2026 rally price-killed asymmetry | Revisit if corrects below $200M |
 | 265520.KQ | AP Systems | +100%+ YTD 2026 (KOSDAQ, OLED/semiconductor laser equipment) | 2026-07-17 | Korean OLED and semiconductor laser annealing equipment; PROCESS moat; 2026 rally price-killed | Revisit if corrects below $300M |
+| GALT | Galectin Therapeutics | >+100% 12-mo (NASH Phase 2b belapectin data) | 2026-07-17 | Moat if FDA-approved would be regulatory but stock already priced in; development-stage cash-burning | Re-entry if cap corrects below $150M AND FDA approval achieved |
+| CTMX | CytomX Therapeutics | >+100% 12-mo (PROBODY antibody-drug conjugate clinical data) | 2026-07-17 | Development stage; no commercial revenue; PRICE_KILL | Re-entry if cap corrects below $100M AND commercial revenue achieved |
 
 ---
 
@@ -153,6 +155,9 @@ Names that failed the asymmetry or integrity gates.
 | 036540.KQ | SIMMTECH | >$400M USD | 2026-07-17 | Korean FC-BGA and package substrate manufacturer; genuine PROCESS moat (advanced substrate lamination for HBM/CoWoS); BUT cap >$400M; also 5+ Korean analysts |
 | CEVA | CEVA Inc (Nasdaq) | ~$400-500M USD | 2026-07-17 | Israeli-Nasdaq semiconductor IP licensing (DSP cores, Bluetooth/Wi-Fi IP for SoC); SWITCHING_COST moat (silicon-validated IP with customer design-in); BUT cap ~$400M = CAP_SOFT_KILL; 4-5 analysts |
 | 042700.KQ | Hanmi Semiconductor | >$500M USD | 2026-07-17 | Korean TC bonder and semiconductor packaging equipment (EMI/SOIC/flip-chip); genuine PROCESS moat in TC bonding equipment for HBM; BUT cap >$500M on HBM demand; 5+ Korean analysts |
+| BCRX | BioCryst Pharmaceuticals | ~$2-3B cap | 2026-07-17 | HAE prophylaxis (ORLADEYO oral kallikrein inhibitor; first once-daily oral HAE prophylaxis FDA-approved 2020); genuine REGULATORY moat but cap ~$2-3B far above $1.5B ceiling; 8+ analysts |
+| AMPH | Amphastar Pharmaceuticals | >$1.5B cap | 2026-07-17 | Specialty injectable pharmaceuticals (intranasal naloxone, enoxaparin, glucagon); genuine PROCESS moat in differentiated injectable manufacturing (vertically integrated ANDA/NDA portfolio); cap >$1.5B; 5 analysts |
+| CYCN | Cyclerion Therapeutics | sub-$20M cap | 2026-07-17 | sGC stimulator CNS/mitochondrial disease development-stage; no commercial revenue; cap sub-$20M = below viable investment floor minimum |
 
 ---
 
@@ -187,6 +192,14 @@ Names that failed the asymmetry or integrity gates.
 | 8150.TW | ChipMOS Technologies | >$400M USD + 4-5 analysts (TWSE) | 2026-07-17 | Taiwan semiconductor test and assembly foundry (OSAT, memory module assembly, burn-in test); some PROCESS moat in niche DDIC/memory assembly; BUT cap >$400M = CAP_SOFT_KILL; 4-5 analysts = COVERAGE_KILL; DUAL-KILL |
 | 5364.TW | Pixart Imaging | >$500M USD + 5+ analysts (TWSE) | 2026-07-17 | Taiwan optical navigation IC designer (optical mouse sensors, gesture recognition, fingerprint); genuine PROCESS moat in optical navigation algorithms; BUT cap >$500M; 5+ analysts; DUAL-KILL |
 | 281820.KS | KC Tech | ₩1.2–1.8T (~$900M–$1.3B) + 5+ analysts; stock 26% above analyst PT | 2026-07-17 | Korean CMP slurry and cleaning solution specialist for semiconductor (alumina/ceria CMP consumables for DRAM and NAND); genuine PROCESS+CONSUMABLE moat (CMP recipe validation = long switching cost); BUT cap ₩1.2-1.8T = CAP_KILL/CAP_SOFT_KILL depending on measurement; stock 26% above analyst consensus PT = PRICE_KILL concurrent; 5+ Korean analysts = COVERAGE_KILL; TRIPLE-KILL |
+| COLL | Collegium Pharmaceutical | 5–6 analysts | 2026-07-17 | Abuse-deterrent opioid franchise (Xtampza ER, Belbuca buprenorphine); genuine REGULATORY moat (FDA abuse-deterrent formulation exclusivity + OxyContin reformulation blocking); but 5-6 analysts = coverage dense above threshold |
+| HRMY | Harmony Biosciences | 5–8 analysts | 2026-07-17 | WAKIX (pitolisant) for narcolepsy with cataplexy (FDA-approved 2019); genuine REGULATORY moat (first histamine H3 receptor antagonist/inverse agonist for narcolepsy; orphan drug exclusivity); but well-covered 5-8 analysts |
+| CPRX | Catalyst Pharmaceuticals | 4–6 analysts | 2026-07-17 | FIRDAPSE (amifampridine) for Lambert-Eaton myasthenic syndrome; genuine REGULATORY moat (first-and-only FDA-approved LEMS treatment 2018; orphan designation); but 4-6 analysts = coverage threshold exceeded |
+| ANIP | ANI Pharmaceuticals | 4–5 analysts | 2026-07-17 | Generic and branded specialty pharma (Cortrophin Gel branded ACTH injection for MS/nephrotic syndrome/rheumatic); REGULATORY moat on Cortrophin; but 4-5 analysts = coverage threshold |
+| KPTI | Karyopharm Therapeutics | 5–7 analysts | 2026-07-17 | XPOVIO (selinexor) for multiple myeloma and DLBCL; first-in-class XPO1 nuclear export inhibitor REGULATORY moat; but 5-7 analysts = well-covered |
+| TARS | Tarsus Pharmaceuticals | 4–6 analysts | 2026-07-17 | XDEMVY (lotilaner 0.25%) for Demodex blepharitis (first-and-only FDA-approved Demodex eyelid mite treatment 2023); genuine first-and-only REGULATORY moat; but 4-6 analysts = coverage above threshold |
+| HROW | Harrow Health | 4–5 analysts | 2026-07-17 | Ophthalmic specialty pharma (VEVYE cyclosporine, IHEEZO, TRIESENCE triamcinolone; 503B compounding + branded ophthalmic); REGULATORY moat elements; but 4-5 analysts = coverage threshold |
+| INVA | Innoviva Inc | 4–5 analysts | 2026-07-17 | Royalty income from Relvar/Breo Ellipta (GSK partnership; LABA/ICS combination for COPD/asthma); CONTRACTUAL royalty moat; but 4-5 analysts = coverage threshold |
 
 ---
 
@@ -230,6 +243,16 @@ Names that failed the asymmetry or integrity gates.
 | CTSO | CytSorbents Corp | CytoSorb hemoadsorption beads (sole CE-marked extracorporeal cytokine adsorber for ICU/cardiac surgery; genuine PROCESS + REGULATORY moat; 71% GM; 3 analysts; $30M cap); BUT going-concern risk cited in disclosures; targeting operating cash-flow break-even H2 2026; DrugSorb-ATR FDA De Novo submission deferred to late 2026/early 2027 after August 2026 pre-submission meetings needed. Revenue $37.1M growing only 2-4% YoY. INTEGRITY_KILL + NO_CATALYST_KILL. REVISIT if: (a) going-concern resolved + H2 2026 operating cash flow positive + (b) FDA De Novo submission filed for DrugSorb-ATR | 2026-07-16 |
 | TTOO | T2 Biosystems | T2Bacteria + T2Fungi molecular sepsis diagnostics (FDA-cleared; sole-source pathogen detection panel without blood culture; sub-4hr results — genuine REGULATORY moat); BUT going-concern disclosures; serial equity dilution; heavy cash burn; no earnings floor | 2026-07-16 |
 | CEMI | Chembio Diagnostics | Rapid HIV/TB/malaria POC diagnostics (FDA-approved, WHO pre-qualified; REGULATORY moat); SEC investigation history 2021-22; likely financial restructuring; integrity concerns | 2026-07-16 |
+| SPPI | Spectrum Pharmaceuticals | Development-stage oncology; multiple product failures; near-insolvent; cash burn ongoing; no earnings floor; serial equity dilution | 2026-07-17 |
+| ASRT | Assertio Holdings | Going-concern disclosure; net losses sustained; specialty pharma brand portfolio erosion; financial distress | 2026-07-17 |
+| ACOR | Acorda Therapeutics | Multiple failed product launches (Inbrija parkinson's inhalation); going-concern risk; serial dilution; heavy cash burn on shrinking MS franchise | 2026-07-17 |
+| RDHL | RedHill Biopharma | Development-stage GI pharma; serial equity dilution; going-concern risk; Israeli-Nasdaq listed; opioid litigation history | 2026-07-17 |
+| NKTR | Nektar Therapeutics | Drug delivery/biopolymers; multiple clinical failures (NKTR-358 lupus, bempegaldesleukin); serial equity dilution; sustained cash burn on >$1.5B spent pipeline without commercial launch | 2026-07-17 |
+| APLT | Applied Therapeutics | Development-stage rare disease (govorestat for galactosemia); FDA CRL received June 2024; pre-commercial cash burn; serial equity dilution; going-concern risk | 2026-07-17 |
+| ACER | Acer Therapeutics | Ultra-rare disease (EDSIVO/celiprolol for vascular EDS); development-stage; pre-commercial cash burn; going-concern risk; serial dilution | 2026-07-17 |
+| MNOV | MediciNova Inc | Development-stage CNS (MN-166 ibudilast for ALS/MS); pre-commercial; no approved products generating revenue; cash burn; no near-term revenue floor | 2026-07-17 |
+| ALDX | Aldeyra Therapeutics | Development-stage ophthalmology (reproxalap for dry eye/allergic conjunctivitis); FDA CRL; pre-commercial; serial dilution; cash burn ongoing | 2026-07-17 |
+| PRTA | Praxis Precision Medicine | Development-stage CNS/epilepsy (ulixacaltamide for essential tremor); pre-commercial; serial equity dilution; no approved products; cash burn | 2026-07-17 |
 
 ---
 
@@ -257,6 +280,7 @@ Names that failed the asymmetry or integrity gates.
 | OSS | One Stop Systems | Rugged AI computing for aerospace (JetFlash, storage solutions for commercial + military); defense programs >50% revenue; SECTOR_KILL despite commercial aviation exposure | 2026-07-16 |
 | EMKR | EMCORE Corporation | Fiber optic inertial navigation systems (gyroscopes) + space solar electronics; defense primary for inertial nav (missile guidance, military platforms); some civil space solar but defense = primary | 2026-07-16 |
 | AIRI | Air Industries Group | Aerospace structural assemblies (wing components, control surfaces) for Sikorsky helicopters, F/A-18, etc.; defense primary customer (military aircraft programs) | 2026-07-16 |
+| NVRO | Nevro Corp | Medical device — spinal cord stimulation neuromodulation for chronic pain; NOT specialty pharma/healthcare services; wrong primary sector for Sector 19 scan | 2026-07-17 |
 
 ---
 
@@ -348,6 +372,10 @@ Names that failed the asymmetry or integrity gates.
 | IDS.L | Immunodiagnostic Systems Holdings plc (AIM UK) | Acquired by Revvity (RVTY) July 12 2021 — no longer an independent public company; de-listed from AIM | 2026-07-16 | Specialty manual + automated immunoassay analyzers (IDS-iSYS; 25-OHD Vitamin D, testosterone, cortisol); genuine CONSUMABLE + REGULATORY moat (calibrated reagent kits for IDS-iSYS platform; clinical laboratory lock-in); moat confirmed but company is fully acquired; any thesis requires acquiring RVTY (>B cap) |
 | 036490.KQ | Solbrain Co. Ltd. | Korean semiconductor specialty chemicals (CMP slurry, etchants, cleaning chemicals for semiconductor fab); NO_MOAT: commodity chemical market with multiple domestic and international competitors (Stella Chemifa, TECHNO SEMICHEM, ENF Technology, Dongjin Semichem, others); no sole-source regulatory certification or switching-cost moat in fab chemicals; pricing power weak vs. large IDM customers (Samsung, SK Hynix); KOSDAQ-listed | 2026-07-17 |
 | 319650.KQ | LB Inc (LB Semicon) | Korean semiconductor substrate/package material company; NO_MOAT: commodity printed circuit board substrate and packaging material supplier; competes with multiple Korean and Taiwanese PCB/substrate producers; no proprietary materials chemistry or design-in lock-in demonstrable; price-taker vs. large memory/logic customers; KOSDAQ-listed | 2026-07-17 |
+| CHRS | Coherus BioSciences | Biosimilars by design — commodity therapeutic antibodies with no proprietary IP; biosimilar development is specifically aimed at undercutting brand pricing; NO_MOAT: the business model is to eliminate moats, not create them; price competition structural | 2026-07-17 |
+| XOMA | XOMA Corp | Royalty aggregator for biotech milestones/royalties — no proprietary product, no manufacturing, no regulatory exclusivity; aggregates royalty streams from external agreements; NO_MOAT: royalty aggregation without proprietary product = no durable competitive advantage; royalty streams are depleting assets | 2026-07-17 |
+| SPOK | Spok Holdings | Healthcare paging and messaging communications — legacy paging technology in secular decline; digital alternatives (smartphones, secure messaging apps) displacing paging across US hospitals; NO_MOAT: secular technology substitution eliminates any lock-in; revenue declining annually | 2026-07-17 |
+| CPIX | Cumberland Pharmaceuticals | Specialty pharmaceutical commercial-stage; products (Caldolor IV ibuprofen, Kristalose lactulose, Vibativ) compete in established generic or multi-competitor markets; no first-and-only FDA position; NO_MOAT: competitive specialty pharma without regulatory exclusivity or orphan market protection | 2026-07-17 |
 
 ---
 
