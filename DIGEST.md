@@ -2,6 +2,8 @@
 
 ## Doctrine: Moat-First, Risk-Adjusted Asymmetry (full method in `METHOD.md`)
 
+**Purpose:** surface companies *quite likely to be very strong candidates* — high-quality **leads for a human to vet**, each with flagged trust levels and a short "what to confirm" list. Not an AI end-to-end verdict; when in doubt on a genuinely strong business, surface it (don't silently kill), and hand off honestly.
+
 **The edge:** Own moat-protected businesses where the moat is the downside floor, bought below what the moat is worth. **Two independent reasons to be interested — decoupled:**
 1. **High-quality, well-protected business** — worth owning *even without* a near-term re-rate (a **CORE** hold; the re-rate is optional upside). A franchise is never killed for lacking a catalyst.
 2. **A near-term re-rating is likely** — adds urgency (a **CATALYST** trade).

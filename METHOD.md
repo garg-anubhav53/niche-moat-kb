@@ -1,5 +1,9 @@
 # METHOD — Scoring, Skeptic's Checklist, Base Rates, Risk-Adjusted Asymmetry
 
+## Purpose — what this system is (and isn't)
+
+**The goal is to surface companies that are quite likely to be very strong candidates — high-quality *leads for a human to vet* — not to fully vet a company end-to-end with AI and output a "buy."** An AI pipeline over web/financial data cannot be trusted as the final word; that is not the intention. So we optimize for two things: **(1) finding the genuinely strong ones** (don't miss a great business over imperfect data — when in doubt on a *quality* name, surface it, don't silently kill it), and **(2) an honest handoff** — every candidate comes with clearly-flagged trust levels and a short list of what a person must independently confirm before capital. Better to present a strong candidate with its open questions than to falsely certify it *or* falsely bury it. The trust-tags, confidence score, and the human-verification checklist exist to make the handoff honest, not to simulate a verdict.
+
 The §5 deep-dive reads and applies this file. The §4 scout score (/12) is only a cheap funnel filter; **this is where conviction is actually formed.**
 
 ---
@@ -143,5 +147,9 @@ Skeptic's checklist: N CONFIRMED, N PLAUSIBLE, N UNVERIFIED, N RED-FLAG
 Open questions (what would raise C): ...
 Buy-zone / upgrade trigger / downgrade trigger: ...
 Asymmetry-to-risk in one sentence: ...
+HUMAN VERIFICATION CHECKLIST (before any capital — the 3–5 things a person must independently confirm):
+  - every ⚠/? figure and the load-bearing assumption behind the grade
+  - the primary-filing checks not yet done (e.g. read the debt/lease footnote, customer-concentration note, subsequent events)
+  - the single fact that, if wrong, breaks the thesis
 ```
-**A memo without a complete, primary-source-verified financial baseline is not a finished deep-dive** — its grade is provisional and the name stays NEEDS-DATA.
+**We surface strong candidates for human vetting — not finished verdicts.** A memo without a primary-source-verified baseline is provisional (NEEDS-DATA), and every memo hands off an explicit verification checklist. The system's success = *this looks quite likely to be a very strong candidate; here is exactly what to confirm*, not "buy."

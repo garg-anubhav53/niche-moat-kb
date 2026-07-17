@@ -182,7 +182,7 @@ Deep-dive **up to TWO** names per run — but ONLY genuine `QUEUED_HOT` (score �
 4. **Assess data quality / coverage confidence** explicitly (feeds C) — is the disclosure good, did we find the true comparable set, what are the open unknowns.
 5. **Produce the Risk-Adjusted Asymmetry grade (A/B/C/D) and Tier (CORE/CATALYST/WATCH/CANDIDATE/PARK)** per METHOD.md, plus buy-zone / upgrade-trigger / downgrade-trigger.
 
-Write the full verdict to `memos/[TICKER]-[YYYY-MM-DD].md`, ending with the required summary block from METHOD.md.
+Write the full verdict to `memos/[TICKER]-[YYYY-MM-DD].md`, ending with the required summary block from METHOD.md — **including the HUMAN VERIFICATION CHECKLIST.** We are surfacing a strong *candidate for a human to vet*, not an AI verdict: hand off the 3–5 things a person must independently confirm before capital, and when a genuinely high-quality name has imperfect data, surface it with flags rather than silently killing it.
 
 **Status assignment:**
 - **CORE** — Q≥4 & F≥4 (own-and-hold quality; catalyst optional). A high-quality protected business with no near-term catalyst belongs HERE, not killed.
