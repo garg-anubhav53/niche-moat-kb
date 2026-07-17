@@ -1467,3 +1467,71 @@ Names that failed the asymmetry or integrity gates.
 | ARKR | Ark Restaurants | PARK | 2026-07-17 | Restaurant operator at unique NYC locations (Bryant Park, World Financial Center); ~$40M cap. Location moat real (long-term leases at premium spots) but mediocre quality/low margins + very illiquid ($40M cap). PARK — illiquid, quality low, no catalyst. |
 
 *30 names processed; 28 killed/parked (15 COVERAGE_KILL, 2 CAP_KILL, 2 CAP_SOFT_KILL, 2 NO_MOAT_KILL, 1 NO_CATALYST_KILL, 3 INTEGRITY_KILL, 2 ACQUISITION_KILL, 3 PARK); 1 QUEUED_CORE: WINA 8/12 (Winmark Corp). §5 deep-dive: FEW.F (deferred from run #32) completed this run. Sector 14 (Consumer niche & branded franchises) marked ACTIVE (1st pass, 1 new find). US micro-cap lens reveals significant PE consolidation / coverage-heavy consumer moat space; the pure franchise-royalty / category-monopoly survivors are either already well-covered or pending acquisition; Winmark (WINA) stands out as exception — 686% ROIC, 1 analyst, $1.35B extended zone CORE quality.*
+
+---
+
+## Sector 15 — Exchanges/Data/Niche Financials (Run #34, 2026-07-17, UK AIM + Continental Europe geo lens)
+
+Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankfurt XTRA, Vienna, Stockholm). Sector structurally sparse at $20–300M cap — PE consolidation has removed most quality exchange and data names from public markets. Most exchange operators and fintech infrastructure plays are either large-cap (LSE Group, Deutsche Börse, Euronext, IG Group, Plus500) or have been taken private. 3 survivors from ~35 processed: GHT.L 7/12, REC.L 6/12, PKG.L 6/12.
+
+### M&A Kills (acquired/taken private — no moat thesis remaining)
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| AQX.L | Aquis Exchange | ~£200M deal value | 2026-07-17 | UK pan-European stock exchange operator (equities + derivatives); innovative subscription-fee exchange model. M&A_KILL — acquired by SIX Exchange Group AG (Swiss exchange) at ~£200M (~218p/share) deal closed 2025. No public equity remaining. Moat (REGULATORY exchange infrastructure + innovative fee model) was real and compelling — deal validates quality but removes moat play. |
+| ALFX.L | Alpha FX Group | ~£400M deal value | 2026-07-17 | UK corporate FX and treasury management platform; ~£400M AIM cap pre-bid; ARR-growing SaaS-ifying FX specialist. M&A_KILL — acquired by Corpay Inc (CPAY, US) completed December 2025. SWITCHING_COST moat confirmed (corporate treasury workflow integration); deal confirms quality but company is now private. No public equity remaining. |
+| RQIH.L | R&Q Insurance Holdings | ~£180M | 2026-07-17 | UK specialty insurance run-off manager (program management + legacy insurance). M&A_KILL — acquired by Accession Insurance Holdings; deal completed 2025 following extended restructuring. Legacy insurance run-off moat (regulatory licensing + actuarial lock-in) was genuine but the deal removes the public equity thesis. |
+
+### Integrity Kills
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| JIM.L | JLEN Environmental Assets Group | ~$5.4M (collapsed from £357M) | 2026-07-17 | UK AIM investment trust formerly owning wind, anaerobic digestion, and environmental infrastructure assets. INTEGRITY_KILL — wind-down mode confirmed: board resolved to sell all assets and return capital; NAV has been eroded by asset sales and currency/discount dynamics; cap collapsed from £357M to ~$5.4M as assets disposed. Operating in sell/hold-only mode. No moat thesis possible in wind-down. |
+
+### No-Moat Kills
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| HUW.L | Helios Underwriting plc | ~£70M | 2026-07-17 | UK AIM Lloyd's of London capacity aggregator — buys minority participations in Lloyd's syndicates. NO_MOAT_KILL: Helios aggregates Lloyd's capacity but does not own the underwriting moats of the individual syndicates; the business is financial arbitrage on Lloyd's participations, not a proprietary risk-selection moat. Competitive: multiple Lloyd's capacity vehicles exist. Margins are thin and cyclical. |
+| CLIG.L | City of London Investment Group | ~£120M | 2026-07-17 | UK AIM closed-end fund specialist asset manager (primarily emerging markets equity). NO_MOAT_KILL: asset management is broadly commoditized; no proprietary data moat or regulatory lock-in; AUM subject to investor redemption at any time; closed-end fund specialization is a niche but faces discount widening and AUM volatility. Competitive with many specialist EM managers. |
+| HAT.L | H&T Group | ~£260M | 2026-07-17 | UK AIM pawnbroking and personal finance lender. NO_MOAT_KILL + CAP_SOFT: Pawnbroking is competitive (Ramsdens, Borro, online alternatives); no exclusive geographies; no regulatory lock-in moat; H&T competes on branch density not on a proprietary service barrier. Cap ~£260M borderline extended zone without exceptional asymmetry. |
+| LSL.L | LSL Property Services | ~£230M | 2026-07-17 | UK surveying, mortgage broking, and estate agency services. NO_MOAT_KILL + COVERAGE_KILL: No durable moat in residential property services; highly competitive market; 5 analysts confirmed. Dual-kill. |
+
+### Coverage Kills (>4 analysts)
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| CSN.L | Chesnara plc | ~£500M | 2026-07-17 | UK life insurance acquiror of closed life books. COVERAGE_KILL + CAP_SOFT_KILL: 5-6 analysts confirmed; cap ~£500M extended zone without exceptional asymmetry to justify inclusion. Life insurance run-off moat is real but widely understood by UK insurance equity analysts. |
+| SBRE.L | Sabre Insurance Group | ~£200M | 2026-07-17 | UK motor insurance specialist (telematics-based; non-standard risk). COVERAGE_KILL: 4-5 analysts confirmed. Niche underwriting skill exists but coverage is not sparse enough for structural exclusion edge; model risk real (pricing cycle). |
+| DBA.DE | Deutsche Beteiligungs AG | ~€400M | 2026-07-17 | German listed private equity firm focused on mid-cap industrials. COVERAGE_KILL: 4-5 German analysts; well-covered listed PE is structurally different from the moat types we seek. |
+| BST.MI | Banca Sistema SpA | ~€150M | 2026-07-17 | Italian specialty finance (factoring for public administration receivables + salary-backed loans). COVERAGE_KILL: 4 Italian analysts. Interesting niche (PA receivables factoring with implicit government counter-party) but adequately covered; no structural exclusion edge. |
+| PAY.L | PayPoint plc | ~£400M | 2026-07-17 | UK payment services (convenience store cash/card payment terminals + card processing). COVERAGE_KILL + CAP_SOFT: 5-7 analysts; ~£400M borderline extended zone; PayPoint's convenience terminal moat is real but well-understood and well-covered. |
+| XPS.L | XPS Pensions Group | ~£230M | 2026-07-17 | UK pensions administration and actuarial consulting. COVERAGE_KILL: 5 analysts; pensions admin is a legitimate switching-cost moat (multi-year scheme migration friction) but well-covered at this size; no structural-exclusion edge. |
+
+### Cap Kills (>$1.5B or <$20M)
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| IGG.L | IG Group Holdings | ~$2.5B | 2026-07-17 | UK spread betting / CFD / DMA trading platform. CAP_KILL >$1.5B: institutional coverage complete; REGULATORY moat (FCA-licensed, client money ring-fencing) is genuine but well-understood by the market. |
+| PLS.L | Plus500 Ltd | ~$1.8B | 2026-07-17 | Israeli CFD/spread betting operator listed AIM. CAP_KILL >$1.5B: large enough for full institutional ownership; REGULATORY moat but cap out of exclusion zone. |
+| GBF.DE | Grenke AG | ~€1.7B | 2026-07-17 | German equipment leasing specialist (small-ticket IT/office equipment leasing). CAP_KILL >$1.5B: legitimate niche moat (SME leasing relationships, direct origination) but cap too large; 6+ analysts cover. |
+
+### Cap-Soft Kills ($300M–$1.5B, no exceptional asymmetry)
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| CMCX.L | CMC Markets plc | ~£550M | 2026-07-17 | UK spread betting and CFD platform (institutional and retail). CAP_SOFT_KILL: ~£550M extended zone; no exceptional asymmetry — REGULATORY moat but highly competitive (IG Group, Plus500, Saxo compete); 3-4 analysts. |
+| HYQ.DE | Hypoport AG | ~€600M | 2026-07-17 | German financial marketplace / mortgage/insurance broker platform (Europace). CAP_SOFT_KILL + COVERAGE_KILL dual: ~€600M extended zone + 7+ German analysts; Europace SWITCHING_COST moat in German mortgage origination is genuine but cap and coverage disqualify. |
+| FTK.DE | flatexDEGIRO AG | ~€700M | 2026-07-17 | German online brokerage (flatex + DEGIRO merger). CAP_SOFT_KILL + COVERAGE_KILL dual: ~€700M extended zone + 6-8 analysts; no exceptional asymmetry — online brokerage is structurally competitive. |
+| MLP.DE | MLP SE | ~€850M | 2026-07-17 | German independent financial advisory and insurance brokerage (academic professional target). CAP_SOFT_KILL: ~€850M extended zone; 4-5 analysts; financial advisory is competitive; SWITCHING_COST moat plausible but not confirmed as durable. |
+| MONY.L | Moneysupermarket Group | ~£1.2B | 2026-07-17 | UK financial comparison website (insurance, energy, credit). CAP_SOFT_KILL: ~£1.2B borderline; comparison marketplace moat is real (NETWORK: consumers and providers both anchor on the platform) but the cap + 7+ analysts means no structural-exclusion edge. |
+
+### Not-Public / Pre-IPO Kills
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| BrewinDolphin | Brewin Dolphin Holdings | N/A (acquired) | 2026-07-17 | UK wealth manager. NOT_PUBLIC: acquired by RBC (Royal Bank of Canada) 2022; delisted AIM; no public equity. |
+| Currencycloud | Currencycloud Ltd | N/A (private) | 2026-07-17 | UK embedded FX payments infrastructure. NOT_PUBLIC: acquired by Visa 2022; private. SWITCHING_COST moat would have been compelling (API-embedded FX) but not publicly listed. |
+| WiseAlpha | WiseAlpha Technologies | N/A (private) | 2026-07-17 | UK fractional corporate bond marketplace. NOT_PUBLIC: private/early stage; no public equity. |
+
+### Sector-Adjacent Kills (not cleanly Sector 15)
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| FNL.L | Fintel Group | ~£130M | 2026-07-17 | UK financial services distributor / IFA network. SECTOR_ADJACENT_KILL + COVERAGE_KILL: financial distribution not exchange/data infrastructure; 5 analysts confirmed. |
+| INVP.L | Investec plc | ~$3.5B | 2026-07-17 | South African/UK specialist bank and wealth manager. CAP_KILL >$1.5B + SECTOR_ADJACENT: full-service specialist bank is not niche financial data/exchange infrastructure. |
+| SWIS.L | Stifel Financial UK | N/A | 2026-07-17 | Investment bank operations. SECTOR_ADJACENT_KILL: investment banking is not a niche moat infrastructure play. |
+
+*~35 names processed; 32 killed (3 M&A_KILL, 1 INTEGRITY_KILL, 4 NO_MOAT_KILL, 6 COVERAGE_KILL, 3 CAP_KILL >$1.5B, 5 CAP_SOFT_KILL, 3 NOT_PUBLIC_KILL, 3 SECTOR_ADJACENT_KILL, 4 dual-category); 3 QUEUED: GHT.L 7/12 (Gresham Technologies Clareti), REC.L 6/12 (Record plc currency management), PKG.L 6/12 (Park Group Love2shop). §5 deep-dive: WINA (deferred from Sector 14 run #33) completed this run → CANDIDATE Grade B (Q4/F3/R2/C4; memo memos/WINA-2026-07-17.md). Sector 15 structurally sparse at $20–300M cap — PE consolidation has removed most quality names; most exchange/data infrastructure quality names are >$1.5B or private. UK AIM financial services is the most productive sub-pool at this cap range.*
