@@ -1847,3 +1847,27 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 |--------|---------|------|-----------|-------|
 | ETON | Eton Pharmaceuticals Inc | 2026-07-17 | **CANDIDATE Grade C** | Deep-dived run #39. Q4/F3/R2/C4. Diversified 8-product orphan/rare-disease roll-up; ~2.5x re-rate already happened; near 52-wk high ~$42.65; cap ~$992M. F=3/5 (net debt ~$11M; $19.7M cash vs $30.7M SWK term loan amortizing $3M/qtr) — fails extended-zone CORE bar (needs F≥4). QUEUED_CORE scout override did NOT survive deep-dive. Memo: memos/ETON-2026-07-17.md. Buy-zone ~$22-26. Removed from deferred queue; moved to CANDIDATE in UNIVERSE.md. |
 
+---
+
+## Run #40 — 2026-07-17 · Sector 12 (Life-science tools & lab consumables, 2nd pass) · UK AIM + Japan geo lens
+
+~26 names processed. ~21 triage kills. 2 new QUEUED survivors: TSTL.L 8/12 (Tristel plc; AIM London; chlorine dioxide FIFE decontamination CONSUMABLE+REGULATORY moat; 81% GM; US FDA 510(k) expansion catalyst) and HVO.L 7/12 (hVIVO plc; AIM London; UNIQUE_MODEL human challenge trial CRO; only commercial-scale respiratory HCT operator globally; FY2025 transition year). 1 §5 deep-dive: 6823.T Rion Co., Ltd. → CANDIDATE Grade B (Q3/F4/R2/C3). PKG.L Park Group confirmed M&A_KILL (PayPoint acquisition completed Feb 28, 2023). Sector 12 now 2 passes complete.
+
+### TRIAGE KILLS
+
+| Ticker | Company | Kill Reason |
+|--------|---------|------------|
+| ERGO.L | Ergomed plc | NOT_PUBLIC (acquired Permira 2023) |
+| MGP.L | Medica Group | NOT_PUBLIC (acquired Sonic Healthcare 2022) |
+| XVIVO.ST | XVIVO Perfusion AB | CAP_SOFT_KILL (extended zone without exceptional asymmetry) |
+| BLFS | BioLife Solutions | CAP_KILL (>$1.5B or coverage-dense) |
+| (various AIM life-sci) | Multiple AIM names | CAP_KILL / INTEGRITY / NO_MOAT / COVERAGE_KILL per §3 gates |
+| (various Japan TSE life-sci) | Multiple TSE names | PARK / SECTOR_ADJACENT per §3 triage |
+
+### DEFERRED_QUEUE_RESOLUTION
+
+| Ticker | Company | Date | Resolution | Notes |
+|--------|---------|------|-----------|-------|
+| 6823.T | Rion Co., Ltd. | 2026-07-17 | **CANDIDATE Grade B** | Deep-dived run #40. Q3/F4/R2/C3. 70yr profitable compliance instrument franchise; equity ratio >80%; record FY2026. SWITCHING_COST+REGULATORY moat via calibration chain continuity (6-18mo re-validation); 0 Western analysts. Skeptic: 1 CONFIRMED / 7 PLAUSIBLE / 2 UNVERIFIED / 0 RED-FLAG. Buy-zone ¥2,200-2,400. Upgrade → CATALYST: TSE P/B >1x buyback. Upgrade → WATCH: Western analyst ≥¥3,500 PT. Memo: memos/6823.T-2026-07-17.md. Removed from deferred queue. |
+| PKG.L | Park Group plc | 2026-07-17 | **M&A_KILL** | Confirmed run #40. PayPoint plc acquisition completed February 28, 2023. AIM shares cancelled; PKG.L delisted. Love2shop NETWORK+SWITCHING_COST moat confirmed by acquisition. No longer publicly investable. Removed from deferred queue. |
+
