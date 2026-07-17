@@ -1001,3 +1001,64 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Score | Date | Reason |
 |--------|---------|-------|------|--------|
 | ALTSI.PA | Sidetrade SA (Euronext Growth Paris: ALTSI) | 5/12 | 2026-07-17 | French AI-powered cash collection / accounts receivable automation SaaS (AI trained on €4.5T transaction network for credit-to-cash workflow; genuine SWITCHING_COST moat in AR automation integrated with ERP/TMS systems; ~3yr switching cost once accounts-receivable workflows are retrained). §4 confirming search revealed **contradictory quality data**: TTM gross margin reported as ~11.79% by one aggregator — mathematically inconsistent with reported net income of €9.02M on €65.5M revenue (impossible at that GM; likely aggregator data artifact misclassifying a line item). Cannot assign reliable quality score without verified P&L from primary Euronext Growth filings. Score: Moat=1, Quality=0 (unverifiable), Coverage=2 (1-2 analysts), Valuation=0, Catalyst=1 (AI demand), Floor=1. PARK 5/12. REVISIT IF: verified H1 2026 filing confirms SaaS-grade gross margin >60% AND profitable for 2 consecutive quarters → re-score. |
+
+---
+
+## Run #26 Kills — 2026-07-17 | Sector 7: Specialty Food & Ag Ingredients (1st pass) | Geo lens: Japan/Korea-Taiwan + US micro-cap
+
+*~28 names processed; 27 killed in triage/§4; 1 QUEUED (LWAY 9/12); 0 QUEUED_HOT; 1 deferred deep-dive completed (FAA.VI → WATCH A; Grade A · Q5/F4/R5/C3; memo memos/FAA.VI-2026-07-17.md). Structural context: most specialty ingredient leaders are large-cap (IFF ~$16B, Givaudan ~CHF 25B, Symrise ~€9B, Novozymes/Chr. Hansen merged into Novonesis ~DKK 320B) or private (Amano Enzyme, Lallemand, Lesaffre, Kerry private divisions). Japanese/Korean food-ingredient small-caps typically trade at <2x P/S on domestic-only businesses with no coverage void. Sole survivor: Lifeway Foods (LWAY, ~$408M extended zone) on dominant US kefir brand + proprietary cultures.*
+
+### Quality Kills (quality=0 or structural losses — anti-value-trap rule)
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| SANW | S&W Seed Company (Nasdaq: SANW) | US seed genetics company (alfalfa, sorghum, sunflower seeds); some PROCESS moat in proprietary varietal development. BUT multi-year GAAP net losses; quality=0; FY2025 net loss continued; no earnings floor; anti-value-trap rule applies. QUALITY_KILL. Revisit if EBITDA break-even confirmed. | 2026-07-17 |
+| EVGN | Evogene Ltd (Nasdaq: EVGN) | Israeli computational biology agtech (AI-driven crop protection and microbiome; PROCESS moat in CPB platform for novel agrochemical mode-of-action discovery). BUT ongoing development-stage GAAP losses; no commercialized revenues; quality=0; INTEGRITY_KILL per anti-value-trap rule. Revisit at breakeven + lead product regulatory milestone. | 2026-07-17 |
+
+### Coverage Kills (>4 sell-side analysts)
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| MGPI | MGP Ingredients (Nasdaq: MGPI) | 5+ analysts | 2026-07-17 | US distillery (premium aged bourbon and rye whiskey; bulk distilled spirit supply; Luxco branded spirits). Some BRAND moat in aged whiskey inventory; inventory aging is a barrier. BUT 5+ sell-side analysts = institutional coverage well above threshold. COVERAGE_KILL. |
+| JBSS | John B. Sanfilippo & Son (Nasdaq: JBSS) | 5-6 analysts | 2026-07-17 | US specialty nut processing and private-label nut products (Fisher, Orchard Valley Harvest brands); some modest brand moat but private-label heavy with generic competition. 5-6 analysts confirmed. COVERAGE_KILL (also NO_MOAT secondary). |
+| HAIN | The Hain Celestial Group (Nasdaq: HAIN) | 6-8 analysts | 2026-07-17 | Organic and natural food brands (Terra chips, Garden Veggie, Celestial Seasonings, Earth's Best); some brand premium but broad-based competition (General Mills Natural division, Simply Good Foods). 6-8 analysts = institutional coverage dense. COVERAGE_KILL. |
+| STKL | SunOpta Inc (Nasdaq/TSX: STKL) | 5-6 analysts + ~C$560M cap | 2026-07-17 | Canadian plant-based food and beverage (oat milk, plant protein, organic fruit snacks); natural/plant-based category with no regulatory or sole-source moat; branded but competed by Oatly, Califia, private-label. 5-6 analysts = COVERAGE_KILL; C$560M ~$413M USD = borderline CAP_SOFT concurrently. Dual COVERAGE_KILL + CAP_SOFT_KILL. |
+| BIOG-B.ST | BioGaia AB (Nasdaq Stockholm: BIOG-B) | 6-8 Swedish analysts | 2026-07-17 | Swedish probiotic company (L. reuteri strains; BioGaia Protectis, Gastrus, Osfortis, ProDentis products; sold via pharma partners globally; genuine CONSUMABLE + PROCESS moat in proprietary L. reuteri strain portfolio). BUT 6-8 Stockholm analysts = institutional coverage well above threshold. COVERAGE_KILL. Moat is genuine and strong; revisit if analyst count ever drops. |
+
+### Cap Kills (market cap outside exclusion zone)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| WFCF | Where Food Comes From (OTC: WFCF) | ~$18-22M | 2026-07-17 | US agricultural verification and food traceability services (IMI Global, SureHarvest, Validus); some REGULATORY moat in USDA-approved verification audits. BUT cap borderline/below $20M floor — too small/illiquid for safe entry/exit. CAP_KILL (<$20M). |
+| REED | Reed's Inc (Nasdaq: REED) | ~$8-12M | 2026-07-17 | US premium ginger beer brand (Reed's Ginger Beer, Virgil's Real Cola); BRAND moat minimal (Bundaberg, Fever-Tree, Bruce Cost Ginger Beer compete directly); cap well below $20M floor; cash-burning; ongoing losses. CAP_KILL (<$20M) + INTEGRITY_KILL concurrent. |
+| PBH.TO | Premium Brands Holdings (TSX: PBH) | ~C$3-4B (~$2.2-3B USD) | 2026-07-17 | Canadian specialty food manufacturer and distributor (premium deli meats, sandwiches, specialty proteins across Grimm's, Harvest, Freybe brands); diversified specialty food with some BRAND moat but cap far above $1.5B limit; 8+ analysts. CAP_KILL. |
+| 4118.T | Kracie Holdings Co Ltd (TSE: 4118) | ~¥120-140B (~$800M-950M USD) | 2026-07-17 | Japanese personal care, food, and pharmaceutical company (Hada Labo skincare, Kanebo cosmetics, nutraceuticals); cap 3x extended-zone limit; 4+ Japanese analysts. CAP_KILL. |
+| 2809.T | Kikkoman Corporation (TSE: 2809) | ~¥1.4T (~$9B+ USD) | 2026-07-17 | Japanese soy sauce, soy-based seasoning, and international food service (Kikkoman brand soy sauce; #1 global soy sauce brand; BRAND+PROCESS moat genuine but cap enormous). CAP_KILL (far above $1.5B). |
+| 097950.KS | CJ CheilJedang (KRX: 097950) | ~₩8T+ (~$6B+ USD) | 2026-07-17 | Korean food and biotech (food seasonings, amino acid fermentation, biopolymers; genuine PROCESS moat in lysine/threonine fermentation); cap far above $1.5B limit; 10+ Korean analysts. CAP_KILL. |
+| 007310.KS | Ottogi Corporation (KRX: 007310) | ~₩900B-1.2T (~$650-900M USD) | 2026-07-17 | Korean instant noodle, ramyun, and food distribution; BRAND moat in Korean home market; cap above $1.5B extended-zone limit in USD terms. CAP_KILL. |
+
+### Price Kill (12-month return >+100%)
+| Ticker | Company | 12-Mo Return | Market Cap | Date | Reason |
+|--------|---------|-------------|-----------|------|--------|
+| ODC | Oil-Dri Corporation of America (NYSE: ODC) | +120% 12-month return | ~$1.35B | 2026-07-17 | US specialty mineral absorbents (cat litter, agricultural desiccants — Fresh Step, Jonny Cat brands; SCARCITY moat in calcium montmorillonite clay deposits — owns its own mines); genuine SCARCITY+BRAND moat. BUT +120% 12-month return = asymmetry spent; cap $1.35B = CAP_SOFT_KILL concurrent (extended zone without exceptional asymmetry — re-rating already done). Dual PRICE_KILL + CAP_SOFT_KILL. Re-entry only if cap corrects below $300M. |
+
+### No-Moat Kills (commodity agriculture or generic distribution)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| LMNR | Limoneira Company (Nasdaq: LMNR) | US lemon and avocado grower and packer; agricultural commodity production with no processing IP; pricing power nil (commodity citrus prices). NO_MOAT_KILL. | 2026-07-17 |
+| FARM | Farmer Brothers Company (Nasdaq: FARM) | US coffee/tea/spice distribution to foodservice (restaurants, hotels); pure commodity distribution with no brand moat or sole-source position; competes with Sysco, US Foods food distribution. NO_MOAT_KILL. | 2026-07-17 |
+| CVGW | Calavo Growers (Nasdaq: CVGW) | US avocado packer and distributor; commodity agricultural distribution (fresh produce); no processing IP, no brand moat; pricing entirely commodity-driven. NO_MOAT_KILL. | 2026-07-17 |
+| 2924.T | Fuji Oil Holdings (TSE: 2924) | Japanese vegetable fat and specialty fat/emulsifier manufacturer (palm oil-based chocolate fats, fat replacers for processed foods); PROCESS moat partially plausible (custom fat crystallization) but cap ~¥200-250B (~$1.3-1.6B) = CAP_KILL concurrent; 4+ analysts. NO_MOAT_KILL + CAP_KILL. | 2026-07-17 |
+| 111110.KS | Nongshim Holdings (KRX: 111110) | Korean instant noodle holding company (parent of Nongshim, maker of Shin Ramyun); BRAND moat present but holding company with no direct operations; thin yield on holding discount; CAP_SOFT; no English-language coverage void at this level. NO_MOAT_KILL (holding structure + no direct investment thesis). | 2026-07-17 |
+| 2892.T | Nichirei Corporation (TSE: 2892) | Japanese frozen food manufacturer and logistics (Nichirei Foods, Nichirei Logistics cold-chain); diversified food/logistics business; BRAND moat minimal vs. Maruha Nichiro, Nippon Suisan; cold-chain logistics is commodity service. NO_MOAT_KILL. Cap ~¥150-200B (~$1-1.3B USD) concurrent CAP_KILL. | 2026-07-17 |
+
+### Integrity Kills (development-stage losses / no earnings floor)
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| EVE.SW | Evolva Holding SA (SIX Swiss Exchange: EVE) | Swiss synthetic biology company (fermentation-based production of stevia sweeteners, resveratrol, nootkatone via engineered yeast strains; PROCESS moat in metabolic engineering and fermentation scale-up). BUT ongoing GAAP net losses; Swiss SIX disclosure shows cash-burning development stage; quality=0; no earnings floor. INTEGRITY_KILL per anti-value-trap rule. Revisit if nootkatone revenue scales to CHF >10M with positive EBITDA. | 2026-07-17 |
+| BU.TO | Burcon NutraScience Corporation (TSX: BU) | Canadian plant protein technology company (Peazazz pea protein, Puratein canola protein, Hemp protein; proprietary PROCESS moat in soluble plant protein extraction via pH-shifting process; partnership with Merit Functional Foods). BUT ongoing development-stage losses; Merit Functional Foods revenue unconfirmed in primary filing; quality=0; no earnings floor. INTEGRITY_KILL. Revisit if Merit/Burcon processing revenue confirmed ≥C$10M with EBITDA positive. | 2026-07-17 |
+
+### Sector-Adjacent Kills (food distribution, agri equipment, spirits — not specialty ingredient moat)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| HLF.TO | High Liner Foods Inc (TSX: HLF) | Canadian seafood processor and distributor (Value-added frozen seafood for food service and retail; Fisher Boy, Sea Cuisine, High Liner brands); seafood processing and branded distribution — adjacent to food manufacturing but no specialty ingredient or cultures/enzyme moat. SECTOR_ADJACENT. | 2026-07-17 |
+| AFN.TO | Ag Growth International Inc (TSX: AFN) | Canadian agricultural equipment manufacturer (grain storage bins, conveyors, dryers, digital precision ag systems for grain handling); farm/storage equipment — sector adjacent to ag equipment, not specialty food ingredients or ag biologicals. SECTOR_ADJACENT. Cap ~C$800M+ concurrent CAP_SOFT. | 2026-07-17 |
+| 2531.T | Takara Holdings Inc (TSE: 2531) | Japanese spirits and sake manufacturer (Takara Shuzo sake/shochu, Plum Wine; some BRAND moat in premium sake); spirits/beverages sector adjacent — not specialty food ingredients or fermentation moats in scope. SECTOR_ADJACENT. Cap ~¥120-150B (~$800M-1B) concurrent CAP_KILL. | 2026-07-17 |
+| ANDE | The Andersons Inc (Nasdaq: ANDE) | US grain trading, agronomy, and ethanol company (commodity grain merchandising, nutrient products, renewables); diversified agri-commodities business with no ingredient IP moat; commodity trading and distribution. SECTOR_ADJACENT + CAP_SOFT_KILL (~$1.4-1.5B cap borderline). | 2026-07-17 |

@@ -3,7 +3,7 @@
 Sector is chosen by the **Sector Rotation cursor** below (ROUTINE.md §1 v3): pick the next non-EXHAUSTED sector after the last run, rotate the geographic lens, mark a sector EXHAUSTED after 2 consecutive 0-new passes (revive later with a new geography/down-cap sweep).
 
 ## Sector Rotation (cursor)
-Last sector run: **6 (Vertical/mission-critical software & data, 1st pass)** · Last geo lens: Continental Europe
+Last sector run: **7 (Specialty food & ag ingredients, 1st pass)** · Last geo lens: Japan/Korea-Taiwan + US micro-cap
 NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/$20-300M. **Priority now = the NEW sectors 5-19 (fresh ground) and fresh geographies on 0-4.**
 
 | id | Sector | Passes | Status | Last new find |
@@ -15,7 +15,7 @@ NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/
 | 4 | Aerospace/satellite commercial | 4 | EXHAUSTED (US/UK) | ELVA.TO (run ~14) |
 | 5 | Testing/inspection/certification | 1 | ACTIVE | — |
 | 6 | Vertical/mission-critical software & data | 1 | ACTIVE | FAA.VI (run 25) |
-| 7 | Specialty food & ag ingredients | 0 | FRESH | — |
+| 7 | Specialty food & ag ingredients | 1 | ACTIVE | LWAY (run 26) |
 | 8 | Building & infrastructure products | 0 | FRESH | — |
 | 9 | Environmental/waste/water | 0 | FRESH | — |
 | 10 | Value-added/sole-line distribution | 0 | FRESH | — |
@@ -29,14 +29,14 @@ NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/
 | 18 | Precision instruments & sensing | 0 | FRESH | — |
 | 19 | Specialty healthcare services & niche pharma | 0 | FRESH | — |
 
-**Next 6 runs: prioritise sectors 7,8,9,10,11,12 (in order) to break the exhaustion.** Sectors 5+6 each have 1 pass (ACTIVE). Then 13-19, then revisit 0-4 with new geographies.
+**Next 6 runs: prioritise sectors 8,9,10,11,12,13 (in order) to break the exhaustion.** Sectors 5,6,7 each have 1 pass (ACTIVE). Then 14-19, then revisit 0-4 with new geographies.
 
 This file is the run log + counters.
 
 ## Counters
-Total runs: 25
-Universe size: 33 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, EUZ.DE CORE, FAA.VI QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L PARK, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, ALHVS.PA PARK, SSKN INTEGRITY_KILL)
-WATCH count: 1 (GENC — Grade B — first WATCH name in KB history)
+Total runs: 26
+Universe size: 34 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, FAA.VI WATCH, EUZ.DE CORE, LWAY QUEUED, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L PARK, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, ALHVS.PA PARK, SSKN INTEGRITY_KILL)
+WATCH count: 2 (GENC — Grade B; FAA.VI — Grade A — first WATCH A in KB history)
 CORE count: 1 (EUZ.DE — Grade B — first CORE name in KB history; extended-zone franchise hold)
 CATALYST count: 1 (ELVA.TO — Grade B — Q4/F3/R4/C3; Amazon warrant deal; extended-zone inclusion justified)
 QUEUED_HOT pending deep-dive: 0
@@ -44,11 +44,11 @@ QUEUED_HOT pending deep-dive: 0
 ## Deferred Deep-Dive Queue
 (QUEUED names awaiting a deep-dive when a future run has budget — highest promise score first)
 
-**Queue updated: run #25 (2026-07-17T00:18).** FAA.VI (Fabasoft AG) added as QUEUED 9/12 — no §5 deep-dive this run (9/12 does not meet ≥10 QUEUED_HOT threshold; deferred for future run with budget).
+**Queue updated: run #26 (2026-07-17).** FAA.VI deep-dived this run → WATCH A (Grade A · Q5/F4/R5/C3; memo memos/FAA.VI-2026-07-17.md). Deferred queue is now empty.
 
 | Ticker | Score | Added | Sector | Notes |
 |--------|-------|-------|--------|-------|
-| FAA.VI | 9/12 | Run #25 (2026-07-17) | 6 — Vertical software | Fabasoft AG; Austrian eGov-Suite REGULATORY moat; 2 analysts; 77% PT gap; €147M cap; deep-dive when next run has spare §5 budget |
+| *(Queue empty — FAA.VI resolved run #26 as WATCH A)* | | | | |
 
 ## Run Log
 (UTC · sector · #names_processed · #killed · #queued · #deep-dived · top promise score · push status)
@@ -81,3 +81,4 @@ Throughput target: ≥20 names processed per run.
 | 2026-07-16T22:18 | 2-Nuclear & Radiological Civil (5th pass) | 20 (Posiva,TVO,Cyclife,EnergySolutions,NUKEM,Augean_Nuclear,Magnox,Berkeley_Nucleonics,NucleoElectrica,AtkinsRealis_Nuclear,Fortum_Nuclear,Orano,CANDU_Energy,RAY-B.ST,KEP,036465.KS,JFS.L,SLX.AX-SEEN,MIR-SEEN,VF_Nuclear) | 20 killed (13 NOT_PUBLIC: Posiva/TVO/Cyclife/EnergySolutions/NUKEM/Augean_Nuclear/Magnox/Berkeley_Nucleonics/NucleoElectrica/AtkinsRealis/Fortum/Orano/CANDU; 2 CAP_KILL: RAY-B.ST ~$1.5-2B / KEP ~$10-15B; 1 COVERAGE_KILL+NOT_ACCESSIBLE: 036465.KS KEPCO NF; 1 SECTOR_ADJACENT: JFS.L marine primary; 2 ALREADY_SEEN: SLX.AX run#12 + MIR run#7) | 0 new QUEUED (nuclear civil 5th pass: sector confirmed exhausted; 0 survivors; valid run) | 1 (4549.T deferred §5 → CANDIDATE Grade C; Q3/F4/R1/C2; Japan FIT screening CONSUMABLE mandate + LAMP IP; primary catalyst spent Feb 2026 +19.8% surge; stock at/near ¥3,050 52-wk high; 2x not visible <12mo on 3-4% revenue growth; 3C/3P/1U/2RF; base rate 1/4 Japan-domestic dx re-rated; buy-zone ¥2,000-2,400; memo memos/4549.T-2026-07-16.md) | 8/12 4549.T → CANDIDATE C | OK |
 | 2026-07-16T23:18 | 5-Testing/Inspection/Certification (1st pass) | 28 (MG,TISI,TIC_Solutions,AEHR,VIAV,ETC,NV5,NCC.L,HNL.DE,COTN.SW,RSW.L,VTX.V,CLK.V,ACL.AX,MAD.AX,PHX.TO,COHU,CWCO,PFIE,EXFO.TO,RPS.L,Acuren,ULS,NEOG,Element_Materials,PHX_Minerals,CLB-SEEN,OSIS-SEEN) | 28 killed (1 INTEGRITY: TISI; 3 CAP_KILL >$1.5B: VIAV/NV5/NEOG; 1 CAP_KILL <$20M: CLK.V; 8 CAP_SOFT/COVERAGE: MG/NCC.L/RSW.L/COHU/COTN.SW/ULS/ACL.AX; 10 SECTOR_ADJACENT: AEHR/ETC/HNL.DE/VTX.V/MAD.AX/PHX.TO/CWCO/PFIE/PHX_Minerals/COHU; 5 NOT_PUBLIC: EXFO.TO/RPS.L/Acuren/Element_Materials/TIC_Solutions; 2 ALREADY_SEEN: CLB/OSIS) | 0 new QUEUED (TIC sector structurally sparse; PE consolidation exhausted public small-cap universe; 0 survivors structural, not search failure) | 1 (CGS.L deferred queue → PARK Grade D; Q3/F4/R1/C3; 5/12 revised from 6/12; 9 AIM analysts confirmed; stock at consensus PT 341.7p = zero asymmetric entry; buy-zone 200-230p; memo memos/CGS.L-2026-07-16.md) | 5/12 CGS.L → PARK D | PENDING |
 | 2026-07-17T00:18 | 6-Vertical/Mission-Critical Software & Data (1st pass) | ~34 (FAA.VI,ALHVS.PA,IXX.DE,LIN.PA,GNRX.PA,EFECTE.HE,OSP2.DE,Dalet,ALTSI.PA,Datev_eG,Unit4,Exact_Software,Aareon,IFS_AB,Civica_Group,Cegid,EASY_DE,Visma,WKL.AS,TEMN.SW,SOP.PA,SWON.SW,VITEC-B.ST,ALESK.PA,CMR.WA,GFT.DE,FPIP.ST,CLXN.SW,SQLI.PA,ATCG.DE,ISHA.DE,ATEME.PA,ALWLX.PA + ~1 other) | ~32 killed (12 NOT_PUBLIC: EFECTE.HE/OSP2.DE/Dalet/Datev_eG/Unit4/Exact_Software/Aareon/IFS_AB/Civica_Group/Cegid/EASY_DE/Visma; 5 CAP_KILL >$1.5B: WKL.AS/TEMN.SW/SOP.PA/SWON.SW/VITEC-B.ST; 2 CAP_SOFT_KILL: ALESK.PA/CMR.WA; 6 COVERAGE_KILL: IXX.DE/LIN.PA/GNRX.PA/GFT.DE/FPIP.ST/CLXN.SW; 3 NO_MOAT: SQLI.PA/ATCG.DE/ISHA.DE; 2 INTEGRITY: ATEME.PA/ALWLX.PA; 1 PARK: ALTSI.PA 5/12 contradictory data) | 1 QUEUED: FAA.VI 9/12; 1 PARK: ALHVS.PA 4/12 (M&A uncertainty + insufficient data) | 0 — no QUEUED_HOT ≥10; deferred queue was empty entering run; §5 skipped | 9/12 FAA.VI | PENDING |
+| 2026-07-17 | 7-Specialty food & ag ingredients (1st pass) | ~28 (LWAY,SANW,MGPI,LMNR,FARM,ODC,EVGN,JBSS,CVGW,WFCF,HAIN,REED,STKL,EVE.SW,BIOG-B.ST,BU.TO,HLF.TO,PBH.TO,AFN.TO,2924.T,4118.T,2809.T,2531.T,097950.KS,007310.KS,111110.KS,ANDE,2892.T) | 27 killed (2 QUALITY: SANW/EVGN; 5 COVERAGE: MGPI/JBSS/HAIN/STKL/BIOG-B.ST; 6 NO_MOAT: LMNR/FARM/CVGW/2924.T/111110.KS/2892.T; 7 CAP: WFCF/REED/PBH.TO/4118.T/2809.T/097950.KS/007310.KS; 1 PRICE+CAP_SOFT: ODC; 2 INTEGRITY: EVE.SW/BU.TO; 4 SECTOR_ADJACENT: HLF.TO/AFN.TO/2531.T/ANDE) | 1 new QUEUED: LWAY 9/12 (Lifeway Foods; US kefir BRAND+CONSUMABLE; ~$408M cap extended zone; 2 analysts; 26 consecutive growth quarters; Q1 2026 +36.7% YoY) | 1 deferred deep-dive completed (FAA.VI → WATCH A; Grade A · Q5/F4/R5/C3; EV/EBIT 8.5x; +108% PT gap; IDOX/Vitec analogs; 7C/2P/1U/0RF; memo memos/FAA.VI-2026-07-17.md; first WATCH A in KB history) | 9/12 LWAY | PENDING |
