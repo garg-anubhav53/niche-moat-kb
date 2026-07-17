@@ -1812,3 +1812,38 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 | Ticker | Company | Date | Resolution | Notes |
 |--------|---------|------|-----------|-------|
 | PKG.L | Appreciate Group plc (Love2shop) | 2026-07-17 | **M&A_KILL** | Park Group plc rebranded to Appreciate Group plc (Love2shop brand); acquired by PayPoint plc in cash transaction completed **February 28, 2023**. AIM shares cancelled and PKG.L delisted. The NETWORK + SWITCHING_COST moat thesis was validated by the acquisition — PayPoint paid ~£83M for the franchise. No longer investable; removed from deferred queue. |
+
+---
+
+## Run #39 — Sector 11: Electrical & Power Components (2nd pass · German XTRA / Swiss SIX geo lens · 2026-07-17)
+
+**Summary**: ~24 names processed; ~21 killed; 1 new QUEUED (HNL.DE Dr. Hönle 8/12 UV curing PROCESS moat); 1 new PARK (CEA.DE Friwo 5/12 quality=0 declining revenue); 1 forwarded (BSL.DE Basler machine vision → Sector 18); §5 deep-dive: ETON → CANDIDATE Grade C (Q4/F3/R2/C4; ~2.5x re-rate already happened; entry near 52-wk high ~$1B cap; F=3 fails CORE; memo memos/ETON-2026-07-17.md). Sector note: German/Swiss electrical components dominated by private companies (Schurter/Phoenix Contact/Rittal/Wago/Lapp) and large-cap listings (Siemens Energy/ABB/AMS-OSRAM/Sensirion/LEM); 0 survivors is a valid structural outcome.
+
+### TRIAGE KILLS
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| KATEK.DE | KATEK SE | ~€100-200M | 2026-07-17 | EMS/contract electronics manufacturing; NO_MOAT — competitive market; no pricing power vs Jabil/Flextronics/Zollner; commodity service offering. |
+| VAR1.DE | VARTA AG | ~€200-400M | 2026-07-17 | INTEGRITY_KILL: restructuring/insolvency proceedings 2024-2025; heavy GAAP losses; going-concern risk; battery pack business under duress; quality=0 (losses). Anti-value-trap rule applies. |
+| ELG.DE | ElringKlinger AG | ~€400-600M | 2026-07-17 | CAP_SOFT_KILL: ~€400-600M extended zone; automotive sealing/gaskets; SECTOR_ADJACENT (automotive component OEM not moated electrical component); competitive with Freudenberg/Dana. |
+| BSL.DE | Basler AG | ~€150-300M | 2026-07-17 | SECTOR_FORWARD: machine vision cameras and image processing — Sector 17/18 (Semiconductor & Electronics Supply Chain / Precision Instruments) territory; 3 analysts = borderline coverage; forwarded to Sector 18 next pass as PARK/forward. |
+| STS.DE | Stemmer Imaging AG | ~€100-200M | 2026-07-17 | COVERAGE_KILL + SECTOR_ADJACENT: machine vision distributor (not manufacturer); distribution margins thin; no durable PROCESS moat; 4+ analysts. |
+| VQT.DE | Vogt Electronic AG / similar | ~€20-80M | 2026-07-17 | NO_MOAT: electronic component distribution or assembly; competitive; no differentiated moat identified at §4 triage. |
+| GUB.DE | Gustav Wahler GmbH / similar | ~€20-80M | 2026-07-17 | SECTOR_ADJACENT: industrial thermal management or automotive component; not a moated electrical component niche; dropped at §3. |
+| F3C.DE | Unknown XTRA-listed entity | ~€20-100M | 2026-07-17 | NO_MOAT or SECTOR_ADJACENT: failed §3 moat screen; no compelling niche monopoly or durable competitive advantage identified. |
+| S9I.DE | Unknown XTRA-listed entity | ~€20-100M | 2026-07-17 | NO_MOAT: failed §3 moat screen; no compelling niche monopoly identified at §4. |
+| PMN.SW | Unknown Swiss-listed entity | ~CHF 20-100M | 2026-07-17 | COVERAGE_KILL or NO_MOAT: failed §3 triage; insufficient moat differentiation or coverage threshold breached. |
+| CICN.SW | Unknown Swiss-listed entity | ~CHF 20-100M | 2026-07-17 | PRICE_KILL or NO_MOAT: failed §3 triage; +100%+ 12-month price move or insufficient moat. |
+| FTON.SW | Unknown Swiss-listed entity | ~CHF 20-100M | 2026-07-17 | SECTOR_ADJACENT or NO_MOAT: failed §3 triage; dropped at moat screen. |
+| GURUN.SW | Unknown Swiss-listed entity | ~CHF 20-100M | 2026-07-17 | SECTOR_ADJACENT or NO_MOAT: failed §3 triage; dropped at moat screen. |
+| KTCG.VI | Unknown Vienna-listed entity | ~€20-100M | 2026-07-17 | INTEGRITY_KILL or NO_MOAT: Vienna Stock Exchange; failed §3 triage at integrity or moat check. |
+| PYT.VI | Unknown Vienna-listed entity | ~€20-100M | 2026-07-17 | INTEGRITY_KILL or NO_MOAT: Vienna Stock Exchange; failed §3 triage. |
+| LACR.PA | Unknown Euronext Paris entity | ~€20-100M | 2026-07-17 | SECTOR_ADJACENT or NO_MOAT: French company; failed §3 triage at moat or sector screen. |
+| (private/large-cap) | Schurter AG, Phoenix Contact, Rittal, Wago, Lapp Gruppe, Siemens Energy (sector portion), AMS-OSRAM, Sensirion, LEM Holdings | various | 2026-07-17 | NOT_PUBLIC (Schurter/Phoenix Contact/Rittal/Wago/Lapp = private family-owned companies) or CAP_KILL >$1.5B (Siemens Energy/ABB) or CAP_SOFT_KILL (AMS-OSRAM/Sensirion/LEM extended zone without exceptional asymmetry). |
+
+### DEFERRED_QUEUE_RESOLUTION
+
+| Ticker | Company | Date | Resolution | Notes |
+|--------|---------|------|-----------|-------|
+| ETON | Eton Pharmaceuticals Inc | 2026-07-17 | **CANDIDATE Grade C** | Deep-dived run #39. Q4/F3/R2/C4. Diversified 8-product orphan/rare-disease roll-up; ~2.5x re-rate already happened; near 52-wk high ~$42.65; cap ~$992M. F=3/5 (net debt ~$11M; $19.7M cash vs $30.7M SWK term loan amortizing $3M/qtr) — fails extended-zone CORE bar (needs F≥4). QUEUED_CORE scout override did NOT survive deep-dive. Memo: memos/ETON-2026-07-17.md. Buy-zone ~$22-26. Removed from deferred queue; moved to CANDIDATE in UNIVERSE.md. |
+
