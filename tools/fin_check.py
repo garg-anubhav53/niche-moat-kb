@@ -102,15 +102,40 @@ def main():
     flag("P/E sanity", pe is not None and (pe > 200 or (ni is not None and ni>0 and pe<0)), f"P/E={pe} — suspect")
     flag("P/S sanity", ps is not None and ps > 50, f"P/S={ps} — suspect units")
 
+    # Provenance — internal consistency ≠ truth. A set of numbers from one wrong
+    # vendor feed reconciles perfectly. The only defense is FILING provenance on the
+    # figures that determine the floor. Pass "provenance": {"revenue":"filing", ...}
+    # with values filing | aggregator | none.
+    print("— provenance (anti-vendor-feed) —")
+    prov = d.get('provenance') or {}
+    FLOOR_CRITICAL = ['revenue', 'cash', 'total_debt', 'shares']
+    unanchored = []
+    if not prov:
+        print("  WARN  no provenance map → cannot certify filing-anchoring; "
+              "floor-critical figures may NOT be tagged ✓ on internal consistency alone")
+        unanchored = FLOOR_CRITICAL[:]
+    else:
+        for k in FLOOR_CRITICAL:
+            src = prov.get(k)
+            if src == 'filing':
+                print(f"  PASS  {k}: primary filing")
+            elif src == 'aggregator':
+                print(f"  FLAG  {k}: aggregator-only → cap at ~SINGLE-SOURCE, cannot be ✓"); unanchored.append(k)
+            else:
+                print(f"  FLAG  {k}: no filing provenance → ?, cannot be ✓"); unanchored.append(k)
+
     print("— verdict —")
     if fails:
         print(f"  ⚠ {len(fails)} FAIL(s): {', '.join(fails)} → tag these figures ⚠ DISCREPANT, dig before qualifying.")
     if flags:
         print(f"  ⚑ {len(flags)} FLAG(s): {', '.join(flags)} → note in the skepticism coaching.")
-    if not fails and not flags:
-        print("  ✓ all computable checks reconcile within tolerance.")
-    # exit 1 if any hard fail so the routine notices
-    sys.exit(1 if fails else 0)
+    if unanchored:
+        print(f"  ⚑ NOT filing-anchored: {', '.join(unanchored)} → these cap the floor confidence; "
+              f"read the actual filing before CANDIDATE/CORE. Reconciling ≠ true.")
+    if not fails and not flags and not unanchored:
+        print("  ✓ all checks reconcile AND floor-critical figures are filing-anchored.")
+    # exit 1 on hard fail OR when no floor-critical figure is filing-anchored (the bad-vendor-feed trap)
+    sys.exit(1 if (fails or len(unanchored) == len(FLOOR_CRITICAL)) else 0)
 
 if __name__ == "__main__":
     main()

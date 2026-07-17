@@ -122,8 +122,8 @@ Killed names → one compact row each to `KILL-LIST.md` (ticker, reason, date). 
 Get the reported numbers before scoring or financially killing a survivor.
 
 1. **Fetcher (haiku, retrieval only):** pull the basics for the survivors from **the primary filing** (EDGAR/IR) + a stockanalysis.com cross-check. **Return each figure quote-anchored** (number + source line/location); a bare number is untrusted. One fetcher covers the ≤8 survivors (inline if 1–2).
-2. **Reconcile deterministically:** run `python3 tools/fin_check.py <<'JSON' … JSON` on the figures. Any FAIL → tag that figure ⚠, never ✓.
-3. **You triangulate & trust-tag** (✓ = filing + checker-pass + aggregator-agrees · ~ single-source · ⚠ = disagree or checker-FAIL, dig don't average · ? unverified), and **coach which numbers to trust vs doubt**.
+2. **Reconcile deterministically:** run `python3 tools/fin_check.py <<'JSON' … JSON`, **including a `provenance` map** (`"revenue":"filing"|"aggregator"|"none"`, same for cash/total_debt/shares). Any FAIL, or floor-critical figures not filing-anchored → those figures are ⚠/~, never ✓. Internal consistency alone never earns ✓ (the bad-vendor-feed trap).
+3. **You triangulate & trust-tag** (✓ = filing-anchored + checker-pass + aggregator-agrees · ~ single-source/aggregator-only · ⚠ = disagree or checker-FAIL · ? unverified). For AIM/Japan/Korea/Nordic names with no primary filing accessible, **cap C ≤ 2** and note currency/units/GAAP-vs-IFRS. **Coach which numbers to trust vs doubt.**
 
 **Write `financials/[TICKER].md`** (quote-anchored figures + checker verdict + tags + sources + as-of) — this, not the snippet, is the evidence for §4.
 - Basics solid → §4; apply financial gates on verified figures (fail cap/floor/integrity → kill citing the number).
@@ -213,9 +213,9 @@ git push origin main || { echo "PUSH_FAILED"; }
 
 ---
 
-## §7 — REFLECT (KB self-review; run when `total_runs` is a multiple of 6)
+## §7 — REFLECT (KB self-review; run when `total_runs` is a multiple of 3)
 
-Every ~6th run, before §6, spend a small budget stepping back from finding names to auditing whether the KB itself is healthy. Read `REVIEW.md` (prior findings), sample the KB, and answer three questions with evidence:
+Every 3rd run, before §6, spend a small budget stepping back from finding names to auditing whether the KB itself is healthy. Read `REVIEW.md` (prior findings), sample the KB, and answer three questions with evidence:
 
 1. **Are we reading the right input financial data?** Sample 3–4 recent `financials/*.md` + memos. Are figures quote-anchored, checker-passed, and filing-verified — or thin/single-source/unverified? Any CANDIDATE/WATCH graded without a solid baseline is a defect — flag it and downgrade to NEEDS-DATA.
 2. **Are we exploring the universe well?** Look at sector coverage (are 5-19 actually being worked, or are we drifting back to 0-4?), geographic spread, hit-rate trend, and grade mix (all C's and no A/B? too many PARKs?). Are we stuck re-mining?

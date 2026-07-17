@@ -42,6 +42,10 @@ Reflect size in the write-up: note cap, why it is (or isn't) still off instituti
 - **⚠ DISCREPANT** — sources disagree or a checker assertion FAILs (e.g. the SHMD €110M-vs-€67M split); do NOT average — dig until resolved, flag loudly.
 - **? UNVERIFIED** — couldn't get it.
 
+**Anchor discipline (internal consistency ≠ truth).** The checker only proves the numbers are consistent *with each other* — a set from one wrong vendor feed reconciles perfectly. The only defense is **filing provenance**: the floor-critical figures (revenue, cash, total debt, shares) must trace to the **primary filing itself** (EDGAR accession/URL + statement line, or a verbatim quote), not an aggregator. Pass a `provenance` map to `fin_check.py` (`"revenue":"filing"|"aggregator"|"none"`); it FAILs if none of the floor-critical figures are filing-anchored. A figure that only reconciles, or is aggregator-only, **cannot be ✓ — cap it at ~ SINGLE-SOURCE.** ✓ = filing-anchored AND checker-pass AND aggregator-agrees.
+
+**Foreign micro-cap ceiling (our new geo terrain — AIM/Japan/Korea/Nordics).** These have no EDGAR and thin, error-prone aggregator coverage — the worst data terrain, and exactly where we're now hunting. Rules: the primary must be the company's **actual annual/interim report** (IR PDF), not an aggregator; if only aggregator data exists, **cap C ≤ 2** and hold floor-critical figures at ~ SINGLE-SOURCE — a lead, not a high-confidence CANDIDATE/CORE. Always state the **reporting currency, units, and GAAP-vs-IFRS/adjusted** basis explicitly (foreign filings mix these constantly).
+
 **Coach the skepticism:** state plainly which numbers are solid and which to doubt, and why. That coaching is part of the deliverable.
 
 **Write `financials/[TICKER].md`** (quote-anchored figures + checker verdict + trust tags + sources + as-of). If the basics can't be obtained, or key figures stay ⚠/?, the name is **NEEDS-DATA** — not CANDIDATE — with **C low**. Every §4 score rests on this baseline, never on snippets.
