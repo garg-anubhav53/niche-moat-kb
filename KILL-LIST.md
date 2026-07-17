@@ -1535,3 +1535,98 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 | SWIS.L | Stifel Financial UK | N/A | 2026-07-17 | Investment bank operations. SECTOR_ADJACENT_KILL: investment banking is not a niche moat infrastructure play. |
 
 *~35 names processed; 32 killed (3 M&A_KILL, 1 INTEGRITY_KILL, 4 NO_MOAT_KILL, 6 COVERAGE_KILL, 3 CAP_KILL >$1.5B, 5 CAP_SOFT_KILL, 3 NOT_PUBLIC_KILL, 3 SECTOR_ADJACENT_KILL, 4 dual-category); 3 QUEUED: GHT.L 7/12 (Gresham Technologies Clareti), REC.L 6/12 (Record plc currency management), PKG.L 6/12 (Park Group Love2shop). §5 deep-dive: WINA (deferred from Sector 14 run #33) completed this run → CANDIDATE Grade B (Q4/F3/R2/C4; memo memos/WINA-2026-07-17.md). Sector 15 structurally sparse at $20–300M cap — PE consolidation has removed most quality names; most exchange/data infrastructure quality names are >$1.5B or private. UK AIM financial services is the most productive sub-pool at this cap range.*
+
+---
+
+## Sector 16 — Energy-Transition picks-and-shovels (1st pass · US micro-cap geo lens · run #35 · 2026-07-17)
+
+**Geo lens**: US micro-cap (Nasdaq / NYSE / OTC); energy transition hardware, efficiency, storage, renewable fuels
+**Names processed**: 36 (SHLS, ARRY, FTCI, STEM, FLNC, EOSE, NRGV, NOVA, AMPS, AMRC, POLA, OESX, FLUX, CGRN, MTRX, VICR, MYRG, MAXN, SPRU, CLNE, ENVX, MVST, HYLN, BLNK, EVGO, CHPT, OPTT, ORA, WATT, PLUG, BE, HYSR, ITRI, ENS, WKHS, MNTK)
+**New QUEUED**: 0 | **PARK**: 1 (MNTK 5/12) | **Deferred queue resolution**: GHT.L M&A_KILL | **§5 deep-dive**: 6743.T (deferred from Sector 13 run #32) → GRADE B · TIER CANDIDATE
+
+### INTEGRITY_KILL (12)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| NOVA | NovaBay Pharmaceuticals | <$10M | 2026-07-17 | INTEGRITY_KILL: serial dilution, ongoing losses, sub-$10M cap below floor — wrong sector assignment; killed on dual integrity+floor grounds. |
+| PLUG | Plug Power Inc | ~$600-800M | 2026-07-17 | INTEGRITY_KILL + CAP_SOFT_KILL: going-concern warning FY2023; serial equity dilution (multiple ATM raises); net losses every year since inception despite 20+ years listed; hydrogen electrolyzer cost economics uncompetitive. Quality=0. |
+| EOSE | Eos Energy Enterprises | ~$80-150M | 2026-07-17 | INTEGRITY_KILL: going-concern; serial dilution; Znyth battery technology pre-commercial at scale; net losses; accumulated deficit >$500M. Quality=0. |
+| NRGV | Energy Vault Holdings | <$100M | 2026-07-17 | INTEGRITY_KILL: going-concern; net losses; gravity energy storage unproven at commercial scale; contract execution problems disclosed. Quality=0. |
+| STEM | Stem Inc | ~$100-200M | 2026-07-17 | INTEGRITY_KILL: going-concern disclosure FY2024; net losses every year post-SPAC; AI energy storage software revenue declining. Quality=0. |
+| MAXN | Maxeon Solar Technologies | <$50M | 2026-07-17 | INTEGRITY_KILL: going-concern; net losses; serial dilution; SunPower spinoff with legacy debt; solar panel commodity. Quality=0. |
+| MVST | Microvast Holdings | ~$200-400M | 2026-07-17 | INTEGRITY_KILL: going-concern; net losses; serial equity dilution via warrants; Chinese-origin EV battery manufacturer. Quality=0. |
+| HYLN | Hyliion Holdings | <$100M | 2026-07-17 | INTEGRITY_KILL: net losses; development-stage hybrid truck powertrain; $80M+ accumulated deficit; revenue minimal. Quality=0. |
+| WKHS | Workhorse Group | <$20M | 2026-07-17 | INTEGRITY_KILL + CAP_KILL <$20M: going-concern; net losses; EV truck manufacturer; accumulated deficit >$500M; stock near zero. Quality=0. |
+| OPTT | Ocean Power Technologies | <$20M | 2026-07-17 | INTEGRITY_KILL + CAP_KILL <$20M: going-concern; net losses; wave energy development-stage; serial dilution. Quality=0. |
+| WATT | Energous Corporation | <$20M | 2026-07-17 | INTEGRITY_KILL + CAP_KILL <$20M: net losses since 2012; WattUp wireless charging development-stage; serial dilution; no commercial traction. Quality=0. |
+| HYSR | SunHydrogen Inc | <$20M | 2026-07-17 | INTEGRITY_KILL + CAP_KILL <$20M: development-stage; no revenue; photocatalytic hydrogen research-only. Quality=0. |
+
+### QUALITY_KILL (1)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| FLUX | Flux Power Holdings | ~$100-200M | 2026-07-17 | QUALITY_KILL (quality=0): lithium battery pack system for industrial/warehouse equipment; no established moat; competing with multiple battery system integrators; net losses; GM <25%; anti-value-trap rule. |
+
+### CAP_KILL >$1.5B (6)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| VICR | Vicor Corporation | ~$1.5-2B | 2026-07-17 | CAP_KILL >$1.5B: power component specialist; genuine process moat in factorized power architecture; but ~$1.5-2B cap = over ceiling; 7-10 analysts. |
+| AMPS | Altus Power Inc | ~$1.5-2B | 2026-07-17 | CAP_KILL >$1.5B: commercial solar asset developer; ~$1.5-2B cap; not a picks-and-shovels moat play — asset-heavy developer. |
+| ITRI | Itron Inc | ~$3-4B | 2026-07-17 | CAP_KILL >$1.5B: smart meter and utility IoT platform; genuine switching-cost moat; but ~$3-4B cap far over ceiling; 10+ analysts. |
+| ENS | EnerSys | ~$2-3B | 2026-07-17 | CAP_KILL >$1.5B: industrial battery specialist; genuine niche; but ~$2-3B cap over ceiling; 8 analysts. |
+| BE | Bloom Energy | ~$2-4B | 2026-07-17 | CAP_KILL >$1.5B: solid oxide fuel cell power platforms; genuine process moat (SOFC technology); but ~$2-4B cap over ceiling; 12+ analysts. |
+| ORA | Ormat Technologies | ~$2-3B | 2026-07-17 | CAP_KILL >$1.5B: geothermal power developer and OEM; genuine proprietary power unit moat; but ~$2-3B cap over ceiling; 8+ analysts. |
+
+### CAP_SOFT_KILL ($300M--$1.5B, no exceptional asymmetry) (4)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| ARRY | Array Technologies | ~$1-1.5B | 2026-07-17 | CAP_SOFT_KILL: single-axis solar tracker manufacturer; ~$1-1.5B cap; commodity product competing with Nextracker; 8+ analysts. |
+| MYRG | MYR Group Inc | ~$800M-1.2B | 2026-07-17 | CAP_SOFT_KILL: electrical construction contractor for utilities and renewables; ~$800M-1.2B cap; skilled labor business not a picks-and-shovels moat; 4-5 analysts. |
+| FLNC | Fluence Energy | ~$500M-1B | 2026-07-17 | CAP_SOFT_KILL: utility-scale battery energy storage system integrator; ~$500M-1B cap; system integrator with hardware commodity exposure; 10+ analysts. |
+| ENVX | Enovix Corporation | ~$800M-1.5B | 2026-07-17 | CAP_SOFT_KILL: advanced lithium battery manufacturer; ~$800M-1.5B cap; still loss-making; serial dilution history; borderline cap/integrity. |
+
+### COVERAGE_KILL (>4 analysts) (2)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| SHLS | Shoals Technologies Group | ~$400-800M | 2026-07-17 | COVERAGE_KILL: solar EBOS (electrical balance of system) supplier; genuine moat (sole AMS unified wiring system supplier); but 10+ analysts confirmed. |
+| AMRC | Ameresco Inc | ~$600M-1B | 2026-07-17 | COVERAGE_KILL: energy efficiency project developer; ~$600M-1B cap; 8+ analysts; services company not a picks-and-shovels product moat. |
+
+### SECTOR_KILL (1)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| POLA | Polar Power Inc | ~$20-40M | 2026-07-17 | SECTOR_KILL: DC power systems for cell towers and military. Primary military customer base confirmed — defense-primary. Hard rule: defense primary-customer → SECTOR_KILL, no exceptions. |
+
+### NO_MOAT_KILL (8)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| OESX | Orion Energy Systems | <$30M | 2026-07-17 | NO_MOAT_KILL: LED lighting system installer for commercial/industrial; no proprietary product moat — commodity LED installation service. |
+| MTRX | Matrix Service Company | ~$200-300M | 2026-07-17 | NO_MOAT_KILL: industrial construction services (tank farms, LNG, power); no moat — competitive contracting; no picks-and-shovels product. |
+| SPRU | Spruce Power Holding | ~$100-200M | 2026-07-17 | NO_MOAT_KILL: residential solar portfolio acquirer; no product or technology moat — asset aggregator; quality marginal. |
+| CLNE | Clean Energy Fuels Corp | ~$300-500M | 2026-07-17 | NO_MOAT_KILL: natural gas fueling station network; not sole-source; commodity fuel distribution. |
+| FTCI | FTC Solar | ~$80-150M | 2026-07-17 | NO_MOAT_KILL: single-axis solar tracker competing with Array Technologies and Nextracker; loss-making; commodity product. |
+| BLNK | Blink Charging | <$100M | 2026-07-17 | NO_MOAT_KILL + INTEGRITY: EV charging station operator; no moat — highly competitive with ChargePoint/EVgo/Tesla; serial losses; serial dilution. Quality=0. |
+| EVGO | EVgo Inc | ~$800M-1.5B | 2026-07-17 | NO_MOAT_KILL + CAP_SOFT_KILL: EV fast-charging network; no moat — commodity charging location network; ~$800M-1.5B cap; 10+ analysts. |
+| CHPT | ChargePoint Holdings | ~$300-700M | 2026-07-17 | NO_MOAT_KILL: EV charging network and hardware; competing with EVgo/Tesla/BP Pulse; serial losses; serial dilution. Quality=0. |
+
+### CAP_KILL <$20M (1)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| CGRN | Calumet Specialty Products | <$20M | 2026-07-17 | CAP_KILL <$20M: renewable fuels / SAF producer; below floor at current market cap after debt restructuring. |
+
+### PARK (1)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| MNTK | Montauk Renewables Inc | ~$226M | 2026-07-17 | **PARK 5/12** (Moat=1 CONTRACTUAL+REGULATORY, Quality=1, Coverage=1, Valuation=1, Catalyst=1, Floor=0): Landfill gas-to-RNG developer; long-term LFG collection agreements (10-15yr with municipalities/waste companies) + EPA RIN credits (D3 cellulosic RINs). RIN-dependent margin risk confirmed: FY2024 net loss when RIN prices compressed. 3 analysts. Cap ~$226M (core zone). No hard-dated <6mo catalyst. Floor=0 (net losses in down-cycle). PARK not QUEUED: RIN dependency makes this a regulatory-credit business not a structural moat business; revisit only if RIN prices sustain $3.50+ for 2 consecutive quarters AND GAAP net income positive AND cap corrects below $150M. |
+
+### Deferred Queue Resolution
+
+**GHT.L -- M&A_KILL**: STG Partners acquisition of Gresham Technologies (GHT.L) completed Q3 2024; company delisted from AIM London. Web search confirmed: deal completed, shares cancelled, company no longer publicly listed. M&A_KILL confirmed. Removed from deferred deep-dive queue.
+
+*~36 names processed; 35 killed (12 INTEGRITY_KILL, 1 QUALITY_KILL, 6 CAP_KILL >$1.5B, 4 CAP_SOFT_KILL, 2 COVERAGE_KILL, 1 SECTOR_KILL, 8 NO_MOAT_KILL, 1 CAP_KILL <$20M); 0 new QUEUED (sector structurally thin: energy-transition picks-and-shovels at US micro-cap is dominated by development-stage/integrity-impaired companies; large-cap quality names [Bloom Energy, Itron, EnerSys, Ormat] all over cap ceiling; PE consolidation absorbed most viable small-caps; 0 new QUEUED is a sector structural fact, not a search failure); 1 PARK: MNTK 5/12. §5 deep-dive: 6743.T (deferred from Sector 13 run #32) completed this run → CANDIDATE Grade B (Q3/F4/R3/C2; P/B 0.32x; platform door mandate FY2030; buy-zone ¥450-480; memo memos/6743.T-2026-07-17.md). Deferred queue resolution: GHT.L M&A_KILL (STG Partners acquisition completed Q3 2024; delisted AIM London).*
