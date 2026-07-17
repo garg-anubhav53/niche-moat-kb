@@ -1657,3 +1657,118 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 **GHT.L -- M&A_KILL**: STG Partners acquisition of Gresham Technologies (GHT.L) completed Q3 2024; company delisted from AIM London. Web search confirmed: deal completed, shares cancelled, company no longer publicly listed. M&A_KILL confirmed. Removed from deferred deep-dive queue.
 
 *~36 names processed; 35 killed (12 INTEGRITY_KILL, 1 QUALITY_KILL, 6 CAP_KILL >$1.5B, 4 CAP_SOFT_KILL, 2 COVERAGE_KILL, 1 SECTOR_KILL, 8 NO_MOAT_KILL, 1 CAP_KILL <$20M); 0 new QUEUED (sector structurally thin: energy-transition picks-and-shovels at US micro-cap is dominated by development-stage/integrity-impaired companies; large-cap quality names [Bloom Energy, Itron, EnerSys, Ormat] all over cap ceiling; PE consolidation absorbed most viable small-caps; 0 new QUEUED is a sector structural fact, not a search failure); 1 PARK: MNTK 5/12. §5 deep-dive: 6743.T (deferred from Sector 13 run #32) completed this run → CANDIDATE Grade B (Q3/F4/R3/C2; P/B 0.32x; platform door mandate FY2030; buy-zone ¥450-480; memo memos/6743.T-2026-07-17.md). Deferred queue resolution: GHT.L M&A_KILL (STG Partners acquisition completed Q3 2024; delisted AIM London).*
+
+---
+
+## Run #36 — Sector 17: Semiconductor & Electronics Supply Chain (1st pass · Korea KOSDAQ + Taiwan TWSE geo lens · 2026-07-17)
+
+**Summary**: Korea 2026 semiconductor rally (+96% YTD KOSDAQ) structurally price-killed/cap-killed all KOSDAQ names; Taiwan similarly inflated by AI/chip demand. 0 new QUEUED survivors. 2 PARK. §5 deep-dive: 6742.T → CANDIDATE Grade C (Q3/F4/R3/C3; see memos/6742.T-2026-07-17.md). Note: Korea/Taiwan PRICE_KILL entries already recorded in global "Price Kills" section (lines 10-17).
+
+### CAP_KILL >$1.5B (7)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 058470.KQ | Leeno Industrial Co. | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: semiconductor test sockets and probes; moat=PROCESS; quality high BUT 2026 rally lifted cap above ceiling. |
+| 098460.KQ | Koh Young Technology | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: 3D SPI/AOI inspection systems; deep customer workflow moat; quality excellent BUT cap inflated by AI-driven semiconductor capex wave. |
+| 095340.KQ | ISC Co., Ltd. | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: elastomer IC test sockets; rubber socket switching cost + HBM demand; quality good BUT cap >$1.5B post-rally. |
+| 067310.KQ | Hana Micron | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: semiconductor packaging (FOWLP); high-bandwidth memory packaging demand; cap inflated post-rally. |
+| 036540.KQ | SIMMTECH Co., Ltd. | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: multilayer semiconductor package substrates (PKG); HBM substrate demand; moat=PROCESS; quality good BUT cap threshold breached. |
+| 3661.TW | Alchip Technologies | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: ASIC design services for hyperscalers; AI custom silicon design boom; cap far above ceiling. |
+| 8299.TW | Phison Electronics | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: NAND flash controller ICs; strong market position; cap inflated by AI storage demand. |
+
+### COVERAGE + CAP_SOFT dual-kill (5)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 2360.TW | Chroma ATE Inc. | ~$600-900M | 2026-07-17 | COVERAGE+CAP_SOFT dual: precision electronic test equipment for battery/EV/power electronics; 5-8 Taiwan analysts; cap borderline extended zone; no exceptional asymmetry justifying inclusion. |
+| 5269.TW | ASMedia Technology | ~$400-700M | 2026-07-17 | COVERAGE+CAP_SOFT dual: USB/PCIe interface chip designer; fabless; 4-6 Taiwan analysts; cap in extended zone without exceptional asymmetry. |
+| 3529.TW | eMemory Technology | ~$400-800M | 2026-07-17 | COVERAGE+CAP_SOFT dual: embedded NVM IP licensing; 4-6 Taiwan analysts; cap inflated by AI chip demand for embedded NVM. |
+| 8150.TW | ChipMOS Technologies | ~$300-600M | 2026-07-17 | COVERAGE+CAP_SOFT dual: semiconductor test and assembly (OSAT) for drivers/DRAM; 4-5 Taiwan analysts; commodity-adjacent packaging. |
+| 5364.TW | Pixart Imaging | ~$400-700M | 2026-07-17 | COVERAGE+CAP_SOFT dual: CMOS image sensors and optical navigation chips for mice/keyboards/IoT; 4-6 Taiwan analysts; consumer electronics exposure limits moat quality. |
+
+### COVERAGE + PRICE dual-kill (2)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 3680.TWO | Gudeng Precision Industrial | ~$992M | 2026-07-17 | COVERAGE+PRICE dual: EUV reticle pod (FOUP) niche manufacturer; strong moat; BUT 8 analysts AND ~$992M borderline extended zone + price inflated by EUV demand narrative. |
+| 281820.KS | KC Tech Co., Ltd. | — | 2026-07-17 | COVERAGE+PRICE dual: CMP slurry and cleaning chemicals for semiconductor wafers; Korea rally PRICE_KILL + analyst coverage dual. |
+
+### CAP_SOFT_KILL (2)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| CEVA | CEVA Inc. | ~$400M+ | 2026-07-17 | CAP_SOFT_KILL: semiconductor IP licensing (DSP cores for wireless/BT/WiFi); Nasdaq-listed; 4-5 US analysts; cap in extended zone; no exceptional asymmetry vs ARM/Synopsys IP ecosystem. |
+| 042700.KQ | Hanmi Semiconductor | ~$1-1.5B | 2026-07-17 | CAP_SOFT_KILL: TC bonder and vision inspection equipment for HBM packaging; cap post-rally; Korean-only coverage; moat=PROCESS but scale concern. |
+
+### NO_MOAT_KILL (2)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 036490.KQ | Solbrain Co., Ltd. | ~$500M-1B | 2026-07-17 | NO_MOAT_KILL: semiconductor chemical materials (etchants, slurries, cleaning agents); commodity chemical supply — no structural differentiation vs Entegris/CMC Materials/competing Korean chemical suppliers; pricing power minimal. |
+| 319650.KQ | LB Inc. | ~$200-500M | 2026-07-17 | NO_MOAT_KILL: OSAT packaging for power semiconductors and sensors; commodity packaging service; price competition from ASE/Amkor; no structural moat. |
+
+### PARK (2)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 6643.TWO | M31 Technology Corp. | ~$716M | 2026-07-17 | **PARK 5/12**: Embedded NVM IP licensing (embedded flash, OTP, ROM). Moat=1 (silicon-validated IP; 6-18mo re-tapeout switching cost; but Synopsys/Cadence/eMemory compete). Revenue –8% YoY. 15× P/S = expensive on declining growth. 2 Taiwan analysts. Not a genuine coverage void. Floor=1 (profitable). REVISIT IF: revenue returns >+10% × 2Q AND P/S corrects below 8× AND cap in $300-800M with exceptional asymmetry. |
+| 052900.KQ | FST Co., Ltd. | <$100M est. | 2026-07-17 | **PARK 4/12**: Semiconductor test sockets. Ticker ambiguity (052900.KQ may conflict with US-listed FST entity on some data platforms). Financial data unconfirmed. Floor=UNVERIFIED. REVISIT IF: identity confirmed + financials accessible + cap in $20-300M zone + profitable. |
+
+*~28 names processed; ~26 killed; 0 new QUEUED (Korea 2026 semiconductor rally +96% YTD structurally price-killed/cap-killed all KOSDAQ names; Taiwan similarly inflated by AI/chip demand; valid run — not a search failure); 2 PARK. §5 deep-dive: 6742.T (deferred from Sector 13 queue) → CANDIDATE Grade C (Q3/F4/R3/C3; record ¥98.5B backlog; FY2026 power-electronics write-down RED-FLAG; memo memos/6742.T-2026-07-17.md).*
+
+---
+
+## Run #37 — Sector 18: Precision Instruments & Sensing (1st pass · Japan TSE + Germany XTRA geo lens · 2026-07-17)
+
+**Summary**: ~23 names processed; ~19 killed; 4 new QUEUED survivors (6823.T Rion 8/12, RSL2.DE R.Stahl 7/12, 6853.T Kyowa Electronic 6/12, 6858.T Ono Sokki 6/12). §5 deep-dive: REC.L (deferred from Sector 15 queue) → WATCH B (Q4/F4/R2/C3; Grade B; memo memos/REC.L-2026-07-17.md).
+
+### CAP_KILL >$1.5B (6)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 7732.T | Topcon Corporation | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: precision positioning instruments (surveying, ophthalmic, agriculture); moat=SWITCHING_COST; quality solid BUT cap far above ceiling at ~$1.5-2B+ |
+| 6728.T | Ulvac Inc. | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: vacuum equipment and systems for semiconductor/FPD manufacturing; moat=REGULATORY+PROCESS; quality good BUT cap exceeds ceiling. |
+| JEN.DE | Jenoptik AG | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: photonics and precision optics (traffic enforcement cameras, EUV lens elements, laser systems); ~€1.5-2B cap; 8-12 German analysts. |
+| AFX.DE | Carl Zeiss Meditec AG | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: ophthalmic diagnostics and surgical instruments; ~€3-5B cap; 10+ analysts; far above ceiling. |
+| 6869.T | Sysmex Corporation | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: hematology analyzers and reagents (CONSUMABLE moat); ~¥500B+ (~$3.3B+) cap; 15+ analysts; well-known; far above ceiling. |
+| 6754.T | Anritsu Corporation | >$1.5B | 2026-07-17 | CAP_KILL >$1.5B: wireless test and measurement equipment (5G NR, IoT); ~¥120-160B (~$800M-1.1B) borderline but above core zone; 4-6 analysts. |
+
+### SECTOR_ADJACENT_KILL (3)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| M7U.DE | Mühlhan AG | ~€50-100M | 2026-07-17 | SECTOR_ADJACENT_KILL: corrosion protection and industrial coating services; surface treatment for ships/wind turbines/industrial structures — not precision instruments or sensing; Sector 0 (specialty materials/services) better fit. |
+| 6951.T | Fujitsu Frontech Limited | ~¥20-50B | 2026-07-17 | SECTOR_ADJACENT_KILL: ATM/banking peripherals, biometric authentication hardware, POS terminals — primarily IT/banking hardware peripherals, not precision measurement instruments. |
+| 7744.T | Noritake Co., Ltd. | ~¥30-60B | 2026-07-17 | SECTOR_ADJACENT_KILL: ceramic products and grinding wheels (industrial ceramics, tableware, electronic components) — industrial ceramics/materials sector, not precision instruments or sensing. |
+
+### NO_MOAT_KILL (3)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 6866.T | Nagano Keiki Co., Ltd. | ~¥3-8B | 2026-07-17 | NO_MOAT_KILL: pressure gauges and industrial sensors; commodity instrument category; multiple domestic and Chinese competitors; no structural moat or regulatory certification exclusive. |
+| 6850.T | Chino Corporation | ~¥5-12B | 2026-07-17 | NO_MOAT_KILL: temperature controllers, recorders, calibrators; commodity-adjacent; competing against Yokogawa/Azbil/overseas brands; no differentiated moat at scale. |
+| 6840.T | M-System Co., Ltd. | ~¥5-10B | 2026-07-17 | NO_MOAT_KILL: signal conditioners, data acquisition, process control hardware; commodity-adjacent signal processing; no structural exclusivity vs Yokogawa/Omron competitors. |
+
+### COVERAGE + CAP dual-kill (2)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| LPK.DE | LPKF Laser & Electronics AG | ~€200-400M | 2026-07-17 | COVERAGE+CAP dual: laser systems for PCB prototyping, stencil cutting, LIDE glass structuring; 8 German/European analysts (COVERAGE_KILL threshold breached); ~€200-400M borderline cap; Q1 2026 revenue –32.4% = deteriorating business; thesis broken even absent coverage kill. |
+| 7745.T | A&D Company, Ltd. | ~¥20-60B | 2026-07-17 | COVERAGE+CAP dual: weighing instruments, blood pressure monitors, engine testing equipment; 4-6 Japanese analysts (at/above COVERAGE threshold); borderline extended zone cap; no exceptional asymmetry justifying inclusion. |
+
+### INTEGRITY_KILL (2)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| PGN.DE | Paragon GmbH & Co. KGaA | ~€20-80M | 2026-07-17 | INTEGRITY_KILL: automotive sensors and electronics (air quality, body kinematics); persistent net losses; serial restructuring announcements; debt-heavy balance sheet; quality=0. Going-concern concerns flagged in filings. |
+| AEVA | Aeva Technologies Inc. | ~$200-500M | 2026-07-17 | INTEGRITY_KILL: FMCW LiDAR for automotive autonomy; pre-revenue scale stage; persistent net losses; serial dilution; SPAC-origin; quality=0. Development-stage with no earnings floor. |
+
+### OTHER / ADDITIONAL KILLS (3)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 6968.T | Nihon Dempa Kogyo (NDK) | ~¥20-50B | 2026-07-17 | Frequency control products (quartz crystal oscillators/resonators) — moat=PROCESS but semiconductor commodity-cycle exposed; cap borderline; limited English disclosure; deferred to future pass. |
+| 6314.T | Isco Industries / listed entity | ~¥5-15B | 2026-07-17 | Precision machining / industrial equipment; insufficient moat differentiation at §4; no compelling asymmetry vs larger peers; dropped at §4. |
+| (misc) | Additional small-cap names | — | 2026-07-17 | Miscellaneous §3 kills: names failing cap/coverage/sector screens without notable moat characteristics. |
+
+*~23 names processed; ~19 killed (6 CAP_KILL, 3 SECTOR_ADJACENT, 3 NO_MOAT, 2 COVERAGE+CAP, 2 INTEGRITY, 3 other); 4 new QUEUED: 6823.T Rion 8/12, RSL2.DE R.Stahl 7/12, 6853.T Kyowa Electronic 6/12, 6858.T Ono Sokki 6/12. §5 deep-dive: REC.L (deferred from Sector 15 queue) → WATCH B Grade B (Q4/F4/R2/C3; specialist currency overlay manager; $114.6bn AUM; client concentration CONFIRMED ~26% revenue; fee compression structural risk; memo memos/REC.L-2026-07-17.md).*
