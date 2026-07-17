@@ -1254,3 +1254,49 @@ Names that failed the asymmetry or integrity gates.
 | Ticker | Company | Seen In | Date | Reason |
 |--------|---------|---------|------|--------|
 | DSGR | Distribution Solutions Group (Nasdaq: DSGR) | Run #27 triage | 2026-07-17 | US specialty distribution holding company (Lawson Products MRO, TestEquity electronics/lab equipment distribution, Gexpro Services supply chain services for utilities/renewables); appeared in run #27 sector screening; DEDUP — already reviewed and classified (extended zone ~$500-700M cap + 4+ analysts = CAP_SOFT_KILL + COVERAGE_KILL). DEDUP_KILL. |
+
+---
+
+## Run #30 Kills — 2026-07-17 | Sector 11: Electrical & Power Components (1st pass) | Geo lens: UK AIM / Continental European / Nordic
+
+*~24 names processed; ~22 killed in triage/§4; 1 QUEUED (EPEN.ST 6/12); 1 deferred deep-dive completed (JOUT → CANDIDATE Grade B; Q3/F4/R2/C3; memo memos/JOUT-2026-07-17.md). Structural context: Sector 11 is structurally thin on UK AIM — most niche electrical/power component makers in the £20-300M range are either private (owned by PE), have graduated above the cap ceiling on industrial cycle tailwinds, or are predominantly defense-adjacent. Continental European and Nordic names provided the primary productive angle. UK AIM proved sparse; EPEN.ST (Ependion AB / Westermo) from Nasdaq Stockholm was the sole survivor. HMS.ST (HMS Networks) illustrates the sector's main problem: the best-quality names have grown through the extended zone without exceptional remaining asymmetry.*
+
+### Coverage Kill + Cap Soft Kill (dual)
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| HMS.ST | HMS Networks AB (Nasdaq Stockholm: HMS.ST) | >4 analysts + ~SEK 8-12B cap (~$750M-1.1B+ USD = extended zone without exceptional asymmetry) | 2026-07-17 | Swedish industrial networking specialist (Anybus communication adapters — THE industry standard for protocol conversion between PLCs and industrial networks; Ewon remote access for industrial IoT; IXXAT CAN/CANopen bus products; genuine REGULATORY+SWITCHING_COST moat: ~95% of PLC manufacturers use Anybus embedded communication modules as OEM standard). BUT: cap SEK 8-12B = $750M-1.1B+ USD = extended zone; >4 confirmed sell-side analysts; no exceptional asymmetry visible to justify extended-zone override given coverage level. Dual COVERAGE_KILL + CAP_SOFT_KILL. Note: Anybus moat is genuinely one of the stronger SWITCHING_COST moats in industrial networking — revisit if cap corrects significantly below SEK 5B or coverage drops. |
+
+### Not Public Kills (acquired, delisted, or private)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| SAHN.SW | Schaffner Holding AG (SIX Swiss Exchange: SAHN.SW) | 2026-07-17 | Swiss electromagnetic compatibility (EMC) filter manufacturer (proprietary line of EMC/EMI filters for power electronics, power quality harmonics filters, and inductive components for industrial/commercial/medical applications; genuine REGULATORY+PROCESS moat: IEC/EN 61000 EMC directive compliance certification + custom application engineering lock-in; >25yr OEM track record). BUT NOT_PUBLIC: acquired by TE Connectivity in 2023 — High Court of Canton Solothurn issued squeeze-out ruling in May 2024; all remaining publicly held SAHN.SW shares cancelled; company fully delisted and integrated into TE Connectivity as TE's EMC Filter business unit. NOT_PUBLIC_KILL. |
+
+### Cap Soft Kills ($300M–$1.5B — extended zone without exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| 6929.T | Nippon Ceramic Co. Ltd (Tokyo Stock Exchange: 6929.T) | ~¥87B (~$580M USD) | 2026-07-17 | Japanese ceramic sensors and piezoelectric transducer manufacturer (ultrasonic distance sensors, infrared sensors, ceramic filters — OEM components for automotive parking sensors, industrial ultrasonic measurement, and motion detection; genuine PROCESS+SOLE_SOURCE moat in niche ceramic transducer geometries; 60%+ GM in some segments). BUT actual cap confirmed ~¥87B (~$580M USD) = extended zone; no exceptional asymmetry given 2026 profit guidance decline; extended-zone requires "exceptional asymmetry" per SIZE DISCIPLINE rules — declining profitability in current year disqualifies. CAP_SOFT_KILL. (Initial cap estimate ¥35B was incorrect; confirming search revealed actual ¥87B.) |
+
+### Integrity Kills (quality=0 — losses, divestiture, or going-concern)
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| PPSI | Pioneer Power Solutions Inc (Nasdaq: PPSI) | Quality=0 (sold primary moated business; post-divestiture losses) | 2026-07-17 | Pioneer Power Solutions — historically: specialty power distribution transformers + E-Bloc mobile electric vehicle fast-charging infrastructure (genuine PROCESS+SPECIFICATION moat in E-Bloc containerized DC fast-charging stations; DOD/federal qualified; competitive differentiation vs stationary chargers for temporary/mobile applications). BUT: Pioneer Power Solutions **sold E-Bloc business unit to Mill Point Capital in October 2024 for ~$50M** — the moated asset is gone. Post-divestiture Pioneer Power consists of legacy power transformer manufacturing only: TTM revenue $27.63M; net loss -$6M TTM; quality=0 (operating at a loss with no moated business remaining). Anti-value-trap rule: quality=0 → INTEGRITY_KILL. |
+
+### No-Moat Kills (commodity, competitive, or no regulatory lock-in)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| 6809.T | TOA Corporation (Tokyo Stock Exchange: 6809.T) | Japanese public address (PA) systems and audio/visual equipment manufacturer (amplifiers, speakers, IP network PA systems, security cameras; municipal/transport/commercial PA installation; some recurring maintenance revenue from installed base). NO_MOAT: PA/audio systems market is competitive (Bosch/Electro-Voice, Bose, Toa-alongside Japanese peers Optex, AIPHONE); no regulatory certification lock-in; recurring maintenance revenue is modest; not spec'd-in sole-source for PA. Also cap ~¥16B (~$107M USD) = core zone but no moat. NO_MOAT_KILL. | 2026-07-17 |
+
+### Ticker Unverified Kills (ticker/company identity cannot be confirmed)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| Sankosha Corp | Sankosha Corporation (Japanese electrical components) | 2026-07-17 | Candidate identified as potential niche lightning arrester/surge protection device manufacturer in Japan with possible REGULATORY moat (JIS/IEC 62305 lightning protection standard qualification; some OEM specification into power infrastructure). BUT ticker unverifiable: 6964.T on TSX/Tokyo exchange is **Sanko Co. Ltd** (a different company — industrial materials/chemicals trading); no confirmed public equity listing for Sankosha Corporation found. TICKER_UNVERIFIED_KILL. Cannot deep-dive without confirmed listing. Revisit if public listing is confirmed on Tokyo SE or OTC. |
+
+### Additional UK AIM / Continental European / Nordic Kills (~16 additional names killed in triage)
+| Category | Names | Date | Reason |
+|----------|-------|------|--------|
+| CAP_KILL (>$1.5B) | Legrand SA (LR.PA), ABB Ltd (ABBN.SW), Schneider Electric (SU.PA), Siemens Energy (ENR.DE) | 2026-07-17 | Large-cap European electrical/power component majors far above $1.5B ceiling. All CAP_KILL. |
+| CAP_SOFT_KILL ($300M-$1.5B, no exceptional asymmetry) | Bel Fuse (BELFA) extended-zone; XP Power (XPP.L) ~£200-300M extended zone no hard catalyst; Powerbox (private); Traco Electronic (private) | 2026-07-17 | Extended zone without exceptional asymmetry OR confirmed private. CAP_SOFT_KILL or NOT_PUBLIC. |
+| NO_MOAT / SECTOR_ADJACENT | Bergmann + Martin (private); various UK AIM electronics distributors; Nordic power equipment commodity manufacturers | 2026-07-17 | Commodity electrical component distribution or manufacturing with no REGULATORY/PROCESS/SOLE_SOURCE moat. NO_MOAT_KILL. |
+| INTEGRITY / GOING_CONCERN | Development-stage power electronics start-ups with losses; UK AIM names with going-concern disclosures | 2026-07-17 | Quality=0 from losses or going-concern. INTEGRITY_KILL per anti-value-trap rule. |
+
+*~24 total names processed (UK AIM / Continental European / Nordic geo lens); ~22 killed across above categories; 1 QUEUED (EPEN.ST 6/12 Ependion AB / Westermo railway networking). Sector 11 structurally thin at $20-300M public equity screen. Next pass (run #31+) should try German XTRA / Swiss SIX for EMC filter and specialty power supply niche names (e.g. power supply manufacturers with IEC 60601 medical-grade or railway certification); Nordic specialty connectivity component makers; and any AIM EMC/power component names not yet screened.*
