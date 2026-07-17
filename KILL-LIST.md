@@ -1398,3 +1398,72 @@ Names that failed the asymmetry or integrity gates.
 | — | Siemens Mobility GmbH | 2026-07-17 | Siemens rail division (signaling, trains, propulsion) — private division of Siemens AG; not a separately listed entity. NOT_PUBLIC_KILL. |
 
 *22 total names processed (Japan TSE/JASDAQ + Germany XTRA geo lenses); 19 killed across above categories; 3 new QUEUED (6742.T 6/12, 6743.T 7/12, FEW.F 8/12). EPEN.ST §5 deep-dive completed. Sector 13 (Rail & transport safety systems) marked ACTIVE (1st pass, 3 new finds). Japan lens most productive for genuine moated small-caps: Nippon Signal 6741.T (COVERAGE_KILL), Kyosan Electric 6742.T and Daido Signal 6743.T both QUEUED. Germany lens yields Funkwerk AG FEW.F (TETRA/ETCS/FRMCS). Next Sector 13 pass: try UK AIM rail technology names or Swiss SIX railway safety specialists.*
+
+---
+
+## Sector 14 — Consumer Niche & Branded Franchises (Run #33, 2026-07-17, US Micro-Cap Lens)
+
+### Coverage Kills (>4 analysts)
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---------------|------|--------|
+| LOVE | Lovesac | 3 analysts | 2026-07-17 | Patented Sactionals furniture system; razor-blade cover consumables; ~$150M cap. COVERAGE_KILL — 3 analysts exceeds threshold. |
+| MCFT | MasterCraft Boat Holdings | 4 analysts | 2026-07-17 | Premium wake/ski boats (MasterCraft, Crest, Aviara brands); ~$360M extended zone; also acquiring MPX. COVERAGE_KILL. |
+| BGS | B&G Foods | 6–7 analysts | 2026-07-17 | Multi-brand consumer staples (Green Giant, Cream of Wheat, Crisco); ~$700M extended zone. COVERAGE_KILL. |
+| LCUT | Lifetime Brands | 3–4 analysts | 2026-07-17 | Licensed kitchen/tabletop brands (KitchenAid tools, Farberware); ~$220M core zone. COVERAGE_KILL. |
+| WGO | Winnebago Industries | 5–7 analysts | 2026-07-17 | RV brands (Winnebago, Grand Design, Newmar, Chris-Craft); ~$1.2B extended zone. COVERAGE_KILL. |
+| SMPL | Simply Good Foods | 7–9 analysts | 2026-07-17 | Quest/Atkins protein/nutrition brands; ~$1.3B extended zone. COVERAGE_KILL. |
+| DNUT | Krispy Kreme | 6+ analysts | 2026-07-17 | Krispy Kreme donut brand franchise (re-IPO'd post-JAB private); McDonald's distribution deal; ~$700M–1B. COVERAGE_KILL. |
+| OLPX | Olaplex Holdings | 6+ analysts | 2026-07-17 | Bond-building hair care brand; professional channel moat; ~$600-900M. COVERAGE_KILL. |
+| MGP | MGP Ingredients | 4–5 analysts | 2026-07-17 | US contract whiskey distiller + own portfolio (Rossville Union); ~$800M extended zone. COVERAGE_KILL. |
+| MBUU | Malibu Boats | 5–7 analysts | 2026-07-17 | Premium wake/surf boats (Malibu, Axis, Cobalt); ~$600M extended zone. COVERAGE_KILL. |
+| KRUS | Kura Sushi USA | 3–4 analysts | 2026-07-17 | Authentic Japanese revolving sushi concept (RFID plates + Bikkura-Pon); ~$200M core zone. COVERAGE_KILL. |
+| NWL | Newell Brands | 7–9 analysts | 2026-07-17 | Multi-brand household products (Rubbermaid, Coleman, Yankee Candle, Contigo); ~$1.3–1.5B. COVERAGE_KILL. |
+| ACCO | ACCO Brands | 5–6 analysts | 2026-07-17 | Office/school brands (Swingline, AT-A-GLANCE, Mead, Kensington, Five Star); ~$500M. COVERAGE_KILL. |
+| JACK | Jack in the Box | 5–7 analysts | 2026-07-17 | Fast food franchise (Jack in the Box + Del Taco, ~3,700 combined locations); ~$700-800M. COVERAGE_KILL. |
+| RICK | RCI Hospitality Holdings | 6 analysts (confirmed) | 2026-07-17 | Adult entertainment venue operator; location/license monopoly moat genuine; but 6 analyst coverage confirmed. COVERAGE_KILL. |
+
+### Cap Kills
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|------------|------|--------|
+| IPAR | Inter Parfums | ~$2.1–2.4B | 2026-07-17 | Prestige fragrance licensor (Montblanc, Coach, Guess, etc.); strong license moat but far above $1.5B cap ceiling. CAP_KILL. |
+| WGO | Winnebago Industries | ~$1.2B (also COVERAGE_KILL above) | 2026-07-17 | See COVERAGE_KILL. |
+| SMPL | Simply Good Foods | ~$1.3B (also COVERAGE_KILL above) | 2026-07-17 | See COVERAGE_KILL. |
+
+### Cap Soft Kills (extended zone, mediocre moat, no exceptional catalyst)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|------------|------|--------|
+| RCKY | Rocky Brands | ~$320M | 2026-07-17 | Work boot brands (Rocky, Durango, Lehigh safety footwear B2B); Lehigh employer-channel moat decent but not exceptional; $320M extended zone + 2–3 analysts + no hard-dated <6mo catalyst. CAP_SOFT_KILL. |
+| FLXS | Flexsteel Industries | ~$389M | 2026-07-17 | Blue Steel Spring patented seating; healthcare/contract furniture. CONFIRMED in §4: GM only 22.7% — no pricing power moat at scale; $389M extended zone with mediocre margins. CAP_SOFT_KILL. |
+
+### No-Moat Kills
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| HOFT | Hooker Furnishings | ~$130M | 2026-07-17 | Furniture brands (Hooker, Bradington-Young, Home Meridian). Furniture brand differentiation is weak — Ashley, Ethan Allen, and many others compete freely at similar price points; no real switching cost or pricing power. NO_MOAT_KILL. |
+| NDLS | Noodles & Company | ~$140M | 2026-07-17 | Fast casual noodle restaurants. Intensely competitive segment; no real brand monopoly or moat mechanism. NO_MOAT_KILL. |
+
+### No-Catalyst Kills (low quality, no near-term catalyst)
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| BSET | Bassett Furniture | ~$175M | 2026-07-17 | US-made furniture brand + retail network. Housing-linked demand; mediocre margins; no unique competitive moat beyond "US-made" positioning; quality too low to survive as CORE. NO_CATALYST_KILL. |
+
+### Integrity Kills
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| FAT | FAT Brands | ~$200-350M | 2026-07-17 | Multi-brand fast food franchise operator (Fatburger, Johnny Rockets, etc.). SEC investigation of founder Andy Wiederhorn; serial operating losses; related-party concerns. INTEGRITY_KILL. |
+| RRGB | Red Robin Gourmet Burgers | ~$200M | 2026-07-17 | Casual dining burger chain. Serial losses, high debt, ongoing restructuring, multiple CEO changes; going-concern risk profile. INTEGRITY_KILL. |
+| STKS | One Group Hospitality | ~$160-180M | 2026-07-17 | STK steakhouse concept (premium social dining + nightlife). Location/concept moat real but chronic operating losses + high debt + restaurant risk. INTEGRITY_KILL. |
+
+### Acquisition Kills (pending deal removes moat-play)
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| MPX | Marine Products Corp | ~$280M | 2026-07-17 | Chaparral/Robalo boat brands. ACQUISITION_KILL — announced acquisition by MasterCraft Boat Holdings (MCFT) February 5, 2026 at ~$232.2M cash-and-stock deal. Stock near deal price; arb not moat thesis. GM only 16.6% confirms moat weaker than suspected. |
+| NATH | Nathan's Famous | ~$414M | 2026-07-17 | Nathan's hot dog franchise brand + Smithfield Foods licensing royalties. ACQUISITION_KILL — merger agreement with Smithfield Foods at $102/share. FY2026 revenues $162M, diluted EPS $4.85. Stock near deal price; no asymmetric entry. |
+
+### Parks (quality too low or illiquid)
+| Ticker | Company | Score | Date | Reason |
+|--------|---------|-------|------|--------|
+| VIRC | Virco Manufacturing | 4/12 | 2026-07-17 | K-12 school furniture; ~$96M cap; 1 analyst. PARK 4/12: quality=0 confirmed in §4 — ROIC 2.48%, operating margin 1.83%, Q1 2026 net loss $2.8M, FY2026 revenue -25% YoY to $199.7M; 1 analyst with HOLD/$6.50 target. Hard quality rule: quality=0 → PARK, never deep-dive. REVISIT IF: ROIC >10% + operating margin >8% sustained × 2Q. |
+| CLAR | Clarus Corp | PARK | 2026-07-17 | Black Diamond climbing gear + Sierra Bullets ammo; ~$100-142M cap; 1 analyst (SELL). quality=0: operating margin -26.6%, net margin -19.78%, "not forecast profitable over next 3 years" per sell-side. Q1 2026 net loss $3.3M (improving but still deep losses). Black Diamond brand moat real but business economics non-functional. PARK. REVISIT IF: operating margin reaches breakeven × 2Q + analyst upgrades. |
+| ARKR | Ark Restaurants | PARK | 2026-07-17 | Restaurant operator at unique NYC locations (Bryant Park, World Financial Center); ~$40M cap. Location moat real (long-term leases at premium spots) but mediocre quality/low margins + very illiquid ($40M cap). PARK — illiquid, quality low, no catalyst. |
+
+*30 names processed; 28 killed/parked (15 COVERAGE_KILL, 2 CAP_KILL, 2 CAP_SOFT_KILL, 2 NO_MOAT_KILL, 1 NO_CATALYST_KILL, 3 INTEGRITY_KILL, 2 ACQUISITION_KILL, 3 PARK); 1 QUEUED_CORE: WINA 8/12 (Winmark Corp). §5 deep-dive: FEW.F (deferred from run #32) completed this run. Sector 14 (Consumer niche & branded franchises) marked ACTIVE (1st pass, 1 new find). US micro-cap lens reveals significant PE consolidation / coverage-heavy consumer moat space; the pure franchise-royalty / category-monopoly survivors are either already well-covered or pending acquisition; Winmark (WINA) stands out as exception — 686% ROIC, 1 analyst, $1.35B extended zone CORE quality.*
