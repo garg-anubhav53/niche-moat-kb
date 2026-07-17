@@ -35,25 +35,24 @@ This file is the run log + counters.
 
 ## Counters
 Total runs: 38
-Universe size: 56 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, FAA.VI WATCH, EUZ.DE CORE, LWAY CANDIDATE, SMID CANDIDATE, JOUT CANDIDATE, NATR CANDIDATE, EPEN.ST CANDIDATE, FEW.F CANDIDATE, WINA CANDIDATE, HBB CANDIDATE, 6742.T CANDIDATE, 6743.T CANDIDATE, GHT.L M&A_KILL, REC.L WATCH, PKG.L QUEUED, MNTK PARK, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L PARK, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, ALHVS.PA PARK, WATR.L PARK, SSKN INTEGRITY_KILL, M31 PARK, FST PARK, 6823.T QUEUED, RSL2.DE QUEUED, 6853.T QUEUED, 6858.T QUEUED, FENC QUEUED, ETON QUEUED)
+Universe size: 56 (HURC CANDIDATE, ANIK CANDIDATE, CODA CANDIDATE, OFLX CANDIDATE, KMK CANDIDATE, PDEX CANDIDATE, CIX CANDIDATE, KVHI CANDIDATE, EKF.L CANDIDATE, IOF.L CANDIDATE, LBL.AX CANDIDATE, CEMX.TO CANDIDATE, DETEC.HE CANDIDATE, SINT.ST CANDIDATE, 4549.T CANDIDATE, ELVA.TO CATALYST, GENC WATCH, FAA.VI WATCH, EUZ.DE CORE, LWAY CANDIDATE, SMID CANDIDATE, JOUT CANDIDATE, NATR CANDIDATE, EPEN.ST CANDIDATE, FEW.F CANDIDATE, WINA CANDIDATE, HBB CANDIDATE, 6742.T CANDIDATE, 6743.T CANDIDATE, GHT.L M&A_KILL, REC.L WATCH, PKG.L M&A_KILL, MNTK PARK, CPSH PARK, KRMD PARK, RELL PARK, FF PARK, SVIK.ST PARK, ASLE PARK, CGS.L PARK, MCON.L PARK, JDG.L PARK, BOUL.ST PARK, BACTI-B.ST PARK, CMP.AX PARK, ALHVS.PA PARK, WATR.L PARK, SSKN INTEGRITY_KILL, M31 PARK, FST PARK, 6823.T QUEUED, RSL2.DE QUEUED, 6853.T QUEUED, 6858.T QUEUED, FENC QUEUED, ETON QUEUED_CORE)
 WATCH count: 3 (GENC — Grade B; FAA.VI — Grade A — first WATCH A in KB history; REC.L — Grade B)
 CORE count: 1 (EUZ.DE — Grade B — first CORE name in KB history; extended-zone franchise hold)
 CATALYST count: 1 (ELVA.TO — Grade B — Q4/F3/R4/C3; Amazon warrant deal; extended-zone inclusion justified)
-QUEUED_CORE count: 0 (WINA deep-dived run #34 → CANDIDATE Grade B Q4/F3/R2/C4)
+QUEUED_CORE count: 1 (ETON — 9/12; Eton Pharmaceuticals orphan drug franchise; Moat+Quality+Floor=6/6; run #38)
 QUEUED_HOT pending deep-dive: 0
 
 ## Deferred Deep-Dive Queue
 (QUEUED names awaiting a deep-dive when a future run has budget — highest promise score first)
 
-**Queue updated: run #38 (2026-07-17).** HBB deep-dived run #38 → CANDIDATE Grade C (Q2/F3/R2/C3; buy-zone <$24/sh; 3 RED-FLAGs: competitive capture, pricing power, China manufacturing; memo memos/HBB-2026-07-17.md) — removed from queue. CORRECTED: run #37 added 6823.T/RSL2.DE/6853.T/6858.T to UNIVERSE.md but omitted from deferred queue; added retroactively. Active queue: 7 names.
+**Queue updated: run #38 (2026-07-17).** HBB deep-dived run #38 → CANDIDATE Grade C (Q2/F3/R2/C3; buy-zone <$24/sh; 3 RED-FLAGs: competitive capture, pricing power, China manufacturing; memo memos/HBB-2026-07-17.md) — removed from queue. PKG.L confirmed M&A_KILL (Appreciate Group / Love2shop acquired by PayPoint plc February 28, 2023; AIM shares cancelled; delisted — removed from queue). ETON upgraded to QUEUED_CORE 9/12 (supplemental sector 19 analysis confirmed Q1 2026 revenue +73% YoY; 30%+ EBITDA margin; Moat+Quality+Floor=6/6 override). CORRECTED: run #37 added 6823.T/RSL2.DE/6853.T/6858.T to UNIVERSE.md but omitted from deferred queue; added retroactively. Active queue: 6 names.
 
 | Ticker | Score | Added | Sector | Notes |
 |--------|-------|-------|--------|-------|
 | 6823.T | 8/12 | 2026-07-17 (run #37 corrected) | Sector 18 | Rion Co., Ltd.; sound level / vibration / particle counter niche; ISO/JIS compliance moat; Tokyo TSE; 0 Western analysts |
 | FENC | 8/12 | 2026-07-17 (run #38) | Sector 19 | Fennec Pharmaceuticals; PEDMARK first-and-only FDA cisplatin ototoxicity prevention; REMS lock-in; orphan exclusivity ~2029-2033; ASCO 2026 adult label expansion; Nasdaq ~$302M |
 | RSL2.DE | 7/12 | 2026-07-17 (run #37 corrected) | Sector 18 | R.Stahl AG; ATEX/IECEx explosion-protected electrical equipment; Frankfurt XTRA ~€100-200M; 2-3 German analysts |
-| PKG.L | 6/12 | 2026-07-17 (run #34) | Sector 15 | Park Group plc; Love2shop UK multi-retailer gift card + B2B employee rewards; ~£55M AIM; 0-1 analysts; NETWORK moat (100+ retailer acceptance) |
-| ETON | 6/12 | 2026-07-17 (run #38) | Sector 19 | Eton Pharmaceuticals; multiple first-and-only FDA-approved rare disease products; 3 analysts; Nasdaq ~$720M extended zone; 30%+ Adj EBITDA |
+| ETON | 9/12 | 2026-07-17 (run #38) | Sector 19 | Eton Pharmaceuticals; ALKINDI SPRINKLE/DESMODA/HEMANGEOL orphan franchise; 2-3 analysts; Nasdaq ~$820M extended zone; Q1 2026 +73% YoY; 30%+ EBITDA margin; QUEUED_CORE (Moat+Quality+Floor=6/6) |
 | 6853.T | 6/12 | 2026-07-17 (run #37 corrected) | Sector 18 | Kyowa Electronic Instruments; strain gauges, force/pressure/torque sensors; Tokyo TSE; 0 Western analysts |
 | 6858.T | 6/12 | 2026-07-17 (run #37 corrected) | Sector 18 | Ono Sokki Co.; automotive NVH test instruments; FFT analysis; Tokyo TSE; 0 Western analysts |
 

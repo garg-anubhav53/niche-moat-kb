@@ -1800,3 +1800,15 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 | (misc) | Additional small-cap names | — | 2026-07-17 | Miscellaneous §3 kills: names failing cap/coverage/sector screens without notable moat characteristics. |
 
 *~23 names processed; ~19 killed (6 CAP_KILL, 3 SECTOR_ADJACENT, 3 NO_MOAT, 2 COVERAGE+CAP, 2 INTEGRITY, 3 other); 4 new QUEUED: 6823.T Rion 8/12, RSL2.DE R.Stahl 7/12, 6853.T Kyowa Electronic 6/12, 6858.T Ono Sokki 6/12. §5 deep-dive: REC.L (deferred from Sector 15 queue) → WATCH B Grade B (Q4/F4/R2/C3; specialist currency overlay manager; $114.6bn AUM; client concentration CONFIRMED ~26% revenue; fee compression structural risk; memo memos/REC.L-2026-07-17.md).*
+
+---
+
+## Run #38 — Sector 19: Specialty Healthcare Services & Niche Pharma (1st pass · US micro-cap geo lens · 2026-07-17)
+
+**Summary**: ~44 names processed; 31+ killed by parallel session (rows added inline to existing tables above); 2 new survivors from this session (FENC QUEUED 8/12; ETON QUEUED_CORE 9/12). §5 deep-dive: HBB → CANDIDATE Grade C (Q2/F3/R2/C3; household appliances; 25.7% GM thin; revenue −7.3% FY2025; 3 RED-FLAGs; memo memos/HBB-2026-07-17.md). Deferred queue resolution: PKG.L confirmed M&A_KILL.
+
+### DEFERRED_QUEUE_RESOLUTION
+
+| Ticker | Company | Date | Resolution | Notes |
+|--------|---------|------|-----------|-------|
+| PKG.L | Appreciate Group plc (Love2shop) | 2026-07-17 | **M&A_KILL** | Park Group plc rebranded to Appreciate Group plc (Love2shop brand); acquired by PayPoint plc in cash transaction completed **February 28, 2023**. AIM shares cancelled and PKG.L delisted. The NETWORK + SWITCHING_COST moat thesis was validated by the acquisition — PayPoint paid ~£83M for the franchise. No longer investable; removed from deferred queue. |
