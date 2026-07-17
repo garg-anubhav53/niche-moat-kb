@@ -24,6 +24,32 @@ Smaller cap = more likely to have flown under institutional radar (liquidity flo
 
 Reflect size in the write-up: note cap, why it is (or isn't) still off institutional radar, and — for extended-zone names — the one-line justification for why the asymmetry overrides the weaker exclusion edge.
 
+## Financial Baseline — the basics, triangulated (MANDATORY before qualify/disqualify)
+
+**The #1 quality rule: never qualify a name, and never kill it on a *financial* gate (cap, integrity/floor, valuation), from a single web snippet.** A stale/wrong snippet mis-kills good companies and mis-qualifies weak ones. Get the actual numbers first — but keep it simple and focus on the basics.
+
+**Fetch cheap, reason well (worker/extractor split):**
+- **Fetchers = low-intelligence (haiku).** Their only job is *retrieval*: pull the raw reported numbers from **2+ independent sources** and return them verbatim — no interpretation. Sources: SEC EDGAR (10-K/10-Q/20-F) or company IR for the primary; a structured aggregator (stockanalysis.com financials/balance-sheet/cash-flow) for the cross-check.
+- **Reasoners = high-intelligence (sonnet/opus).** They *triangulate and judge* the fetched data: do the sources agree? resolve discrepancies, spot what's off, decide what it means.
+
+**The basics to capture (not an exhaustive audit):**
+- Revenue, last 3–5 yrs + growth trend
+- Gross margin (and its direction)
+- Operating & net margin / net income
+- **Net cash or net debt** (cash minus total debt)
+- **Share count and its YoY change** (dilution is a floor-killer)
+- **Free cash flow** (does "profit" convert to cash?)
+- Verified market cap → a couple of multiples (P/E, EV/EBITDA, P/S)
+
+**Triangulate + coach the skepticism.** Tag each key figure with a trust level so the reader knows where to lean and where to doubt:
+- **✓ CONFIRMED** — two independent sources agree, or it's straight from the filing.
+- **~ SINGLE-SOURCE** — only one source; treat as provisional.
+- **⚠ DISCREPANT** — sources disagree (e.g. the SHMD €110M-vs-€67M revenue split we once hit); do NOT average — dig until resolved, and flag it loudly.
+- **? UNVERIFIED** — couldn't get it.
+Explicitly note *which numbers are solid and which to be skeptical of, and why* — that coaching is part of the deliverable.
+
+**Write `financials/[TICKER].md`** (sources + as-of date + trust tags). If the basics **can't** be obtained or key figures stay ⚠/?, the name is **NEEDS-DATA**, not CANDIDATE — set **C low** and say what's missing. Qualifying without the numbers is the exact failure we are eliminating. Every §4 score and financial judgment rests on this baseline, not on snippets.
+
 ## The four sub-assessments (each 1–5, with evidence)
 
 **Q — Business Quality (worth owning?)**
@@ -54,7 +80,7 @@ Never take a claim at face value. For each item, assign **CONFIRMED / PLAUSIBLE 
 4. **Moat stickiness over time** — durable or just *now*? Patent cliff, tech obsolescence, requalification-cycle length, and the **in-source/license-away risk** (the Kromek↔Siemens pattern: is the big customer learning to make it themselves?).
 5. **Customer concentration** — single-customer / single-end-market dependency; what happens if the top account leaves.
 6. **Pricing power persistence** — can they hold price, or is the margin a temporary shortage rent?
-7. **Accounting quality** — aggressive rev-rec, capitalized costs, one-time items flattering earnings, related-party dealings.
+7. **Accounting quality (read the ACTUAL filing, not just an aggregator)** — open the latest 10-K/10-Q/20-F (or annual report) and check: revenue-recognition policy, receivables & inventory growth vs. revenue, capitalized vs. expensed costs, one-time items flattering earnings, cash conversion (does net income become FCF?), related-party dealings, restatements, going-concern/covenant language. The Financial Baseline (§ above) must be *verified against the primary filing* in the deep-dive, not taken from a snippet.
 8. **Ownership & dilution** — insider alignment; serial issuance/ATM/converts; lock-up expiries; control/take-under risk.
 9. **Input & supply dependency** — single-source input, geopolitical exposure (e.g., China-controlled material), FX.
 10. **Management credibility** — track record of delivering prior guidance; capital-allocation history.
@@ -110,9 +136,12 @@ Translate to a letter grade (this is what we rank on):
 ```
 GRADE: [A/B/C/D]  ·  TIER: [CORE/CATALYST/WATCH/CANDIDATE/PARK]
 Q _/5 · F _/5 · R _/5 · C _/5
+Financial baseline: rev [3-5yr] · GM% · op margin · net income · net cash/debt · shares Δ (dilution) · FCF · P/E · EV/EBITDA · P/S  [source + as-of date; financials/[TICKER].md]
+Financials verified against primary filing: [YES 10-K/20-F / PARTIAL / NO — why]
 Base rate: "companies like this re-rated X of N; swing factor = ___"
 Skeptic's checklist: N CONFIRMED, N PLAUSIBLE, N UNVERIFIED, N RED-FLAG
 Open questions (what would raise C): ...
 Buy-zone / upgrade trigger / downgrade trigger: ...
 Asymmetry-to-risk in one sentence: ...
 ```
+**A memo without a complete, primary-source-verified financial baseline is not a finished deep-dive** — its grade is provisional and the name stays NEEDS-DATA.

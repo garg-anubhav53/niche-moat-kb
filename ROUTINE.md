@@ -111,11 +111,27 @@ Triage **every** raw name using only your knowledge + the scout snippets — **d
 6. **Integrity** — negative book equity / going-concern / active delisting / serial dilution → `INTEGRITY_KILL`
 7. **Velocity (quality-gated):** a name with **no catalyst inside ~12 months** is killed `NO_CATALYST_KILL` **only if it also looks low-quality** (commodity-ish, thin margins, no compounding). A **high-quality** business with no visible catalyst is NOT killed — it survives as a potential **CORE** hold (own-and-wait). Quality buys a name the right to have no catalyst.
 
-Killed names → one compact row each to `KILL-LIST.md` (ticker, reason, date). This batch pass is nearly free — run all 20–40 names through it. Expect to kill most; keep the **≤8 strongest survivors** for §4. Zero survivors is a valid run — do not manufacture candidates.
+Killed names → one compact row each to `KILL-LIST.md` (ticker, reason, date). This batch pass is nearly free — run all 20–40 names through it. Expect to kill most; keep the **≤8 strongest survivors** for §3.5. Zero survivors is a valid run — do not manufacture candidates.
+
+**Provisional vs. confirmed kills (critical):** Free triage may kill outright only on gates that a snippet reliably settles — `SECTOR_KILL` (defense), obvious `NO_MOAT`, clearly-out cap (a household-name >$1.5B or a <$20M nano), obvious `PRICE_KILL` (>+100%), unambiguous `COVERAGE_KILL`. But **borderline financial calls — cap near a boundary, integrity/floor, valuation — must NOT be settled on a snippet.** A name you'd kill on `INTEGRITY`/`CAP_SOFT`/floor grounds, or *qualify* as a candidate, goes to §3.5 for the real numbers first. Snippet-level financial kills are the exact error we're fixing.
 
 ---
 
-## §4 — PROMISE SCORE (inline — the sharpening gate)
+## §3.5 — FINANCIAL BASELINE (the basics, triangulated — mandatory before qualify OR financial-disqualify)
+
+Get the actual numbers before scoring or financially killing a survivor. **Fetch cheap, reason well** (METHOD.md → Financial Baseline):
+
+1. **Dispatch a haiku FETCHER** (pure retrieval, no reasoning) to pull the raw reported financials for each survivor from **2 independent sources** — a primary (SEC EDGAR 10-K/10-Q/20-F or company IR) + a cross-check (stockanalysis.com financials/balance-sheet/cash-flow). It returns the numbers verbatim. One fetcher can cover several survivors; bound it to the ≤8 survivors. (Inline fetch is fine if only 1–2 survivors.)
+2. **YOU (the reasoning layer) triangulate** the fetched numbers — the basics only: revenue 3–5yr + trend, gross margin & direction, operating/net margin, **net cash/debt, share-count YoY (dilution), FCF**, verified market cap → P/E, EV/EBITDA, P/S.
+3. **Trust-tag each key figure** (✓ CONFIRMED = 2 sources agree / filing · ~ SINGLE-SOURCE · ⚠ DISCREPANT = sources disagree, dig don't average · ? UNVERIFIED) and **coach the skepticism** — say which numbers are solid and which to doubt.
+
+**Write `financials/[TICKER].md`** (sources + as-of + trust tags). This artifact — not the snippet — is the evidence for §4.
+- Basics solid → proceed to §4 with real numbers; now apply financial gates properly (fail cap/integrity/floor → kill *citing the verified figure*).
+- Basics can't be obtained / key figures stay ⚠ or ? → **NEEDS-DATA** (not CANDIDATE); set C low; note what's missing. Never qualify a name whose financials you couldn't read.
+
+---
+
+## §4 — PROMISE SCORE (inline — the sharpening gate; uses the §3.5 baseline, NOT snippets)
 
 For each survivor, ONE confirming search (live cap, volume, analyst count, latest gross margin, revenue trend, returns on capital). Then score 0–2 on each of **six** axes — asymmetry AND quality:
 
@@ -152,11 +168,14 @@ If any of 2–4 fail, the name is **CANDIDATE with a buy-zone**, not WATCH. Ther
 
 ## §5 — DEEP-DIVE (only for QUEUED_HOT ≥10, or one deferred QUEUED if none this run)
 
-Deep-dive **up to TWO** names per run — but ONLY genuine `QUEUED_HOT` (score ≥10, quality ≥1). If two clear the bar, do both (they are the point of the whole run); if one, do one; if none, pull the single highest-scoring deferred QUEUED from `STATE.md` and do that one. Never deep-dive a name below the bar to fill a quota. Dispatch a focused sub-agent **only here**:
-- Moat + floor reasoning that needs judgment → **opus** sub-agent, ≤8 tool calls, NO schema (heavy writer), returns a distilled verdict.
-- If the name is mechanical to verify → keep inline on sonnet.
+Deep-dive **up to TWO** names per run — but ONLY genuine `QUEUED_HOT` (score ≥10, quality ≥1). If two clear the bar, do both; if one, do one; if none, pull the single highest-scoring deferred QUEUED from `STATE.md`. Never deep-dive a name below the bar to fill a quota.
+
+**Fetch cheap, reason well (worker/extractor split):**
+- **Fetchers = haiku, pure retrieval.** Dispatch a haiku sub-agent to pull the raw material — the actual latest filing statements (10-K/10-Q/20-F income statement, balance sheet, cash flow) from EDGAR/IR + the aggregator cross-check. It returns numbers/text verbatim, no interpretation.
+- **Reasoner = the deep-dive itself (sonnet/opus, NO schema, heavy writer).** It reads and reasons on the fetched material: triangulates the §3.5 baseline against the primary filing, judges moat/floor, coaches where to be skeptical, and writes the memo.
 
 **The deep-dive MUST apply `METHOD.md` in full** — that file is the analytical core. Concretely:
+0. **Verify the §3.5 Financial Baseline against the primary filing** (fetched above) — confirm revenue/margin trend, net cash/debt, share-count/dilution, and FCF are real; resolve any ⚠ DISCREPANT figures; scan the statements for going-concern, receivables/inventory build, capitalized-cost/one-time flattering, related-party items. State "verified against 10-K/20-F: YES/PARTIAL/NO".
 1. **Score the four sub-assessments** Q / F / R / C (each 1–5) with evidence.
 2. **Run the Skeptic's Confirmation Checklist** (all 10 items) — for the moat/contract/milestone, mark each CONFIRMED / PLAUSIBLE / UNVERIFIED / RED-FLAG with a one-line evidence note. Be rigorous that revenue will be recognized, won't be lost, won't go to a competitor, and the moat stays sticky over time (in-source/license-away risk). RED-FLAGs that threaten the thesis core cap the grade.
 3. **Do the Historical Base-Rate step** — name 2–4 analogous past companies, state whether they re-rated and the swing factor; consult the sibling `rerating-situations-kb` where useful. Output a one-line base rate. No credible analog re-rated → R is low, say so.
