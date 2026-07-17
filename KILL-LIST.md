@@ -1300,3 +1300,67 @@ Names that failed the asymmetry or integrity gates.
 | INTEGRITY / GOING_CONCERN | Development-stage power electronics start-ups with losses; UK AIM names with going-concern disclosures | 2026-07-17 | Quality=0 from losses or going-concern. INTEGRITY_KILL per anti-value-trap rule. |
 
 *~24 total names processed (UK AIM / Continental European / Nordic geo lens); ~22 killed across above categories; 1 QUEUED (EPEN.ST 6/12 Ependion AB / Westermo railway networking). Sector 11 structurally thin at $20-300M public equity screen. Next pass (run #31+) should try German XTRA / Swiss SIX for EMC filter and specialty power supply niche names (e.g. power supply manufacturers with IEC 60601 medical-grade or railway certification); Nordic specialty connectivity component makers; and any AIM EMC/power component names not yet screened.*
+
+---
+
+## Run #31 Kills — 2026-07-17 | Sector 12: Life-science tools & lab consumables (1st pass) | Geo lens: Germany / Switzerland / Austria (XTRA/SIX/Vienna)
+
+*28 total names processed; 28 killed; 0 new QUEUED. DACH public-equity universe structurally sparse for niche life-science tools small-caps — quality names are private or graduated large-cap. Valid 0-survivor run per ROUTINE.md. Sector 12 marked ACTIVE (1 pass, 0 new finds); try UK AIM or Japan small-caps on 2nd pass.*
+
+### Not-Public Kills (private, acquired, or delisted — not tradeable)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| RAG.DE | R-Biopharm AG (Frankfurt) | 2026-07-17 | German life-science diagnostic reagent company (ELISA, lateral flow, PCR kits for food safety, clinical diagnostics, and veterinary testing; genuine REGULATORY+CONSUMABLE moat potential: CE-IVD certified reagents for food pathogen detection under EU Reg 2073/2005 mandates). BUT confirmed private company — not publicly listed on XTRA Frankfurt or any other exchange; no shares outstanding. NOT_PUBLIC_KILL. |
+| IDIG.DE | Immundiagnostik AG (Frankfurt) | 2026-07-17 | German clinical diagnostic reagents manufacturer (ELISA assays for vitamin deficiency testing including 25-OH-Vitamin D, B12, folate; automated immunoassay systems for clinical laboratory use; genuine CONSUMABLE moat: CE-IVD certified reagent lock-in for installed analyzer base; >30yr track record). BUT confirmed private company — not publicly listed. NOT_PUBLIC_KILL. |
+| BCART.BR | Biocartis NV (Euronext Brussels) | 2026-07-17 | Belgian molecular diagnostics company (Idylla™ cartridge-based PCR platform for oncology companion diagnostics; CONSUMABLE + REGULATORY moat: CE-IVD + FDA-cleared cartridge consumables locked to Idylla analyzer; strategic pharmaceutical partnerships). BUT acquired by Menarini Group (Italian pharma) and delisted from Euronext Brussels — no longer a tradeable public equity. NOT_PUBLIC_KILL. |
+| CellaVision AB | CellaVision AB (Nasdaq Stockholm) | 2026-07-17 | Swedish digital hematology company (AI-assisted digital cell morphology analysis for hematology labs; DI-60 system OEM partnerships with Sysmex; CONSUMABLE + REGULATORY moat: CE-IVD cleared; installed-base stickiness; requalification barrier for any alternative). BUT acquired by Sysmex Corporation in 2022 and delisted from Nasdaq Stockholm — no longer a tradeable public equity. NOT_PUBLIC_KILL. |
+
+### Coverage Kills (>4 analysts — not an undiscovered name)
+| Ticker | Company | Analysts | Date | Reason |
+|--------|---------|---------|------|--------|
+| SBS.DE | STRATEC SE (Frankfurt XTRA) | 8+ analysts | 2026-07-17 | German life-science instrument OEM (clinical diagnostic instrument development and manufacturing for IVD companies including Roche, Hologic, bioMérieux; PROCESS + SOLE_SOURCE moat: design-in OEM partnerships with multi-year requalification barrier; ~€500-600M cap core/extended zone). BUT 8+ analyst estimates — well-covered; coverage void thesis absent. COVERAGE_KILL. |
+| PPGN.SW | Polypeptide Group AG (SIX Swiss Exchange) | 6 analysts | 2026-07-17 | Swiss CDMO specializing in peptide active pharmaceutical ingredients (GLP-1 agonist peptides including semaglutide intermediates; genuine PROCESS + REGULATORY moat: peptide synthesis expertise, FDA/EMA qualification, customer-specific process lock-in; ~CHF 1.0-1.13B cap). 6 analysts confirmed — coverage void thesis absent. Also cap at extended zone ($1.13B) without exceptional asymmetry given GLP-1 supply glut concerns in 2026. COVERAGE_KILL (+ CAP_SOFT secondary kill). |
+
+### Cap + Coverage Dual Kills
+| Ticker | Company | Cap | Analysts | Date | Reason |
+|--------|---------|-----|---------|------|--------|
+| EVO.DE | Evotec SE (Frankfurt XTRA) | ~€1.0-1.2B (~$1.1-1.3B USD) | 10+ analysts | 2026-07-17 | German drug discovery/development CDMO platform (integrated drug discovery services: chemistry, biology, ADMET, animal models; strategic EVOaccelerate partnerships with Bayer, BMS; genuine PROCESS moat in integrated CRO/CDMO service). BUT dual kill: (1) CAP_KILL — market cap ~€1.0-1.2B exceeds $1.5B ceiling marginally but well above extended zone threshold without exceptional asymmetry (company posted operating losses in FY2025; quality=1 not ≥2); (2) COVERAGE_KILL — 10+ analyst estimates from major banks. CAP+COVERAGE dual kill. |
+
+### Cap Kills (<$20M too illiquid or >$1.5B out of cap range)
+| Ticker | Company | Cap | Date | Reason |
+|--------|---------|-----|------|--------|
+| 6523.T | PHC Holdings Corporation (Tokyo Stock Exchange) | ~¥300-400B (~$2-2.7B USD) | 2026-07-17 | Japanese healthcare instrument holding company (Panasonic Healthcare spin-out; clinical chemistry analyzers, diabetes care, life science instruments; genuine REGULATORY + CONSUMABLE moat in Japanese clinical diagnostics). BUT >$1.5B cap far above ceiling. CAP_KILL. |
+| 4694.T | BML Inc (Tokyo Stock Exchange) | ~¥50-80B (~$330-530M USD) | 2026-07-17 | Japanese clinical laboratory testing company (central laboratory testing services for hospitals and clinics; CONSUMABLE-adjacent moat: long-term hospital testing contracts; MHLW-regulated; Japan-domestic clinical lab oligopoly). BUT extended zone without exceptional asymmetry for a services business (not a tools/consumables OEM). CAP_SOFT_KILL. |
+| VCEL | Vericel Corporation (Nasdaq) | ~$1.5-1.8B USD | 2026-07-17 | US cell therapy company (MACI autologous chondrocyte implant; NexoBrid burn debridement; genuine REGULATORY moat: FDA-approved cell therapies with high barriers to entry). BUT cap ~$1.5-1.8B exceeds ceiling. CAP_KILL. |
+| CORT | Corcept Therapeutics (Nasdaq) | ~$4-5B USD | 2026-07-17 | US pharmaceutical company (Korlym/mifepristone for Cushing's syndrome; genuine REGULATORY moat). Far above $1.5B cap ceiling. CAP_KILL. |
+| NBY | NovaBay Pharmaceuticals (NYSE American) | ~$5-15M USD | 2026-07-17 | US wound care company (NovaBay Auricularx antimicrobial ear drops; tiny specialty pharma). Below $20M floor — too illiquid. CAP_KILL. |
+| 4978.T | Reprocell Inc (Tokyo Stock Exchange) | ~¥3B (~$20M USD) | 2026-07-17 | Japanese human tissue research tools company (human tissue banks for drug discovery; biobank services; REGULATORY moat: rare human tissue supply chain). Borderline at ~$20M — at absolute floor of core zone with no confirmed profitability data. CAP_KILL (borderline; revisit if cap grows above $25M solidly). |
+
+### Sector-Adjacent Kills (not life-science tools/lab consumables — different sector)
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| FYB.DE | Formycon AG (Frankfurt XTRA / Munich) | 2026-07-17 | German biosimilar pharmaceutical development company (biosimilar development pipeline: FYB201/ranibizumab biosimilar, FYB202/ustekinumab biosimilar, FYB203/aflibercept biosimilar). SECTOR_ADJACENT: biosimilar drug development = pharmaceutical company, not life-science tools or lab consumables. Also pre-commercial losses (quality=0). SECTOR_ADJACENT_KILL. |
+| BMK.L | Benchmark Holdings plc (AIM London) | 2026-07-17 | UK aquaculture genetics and health company (salmonid genetics; salmon louse treatments; aquaculture vaccines). SECTOR_ADJACENT: aquaculture genetics = agriculture/animal health, not life-science tools. SECTOR_ADJACENT_KILL. |
+| PRN.TO | Profound Medical Corp (TSX) | 2026-07-17 | Canadian therapeutic ultrasound company (TULSA-PRO transurethral ultrasound ablation for prostate cancer; genuine REGULATORY moat: FDA-cleared ablation system). SECTOR_ADJACENT: therapeutic ultrasound = medical device/treatment, not life-science research tools or lab consumables. SECTOR_ADJACENT_KILL. |
+| ABSI | Absci Corporation (Nasdaq) | 2026-07-17 | US AI drug discovery platform (generative AI for de novo antibody/protein design; SynBio platform for biologics expression). SECTOR_ADJACENT: AI drug discovery = biotech/pharmaceutical, not life-science tools OEM. Also pre-commercial losses (quality=0). SECTOR_ADJACENT_KILL. |
+| AGTI | Agiliti Inc (NYSE) | 2026-07-17 | US medical equipment management company (hospital medical equipment repair, maintenance, and management services; infusion pumps, surgical equipment). SECTOR_ADJACENT: medical equipment service = hospital services, not life-science research tools or lab consumables. Also CAP_SOFT zone (~$600-800M). SECTOR_ADJACENT_KILL. |
+
+### Integrity Kills (quality=0 — losses, development stage, going-concern)
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| HPHA.DE | Heidelberg Pharma AG (Frankfurt XTRA) | Development stage; pre-commercial losses | 2026-07-17 | German antibody-toxin conjugate (ATAC) development company (proprietary amanitin-based antibody-drug conjugate technology; pre-clinical and clinical-stage pipeline). Pre-commercial losses; no revenue from product sales; quality=0 per anti-value-trap rule. INTEGRITY_KILL. |
+| MARI.VI | Marinomed Biotech AG (Vienna Börse) | Operating losses; going-concern risk | 2026-07-17 | Austrian pharmaceutical/biotech company (Carragelose nasal spray OTC antivirals; proprietary carrageenan polymer platform). Operating losses; going-concern language in recent filings; quality=0. INTEGRITY_KILL. |
+| AGL.L | Angle plc (AIM London) | Development stage; ongoing losses | 2026-07-17 | UK circulating tumor cell (CTC) liquid biopsy platform company (Parsortix microfluidic CTC harvest system; genuine REGULATORY moat: FDA cleared for metastatic breast cancer; PROCESS moat: size-based CTC separation). BUT ongoing losses; development/commercial ramp stage; quality=0 on losses without clear profitability timeline. INTEGRITY_KILL. |
+| AVCT.L | Avacta Group plc (AIM London) | Development stage; losses | 2026-07-17 | UK biotechnology company (Affimer® non-antibody binding protein scaffolds; pre|CISION tumor-targeting platform for oncology drug delivery). Development stage; losses; quality=0. INTEGRITY_KILL. |
+| GTG.AX | Genetic Technologies Ltd (ASX) | Going-concern; losses | 2026-07-17 | Australian genetic testing company (GeneType breast cancer risk assessment; polygenic risk scores; REGULATORY moat: FDA-authorized breast cancer risk assessment). BUT going-concern disclosure; operating at a loss; quality=0. INTEGRITY_KILL. |
+| PIQ.AX | Proteomics International Laboratories (ASX) | Development stage; losses | 2026-07-17 | Australian proteomics-based diagnostic company (PromarkerD diabetic kidney disease test; clinical laboratory development services). Development stage; losses; quality=0. INTEGRITY_KILL. |
+| SEER | Seer Inc (Nasdaq) | Ongoing losses; serial dilution | 2026-07-17 | US proteomics instrument company (Proteograph Product Suite for unbiased proteomics sample preparation; genuine PROCESS moat: nanoparticle-based protein corona enrichment enabling proteomics at scale). BUT ongoing losses; serial dilution; quality=0. INTEGRITY_KILL. |
+| BCAB | BioAtla Inc (Nasdaq) | Clinical stage; losses | 2026-07-17 | US conditionally active biologic (CAB) antibody drug conjugate company (clinical pipeline in solid tumors). Clinical stage losses; quality=0. INTEGRITY_KILL. |
+| NUVB | Nuvation Bio Inc (NYSE) | Clinical stage; losses | 2026-07-17 | US oncology drug development company (taletrectinib ROS1/NTRK inhibitor — FDA approved June 2024; NUV-868 BET inhibitor in Phase 1). Clinical stage losses; quality=0. INTEGRITY_KILL. |
+
+### Already-Seen Kills (processed in a prior run)
+| Ticker | Company | Prior Run | Date | Reason |
+|--------|---------|-----------|------|--------|
+| Biotage AB | Biotage AB (Nasdaq Stockholm: BIOT) | Run #20 (2026-07-16) | 2026-07-17 | Swedish life-science tools company (flash chromatography systems, solid phase extraction, evaporation; PROCESS moat in proprietary SNAP cartridge column design and Sfär spherical silica media; ~SEK 3.5-4B cap). Previously killed in run #20: CAP_SOFT_KILL (extended zone ~$350M USD without exceptional asymmetry at the time; 4-5 analysts). ALREADY_SEEN_KILL. |
+
+*28 total names processed (Germany / Switzerland / Austria XTRA/SIX/Vienna geo lens); 28 killed across above categories; 0 new QUEUED. Sector 12 (Life-science tools & lab consumables) marked ACTIVE (1 pass, 0 new finds). DACH geo lens structurally thin: quality life-science small-caps are predominantly private (R-Biopharm, Immundiagnostik) or graduated large-cap (STRATEC, Roche, Tecan, Sartorius, Bachem all >$1.5B). Next pass should try UK AIM (Abcam ABCM now private; look for AIM-listed lab consumable OEMs) or Japan small-cap life-science tools names on the Tokyo Stock Exchange.*
