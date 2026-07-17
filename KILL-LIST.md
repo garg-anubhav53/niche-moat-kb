@@ -8,6 +8,14 @@ Names that failed the asymmetry or integrity gates.
 |--------|---------|-------------|------|--------|-------------------|
 | AXTI | AXT Inc (InP/GaAs substrates) | +155% since 2/28/2026; ~$6-8B market cap | 2026-07-16 | AI/datacom InP thesis was correct — market already re-rated spectacularly; cap >> $300M; also 5–11 analysts | Re-entry only if cap corrects below $300M and catalyst remains |
 | RYAM | Rayonier Advanced Materials | +84% YTD 2026; cap ~$500M+ post-recovery | 2026-07-16 | Specialty cellulose (high-alpha for acetate/nitrocellulose); PROCESS+SCARCITY moat genuine (one of very few producers); but leverage-amplified recovery pushed cap well above $300M limit after restructuring; also potential prior going-concern issues | Revisit if cap corrects below $250M AND debt resolved |
+| 032680.KQ | Jusung Engineering | +773% YTD 2026 (KOSDAQ, ALD/CVD semiconductor equipment) | 2026-07-17 | Korea semiconductor equipment maker; atomic layer deposition and CVD reactor equipment; ALD PROCESS moat real but asymmetry spectacularly spent on AI/HBM cycle narrative; PRICE_KILL | Re-entry only if cap corrects below $300M and ALD franchise intact |
+| 240810.KQ | Wonik IPS | +200%+ YTD 2026 (KOSDAQ, CVD/ALD equipment) | 2026-07-17 | Korean CVD/ALD equipment maker; DRAM and NAND process equipment; moat in process recipe lock-in; but rally exhausted asymmetry; PRICE_KILL + CAP_KILL (>$1.5B) | Revisit if cap corrects below $800M |
+| 031980.KQ | PSK Holdings | +150%+ YTD 2026 (KOSDAQ, photoresist strip/clean equipment) | 2026-07-17 | Korean semiconductor dry strip and etch equipment; process recipe PROCESS moat; 2026 Korea rally spent asymmetry; PRICE_KILL + CAP_KILL | Revisit on correction below $500M |
+| 086390.KQ | UniTest | +120%+ YTD 2026 (KOSDAQ, semiconductor test handler equipment) | 2026-07-17 | Korean IC test handler manufacturer; spec-in switching cost with memory OEMs (Samsung/SK Hynix); genuine moat but PRICE_KILL on semiconductor rally | Revisit if corrects below $200M |
+| 102710.KQ | ENF Technology | +100%+ YTD 2026 (KOSDAQ, specialty semiconductor chemicals) | 2026-07-17 | Korean specialty semiconductor process chemicals (etchants, cleaning chemicals); PROCESS moat; 2026 rally price-killed | Revisit on correction below $200M |
+| 033640.KQ | Nepes | +100%+ YTD 2026 (KOSDAQ, semiconductor packaging/bumping) | 2026-07-17 | Korean fan-out wafer-level packaging specialist; FOWLP PROCESS moat; but price-killed on packaging demand surge | Revisit if corrects below $300M |
+| 084370.KQ | Eugene Technology | +100%+ YTD 2026 (KOSDAQ, ALD equipment for DRAM) | 2026-07-17 | Korean ALD equipment for DRAM cell capacitors; process recipe lock-in; 2026 rally price-killed asymmetry | Revisit if corrects below $200M |
+| 265520.KQ | AP Systems | +100%+ YTD 2026 (KOSDAQ, OLED/semiconductor laser equipment) | 2026-07-17 | Korean OLED and semiconductor laser annealing equipment; PROCESS moat; 2026 rally price-killed | Revisit if corrects below $300M |
 
 ---
 
@@ -136,6 +144,16 @@ Names that failed the asymmetry or integrity gates.
 | PALAF | Paladin Energy | A$1B+ | 2026-07-16 | Namibia uranium (Langer Heinrich); ASX primary; cap out of range |
 | BOSSF | Boss Energy | A$500M+ | 2026-07-16 | Australian uranium ISR (Honeymoon mine); ASX primary; cap out of range |
 
+| 058470.KQ | Leeno Industrial | ₩6T (~$4.4B) | 2026-07-17 | Korean precision IC test socket and probe manufacturer; genuine PROCESS moat (precision machined test sockets for HBM/advanced packaging); BUT cap ₩6T = 15x our $300M limit on semiconductor rally; entered KOSDAQ top-10 by market cap; also 6+ Korean analysts |
+| 098460.KQ | Koh Young Technology | >$1.5B USD | 2026-07-17 | Korean 3D SPI/AOI inspection equipment (SMT and semiconductor packaging inspection); genuine PROCESS moat in 3D optical inspection algorithm; BUT cap exceeded $1.5B limit on AI PCB/packaging demand surge |
+| 095340.KQ | ISC Co., Ltd. | ₩5.19T (~$3.8B) | 2026-07-17 | Korean semiconductor test socket specialist (rubber contactor and elastomer precision test sockets for advanced IC packages); PROCESS+SOLE_SOURCE moat — ISC test sockets specified by Samsung/SK Hynix/TSMC advanced package programs; BUT cap ₩5.19T = 13x our $300M limit on AI/HBM rally |
+| 3661.TW | Alchip Technologies | >$2B USD | 2026-07-17 | Taiwan ASIC/SoC design services for HPC and AI chips (HBM2E/CoWoS integration expertise); genuine PROCESS moat in high-performance custom chip design; BUT cap >$2B far above limit; 8+ analysts |
+| 8299.TW | Phison Electronics | >$1.5B USD | 2026-07-17 | Taiwan NAND flash controller IC designer; genuine PROCESS moat (NAND controller firmware IP, 25yr engineering depth, qualification lock-in); BUT cap >$1.5B on AI/storage demand; 8+ analysts |
+| 067310.KQ | Hana Micron | >$500M USD | 2026-07-17 | Korean semiconductor memory module assembly (LPDDR/HBM subcon); moat limited (subcontract assembly for SK Hynix); cap >$500M on HBM rally; NO_MOAT concurrent (OEM subcon not sole-source) |
+| 036540.KQ | SIMMTECH | >$400M USD | 2026-07-17 | Korean FC-BGA and package substrate manufacturer; genuine PROCESS moat (advanced substrate lamination for HBM/CoWoS); BUT cap >$400M; also 5+ Korean analysts |
+| CEVA | CEVA Inc (Nasdaq) | ~$400-500M USD | 2026-07-17 | Israeli-Nasdaq semiconductor IP licensing (DSP cores, Bluetooth/Wi-Fi IP for SoC); SWITCHING_COST moat (silicon-validated IP with customer design-in); BUT cap ~$400M = CAP_SOFT_KILL; 4-5 analysts |
+| 042700.KQ | Hanmi Semiconductor | >$500M USD | 2026-07-17 | Korean TC bonder and semiconductor packaging equipment (EMI/SOIC/flip-chip); genuine PROCESS moat in TC bonding equipment for HBM; BUT cap >$500M on HBM demand; 5+ Korean analysts |
+
 ---
 
 ## Coverage Kills (>4 sell-side analysts — institutional coverage dense)
@@ -162,6 +180,13 @@ Names that failed the asymmetry or integrity gates.
 | BVS | Bioventus | 4–6 analysts | 2026-07-16 | Exogen bone healing (REGULATORY moat) + ortho biologics; well-covered |
 | ARAY | Accuray | ~4-6 analysts | 2026-07-16 | CyberKnife + Radixact radiation therapy; real installed-base moat; but mid-size med device = above analyst threshold |
 | NIOX.L | NIOX Group plc (AIM UK) | 10 analysts (AIM + US healthcare) | 2026-07-16 | FeNO (fractional exhaled nitric oxide) exhaled breath analysis for asthma diagnosis and management; NIOXone + NIOX VERO devices; REGULATORY moat (FDA-cleared, multiple country approvals); consumable mouthpiece model; BUT 10 confirmed sell-side analysts far exceeds >4 threshold — well-covered despite AIM listing; cap ~£240-280M (~10-360M USD) also EXTENDED ZONE |
+| 3680.TWO | Gudeng Precision Industrial Co. | ~$992M USD + 8 analysts (TPEX Taipei) | 2026-07-17 | Taiwan semiconductor carrier/FOUP/reticle pod precision storage containers for EUV lithography environments; genuine PROCESS moat (EUV-compatible ultra-clean carrier manufacturing; ASML/TSMC qualified); BUT cap $992M = CAP_SOFT_KILL (extended zone, no exceptional asymmetry at coverage density) + 8 analysts = COVERAGE_KILL; DUAL-KILL |
+| 2360.TW | Chroma ATE | >$1B USD + 5+ analysts (TWSE) | 2026-07-17 | Taiwan automatic test equipment and power electronics test systems; genuine PROCESS moat (battery test, EV power electronics, semiconductor test ATE); BUT cap >$1B = CAP_KILL; 5+ analysts = COVERAGE_KILL; DUAL-KILL |
+| 5269.TW | ASMedia Technology | >$1B USD + 5+ analysts (TWSE) | 2026-07-17 | Taiwan USB/PCIe controller IC designer (USB 3.x, PCIe 5.0 companion chips); genuine SWITCHING_COST moat (system board design-in qualification); BUT cap >$1B; 5+ analysts; DUAL-KILL |
+| 3529.TW | eMemory Technology | >$1B USD + 5+ analysts (TWSE) | 2026-07-17 | Taiwan embedded NVM IP licensing (OTP, MTP, NeoBit PUF anti-tamper); genuine SWITCHING_COST+PROCESS moat (foundry-qualified silicon IP, 6-18mo re-tapeout friction); BUT cap >$1B on AI chip demand; 5+ analysts; DUAL-KILL |
+| 8150.TW | ChipMOS Technologies | >$400M USD + 4-5 analysts (TWSE) | 2026-07-17 | Taiwan semiconductor test and assembly foundry (OSAT, memory module assembly, burn-in test); some PROCESS moat in niche DDIC/memory assembly; BUT cap >$400M = CAP_SOFT_KILL; 4-5 analysts = COVERAGE_KILL; DUAL-KILL |
+| 5364.TW | Pixart Imaging | >$500M USD + 5+ analysts (TWSE) | 2026-07-17 | Taiwan optical navigation IC designer (optical mouse sensors, gesture recognition, fingerprint); genuine PROCESS moat in optical navigation algorithms; BUT cap >$500M; 5+ analysts; DUAL-KILL |
+| 281820.KS | KC Tech | ₩1.2–1.8T (~$900M–$1.3B) + 5+ analysts; stock 26% above analyst PT | 2026-07-17 | Korean CMP slurry and cleaning solution specialist for semiconductor (alumina/ceria CMP consumables for DRAM and NAND); genuine PROCESS+CONSUMABLE moat (CMP recipe validation = long switching cost); BUT cap ₩1.2-1.8T = CAP_KILL/CAP_SOFT_KILL depending on measurement; stock 26% above analyst consensus PT = PRICE_KILL concurrent; 5+ Korean analysts = COVERAGE_KILL; TRIPLE-KILL |
 
 ---
 
@@ -321,6 +346,8 @@ Names that failed the asymmetry or integrity gates.
 | NTUS | Natus Medical | Taken private by private equity; no longer publicly listed | 2026-07-16 |
 | CRTX | Cortexyme / Quince Therapeutics | Drug-stage biotech; not medical diagnostics consumables; SECTOR_ADJACENT | 2026-07-16 |
 | IDS.L | Immunodiagnostic Systems Holdings plc (AIM UK) | Acquired by Revvity (RVTY) July 12 2021 — no longer an independent public company; de-listed from AIM | 2026-07-16 | Specialty manual + automated immunoassay analyzers (IDS-iSYS; 25-OHD Vitamin D, testosterone, cortisol); genuine CONSUMABLE + REGULATORY moat (calibrated reagent kits for IDS-iSYS platform; clinical laboratory lock-in); moat confirmed but company is fully acquired; any thesis requires acquiring RVTY (>B cap) |
+| 036490.KQ | Solbrain Co. Ltd. | Korean semiconductor specialty chemicals (CMP slurry, etchants, cleaning chemicals for semiconductor fab); NO_MOAT: commodity chemical market with multiple domestic and international competitors (Stella Chemifa, TECHNO SEMICHEM, ENF Technology, Dongjin Semichem, others); no sole-source regulatory certification or switching-cost moat in fab chemicals; pricing power weak vs. large IDM customers (Samsung, SK Hynix); KOSDAQ-listed | 2026-07-17 |
+| 319650.KQ | LB Inc (LB Semicon) | Korean semiconductor substrate/package material company; NO_MOAT: commodity printed circuit board substrate and packaging material supplier; competes with multiple Korean and Taiwanese PCB/substrate producers; no proprietary materials chemistry or design-in lock-in demonstrable; price-taker vs. large memory/logic customers; KOSDAQ-listed | 2026-07-17 |
 
 ---
 
