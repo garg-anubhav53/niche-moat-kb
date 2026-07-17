@@ -1364,3 +1364,37 @@ Names that failed the asymmetry or integrity gates.
 | Biotage AB | Biotage AB (Nasdaq Stockholm: BIOT) | Run #20 (2026-07-16) | 2026-07-17 | Swedish life-science tools company (flash chromatography systems, solid phase extraction, evaporation; PROCESS moat in proprietary SNAP cartridge column design and Sfär spherical silica media; ~SEK 3.5-4B cap). Previously killed in run #20: CAP_SOFT_KILL (extended zone ~$350M USD without exceptional asymmetry at the time; 4-5 analysts). ALREADY_SEEN_KILL. |
 
 *28 total names processed (Germany / Switzerland / Austria XTRA/SIX/Vienna geo lens); 28 killed across above categories; 0 new QUEUED. Sector 12 (Life-science tools & lab consumables) marked ACTIVE (1 pass, 0 new finds). DACH geo lens structurally thin: quality life-science small-caps are predominantly private (R-Biopharm, Immundiagnostik) or graduated large-cap (STRATEC, Roche, Tecan, Sartorius, Bachem all >$1.5B). Next pass should try UK AIM (Abcam ABCM now private; look for AIM-listed lab consumable OEMs) or Japan small-cap life-science tools names on the Tokyo Stock Exchange.*
+
+---
+
+## Run #32 Kills — 2026-07-17 | Sector 13: Rail & Transport Safety Systems (1st pass) | Geo lens: Japan (TSE/JASDAQ) + Germany (XTRA)
+
+*22 names processed; 19 killed; 3 new QUEUED (6742.T Kyosan Electric 6/12, 6743.T Daido Signal 7/12, FEW.F Funkwerk AG 8/12); 1 deferred §5 completed (EPEN.ST 6/12 → CANDIDATE Grade C Q4/F3/R2/C3; buy-zone SEK 115-130; stock already +63% from scout triage to 52-week high at SEK 161 post-Q2 2026 results). Structural context: Rail & transport safety systems is heavily concentrated in large-cap conglomerates (Knorr-Bremse KBX.DE €18B, Wabtec WAB $17B, Alstom ALO.PA €8B, Siemens Mobility private — all CAP_KILL or private). Japan (TSE/JASDAQ) geo lens most productive for moated small-cap survivors: Kyosan Electric (interlocking/ATC/ATO) and Daido Signal (level crossing/platform safety gates) both pass triage. Germany lens yields Funkwerk AG (TETRA/ETCS/FRMCS railway communications reconstituted entity). EPEN.ST §5 deep-dive: Westermo railway networking moat confirmed (EN 50155/CENELEC certification barrier; ~4 global competitors; design-freeze stickiness; EU NoBo/DeBo re-validation prohibitive mid-program); re-rate already occurred.*
+
+### Coverage Kills (>4 analysts)
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---------------|------|--------|
+| 6741.T | Nippon Signal Co Ltd | >4 (multiple Japanese sell-side analysts) | 2026-07-17 | Japanese railway signaling company (~¥80B cap ~$535M USD); similar moat to 6742.T/6743.T but larger cap + analyst coverage exceeds threshold. COVERAGE_KILL. |
+| SLT.HM | Schaltbau Holding AG | >4 (4-5 German analysts) | 2026-07-17 | German rail door systems and contactors (~€350-500M cap); genuine rail REGULATORY moat but extended zone + coverage exceeds threshold. COVERAGE_KILL. |
+| TRCS.L | Tracsis plc | 19-20 (confirmed via web search) | 2026-07-17 | UK rail technology software and traffic data (AIM London; ~£320M cap); genuine railway software SOLE_SOURCE moat but 19-20 analysts confirmed — far exceeds the >4 kill threshold. COVERAGE_KILL. |
+
+### Cap Kills (market cap >$1.5B)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|------------|------|--------|
+| KBX.DE | Knorr-Bremse AG | ~€18B | 2026-07-17 | German rail and commercial vehicle braking systems megacap. CAP_KILL >$1.5B. |
+| WAB | Wabtec Corporation | ~$17B | 2026-07-17 | US rail technology and equipment (locomotive systems, braking, HVAC). CAP_KILL >$1.5B. |
+| ALO.PA | Alstom SA | ~€8B | 2026-07-17 | French rail OEM (trains, signaling, propulsion). CAP_KILL >$1.5B. |
+| (Various) | Additional large-cap Japanese and European railway conglomerates (East Japan Railway 9020.T, Central Japan Railway 9022.T, West Japan Railway 9021.T, Kintetsu 9041.T, Tokyu 9005.T, Odakyu 9007.T, Hankyu Hanshin 9042.T, Siemens Mobility — private) | >$1.5B or private | 2026-07-17 | Railway operating companies and large-cap OEMs — all either >$1.5B cap or private entities not accessible via public equity markets. CAP_KILL or NOT_PUBLIC. |
+
+### Sector-Adjacent Kills
+| Ticker | Company | Issue | Date | Reason |
+|--------|---------|-------|------|--------|
+| SCE.DE | Schweizer Electronic AG (Frankfurt XTRA) | ~€29.41M cap; PCB manufacturer | 2026-07-17 | German printed circuit board manufacturer — NOT the Swiss railway crossing safety system company (Schweizer Electronic Group AG, Reiden CH, is a separate private entity). SCE.DE makes PCBs with no meaningful rail moat. SECTOR_ADJACENT_KILL. |
+
+### Not Public
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| — | Schweizer Electronic Group AG (Reiden, Switzerland) | 2026-07-17 | Swiss ATWS (Automatic Train Warning System) railway level crossing safety company — genuine REGULATORY moat for Swiss and German railway level crossing protection. BUT: fully private entity; no public listing; not accessible via public equity markets. NOT_PUBLIC_KILL. |
+| — | Siemens Mobility GmbH | 2026-07-17 | Siemens rail division (signaling, trains, propulsion) — private division of Siemens AG; not a separately listed entity. NOT_PUBLIC_KILL. |
+
+*22 total names processed (Japan TSE/JASDAQ + Germany XTRA geo lenses); 19 killed across above categories; 3 new QUEUED (6742.T 6/12, 6743.T 7/12, FEW.F 8/12). EPEN.ST §5 deep-dive completed. Sector 13 (Rail & transport safety systems) marked ACTIVE (1st pass, 3 new finds). Japan lens most productive for genuine moated small-caps: Nippon Signal 6741.T (COVERAGE_KILL), Kyosan Electric 6742.T and Daido Signal 6743.T both QUEUED. Germany lens yields Funkwerk AG FEW.F (TETRA/ETCS/FRMCS). Next Sector 13 pass: try UK AIM rail technology names or Swiss SIX railway safety specialists.*
