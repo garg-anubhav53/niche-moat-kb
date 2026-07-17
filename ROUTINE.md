@@ -117,17 +117,17 @@ Killed names → one compact row each to `KILL-LIST.md` (ticker, reason, date). 
 
 ---
 
-## §3.5 — FINANCIAL BASELINE (the basics, triangulated — mandatory before qualify OR financial-disqualify)
+## §3.5 — FINANCIAL BASELINE (mandatory before qualify OR financial-kill; full spec in METHOD.md)
 
-Get the actual numbers before scoring or financially killing a survivor. **Fetch cheap, reason well** (METHOD.md → Financial Baseline):
+Get the reported numbers before scoring or financially killing a survivor.
 
-1. **Dispatch a haiku FETCHER** (pure retrieval, no reasoning) to pull the raw reported financials for each survivor from **2 independent sources** — a primary (SEC EDGAR 10-K/10-Q/20-F or company IR) + a cross-check (stockanalysis.com financials/balance-sheet/cash-flow). It returns the numbers verbatim. One fetcher can cover several survivors; bound it to the ≤8 survivors. (Inline fetch is fine if only 1–2 survivors.)
-2. **YOU (the reasoning layer) triangulate** the fetched numbers — the basics only: revenue 3–5yr + trend, gross margin & direction, operating/net margin, **net cash/debt, share-count YoY (dilution), FCF**, verified market cap → P/E, EV/EBITDA, P/S.
-3. **Trust-tag each key figure** (✓ CONFIRMED = 2 sources agree / filing · ~ SINGLE-SOURCE · ⚠ DISCREPANT = sources disagree, dig don't average · ? UNVERIFIED) and **coach the skepticism** — say which numbers are solid and which to doubt.
+1. **Fetcher (haiku, retrieval only):** pull the basics for the survivors from **the primary filing** (EDGAR/IR) + a stockanalysis.com cross-check. **Return each figure quote-anchored** (number + source line/location); a bare number is untrusted. One fetcher covers the ≤8 survivors (inline if 1–2).
+2. **Reconcile deterministically:** run `python3 tools/fin_check.py <<'JSON' … JSON` on the figures. Any FAIL → tag that figure ⚠, never ✓.
+3. **You triangulate & trust-tag** (✓ = filing + checker-pass + aggregator-agrees · ~ single-source · ⚠ = disagree or checker-FAIL, dig don't average · ? unverified), and **coach which numbers to trust vs doubt**.
 
-**Write `financials/[TICKER].md`** (sources + as-of + trust tags). This artifact — not the snippet — is the evidence for §4.
-- Basics solid → proceed to §4 with real numbers; now apply financial gates properly (fail cap/integrity/floor → kill *citing the verified figure*).
-- Basics can't be obtained / key figures stay ⚠ or ? → **NEEDS-DATA** (not CANDIDATE); set C low; note what's missing. Never qualify a name whose financials you couldn't read.
+**Write `financials/[TICKER].md`** (quote-anchored figures + checker verdict + tags + sources + as-of) — this, not the snippet, is the evidence for §4.
+- Basics solid → §4; apply financial gates on verified figures (fail cap/floor/integrity → kill citing the number).
+- Basics unobtainable or key figures stay ⚠/? → **NEEDS-DATA** (not CANDIDATE), C low, note what's missing. Never qualify a name whose financials you couldn't read.
 
 ---
 
@@ -210,6 +210,18 @@ git pull --rebase origin main 2>/dev/null || true
 git push origin main || { echo "PUSH_FAILED"; }
 ```
 3. **FAILSAFE final message** (always, even if push failed): list every candidate found (added/killed with reason + promise score), the exact rows written, any deep-dive verdict, CLONED_SHA, and PUSH_OK/FAILED. Findings must survive even if the push fails.
+
+---
+
+## §7 — REFLECT (KB self-review; run when `total_runs` is a multiple of 6)
+
+Every ~6th run, before §6, spend a small budget stepping back from finding names to auditing whether the KB itself is healthy. Read `REVIEW.md` (prior findings), sample the KB, and answer three questions with evidence:
+
+1. **Are we reading the right input financial data?** Sample 3–4 recent `financials/*.md` + memos. Are figures quote-anchored, checker-passed, and filing-verified — or thin/single-source/unverified? Any CANDIDATE/WATCH graded without a solid baseline is a defect — flag it and downgrade to NEEDS-DATA.
+2. **Are we exploring the universe well?** Look at sector coverage (are 5-19 actually being worked, or are we drifting back to 0-4?), geographic spread, hit-rate trend, and grade mix (all C's and no A/B? too many PARKs?). Are we stuck re-mining?
+3. **False-negative risk:** re-check **2 recent triage-kills** through §3.5 (real numbers). Did we wrongly kill a good name on a snippet (stale cap, old going-concern, split-adjusted price)? If so, revive it to QUEUED and log the pattern.
+
+**Then drive it forward — make the corrective edits this run:** mark a sector EXHAUSTED or revive one with a new geo; re-queue a wrongly-killed name; downgrade an under-verified CANDIDATE to NEEDS-DATA; adjust the rotation priority. Append a dated entry to `REVIEW.md`: what you checked, what was wrong, what you changed, and the one systemic fix to make next. Keep it to the highest-leverage findings, not a laundry list.
 
 ---
 

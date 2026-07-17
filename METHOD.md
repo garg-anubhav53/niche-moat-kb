@@ -24,31 +24,27 @@ Smaller cap = more likely to have flown under institutional radar (liquidity flo
 
 Reflect size in the write-up: note cap, why it is (or isn't) still off institutional radar, and — for extended-zone names — the one-line justification for why the asymmetry overrides the weaker exclusion edge.
 
-## Financial Baseline — the basics, triangulated (MANDATORY before qualify/disqualify)
+## Financial Baseline — the basics, quote-anchored & arithmetic-checked (MANDATORY before qualify/disqualify)
 
-**The #1 quality rule: never qualify a name, and never kill it on a *financial* gate (cap, integrity/floor, valuation), from a single web snippet.** A stale/wrong snippet mis-kills good companies and mis-qualifies weak ones. Get the actual numbers first — but keep it simple and focus on the basics.
+**Rule #1: never qualify a name, or kill it on a financial gate (cap/floor/valuation/integrity), from a snippet.** Get the reported numbers first. Keep it to the basics — but make them *verifiable*, not just careful.
 
-**Fetch cheap, reason well (worker/extractor split):**
-- **Fetchers = low-intelligence (haiku).** Their only job is *retrieval*: pull the raw reported numbers from **2+ independent sources** and return them verbatim — no interpretation. Sources: SEC EDGAR (10-K/10-Q/20-F) or company IR for the primary; a structured aggregator (stockanalysis.com financials/balance-sheet/cash-flow) for the cross-check.
-- **Reasoners = high-intelligence (sonnet/opus).** They *triangulate and judge* the fetched data: do the sources agree? resolve discrepancies, spot what's off, decide what it means.
+**Fetch cheap, reason well.**
+- **Fetcher (haiku) — retrieval only.** Pull each figure from **the primary filing** (SEC EDGAR 10-K/10-Q/20-F or company IR) *and* one structured cross-check (stockanalysis.com). **Return each number quote-anchored** — the figure with its source line and location, e.g. `Cash: $50.1M — FY25 10-K, Consolidated Balance Sheets`. A bare number with no quote is untrusted. No interpretation.
+- **Reasoner (sonnet/opus) — triangulate & judge.** The filing is the source of truth; the aggregator's job is to *disagree* and trigger a dig, not to be averaged in.
 
-**The basics to capture (not an exhaustive audit):**
-- Revenue, last 3–5 yrs + growth trend
-- Gross margin (and its direction)
-- Operating & net margin / net income
-- **Net cash or net debt** (cash minus total debt)
-- **Share count and its YoY change** (dilution is a floor-killer)
-- **Free cash flow** (does "profit" convert to cash?)
-- Verified market cap → a couple of multiples (P/E, EV/EBITDA, P/S)
+**The basics (not an exhaustive audit):** revenue 3–5 yrs + trend · gross margin + direction · operating & net margin · **net cash/debt** · **share count + YoY change** (dilution) · **FCF** · verified market cap → P/E, EV/EBITDA, P/S.
 
-**Triangulate + coach the skepticism.** Tag each key figure with a trust level so the reader knows where to lean and where to doubt:
-- **✓ CONFIRMED** — two independent sources agree, or it's straight from the filing.
-- **~ SINGLE-SOURCE** — only one source; treat as provisional.
-- **⚠ DISCREPANT** — sources disagree (e.g. the SHMD €110M-vs-€67M revenue split we once hit); do NOT average — dig until resolved, and flag it loudly.
+**Run the deterministic checker** on the fetched figures — `python3 tools/fin_check.py` (JSON via stdin). It reconciles GM = gross_profit/revenue, EV = mktcap+debt−cash, FCF = OCF−capex, P/S, P/E, margin ranges, dilution, growth plausibility. This catches misreads, wrong units, and transposed digits that "be careful" cannot. **Any FAIL → that figure is ⚠, never ✓.**
+
+**Trust-tag each figure, calibrated (not vibes):**
+- **✓ CONFIRMED** — from the filing (quote-anchored) AND passes the checker AND the aggregator agrees within tolerance.
+- **~ SINGLE-SOURCE** — one source only, or filing-only with no cross-check.
+- **⚠ DISCREPANT** — sources disagree or a checker assertion FAILs (e.g. the SHMD €110M-vs-€67M split); do NOT average — dig until resolved, flag loudly.
 - **? UNVERIFIED** — couldn't get it.
-Explicitly note *which numbers are solid and which to be skeptical of, and why* — that coaching is part of the deliverable.
 
-**Write `financials/[TICKER].md`** (sources + as-of date + trust tags). If the basics **can't** be obtained or key figures stay ⚠/?, the name is **NEEDS-DATA**, not CANDIDATE — set **C low** and say what's missing. Qualifying without the numbers is the exact failure we are eliminating. Every §4 score and financial judgment rests on this baseline, not on snippets.
+**Coach the skepticism:** state plainly which numbers are solid and which to doubt, and why. That coaching is part of the deliverable.
+
+**Write `financials/[TICKER].md`** (quote-anchored figures + checker verdict + trust tags + sources + as-of). If the basics can't be obtained, or key figures stay ⚠/?, the name is **NEEDS-DATA** — not CANDIDATE — with **C low**. Every §4 score rests on this baseline, never on snippets.
 
 ## The four sub-assessments (each 1–5, with evidence)
 
