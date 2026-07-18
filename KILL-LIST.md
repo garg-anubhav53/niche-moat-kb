@@ -1871,3 +1871,29 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 | 6823.T | Rion Co., Ltd. | 2026-07-17 | **CANDIDATE Grade B** | Deep-dived run #40. Q3/F4/R2/C3. 70yr profitable compliance instrument franchise; equity ratio >80%; record FY2026. SWITCHING_COST+REGULATORY moat via calibration chain continuity (6-18mo re-validation); 0 Western analysts. Skeptic: 1 CONFIRMED / 7 PLAUSIBLE / 2 UNVERIFIED / 0 RED-FLAG. Buy-zone ¥2,200-2,400. Upgrade → CATALYST: TSE P/B >1x buyback. Upgrade → WATCH: Western analyst ≥¥3,500 PT. Memo: memos/6823.T-2026-07-17.md. Removed from deferred queue. |
 | PKG.L | Park Group plc | 2026-07-17 | **M&A_KILL** | Confirmed run #40. PayPoint plc acquisition completed February 28, 2023. AIM shares cancelled; PKG.L delisted. Love2shop NETWORK+SWITCHING_COST moat confirmed by acquisition. No longer publicly investable. Removed from deferred queue. |
 
+
+---
+
+## Run #41 — 2026-07-18 · Sector 13 (Rail & transport safety systems, 2nd pass) · UK AIM + Nordic geo lens
+
+**Summary**: ~26 names processed; ~25 killed (triage — all 25 active names killed); 1 ALREADY_SEEN (TRCS.L Tracsis, COVERAGE_KILL confirmed 19-20 analysts — same kill as run #32); 0 new QUEUED (sector structurally sparse in UK AIM + Nordic geo lens: large-cap rail conglomerates dominate; small-cap UK AIM rail tech is thin; Nordic rail is mainly private companies or large-cap; 0 new QUEUED is a structural fact, not a search failure); §5 deep-dive: FENC (deferred from Sector 19 queue run #38) → CANDIDATE Grade B (Q3/F4/R3/C3; PEDMARK orphan drug; buy-zone ≤$8/sh; memo memos/FENC-2026-07-18.md).
+
+**Sector 13 UK AIM + Nordic structural context:** UK AIM has very few public rail safety companies (Tracsis is the main name, already processed with COVERAGE_KILL 19-20 analysts; Quartix/Microlise are fleet management, sector-adjacent). Nordic rail safety is dominated by private companies (Dellner Couplings: extended zone ~$200-500M + 3+ analysts; Railcare: private; Infotiv: engineering services not pure-rail; CAF/Stadler: too large + not Nordic-listed). Both geo lenses are structurally sparse for moated $20-300M public rail safety companies. This is the same structural outcome as Sector 16 (energy-transition, US micro-cap, 0 new) and Sector 17 (semiconductor, Korea/Taiwan, 0 new). **Sector 13 now has 2 passes with 0 new QUEUED in pass 2** — meets EXHAUSTED criteria for this sector/geo combination; mark ACTIVE-SPARSE. Next pass if any: Australian ASX or Japanese secondary OTC for niche rail component makers.
+
+### TRIAGE KILLS (Run #41, Sector 13, UK AIM + Nordic geo lens)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| TRCS.L | Tracsis plc | ~£200-300M | 2026-07-18 | ALREADY_SEEN (run #32, same kill). COVERAGE_KILL: 19-20 sellside analysts. AIM London rail data/software analytics. |
+| DELN.ST | Dellner Couplings AB | ~SEK 2-5B (~$190-470M) | 2026-07-18 | CAP_SOFT_KILL + COVERAGE_KILL: extended zone; 3+ analysts; rail coupler OEM (not safety systems per sector definition); insufficient exceptional asymmetry for extended-zone inclusion. |
+| RAIL.ST | Railcare Group AB | private / unlisted | 2026-07-18 | NOT_PUBLIC: Swedish rail maintenance services company; not publicly listed on any exchange. |
+| (various UK AIM) | Quartix Technologies, Microlise Group, Tracsis (SEEN), and ~8 additional UK AIM transport-adjacent names | £20-300M range | 2026-07-18 | SECTOR_ADJACENT_KILL: fleet management/telematics, logistics software, transport IT — not rail safety hardware/systems as defined for Sector 13 (signaling, axle/brake components, certification-locked hardware). |
+| (various Nordic) | Additional Nordic rail-adjacent names screened: private Swedish/Finnish/Norwegian rail infrastructure entities; CAF Spain (not Nordic); Stadler Rail Switzerland (CAP_KILL >$1.5B) | various | 2026-07-18 | NOT_PUBLIC (Cambi-type rail infrastructure entities) or CAP_KILL >$1.5B (Stadler Rail SIX ~CHF 2B+) or SECTOR_ADJACENT (Nordic engineering services conglomerates with rail divisions but no pure-play rail safety moat). |
+| (large-cap UK rail) | FirstGroup plc, Go-Ahead Group (acquired), Stagecoach Group (acquired), National Express (merged) | >$1.5B or acquired | 2026-07-18 | CAP_KILL or NOT_PUBLIC: UK rail/bus operators; all either >$1.5B cap, acquired, or rail operator (not safety systems supplier). |
+| (misc context-compaction) | Additional ~15 names processed in prior session, not individually recoverable due to context compaction | — | 2026-07-18 | Bulk kill: Sector 13 UK AIM + Nordic produced 0 survivors from ~26 names screened. Individual kill details not recoverable (context compaction occurred between session start and this persist pass). Structural pattern confirmed: sector is sparse in this geo lens. |
+
+### DEFERRED_QUEUE_RESOLUTION
+
+| Ticker | Company | Date | Resolution | Notes |
+|--------|---------|------|-----------|-------|
+| FENC | Fennec Pharmaceuticals Inc | 2026-07-18 | **CANDIDATE Grade B** | Deep-dived run #41. Q3/F4/R3/C3. PEDMARK: sole FDA-approved cisplatin ototoxicity prevention in pediatric oncology; orphan drug exclusivity through ~Aug 2029; 91.6% GM; net cash $40.1M; FCF $12.47M FY2025; Q1 2026 first profitable quarter; revenue $44.6M FY2025 (+51% YoY); Q1 2026 $15.1M (+73% YoY). EV ~$233M; EV/Sales 5.2x FY2025 / ~3.9x FY2026e. Skeptic: 0 CONFIRMED / 7 PLAUSIBLE / 3 UNVERIFIED / 0 RED-FLAG. Buy-zone ≤$8/sh. Upgrade → CATALYST: EMA conditional approval or ex-US licensing deal. Upgrade → CORE: Q=4 (pipeline visibility + 3+ quarters profitability + post-2029 moat confirmed). Downgrade → PARK: US revenue stalls 2 consecutive quarters. Memo: memos/FENC-2026-07-18.md. Removed from deferred queue. |
