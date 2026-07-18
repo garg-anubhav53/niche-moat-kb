@@ -36,7 +36,7 @@ Reflect size in the write-up: note cap, why it is (or isn't) still off instituti
 - **Fetcher (haiku) — retrieval only.** Pull each figure from **the primary filing** (SEC EDGAR 10-K/10-Q/20-F or company IR) *and* one structured cross-check (stockanalysis.com). **Return each number quote-anchored** — the figure with its source line and location, e.g. `Cash: $50.1M — FY25 10-K, Consolidated Balance Sheets`. A bare number with no quote is untrusted. No interpretation.
 - **Reasoner (sonnet/opus) — triangulate & judge.** The filing is the source of truth; the aggregator's job is to *disagree* and trigger a dig, not to be averaged in.
 
-**The basics (not an exhaustive audit):** revenue 3–5 yrs + trend · gross margin + direction · operating & net margin · **net cash/debt** · **share count + YoY change** (dilution) · **FCF** · verified market cap → P/E, EV/EBITDA, P/S.
+**The basics (not an exhaustive audit):** revenue 3–5 yrs + trend · gross margin + direction · operating & net margin · **net cash/debt** · **share count + YoY change** (dilution) · **FCF** · verified market cap → P/E, EV/EBITDA, P/S · **52-wk range + % below high** and **analyst PT/consensus** (these two feed the Asymmetry Gate — is the entry still open?).
 
 **Run the deterministic checker** on the fetched figures — `python3 tools/fin_check.py` (JSON via stdin). It reconciles GM = gross_profit/revenue, EV = mktcap+debt−cash, FCF = OCF−capex, P/S, P/E, margin ranges, dilution, growth plausibility. This catches misreads, wrong units, and transposed digits that "be careful" cannot. **Any FAIL → that figure is ⚠, never ✓.**
 
@@ -71,6 +71,21 @@ Specific catalyst with a date/trigger inside ~6–12 months; valuation gap vs. m
 **C — Confidence / Data Quality (do we trust our read?)**
 Quality & recency of disclosure (audited, English, granular segments); skeptic's-checklist pass rate; did we find the true comparable set / are we watching the right universe; number & severity of unresolved unknowns.
 `5` = thesis rests on confirmed, high-quality data · `1` = mostly unverified claims.
+
+---
+
+## The Asymmetry Gate — is the asymmetry actually AVAILABLE today?
+
+*(Learned from culling 33 deep-dived names to 10: almost every reject was a genuinely good business where the asymmetry simply wasn't there at today's price. A moat + a floor is necessary but NOT sufficient — the mispricing has to still be on the table.)*
+
+Using the §3.5 baseline (real price, multiples, 52-wk range, analyst PT), a name is **only "truly interesting" (CANDIDATE or better) if it passes ALL four:**
+
+1. **Entry still open** — NOT within ~15% of the 52-wk high, NOT at/above analyst PT or your fair-value estimate, and hasn't *already* re-rated ~2x off its lows. If the move already happened, the asymmetry is spent.
+2. **Magnitude** — a realistic bull case is roughly **≥2x**, not capped at +30–60%.
+3. **Skew** — plausible upside meaningfully **exceeds** downside (not symmetric, not inverted). A 10–15%-up / 30%-down name fails even with a moat.
+4. **Trigger** — either a **discrete** catalyst (dated event / mandate / contract / print), OR **CORE-grade standalone quality** (Q≥4 & F≥4) you'd own while waiting. A *diffuse* catalyst does NOT count: "the cycle turns eventually," "governance reform / buyback someday," "an analyst may initiate," or coverage-void alone.
+
+**Fail the gate → PARK ("good business, no asymmetric entry — track the buy-zone"), not CANDIDATE.** This is how we keep the shortlist lean and honest: quality-at-a-fair-price is a watch-for-pullback item, not a live idea. The named anti-patterns to reject on sight: *already re-rated / near 52-wk high · at consensus fair value · upside capped <2x · symmetric-or-inverted payoff · slow multi-year grind with no dated trigger · structural-discount value trap (controlled co / MLM) · 2x only via a heroic multiple.*
 
 ---
 
