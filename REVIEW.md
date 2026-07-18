@@ -23,3 +23,10 @@ Three standing questions:
 - **Universe:** Sectors 0–4 exhausted; expanded to 20 sectors + geo lens (fixed this session). Early new-sector runs (5–19) are landing (Winmark, HNL.DE, etc.). Watch that runs actually advance the cursor into 5-19 rather than drifting back.
 - **False negatives:** Not yet audited. The ~600+ triage-kills from runs 1–39 were snippet-based; a sample should be re-checked once §3.5 is live.
 - **Systemic fix to carry forward:** the two-tier "fetch cheap / reason well" split + deterministic checker is the durable lever; keep pushing quality into *structure* (scripts, quote-anchors), not *exhortation*.
+
+### 2026-07-18 — Ironclad price/valuation via public API (not LLM web-reading)
+- **Problem:** even with quote-anchoring, an LLM reading price/market-cap/revenue off web pages isn't trustworthy; and the 52-week framing was noise.
+- **Fix:** `tools/snapshot.py TICKER` — live price (Yahoo chart, no auth, US+foreign) + most-recent revenue/GM/net-income/shares from **SEC EDGAR XBRL** (primary filing), then **computes market cap = live price × shares** and P/S, P/E itself (no aggregator trust). Handles the dual-class / stale-cover-page trap (falls back to weighted-avg diluted; flags staleness so a wrong market cap can't ship). Foreign filers → live price only, cap C≤2.
+- **Caught a real error:** GENC cover-page tag was stale (2014, 8.0M shares) → would have printed a $128M market cap; true current count is 14.66M → **$235M** cap, P/S 1.92, P/E 13.7. Exactly the silent false-precision we were worried about.
+- **Gate change:** dropped the 52-week-range test entirely. Entry test is now purely **live price vs. fair value** — the gap is the asymmetry.
+- **Next:** extend snapshot.py to also pull cash/total_debt from SEC XBRL (CashAndCashEquivalents, Debt tags) so net-cash is API-sourced too, not fetcher-read.

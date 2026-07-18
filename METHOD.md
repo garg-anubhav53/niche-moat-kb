@@ -32,11 +32,12 @@ Reflect size in the write-up: note cap, why it is (or isn't) still off instituti
 
 **Rule #1: never qualify a name, or kill it on a financial gate (cap/floor/valuation/integrity), from a snippet.** Get the reported numbers first. Keep it to the basics — but make them *verifiable*, not just careful.
 
-**Fetch cheap, reason well.**
-- **Fetcher (haiku) — retrieval only.** Pull each figure from **the primary filing** (SEC EDGAR 10-K/10-Q/20-F or company IR) *and* one structured cross-check (stockanalysis.com). **Return each number quote-anchored** — the figure with its source line and location, e.g. `Cash: $50.1M — FY25 10-K, Consolidated Balance Sheets`. A bare number with no quote is untrusted. No interpretation.
-- **Reasoner (sonnet/opus) — triangulate & judge.** The filing is the source of truth; the aggregator's job is to *disagree* and trigger a dig, not to be averaged in.
+**Get the hard numbers PROGRAMMATICALLY first — don't let an LLM read them off a web page.**
+- **Step A — `python3 tools/snapshot.py TICKER` (mandatory, mechanical).** Returns the **live current price** (Yahoo, no auth, US + foreign) and, for US filers, the **most-recent reported revenue (TTM), gross margin, net income, and share count** straight from **SEC EDGAR XBRL** (primary filing) — then **computes market cap = live price × current shares** and P/S, P/E *itself*, never trusting an aggregator's derived figures. It flags stale share counts (won't emit a wrong market cap) and dual-class quirks. This is the anchor of truth for price + valuation.
+- **Step B — fetcher (haiku) fills the rest from the filing:** cash, total debt, capex/OCF→FCF, revenue 3–5yr trend — quote-anchored (figure + source line). A bare number is untrusted.
+- **Reasoner (sonnet/opus) — triangulate & judge.** snapshot.py + the filing are the source of truth; a cross-check aggregator only *disagrees to trigger a dig*, never averaged in.
 
-**The basics (not an exhaustive audit):** revenue 3–5 yrs + trend · gross margin + direction · operating & net margin · **net cash/debt** · **share count + YoY change** (dilution) · **FCF** · verified market cap → P/E, EV/EBITDA, P/S · **52-wk range + % below high** and **analyst PT/consensus** (these two feed the Asymmetry Gate — is the entry still open?).
+**The basics (not an exhaustive audit):** **live price** · revenue 3–5 yrs + trend · gross margin + direction · operating & net margin · **net cash/debt** · **share count + YoY change** (dilution) · **FCF** · **real market cap (computed) → P/S, P/E, EV/EBITDA** · a **fair-value estimate** (moat-justified multiple / analyst PT / sum-of-parts) — the gap between the live price and fair value IS the asymmetry (this feeds the Gate). *(We do NOT use the 52-week range — only the live price vs. fair value matters.)*
 
 **Run the deterministic checker** on the fetched figures — `python3 tools/fin_check.py` (JSON via stdin). It reconciles GM = gross_profit/revenue, EV = mktcap+debt−cash, FCF = OCF−capex, P/S, P/E, margin ranges, dilution, growth plausibility. This catches misreads, wrong units, and transposed digits that "be careful" cannot. **Any FAIL → that figure is ⚠, never ✓.**
 
@@ -78,14 +79,14 @@ Quality & recency of disclosure (audited, English, granular segments); skeptic's
 
 *(Learned from culling 33 deep-dived names to 10: almost every reject was a genuinely good business where the asymmetry simply wasn't there at today's price. A moat + a floor is necessary but NOT sufficient — the mispricing has to still be on the table.)*
 
-Using the §3.5 baseline (real price, multiples, 52-wk range, analyst PT), a name is **only "truly interesting" (CANDIDATE or better) if it passes ALL four:**
+Using the §3.5 baseline (the **live price** from snapshot.py, real computed market cap/multiples, and a fair-value estimate), a name is **only "truly interesting" (CANDIDATE or better) if it passes ALL four:**
 
-1. **Entry still open** — NOT within ~15% of the 52-wk high, NOT at/above analyst PT or your fair-value estimate, and hasn't *already* re-rated ~2x off its lows. If the move already happened, the asymmetry is spent.
-2. **Magnitude** — a realistic bull case is roughly **≥2x**, not capped at +30–60%.
+1. **Mispriced at the live price NOW** — at today's actual price the stock trades **materially below a defensible fair value** (moat-justified multiple / analyst PT / sum-of-parts). The gap between live price and fair value *is* the asymmetry. If it's already at/above fair value, there's nothing to capture — regardless of where it has been. (We judge the live price vs. value, not the 52-week range.)
+2. **Magnitude** — a realistic bull case is roughly **≥2x** from the live price, not capped at +30–60%.
 3. **Skew** — plausible upside meaningfully **exceeds** downside (not symmetric, not inverted). A 10–15%-up / 30%-down name fails even with a moat.
 4. **Trigger** — either a **discrete** catalyst (dated event / mandate / contract / print), OR **CORE-grade standalone quality** (Q≥4 & F≥4) you'd own while waiting. A *diffuse* catalyst does NOT count: "the cycle turns eventually," "governance reform / buyback someday," "an analyst may initiate," or coverage-void alone.
 
-**Fail the gate → PARK ("good business, no asymmetric entry — track the buy-zone"), not CANDIDATE.** This is how we keep the shortlist lean and honest: quality-at-a-fair-price is a watch-for-pullback item, not a live idea. The named anti-patterns to reject on sight: *already re-rated / near 52-wk high · at consensus fair value · upside capped <2x · symmetric-or-inverted payoff · slow multi-year grind with no dated trigger · structural-discount value trap (controlled co / MLM) · 2x only via a heroic multiple.*
+**Fail the gate → PARK ("good business, no asymmetric entry at the current price — track the buy-zone"), not CANDIDATE.** Keep the shortlist lean and honest: quality-at-a-fair-price is a watch-for-pullback item, not a live idea. Reject on sight: *already at fair value · upside capped <2x · symmetric-or-inverted payoff · slow multi-year grind with no dated trigger · structural-discount value trap (controlled co / MLM) · 2x only via a heroic multiple.*
 
 ---
 
