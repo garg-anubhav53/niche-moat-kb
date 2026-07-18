@@ -86,7 +86,11 @@ Using the §3.5 baseline (the **live price** from snapshot.py, real computed mar
 3. **Skew** — plausible upside meaningfully **exceeds** downside (not symmetric, not inverted). A 10–15%-up / 30%-down name fails even with a moat.
 4. **Trigger** — either a **discrete** catalyst (dated event / mandate / contract / print), OR **CORE-grade standalone quality** (Q≥4 & F≥4) you'd own while waiting. A *diffuse* catalyst does NOT count: "the cycle turns eventually," "governance reform / buyback someday," "an analyst may initiate," or coverage-void alone.
 
-**Fail the gate → PARK ("good business, no asymmetric entry at the current price — track the buy-zone"), not CANDIDATE.** Keep the shortlist lean and honest: quality-at-a-fair-price is a watch-for-pullback item, not a live idea. Reject on sight: *already at fair value · upside capped <2x · symmetric-or-inverted payoff · slow multi-year grind with no dated trigger · structural-discount value trap (controlled co / MLM) · 2x only via a heroic multiple.*
+**Fail the gate → not a live CANDIDATE. Split the outcome:**
+- **QUALITY BENCH (`WATCHLIST.md`)** — if the name is genuinely high-quality (Q≥4), the **moat is durable** (regulatory / process / sole-source that survives years, not a cyclical tailwind), and the floor is real, but it fails the gate *only on price* (at/above fair value): put it on the **bench with a buy-zone** and monitor the live price. These are businesses we *want to own* the moment they dip into value — don't discard them. On each §7 REFLECT, re-price the bench (`snapshot.py`); a dip into the buy-zone promotes it to `QUEUED_HOT` for a fresh deep-dive at the new price.
+- **PARK** — everything else that fails the gate: mediocre quality, thin/asset-only floor, non-durable moat, capped upside, or a structural value trap. "Not compelling regardless of price." Revisit only on a specific trigger.
+
+Reject-on-sight anti-patterns (→ Park, not Bench): *upside capped <2x · symmetric-or-inverted payoff · slow multi-year cyclical grind with no dated trigger · structural-discount value trap (controlled co / MLM) · 2x only via a heroic multiple.* The Bench is reserved for the genuinely excellent business that is merely expensive.
 
 ---
 
