@@ -10,10 +10,20 @@ The point of the top-of-funnel rework: stop *hoping* web search surfaces names, 
 - This is the denominator. Coverage % = (US names deep-reviewed) ÷ 78. **A run that reviews the top-10 unreviewed covers ~13% of the worthwhile US universe.** By a handful of passes we can honestly cover the *majority* of profitable high-margin US microcaps — and know it.
 - The screen is ranked by a quality proxy (operating margin, gross margin, capped growth), so we march **best-first** — even partial coverage captures the best names.
 
-**International — enumerable, but needs the market's EDGAR-equivalent:**
-- Japan **EDINET** and Korea **OpenDART** are SEC-EDGAR-equivalents with bulk XBRL — a `screen_jp.py`/`screen_kr.py` can mirror the US screener **if a free API key is set** (EDINET subscription key / OpenDART `crtfc_key`, as env vars like GH_PAT). Until then, enumerate the ticker list per exchange and quant-screen per-name (Yahoo price + filing).
-- Taiwan (MOPS), UK/AIM, Canada (SEDAR+), ASX, Euronext (ESEF): open data of varying accessibility; enumerate the exchange list for a denominator, per-name fundamentals otherwise.
-- For any market where we can't get bulk fundamentals, the denominator is "all listed companies in cap band" (from the exchange list) and we march that list with per-name snapshots.
+**International data sources — VERIFIED (probed 2026-07-18):**
+
+| Market | Bulk source | Key? | Status |
+|--------|-------------|------|--------|
+| **US** | SEC XBRL `frames` API | none | ✅ built (`screen.py`) |
+| **Europe (all EU-regulated exchanges + UK)** | **filings.xbrl.org** — ESEF/UKSEF XBRL index (keyless JSON:API; filing metadata + JSON URLs to the actual statements) | **none** | 🔨 buildable NOW |
+| **Taiwan** | **TWSE OpenAPI** (`openapi.twse.com.tw`) — keyless company list (`t187ap03_L`) + financial statements incl. revenue 營業收入 & cost 營業成本 → GM (`t187ap06_L_ci`); + TPEx OTC | **none** | 🔨 buildable NOW |
+| **Japan** | **EDINET API v2** — XBRL filings | **free key** (subscription key) | ⏳ needs `EDINET_KEY` |
+| **Korea** | **OpenDART** (`opendart.fss.or.kr`) — XBRL financials | **free key** (`crtfc_key`) | ⏳ needs `OPENDART_KEY` |
+| **Canada** | mostly via SEC (many TSX names file 40-F/20-F, already in US frames) + per-name Yahoo (.TO) | none | partial |
+| **Australia/NZ** | no free bulk fundamentals; per-name Yahoo (.AX/.NZ) | none | per-name |
+| **UK (also)** | Companies House API (free key) — but UK already covered by filings.xbrl.org UKSEF | free key | redundant |
+
+**Build order:** Europe (filings.xbrl.org) + Taiwan (TWSE) are keyless → build next. Japan/Korea → build once the free keys are set as env vars in the routine environment. Canada is largely absorbed by the US frames (cross-listed 40-F filers); pure-domestic TSX names go per-name. For any market without bulk fundamentals, the denominator is "all listed in cap band" (exchange list) and we march per-name with `snapshot.py` price + the filing.
 
 ## Ledger — reviewed vs. remaining (updated by the routine)
 
