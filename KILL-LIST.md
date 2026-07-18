@@ -1897,3 +1897,47 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 | Ticker | Company | Date | Resolution | Notes |
 |--------|---------|------|-----------|-------|
 | FENC | Fennec Pharmaceuticals Inc | 2026-07-18 | **CANDIDATE Grade B** | Deep-dived run #41. Q3/F4/R3/C3. PEDMARK: sole FDA-approved cisplatin ototoxicity prevention in pediatric oncology; orphan drug exclusivity through ~Aug 2029; 91.6% GM; net cash $40.1M; FCF $12.47M FY2025; Q1 2026 first profitable quarter; revenue $44.6M FY2025 (+51% YoY); Q1 2026 $15.1M (+73% YoY). EV ~$233M; EV/Sales 5.2x FY2025 / ~3.9x FY2026e. Skeptic: 0 CONFIRMED / 7 PLAUSIBLE / 3 UNVERIFIED / 0 RED-FLAG. Buy-zone ≤$8/sh. Upgrade → CATALYST: EMA conditional approval or ex-US licensing deal. Upgrade → CORE: Q=4 (pipeline visibility + 3+ quarters profitability + post-2029 moat confirmed). Downgrade → PARK: US revenue stalls 2 consecutive quarters. Memo: memos/FENC-2026-07-18.md. Removed from deferred queue. |
+
+---
+
+## Run #42 — 2026-07-18 · Sector 14 (Consumer niche & branded franchises, 2nd pass) · Japan TSE geo lens
+
+**Summary**: ~33 names processed; ~30 killed; 1 QUEUED_HOT → deep-dived (5889.T Japan Eyewear Holdings → CANDIDATE Grade B/C); 1 PARK (4668.T Meiko Network Japan 5/12). §7 REFLECT also executed this run (42%3=0): bench re-priced via web search; 6742.T flagged at ¥608 < ¥720 buy-zone (⚑non-EN; primary filing verify required before acting); CODA approaching $8-10 buy-zone at $9.84-$10.00.
+
+**Sector 14 Japan TSE structural context:** Japanese consumer niche brands are large-cap-heavy (Kumon, Benesse, Shiseido, Ain Holdings all >$1.5B; or multiple-analyst coverage); family-restaurant and juku chains are mature and structurally declining due to demographic headwinds; optical retail (5889.T, Paris Miki, Megane Super) is the main SPA-model niche. Japan TSE geo lens surfaces ~33 names across restaurant, retail, education, and food franchise subcategories.
+
+### CAP KILLS
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 4527.T | Rohto Pharmaceutical Co., Ltd. | ~¥520B (~$3.5B) | 2026-07-18 | CAP_KILL: eye/skin care OTC pharmaceutical brand (Rohto eye drops #1 Japan brand); genuine BRAND moat; BUT ~$3.5B = 12x cap limit. WRONG_COMPANY flag: routine initially probed this ticker as Wakamoto Pharmaceutical; 4527.T is Rohto — entirely different company. Rohto is enormous and out of range. |
+
+### M&A KILLS / NOT PUBLIC
+
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| 2899.T | Nagatanien Co., Ltd. | 2026-07-18 | M&A_KILL: Japanese packaged food (ochazuke / rice seasoning / bonito flakes brands; premium shelf-stable Japanese flavoring). Confirmed taken private July 2024 by parent Toyo Suisan (Maruchan ramen manufacturer). TSE delisted. No longer publicly investable. Moat: BRAND + consumer switching cost (Japanese rice seasoning brand loyalty). |
+| 2536.T | Yomeishu Seizo Co., Ltd. | 2026-07-18 | M&A_KILL: Japanese medicinal liqueur brand (Yomeishu herbal tonic; 400yr brand history in Japan). Confirmed Tsumura & Co. acquisition → delisting from TSE Standard Market (announced 2025; delisting executed or imminent 2026). No longer publicly investable. Moat: BRAND (historical herbal brand in Japan wellness market; high consumer loyalty; limited shelf substitutes). |
+
+### COVERAGE KILLS
+
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| 3543.T | Komeda Holdings Co., Ltd. | 7 analysts | 2026-07-18 | COVERAGE_KILL: Japanese coffee shop franchise (Komeda's Coffee; morning service format; 970+ stores; franchise model). 7 sell-side analysts = far above ≤4 threshold. Genuine franchise moat (loyal regional Japanese brand; morning set loyalty; franchise fee recurring model); but well-covered and near consensus FV. |
+| 7780.T | Menicon Co., Ltd. | 5 analysts | 2026-07-18 | COVERAGE_KILL: Japanese contact lens manufacturer (#1 Japan domestic; Menisoft, Meni-One daily lenses; direct-to-consumer subscription model). 5 sell-side analysts = above ≤4 threshold. CONSUMABLE moat real (contact lens subscription; Japanese ophthalmic regulatory barriers). Cap ~¥80B (~$545M; extended zone also) = DUAL-KILL. |
+
+### PARK KILLS (quality ≤ 1 or no durable moat; anti-value-trap confirmed)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 7816.T | Paris Miki Holdings Inc | ~¥10-15B (~$68-102M) | 2026-07-18 | PARK quality=0: Japan optical retail chain (Paris Miki eyewear brand; ~400+ stores; prestige positioning). Net margin 2.3% = below franchise threshold; operating margin similarly thin; no SPA vertically-integrated economics confirmed; competitive with Zoff/JINS/GrandOptical. Quality=0 per anti-value-trap rule. PARK, never deep-dive. Revisit only if margins expand to >8% net and primary filing confirms strong moat. |
+| 2642.T | Tenpos Holdings Co., Ltd. | ~¥5-10B (~$34-68M) | 2026-07-18 | PARK 5/12: Japanese restaurant/food service management services (tenpo = tenant store; IT support and consulting for restaurant operators; restaurant brokerage). 4% operating margins declining YoY; no durable regulatory/process moat in restaurant consulting; competitive market. Quality=1 marginal; structural pressure from digitalization reducing brokerage value. PARK, revisit only if margins recover to >8% and specific moat mechanism confirmed. |
+| 7092.T | Fast Fitness Japan Inc (Anytime Fitness Japan) | ~¥20-30B (~$136-204M) | 2026-07-18 | PARK / PRICE_KILL: Japanese Anytime Fitness franchise master franchisee (gym membership franchisor). Stock at or above analyst price target = no asymmetric entry. Franchise model has SWITCHING_COST moat (24/7 gym access; membership stickiness; key-fob access network) but 2x requires either price correction to buy-zone or analyst PT upgrade. At analyst PT = Asymmetry Gate fails Test 1. PARK pending buy-zone entry. |
+| 4668.T | Meiko Network Japan Co., Ltd. | ~¥17.6B (~$120M) | 2026-07-18 | PARK 5/12: Japanese juku / cram school franchisee + franchisor (elementary, junior high, high school exam prep). No durable moat: highly competitive juku market (Kumon/SAPIX/Eikoh/Sundai/Ichishin-kai and hundreds of independents); franchise switching cost minimal; Japan school-age population (ages 6-18) in secular structural decline. P/E 10.24x cheap on its face but reflects structural decline expectations = classic value trap. Anti-value-trap: Quality=1 + no durable moat + structural secular decline → PARK. Financial baseline: financials/4668.T.md |
+| (various Japan restaurant / F&B / edu ~21 names) | Cocos Japan, Skylark Holdings, Watami, Yoshinoya, Doutor Nichires, Mos Food Services, Pepper Lunch Holdings, Plenus Holdings, Coco's Japan, Royal Holdings, Toridoll Holdings, Create Restaurants, Kushikatsu Tanaka, Hotto Motto (Plenus), Kourakuen Holdings, Sushiro (Akindo Sushiro), Sushiro GFH, Osho Food Service, Genki Sushi, Fujio Food Group, Kura Sushi | Various ~¥10-200B | 2026-07-18 | BULK KILL: ~21 Japanese restaurant chains, food service operators, and consumer brands assessed in sector 14 Japan geo lens scout pass. All killed at triage for one or more of: (a) CAP_KILL (Sushiro GFH >¥500B, Toridoll >¥200B, etc.); (b) NO_MOAT (commodity restaurant format; low switching cost; price competition; no sole-source or regulatory lock-in — restaurants are inherently low-moat businesses regardless of scale); (c) COVERAGE_KILL (3+ analysts for larger chains); (d) quality=0 (thin margins 2-5%; declining same-store-sales; COVID-recovery lumpy earnings). No individual names from this group clear moat threshold for further consideration. |
+
+### DEFERRED_QUEUE_RESOLUTION
+
+| Ticker | Company | Date | Resolution | Notes |
+|--------|---------|------|-----------|-------|
+| 5889.T | Japan Eyewear Holdings Co., Ltd. | 2026-07-18 | **CANDIDATE Grade B/C** | Deep-dived run #42. Q4/F3/R2/C2trust (trust-adjusted; underlying Q4/F3/R2/C4 = Grade B). SPA vertically integrated eyewear (Olive des Olive Optical and other brands); 79%+ GM franchise-grade ✓; FY2026 revenue ¥18,640M (+11.8%) ✓; OP ¥5,957M (32.0% margin) ✓; NI ¥3,783M (−4.7% YoY vs OP +11.8%) ✓ (⚠ below-the-line drag unexplained); ¥11.95B syndicated loan (Feb 2026) ✓. Non-EN primary filing (有価証券報告書) NOT read; data from Japan IR English disclosure + aggregators; trust-capped C≤2 per non-EN rule. 1 Japanese analyst; PT ¥2,269 BELOW current ¥2,323. Asymmetry Gate borderline fail at ¥2,323. Buy-zone ≤¥1,900–2,000. Human verification checklist: 14 items. Memo: memos/5889.T-2026-07-18.md. |

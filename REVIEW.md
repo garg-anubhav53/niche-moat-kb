@@ -24,6 +24,15 @@ Three standing questions:
 - **False negatives:** Not yet audited. The ~600+ triage-kills from runs 1–39 were snippet-based; a sample should be re-checked once §3.5 is live.
 - **Systemic fix to carry forward:** the two-tier "fetch cheap / reason well" split + deterministic checker is the durable lever; keep pushing quality into *structure* (scripts, quote-anchors), not *exhortation*.
 
+### 2026-07-18 — §7 REFLECT run #42 (42%3=0)
+- **Bench re-pricing:** snapshot.py blocked (Yahoo Finance not accessible in remote execution environment) → fell back to web searches for all 13 bench names. Prices as of 2026-07-18: WINA $385.44, CODA $9.84-$10.00, OFLX ~$29.85 (~$308M cap), JOUT $46.25, SMID $30.22, ETON $37.57, DETEC.HE ~€11.25 (ambiguous — €8.38 cited June 26; €11.25 stated as "last close"; likely more recent; flagged as SINGLE-SOURCE), EKF.L 25.4p, 6823.T ¥3,485, 6742.T ¥608, CGS.L ~338p (June 29), EPEN.ST 156.20 SEK, 4549.T ~¥3,050+ (near 52-wk high per earlier data; not fresh-searched).
+- **Buy-zone triggered: 6742.T Kyosan Electric ¥608 < ¥720 buy-zone.** However: ⚑non-EN (Japan TSE, J-GAAP only); already in UNIVERSE.md as CANDIDATE Grade C (C=3); requires primary-language yuho verification before promotion to QUEUED_HOT. Flagged but NOT auto-promoted.
+- **CODA approaching buy-zone:** at $9.84-$10.00, at the upper boundary of $8-10 buy-zone. Not yet triggered. Monitor.
+- **Right input data:** All 13 bench prices are web-search-sourced (trust ~), not snapshot.py verified. Non-EN filers (6742.T, 6823.T, 4549.T) have additional trust caps. The buy-zone trigger for 6742.T must be verified from snapshot.py or live quote before acting.
+- **Universe exploration:** Run #42 sector 14 Japan geo lens; 5889.T CANDIDATE Grade B/C is the only new name promoted. 4668.T Meiko PARK 5/12 confirmed (no moat + structural juku decline). Running total 63 names.
+- **False negatives:** Not formally audited this run. The ~600+ prior triage-kills remain unaudited; systematic re-check deferred to a future REFLECT run once snapshot.py access is restored.
+- **Systemic fix to carry forward:** The web-search fallback for bench re-pricing works but is trust-capped. Priority: restore snapshot.py or implement an alternative reliable price feed so bench updates are ✓-trust rather than ~-trust.
+
 ### 2026-07-18 — Ironclad price/valuation via public API (not LLM web-reading)
 - **Problem:** even with quote-anchoring, an LLM reading price/market-cap/revenue off web pages isn't trustworthy; and the 52-week framing was noise.
 - **Fix:** `tools/snapshot.py TICKER` — live price (Yahoo chart, no auth, US+foreign) + most-recent revenue/GM/net-income/shares from **SEC EDGAR XBRL** (primary filing), then **computes market cap = live price × shares** and P/S, P/E itself (no aggregator trust). Handles the dual-class / stale-cover-page trap (falls back to weighted-avg diluted; flags staleness so a wrong market cap can't ship). Foreign filers → live price only, cap C≤2.
