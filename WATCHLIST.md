@@ -12,5 +12,18 @@ Durable-moat, high-quality businesses (Q≥4, durable moat, real floor) that **p
 | CODA | Coda Octopus | Patented Echoscope real-time 3D sonar — sole product, 15 yrs no replication; net cash, 66% GM | High (Q4/F4) | ~$14 (analyst FV) | **$8–10 / ≤ ~$107M cap** | — | 2026-07-18 |
 | OFLX | Omega Flex | CSST gas-piping duopoly with arc-resistant code advantage; 60% GM, net cash, dividend | High (Q4/F4) | 37x trough PE now | **~$190–220M cap (~2x trough P/S)** | — | 2026-07-18 |
 | DETEC.HE | Detection Technology | X-ray detector OEM, proprietary silicon-photodiode process; net cash, Nordic coverage void | High (Q4/F3) | ~fair now | **a pullback giving a ≥2x path** | — | 2026-07-18 |
+| 4549.T | Eiken Chemical (JP) | FIT colorectal-cancer screening — consumable razor-blade + LAMP IP; regulatory + installed-base moat | High (Q4/F4) ⚑non-EN | at 52-wk high | **a pullback to a fair multiple (≥2x path)** | — | 2026-07-18 |
+| 6823.T | Rion (JP) | Sound/vibration measurement instruments + hearing aids — niche precision moat, net cash | High (Q4/F4) ⚑non-EN | above buy-zone | **the buy-zone from its memo** | — | 2026-07-18 |
+| EKF.L | EKF Diagnostics (UK) | POC hematology analyzers + reagent razor-blade; CE-IVD lock-in, net cash | Med-High (Q3/F4) | ~9.3x EV/EBITDA (fair) | **a pullback / life-sci acceleration → ≥2x** | — | 2026-07-18 |
+| 6742.T | Kyosan Electric (JP) | Rail signaling (interlocking/ATC) — regulatory-certified oligopoly, durable | High (Q4/F3) ⚑non-EN | value, no catalyst | **a cheaper entry with a ≥2x path** | — | 2026-07-18 |
+| CGS.L | Castings plc (UK) | SG/CGI iron castings for CV engines — scale + spec moat, net cash, dividend | Med (Q3/F4) | at consensus FV | **below FV giving a ≥2x path** | — | 2026-07-18 |
+| ETON | Eton Pharmaceuticals | Rare-disease drug portfolio — orphan/regulatory moat; but re-rated ~2.5x already | Med-High (Q4/F3) | ~8x fwd sales (rich) | **a meaningful pullback** | — | 2026-07-18 |
+| SMID | Smith-Midland | Precast concrete — patented J-J Hooks barrier (licensed) moat; upside was capped ~30% | Med (Q3/F3) | 16–19x norm EPS | **a real dip → ≥2x path** | — | 2026-07-18 |
+| EPEN.ST | (Swedish small-cap — confirm name/business) | Re-rated +63% to highs, above consensus; quality UNVERIFIED — confirm the business + moat before it earns a real bench spot | TBD ⚑non-EN | above consensus | **a pullback + quality confirmation** | — | 2026-07-18 |
+| JOUT | Johnson Outdoors | Outdoor brands (Minn Kota, Humminbird) — brand moat, net cash; near fair value, cyclical | Med (Q3/F4) | ~fair now | **a cyclical-trough dip** | — | 2026-07-18 |
+
+*Left OFF the bench deliberately (culled for structural, not price, reasons — not "buy on a dip" names): CIX (85%-owner value trap), HBB (thin/inverted payoff), IOF.L (levered commodity), KMK (binary Siemens floor), KVHI (thin floor), NATR (MLM discount), REC.L (re-rate mechanically blocked), SINT.ST (secular decline), HURC (cyclical, soft moat), LWAY (thin margin).*
+
+⚑non-EN = filings not in English → **enhanced diligence required before promotion** (see METHOD.md): verify the actual primary-language filings for orders/backlog, revenue, margins, cash & shares — high confidence on each metric, not an English summary.
 
 *(The bench grows as the routine finds durable-moat names trading at/above fair value. Names leave the bench when they either dip into the buy-zone → promote, or the moat/quality thesis breaks → drop.)*
