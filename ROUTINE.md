@@ -80,11 +80,16 @@ The old 5-sector clock rotation exhausted itself (each niche swept 4–5×, runs
 
 ---
 
-## §2 — SCOUT (inline, sonnet-tier, ≤6 broad searches, cast WIDE)
+## §2 — SOURCE NAMES (systematic enumeration first, web search second)
 
-Before searching, load the **SEEN set**: all tickers already in `UNIVERSE.md` and `KILL-LIST.md`. Never re-surface a SEEN name (wastes tokens).
+Load the **SEEN set** (all tickers in `UNIVERSE.md` + `KILL-LIST.md` + reviewed CIKs in `COVERAGE.md`). Never re-surface a SEEN name.
 
-Apply THIS run's **geographic lens** (from §1) so a re-swept sector surfaces *fresh* names: append the region to queries (e.g. "Japan", "AIM London", "Korea KOSDAQ", "Nordic Stockholm/Helsinki", "TSX/ASX", "Deutsche Börse/Euronext").
+**§2A — SYSTEMATIC ENUMERATION (the primary top-of-funnel; deterministic, near-zero LLM).** This is where most of the coverage comes from — march a *known* universe best-first, not hope-and-search.
+- **US (fully enumerable):** run `python3 tools/screen.py --min-rev 20 --max-rev 400 --min-gm 45 --profitable-only`. It returns the ranked **worthwhile universe** (~78 profitable high-GM microcaps) + the denominator. Take the next **8–12 highest-ranked names NOT in SEEN** as this run's worklist. Update `COVERAGE.md` (reviewed count, coverage %, cursor). Refresh the screen when the cached list is >~2 weeks old.
+- **Japan/Korea (if `EDINET_KEY` / `OPENDART_KEY` env vars are set):** run the analogous `screen_jp.py`/`screen_kr.py`; else fall through to §2B for these markets.
+- **Other exchanges:** enumerate the listing (exchange list) for a denominator where possible; otherwise §2B.
+
+**§2B — WEB-SEARCH SCOUT (supplement — for markets not yet enumerable, and situation-angles).** Only after §2A, and mainly for the non-US geo lens. Apply THIS run's **geographic lens** (from §1); append the region to queries.
 
 Run **≤6 broad web searches**, each aimed at returning MANY names at once (lists/screens/round-ups, not single companies). **Rotate across TWO angle-families so we don't re-mine the same lists every pass** — pick 3 from the moat-angle set and 2-3 from the situation-angle set:
 
