@@ -14,11 +14,11 @@ The point of the top-of-funnel rework: stop *hoping* web search surfaces names, 
 
 | Market | Bulk source | Key? | Status |
 |--------|-------------|------|--------|
-| **US** | SEC XBRL `frames` API | none | ✅ built (`screen.py`) |
-| **Europe (all EU-regulated exchanges + UK)** | **filings.xbrl.org** — ESEF/UKSEF XBRL index (keyless JSON:API; filing metadata + JSON URLs to the actual statements) | **none** | 🔨 buildable NOW |
-| **Taiwan** | **TWSE OpenAPI** (`openapi.twse.com.tw`) — keyless company list (`t187ap03_L`) + financial statements incl. revenue 營業收入 & cost 營業成本 → GM (`t187ap06_L_ci`); + TPEx OTC | **none** | 🔨 buildable NOW |
-| **Japan** | **EDINET API v2** — XBRL filings | **free key** (subscription key) | ⏳ needs `EDINET_KEY` |
-| **Korea** | **OpenDART** (`opendart.fss.or.kr`) — XBRL financials | **free key** (`crtfc_key`) | ⏳ needs `OPENDART_KEY` |
+| **US** | SEC XBRL `frames` API | none | ✅ built+tested (`screen.py`) — full GM+profit filter, ~78 names |
+| **Taiwan** | TWSE OpenAPI (keyless) | none | ✅ built+tested (`screen_tw.py`) — full GM filter, ~64 names |
+| **Europe** (EU exchanges + UK) | filings.xbrl.org ESEF/UKSEF (keyless) | none | ✅ built+tested (`screen_eu.py`) — enumeration; per-name fundamentals |
+| **Japan** | EDINET API v2 | free key | ✅ built+tested (`screen_jp.py`) — key WORKS; **add `EDINET_KEY` to routine cloud env for prod** |
+| **Korea** | OpenDART (`opendart.fss.or.kr`) | free key | ⏳ `screen_kr.py` pending `OPENDART_KEY` |
 | **Canada** | mostly via SEC (many TSX names file 40-F/20-F, already in US frames) + per-name Yahoo (.TO) | none | partial |
 | **Australia/NZ** | no free bulk fundamentals; per-name Yahoo (.AX/.NZ) | none | per-name |
 | **UK (also)** | Companies House API (free key) — but UK already covered by filings.xbrl.org UKSEF | free key | redundant |

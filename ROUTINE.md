@@ -84,10 +84,13 @@ The old 5-sector clock rotation exhausted itself (each niche swept 4–5×, runs
 
 Load the **SEEN set** (all tickers in `UNIVERSE.md` + `KILL-LIST.md` + reviewed CIKs in `COVERAGE.md`). Never re-surface a SEEN name.
 
-**§2A — SYSTEMATIC ENUMERATION (the primary top-of-funnel; deterministic, near-zero LLM).** This is where most of the coverage comes from — march a *known* universe best-first, not hope-and-search.
-- **US (fully enumerable):** run `python3 tools/screen.py --min-rev 20 --max-rev 400 --min-gm 45 --profitable-only`. It returns the ranked **worthwhile universe** (~78 profitable high-GM microcaps) + the denominator. Take the next **8–12 highest-ranked names NOT in SEEN** as this run's worklist. Update `COVERAGE.md` (reviewed count, coverage %, cursor). Refresh the screen when the cached list is >~2 weeks old.
-- **Japan/Korea (if `EDINET_KEY` / `OPENDART_KEY` env vars are set):** run the analogous `screen_jp.py`/`screen_kr.py`; else fall through to §2B for these markets.
-- **Other exchanges:** enumerate the listing (exchange list) for a denominator where possible; otherwise §2B.
+**§2A — SYSTEMATIC ENUMERATION (the primary top-of-funnel; deterministic, near-zero LLM).** March a *known* universe best-first, not hope-and-search. Pick the tool for THIS run's geo lens; take the next **8–12 names NOT in SEEN** as the worklist; update `COVERAGE.md` (reviewed, coverage %, cursor); refresh a cached screen when >~2 weeks old.
+- **US** — `python3 tools/screen.py --min-rev 20 --max-rev 400 --min-gm 45 --profitable-only` → ranked worthwhile universe (~78) + denominator (full GM+profitability quant filter).
+- **Taiwan** — `python3 tools/screen_tw.py --min-gm 45` (keyless TWSE) → ranked worthwhile microcaps (~64) with GM filter. Add TPEx OTC later.
+- **Japan** — `EDINET_KEY` set → `python3 tools/screen_jp.py --days N` enumerates listed filers (denominator + worklist); fundamentals per-name (non-English rule).
+- **Europe** — `python3 tools/screen_eu.py --countries DE,FR,SE,FI,NL,GB,...` (keyless filings.xbrl.org) enumerates ESEF/UKSEF filers (denominator + worklist); resolve LEI→ticker, fundamentals per-name.
+- **Korea** — `OPENDART_KEY` set → `screen_kr.py` (to build); else §2B.
+- **Canada/Australia & anything without a bulk feed** — §2B, or note the exchange-list denominator and march per-name.
 
 **§2B — WEB-SEARCH SCOUT (supplement — for markets not yet enumerable, and situation-angles).** Only after §2A, and mainly for the non-US geo lens. Apply THIS run's **geographic lens** (from §1); append the region to queries.
 
