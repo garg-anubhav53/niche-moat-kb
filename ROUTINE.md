@@ -39,6 +39,7 @@ Log `names_processed` every run so throughput is visible and can be pushed highe
 The old 5-sector clock rotation exhausted itself (each niche swept 4–5×, runs returning 0 new names). We now rotate a **cursor** through a **20-sector universe** so we are always working relatively fresh ground.
 
 **Procedure:**
+0. **One-shot GEO/SECTOR OVERRIDE:** if `STATE.md` has a `Geo override:` line set (non-empty), use it as THIS run's geo lens (and sector if specified), run §2A with that market's screener, then **clear the override** in §6 (set it back to empty). This lets a human pin a specific market for one run.
 1. Read the **Sector Rotation** table in `STATE.md` (sector id · passes · status · last-new-find).
 2. Pick the **next non-EXHAUSTED sector after the last one run** (wrap around). Skip any sector marked `EXHAUSTED` unless every sector is exhausted (then pick the one with the oldest last-new-find and treat it as a fresh-angle re-sweep).
 3. After the run, update that sector's row: increment `passes`; if the run found **0 new QUEUED names**, note it — **2 consecutive 0-new passes → mark `EXHAUSTED`** (it can be revived later by a new geographic lens or a down-cap sweep).

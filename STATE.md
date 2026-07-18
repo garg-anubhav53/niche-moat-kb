@@ -3,6 +3,7 @@
 Sector is chosen by the **Sector Rotation cursor** below (ROUTINE.md §1 v3): pick the next non-EXHAUSTED sector after the last run, rotate the geographic lens, mark a sector EXHAUSTED after 2 consecutive 0-new passes (revive later with a new geography/down-cap sweep).
 
 ## Sector Rotation (cursor)
+Geo override: **Japan (run `tools/screen_jp.py` with EDINET_KEY — enumerate listed filers, take top unseen names, full pipeline incl. snapshot.py live price + non-English primary-filing diligence; CLEAR this override in §6 after the run)**
 Last sector run: **14 (Consumer niche & branded franchises, 2nd pass)** · Last geo lens: Japan TSE (consumer/brand)
 NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/$20-300M. **Priority now = the NEW sectors 5-19 (fresh ground) and fresh geographies on 0-4.**
 
