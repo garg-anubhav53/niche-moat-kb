@@ -180,9 +180,10 @@ If any of 2–4 fail, the name is **CANDIDATE with a buy-zone**, not WATCH. Ther
 
 Deep-dive **up to TWO** names per run — but ONLY genuine `QUEUED_HOT` (score ≥10, quality ≥1). If two clear the bar, do both; if one, do one; if none, pull the single highest-scoring deferred QUEUED from `STATE.md`. Never deep-dive a name below the bar to fill a quota.
 
-**Fetch cheap, reason well (worker/extractor split):**
-- **Fetchers = haiku, pure retrieval.** Dispatch a haiku sub-agent to pull the raw material — the actual latest filing statements (10-K/10-Q/20-F income statement, balance sheet, cash flow) from EDGAR/IR + the aggregator cross-check. It returns numbers/text verbatim, no interpretation.
-- **Reasoner = the deep-dive itself (sonnet/opus, NO schema, heavy writer).** It reads and reasons on the fetched material: triangulates the §3.5 baseline against the primary filing, judges moat/floor, coaches where to be skeptical, and writes the memo.
+**Fetch cheap, reason well, then RED-TEAM hard (three tiers):**
+- **Fetchers = haiku, pure retrieval.** Pull the raw material — actual latest filing statements (income statement, balance sheet, cash flow) from EDGAR/IR + `snapshot.py` — verbatim, no interpretation.
+- **First-pass reasoner = sonnet (NO schema).** Reads the fetched material, applies METHOD.md, writes the provisional memo (grade/tier/Q-F-R-C).
+- **ESCALATION — throw OPUS at every cleared candidate.** If the first pass lands the name at **CANDIDATE-or-better OR flags high apparent asymmetry that price doesn't bar** (i.e. a name we'd plausibly want to watch), it earns a mandatory **OPUS adversarial pass** (`agentType`/model = opus) that runs the **Adversarial Red-Team (METHOD.md — the 12 failure modes)** and produces the **RISK PROFILE**. Its job is to BREAK the thesis: re-derive every load-bearing number from primary source, strip one-offs, decompose revenue quality, stress moat durability 3/5/10yr, hunt the disclosure that flips it, check the asymmetry isn't already captured. **A name is only CONFIRMED as CANDIDATE+/graded after surviving the Opus red-team.** If it doesn't survive, downgrade (PARK/Bench/PASS) and record why. Widen the scope here — a fuller, more complete diagnosis is the point; don't be narrow on a name with a real chance of being interesting.
 
 **The deep-dive MUST apply `METHOD.md` in full** — that file is the analytical core. Concretely:
 0. **Verify the §3.5 Financial Baseline against the primary filing** (fetched above) — confirm revenue/margin trend, net cash/debt, share-count/dilution, and FCF are real; resolve any ⚠ DISCREPANT figures; scan the statements for going-concern, receivables/inventory build, capitalized-cost/one-time flattering, related-party items. State "verified against 10-K/20-F: YES/PARTIAL/NO".
@@ -192,7 +193,7 @@ Deep-dive **up to TWO** names per run — but ONLY genuine `QUEUED_HOT` (score �
 4. **Assess data quality / coverage confidence** explicitly (feeds C) — is the disclosure good, did we find the true comparable set, what are the open unknowns.
 5. **Produce the Risk-Adjusted Asymmetry grade (A/B/C/D) and Tier (CORE/CATALYST/WATCH/CANDIDATE/PARK)** per METHOD.md, plus buy-zone / upgrade-trigger / downgrade-trigger.
 
-Write the full verdict to `memos/[TICKER]-[YYYY-MM-DD].md`, ending with the required summary block from METHOD.md — **including the HUMAN VERIFICATION CHECKLIST.** We are surfacing a strong *candidate for a human to vet*, not an AI verdict: hand off the 3–5 things a person must independently confirm before capital, and when a genuinely high-quality name has imperfect data, surface it with flags rather than silently killing it.
+Write the full verdict to `memos/[TICKER]-[YYYY-MM-DD].md`, ending with the required summary block from METHOD.md — **including the OPUS RED-TEAM RESULT (12 checks: pass/fail + what it caught), the RISK PROFILE (load-bearing assumption · clean operating earnings & what it's actually worth · informative trigger · moat durability 3/5/10yr · revenue-quality decomposition · the disclosure that would flip it · return if nothing re-rates), and the HUMAN VERIFICATION CHECKLIST.** We surface a strong *candidate for a human to vet*, not an AI verdict — but the Opus pass must have genuinely tried to break it first.
 
 **Status assignment:**
 - **CORE** — Q≥4 & F≥4 (own-and-hold quality; catalyst optional). A high-quality protected business with no near-term catalyst belongs HERE, not killed.
