@@ -1941,3 +1941,65 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 | Ticker | Company | Date | Resolution | Notes |
 |--------|---------|------|-----------|-------|
 | 5889.T | Japan Eyewear Holdings Co., Ltd. | 2026-07-18 | **CANDIDATE Grade B/C** | Deep-dived run #42. Q4/F3/R2/C2trust (trust-adjusted; underlying Q4/F3/R2/C4 = Grade B). SPA vertically integrated eyewear (Olive des Olive Optical and other brands); 79%+ GM franchise-grade ✓; FY2026 revenue ¥18,640M (+11.8%) ✓; OP ¥5,957M (32.0% margin) ✓; NI ¥3,783M (−4.7% YoY vs OP +11.8%) ✓ (⚠ below-the-line drag unexplained); ¥11.95B syndicated loan (Feb 2026) ✓. Non-EN primary filing (有価証券報告書) NOT read; data from Japan IR English disclosure + aggregators; trust-capped C≤2 per non-EN rule. 1 Japanese analyst; PT ¥2,269 BELOW current ¥2,323. Asymmetry Gate borderline fail at ¥2,323. Buy-zone ≤¥1,900–2,000. Human verification checklist: 14 items. Memo: memos/5889.T-2026-07-18.md. |
+| HNL.DE | Dr. Hönle AG (Hoenle AG) | 2026-07-19 | **PARK Grade D** | Deep-dived run #43. Q2/F2/R2/C3. UV curing PROCESS moat genuine (50yr specialist; retooling switching cost in industrial production lines) but §5 corrected 3 major scout data errors: (1) "0 analysts" WRONG → 3 active German analysts (NuWays €15 Buy, mwb Research €20 Buy, Warburg €19 Buy); (2) "98% gap to €18 PT" STALE → current PTs €15-€20; (3) "0.55x P/S cheap" MISLEADING → EV/Revenue ~1.0x, EV/EBITDA ~16x with €42.7M net debt. Corrected scorecard: Revenue declining 3rd consecutive year €115M→€99M→€94M; EBITDA €5.769M (6.2% margin); Anglo-Saxon GM ~53.6% (not Rohergebnis 65.9%); net income -€3.14M FY2024/25; H1 FY2025/26 revenue -3.9%, EBITDA -9.5%; Manroland Sheetfed insolvency headwind; €42.7M net debt (year-end), EV ~€94M, 6,062,930 shares. All 4 Asymmetry Gate conditions fail. 2x math: stock €9→€18 needs EV ~€144-149M; at 12x EBITDA needs ~€12.5M EBITDA = 108% growth from €5.769M = heroic. Not a bench name (leverage + thinning margins + turnaround risk). Revisit if EBITDA ≥€9M AND GM ≥57% AND revenue ≥€100M AND net debt <€30M AND stock ≤€7. Memo: memos/HNL.DE-2026-07-19.md. Financials: financials/HNL.DE.md |
+
+---
+
+## Run #43 — Japan TSE Sector-15 Kills (2026-07-19)
+
+Sector 15 (Exchanges/data/niche financials) 2nd pass, Japan TSE geo lens. EDINET API 403 Forbidden proxy — web search enumeration. 20 names processed, 20 killed, 0 new QUEUED.
+
+### Coverage Kills (>4 analysts)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 8771.T | Japan Exchange Group (JPX) | ~¥1.7T (~$11.5B) | 2026-07-19 | COVERAGE_KILL + CAP_KILL: Japan's primary stock exchange operator; ~10+ analysts; massive cap; textbook REGULATORY moat but far above any cap screen |
+| 2127.T | Nihon M&A Center Holdings | ~¥200-300B (~$1.4-2B) | 2026-07-19 | COVERAGE_KILL: Japan's largest M&A advisory platform for SME deals; 5+ Japanese analysts; extended-zone cap; network effects moat but well-covered and re-rated already |
+| 7177.T | GMO Financial Holdings | ~¥200B (~$1.4B) | 2026-07-19 | COVERAGE_KILL + CAP_SOFT_KILL: GMO internet group financial subsidiary; online brokerage + FX; well-covered; no structural coverage void |
+
+### Cap Kills (>$1.5B or <$20M)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 3679.T | じげん (Jigen Inc.) | ~¥30B (~$200M) | 2026-07-19 | CAP_KILL: online job/car/real estate media aggregator; ~$200M cap borderline; 3+ analysts; no structural moat in competitive Japanese media aggregation; COVERAGE_KILL overlap |
+| 3769.T | GMO Payment Gateway | ~¥500B (~$3.4B) | 2026-07-19 | CAP_KILL: Japan online payment processing; well above cap ceiling; COVERAGE_KILL; network moat genuine but massively over-capped |
+| 8723.T | MS&AD Insurance Group Holdings | ~¥3T+ | 2026-07-19 | CAP_KILL: major Japanese non-life insurer; far above any cap screen; oligopoly but giant-cap |
+| 8751.T | T&D Holdings | ~¥800B (~$5.4B) | 2026-07-19 | CAP_KILL: Japanese life insurer (Taiyo Life + Daido Life); massively over-capped |
+| 8572.T | ACOM Co., Ltd. | ~¥500B+ | 2026-07-19 | CAP_KILL: Japanese consumer finance / Mitsubishi UFJ subsidiary; massively over-capped; no coverage void |
+| 8732.T | Money Partners Group | ~¥8-15B (~$55-100M) | 2026-07-19 | CAP_KILL: borderline small; online FX brokerage; no durable structural moat vs GMO/SBI/Gaitame; highly competitive FX broker market with thin regulatory moat |
+| 4478.T | Freee K.K. | ~¥300B (~$2B) | 2026-07-19 | CAP_KILL: Japanese cloud accounting SaaS (SMB accounting, HR, payroll); well above $1.5B ceiling; COVERAGE_KILL with 8+ analysts; genuine SWITCHING_COST moat but over-capped |
+
+### Cap Soft Kills ($300M–$1.5B, no exceptional asymmetry)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 8511.T | Japan Securities Finance Co. (日証金) | ~¥150-250B (~$1-1.7B) | 2026-07-19 | CAP_SOFT_KILL: Japanese margin lending monopoly (TSE designated sole clearing margin lender); genuine REGULATORY moat but extended-zone cap without exceptional asymmetry; 3+ Japanese analysts; 0 Western analyst void limited by extended-zone |
+| 4765.T | Morningstar Japan K.K. | ~¥50-80B (~$340-540M) | 2026-07-19 | CAP_SOFT_KILL: Japan subsidiary of Morningstar Inc.; investment research data licensing; ~$400M+ cap; limited coverage void (Morningstar parent well-known); no structural QUEUED-worthy asymmetry at this cap |
+| 6080.T | M&A Capital Partners Co., Ltd. | ~¥120-200B (~$820M-1.4B) | 2026-07-19 | COVERAGE_KILL + CAP_SOFT_KILL: Japan M&A advisory for SME succession; 4+ analysts; extended-zone cap; competing directly with 2127.T Nihon M&A Center; no coverage void |
+| 8698.T | Matsui Securities Co., Ltd. | ~¥300-400B (~$2-2.7B) | 2026-07-19 | COVERAGE_KILL + CAP_SOFT_KILL: Japan online brokerage; 4+ analysts; cap above $1.5B ceiling; no structural coverage void |
+
+### Integrity Kills
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 6035.T | IR Japan Holdings, Inc. | ~¥13B (~$88M) | 2026-07-19 | INTEGRITY_KILL: Japan IR advisory and proxy solicitation firm. TSE delisting process underway + SEC investigation disclosed (securities fraud allegations involving CEO Kazutaka Kikuyama regarding insider trading and alleged manipulation of shareholder vote tallying at proxy contests). ¥8,500 analyst PT is STALE PRE-SCANDAL pricing; stock had collapsed from highs. INTEGRITY_KILL on TSE delisting risk + active SEC investigation. Despite genuine SWITCHING_COST moat (proxy solicitation relationships are sticky; IR advisory has long-term retainer structure), the integrity failure is categorical and unrecoverable under KB rules. |
+
+### No-Moat Kills
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 8742.T | Yutaka Shoji Co., Ltd. (豊商事) | ~¥5-15B (~$34-100M) | 2026-07-19 | NO_MOAT_KILL: Japan commodity futures brokerage (agricultural/food commodity futures); competitive commodity brokerage; no structural switching cost moat; margin compression from electronic trading displacing traditional floor brokers; declining TAM |
+| 8606.T | Sotec Co. / Aeon Financial Service | ~varies | 2026-07-19 | NO_MOAT_KILL: Japanese consumer credit / store card issuer (Aeon group financial subsidiary); store card issuer model = competitive; no structural regulatory monopoly; Aeon parent relationship = dependent subsidiary not independent moat; commodity consumer finance |
+| 8628.T | Matsumoto Securities Co., Ltd. | ~¥2-5B (~$14-34M) | 2026-07-19 | NO_MOAT / NOT_PUBLIC_KILL: Japanese regional securities broker; below $20M floor (if ~¥2B) or borderline; commodity securities brokerage with no durable switching cost vs major online brokers (SBI/Rakuten/Matsui); no structural moat |
+
+### Not Public / Below Floor Kills
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 4710.T | (ticker ambiguous / below-floor or de-listed entity) | <¥3B est. | 2026-07-19 | NOT_PUBLIC or below-$20M-floor: ticker 4710.T could not be confirmed as a currently-listed independent exchange/financial data company; possible de-listed or shell entity; below floor if confirmed. Excluded from further consideration. |
+
+### Park
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| 3807.T | Fiscal Note / Financial Engine Japan (フィスコ) — FISCO Co., Ltd. | ~¥3-10B (~$20-68M) | 2026-07-19 | PARK 5/12: Japanese financial media + stock analysis data provider (FISCO stock analysis platform; company research notes subscription). Data aggregation is competitive vs Bloomberg/Refinitiv/Nikkei; switching cost low; business model under pressure from free data aggregators. Borderline cap; 0 Western analysts but no durable regulatory moat. Quality=1 (profitable but thin margins; no strong moat signal). Score 5/12 PARK. Revisit only if proprietary data moat demonstrably strengthens (exclusive licensed data, not aggregated). |
