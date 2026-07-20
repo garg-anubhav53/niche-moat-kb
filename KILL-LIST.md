@@ -200,6 +200,7 @@ Names that failed the asymmetry or integrity gates.
 | TARS | Tarsus Pharmaceuticals | 4–6 analysts | 2026-07-17 | XDEMVY (lotilaner 0.25%) for Demodex blepharitis (first-and-only FDA-approved Demodex eyelid mite treatment 2023); genuine first-and-only REGULATORY moat; but 4-6 analysts = coverage above threshold |
 | HROW | Harrow Health | 4–5 analysts | 2026-07-17 | Ophthalmic specialty pharma (VEVYE cyclosporine, IHEEZO, TRIESENCE triamcinolone; 503B compounding + branded ophthalmic); REGULATORY moat elements; but 4-5 analysts = coverage threshold |
 | INVA | Innoviva Inc | 4–5 analysts | 2026-07-17 | Royalty income from Relvar/Breo Ellipta (GSK partnership; LABA/ICS combination for COPD/asthma); CONTRACTUAL royalty moat; but 4-5 analysts = coverage threshold |
+| TSTL.L | Tristel plc (AIM London) | 6 analysts (5 Buy, 1 Hold) | 2026-07-20 | Chlorine dioxide FIFE single-use decontamination wipes for endoscopes/surgical instruments; CONSUMABLE+REGULATORY moat confirmed (81% GM, NHS embedded, US FDA 510(k) in progress); **triage data error: noted "0-1 analysts" — confirming search run #44 revealed 6 AIM analysts (5 Buy, 1 Hold)**; coverage gate triggered → COVERAGE_KILL. Underlying quality is HIGH — REVISIT only if analyst count drops to ≤2. |
 
 ---
 
@@ -2003,3 +2004,48 @@ Sector 15 (Exchanges/data/niche financials) 2nd pass, Japan TSE geo lens. EDINET
 | Ticker | Company | ~Cap | Date | Reason |
 |--------|---------|------|------|--------|
 | 3807.T | Fiscal Note / Financial Engine Japan (フィスコ) — FISCO Co., Ltd. | ~¥3-10B (~$20-68M) | 2026-07-19 | PARK 5/12: Japanese financial media + stock analysis data provider (FISCO stock analysis platform; company research notes subscription). Data aggregation is competitive vs Bloomberg/Refinitiv/Nikkei; switching cost low; business model under pressure from free data aggregators. Borderline cap; 0 Western analysts but no durable regulatory moat. Quality=1 (profitable but thin margins; no strong moat signal). Score 5/12 PARK. Revisit only if proprietary data moat demonstrably strengthens (exclusive licensed data, not aggregated). |
+
+---
+
+## Run #44 — Sector 16 (2nd pass, European XTRA/Euronext) + RSL2.DE §5 Deep-Dive (2026-07-20)
+
+Sector 16 (Energy-transition picks-and-shovels) 2nd pass, European XTRA/Euronext geo lens. ~27 names processed, 0 new QUEUED, sector now **EXHAUSTED** (2nd consecutive 0-new pass). Also: TSTL.L COVERAGE_KILL from deferred queue (6 analysts confirmed, not 0-1 as triage noted). RSL2.DE deep-dived → PARK Grade D.
+
+### Structural Finding: Sector 16 European Pass Exhausted
+
+Same structural result as US 1st pass (run #35): development-stage losses dominate the sub-€300M European energy-transition universe. The few quality names (Alfen, Voltalia, Greenvolt, Acciona Energía) are all either >€1.5B, already acquired, or covered by 5+ analysts. The picks-and-shovels angle for explosion protection / grid reliability in this sector is better represented under Sector 11 (Electrical & Power Components) and Sector 9 (Environmental/waste/water), not Sector 16. **Sector 16 = EXHAUSTED.**
+
+### Coverage Kill (from deferred queue)
+
+| Ticker | Company | Analysts | Date | Reason |
+|--------|---------|----------|------|--------|
+| TSTL.L | Tristel plc (AIM London) | 6 (5 Buy, 1 Hold) | 2026-07-20 | **Triage data error correction** (run #40 had noted "0-1 analysts" — incorrect). Confirming search revealed 6 AIM analysts with active coverage. COVERAGE_KILL gate triggered. Business quality underlying is high (81% GM CONSUMABLE+REGULATORY moat, NHS embedded, US FDA 510(k) in progress); however, the structural exclusion edge is absent at 6-analyst coverage density. REVISIT if coverage drops to ≤2 AND asymmetry gate opens on a price pullback. |
+
+### Integrity / Development-Stage Kills (European Sector 16 2nd pass)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| MCPHY.PA | McPhy Energy | <€100M | 2026-07-20 | INTEGRITY_KILL: green hydrogen electrolyzer developer; going-concern risk; operating losses; pre-commercial revenue; development-stage |
+| NEL.OL | Nel ASA | ~€700M+ | 2026-07-20 | INTEGRITY_KILL + CAP_KILL: Norwegian hydrogen electrolysis; persistent operating losses; revenue not covering fixed costs; cap above ceiling |
+| HPUR.OL | Hexagon Purus | <€200M | 2026-07-20 | INTEGRITY_KILL: hydrogen cylinder/storage systems; pre-profitable development stage; serial dilution |
+| PCELL.ST | Powercell Sweden | ~€200-400M | 2026-07-20 | INTEGRITY_KILL + CAP_SOFT_KILL: fuel cell systems (marine/stationary); operating losses; minimal revenue |
+| ELGN.PA | Elogen (Air Liquide subsidiary; not independently listed separately) | N/A | 2026-07-20 | NOT_PUBLIC: PEM electrolyzer division of Air Liquide; no independent listing |
+| ALHAF.PA | Haffner Energy | <€50M | 2026-07-20 | INTEGRITY_KILL: thermolysis/HYNOCA hydrogen; development stage; going-concern risk; revenue minimal |
+| LHYFE.PA | Lhyfe | <€100M | 2026-07-20 | INTEGRITY_KILL: green hydrogen production (wind-powered); ongoing losses; pre-commercial scale; development-stage |
+| AFC.L | AFC Energy | <£100M | 2026-07-20 | INTEGRITY_KILL: alkaline fuel cell for commercial/industrial; going-concern risk; serial dilution; no commercial revenue at scale |
+| GVOLT.LS | Greenvolt | — | 2026-07-20 | M&A_KILL: Greenvolt taken private by Brookfield / EDP consortium 2024; delisted from Euronext Lisbon |
+
+### Cap / Coverage Kills (European Sector 16 2nd pass)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| ALFN.AS | Alfen (Netherlands) | ~€1.5-2B | 2026-07-20 | CAP_KILL: EV charging, smart grid, energy storage; genuine picks-and-shovels position; but far above cap ceiling and 5+ analysts |
+| VLTSA.PA | Voltalia (France) | ~€600M | 2026-07-20 | CAP_SOFT_KILL + COVERAGE_KILL: renewable energy project developer (wind/solar/hydro); 5+ analysts; no equipment moat — project developer not picks-and-shovels |
+| GRN.MC | Greenalia (Spain) | — | 2026-07-20 | INTEGRITY_KILL: biomass/bioenergy project developer; near-INTEGRITY concerns; no equipment moat |
+| ETP.L | Eneraqua Technologies (AIM) | ~£50-100M | 2026-07-20 | NO_MOAT: energy and water infrastructure services contractor; competitive market; no regulatory certification monopoly |
+
+### §5 Deep-Dive: RSL2.DE — PARK Grade D
+
+| Ticker | Company | Score | Grade | Reason |
+|--------|---------|-------|-------|--------|
+| RSL2.DE | R.Stahl AG | Q3/F2/R1/C3 | **PARK Grade D** | ATEX/IECEx explosion-protected electrical equipment — moat is real and 140-year durable. BUT: (1) stock already +29% from €13.10 triage to €16.87 current; (2) analyst consensus PT €18.875 = only +12% upside; (3) FY2025 EBITDA "stable" headline includes temporary items — FY2026 guided EBITDA €22-27M (-29% from headline); (4) EBIT near-zero/negative FY2026; (5) FCF -€0.3M FY2025 / -€1.6M Q1 2026; (6) net debt growing from €34.9M; (7) no hard-dated catalyst (NEXUS = multi-year restructuring; O&G recovery = diffuse). Asymmetry Gate 4/4 fail. Q=3 fails Q≥4 Bench threshold. F=2 (thin floor, FCF burning) fails real-floor Bench requirement. PARK not Bench. REVISIT: revenue stabilizes ≥€285M + EBITDA recovers toward €28M+ + FCF positive + price ≤€11-12. See memos/RSL2.DE-2026-07-20.md + financials/RSL2.DE.md. |
