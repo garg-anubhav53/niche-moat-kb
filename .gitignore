@@ -17,3 +17,4 @@ briefs/
 
 # Logs
 *.log
+tools/__pycache__/
