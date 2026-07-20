@@ -467,7 +467,7 @@ Names that failed the asymmetry or integrity gates.
 
 | Ticker | Company | Reason | Date |
 |--------|---------|--------|------|
-| IHC.L | Inspiration Healthcare (AIM London) | Neonatal/pediatric ICU devices (SleepSafe CPAP, airway management); ~£15-20M cap (also CAP_KILL borderline); BUT multiple competitors in neonatal respiratory support (Dräger, Fisher & Paykel Healthcare, Intersurgical, Hamilton Medical); no confirmed sole-source or regulatory lock-in position; NO_MOAT_KILL | 2026-07-16 |
+| IHC.L | Inspiration Healthcare Group plc (AIM London) | Neonatal/pediatric ICU devices (SLE neonatal ICU ventilators, SleepSafe CPAP, airway management; sold in 75+ countries; ~£47.5M revenue); ~£15-20M cap (~0.4x P/S — anomalous discount); **PARK** (reclassified run #47 from NO_MOAT_KILL: prior kill understated the specialist SLE neonatal ventilator sub-segment position; 0.4x P/S discount warrants investigation before full kill; competitors Dräger/Fisher & Paykel/Intersurgical operate in broader neonatal respiratory — SLE neonatal ventilator specificity unconfirmed; CAP_KILL concurrent at ~£20M borderline; primary AIM filing required before §5) | 2026-07-20 |
 
 ### Quality Kills / Anti-Value-Trap (quality=0)
 
@@ -2128,3 +2128,22 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | Ticker | Company | Score | Date | Reason |
 |--------|---------|-------|------|--------|
 | 4537.TWO | Shuz Tung Machinery Industrial (TPEX: 4537) — 樹德機械 | 5/12 | 2026-07-20 | PARK 5/12: dual-brand machinery (Shuz Tung legacy pipe benders/hydroforming + WisePioneer semiconductor inspection equipment). WisePioneer makes Automatic Wafer Probe Card Optical Inspection Equipment — niche sub-segment with real precision-mechanics depth. Profitable FY2024 (NTD 71M) and FY2025 (NTD 126M, though non-op income inflated FY2025 figure vs FY2024 operating income of NTD 113M). GM ~37.7-40% decent. 0 analysts (TPEX OTC). USD ~$83M cap. BUT: (1) Moat=1 — probe card inspection equipment is niche but not sole-source; iST does adjacent inspection services; FormFactor/Japanese firms compete in broader probe test space; no confirmed regulatory/IP monopoly; (2) Legacy pipe bender/hydroforming segment dilutes moat story; (3) Balance sheet unknown (MOPS filing not accessible); (4) Revenue data inconsistency (NTD 941M vs 1.82B for FY2024 — unresolved); (5) Non-EN TPEX filing → cap C≤2; (6) No catalyst. Score: Moat 1 + Quality 1 + Coverage 2 + Val 1 + Cat 0 + Floor 0 = 5/12. Fails Asymmetry Gate (need ≥2x bull, NOW, discrete trigger). REVISIT IF: primary MOPS filing accessed + confirms net cash position + WisePioneer segment revenue separately disclosed ≥NTD 600M + specific probe card OEM qualification announced. |
+
+---
+
+## Run #47 — Sector 19 (2nd pass, UK AIM+ASX+Nordic/Canada geo lens) · 2026-07-20
+
+*~38 names processed; ~27 killed (bulk kills generic — cap/coverage/no-moat/sector, not individually recorded below); 4 QUEUED/WATCH (STX.L→§5→WATCH Grade C, DXRX.L QUEUED, SEDANA.ST QUEUED, MDP.TO QUEUED); 1 Quality Bench addition (RX.V); IHC.L reclassified from NO_MOAT_KILL to PARK (entry above corrected run #47).*
+
+### Coverage Kills
+
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|--------------|------|--------|
+| PHO.OL | Photocure ASA (Oslo Bors) | 5-7 (Norwegian regional: Pareto Securities, DNB Markets, ABG Sundal Collier, Arctic Securities, Carnegie; MarketScreener shows ≥3 — undercount of Norwegian-only aggregators) | 2026-07-20 | COVERAGE_KILL: sole FDA+EMA approved blue-light cystoscopy agent for bladder cancer detection (Hexvix/Cysview; hexaminolevulinate, HAL); US patent to Dec 2036; ~94% gross margin; NOK 0 debt (debt-free); OCF NOK 76.8M; Revenue NOK 525.4M FY2024 (+4.9%); exceptional moat quality (REGULATORY MONOPOLY). BUT Norwegian sell-side covers tightly (5-7 analysts Oslo Bors). Structural exclusion. REVISIT ONLY IF analyst count drops to ≤2 OR company delists/relists on AIM/Nasdaq with reduced coverage. financials/PHO.OL.md written for KB record. |
+| CUV.AX | Clinuvel Pharmaceuticals (ASX: CUV) | 7 (Bell Potter, Canaccord, Wilsons, MST Financial, others confirmed) | 2026-07-20 | COVERAGE_KILL: sole FDA+EMA approved treatment for erythropoietic protoporphyria (EPP) — afamelanotide (SCENESSE subcutaneous implant); genuine REGULATORY MONOPOLY moat in ultra-rare disease; ~A$300-400M cap; strong gross margins; profitable. BUT 7 ASX sell-side analysts = COVERAGE_KILL (>4 threshold). REVISIT ONLY IF analyst count drops to ≤2. |
+
+### §5 Deep-Dive: STX.L — WATCH Grade C
+
+| Ticker | Company | Score | Grade | Reason |
+|--------|---------|-------|-------|--------|
+| STX.L | Shield Therapeutics plc (AIM) | Q2/F2/R3/C2 | **WATCH Grade C** | ACCRUFeR (ferric maltol) oral iron — #1 branded oral iron US, +54% FY2025 revenue ($49.7M), genuine profitability catalyst (H1-2026 results Sept 2026; Q1-2026 profitable). BUT: (1) Central "REMS lock-in" moat FABRICATED — ACCRUFeR has no REMS; no ETASU; dispensed through ordinary pharmacy; (2) Polymorph-only patent (no COM patent; ferric maltol is old molecule; NCE exclusivity expired 2024; Para IV window open since July 2023; crystalline-form patent to est. Oct 2035); (3) ~5x share dilution 2022–2026 (216M→1,069M shares); (4) AOP Health controlling shareholder >50% at 3.0p cost basis (Rule 9 waiver); (5) Viatris partner terms contractually confidential (term, termination, minimums unknown); (6) ~12.25% effective debt cost ($22M drawn of $50M facility; SWK/Runway); (7) Squeezed between penny-cost ferrous generics below and IV iron (Injectafer +9% CAGR) above; (8) 40% of FY2025 revenue growth was non-repeatable net-price increases. Asymmetry Gate FAIL (Cond3: fat downside not offset by upside). WATCH not CATALYST: real growth business + discrete catalyst but red-flag cluster prevents Asymmetry Gate clearance. Buy-zone: ~3.0–4.0p (near AOP 3.0p cost basis). Upgrade trigger: H1-2026 confirms sustained profit + no further dilution + Viatris terms/Orange Book/Para IV verified clean. Memo: memos/STX.L-2026-07-20.md · financials/STX.L.md |
