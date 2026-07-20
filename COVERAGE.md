@@ -85,6 +85,22 @@ The point of the top-of-funnel rework: stop *hoping* web search surfaces names, 
 
 ---
 
+## Sector 10 (Value-added/sole-line distribution) — Pass 2 Coverage Notes (run #48, 2026-07-20)
+
+**UK AIM + European exchanges geo lens:** ~38 names processed; 0 new QUEUED. Structural thinness confirmed as a durable characteristic of the sector, not a data gap.
+
+**Why UK/European sole-line distribution is structurally thin for this screen:**
+- **PE consolidation wave (2015-2023):** most quality micro-cap distributors with genuine niche exclusivity have been acquired by private equity (Bunzl, DCC, Diploma, Wolseley successors now large-cap; numerous former AIM distributors delisted/privatised). What remains public is either commodity-ish distribution or over-covered mid-cap.
+- **Dominant moated names are private:** RS Group (formerly Electrocomponents), Brammer/Rubix, Würth, Hagemeyer all private or >£1.5B. The genuine "sole-line specialist with contractual switching costs" names tend to go private quickly.
+- **AIM small-cap distributors reviewed:** ~20 UK AIM names at £20-300M cap; near-universal result: thin margins (3-8% EBIT), commodity product ranges, no contractual lock-in, multi-supplier switching easy. No QUEUED names survived.
+- **European exchange names reviewed:** ~18 names on Xetra, Euronext, Nasdaq Stockholm in cap range; same structural result — food/industrial distributors with GM 15-30%, regional competitors, no moat claim.
+
+**Net result: 0 new QUEUED from ~38 names; 1st consecutive 0-new pass for Sector 10 2nd pass.**
+
+**Sector 10 status:** ACTIVE (not yet EXHAUSTED — ROUTINE.md requires 2 consecutive 0-new passes). Next pass should try Nordic specialist distributors (Stockholm/Oslo micro-cap) or Australian ASX distribution niche if any moated names remain unlisted.
+
+---
+
 ## Why this matters
 - **Measurable coverage** — we can state "we've reviewed X% of the worthwhile US universe," not "we searched a lot."
 - **No wasted re-looks** — SEEN keyed by CIK/ticker; the ranked worklist is marched once.

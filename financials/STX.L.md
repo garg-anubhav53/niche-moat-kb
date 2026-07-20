@@ -127,13 +127,16 @@
 
 ## Moat Summary
 
-**Type:** REMS LOCK-IN + PROCESS + BRAND
+**Type:** POLYMORPH PATENT + BRAND + INSTALLED-BASE (prescriber habit)
+
+> ⚠ DATA DEFECT CORRECTED (run #48, 2026-07-20): Prior moat type "REMS LOCK-IN + PROCESS + BRAND" was WRONG. OPUS adversarial red-team (memos/STX.L-2026-07-20.md) confirmed **ACCRUFeR has NO REMS program**. The REMS claim was a fabricated premise from initial triage. NCE exclusivity expired July 2024. The only IP protection is a polymorph patent on the ferric maltol crystalline form expiring October 2035. No regulatory switching friction exists from REMS.
+
 - ACCRUFeR/Feraccru is a proprietary ferric maltol formulation (ferric iron chelated to maltol) — differentiated from standard ferrous iron supplements by tolerability profile (no GI black stool, better tolerated)
-- ACCRUFeR launched with a REMS program in the US (Risk Evaluation and Mitigation Strategy) — regulatory requirement that creates friction around switching
+- **NO REMS program exists** — ACCRUFeR is not REMS-restricted; NCE exclusivity expired July 2024; moat rests solely on polymorph patent (Oct 2035) + prescriber habit + brand inertia
 - Licensed to Viatris for US commercialization; Shield retains ~55% of net revenue; Viatris provides the US salesforce (Shield pays ~45% revenue share as CoS)
-- Growing prescriber base (>15,000 prescribers, +26% YoY) = installed-base moat deepening
-- ACCRUFeR is the **only branded IV-iron-alternative oral product** specifically positioned with REMS in the US
-- **Durability concern:** IV iron alternatives (Injectafer, Feraheme) are reimbursed differently; oral iron generics exist cheaply; ACCRUFeR's premium pricing (~$223/Rx avg net) depends on sustained managed care coverage and physician habit
+- Growing prescriber base (>15,000 prescribers, +26% YoY) = installed-base moat deepening (prescriber habit-based; switchable if generic ferric maltol emerges post-2035)
+- ACCRUFeR is the **only branded ferric maltol oral iron in the US** — formulary positioning and physician habit are the real switching barriers, not a regulatory lock-in
+- **Durability concern:** IV iron alternatives (Injectafer, Feraheme) are reimbursed differently; oral iron generics exist cheaply; ACCRUFeR's premium pricing (~$223/Rx avg net) depends on sustained managed care coverage and physician habit; polymorph patent to Oct 2035 is the only hard IP barrier
 
 ---
 

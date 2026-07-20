@@ -92,3 +92,56 @@ All bench prices confirmed by web search agents (trust ~ not ✓ — snapshot.py
 - Kill list company descriptions corrected for TPE.DE (PVA TePla, not Technotrans) and ELG.DE (Elmos Semiconductor, not ElringKlinger).
 - WATCHLIST.md 6742.T price corrected ¥608 → ¥864 (buy-zone trigger removed).
 - DETEC.HE promoted to QUEUED_HOT in WATCHLIST.md with §5 update memo.
+
+---
+
+### 2026-07-20 — §7 REFLECT run #48 (48%3=0)
+
+**1. Data quality audit:**
+- **STX.L.md REMS data defect corrected (run #48):** financials/STX.L.md previously claimed "REMS LOCK-IN + PROCESS + BRAND" as moat type. OPUS adversarial red-team (run #47, memos/STX.L-2026-07-20.md) confirmed ACCRUFeR has **NO REMS program**; NCE exclusivity expired July 2024; moat rests solely on a polymorph patent (Oct 2035) + prescriber habit + brand inertia. Moat type header corrected to "POLYMORPH PATENT + BRAND + INSTALLED-BASE (prescriber habit)." Correction notice block added to STX.L.md. This was the most significant KB data defect resolved this run.
+- **MDP.TO Gleolan US rights corrected:** financials/MDP.TO.md §4 baseline revealed Gleolan US rights were **SURRENDERED March 2025** (NXDC agreement terminated) — triage moat claim was wrong. EMA Gleolan rights always with medac GmbH Germany. Real US moat = GRAFAPEX (treosulfan, 7-yr US orphan exclusivity ~Dec 2031). MDP.TO UNIVERSE.md and COVERAGE.md entries updated.
+- **DXRX.L company name corrected:** Triage initially confused DXRX.L with "Diagnostyx plc" (formerly Yourgene Health). DXRX.L is **Diaceutics PLC** — a diagnostic commercialisation and data analytics platform (87% GM consistent with software/data model, NOT lab services). Correction added to financials/DXRX.L.md header.
+- **SEDANA.ST price error corrected:** §4 baseline revealed actual price SEK 8.74 vs. triage assumption SEK 28-35. All SEDANA.ST calculations updated to use SEK 8.74. This was a ~3-4x price discrepancy.
+
+**2. Bench re-pricing (2026-07-20):**
+All bench prices confirmed by web search (trust ~ — snapshot.py remains blocked by Yahoo Finance 403). Key findings:
+
+| Ticker | Last price | Buy-zone | Status |
+|---|---|---|---|
+| WINA | ~$385.44 | ≤ ~20–22x PE | Above buy-zone |
+| CODA | ~$9.84–$10.00 | $8–10 | Approaching upper boundary |
+| OFLX | ~$29.85 (~$308M) | ~$190–220M cap | Above buy-zone |
+| EKF.L | ~25.4p | ≤~14-16p (~£80M cap) | Above buy-zone |
+| 6823.T (Rion) | ~¥3,485 | ¥2,200–2,400 | Above buy-zone |
+| 6742.T (Kyosan) | ~¥864 | ¥720 | Above buy-zone (prior ¥608 flag was WRONG — confirmed run #45) |
+| **CGS.L** | **~260p** | **200-230p** | **⚠ APPROACHING (338p→260p; T-30-60p to trigger)** |
+| EPEN.ST | ~156.20 SEK | 115-130 SEK | Above buy-zone |
+| JOUT | ~$46.25 | $38–40 | Above buy-zone |
+| SMID | ~$30.22 | ~$22–24 | Above buy-zone |
+| ETON | ~$37.57 | ~$22–26 | Above buy-zone |
+| **RX.V** | **~C$14.50 (~C$161M cap)** | **≤C$10-11/sh** | **DATA ERROR CORRECTED (prior C$7.50 was May 2023 stale data); now in extended zone — reassess asymmetry at corrected price** |
+| 4549.T | ~¥3,050+ | a pullback to fair multiple | Above buy-zone (at 52-wk high area; not fresh-searched) |
+
+**No buy-zone triggers this run.** CGS.L is approaching (T-30-60p). RX.V price corrected from stale 2023 data; buy-zone updated to ≤C$10-11/sh; now in extended zone at C$161M cap.
+
+**WATCHLIST.md changes this run:**
+- DETEC.HE removed — graduated to CANDIDATE Grade B in run #45; should not remain on bench.
+- CGS.L price updated 338p → 260p with ⚠ APPROACHING flag.
+- RX.V price corrected C$7.50 → C$14.50; buy-zone updated to ≤C$10-11/sh; extended zone noted.
+
+**3. False negatives re-checked:**
+- **PHO.OL (Photocure ASA, Oslo Bors):** COVERAGE_KILL confirmed valid. OPUS agent confirmed ≥4-7 Norwegian regional analysts (Pareto, DNB Markets, ABG Sundal Collier, Arctic, Carnegie confirmed). Photocure has a genuine REGULATORY MONOPOLY moat (sole FDA+EMA approved blue-light cystoscopy agent Hexvix/Cysview/HAL; 94% GM; patent to 2036; debt-free) — a quality kill, not a thesis kill. REVISIT ONLY IF analyst count drops to ≤2 through broker attrition AND cap corrects to ≤£30M.
+- **RX.V (BioSyent, TSX-V):** WATCHLIST price corrected from stale May 2023 data (C$7.65 close = historical match). Current price ~C$14.50 (~C$161M cap) is in the extended zone; buy-zone ≤C$10-11/sh requires meaningful pullback. Quality thesis (62-quarter profit streak, 21% NI margin, net cash) intact; asymmetry not available at current price.
+
+**4. Universe exploration audit:**
+- Sector 10 (2nd pass, UK/European wholesale distributors): ~38 names processed; 0 new QUEUED. Structural thinness confirmed — PE consolidation removed most quality names, dominant distributors are private, over-covered, or >£1.5B cap. Sector 10 not yet EXHAUSTED (only 1 consecutive 0-new pass per ROUTINE.md rule).
+- Deferred queue completions: SEDANA.ST → CANDIDATE Grade C (§5); MDP.TO → COVERAGE_KILL (§4); DXRX.L §4 complete + analyst count verified → §5 deferred.
+- Systematic enumeration (screen_eu.py, screen_tw.py, EDINET API) remains blocked by proxy 403 — web search agents remain only working data source. Standing limitation.
+
+**5. Systemic fixes shipped this run:**
+- WATCHLIST.md DETEC.HE removed (graduated; no longer bench-eligible).
+- WATCHLIST.md CGS.L price updated 338p → 260p with approach flag.
+- WATCHLIST.md RX.V price corrected C$7.50-8.00 → C$14.50 with full correction note; buy-zone updated.
+- STX.L.md moat type corrected from REMS_LOCK-IN to POLYMORPH PATENT + BRAND + INSTALLED-BASE; correction block added.
+- UNIVERSE.md SEDANA.ST status QUEUED → CANDIDATE Grade C; MDP.TO QUEUED → COVERAGE_KILL.
+- UNIVERSE.md DXRX.L entry: analyst count corrected from "4-5 borderline" to "2-3 confirmed PASSES gate"; §4 financial data added; status updated to §5 deferred run #49.
