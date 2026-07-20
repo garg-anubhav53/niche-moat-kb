@@ -101,6 +101,24 @@ The point of the top-of-funnel rework: stop *hoping* web search surfaces names, 
 
 ---
 
+## Sector 12 (Life-science tools & lab consumables) — Pass 3 Coverage Notes (run #49, 2026-07-20)
+
+**Nordic / Canada / Australia geo lens:** ~20-25 names processed; 0 new QUEUED. 1st consecutive 0-new pass for Sector 12.
+
+**Why Nordic/Canada/Australia life-sci tools is structurally thin at this cap range:**
+- **Nordic:** Quality names are either (a) private/subsidiary of large-cap (Gyros Protein Technologies → Hamilton subsidiary; DIATEC Monoclonal → private; Nordic Bioscience → private), (b) development-stage INTEGRITY_KILL (pre-revenue biotech making up bulk of Nasdaq Stockholm life-sci listings), or (c) over-capped (Biotage AB ~SEK 7B; CELLINK/BICO ~SEK 5B). Names that survive Nordic screens often have thin revenues or are essentially lab services (not platform/consumable with moat). Israel explicitly excluded (JURISDICTION_KILL — hard rule applies to all Nordic-adjacent Israeli life-sci tools, which form a large part of the "Nordic" biotech pool, e.g., many dual-listed names).
+- **Canada:** TSX/TSX-V life-sci tool names are sparse. Most quality Canadian life-sci tools either (a) cross-listed on Nasdaq/NYSE (already in SEEN set via US pass), (b) development-stage (no revenue), or (c) service-based CRO/CMO (no platform moat).
+- **Australia:** ASX life-sci tool names at A$20-300M are predominantly development-stage (pre-clinical or Phase I/II therapeutics that happen to have "tools" in marketing materials) → INTEGRITY_KILL. Genuine ASX life-sci equipment/consumable manufacturers that might have moats are either private (Hologic ANZ subsidiary, BD ANZ subsidiary) or over-capped (CSL at A$130B).
+- **Israel excluded (JURISDICTION_KILL):** Numerous Israeli life-sci tools companies (Given Imaging, Orbotech successors, many Nasdaq dual-listed diagnostics names) are excluded per JURISDICTION_KILL hard rule regardless of quality.
+
+**Net result: 0 new QUEUED from ~20-25 names; 1st consecutive 0-new pass.**
+
+**Sector 12 status:** ACTIVE (not yet EXHAUSTED — ROUTINE.md requires 2 consecutive 0-new passes). 1 pass to go before EXHAUSTED. Next pass options: US micro-cap life-sci tools (systematic SEC XBRL screen) or Japanese secondary OTC life-sci tool names (EDINET when proxy access restored). Do not attempt another Nordic/Canada/Australia pass — structural thinness now well-established.
+
+**Deferred queue note (run #49):** DXRX.L (Diaceutics, AIM — Sector 19 crossover, not pure Sector 12) was the Sector 12/19 §5 deep-dive completed this run. Sector 12's own candidates (TSTL.L, 6823.T Rion) were previously resolved (TSTL.L → COVERAGE_KILL run #44; 6823.T → CANDIDATE Grade B run #40).
+
+---
+
 ## Why this matters
 - **Measurable coverage** — we can state "we've reviewed X% of the worthwhile US universe," not "we searched a lot."
 - **No wasted re-looks** — SEEN keyed by CIK/ticker; the ranked worklist is marched once.
