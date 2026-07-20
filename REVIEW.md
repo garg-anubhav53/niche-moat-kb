@@ -45,3 +45,50 @@ Three standing questions:
 - **Fix shipped:** METHOD.md **Adversarial Red-Team (12 failure modes)** + a mandatory **OPUS pass on every cleared candidate** (§5) whose job is to BREAK the thesis and output a **RISK PROFILE** (load-bearing assumption, clean operating earnings & what it's actually worth, informative trigger, moat durability 3/5/10yr, revenue-quality decomposition, the disclosure that would flip it, return if nothing re-rates). A name is CONFIRMED only after surviving all 12.
 - **Applied to the motivating names:** FAA.VI, PDEX, ELVA all flagged RED-TEAM FAILED in DIGEST with corrected reads (FAA → Bench high-single-digit compounder; PDEX → HOLD ~24x clean; ELVA → asymmetry spent).
 - **Deepest lesson (the cascade):** one fabricated number becomes a confident false narrative downstream — the critic himself built a whole "no pricing power" thesis on PDEX's fake 20% GM. The only defense is **re-derive every load-bearing number from the primary filing for a single stated period BEFORE reasoning**, and treat "too good to be true" as a data alarm.
+
+### 2026-07-20 — §7 REFLECT run #45 (45%3=0)
+
+**1. Data quality audit (last 2 memos):**
+- **RSL2.DE-2026-07-20.md** (R. Stahl AG): Correctly PARKed Grade D (Q3/F2/R1/C3). ATEX/IECEx process moat real, but revenue declining 3 years, EBIT near-zero FY2026, FCF burning, net debt growing, analyst PT only +12% above price. Memo correctly flags "Financials verified against primary filing: NO" (web-search-sourced, not primary-filing anchored). Triage kill reason update: TSTL.L COVERAGE_KILL applied correctly.
+- **HNL.DE-2026-07-19.md** (Dr. Hönle AG): Correctly PARKed Grade D (Q2/F2/R2/C3). UV curing process moat real but 3 German analysts (not 0 as scouted), stale price anchor, and EV/Revenue 0.94x with €38.8M debt (not "0.55x P/S cheap" as triage snippet claimed). Memo correctly identifies these data errors and flags no primary filing verification.
+- **Both memos properly formatted.** The "Financials verified against primary filing: NO" flag is the correct call in both cases — these are web-search-sourced baselines, not primary-filing anchored. No data quality defects found in these two memos beyond already-noted limitations.
+
+**2. Kill list description errors — corrected this run:**
+- **TPE.DE entry**: Kill list incorrectly described TPE.DE as "Technotrans SE (Xetra: TTR1.DE)" — a completely different company. TPE.DE is **PVA TePla AG** (SiC crystal growth furnaces + plasma systems + acoustic microscopy for semiconductor wafer inspection; ~70% semiconductor segment). Technotrans SE is TTR1.DE (thermal management for printing). The CAP_KILL conclusion was still correct (PVA TePla confirmed at ~€822M cap + 8 analysts = CAP_KILL + COVERAGE_KILL), but the company description was wrong. Fixed in KILL-LIST this run.
+- **ELG.DE entry**: Kill list described ELG.DE as "ElringKlinger AG" — incorrect. ElringKlinger is ELK.DE. ELG.DE is **Elmos Semiconductor SE** (automotive ICs for LiDAR, driver assistance, ultrasonic park assist; ~€600-900M cap). CAP_SOFT_KILL conclusion remains correct. Fixed in KILL-LIST this run.
+- **Root cause:** Company-ticker confusion when processing German XTRA names under time pressure. The analytical kill decision was correct in both cases; only the description field was wrong. **Systemic fix:** verify company name matches ticker via primary source (company website or official exchange listing) before writing kill list entry.
+
+**3. False negatives re-checked:**
+- **KRMD (KORU Medical Systems):** Correctly PARKed in UNIVERSE.md (quality=0, growth-stage losses, regulatory moat real but no earnings floor). The prior mention of "CAP_KILL (~$400M+, 9 analysts)" was a mis-citation — KRMD is not in KILL-LIST, it's in UNIVERSE as PARK 4/12. Current cap ~$179M, 5 analysts confirmed — PARK status correct (quality=0 blocks promotion regardless of cap or coverage). No change needed.
+- **6742.T (Kyosan Electric):** Prior REFLECT (run #42) flagged ¥608 < ¥720 buy-zone as "BUY-ZONE TRIGGERED." Confirmed WRONG — current price ¥864 (confirmed by Agent 1 web search 2026-07-18), which is ABOVE the ¥720 buy-zone. The ¥608 figure was a stale/wrong source. WATCHLIST.md corrected this run: 6742.T flag removed, price updated to ¥864 (above buy-zone). No buy-zone trigger.
+
+**4. Bench re-pricing (2026-07-20):**
+All bench prices confirmed by web search agents (trust ~ not ✓ — snapshot.py remains blocked). Key finding:
+
+| Ticker | Last price | Buy-zone | Status |
+|---|---|---|---|
+| WINA | ~$385.44 | ≤ ~20–22x PE | Above buy-zone |
+| CODA | ~$9.84–$10.00 | $8–10 | Approaching (at upper boundary) |
+| OFLX | ~$29.85 (~$308M) | ~$190–220M cap | Above buy-zone |
+| DETEC.HE | **€8.38–8.70** | **≤€9.5** | **⚠ IN BUY-ZONE** |
+| 4549.T | ~¥3,050+ | ¥2,000–2,400 | Above buy-zone |
+| 6823.T (Rion) | ~¥3,485 | ¥2,200–2,400 | Above buy-zone |
+| EKF.L | ~25.4p | ≤£80M cap (~14–16p) | Above buy-zone |
+| 6742.T (Kyosan) | **¥864** | ¥720 | Above buy-zone (prior ¥608 flag was WRONG) |
+| CGS.L | ~338p | 200–230p | Above buy-zone |
+| EPEN.ST | ~156.20 SEK | 115–130 SEK | Above buy-zone |
+| JOUT | ~$46.25 | $38–40 | Above buy-zone |
+| SMID | ~$30.22 | ~$22–24 | Above buy-zone |
+| ETON | ~$37.57 | ~$22–26 | Above buy-zone |
+
+**Buy-zone triggered: DETEC.HE at €8.38–8.70 < €9.50 accumulate zone.** Promoted to QUEUED_HOT this run. §5 bench-promotion update memo written: memos/DETEC.HE-bench-2026-07-20.md. Adversarial red-team: CLEARED (12 failure modes; 2 flags embedded in Q=3). Grade B / CANDIDATE unchanged. Analyst count updated to 4 (from 3 in July 16 memo); consensus avg raised to €13.30 (from €12.18); gap to consensus now ~59% at €8.38. H1 2026 confirmed NOT yet published (August 6, 2026 — 17 days).
+
+**5. Universe exploration audit:**
+- Systematic enumeration (screen_eu.py, snapshot.py, EDINET API) remains blocked by proxy 403 — web search agents are the only working data source. This is a standing limitation carried from runs #37–45.
+- Sector 17 (Semiconductor & electronics supply chain, 2nd pass, European geo lens) run this session: 23 names processed, 22 killed (15 new + 7 already-seen), 1 new QUEUED (CML.L 7/12).
+- Sectors 18–19 active, sectors 0–4 THIN/EXHAUSTED, sectors 5–19 in rotation. No new sectors exhausted this run.
+
+**6. Systemic fixes shipped this run:**
+- Kill list company descriptions corrected for TPE.DE (PVA TePla, not Technotrans) and ELG.DE (Elmos Semiconductor, not ElringKlinger).
+- WATCHLIST.md 6742.T price corrected ¥608 → ¥864 (buy-zone trigger removed).
+- DETEC.HE promoted to QUEUED_HOT in WATCHLIST.md with §5 update memo.

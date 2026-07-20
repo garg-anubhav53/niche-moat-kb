@@ -551,7 +551,7 @@ Names that failed the asymmetry or integrity gates.
 | BEL | Bel Fuse Inc | ~$400–600M | 2026-07-16 | Electronic connectors and power conversion modules for industrial/aerospace/networking; some OEM design-lock in custom power modules; BUT cap extended zone + multiple analysts; CAP_KILL |
 | VLX.L | Volex plc (AIM UK) | ~£350–400M (~$440–500M) | 2026-07-16 | Cable assemblies and power cords for medical/EV/industrial OEMs; genuine OEM-qualification moat in custom cable assemblies (12-18mo requalification); BUT cap ~£375M = extended zone without exceptional asymmetry; CAP_KILL |
 | ABDP.L | AB Dynamics plc (AIM UK) | ~£150–200M (~$190–250M) | 2026-07-16 | Automotive chassis test systems and ADAS testing rigs; genuine PROCESS+REGULATORY moat in automotive homologation test equipment (UK test standards, OEM-qualified rigs); AIM-listed; BUT cap borderline and no hard-dated <6mo 2x catalyst; CAP_KILL (borderline, revisit if below £120M with ADAS adoption catalyst) |
-| TPE.DE | Technotrans SE (Xetra: TTR1.DE) | ~€150–250M | 2026-07-16 | Specialty thermal management and filtration systems for printing/industrial applications; some recurring service moat on installed printing presses; German Xetra; BUT no strong sole-source or regulatory lock-in; NO_MOAT concurrent; CAP_KILL borderline |
+| TPE.DE | PVA TePla AG (Xetra: TPE.DE) — ⚠ DESCRIPTION CORRECTED run #45 (prior entry wrongly said "Technotrans SE / TTR1.DE"; Technotrans is TTR1.DE, a different company) | ~€822M (confirmed 2026-07-20) | 2026-07-16 | SiC crystal growing furnaces (Czochralski), plasma cleaning/bonding systems, acoustic microscopy (SAM) wafer inspection; genuine PROCESS moat in SiC furnaces (one of ~3 global suppliers for EV power electronics substrate); ~70% semiconductor segment revenue; BUT cap ~€822M = CAP_KILL well above $300M extended zone; 8 analysts = COVERAGE_KILL concurrent; CAP_KILL + COVERAGE_KILL |
 | KENDR.AS | Kendrion NV (Euronext Amsterdam) | ~€250M (~$275M) | 2026-07-16 | Electromagnetic clutches, brakes, and solenoids for industrial automation; some OEM design-lock in custom electromagnetic actuation; BUT multiple strong competitors (Ogura, Moog, Hilliard, Sunstrand); NO_MOAT concurrent; cap borderline extended zone without exceptional asymmetry; CAP_KILL |
 
 ### Sector Kills
@@ -1826,7 +1826,7 @@ Geo lens: UK AIM + Continental Europe (Euronext Paris/Amsterdam/Brussels, Frankf
 |--------|---------|------|------|--------|
 | KATEK.DE | KATEK SE | ~€100-200M | 2026-07-17 | EMS/contract electronics manufacturing; NO_MOAT — competitive market; no pricing power vs Jabil/Flextronics/Zollner; commodity service offering. |
 | VAR1.DE | VARTA AG | ~€200-400M | 2026-07-17 | INTEGRITY_KILL: restructuring/insolvency proceedings 2024-2025; heavy GAAP losses; going-concern risk; battery pack business under duress; quality=0 (losses). Anti-value-trap rule applies. |
-| ELG.DE | ElringKlinger AG | ~€400-600M | 2026-07-17 | CAP_SOFT_KILL: ~€400-600M extended zone; automotive sealing/gaskets; SECTOR_ADJACENT (automotive component OEM not moated electrical component); competitive with Freudenberg/Dana. |
+| ELG.DE | Elmos Semiconductor SE (Xetra: ELG.DE) — ⚠ DESCRIPTION CORRECTED run #45 (prior entry wrongly said "ElringKlinger AG"; ElringKlinger is ELK.DE, a different company) | ~€600-900M | 2026-07-17 | Automotive ICs (LiDAR, driver assistance, ultrasonic park-assist sensors); some PROCESS moat in automotive-grade IC design; BUT cap ~€600-900M = CAP_KILL; well-covered by sell-side (5+ analysts) = COVERAGE_KILL concurrent; CAP_KILL + COVERAGE_KILL |
 | BSL.DE | Basler AG | ~€150-300M | 2026-07-17 | SECTOR_FORWARD: machine vision cameras and image processing — Sector 17/18 (Semiconductor & Electronics Supply Chain / Precision Instruments) territory; 3 analysts = borderline coverage; forwarded to Sector 18 next pass as PARK/forward. |
 | STS.DE | Stemmer Imaging AG | ~€100-200M | 2026-07-17 | COVERAGE_KILL + SECTOR_ADJACENT: machine vision distributor (not manufacturer); distribution margins thin; no durable PROCESS moat; 4+ analysts. |
 | VQT.DE | Vogt Electronic AG / similar | ~€20-80M | 2026-07-17 | NO_MOAT: electronic component distribution or assembly; competitive; no differentiated moat identified at §4 triage. |
@@ -2049,3 +2049,44 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | Ticker | Company | Score | Grade | Reason |
 |--------|---------|-------|-------|--------|
 | RSL2.DE | R.Stahl AG | Q3/F2/R1/C3 | **PARK Grade D** | ATEX/IECEx explosion-protected electrical equipment — moat is real and 140-year durable. BUT: (1) stock already +29% from €13.10 triage to €16.87 current; (2) analyst consensus PT €18.875 = only +12% upside; (3) FY2025 EBITDA "stable" headline includes temporary items — FY2026 guided EBITDA €22-27M (-29% from headline); (4) EBIT near-zero/negative FY2026; (5) FCF -€0.3M FY2025 / -€1.6M Q1 2026; (6) net debt growing from €34.9M; (7) no hard-dated catalyst (NEXUS = multi-year restructuring; O&G recovery = diffuse). Asymmetry Gate 4/4 fail. Q=3 fails Q≥4 Bench threshold. F=2 (thin floor, FCF burning) fails real-floor Bench requirement. PARK not Bench. REVISIT: revenue stabilizes ≥€285M + EBITDA recovers toward €28M+ + FCF positive + price ≤€11-12. See memos/RSL2.DE-2026-07-20.md + financials/RSL2.DE.md. |
+
+## Run #45 — Sector 17 (2nd pass, European geo lens) · 2026-07-20
+
+*23 European semiconductor & electronics supply chain names processed; 22 killed/already-seen; 1 new QUEUED (CML.L 7/12).*
+
+### Cap / Coverage Kills — New (Sector 17 European 2nd pass)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| SMHN.DE | Süss MicroTec SE (Xetra) | ~€500-800M | 2026-07-20 | COVERAGE_KILL + CAP_KILL: wafer processing systems (lithography, bonding, cleaning for semiconductor mfg); genuine PROCESS moat in wafer-level lithography; BUT ~8 analysts cover it and cap far above $300M ceiling |
+| AIXA.DE | AIXTRON SE (Xetra) | ~€2-3B | 2026-07-20 | CAP_KILL: MOCVD equipment for compound semiconductor deposition (GaN, SiC, InP); genuine PROCESS moat; but cap 7-10x limit |
+| WAF.DE | Siltronic AG (Xetra) | ~€1-2B | 2026-07-20 | CAP_KILL: silicon wafer manufacturer for semiconductor fabs; PROCESS moat in ultra-pure large-diameter wafer production; but cap 3-7x limit |
+| SOI.PA | Soitec SA (Euronext Paris) | ~€3-5B | 2026-07-20 | CAP_KILL: SOI/SiC/GaN engineered substrate wafers; genuine PROCESS moat (Smart Cut technology); but cap 10-17x limit; well-covered |
+| BESI.AS | BE Semiconductor Industries NV (Euronext Amsterdam) | ~€5B+ | 2026-07-20 | CAP_KILL: die-bonding and wire-bonding back-end packaging equipment; genuine PROCESS moat; but cap far above ceiling |
+| MELE.BR | Melexis NV (Euronext Brussels) | ~€1.5-2B | 2026-07-20 | CAP_KILL: automotive sensor ICs (Hall sensors, LiDAR, position sensors); PROCESS moat in automotive-grade IC; but cap 5-7x limit; well-covered |
+| MYCR.ST | Mycronic AB (Nasdaq Stockholm) | ~SEK 15-25B (~€1.3-2.2B) | 2026-07-20 | CAP_KILL: PCB screen printers and pattern generators for electronics mfg; genuine PROCESS moat; but cap far above ceiling |
+| LAGRb.ST | Lagercrantz Group AB (Nasdaq Stockholm) | ~SEK 25B+ (~€2.2B+) | 2026-07-20 | CAP_KILL: niche electronics/technology conglomerate (acquires specialty electronics businesses); cap far above ceiling |
+| NOD.OL | Nordic Semiconductor ASA (Oslo Bors) | ~NOK 10-20B (~€850M-1.7B) | 2026-07-20 | CAP_KILL: BLE/IoT/UWB wireless SoCs for consumer/industrial; well-covered by Nordic/European analysts; cap above ceiling |
+| IFCN.SW | Inficon Holding AG (SIX Swiss) | ~CHF 1B (~€1B) | 2026-07-20 | CAP_KILL: vacuum/gas measurement instruments for semiconductor fab, HVAC, refrigeration; genuine REGULATORY + PROCESS moat; but cap 3x limit |
+| SENS.SW | Sensirion Holding AG (SIX Swiss) | ~CHF 500M-1B (€450-900M) | 2026-07-20 | CAP_KILL + COVERAGE_KILL: precision environmental sensors (humidity, CO2, flow, particulate); PROCESS moat in MEMS sensor fabrication; but cap at or above ceiling; 6+ analysts |
+
+### Quality / Integrity Kills — New (Sector 17 European 2nd pass)
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| SNG.DE | Singulus Technologies AG (Xetra) | ~€43M | 2026-07-20 | INTEGRITY_KILL: thin-film deposition/PVD equipment (solar CIGS, SiC epitaxy, pharmaceutical coating); moat in niche PVD process but business in financial distress — FY2025 revenue collapsed to €48.3M (vs €270M FY2024 guidance), EBIT -€11.7M, cash €6.2M at year-end 2025; required "comprehensive refinancing of significant existing liabilities" via unnamed strategic partner; quality=0 at triage. Q1 2026 recovery (+€2.2M EBIT) tentative. REVISIT if refinancing stabilises + FY2026 revenue ≥€80M + EBIT >€5M + going-concern flag removed. |
+| FINGb.ST | Fingerprint Cards AB (Nasdaq Stockholm) | ~SEK 500M-1B (€45-90M) | 2026-07-20 | QUALITY_KILL: fingerprint biometric IC maker; moat was PROCESS + REGULATORY (FAR algorithms, secure enclave designs); but moat structurally eroded by Chinese competition (Goodix, IDEMIA, Egis) entering mobile/IoT; revenue collapsed from SEK 7B+ peak to fraction; near-zero or loss earnings for multiple years; quality=0. Anti-value-trap rule: quality=0 → PARK, never deep-dive. REVISIT: only if management completes successful pivot to new application (e.g., IoT biometrics, automotive) with 3 consecutive profitable quarters. |
+| VACN.SW | (SIX Swiss Exchange, ticker unverified) | Unknown | 2026-07-20 | TICKER_UNVERIFIED: unable to confirm company identity for VACN.SW on SIX Swiss Exchange from available sources. Company surfaced by automated name search; cannot verify moat, business, or financial metrics. KILL until verified. |
+
+### Already-Seen Kills (Sector 17 European 2nd pass — previously processed)
+
+| Ticker | Prior kill reason | Prior run |
+|--------|------------------|-----------|
+| IQE.L | COVERAGE_KILL (3-5 AIM analysts; compound epiwafers) | Run #13 |
+| SOLI.L | SECTOR_KILL (Solid State plc — significant defence electronics revenue) | Run #16 |
+| VLX.L | CAP_KILL (~£375M; Volex plc cable assemblies) | Run #13 |
+| COTN.SW | CAP_SOFT_KILL / COVERAGE_KILL (Comet Holding AG; ~CHF 1-2B cap; RF power + X-ray inspection) | Run #24 |
+| LPK.DE | COVERAGE_KILL (LPKF Laser & Electronics; 8 analysts confirmed run #18) | Run #18 |
+| TPE.DE | CAP_KILL + COVERAGE_KILL (PVA TePla AG; €822M cap; 8 analysts — entry above corrected description error) | Run #13 |
+| ELG.DE | CAP_KILL + COVERAGE_KILL (Elmos Semiconductor SE; ~€600-900M — entry above corrected description error) | Run #17 |
+| DETEC.HE | SEEN in UNIVERSE as CANDIDATE Grade B; bench-promoted to QUEUED_HOT run #45 | Run #20 deep-dived |
