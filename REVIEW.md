@@ -145,3 +145,16 @@ All bench prices confirmed by web search (trust ~ — snapshot.py remains blocke
 - STX.L.md moat type corrected from REMS_LOCK-IN to POLYMORPH PATENT + BRAND + INSTALLED-BASE; correction block added.
 - UNIVERSE.md SEDANA.ST status QUEUED → CANDIDATE Grade C; MDP.TO QUEUED → COVERAGE_KILL.
 - UNIVERSE.md DXRX.L entry: analyst count corrected from "4-5 borderline" to "2-3 confirmed PASSES gate"; §4 financial data added; status updated to §5 deferred run #49.
+
+---
+
+## 2026-07-21 — v4 TOOLING & METHODOLOGY UPGRADE (human-directed, out-of-band)
+
+Applied by the operator after a diligence session, not by a REFLECT run:
+
+1. **`tools/screen_tw.py` upgraded GM-only → full value-quality screen.** The TWSE `t187ap06_L_ci` endpoint exposes complete keyless fundamentals (revenue, gross profit, operating income, net income to parent, **EPS**), not just gross margin. The tool now outputs gross/operating/net margin, net income, EPS, derived share count, and — when a price feed is reachable — a live **P/E + market cap**. New flags `--min-om` and `--max-pe` (value gate). Price fetch is best-effort with query1→query2 fallback and **degrades to fundamentals-only when the feed is proxy-blocked** (so it still works in the cloud env). Taiwan is now our one non-English market with keyless primary-source fundamentals — rotate it in heavily.
+2. **§3.5 PRICE-FEED FAILSAFE added.** Yahoo (snapshot.py price) is a known recurring proxy-block in the cloud. Rule: never tag a web-scraped price ✓ — mark it ~ (single-source), cap confidence, and a ~-price alone cannot support a CANDIDATE+ grade or Asymmetry-Gate pass. This closes the silent-✓ leak flagged in prior REVIEW entries.
+3. **§1 DATA-REACHABILITY PRIORITY added.** US (SEC) and Taiwan (TWSE) are the two keyless, reachable, primary-source markets — give them the most enumeration runs. Japan/Korea are key-gated and often proxy-blocked → web-scout only until keys/feeds are wired.
+4. **Geo override set to Taiwan** for the next run to exercise the upgraded screener end-to-end.
+
+**Systemic fix still open:** restore a reachable live-price feed in the cloud env (the Asymmetry Gate depends on it); until then, foreign valuation runs at ~-trust.

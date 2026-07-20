@@ -52,6 +52,8 @@ The old 5-sector clock rotation exhausted itself (each niche swept 4–5×, runs
 
    A sector is only truly EXHAUSTED once *multiple geographies* are dry — a US-dry sector is often wide open in Japan or Korea.
 
+   **DATA-REACHABILITY PRIORITY (v4):** two markets give us PRIMARY-SOURCE fundamentals keyless AND reachable — **US** (`screen.py`, SEC XBRL) and **Taiwan** (`screen_tw.py`, TWSE, now full fundamentals incl. margins + P/E). Give these two the most enumeration runs; they are where we can actually *trust* a cheap-quality hit. **Japan/Korea are gated** (need EDINET/OpenDART keys) and — like the Yahoo price feed — are often **proxy-blocked in the cloud env** (a known recurring condition, see REVIEW.md): until keys/feeds are wired up, work those via §2B web-scout only and treat any scraped price as ~ (single-source), never ✓. Europe enumerates keyless but fundamentals stay per-name.
+
 **The 20-sector universe (all non-defense):**
 
 | id | Sector | Example moats |
@@ -87,7 +89,7 @@ Load the **SEEN set** (all tickers in `UNIVERSE.md` + `KILL-LIST.md` + reviewed 
 
 **§2A — SYSTEMATIC ENUMERATION (the primary top-of-funnel; deterministic, near-zero LLM).** March a *known* universe best-first, not hope-and-search. Pick the tool for THIS run's geo lens; take the next **8–12 names NOT in SEEN** as the worklist; update `COVERAGE.md` (reviewed, coverage %, cursor); refresh a cached screen when >~2 weeks old.
 - **US** — `python3 tools/screen.py --min-rev 20 --max-rev 400 --min-gm 45 --profitable-only` → ranked worthwhile universe (~78) + denominator (full GM+profitability quant filter).
-- **Taiwan** — `python3 tools/screen_tw.py --min-gm 45` (keyless TWSE) → ranked worthwhile microcaps (~64) with GM filter. Add TPEx OTC later.
+- **Taiwan** — `python3 tools/screen_tw.py --min-gm 45 --min-om 12` (keyless TWSE, **UPGRADED v4**) → **full primary-source fundamentals**: gross/operating/net margin, net income, EPS, and a live **P/E + market cap** when a price feed is reachable (add `--max-pe 15` for a hard value gate). **This is the one non-English market where we get primary-source fundamentals keyless — work it heavily.** Rank blends quality (margins) and cheapness (P/E). Caveats: figures are annualized from the latest quarter (verify TTM per-name in §3.5); property (ind 14) & shipping run lumpy on one quarter; financial-sector + TPEx OTC are separate tables.
 - **Japan** — `EDINET_KEY` set → `python3 tools/screen_jp.py --days N` enumerates listed filers (denominator + worklist); fundamentals per-name (non-English rule).
 - **Europe** — `python3 tools/screen_eu.py --countries DE,FR,SE,FI,NL,GB,...` (keyless filings.xbrl.org) enumerates ESEF/UKSEF filers (denominator + worklist); resolve LEI→ticker, fundamentals per-name.
 - **Korea** — `OPENDART_KEY` set → `screen_kr.py` (to build); else §2B.
@@ -137,7 +139,7 @@ Killed names → one compact row each to `KILL-LIST.md` (ticker, reason, date). 
 
 Get the reported numbers before scoring or financially killing a survivor.
 
-1. **Live price + real valuation, programmatically (mandatory):** run `python3 tools/snapshot.py TICKER` for each survivor. It returns the **live current price** and (US filers) most-recent **revenue/GM/net-income/shares from SEC XBRL**, then **computes market cap = live price × shares** and P/S, P/E — authoritative, no aggregator trust. Heed its stale-shares/dual-class warnings. Foreign (no CIK) → live price only; pull fundamentals from the IR filing and cap **C ≤ 2**.
+1. **Live price + real valuation, programmatically (mandatory):** run `python3 tools/snapshot.py TICKER` for each survivor. It returns the **live current price** and (US filers) most-recent **revenue/GM/net-income/shares from SEC XBRL**, then **computes market cap = live price × shares** and P/S, P/E — authoritative, no aggregator trust. Heed its stale-shares/dual-class warnings. Foreign (no CIK) → live price only; pull fundamentals from the IR filing and cap **C ≤ 2**. **PRICE-FEED FAILSAFE (v4):** if `snapshot.py` returns no price (Yahoo is proxy-blocked in the cloud env — a known recurring condition), do **NOT** silently tag a web-scraped price ✓: retry, and if still blocked take the price from a web search but tag it **~ (single-source)** and cap the name's confidence — a ~-price cannot by itself support a CANDIDATE+ grade or an Asymmetry-Gate pass. Note "price feed-unavailable" in the memo. (For Taiwan, `screen_tw.py` already emits full fundamentals + EPS even when price is blocked.)
 2. **Fetcher (haiku) fills the rest from the filing:** cash, total debt, FCF, revenue 3–5yr trend, plus a **fair-value estimate** (moat-justified multiple / analyst PT). Quote-anchored; a bare number is untrusted.
 3. **Reconcile deterministically:** run `python3 tools/fin_check.py <<'JSON' … JSON` on the snapshot JSON + filing figures, **including a `provenance` map**. Any FAIL, or floor-critical figures not filing-anchored → ⚠/~, never ✓ (internal consistency ≠ truth).
 4. **You triangulate & trust-tag** (✓ = snapshot/filing-anchored + checker-pass · ~ single-source · ⚠ = disagree or checker-FAIL · ? unverified). Foreign names with no primary filing → **cap C ≤ 2**, note currency/units/GAAP-vs-IFRS. **Coach which numbers to trust vs doubt.**

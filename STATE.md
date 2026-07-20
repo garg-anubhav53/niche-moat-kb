@@ -3,7 +3,7 @@
 Sector is chosen by the **Sector Rotation cursor** below (ROUTINE.md §1 v3): pick the next non-EXHAUSTED sector after the last run, rotate the geographic lens, mark a sector EXHAUSTED after 2 consecutive 0-new passes (revive later with a new geography/down-cap sweep).
 
 ## Sector Rotation (cursor)
-Geo override: *(none)*
+Geo override: **Taiwan (run `tools/screen_tw.py --min-gm 45 --min-om 12` — UPGRADED v4 full-fundamentals value screen; take the top unseen high-quality names by margin + low P/E, run the full pipeline; verify TTM per-name; CLEAR this override in §6 after the run)**
 Last sector run: **12 (Life-science tools & lab consumables, 3rd pass, Nordic/Canada/Australia geo lens)** · Last geo lens: Nordic/Canada/Australia
 Next sector: **Deferred queue: 6858.T Ono Sokki (6/12; ⚑non-EN yuho required before §5)** then **Sector 10 3rd pass (Nordic specialist distributors or ASX niche) or Sector 15 3rd pass** — Sector 12 not EXHAUSTED (1 consecutive 0-new pass; 2 needed)
 NOTE: sectors 0-4 have each been swept 4-5× and are largely EXHAUSTED at US/UK/$20-300M. **Priority now = the NEW sectors 5-19 (fresh ground) and fresh geographies on 0-4.**
