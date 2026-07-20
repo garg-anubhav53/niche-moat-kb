@@ -2090,3 +2090,41 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | TPE.DE | CAP_KILL + COVERAGE_KILL (PVA TePla AG; €822M cap; 8 analysts — entry above corrected description error) | Run #13 |
 | ELG.DE | CAP_KILL + COVERAGE_KILL (Elmos Semiconductor SE; ~€600-900M — entry above corrected description error) | Run #17 |
 | DETEC.HE | SEEN in UNIVERSE as CANDIDATE Grade B; bench-promoted to QUEUED_HOT run #45 | Run #20 deep-dived |
+
+---
+
+## Run #46 — Sector 18 (2nd pass, US+Taiwan geo lens) · 2026-07-20
+
+*~15 names processed new; ~8 already-seen; 0 new QUEUED from triage; 0 deep-dives from triage (CML.L deferred deep-dive in progress separately). HVO.L removed from deferred queue (COVERAGE_KILL — 7 analysts per aggregator, not 0-1 as noted at run #40 triage).*
+
+### Not Public / Acquired / Delisted
+
+| Ticker | Company | Date | Reason |
+|--------|---------|------|--------|
+| LUNA | Luna Innovations Incorporated (Nasdaq formerly) | 2026-07-20 | NOT_PUBLIC: Nasdaq trading suspended January 7 2025; company filed Form 25 + Form 15 in early 2025, voluntarily deregistering from SEC reporting; now trades OTC Expert Market (~$38-40M cap at ~$1.10-1.16) — inaccessible to most institutional holders, no audit-grade financial statements, no SEC enforcement protections. ODiSI OFDR fiber optic sensing moat is real (high-res structural health monitoring; 20+ yr patent portfolio; Boeing/NASA qualifications; no direct US-listed OFDR SHM competitor) but thesis unexecutable: company is going dark. REVISIT ONLY IF relists on regulated exchange AND restates all 2022-2024 financials AND SEC accounting review closes. |
+| FARO | FARO Technologies Inc | 2026-07-20 | M&A_KILL: FARO acquired by Ametek Inc., delisted from Nasdaq July 2025. Company was a genuine SOLE_SOURCE PROCESS moat (3D laser scanning/metrology for industrial/construction quality control; FactoryLink/Spatial Analyzer software switching cost; 6-8x P/S at take-out premium). No longer investable as independent public company. |
+
+### Integrity Kills
+
+| Ticker | Company | Issue | Date |
+|--------|---------|-------|------|
+| CLIR | ClearSign Technologies (Nasdaq) | INTEGRITY_KILL: combustion sensing and control technology (ClearSign Core for ultra-low emission industrial burners); genuine technology differentiation for refinery/chemical process burner optimization; BUT development-stage: FY2025 revenue only $5.2M (up 44%), pre-scale, ongoing operating losses, no earnings floor; ~$24M cap (borderline core zone); anti-value-trap rule: quality=0 → INTEGRITY_KILL. REVISIT IF: revenue ≥$25M annually + EBITDA positive for 2 consecutive quarters + burner OEM qualification secured with disclosed volume commitment. | 2026-07-20 |
+| 6830.TW | MSSCorps Co., Ltd. (TWSE: 6830) — 勤崴國際 | INTEGRITY_KILL + CAP_SOFT_KILL: contract semiconductor material analysis/failure analysis/silicon photonics inspection lab (TSMC, Nvidia, Apple anchor customers confirmed). Revenue growing (H1 2026 NTD 1.21B +20% YoY record; Q2 2026 NTD 635M single-quarter record). BUT: FY2025 net loss -NTD 36.7M (quality=0); Q1 2026 net loss -NTD 31.9M (still unprofitable); FCF TTM ≈ -NTD 389M; D/E ratio 81.67%; NTD 1.5B capex plan (further cash burn); GM only ~26.7% (not a high-quality moat margin business). "CPO monopoly" claim from Serenity/Longbridge investor narrative — iST (TWSE:3289) already operating silicon photonics inspection services with NightJar platform; Hongkang entering mid-2026 (first system August 2026). Cap ~USD 1.40B = CAP_SOFT_KILL zone ($500M–$1.5B, no exceptional asymmetry at a loss-making P/S ~23x). INTEGRITY_KILL + CAP_SOFT_KILL dual-gate. REVISIT IF: 2 consecutive profitable quarters + FCF positive + cap corrects below $300M. | 2026-07-20 |
+
+### Cap Kills
+
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| MG | Mistras Group (NYSE) | ~$580M | 2026-07-20 | Technology-enabled NDT services + sensing hardware (acoustic emission, phased-array UT); some PROCESS moat in proprietary NDT sensing; primary customers industrial plants/power generation (not defense). BUT cap ~$580M = extended zone, no exceptional asymmetry identified; CAP_SOFT_KILL. Note: revenue ~$710M (FY2025), indicating commodity service margins at this cap level. |
+
+### Coverage Kill (deferred queue resolution)
+
+| Ticker | Company | Analysts | Date | Reason |
+|--------|---------|----------|------|--------|
+| HVO.L | hVIVO plc (AIM London) | 7 (per aggregator, confirmed) | 2026-07-20 | **COVERAGE_KILL: triage data error correction.** Run #40 triage noted "0-1 analysts" for hVIVO — WRONG. FY2025 financial fetch revealed 7 analyst estimates on aggregators; Cavendish Securities confirmed active at Buy, 16.5p PT. COVERAGE_KILL gate triggered (>4 threshold). Underlying business quality remains UNIQUE_MODEL (sole commercial-scale respiratory human challenge trial CRO; 20+ yr track record; only operator with respiratory HCT biosafety suite for influenza/RSV/COVID human challenge studies) but structural exclusion edge absent at 7-analyst coverage. REMOVED from deferred deep-dive queue. REVISIT ONLY if analyst count drops to ≤2 through broker attrition + cap corrects below £40M. |
+
+### Park (borderline — moat real but asymmetry insufficient)
+
+| Ticker | Company | Score | Date | Reason |
+|--------|---------|-------|------|--------|
+| 4537.TWO | Shuz Tung Machinery Industrial (TPEX: 4537) — 樹德機械 | 5/12 | 2026-07-20 | PARK 5/12: dual-brand machinery (Shuz Tung legacy pipe benders/hydroforming + WisePioneer semiconductor inspection equipment). WisePioneer makes Automatic Wafer Probe Card Optical Inspection Equipment — niche sub-segment with real precision-mechanics depth. Profitable FY2024 (NTD 71M) and FY2025 (NTD 126M, though non-op income inflated FY2025 figure vs FY2024 operating income of NTD 113M). GM ~37.7-40% decent. 0 analysts (TPEX OTC). USD ~$83M cap. BUT: (1) Moat=1 — probe card inspection equipment is niche but not sole-source; iST does adjacent inspection services; FormFactor/Japanese firms compete in broader probe test space; no confirmed regulatory/IP monopoly; (2) Legacy pipe bender/hydroforming segment dilutes moat story; (3) Balance sheet unknown (MOPS filing not accessible); (4) Revenue data inconsistency (NTD 941M vs 1.82B for FY2024 — unresolved); (5) Non-EN TPEX filing → cap C≤2; (6) No catalyst. Score: Moat 1 + Quality 1 + Coverage 2 + Val 1 + Cat 0 + Floor 0 = 5/12. Fails Asymmetry Gate (need ≥2x bull, NOW, discrete trigger). REVISIT IF: primary MOPS filing accessed + confirms net cash position + WisePioneer segment revenue separately disclosed ≥NTD 600M + specific probe card OEM qualification announced. |
