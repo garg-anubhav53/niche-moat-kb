@@ -2355,3 +2355,29 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 - *RELL (~$241-252M): Richardson Electronics — "sole-source" magnetron/power tube supplier for semiconductor plasma etch RF generators; SiC distribution via NoMIS JV; if sole-source verified, could be QUEUED*
 - *NVEC (~$444-474M): NVE Corporation — spintronic GMR/TMR sensors + IsoLoop galvanic isolators; ~70% GM; proprietary spintronics IP; extended zone but moat may justify*
 - *SVCO (~$110-390M): Silvaco Group — TCAD process simulation + EDA software + IP; IPO 2024; high switching-cost tools; cap range uncertain*
+
+---
+
+## Run #54 — Sector 17 Shortlist §3-§4 + Sector 10 4th Pass (2026-07-21)
+
+### Sector 17 Shortlist §3-§4 Triage (run #54 · 2026-07-21)
+
+*5 names from run #53 non-kills resolved via §3-§4 financial diligence.*
+
+| Ticker | Company | Kill / Park Type | Cap (July 2026) | Date | Reason |
+|--------|---------|-----------------|----------------|------|--------|
+| RELL | Richardson Electronics | NO_MOAT_KILL | ~$241-252M | 2026-07-21 | Blended GM 31.9% decisively fails the 45% GM gate. The sole-source magnetron/plasma etch RF narrative (NoMIS JV for SiC) is valid for a sub-segment, but Richardson is primarily an electronics parts distributor with distribution economics. The blended financials show a distribution margin profile — not a moat-grade margin. Distribution model = commodity pricing power. No re-entry unless Richardson exits the distribution business entirely and the magnetron sub-segment's standalone GM can be verified ≥45%. |
+| NVEC | NVE Corporation | PARK (CAP_SOFT_KILL) | ~$444-532M | 2026-07-21 | Spintronics IP is real and defensible (GMR/TMR sensor IP, IsoLoop galvanic isolators — process + IP moat). ~70% GM and ~57% NI margin confirmed. BUT: (a) cap ~$532M = CAP_SOFT_KILL at >$300M without exceptional asymmetry; (b) revenue stagnant/declining ~$26M for years; (c) NVEC has been paying dividends >100% of net income, drawing down cash reserves (unsustainable); (d) no revenue recovery catalyst visible; (e) no credible 2x path at any buy-zone. Does not meet Quality Bench criteria (must compound or throw off cash sustainably). PARK not BENCH. Revisit if: cap corrects below $300M AND revenue shows ≥5% YoY growth confirming recovery. |
+| SVCO | Silvaco Group | COVERAGE_KILL | ~$110-390M (volatile post-IPO) | 2026-07-21 | 5 confirmed sell-side analysts (exceeds ≤4 gate). TCAD process simulation + EDA software + IP moat is real (high switching cost — re-validation takes months, customer IP is baked into Silvaco tools). But coverage density disqualifies. Revisit if analyst count drops to ≤3 AND cap remains below $500M. |
+| GSIT | GSI Technology Inc | INTEGRITY_KILL | ~$70-80M | 2026-07-21 | Dual kill: (1) INTEGRITY: net loss $(13.2M) worsening FY2025; losses have accelerated; SRAM + Gemini APU (associative processing) are real architectural differentiations but neither is yet commercially validated at scale. (2) SECTOR_KILL concurrent: US DoD/defense accounted for ~45.7% of Q4 FY2025 revenue — primary customer is military/defense programs. SECTOR rule prohibits regardless of other metrics. Not a re-entry candidate while defense mix remains primary. |
+| INTT | inTEST Corporation | PARK 6/12 | ~$131M rev / ~$88-100M cap | 2026-07-21 | PARK 6/12 (Moat 1, Market 1, Momentum 1, Mgmt 1, Margin 1, Momentum 0): GM 45.5% barely at the 45% gate; multi-segment dilutes any single moat (Thermal Testing + Electronic Testing + Process Solutions = three different quality profiles bundled); NI margin 2.4%; fwd P/E ~64x; asymmetry gate FAIL — no credible 2x path at current price. Not quality enough for Quality Bench. Park and monitor; revisit if: (a) INTT divests to pure-play, (b) NI margin expands to ≥10%, AND (c) P/E compresses below 20x. |
+
+### Sector 10 4th Pass — Canadian TSX / DACH / Corporate Action Spin-offs (run #54 · 2026-07-21)
+
+*3 candidates investigated; 0 new QUEUED.*
+
+| Ticker | Company | Kill Type | Date | Reason |
+|--------|---------|-----------|------|--------|
+| GUD.TO | Knight Therapeutics (formerly GUD) | SECTOR_ADJACENT_KILL | 2026-07-21 | Knight Therapeutics is a Latin American specialty pharma company — not a distributor. GUD.TO ticker historically was George Weston (food distribution) but GUD.TO in 2026 resolves to Knight Therapeutics (KGH.TO more commonly; may be ticker ambiguity). Either way: pharma/specialty medicine licensing and commercialization in LatAm = SECTOR_ADJACENT to Sector 10 (value-added distribution). Not a distribution moat. |
+| ADIG | ADI Global Distribution (NYSE) | TRIPLE_KILL | 2026-07-21 | Resideo Technologies (REZI) spin-off announced January 2025; NYSE debut August 4 2026. Three simultaneous kills: (1) SIZE_KILL — $4.8B annual revenue = 12x the $400M revenue ceiling; (2) NO_MOAT_KILL — 22.3% GM far below 45% gate (security product distribution is commodity broadliner economics); (3) CAP_KILL — expected market cap $1.5-2.2B at spin-off = 5-7x the $300M limit. Also: $1B drawn debt at separation is a structural concern. No re-entry path. |
+| OCTV | Octave Intelligence / Octavian (ticker uncertain) | SIZE_KILL + CAP_KILL | 2026-07-21 | Revenue ~$1.6B = 4x revenue ceiling. Cap in extended zone at separation price. No exceptional asymmetry to justify extended zone. Not a distribution moat name. |

@@ -226,3 +226,63 @@ Built + wired 5 new orthogonal idea-generation engines (all keyless, cloud-reach
 5. **tools/insiders.py** — Form 4 open-market insider-buying CLUSTERS (2+ distinct buyers) from EDGAR daily index. Tested: works (scales with --max).
 
 Wired into §2A (screen_quality alongside screen.py) and the §2-QUALITY lens rotation (fts presets, depend, insiders). All lenses logged in COVERAGE.md for diversity.
+
+---
+
+## 2026-07-21 — §7 REFLECT run #54 (54%3=0)
+
+**1. Bench re-pricing (snapshot.py proxy-blocked; web-search fallback; all prices tagged ~):**
+
+All 17 bench names re-priced as of 2026-07-21 via WebSearch agents. Full updated table:
+
+| Ticker | Company | Last price (2026-07-21 ~) | Buy-zone | Status |
+|--------|---------|--------------------------|----------|--------|
+| WINA | Winmark | ~$385.44 (~$1.38B cap) | ≤ ~20–22x PE | Above buy-zone |
+| CODA | Coda Octopus | ~$9.84–$10.00 (~$112.7M cap) | $8–10 / ≤ ~$107M cap | ⚠ APPROACHING upper boundary (cap $112.7M; trigger $107M; NOT triggered yet) |
+| OFLX | Omega Flex | ~$29.85 (~$308M cap) | ~$190–220M cap | Above buy-zone |
+| 4549.T | Eiken Chemical | ~¥2,271–2,423 | ¥2,000–2,400 | ⚠ POTENTIAL BUY-ZONE (within range; conflicting sources; EDINET proxy-blocked — cannot verify yuho before promotion; ⚑non-EN) |
+| 6823.T | Rion | ~¥3,585 | ¥2,200–2,400 | Above buy-zone |
+| EKF.L | EKF Diagnostics | ~25.4p (~£110.64M cap) | ≤~14-16p (~£80M cap) | Above buy-zone |
+| 6742.T | Kyosan Electric | ~¥864 | ¥720 | Above buy-zone (prior ¥608 flag corrected in run #45) |
+| CGS.L | Castings plc | ~260p | 200-230p | ⚠ APPROACHING (T-30-60p to trigger) |
+| EPEN.ST | Ependion AB | ~SEK 97–99 | SEK 115-130 | ⚠ BELOW buy-zone lower boundary (SEK 97-99 < SEK 115); quality TBD ⚑non-EN — DO NOT promote until Swedish primary filing verified |
+| JOUT | Johnson Outdoors | ~$44.78 | $38–40 | ⚠ APPROACHING (T-~$5 to trigger) |
+| SMID | Smith-Midland | ~$30.22 | ~$22–24 | Above buy-zone |
+| ETON | Eton Pharmaceuticals | ~$37.57 (~$1.03B cap) | ~$22–26 | Above buy-zone (near 52-wk high) |
+| RX.V | BioSyent | ~C$14.50 (~C$158M cap) | ≤C$10-11/sh | Above buy-zone (extended zone) |
+| MEDI.OL | Medistim ASA | ~NOK 226/sh (~NOK 4.15B / ~$395M USD cap) | ~$230-290M cap | Above buy-zone |
+| SECARE.ST | Swedencare AB | ~SEK 26.35 (2026-06 ~) | TBD ⚑non-EN | Conditional bench — buy-zone TBD pending Swedish primary filing |
+| NZX:SKL | Skellerup Holdings | ~NZD 6.13/sh (~NZD 1.19-1.28B / ~$715-770M USD) | ~NZD 350-450M cap | Extended zone (materially above buy-zone) |
+| XRF.AX | XRF Scientific | ~A$2.28 (~A$323M cap) | A$1.40-1.65/sh | Above buy-zone |
+
+**No buy-zone promotions this run.** 4549.T is potentially within its buy-zone range (¥2,271–2,423 vs. ¥2,000–2,400) but EDINET is proxy-blocked — ⚑non-EN rule requires yuho GM verification before any QUEUED_HOT promotion.
+
+**2. Corrective edits made to WATCHLIST.md this run:**
+- **EPEN.ST identity corrected:** Prior entry listed as "(Swedish small-cap — confirm name/business)." Confirmed = **Ependion AB** (Nasdaq Stockholm), industrial networking for rail/automation (Westermo brand, EN 50155 railway certification). Price has fallen from SEK 156.20 (run #42) to SEK 97-99 — now **BELOW** the buy-zone lower boundary (SEK 115). Quality still TBD ⚑non-EN — cannot promote without Swedish primary filing.
+- **SECARE.ST identity corrected:** Prior entry listed as "Secare AB." Confirmed = **Swedencare AB** (pet health products — ProDen PlaqueOff, Duoxo, Vetri-Science brands). Buy-zone and quality score remain TBD ⚑non-EN.
+- **NZX:SKL cap corrected:** Prior entry showed "~NZD $720M cap" (likely stale). Fresh data: ~NZD 6.13/sh × ~194M shares = NZD 1.19-1.28B cap (~$715-770M USD). Well above buy-zone of NZD 350-450M.
+- **CODA approaching flag:** Added ⚠ note. Not triggered (cap $112.7M > $107M trigger).
+- **4549.T potential buy-zone flag:** Added ⚠ POTENTIAL BUY-ZONE with EDINET-blocked caveat.
+- **EPEN.ST below buy-zone flag:** Added ⚠ BELOW buy-zone lower boundary warning with quality-TBD caveat.
+- Other prices refreshed: 6823.T, ETON, JOUT, RX.V, MEDI.OL, NZX:SKL, SECARE.ST.
+
+**3. Data quality audit:**
+- All 17 bench prices are web-search-sourced (trust ~), not verified via snapshot.py (Yahoo Finance 403). Non-EN filers (4549.T, 6823.T, 6742.T, EPEN.ST, SECARE.ST, NZX:SKL, MEDI.OL, RX.V, XRF.AX) carry additional trust caps.
+- EDINET API remains proxy-blocked (403 Forbidden) — blocks Japanese filings verification. 4549.T cannot be promoted to QUEUED_HOT without restoring EDINET access or verifying GM from alternative filing source.
+- Sector 17 shortlist §3-§4 triage this run confirmed the anti-fabrication rule working correctly: GSIT defense 45.7% SECTOR_KILL caught from Q4 financials; NVEC payout >100% NI flagged from SEC EDGAR reading; SVCO analyst count confirmed from multiple sources.
+
+**4. False negatives re-checked:**
+- **RELL (Richardson Electronics):** Re-checked. Confirmed NO_MOAT_KILL. Blended GM 31.9% (reported) fails the 45% GM gate decisively. The "sole-source magnetron/plasma etch RF" narrative is correct for a sub-segment, but the blended business includes substantial lower-margin distribution. The kill is on financials, not the moat narrative. No change needed.
+- **INTT (inTEST Corporation):** Re-checked. Confirmed PARK 6/12. GM 45.5% barely passes the gate but multi-segment dilutes moat quality (Thermal Testing, Electronic Testing, Process Solutions all different moats). NI margin 2.4% + fwd P/E ~64x leaves no credible 2x path at current price. PARK stands.
+
+**5. Universe exploration audit:**
+- Sector 17 shortlist §3-§4 triage (5 names): all resolved (2 kills, 1 COVERAGE_KILL, 1 INTEGRITY_KILL, 1 PARK). Sector 17 now ACTIVE-SPARSE after 3 US passes + shortlist + 2 European passes with 3 consecutive 0-QUEUED outcomes. Next: 4th pass Japan secondary OEM.
+- Sector 10 4th pass (Canadian TSX/DACH/spin-off lens): 3 names killed (GUD.TO SECTOR_ADJACENT_KILL, ADIG TRIPLE_KILL, OCTV SIZE_KILL). 0 new QUEUED. 1 consecutive 0-new pass after run #52 XRF find; need 2 for EXHAUSTED.
+- No sectors moved to EXHAUSTED this run. Sector 10: 4 passes complete (1 consecutive 0-new). Sector 17: ACTIVE-SPARSE continuing.
+- Systematic enumeration (screen_eu.py, screen_tw.py, EDINET API) remains proxy-blocked. US primary (SEC/fts.py) and WebSearch fallback remain the only working data paths.
+
+**6. Systemic fixes shipped this run:**
+- WATCHLIST.md: EPEN.ST, SECARE.ST, NZX:SKL corrected (identity/cap errors); 4549.T, CODA, EPEN.ST flags added; JOUT, MEDI.OL, RX.V, ETON, 6823.T prices refreshed.
+- STATE.md: Total runs 53→54; Universe size 74→81; RELL PARK→NO_MOAT_KILL; +7 new universe entries (NVEC PARK, SVCO COVERAGE_KILL, GSIT INTEGRITY_KILL, INTT PARK, ADIG TRIPLE_KILL, OCTV SIZE_KILL, GUD.TO SECTOR_ADJACENT_KILL); ASX:XRF QUEUED→BENCH corrected; Sector 10 passes 3→4; Sector 17 status updated to reflect shortlist complete; run #54 log entry added; queue updated note added.
+- COVERAGE.md: Sector 17 shortlist §3-§4 triage section added; Sector 10 4th pass section added.
+- KILL-LIST.md: Run #54 entries added (NVEC, SVCO, GSIT, INTT, ADIG, OCTV, GUD.TO).

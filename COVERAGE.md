@@ -293,6 +293,42 @@ Best survivors: SAMG 5/12 PARK (Silvercrest UHNW RIA; moat real; fair-valued ~21
 
 ---
 
+## Sector 17 (Semiconductor & electronics supply chain) — Shortlist §3-§4 Triage (run #54, 2026-07-21)
+
+**5 non-kills from run #53 triaged this run (RELL, NVEC, SVCO, GSIT, INTT). Result: 0 new QUEUED, 0 new PARK-to-BENCH.**
+
+| Ticker | Company | Triage result | Kill reason |
+|--------|---------|--------------|-------------|
+| RELL | Richardson Electronics | **NO_MOAT_KILL** | Blended GM 31.9% (7-quarter distribution growth streak; FY2025 revenue $241M; specialty high-power tubes, SiC wafers, KleerFax media); fails 45% GM gate — sole-source magnetron/plasma etch RF claim is valid but BLENDED margin is distribution economics |
+| NVEC | NVE Corporation | **CAP_SOFT_KILL (PARK)** | ~$532M cap (~35x PE); 70% GM, 57% NI margin, net cash; spintronics IP (GMR/IsoLoop galvanic isolators) moat real but revenue FLAT ~$26M for years and annual dividend payout likely >100% of net income (drawing down cash reserves); no revenue recovery catalyst; for 2x need $1B+ cap (40x revenue) at flat $26M — no credible path. NOT bench material: revenue stagnant (not a compounder); payout draining reserves (not a sustainable cash-thrower). PARK not bench. |
+| SVCO | Silvaco Group | **COVERAGE_KILL** | 5 analysts confirmed (IPO 2024, ~$390-450M cap); EDA/TCAD software; switching-cost moat is real but >4 analyst gate exceeded |
+| GSIT | GSI Technology | **INTEGRITY_KILL** | Net loss $13.2M (worsening FY2025); defense 45.7% of Q4 revenue (SECTOR_KILL risk concurrent); Gemini APU in-memory AI chip development-stage; R&D-burning on AI chip with no commercial traction |
+| INTT | inTEST Corporation | **PARK 6/12** | $131M revenue, GM 45.5% (barely at gate), NI margin 2.4% ($3.1M NI on ~$200M cap = 64x PE); multi-segment (semiconductor test, thermal, environmental) dilutes moat; Russell 2000 inclusion June 2026 drove price premium; no asymmetric entry; PARK not kill because 45.5% GM passes gate and multi-segment growing |
+
+**Sector 17 status:** ACTIVE-SPARSE (3 passes + shortlist triage complete; 0 QUEUED from all US micro-cap work; AI supercycle re-rated essentially all US semi supply chain names above $1.5B; next pass = 4th pass Japan secondary OEM or Korean secondary KOSDAQ with fresh geo lens).
+
+---
+
+## Sector 10 (Value-added/sole-line distribution) — Pass 4 Coverage Notes (run #54, 2026-07-21)
+
+**Canadian TSX + DACH specialty distributors + corporate action spin-off lens:** ~7 names processed; 0 new QUEUED. **1st consecutive 0-new pass since streak reset at pass 3 (XRF found).**
+
+**Names processed and killed:**
+
+| Ticker | Company | Kill reason |
+|--------|---------|-------------|
+| GUD.TO | Knight Therapeutics (TSX) | SECTOR_ADJACENT_KILL — specialty pharma, not distribution; C$414M TTM revenue (above ceiling); 8+ analyst coverage |
+| ADIG | ADI Global Distribution (NYSE spin-off, debut Aug 4 2026) | **TRIPLE_KILL (SIZE_KILL + NO_MOAT_KILL + CAP_KILL)** — Revenue $4.8B FY2025 (10x+ our $400M ceiling); GM 22.3% (fails 45% gate — classic low-margin distribution economics); expected cap ~$1.5-2.2B (5x+ our $300M ceiling); $1B drawn debt ($400M senior notes + $600M term loan). Wholesale distributor of security/fire/AV products; 190+ branch locations North America + EMEA. Spin-off from Resideo Technologies. TRIPLE_KILL on all three primary gates. |
+| OCTV | Octave Intelligence (NYSE, Hexagon spin-off May 2026) | SIZE_KILL + CAP_KILL — $1.6B+ revenue (4x ceiling); enterprise software (formerly Hexagon Asset Lifecycle Intelligence); cap too large |
+
+**Canadian TSX distributors:** BioSyent (already on bench); all other TSX specialty distributors checked are either (a) too large, (b) pharma/sector-adjacent, or (c) private. Genuine specialty niche TSX distributors at C$20-300M cap are exhausted at this geo lens.
+
+**DACH (Germany/Austria/Switzerland):** Quality German specialty distributors at small-cap (€20-300M) are overwhelmingly private (Würth, Rubix, RS Group successors, etc.). Public XTRA names in this size range with specialty distribution moats are not findable via web search — consistent with pass 2 finding (COVERAGE.md).
+
+**Sector 10 status:** ACTIVE (4 passes; 1 consecutive 0-new pass after pass 3 XRF find; need 2 consecutive for EXHAUSTED; next 5th pass try East-European/Balkan specialty distribution or Japanese domestic secondary OTC sole-distributors).
+
+---
+
 ## Why this matters
 - **Measurable coverage** — we can state "we've reviewed X% of the worthwhile US universe," not "we searched a lot."
 - **No wasted re-looks** — SEEN keyed by CIK/ticker; the ranked worklist is marched once.
