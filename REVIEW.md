@@ -187,3 +187,17 @@ Applied by the operator after a diligence session, not by a REFLECT run:
 4. **Geo override set to Taiwan** for the next run to exercise the upgraded screener end-to-end.
 
 **Systemic fix still open:** restore a reachable live-price feed in the cloud env (the Asymmetry Gate depends on it); until then, foreign valuation runs at ~-trust.
+
+---
+
+## 2026-07-21 — v5 REFRAME (human-directed): unstick the trapped funnel
+
+Operator diagnosis: recent runs (#45–52) had degraded to mostly 0-new + C/D/PARK grades. Root causes found: (a) the small-cap universe is largely swept (52 runs, sectors 2–5× each) — diminishing returns are structural; (b) the cloud env proxy-BLOCKS every non-SEC feed (Yahoo, EDINET, AND TWSE OpenAPI — confirmed run #50), so international §2A enumeration is dead and the routine is web-searching non-US names at ~-trust; (c) the near-term-2x asymmetry mandate systematically PARKED/benched the high-quality-but-fairly-valued compounders that are actually the best finds; (d) sonnet first-passes fabricating moats (STX.L "REMS", FAA.VI).
+
+Changes applied to ROUTINE.md:
+1. **§1 v5 PRIMARY DIRECTIVE** — the deliverable is now a DEEP quality-compounder BENCH with computed buy-zones, re-priced every run for dips; dip-catching > re-sweeping; a 0-new run that catches a bench dip is a SUCCESS.
+2. **§3 cap ceiling relaxed** $1.5B → ~$8B for genuinely high-quality names (mid-cap quality was the biggest leak).
+3. **§1 DATA-REACHABILITY corrected to v5** — only SEC/US works in the cloud; non-US = web-scout leads at ~-trust, C≤2; stop burning runs pretending §2A works abroad. Operator fix path documented (whitelist feeds / set keys).
+4. **Anti-fabrication hard rule** — unconfirmed moat/number = ABSENT; a fabricated claim reaching a memo caps grade at PARK.
+
+Systemic fix still open (operator-only): whitelist query1.finance.yahoo.com / api.edinet-fsa.go.jp / openapi.twse.com.tw and set EDINET_KEY/OPENDART_KEY to restore international reach + trustworthy prices.
