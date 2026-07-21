@@ -119,6 +119,55 @@ The point of the top-of-funnel rework: stop *hoping* web search surfaces names, 
 
 ---
 
+## Taiwan GEO OVERRIDE — Run #50 (2026-07-21)
+
+**Screen:** `tools/screen_tw.py --min-gm 45 --min-om 12` → **TWSE OpenAPI proxy-blocked (403 Forbidden)**; fell back to §2B web-search scout for all Taiwan names. All data tagged ~.
+
+**Coverage:** ~17 Taiwan names processed across TWSE (main board) and TPEX (OTC board), covering precision instruments (Sector 18 geo lens), semiconductor testing services, medical devices, specialty chemicals, and semiconductor equipment.
+
+**Result: 0 new QUEUED. All names killed at §3 triage.**
+
+### Kill summary (Taiwan run #50)
+
+**No-Moat Kills (GM below 45% gate) — 7 names:**
+- 8021.TW Topoint Technology — archery equipment OEM; GM ~27%; NO_MOAT_KILL
+- 3289.TWO iST International — semiconductor testing services; GM 26.96%; NO_MOAT_KILL
+- 8103.TW CviLux — electrical connectors; GM ~20%; NO_MOAT_KILL
+- 3055.TW Spirox Medical — ENT devices; GM ~16%; NO_MOAT_KILL + CAP_SOFT concurrent
+- 1733.TW Apex Biotech — OEM rapid diagnostic kits + glucose meters; GM ~28%; NO_MOAT_KILL
+- 4746.TW Formosa Laboratories — API pharmaceutical intermediates CDMO; GM ~41.9%; NO_MOAT_KILL (below 45% gate)
+- 3583.TW Scientech Electronics — semiconductor equipment agency + own-brand wet process equipment; GM ~30-32%; DUAL-KILL: NO_MOAT + CAP ($2.03B)
+
+**Cap/Extended-Zone Kills — 5 names:**
+- 4749.TWO Advanced Echem Materials — specialty semiconductor photoresists; cap ~$1.8B; CAP_KILL
+- 7769.TW Hon. Precision — IC test handlers; cap well above $300M; CAP_SOFT_KILL
+- 6146.TWO Sporton International — EMC/safety certification lab; cap ~$624M extended zone; declining revenue; CAP_SOFT_KILL
+- 4736.TW TaiDoc Technology — OEM glucose meters/CGM; cap ~$377M extended zone; declining revenue; CAP_SOFT_KILL
+- 5536.TWO Acter Group — fab EPC services; cap ~$4.7B + GM ~21% + revenue $1.3B; TRIPLE-KILL
+
+**Coverage Kill — 1 name:**
+- 4772.TWO Taiwan Speciality Chemicals Corporation — specialty semiconductor chemicals; ~5 analysts; COVERAGE_KILL
+
+**Quality Kill — 1 name:**
+- 6934.TWO HCmed Innovations Co. — vibrating mesh nebulizer CDMO; GM ~62% passes gate; cap ~$83M in zone; BUT pre-commercial losses (quality=0); $3-4M USD revenue (dev-stage); one-client concentration; QUALITY_KILL
+
+**Triple-Kill — 2 names:**
+- 6223.TWO MPI Corporation — probe cards; cap ~$18B + 11 analysts + revenue $418M; TRIPLE-KILL (cap + coverage + revenue)
+- 5536.TWO Acter Group — (also counted above); TRIPLE-KILL (cap + no-moat + revenue)
+
+### Notable near-misses
+- **6223.TWO MPI Corporation:** Highest-quality Taiwan name encountered — probe cards 72% revenue, GM 53.8%, OP 28.5%. But cap ~$18B = 60x limit; 11 analysts. Would be high-priority QUEUED if cap corrects below $300M. Monitor for spinoff/restructuring.
+- **6934.TWO HCmed:** Genuine niche CDMO moat structure (3 global players; FDA regulatory lock-in once device co-filed; multi-year CDMO relationships). Revisit if: (a) revenue reaches $20M+ USD, (b) net income positive, (c) second US client relationship confirmed.
+
+### Deferred queue update (run #50)
+- 6858.T Ono Sokki: **revised 6/12 → 8/12** with FY2026 guidance data (fwd P/E ~11x; net cash 31% of cap; orders > revenue; H1 FY2026 earnings July 29 2026 hard-dated). §5 STILL BLOCKED: (a) EDINET proxy-blocked; (b) GM unverified from primary filing. financials/6858.T.md written this run.
+
+**Sector 18 status:** 2 passes complete. Taiwan geo lens EXHAUSTED (0 survivors from ~17 names). Next Sector 18 pass: European geo lens (German XTRA precision instruments / Swiss SIX) or Japan secondary names (post-EDINET access).
+
+**GEO OVERRIDE cleared.** Next scheduled rotation: Sector 10 3rd pass (Nordic specialist distributors or ASX niche) or Sector 15 3rd pass.
+
+---
+
 ## Why this matters
 - **Measurable coverage** — we can state "we've reviewed X% of the worthwhile US universe," not "we searched a lot."
 - **No wasted re-looks** — SEEN keyed by CIK/ticker; the ranked worklist is marched once.
