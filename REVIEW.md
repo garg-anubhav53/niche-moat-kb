@@ -201,3 +201,15 @@ Changes applied to ROUTINE.md:
 4. **Anti-fabrication hard rule** — unconfirmed moat/number = ABSENT; a fabricated claim reaching a memo caps grade at PARK.
 
 Systemic fix still open (operator-only): whitelist query1.finance.yahoo.com / api.edinet-fsa.go.jp / openapi.twse.com.tw and set EDINET_KEY/OPENDART_KEY to restore international reach + trustworthy prices.
+
+---
+
+## 2026-07-22 — v5.1 harvest-all-quality + retrieval upgrade (human-directed)
+
+1. **KILLERS vs ROUTERS (§3):** Coverage, Cap, and Price are now ROUTERS, not killers — a durable-moat/clean/profitable business is ALWAYS captured (Quality Bench at minimum), never deleted for being well-covered, mid-cap, or already up. Fixes the leak (157 COVERAGE_KILL + 128 CAP_SOFT_KILL discarded quality). Only Sector/Moat-absent/Integrity/quality=0 kill.
+2. **Every-run bench dip-catch (§7.4):** bench price-refresh + buy-zone promotion now runs EVERY run (cheap, price-only); catching a dip = a successful run even with 0 new names.
+3. **Geo default US (§1):** international enumeration proxy-blocked in cloud → US-default lens; non-US = opportunistic web-scout only until feeds/keys wired.
+4. **NEW retrieval engine `tools/fts.py` (§2A-FTS):** SEC full-text moat-language search (efts.sec.gov, keyless, cloud-reachable) — finds companies by the moat language in their own 10-Ks (sole supplier / only manufacturer / only FDA-cleared / …), ranked by # distinct phrases. Primary-source-grounded, fabrication-proof. Tested: 413 companies since 2024-06.
+5. **§2-QUALITY orthogonal-lens rotation:** moat-language / supply-chain traversal / corporate-action / KB-internal thread-following (incl. reviving old quality kills) / first-principles hypotheses — rotate per run, logged in COVERAGE.md, to stop re-mining the same lists.
+
+Live-ready (US-primary). Open operator item: whitelist query1.finance.yahoo.com / api.edinet-fsa.go.jp / openapi.twse.com.tw + set EDINET_KEY/OPENDART_KEY to restore international reach + trustworthy live prices.

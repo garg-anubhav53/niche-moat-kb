@@ -102,6 +102,17 @@ Load the **SEEN set** (all tickers in `UNIVERSE.md` + `KILL-LIST.md` + reviewed 
 - **Korea** — `OPENDART_KEY` set → `screen_kr.py` (to build); else §2B.
 - **Canada/Australia & anything without a bulk feed** — §2B, or note the exchange-list denominator and march per-name.
 
+**§2A-FTS — MOAT-LANGUAGE RETRIEVAL (v5.1 — the primary US idea engine; reachable, fabrication-proof).** Beyond the quant screen, retrieve names by the moat language in their OWN filings: `python3 tools/fts.py --since <~2yr-ago>` searches SEC full-text (efts.sec.gov, keyless, **cloud-reachable**) for phrases like *sole supplier / only manufacturer / only FDA-cleared / sole source / de facto standard* and ranks companies by how many distinct moat-phrases they assert. **Every hit is a real 10-K sentence — read it, so the moat is primary-source-grounded and never invented.** Take the top unseen names into §3. Vary `--q` phrases each run to mine different moat archetypes (regulatory, sole-source, standard-setter, consumable-lock). Highest-signal US retrieval we have — give it a full pass regularly.
+
+**§2-QUALITY — rotate ORTHOGONAL retrieval lenses (v5.1) so we stop re-mining the same round-ups.** High-quality idea flow comes from *diverse* generation, not one angle repeated (recent runs drifted into re-mining identical lists → 0-new). Each run, pick a lens NOT used recently (track in `COVERAGE.md`) and prefer primary/structural angles over generic web lists:
+1. **Moat-language (FTS)** — §2A-FTS above (US, primary-source).
+2. **Supply-chain traversal** — from a KNOWN great business (bench/memo), chase its *suppliers, customers, and named competitors* (10-K "Competition"/"Suppliers" sections via efts.sec.gov). Great businesses cluster near great businesses.
+3. **Corporate-action** — recent spin-offs / carve-outs / post-de-SPAC orphans (structurally under-followed); insider-buying clusters; 13D activism.
+4. **KB-internal thread-following** — mine our own `memos/` + `KILL-LIST.md`: names *forwarded* from another sector, competitors named inside a memo, and **re-examine 2–3 old kills under the v5.1 lens** (many `COVERAGE_KILL`/`CAP_SOFT_KILL` names were quality that should now be BENCHED, not dead — revive them).
+5. **First-principles moat hypotheses** — reason about where structural choke-points exist (a value-chain bottleneck, a regulatory sole-qualification, a razor-blade consumable, a certification lock), generate NAMED hypotheses, then verify each against a filing. *Reason first, search to confirm* — not search-and-hope.
+
+Log which lens ran (`COVERAGE.md`) so diversity is visible over time.
+
 **§2B — WEB-SEARCH SCOUT (supplement — for markets not yet enumerable, and situation-angles).** Only after §2A, and mainly for the non-US geo lens. Apply THIS run's **geographic lens** (from §1); append the region to queries.
 
 Run **≤6 broad web searches**, each aimed at returning MANY names at once (lists/screens/round-ups, not single companies). **Rotate across TWO angle-families so we don't re-mine the same lists every pass** — pick 3 from the moat-angle set and 2-3 from the situation-angle set:
