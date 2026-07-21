@@ -213,3 +213,16 @@ Systemic fix still open (operator-only): whitelist query1.finance.yahoo.com / ap
 5. **§2-QUALITY orthogonal-lens rotation:** moat-language / supply-chain traversal / corporate-action / KB-internal thread-following (incl. reviving old quality kills) / first-principles hypotheses — rotate per run, logged in COVERAGE.md, to stop re-mining the same lists.
 
 Live-ready (US-primary). Open operator item: whitelist query1.finance.yahoo.com / api.edinet-fsa.go.jp / openapi.twse.com.tw + set EDINET_KEY/OPENDART_KEY to restore international reach + trustworthy live prices.
+
+---
+
+## 2026-07-22 — v5.2 top-of-funnel retrieval fleet (human-directed)
+
+Built + wired 5 new orthogonal idea-generation engines (all keyless, cloud-reachable, filing-grounded):
+1. **tools/screen_quality.py** — ROE/net-margin enumerator that SEES FINANCIALS (banks/insurers/exchanges the GM screen can't) + flags ★ quiet-compounders (rev up ≥4/5yr). Sanity caps (nm/roe ≤60) drop revenue-tag artifacts. Tested: 310 names incl. PJT Partners, Ameriprise, Chipotle, Paychex, InterDigital.
+2. **tools/fts.py --preset** — moat / pricing / lockin / scale / depend phrase archetypes (rotate per run). Tested: pricing→243 cos (MP Materials, Elanco, Valvoline).
+3. **tools/fts.py --preset depend** — reverse supply-chain: filers naming a critical supplier → read to find the monopoly.
+4. **quiet-compounder flag** — inside screen_quality (the ★).
+5. **tools/insiders.py** — Form 4 open-market insider-buying CLUSTERS (2+ distinct buyers) from EDGAR daily index. Tested: works (scales with --max).
+
+Wired into §2A (screen_quality alongside screen.py) and the §2-QUALITY lens rotation (fts presets, depend, insiders). All lenses logged in COVERAGE.md for diversity.

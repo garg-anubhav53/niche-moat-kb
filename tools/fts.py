@@ -20,6 +20,19 @@ DEFAULT_PHRASES = [
     "only FDA-approved", "exclusive supplier", "sole qualified supplier",
     "de facto standard", "only commercially available", "sole provider",
 ]
+# Orthogonal phrase archetypes — rotate the preset each run to mine different moat types.
+PRESETS = {
+    "moat":    DEFAULT_PHRASES,
+    "pricing": ["take-or-pay", "long-term supply agreement", "annual price increase",
+                "pricing power", "price escalator", "cost-plus contract"],
+    "lockin":  ["switching costs", "installed base", "razor and blade", "recurring revenue",
+                "mission-critical", "high switching cost", "long-term contracts"],
+    "scale":   ["we are the largest", "largest manufacturer", "de facto standard",
+                "industry standard", "market-leading", "dominant market"],
+    # reverse supply-chain: filers that NAME a critical supplier they depend on → read to find the monopoly
+    "depend":  ["single source of supply", "we depend on", "our sole supplier",
+                "sole-source supplier", "our largest supplier", "single-source"],
+}
 
 def search(phrase, form="10-K", since=None, pages=8):
     """Yield (cik, name, date) for filings matching an EXACT phrase."""
@@ -49,12 +62,14 @@ def search(phrase, form="10-K", since=None, pages=8):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--q", nargs="*", default=DEFAULT_PHRASES, help="exact moat phrases")
+    ap.add_argument("--preset", choices=list(PRESETS), default="moat", help="phrase archetype (rotate each run)")
+    ap.add_argument("--q", nargs="*", default=None, help="exact phrases (overrides --preset)")
     ap.add_argument("--since", default=None, help="YYYY-MM-DD filing-date floor (recency)")
     ap.add_argument("--form", default="10-K")
     ap.add_argument("--pages", type=int, default=8, help="pages (x10 hits) per phrase")
     ap.add_argument("--top", type=int, default=50)
     a = ap.parse_args()
+    if not a.q: a.q = PRESETS[a.preset]
 
     comp = {}  # cik -> {name, phrases:set, latest date}
     for ph in a.q:
