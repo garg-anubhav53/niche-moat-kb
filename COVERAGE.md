@@ -185,6 +185,48 @@ Best survivors: SAMG 5/12 PARK (Silvercrest UHNW RIA; moat real; fair-valued ~21
 
 ---
 
+## Sector 10 (Value-added/sole-line distribution) — Pass 3 Coverage Notes (run #52, 2026-07-21) → **ACTIVE**
+
+**Nordic specialist distributors + ASX niche geo lens:** ~17 names processed; 1 new QUEUED (ASX:XRF 9/12). Consecutive-0-new streak from 2nd pass BROKEN — Sector 10 remains **ACTIVE**.
+
+**Names processed:**
+
+**Cap Kills — 5 names (CAP_SOFT: $500M–$1.5B, limited asymmetry):**
+- OEM-B.ST (OEM AB, Sweden) — Swedish industrial distributor; ~$1.1B USD cap; CAP_SOFT_KILL
+- BIOG-B.ST (Biogaia, Sweden) — probiotic distributor/IP; ~$700M+ cap + >4 analysts; dual CAP_SOFT+COVERAGE_KILL
+- MUSTI.HE (Musti Group, Finland) — Nordic pet products distributor; ~$760M USD cap; CAP_SOFT_KILL
+- BERG-B.ST (Bergman & Beving, Sweden) — industrial specialist distributor; ~$735M USD cap + revenue ceiling; CAP_SOFT_KILL
+- ASX:SNL (Supply Network Limited, Australia) — heavy truck parts distributor; ~$940M USD cap; CAP_SOFT_KILL
+
+**Coverage Kill — 1 name:**
+- ASX:NAN (Nanosonics, Australia) — medical device disinfection; 5-7 analysts; COVERAGE_KILL
+
+**No-Moat Kills — 6 names:**
+- ALLIGO-B.ST (Alligo AB, Sweden) — broadline workwear/industrial supplies distributor; 41% GM fails moat gate; NO_MOAT_KILL
+- NORBT.OL (Norbit ASA, Norway) — hardware manufacturer not distributor; sector misclassification; NO_MOAT_KILL
+- NZX:PGW (PGG Wrightson, NZ) — agricultural products distributor; 26% GM fails gate; NO_MOAT_KILL
+- ASX:MXI (MaxiTRANS Industries, Australia) — trailer equipment distributor; 34% GM fails gate; NO_MOAT_KILL
+- ASX:CYG (Coventry Group, Australia) — industrial distribution; GM uncertain; NO_MOAT_KILL
+- VOLO.ST (Volati AB, Sweden) — industrial conglomerate; 30-35% GM fails specialty distributor gate; NO_MOAT_KILL
+
+**Park — 1 name:**
+- MMGR-B.ST (Momentum Group, Sweden) — technical industrial distribution; PARK 5/12 (quality borderline; margins thin; no hard-dated catalyst)
+
+**Already Seen — 1 name:**
+- ASX:DGL (DGL Group) — already killed in prior run; NOT duplicated
+
+**Quality Bench Additions — 3 names (above buy-zone but durable moat; monitor for dip):**
+- MEDI.OL (Medistim ASA, Norway) — patented TTFM cardiac surgery flow measurement; 80%+ global monopoly; 82% GM; above buy-zone (~$390-450M cap vs buy-zone ~$230-290M cap)
+- SECARE.ST (Secare AB, Sweden) — ⚑non-EN conditional bench spot pending business/moat confirmation
+- NZX:SKL (Skellerup Holdings, NZ) — diversified niche rubber/polymer OEM; quality real but ~NZD $720M cap extended zone
+
+**1 new QUEUED:**
+- **ASX:XRF (XRF Scientific Limited)** — 9/12; mining laboratory captive consumables (fusion discs, beads, platinum-ware for XRF/fire assay sample preparation); ~$207M USD cap; 48% GM; 1-2 analysts; English-language ASX filing; captive razor-blade model (lab equipment + consumable lock-in); §5 deep-dive deferred to run #53+
+
+**Sector 10 status:** ACTIVE (3 passes complete; 1 new QUEUED this pass breaks consecutive-0-new streak). Next pass: Sector 10 4th pass with new geo lens (e.g. Southern Europe/DACH specialty distributors or Canadian TSX niche distributors).
+
+---
+
 ## Why this matters
 - **Measurable coverage** — we can state "we've reviewed X% of the worthwhile US universe," not "we searched a lot."
 - **No wasted re-looks** — SEEN keyed by CIK/ticker; the ranked worklist is marched once.

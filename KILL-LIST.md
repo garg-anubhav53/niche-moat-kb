@@ -2253,3 +2253,38 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 
 ### Sector 15 (3rd pass US) — Zero-Survivor Summary
 *US geo lens: structurally exhausted. Exchange/clearing operators all >$7B cap; specialty insurance quality names at $500M+ extended zone or reserve-concern-riddled; financial data providers absorbed by S&P/MSCI/FactSet or PE-privatized; SAMG and HNNA are best surviving RIAs but both fail Asymmetry Gate (fair-valued, AUM-dependent floor, no catalyst). 2nd consecutive 0-new pass → Sector 15 → EXHAUSTED.*
+
+---
+
+## Run #52 — Sector 10 (Value-added/sole-line distribution, 3rd pass, Nordic+ASX geo lens) · 2026-07-21
+
+*~17 names processed; 1 new QUEUED (ASX:XRF 9/12); 3 Quality Bench additions (MEDI.OL, SECARE.ST conditional ⚑non-EN, NZX:SKL); ~13 kills below. GENC §5 Opus adversarial red-team resolved: downgraded WATCH Grade B → CANDIDATE Grade C (Q3/F4/R2/C3). Sector 10 ACTIVE (consecutive-0-new streak broken).*
+
+### Cap Soft Kills (extended zone, no exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| OEM-B.ST | OEM International B (Nasdaq Stockholm) | ~SEK 12B (~$1.1B USD) | 2026-07-21 | Swedish technical components distributor (electronic + electromechanical components; own-developed niche products in some lines); some SWITCHING_COST in own-developed proprietary products; BUT cap ~$1.1B = extended zone without exceptional asymmetry justifying inclusion; no coverage void at this size; CAP_SOFT_KILL |
+| BIOG-B.ST | Biogaia AB B (Nasdaq Stockholm) | ~SEK 9-10B (~$860-920M USD) | 2026-07-21 | Swedish probiotic products (Lactobacillus reuteri patented strains; documented clinical moat in infant colic and digestive health); patented CONSUMABLE+PROCESS moat genuine; BUT cap ~$860-920M = extended zone without exceptional asymmetry AND 5+ analysts = COVERAGE_KILL concurrent; dual CAP_SOFT_KILL + COVERAGE_KILL |
+| MUSTI.HE | Musti Group Oyj (Nasdaq Helsinki) | ~€700M (~$760M USD) | 2026-07-21 | Finnish Nordic pet care specialist retailer (own-brand pet food, accessories, veterinary services in Scandinavia); BRAND+NETWORK moat in Nordic pet care niche; BUT cap ~$760M = extended zone; multiple analysts; no coverage void; CAP_SOFT_KILL |
+| BERG-B.ST | Bergman & Beving B (Nasdaq Stockholm) | ~SEK 8B (~$735M USD) | 2026-07-21 | Swedish tools and consumables distributor (ESSVE, Luna, Skydda brands; industrial and construction sectors); some BRAND+SWITCHING_COST moat in branded consumables distribution; BUT cap ~$735M = extended zone; revenue ceiling concerns; no exceptional asymmetry; CAP_SOFT_KILL |
+| ASX:SNL | Supply Network Limited (ASX) | ~A$1.4B (~$940M USD) | 2026-07-21 | Australian truck parts and commercial vehicle aftermarket parts distributor (truck components, spare parts supply; PACCAR/DAF authorized dealer network); some CAPTIVE moat via authorized dealer network; BUT cap ~$940M = extended zone without exceptional asymmetry; limited coverage void at this size; CAP_SOFT_KILL |
+
+### Coverage Kills (>4 sell-side analysts)
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|---|------|--------|
+| ASX:NAN | Nanosonics Limited (ASX) | 5-7 analysts | 2026-07-21 | Australian infection control device (trophon EPR ultrasound probe high-level disinfection; REGULATORY+CONSUMABLE moat; TGA/FDA cleared; installed base ~30,000 globally); genuine consumable moat; BUT 5-7 ASX analysts confirmed = COVERAGE_KILL (>4 threshold); cap ~A$500-700M also extended zone = CAP_SOFT_KILL concurrent; dual COVERAGE_KILL + CAP_SOFT_KILL |
+
+### No-Moat Kills (GM below 45% gate or broadline distribution)
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| ALLIGO-B.ST | Alligo AB B (Nasdaq Stockholm) | NO_MOAT_KILL: GM ~41% confirmed below 45% gate; broadline industrial MRO distributor (Swedol, Tools brands); no sole-source or regulatory moat; broadliner competing with Ahlsell, Würth, Haberkorn; commodity distribution economics | 2026-07-21 |
+| NORBT.OL | Norbit ASA (Oslo: NORBT) | NO_MOAT_KILL + SECTOR_WRONG: Norbit is a precision electronics manufacturer (road-side weighing sensors, GNSS antennas, subsea sonar) — NOT a value-added sole-line distributor per Sector 10 definition; GM ~50%+ but primary business is manufacturing own-designed hardware, not distributing third-party specialty products; also defense/road-sensor significant; SECTOR_KILL concurrent | 2026-07-21 |
+| NZX:PGW | PGG Wrightson (NZX) | NO_MOAT_KILL: GM ~26% well below 45% gate; New Zealand agricultural supplies and seed distribution (broadline agri retailer: seeds, fertilizers, farm supplies, livestock); no sole-source or regulatory moat; commodity agricultural distribution; NO_MOAT_KILL | 2026-07-21 |
+| ASX:MXI | MaxiPARTS Limited (ASX) | NO_MOAT_KILL: GM ~34% confirmed below 45% gate; Australian heavy vehicle parts distributor (truck parts, trailers, bus components); competitive market with multiple aftermarket parts distributors; GM below gate; NO_MOAT_KILL | 2026-07-21 |
+| ASX:CYG | Coventry Group Limited (ASX) | NO_MOAT_KILL: GM uncertain / likely below gate; Australian industrial and technical products distributor (fasteners, fittings, fluid systems for industrial applications); competitive industrial distribution with no confirmed sole-source moat; GM below gate or unconfirmed above 45%; NO_MOAT_KILL | 2026-07-21 |
+| VOLO.ST | Volati AB (Nasdaq Stockholm) | NO_MOAT_KILL: GM ~30-35% confirmed below 45% gate; Swedish industrial distribution and trading conglomerate (multiple specialty distribution niches: Tornum agricultural equipment, COWI marine, specialty industrial); conglomerate dilutes moat story; consolidated GM 30-35% below gate; NO_MOAT_KILL | 2026-07-21 |
+
+### Note: Prior Kill — Not Duplicated
+*DGL.AX (DGL Group, ASX) already recorded in KILL-LIST.md initial section (No-Moat Kills, 2026-07-16, line ~300). Not re-added.*
+
+*MMGR-B.ST (Momentum Group B, Nasdaq Stockholm): PARK not kill — Swedish industrial distribution conglomerate (Haberkorn, etc.); borderline quality warranting monitoring but not strong enough moat for KB deep-dive; placed PARK not kill category.*
