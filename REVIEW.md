@@ -148,6 +148,35 @@ All bench prices confirmed by web search (trust ~ — snapshot.py remains blocke
 
 ---
 
+## 2026-07-21 — §7 REFLECT run #51 (51%3=0)
+
+**Bench re-pricing (snapshot.py proxy-blocked; web-search fallback; all prices tagged ~):**
+
+1. **4549.T Eiken Chemical (Japan FIT/LAMP)** — POTENTIAL BUY-ZONE. §7 REFLECT web-search confirms ¥2,145–2,354 range (2026-07-21 ~). Buy-zone is ¥2,000–2,400. **At ¥2,145–2,354 the stock is AT OR NEAR the lower boundary of the buy-zone** — first time in KB history 4549.T has traded inside its buy-zone. ⚑non-EN rule: yuho primary filing verification required before promoting to QUEUED_HOT. WATCHLIST updated. Note: price tagged ~ (web-search only); cannot tag ✓ until filing-anchored price confirmation.
+2. **ELVA.TO Electrovaya** — Amazon warrant deal CONFIRMED FIRED July 15 2026. Stock C$15.89 at time of §7 check = **above buy-zone US$8.00-10.50 / C$11.00-14.50**. CATALYST → CANDIDATE. Re-entry thesis: pullback to C$11-13 / US$8-9 restores asymmetry if Amazon cumulative commitment US$280M + Jamestown factory ramp on-track. UNIVERSE.md and STATE.md updated.
+3. **FAA.VI Fabasoft** — €11.80-12.00 range observed (below the €11.50-14.50 buy-zone lower end). More attractive entry than at memo write (€13.75). German E-Akte rollout catalyst unchanged.
+4. **REC.L Record plc** — 54.11p (–37% from triage price ~86p). Watch for earnings catalyst confirmation.
+5. **GENC Gencor Industries** — $15.18-15.20 range. IN BUY-ZONE ($12-16). Q3 FY2026 results expected August 2026 = hard-dated catalyst. NOTE: GENC WATCH memo (memos/GENC-2026-07-16.md) lacks the OPUS 12-mode adversarial red-team check. Deferred to run #52 after Q3 August 2026 data is available. Rationale: adversarial red-team on a name with a hard-dated Q3 catalyst is best run post-Q3 when the key load-bearing number (backlog → revenue conversion) can be verified directly.
+
+**Sector 15 EXHAUSTED:**
+- Sector 15 (Exchanges/data/niche financials) 3rd pass US geo lens (run #51): ~20 names processed; 18 killed; 2 PARKed (SAMG 5/12 Silvercrest UHNW RIA; HNNA 4/12 Hennessy Advisors mutual fund manager). **0 new QUEUED — 2nd consecutive 0-new pass → SECTOR 15 EXHAUSTED.** Structural finding: US exchange/clearing operators all >$7B cap; specialty insurance quality names $500M+ extended zone or reserve-concern-riddled; financial data providers absorbed by S&P/MSCI/FactSet; remaining RIAs/fund managers (SAMG, HNNA, GAMCO) have AUM-stickiness but floors are AUM-dependent not earnings-floor.
+- REVIVE condition: new geo lens needed — Nordic/Scandinavian financial data niche (Oslo Bors/Nasdaq Stockholm micro-cap financial infrastructure) or ASX Australian securities infrastructure.
+
+**False negatives re-checked:**
+- **EAH.L (ECO Animal Health, AIM):** PARK valid confirmed. Generic tylvalosin erosion from China-based API manufacturers into EU markets = structural discount, not temporary mispricing. EV/EBITDA ~4x appears cheap but correctly prices eroding moat. Q≈1 disqualifies from Quality Bench. PARK 6/12 confirmed valid.
+- **WATR.L (Water Intelligence, AIM):** PARK valid confirmed. 4 AIM analysts (knocked coverage axis to 0 in scoring), thin 5.6% net margin, no hard-dated catalyst — all three failure modes confirmed. Valid kill; not a false negative.
+
+**Systemic fixes shipped this run:**
+- WATCHLIST.md 4549.T price updated ¥3,050+ → ¥2,145–2,354 with POTENTIAL BUY-ZONE flag.
+- UNIVERSE.md ELVA.TO status CATALYST → CANDIDATE; re-entry thesis noted.
+- STATE.md Sector 15 passes 2→3; status ACTIVE→EXHAUSTED.
+- STATE.md CATALYST count 1→0 (ELVA.TO graduated to CANDIDATE).
+- UNIVERSE.md + STATE.md counter strings updated: 71→73 (SAMG PARK + HNNA PARK added); DXRX.L QUEUED→PARK corrected.
+- KILL-LIST.md Sector 15 3rd pass US section added (18 kills, 2 PARKs).
+- COVERAGE.md Sector 15 3rd pass US section added (EXHAUSTED status declared).
+
+---
+
 ## 2026-07-21 — v4 TOOLING & METHODOLOGY UPGRADE (human-directed, out-of-band)
 
 Applied by the operator after a diligence session, not by a REFLECT run:

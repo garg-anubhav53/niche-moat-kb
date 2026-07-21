@@ -2207,3 +2207,49 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | Ticker | Company | Score | Date | Reason |
 |--------|---------|-------|------|--------|
 | DXRX.L | Diaceutics plc (AIM London) | Q3/F2/R2/C2 = Grade C | 2026-07-20 | **PARK Grade C — §5 OPUS adversarial red-team run #49 2026-07-20. Asymmetry Gate FAIL 4/4.** Precision Medicine Implementation (PMI) platform connecting pharma to 2,500+ CDx lab network. Real NETWORK+SWITCHING_COST moat (3yr solid; 5yr weakening as ConcertAI+Foundation Medicine build adjacent platforms; 10yr uncertain). KEY RED FLAGS: (1) adj-EBITDA £7.6M is misleading — cash-flow statement shows -£5.3M outflow; FCF NEGATIVE after capitalised development ~£4-5M/yr; NI only £97k; (2) Revenue quality poor: only 52% ARR (NRR 105% weak for platform), 48% lumpy project work; (3) PMx concentration ~21% ARR from 2 contracts tied to third-party drug success; (4) GM step-down 88%→82% is structural not cosmetic (incremental data acquisition for new disease areas). Asymmetry Gate: (1) NOT discounted — 146p inside 2.5–3.5x EV/sales fair-value band (118–160p); (2) no ≥2x path — analyst avg GBX 205p = 40% upside only; 2x = 292p requires 7.5x EV/sales unjustified pre-FCF; (3) downside ≥ upside; (4) no discrete catalyst — H1 2026 results (Sept 2026) are monitoring events. Score Q3/F2/R2/C2; C capped at 2 (non-US filer, primary filing 403-blocked). Buy-zone: ~95–110p (~2.0–2.4x EV/sales). Upgrade trigger: H1 2026 OCF positive after capitalised dev (Sept 2026) OR FY2026 FCF positive (spring 2027). Do NOT buy at 146p. Memo: memos/DXRX.L-2026-07-20.md · financials/DXRX.L.md. REVISIT IF: (a) price corrects to ≤110p AND (b) H1 2026 or FY2026 cash-flow statement shows positive FCF after capitalised dev AND (c) NRR ≥110% confirmed (platform expanding existing pharma relationships). |
+
+---
+
+## Run #51 — Sector 15 (Exchanges/data/niche financials, 3rd pass, US geo lens) + §7 REFLECT · 2026-07-21
+
+*~20 names processed; 0 new QUEUED; 18 kills; 2 PARKs (SAMG 5/12, HNNA 4/12 → added to UNIVERSE.md). Sector 15 → EXHAUSTED (2nd consecutive 0-new pass: Japan TSE run #34 + US geo lens run #51).*
+
+### Cap Kills (>$1.5B cap)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| SKWD | Skyward Specialty Insurance | ~$1.5-2B | 2026-07-21 | E&S/specialty insurance (excess & surplus lines); genuine REGULATORY+PROCESS moat in niche specialty lines (professional liability, marine, energy); BUT cap ~$1.5-2B = extended zone; covered by analysts; CAP_KILL |
+| PLMR | Palomar Holdings | ~$2-3B | 2026-07-21 | Earthquake/specialty property insurance (reinsurance-backed program specialist); REGULATORY moat in CAT modeling; BUT cap ~$2-3B = CAP_KILL; 5+ analysts |
+| KNSL | Kingsway Financial / Kinsale Capital | ~$6B | 2026-07-21 | Specialty insurance diversified; CAP_KILL; well-covered |
+| MKTX | MarketAxess | ~$7B | 2026-07-21 | Electronic bond trading platform (Open Trading network effects; REGULATORY+NETWORK moat genuine); BUT ~$7B cap = CAP_KILL; 10+ analysts; no asymmetry available |
+
+### Cap Soft Kills (extended zone, no exceptional asymmetry)
+| Ticker | Company | Market Cap | Date | Reason |
+|--------|---------|-----------|------|--------|
+| FDLS | Fidelis Insurance Holdings | ~$1-2B | 2026-07-21 | Bermuda specialty/reinsurance; CAP_SOFT_KILL; no exceptional asymmetry vs. peers |
+| DFIN | Donnelley Financial Solutions | ~$1B | 2026-07-21 | SEC/financial compliance filing platform (EDGAR filing specialist; VENUE due diligence); genuine REGULATORY+SWITCHING_COST moat; BUT ~$1B cap = CAP_SOFT_KILL; multiple analysts = COVERAGE_KILL concurrent |
+| PRA | ProAssurance | ~$750M | 2026-07-21 | Physicians professional liability + workers comp; niche REGULATORY position in med-mal; BUT ~$750M extended zone; no exceptional asymmetry; CAP_SOFT_KILL |
+| GBLI | Global Indemnity Group | ~$500M | 2026-07-21 | Specialty E&S property insurance; REGULATORY moat in non-admitted niche lines; BUT ~$500M extended zone; no exceptional asymmetry; CAP_SOFT_KILL |
+| JRVR | James River Group Holdings | ~$400-600M | 2026-07-21 | Specialty E&S commercial lines; REGULATORY moat in surplus lines; BUT extended zone + reserve adequacy concerns; CAP_SOFT_KILL |
+| GBL | GAMCO Investors (Gabelli) | ~$430M | 2026-07-21 | Closed-end fund management + advisory; Mario Gabelli ~90% control = structural discount trap; SWITCHING_COST moat (sticky HNW clients) but structurally blocked re-rating; CAP_SOFT_KILL |
+| EVTC | EVERTEC Inc | ~$1.4B | 2026-07-21 | Latin America payment processing (Puerto Rico ATH network); REGULATORY+NETWORK moat real; BUT ~$1.4B cap = CAP_SOFT_KILL; 5+ coverage |
+
+### No-Moat / Integrity / Sector-Adjacent / Other Kills
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| HRTG | Heritage Insurance Holdings | NO_MOAT_KILL + PRICE_KILL: Florida homeowners insurance is commodity risk-taking, not a durable moat; +50%+ YTD stock move = PRICE_KILL; reserve quality concerns; Florida regulatory overhang | 2026-07-21 |
+| KFS | Kingsway Financial Services | NO_MOAT_KILL: restructuring with no clear moat business unit remaining; no durable competitive advantage visible | 2026-07-21 |
+| COHN | Cohen & Company | NO_MOAT_KILL: capital markets advisory and structured products; commoditized advisory; no regulatory moat or switching cost | 2026-07-21 |
+| AINC | Ashford Inc | SECTOR_ADJACENT: hotel/resort asset management holding company; hospitality sector, not exchanges/data/financial niche | 2026-07-21 |
+| PFMT | Performant Financial | SECTOR_ADJACENT: government healthcare payment audit recovery (CMS RAC audits); government outsourcing services, not niche financial infrastructure | 2026-07-21 |
+| GROW | US Global Investors | CAP_KILL (<$20M): tiny boutique RIA with emerging market/resource fund focus; revenue <$20M floor | 2026-07-21 |
+| ICCH | ICC Holdings | CAP_KILL (<$20M): micro-cap insurance holding; below liquidity floor | 2026-07-21 |
+| MN | Manning & Napier | NOT_PUBLIC: acquired by Callodine Group 2023; no longer independently listed | 2026-07-21 |
+
+### Park (Survivors)
+| Ticker | Company | Score | Date | Reason |
+|--------|---------|-------|------|--------|
+| SAMG | Silvercrest Asset Management Group | 5/12 | 2026-07-21 | PARK 5/12 (Sector 15, 3rd pass, US geo lens). UHNW RIA; ~$32B AUM; ~$250M cap; Nasdaq; 0-1 analysts. Moat=1 (SWITCHING_COST: UHNW multi-generational relationships, trust/estate services sticky; but AUM can leave; not regulatory moat). Quality=1 (profitable at current AUM; ~21x PE = fair not cheap for AUM-dependent business). Coverage=2 (0-1 analysts). Valuation=0 (not discounted vs. peers for AUM-dependent business). Catalyst=0 (no hard-dated <6mo 2x catalyst). Floor=1 (profitable but floor is AUM-dependent not earnings-floor per ROUTINE.md definition). Asymmetry Gate FAIL: AUM-stickiness ≠ earnings floor; ~21x PE fair; no catalyst. REVISIT IF: cap corrects below $150M AND AUM demonstrates floor durability through a down-market cycle. |
+| HNNA | Hennessy Advisors Inc | 4/12 | 2026-07-21 | PARK 4/12 (Sector 15, 3rd pass, US geo lens). Niche mutual fund manager; $4B AUM approx; micro-cap ~$30-50M. Moat=1 (weak SWITCHING_COST; brand loyalty for Japan/Gas Utility funds; but mutual fund switching trivial; ETF secular threat). Quality=1 (thin margins; AUM-dependent; dividend cut history). Coverage=2. Valuation=0 (at/above fair value for AUM level). Catalyst=0 (no catalyst). Floor=0 (thin AUM-dependent earnings; dividend cut history = not a floor). Total 4/12. REVISIT IF: AUM grows >$7B sustained + earnings floor demonstrated through two market corrections. |
+
+### Sector 15 (3rd pass US) — Zero-Survivor Summary
+*US geo lens: structurally exhausted. Exchange/clearing operators all >$7B cap; specialty insurance quality names at $500M+ extended zone or reserve-concern-riddled; financial data providers absorbed by S&P/MSCI/FactSet or PE-privatized; SAMG and HNNA are best surviving RIAs but both fail Asymmetry Gate (fair-valued, AUM-dependent floor, no catalyst). 2nd consecutive 0-new pass → Sector 15 → EXHAUSTED.*

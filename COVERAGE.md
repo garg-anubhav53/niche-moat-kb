@@ -164,7 +164,24 @@ The point of the top-of-funnel rework: stop *hoping* web search surfaces names, 
 
 **Sector 18 status:** 2 passes complete. Taiwan geo lens EXHAUSTED (0 survivors from ~17 names). Next Sector 18 pass: European geo lens (German XTRA precision instruments / Swiss SIX) or Japan secondary names (post-EDINET access).
 
-**GEO OVERRIDE cleared.** Next scheduled rotation: Sector 10 3rd pass (Nordic specialist distributors or ASX niche) or Sector 15 3rd pass.
+**GEO OVERRIDE cleared.** Next scheduled rotation: Sector 10 3rd pass (Nordic specialist distributors or ASX niche). Sector 15 now EXHAUSTED (2 consecutive 0-new passes).
+
+---
+
+## Sector 15 (Exchanges/data/niche financials) — Pass 3 Coverage Notes (run #51, 2026-07-21) → **EXHAUSTED**
+
+**US geo lens:** ~20 names processed; 0 new QUEUED. 2nd consecutive 0-new pass → Sector 15 → **EXHAUSTED**.
+
+**Why US exchanges/data/niche financials is structurally exhausted at $20-300M:**
+- Exchange/clearing operators all large-cap ($7B+): CME, ICE, Cboe, Nasdaq, MarketAxess all massively above ceiling
+- Specialty insurance (E&S/admitted) is extended zone: quality US E&S/specialty insurers (SKWD ~$1.5-2B, PLMR ~$2-3B, KNSL ~$6B, JRVR ~$400-600M, GBLI ~$500M, PRA ~$750M) are $400M+ extended zone or carry reserve quality concerns
+- Financial data/analytics absorbed or private: S&P Global/MSCI/FactSet/Morningstar all >$10B; DFIN ~$1B coverage-heavy remaining
+- Specialty financial services small-caps: RIAs/fund managers (SAMG, HNNA, GAMCO) have AUM-stickiness but floors are AUM-dependent not earnings-floor; secular passive/ETF pressure erodes pricing
+
+**Net result: 0 new QUEUED; 2nd consecutive 0-new pass → SECTOR 15 EXHAUSTED.**
+Best survivors: SAMG 5/12 PARK (Silvercrest UHNW RIA; moat real; fair-valued ~21x PE; AUM-dependent floor disqualifies); HNNA 4/12 PARK (Hennessy Advisors; weaker moat; thin AUM-dependent margins).
+
+**REVIVE condition:** new geo lens required — Nordic/Scandinavian financial data niche (Oslo Bors/Nasdaq Stockholm micro-cap financial infrastructure) or ASX Australian securities infrastructure — before attempting another pass.
 
 ---
 
