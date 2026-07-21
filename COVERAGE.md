@@ -227,6 +227,72 @@ Best survivors: SAMG 5/12 PARK (Silvercrest UHNW RIA; moat real; fair-valued ~21
 
 ---
 
+## Deferred Queue Resolution + Sector 10 Pass 3 → ASX:XRF BENCH (run #53, 2026-07-21)
+
+**ASX:XRF (XRF Scientific Limited)** — §5 deep-dive completed run #53. Outcome: **BENCH (WATCHLIST.md)**.
+- Q4/F4/R1/C2 = 11/20. Asymmetry Gate FAIL 4/4.
+- Moat: 10,000+ installed machines globally; platinum-group crucible consumable lock-in; process-certification switching cost (6-12 months re-validation); 50yr operating history. Q=4 is defensible.
+- Financials confirmed: Revenue A$59.45M ✓; NPAT A$10.4M ✓; OCF A$10.1M ✓; net cash A$11.1M ✓ (ASX annual report). GM 48.43% ~ (aggregator).
+- Price A$2.28 ~ = AT analyst consensus PT A$2.26-2.42 (1 analyst). No margin of safety.
+- Buy-zone: A$1.40-1.65/sh (~A$200-235M cap). Promote to QUEUED_HOT on §7 REFLECT price check.
+- memo: memos/XRF.AX-2026-07-21.md; financials: financials/XRF.AX.md.
+
+---
+
+## Sector 17 (Semiconductor & electronics supply chain) — Pass 3 Coverage Notes (run #53, 2026-07-21) — COMPLETE
+
+**US micro-cap IC designers / semiconductor supply chain geo lens:** 32 names processed; 32 killed; **0 new QUEUED**.
+
+**Structural finding:** The AI semiconductor supercycle 2025–2026 has pushed the vast majority of US-listed semiconductor supply chain companies above $1.5B. SIZE_KILL dominated (24 of 32). The $20–300M zone yields only ~6 genuine candidates (CVV, GSIT, INTT, MX, SVCO, RELL) after all gates — these require §3-§4 diligence in a future US semiconductor deep-dive pass.
+
+**Complete kill table (32 names):**
+
+| Ticker | Company | Cap (July 2026) | Kill Reason |
+|--------|---------|----------------|-------------|
+| CRDO | Credo Technology Group | ~$39.5B | SIZE_KILL |
+| ALAB | Astera Labs | ~$10–40B | SIZE_KILL |
+| MTSI | MACOM Technology | ~$19–29B | SIZE_KILL |
+| VICR | Vicor Corporation | ~$12.9B | SIZE_KILL (+385%/1yr) |
+| RMBS | Rambus Inc | ~$10B | SIZE_KILL |
+| SMTC | Semtech Corporation | ~$11.64–14.59B | SIZE_KILL |
+| MXL | MaxLinear Inc | ~$6.66–8.27B | SIZE_KILL |
+| SIMO | Silicon Motion Technology | ~$3.54B | SIZE_KILL |
+| PI | Impinj Inc | ~$4.81B | SIZE_KILL |
+| VECO | Veeco Instruments | ~$4.2–4.86B | SIZE_KILL + M&A_KILL (being acquired by ACLS) |
+| ACLS | Axcelis Technologies | ~$2.93–3.99B | SIZE_KILL |
+| POWI | Power Integrations | ~$3.93–4.85B | SIZE_KILL |
+| ACMR | ACM Research | ~$4.2–5.8B | SIZE_KILL + JURISDICTION concern (China-centric) |
+| UCTT | Ultra Clean Holdings | ~$2.63–5.4B | SIZE_KILL |
+| ICHR | Ichor Holdings | ~$3.2–3.9B | SIZE_KILL |
+| AEHR | Aehr Test Systems | ~$2.2–2.76B | SIZE_KILL |
+| NVTS | Navitas Semiconductor | ~$1.89–2.79B | SIZE_KILL |
+| AXTI | AXT Inc | ~$2.0B | SIZE_KILL |
+| ROG | Rogers Corporation | ~$2.4–2.9B | SIZE_KILL |
+| KLIC | Kulicke & Soffa | ~$3.65–4.59B | SIZE_KILL |
+| PLAB | Photronics | ~$2.65B | SIZE_KILL |
+| COHU | Cohu Inc | ~$2.4–3.3B | SIZE_KILL |
+| FORM | FormFactor | ~$3.5B+ | SIZE_KILL |
+| PDFS | PDF Solutions | ~$2.14B | SIZE_KILL |
+| BELFB | Bel Fuse Inc | ~$2.82B | SIZE_KILL |
+| FEIM | Frequency Electronics | ~$642M | SECTOR_KILL (defense/space primary) |
+| ULBI | Ultralife Corp | ~$109M | SECTOR_KILL (military primary) |
+| PRKR | ParkerVision | ~$32M | SECTOR_KILL (patent assertion entity; no products) |
+| PKE | Park Electrochemical | ~$423–588M | CAP_SOFT_KILL (extended zone) |
+| LEDS | SemiLEDs | ~$12.8M | CAP_SOFT_KILL (below $20M minimum) |
+| MRAM | Everspin Technologies | ~$344–700M | PRICE_KILL (+285%/1yr) |
+| ASYS | Amtech Systems | ~$385M | PRICE_KILL (+430-572%/1yr) |
+
+**Non-kills flagged for next US semiconductor pass (§3-§4 diligence required before QUEUED):**
+- RELL (~$241-252M): Richardson Electronics — potential sole-source in plasma etch RF generator power tubes; SiC distribution JV; if verified, strong QUEUED candidate
+- NVEC (~$444-474M): NVE Corporation — spintronic sensors + IsoLoop galvanic isolators; ~70% GM; proprietary IP; extended zone borderline
+- SVCO (~$110-390M): Silvaco Group — TCAD process simulation EDA software; IPO 2024; high switching-cost tools for fabs/IDMs; cap range needs pinning
+- GSIT (~$96-220M): GSI Technology — SRAM + Gemini APU (in-memory AI); 129 patents; but wide cap range and R&D-stage AI chip uncertain
+- INTT (~$131M): inTEST Corporation — multi-segment semiconductor test/thermal/environmental; $53.9M backlog; Russell 2000 inclusion June 2026
+
+**Sector 17 status:** ACTIVE (3 passes complete: pass 1 Korea/Taiwan, pass 2 European, pass 3 US micro-cap); next: 4th pass Japan secondary OEMs or US-listed non-killed names §3-§4 diligence. Pattern: zero new QUEUED from pass 3 (structural AI re-rating), 1 QUEUED (CML.L) from pass 2.
+
+---
+
 ## Why this matters
 - **Measurable coverage** — we can state "we've reviewed X% of the worthwhile US universe," not "we searched a lot."
 - **No wasted re-looks** — SEEN keyed by CIK/ticker; the ranked worklist is marched once.

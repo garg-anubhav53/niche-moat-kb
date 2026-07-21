@@ -2288,3 +2288,70 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 *DGL.AX (DGL Group, ASX) already recorded in KILL-LIST.md initial section (No-Moat Kills, 2026-07-16, line ~300). Not re-added.*
 
 *MMGR-B.ST (Momentum Group B, Nasdaq Stockholm): PARK not kill — Swedish industrial distribution conglomerate (Haberkorn, etc.); borderline quality warranting monitoring but not strong enough moat for KB deep-dive; placed PARK not kill category.*
+
+---
+
+## Run #53 — Sector 17: Semiconductor & Electronics Supply Chain (3rd pass · US micro-cap IC designers/supply chain geo lens · 2026-07-21)
+
+*32 kills total; 0 new QUEUED. Structural finding: AI semiconductor supercycle 2025-2026 has pushed the vast majority of US-listed semiconductor supply chain names above $1.5B; SIZE_KILL dominated (24 of 32). A handful of smaller names (RELL, NVEC, SVCO, GSIT, INTT) survive the size gate but require §3-§4 diligence in the next US semiconductor pass. Context: preliminary kills (8 names) were partially documented in COVERAGE.md in-session; all 32 now recorded here.*
+
+### Size Kills — US Semiconductor Supply Chain (3rd pass, US micro-cap)
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| CRDO | Credo Technology Group | ~$39.5B | 2026-07-21 | SIZE_KILL: far above $1.5B cap ceiling; SerDes connectivity chips for AI data centers (genuine SWITCHING_COST moat in SerDes IP, but $39.5B makes any asymmetric entry impossible) |
+| ALAB | Astera Labs | ~$10–40B | 2026-07-21 | SIZE_KILL: large cap; PCIe/CXL/Ethernet connectivity SoCs for AI data centers; above ceiling |
+| MTSI | MACOM Technology Solutions | ~$19–29B | 2026-07-21 | SIZE_KILL: GaN/GaAs/InP compound semiconductor ICs for RF/microwave and optical; well above ceiling |
+| VICR | Vicor Corporation | ~$12.9B | 2026-07-21 | SIZE_KILL: high-density power conversion modules for AI data centers; up 385%/1yr; way above ceiling |
+| RMBS | Rambus Inc | ~$10B | 2026-07-21 | SIZE_KILL: memory interface IP + DDR5 chips; excellent switching-cost moat but far above ceiling |
+| SMTC | Semtech Corporation | ~$11.64–14.59B | 2026-07-21 | SIZE_KILL: LoRa wireless + analog ICs; way above ceiling |
+| MXL | MaxLinear Inc | ~$6.66–8.27B | 2026-07-21 | SIZE_KILL: broadband analog/mixed-signal semiconductor ICs; above ceiling |
+| SIMO | Silicon Motion Technology | ~$3.54B | 2026-07-21 | SIZE_KILL: NAND flash SSD controllers for data centers/PCs/smartphones; above ceiling |
+| PI | Impinj Inc | ~$4.81B | 2026-07-21 | SIZE_KILL: RAIN RFID endpoint ICs + reader ICs; strong IP moat but above ceiling |
+| VECO | Veeco Instruments | ~$4.2–4.86B | 2026-07-21 | SIZE_KILL: MOCVD/MBE/ALD equipment; above ceiling; also being acquired by Axcelis Technologies (M&A_KILL concurrent) |
+| ACLS | Axcelis Technologies | ~$2.93–3.99B | 2026-07-21 | SIZE_KILL: ion implant equipment; above ceiling; acquiring Veeco (VECO) |
+| POWI | Power Integrations | ~$3.93–4.85B | 2026-07-21 | SIZE_KILL: AC-DC converter ICs for power supplies; above ceiling |
+| ACMR | ACM Research | ~$4.2–5.8B | 2026-07-21 | SIZE_KILL: wet cleaning equipment; above ceiling; US-listed but China-centric fab operations (JURISDICTION concern concurrent) |
+| UCTT | Ultra Clean Holdings | ~$2.63–5.4B | 2026-07-21 | SIZE_KILL: semiconductor equipment parts cleaning and sub-assemblies; above ceiling |
+| ICHR | Ichor Holdings | ~$3.2–3.9B | 2026-07-21 | SIZE_KILL: fluid/gas delivery sub-assemblies for semiconductor OEM equipment; above ceiling |
+| AEHR | Aehr Test Systems | ~$2.2–2.76B | 2026-07-21 | SIZE_KILL: wafer-level burn-in for SiC/GaN; grew 2–3x past limit; FY27 revenue guidance 160-200% |
+| NVTS | Navitas Semiconductor | ~$1.89–2.79B | 2026-07-21 | SIZE_KILL: GaN/SiC power ICs; above ceiling (high end clearly over) |
+| AXTI | AXT Inc | ~$2.0B | 2026-07-21 | SIZE_KILL: InP/GaAs/Ge substrates for compound semis + optical interconnects; 52-wk from $1.38 to $134 per share; current cap above ceiling |
+| ROG | Rogers Corporation | ~$2.4–2.9B | 2026-07-21 | SIZE_KILL: high-frequency PTFE laminates + DBC substrates for RF packaging and semiconductor test boards; genuine switching-cost moat but above ceiling |
+| KLIC | Kulicke & Soffa Industries | ~$3.65–4.59B | 2026-07-21 | SIZE_KILL: wire bonding + die bonding equipment for semiconductor packaging; AI-driven recovery 2025; above ceiling |
+| PLAB | Photronics Inc | ~$2.65B | 2026-07-21 | SIZE_KILL: photomask supply for IC fabrication; genuine process moat (quality + yield-critical supply) but above ceiling |
+| COHU | Cohu Inc | ~$2.4–3.3B | 2026-07-21 | SIZE_KILL: test handlers + semiconductor test interface and inspection metrology; above ceiling |
+| FORM | FormFactor Inc | ~$3.5B+ | 2026-07-21 | SIZE_KILL: probe cards for wafer testing; HBM/AI-driven demand re-rated; above ceiling |
+| PDFS | PDF Solutions | ~$2.14B | 2026-07-21 | SIZE_KILL: semiconductor yield analytics software (Exensio platform); process-control data analytics; above ceiling |
+
+### Sector / Business-Model Kills — US Semiconductor Supply Chain (3rd pass)
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| FEIM | Frequency Electronics | ~$642M | 2026-07-21 | SECTOR_KILL: precision time/frequency products for defense/space (atomic clocks for military PNT systems, lunar missions, satellite navigation); primary customer = military/defense; excluded by SECTOR rule (no defense primary) |
+| ULBI | Ultralife Corporation | ~$109M | 2026-07-21 | SECTOR_KILL: batteries + tactical military communication systems; military/government primary customer mix; not semiconductor supply chain |
+| PRKR | ParkerVision Inc | ~$32M | 2026-07-21 | SECTOR_KILL + NO_MOAT_KILL: RF patent assertion entity; no actual semiconductor products or manufacturing; entire revenue from litigation settlements vs Qualcomm/MediaTek/Realtek; not a genuine supply chain company |
+
+### Cap Soft Kills — US Semiconductor Supply Chain (3rd pass)
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| BELFB | Bel Fuse Inc (B shares) | ~$2.82B | 2026-07-21 | SIZE_KILL: electronic components (power, connectivity, magnetics); above $1.5B ceiling |
+| PKE | Park Electrochemical Corp | ~$423–588M | 2026-07-21 | CAP_SOFT_KILL: specialty high-frequency laminates + composites for RF packaging and semiconductor test boards; genuine process moat in niche PCB substrate materials; BUT cap ~$423-588M = extended zone at current price without exceptional asymmetry; revisit if dips to ~$200-250M |
+| LEDS | SemiLEDs Corporation | ~$12.8M | 2026-07-21 | CAP_SOFT_KILL: LED chip maker; below $20M minimum viable size; also commodity LED space (no durable moat); de-minimis revenue with structural market transition away from commodity LEDs |
+
+### Price / Velocity Kills — US Semiconductor Supply Chain (3rd pass)
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| MRAM | Everspin Technologies | ~$344–700M (wide range; volatile) | 2026-07-21 | PRICE_KILL: +285% in 12 months (Oct 2025: ~$245M → July 2026: +285%); only public scaled MRAM manufacturer; genuine sole-source moat for Toggle+STT-MRAM in data center storage controllers; BUT excessive velocity — momentum crowd in; cannot establish defensible entry; revisit after correction to ~$150-200M cap |
+| ASYS | Amtech Systems | ~$385M | 2026-07-21 | PRICE_KILL: +430–572% in 12 months (prior cap ~$70-80M → ~$385M); thermal processing equipment (diffusion furnaces, CMP, advanced packaging tools); 25% revenue tied to AI infrastructure thesis; genuine equipment moat in some niches; BUT excessive velocity — no defensible entry; revisit after normalization |
+
+### Sector 17 Pass 3 — Structural Note
+
+*US semiconductor supply chain has been structurally re-rated by the 2025–2026 AI/chip-demand cycle. The practical cap floor for finding moated revenue-generating US-listed semiconductor supply chain names is now approximately $300M–$500M in most subsectors; the $20-300M zone yields only ~6 genuine candidates (CVV, GSIT, INTT, MX, SVCO, RELL) after all kills. These 6 survived the size/price/sector gates but require §3-§4 diligence in a future US semiconductor deep-dive pass to determine if moat quality, financials, and coverage gap qualify them for QUEUED status.*
+
+*Notable non-kills flagged for next pass (require §3-§4 diligence):*
+- *RELL (~$241-252M): Richardson Electronics — "sole-source" magnetron/power tube supplier for semiconductor plasma etch RF generators; SiC distribution via NoMIS JV; if sole-source verified, could be QUEUED*
+- *NVEC (~$444-474M): NVE Corporation — spintronic GMR/TMR sensors + IsoLoop galvanic isolators; ~70% GM; proprietary spintronics IP; extended zone but moat may justify*
+- *SVCO (~$110-390M): Silvaco Group — TCAD process simulation + EDA software + IP; IPO 2024; high switching-cost tools; cap range uncertain*
