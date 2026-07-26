@@ -2381,3 +2381,54 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | GUD.TO | Knight Therapeutics (formerly GUD) | SECTOR_ADJACENT_KILL | 2026-07-21 | Knight Therapeutics is a Latin American specialty pharma company — not a distributor. GUD.TO ticker historically was George Weston (food distribution) but GUD.TO in 2026 resolves to Knight Therapeutics (KGH.TO more commonly; may be ticker ambiguity). Either way: pharma/specialty medicine licensing and commercialization in LatAm = SECTOR_ADJACENT to Sector 10 (value-added distribution). Not a distribution moat. |
 | ADIG | ADI Global Distribution (NYSE) | TRIPLE_KILL | 2026-07-21 | Resideo Technologies (REZI) spin-off announced January 2025; NYSE debut August 4 2026. Three simultaneous kills: (1) SIZE_KILL — $4.8B annual revenue = 12x the $400M revenue ceiling; (2) NO_MOAT_KILL — 22.3% GM far below 45% gate (security product distribution is commodity broadliner economics); (3) CAP_KILL — expected market cap $1.5-2.2B at spin-off = 5-7x the $300M limit. Also: $1B drawn debt at separation is a structural concern. No re-entry path. |
 | OCTV | Octave Intelligence / Octavian (ticker uncertain) | SIZE_KILL + CAP_KILL | 2026-07-21 | Revenue ~$1.6B = 4x revenue ceiling. Cap in extended zone at separation price. No exceptional asymmetry to justify extended zone. Not a distribution moat name. |
+
+---
+
+## Run #55 — Sector 6 2nd Pass (US + UK AIM) + Sector 8 2nd Pass (EU) + KB-Internal Analog Triage (2026-07-26)
+
+### KB-Internal Thread-Following — Sector 6 AIM Analogs from FAA.VI / EUZ.DE Memos
+
+*Mining FAA.VI and EUZ.DE memos for named analogs → surfaced IDOX.L and Lectra.PA as prior re-rate comps. Both killed below.*
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| IDOX.L | IDOX plc | TAKEN PRIVATE (MBO) | 2026-07-26 | **NOT_PUBLIC_KILL**: AIM-listed UK public-sector/engineering/GIS compliance SaaS (document management for councils, land registries, highways, planning; grant management; EHS); was a base-rate analog in FAA.VI memo ("re-rated +3x"). IDOX delisted AIM May 2026 — management buyout at ~120p (~£530M EV). Thesis was valid; asymmetry was captured entirely by private equity before our screen reached it. No re-entry path (private hold). |
+| Lectra.PA | Lectra SA | ~€600–720M | 2026-07-26 | **CAP_SOFT_KILL + COVERAGE_KILL**: Euronext Paris fashion/apparel PLM software (fabric optimization + cutting room workflow automation + pattern engineering for luxury/fashion brands). Genuine vertical SaaS switching cost (once Lectra's pattern grading is embedded in a fashion-house's design workflow, requalification disrupts entire supply chain). BUT: (a) cap ~€600-720M = 2×+ our $300M ceiling; (b) 5+ analysts (Barclays, BNP Paribas, CM-CIC, Oddo, others). Not re-enterable unless cap corrects below €250M. |
+
+### Sector 6 (Vertical/Mission-Critical Software) — Pass 2 UK AIM Geo Lens
+
+*Search for UK AIM vertical SaaS analogs to IDOX.L and FAA.VI-adjacent mission-critical software companies. ~20+ AIM names screened; 3 advanced to QUEUED (ELCO.L, TRB.L, APTD.L); kills below.*
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| FNTL.L | Fonix Mobile plc | ~£65–85M | 2026-07-26 | **NO_MOAT_KILL**: AIM-listed UK mobile carrier billing + messaging aggregator for utilities, broadcasters, and subscription platforms. GM ~55-60% and profitable, but switching cost is thin — not mission-critical in the sense FAA.VI's aviation regulatory data is; utility/media clients can and do swap billing aggregators (Bango, Eckoh, Boku compete on price); no regulatory barrier; no deep workflow integration; revenue growth decelerating. Not a vertical SaaS moat — closer to payment processing aggregation economics. |
+| SFT.L | Sopheon plc | TAKEN PRIVATE | 2026-07-26 | **NOT_PUBLIC_KILL**: AIM-listed UK innovation/product portfolio management SaaS (Accolade innovation management platform for R&D stage-gate workflows at enterprises). Genuine niche but soft switching cost (no regulatory certification; innovation workflow tools replaceable by ServiceNow/Planview/Aha! without multi-year requalification). Sopheon was acquired and delisted from AIM 2023 — management + Sopheon B.V. buyout. No public re-entry path. |
+
+### Sector 6 (Vertical/Mission-Critical Software) — Pass 2 US Geo Lens
+
+*Web-search scout for US-listed vertical SaaS companies with $20–300M cap, ≥45% GM, ≤4 analysts, profitable. Structural finding: the vast majority of US vertical SaaS names are far above $300M cap after the 2024–2026 software-sector recovery. SIZE_KILL dominated.*
+
+**Structural note:** ~25 US vertical SaaS names screened; ~23 killed by SIZE_KILL (cap $500M–$10B+); ~2 killed by COVERAGE_KILL or NO_MOAT; 0 new QUEUED from US geo lens. The $20–300M profitable vertical SaaS zone is nearly empty in US listings — most quality names either (a) were taken private 2021-2023 (PE roll-up wave: Apria, Cerner, MedeAnalytics, Roper portfolio companies), (b) grew past $300M on 2024-2026 recovery, or (c) remain development-stage/unprofitable. US vertical software = structurally exhausted for this screen in the 2nd pass with no significant new moated names below $300M remaining.
+
+*Notable SIZE_KILLs (sub-$500M cap range; above ceiling; require correction before re-review):*
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| MTTR | Matterport | — | 2026-07-26 | CAP_SOFT_KILL + NO_MOAT: 3D digital twin SaaS; acquired by CoStar Group 2024; NOT_PUBLIC |
+| WEAV | Weave Communications | ~$800M–1.2B | 2026-07-26 | SIZE_KILL: dental/optometry practice SaaS; vertical moat is real (appointment/payment/communication workflow for SMB dental and eye care); but cap well above $300M ceiling after 2025-2026 software re-rating |
+| HIMS | Hims & Hers Health | ~$3B+ | 2026-07-26 | SIZE_KILL + SECTOR_ADJACENT: telehealth/DTC pharma; not vertical SaaS with durable workflow moat |
+| ACMR | ACM Research | — | 2026-07-26 | Already killed run #53 (JURISDICTION_KILL + SIZE_KILL); confirmed again not a vertical software name |
+| DSGN | Design Therapeutics | — | 2026-07-26 | SECTOR_KILL: gene therapy; not software |
+
+### Sector 8 (Building & Infrastructure Products) — Pass 2 EU Geo Lens
+
+*European building products companies — fire safety, flooring, insulation, specialist building materials — at £/€20–300M cap zone. ~12 EU/UK names screened; 2 advanced (ELCO.L forwarded as Sector 6; JHD.L → WATCHLIST Bench); kills below.*
+
+| Ticker | Company | Cap (July 2026) | Date | Kill Reason |
+|--------|---------|----------------|------|-------------|
+| LSC.L | London Security plc | ~£405–417M (~$520M USD) | 2026-07-26 | **PARK (CAP_SOFT_KILL + THIN_NM)**: UK fire safety services — annual maintenance, inspection, and installation of fire suppression/alarm/detection systems under long-term regulatory maintenance contracts. Moat is real: UK Regulatory Reform (Fire Safety) Order 2005 + Fire Safety Act 2021 mandate annual third-party maintenance for all commercial/public buildings; established client bases with multi-year maintenance contracts; 74% GM on services is impressive. BUT: (a) cap £405–417M = ~$520M USD = extended zone 1.7× our ceiling without exceptional asymmetry; (b) NM 9.7% on 74% GM implies enormous overhead (SG&A ~64% of revenue); (c) floor is thin on thin NM — not a fortress floor; (d) 0-1 analysts. For QUEUED, need ≥2× path — difficult at extended zone cap with thin NM. For Bench, need Q≥4 with real floor — NM 9.7% = thin, not fortress. PARK not Bench: quality real but floor conditional. REVISIT: if cap corrects to ~£200–250M cap (~1× revenue) where 2× path opens, re-evaluate floor quality at that price. Revenue +11% FY2025 encouraging. |
+| STO3.DE | Sto SE & Co. KGaA | ~€2.0–2.5B | 2026-07-26 | **SIZE_KILL**: German ETICS (external thermal insulation composite systems) and facade coatings leader. Premium brand, 50yr+ track record, genuine spec-in moat with architects/energy-renovation programs. BUT cap ~€2-2.5B = 7–8× our ceiling. Not re-enterable at this scale. |
+| ALU.L | Alumasc Group plc | ~£60–80M | 2026-07-26 | **NO_MOAT_KILL**: UK specialty building products (Guttercrest rainwater systems, Harmer roof/drainage, Wade anti-flooding, Levolux shading). GM ~35–40% — fails 45% GM gate. Products are specified into construction projects but are commoditised at the product level (not IP-protected engineering software); comparable products available from multiple manufacturers; price competition intense. |
+| SEL.L | Stelrad Group plc | ~£150–180M | 2026-07-26 | **NO_MOAT_KILL**: UK radiator manufacturer for residential/commercial heating. Large-scale manufacturing of hydronic radiators — commodity product; switching cost near zero for housebuilders; GM ~25–30%; multiple competitors (Quinn, JIS, Zehnder). |
+
+---

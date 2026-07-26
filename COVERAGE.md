@@ -334,3 +334,102 @@ Best survivors: SAMG 5/12 PARK (Silvercrest UHNW RIA; moat real; fair-valued ~21
 - **No wasted re-looks** — SEEN keyed by CIK/ticker; the ranked worklist is marched once.
 - **Best-first** — even if we never hit 100%, we've covered the highest-quality names first.
 - **Spend shifts to the top** — deterministic enumeration/pre-screen is nearly free; LLM tokens go only to names that already pass the hard numeric gates.
+
+## Sector 6 (Vertical/Mission-Critical Software) — Pass 2 Coverage Notes (run #55, 2026-07-26)
+
+**US + UK AIM geo lens + KB-internal analog thread-following:** ~54 names processed total; 3 new QUEUED (ELCO.L, TRB.L, APTD.L); 0 §5 deep-dives.
+
+**All data tools proxy-blocked this run:** SEC EDGAR frames API (403 Forbidden), Yahoo Finance snapshot.py (no price), SEC FTS (403 Forbidden). Entire run conducted via §2B web-search subagent mode. All prices/financials tagged ~.
+
+---
+
+### KB-Internal Thread-Following (§2-QUALITY lens 4)
+
+Mined FAA.VI and EUZ.DE memos for named analogs to identify pre-screened peers. FAA.VI memo used IDOX.L as a base-rate analog ("re-rated +3x"):
+
+- **IDOX.L** → NOT_PUBLIC_KILL: AIM public sector/engineering compliance SaaS taken private via MBO May 2026 (~120p / ~£530M EV). Asymmetry was captured by private equity before our screen reached it. Confirmed IDOX was genuine (planning compliance, highways, grants management, EHS — deep UK council workflow lock-in); no re-entry path.
+- **Lectra.PA** → CAP_SOFT_KILL + COVERAGE_KILL: Euronext Paris fashion/apparel PLM software; genuine vertical SaaS switching cost but cap ~€600-720M (2×+ ceiling) and 5+ analysts. Not re-enterable unless cap corrects below €250M.
+
+Searching for IDOX analogs in the UK AIM vertical SaaS space surfaced the following batch of 6 names: ELCO.L, TRB.L, APTD.L (QUEUED), FNTL.L (NO_MOAT_KILL), SFT.L (NOT_PUBLIC_KILL).
+
+---
+
+### UK AIM Geo Lens — Kills
+
+- **FNTL.L (Fonix Mobile)** → NO_MOAT_KILL: mobile carrier billing + messaging aggregator for utilities/broadcasters; GM ~55-60% but thin switching cost (utilities can and do switch to Bango/Eckoh/Boku); not mission-critical vertical SaaS.
+- **SFT.L (Sopheon)** → NOT_PUBLIC_KILL: innovation portfolio management SaaS (Accolade stage-gate platform); AIM-listed until acquired and delisted 2023 (Sopheon B.V. buyout). No re-entry.
+
+---
+
+### UK AIM Geo Lens — QUEUED Survivors
+
+**3 new QUEUED names from the UK AIM Sector 6 pass:**
+
+**ELCO.L (Eleco plc, AIM)** — Score: 7/12
+- Construction project management SaaS: Archidata, Spec, PlanSwift, Dds:D, StairDesigner, ElectroBIM
+- ~35,000 users across architecture, engineering, construction
+- GM: ~90% ~ (SaaS model; needs full financial baseline verification)
+- Analysts: 3 ~ (Zeus Capital, Cenkos, WH Ireland — light AIM coverage for a construction SaaS)
+- Cap: ~£55-80M ~
+- Analyst consensus PT: ~185–218p ~ vs ~120p market price ~ (~55-80% below PT)
+- Score breakdown: Moat=1 (real workflow switching cost in construction spec-writing; not regulatory monopoly), Quality=2 (SaaS GM profile, profitable ~, recurring), Coverage=2 (3 AIM analysts only), Valuation=1 (significant discount to consensus PT; not yet 2x confirmed), Catalyst=1 (general construction SaaS adoption; UK infrastructure spending), Floor=0 (conditional; §5 needed to verify FCF floor and churn)
+- Next step: §4 financial baseline (GM%, NM%, FCF, churn, ARR growth) → §5 deep-dive
+
+**TRB.L (Tribal Group plc, AIM)** — Score: 7/12
+- Student Information System (SITS:Vision, ebs, edgesuite) for higher education — 135+ universities globally (UK, Australia, Middle East)
+- Deep integration: enrollment, curriculum, compliance, OfS regulatory reporting, student records
+- GM: ~49-50% ~ (not pure SaaS — includes professional services/implementation)
+- Analysts: 3-5 ~ (Panmure Liberum, Shore Capital, others)
+- Cap: ~£85-130M ~
+- Score breakdown: Moat=1 (genuine SIS switching cost — 2+ yr data migration to switch; UK OfS regulatory integration; not textbook sole-source), Quality=1 (49% GM decent; profitable ~; but thin NM historically), Coverage=2 (3-5 AIM analysts; low for mission-critical HE infrastructure), Valuation=1, Catalyst=1 (international HE expansion + SaaS migration of legacy installs), Floor=1 (mission-critical system; low deinstall risk; conditional)
+- Next step: §4 financial baseline → §5 deep-dive
+
+**APTD.L (Aptitude Software Group plc)** — Score: 7/12
+- Finance transformation SaaS: Aptitude RevStream (revenue accounting, IFRS 15), Aptitude Lease (lease accounting, IFRS 16), insurance finance (IFRS 17)
+- Regulatory switching cost: IFRS compliance tools embedded in finance team workflows; switching requires full reaudit
+- Target customers: telecoms, insurance, media, financial services
+- GM: ~48% ~ (SaaS + professional services mix)
+- Analysts: 2 ~ (Cenkos, others)
+- Cap: ~£60-100M ~
+- Score breakdown: Moat=1 (IFRS regulatory compliance = strong switching cost; but Oracle/SAP Finance also offer IFRS modules = competitive pressure), Quality=1 (profitable ~; 48% GM; SaaS growth stage), Coverage=2 (2 analysts), Valuation=1, Catalyst=1 (IFRS 17 insurance wave 2023-2026 driving new enterprise deals), Floor=1
+- Next step: §4 financial baseline → §5 deep-dive
+
+---
+
+### US Geo Lens — Structural Finding
+
+~25 US vertical SaaS names screened; ~23 killed by SIZE_KILL (caps $500M–$10B+); ~2 by COVERAGE_KILL or NO_MOAT; 0 new QUEUED. The $20–300M profitable vertical SaaS zone is nearly empty in US listings after the 2024-2026 software-sector recovery:
+- **Size-kill dominated:** Most quality US vertical SaaS (field service, healthcare workflow, legal, education, construction) were either taken private 2021-2023 (PE roll-up wave) or re-rated past $300M on the recovery
+- **No fresh US names below $300M cap with ≥45% GM, ≤4 analysts, profitable, and genuine vertical moat** found in this pass
+- Notable SIZE_KILLs confirmed: Weave Communications (~$800M-1.2B, dental/optometry SaaS); others in the $500M-$3B range already reviewed in prior Sector 6 pass
+
+**Sector 6 status:** ACTIVE (2 passes complete). Next pass: Nordic/DACH geo lens (Swedish/Danish/German vertical SaaS micro-cap, Nasdaq Stockholm / XTRA Frankfurt / Euronext). Prior runs found FAA.VI (Vienna ATC SaaS) as first WATCH-grade name — the geographic diversity of vertical SaaS moats suggests Nordic/DACH may hold undiscovered names in energy data management, regulatory compliance, or industrial SaaS. **3 QUEUED (ELCO.L, TRB.L, APTD.L) require §4+§5 before next sector pass.**
+
+---
+
+## Sector 8 (Building & Infrastructure Products) — Pass 2 Coverage Notes (run #55, 2026-07-26)
+
+**EU geo lens (UK + Germany + France + Benelux building products):** ~12 EU/UK names screened; 0 new QUEUED; 1 BENCH addition (JHD.L → WATCHLIST.md); 1 PARK (LSC.L extended zone).
+
+**Why EU building products is thin for this screen at £/€20–300M cap:**
+- **Quality names are large-cap:** Kingspan (~€10B), Rockwool (~DKK 50B), Saint-Gobain (~€40B), Sika (~CHF 50B), Vicat, Sto dominate the ETICS/insulation/fire-safe materials market
+- **UK AIM building products:** Most remaining AIM-listed building products companies at £20-300M have GM 25-40% (manufacturing economics, not IP-moated); commodity construction materials, low-specification switchable products, or service businesses with high overhead
+- **Fire safety niche (LSC.L):** The regulated-maintenance model is attractive but the listed UK fire safety services market is dominated by larger groups (Marlowe plc, Hochiki, Nittan); London Security (LSC.L) at £415M cap is already extended zone
+- **Spec-in flooring (JHD.L):** James Halstead (Polyflor) is the standout quality exception — 60-year compounder, spec-in architect model, 15.5% NM — but GM 44.5% is just below our 45% gate in a manufacturing context; revenue declining 2 consecutive years; added to Quality Bench
+
+**Net result:** 0 new QUEUED from ~12 names; 1 consecutive 0-new pass for Sector 8 2nd pass.
+
+**Kill summary:**
+
+| Ticker | Company | Kill Reason |
+|--------|---------|-------------|
+| LSC.L | London Security plc | PARK: CAP_SOFT_KILL (£405-417M cap ~$520M USD = extended zone); NM 9.7% on 74% GM = enormous overhead; floor conditional. Revisit at ~£200-250M cap. |
+| STO3.DE | Sto SE & Co. KGaA | SIZE_KILL: ETICS facade systems; ~€2-2.5B cap = 7-8× ceiling; genuine moat but wrong size |
+| ALU.L | Alumasc Group plc | NO_MOAT_KILL: specialty building products (rainwater, drainage); GM ~35-40% fails 45% gate; commoditised |
+| SEL.L | Stelrad Group plc | NO_MOAT_KILL: UK radiator manufacturer; GM ~25-30%; commodity product; multiple competitors |
+
+**Quality Bench addition:** JHD.L (James Halstead plc) added to WATCHLIST.md Quality Bench (Q4/F3; buy-zone ~£200-250M cap ~1× trough revenue). GM 44.5% is just below the 45% gate but in manufacturing context this represents very high moat quality (not SaaS/services); spec-in architect model creates multi-year switching inertia; 60-year dividend growth track record; 15.5% NM. Revenue declining 2 consecutive years = headwind that cap may not yet fully reflect. Do not promote from bench until revenue stabilizes.
+
+**Sector 8 status:** ACTIVE (2 passes complete). 1st consecutive 0-new-QUEUED pass for EU geo lens (pass 1 was Canada/AU). Next Sector 8 pass: US geo lens (specialty building products, US OTC/Nasdaq micro-cap — Trex, Simpson Manufacturing, Gibraltar already above $300M; look for sub-$300M specialty niche names) or Japan non-EN building materials (EDINET when access restored).
+
+---
