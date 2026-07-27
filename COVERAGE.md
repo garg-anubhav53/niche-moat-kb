@@ -716,3 +716,44 @@ The US environmental/water small-cap ($20-300M) universe is structurally poor fo
 | NSSC | NEW | ~$36.09 (~$1.44B cap) ~ | ~$22-26 | NEW BENCH — above zone (extended) |
 
 **No promotions triggered. CODA most proximate to trigger ($112.7M cap vs $107M trigger). EPEN.ST below buy-zone lower bound but quality unverified (⚑non-EN; DO NOT promote). JHD.L Jul 22 low 119p confirmed by bench agent — revenue stabilization still required.**
+
+---
+
+## Sector 9 (Environmental/waste/water) — Pass 3 Coverage Notes (run #61, 2026-07-27)
+
+**UK AIM + ASX environmental/water geo lens:** 15 names processed; 0 new QUEUED; Sector 9 EXHAUSTED globally.
+
+**Instant kills (§3 triage):**
+- SYM (Symphony Environmental, AIM, <£30M): CAP_TOO_SMALL_KILL — oxo-biodegradable additive masterbatches; near-profitability but sub-threshold cap
+- MWG (Modern Water, AIM, micro-cap): CAP_TOO_SMALL_KILL + NOT_PROFITABLE — forward osmosis membranes + water monitoring; marginal revenue
+- FORG/EQTEC (AIM, micro-cap): DEVELOPMENT_STAGE_KILL — proprietary gasification technology; pre-revenue technology licensing
+- RNWH (Renew Holdings, LSE Main, ~£600M+): SIZE_KILL (>£500M cap) + Main Market not AIM — engineering services for regulated water/rail infrastructure; AMP8 framework contracts; genuine regulated moat but too large
+- FLC (Fluence, ASX, ~A$96M): NOT_YET_PROFITABLE_KILL — modular water treatment technology; net losses in 2025; no floor
+- PET.AX (Phoslock, ASX): NOT_PUBLIC_KILL — winding up/delisting from ASX; CSIRO-origin phosphate binder technology
+- CNQ (Clean TeQ Water, ASX): DEVELOPMENT_STAGE_KILL — proprietary CIX/graphene water purification; pre-revenue/early commercial
+- DEM (De.mem, ASX, small): NOT_YET_PROFITABLE_KILL — hollow fibre membrane water treatment; recurring revenue trend but not yet profitable
+- CXL (Calix, ASX, ~A$112M): NOT_PROFITABLE_KILL — patent-protected flash calciner platform (water + CO2 capture); operating loss ~A$9M H1 FY26
+- SDV (SciDev, ASX, ~A$21-67M): FLOOR_THIN_KILL — PFAS treatment chemistry; maiden net profit ~A$100K on A$50M H1 revenue; no floor
+- EGL (The Environmental Group, ASX, ~A$107M): MOAT_SOFT_KILL — multi-sector environmental engineering + PFAS water tech; FY26 EBITDA guided -21%; specialist capability not sole-source IP
+- WAT.AX (Waterco, ASX, mid-cap): MOAT_SOFT_KILL — pool/spa filtration equipment and chemical distribution; competitive market, dealer/distributor moat not durable
+
+**§3.5 Financial baseline survivors:**
+- PRV (Porvair, AIM, ~£300M): **NO_MOAT_KILL** — aerospace/nuclear certified filtration consumables; "60% of sales are consumable elements" narrative misleading; FY2025 blended GM = 35.4% (£68.7M GP / £193.98M revenue) — FAILS ≥45% GM gate. Note: £194M revenue, adj. OP £26.2M (13.5% margin), net cash £17.1M; aerospace/nuclear certifications are real moat but insufficient to compensate for GM gate failure.
+- RIV (Rivco Australia, ASX, ~A$226M): **MOAT_SOFT_KILL** — sole ASX-listed water entitlement vehicle; 91.5 GL portfolio in Southern Murray-Darling Basin; GM 99.4% (A$51.8M GP / A$52.1M FY2025 revenue); 53% net margin; BUT the "moat" is the regulatory scarcity of the underlying asset class (government-allocated water entitlements), NOT a business competitive advantage — any capital can purchase water entitlements; revenue volatile (+116% H1 2025 YoY = water price-driven, not compounding business); investment manager model (Duxton Capital fees charged); more like a REIT than a moat business.
+- WATR (Water Intelligence, AIM, ~£51M/~$65M USD): **MOAT_SOFT_KILL** — American Leak Detection franchise network (74 US franchises, 46 states) + proprietary acoustic/infrared detection hardware (Leakvue, Pulse); FY2025 revenue $90.4M (+9%); adj. EBITDA $16.5M (18.2% margin); PBT $6.4M (7.7% margin); net debt/EBITDA 1.17x; GM unconfirmed (likely 30-40% blended; franchise royalty high-margin + corporate store/device lower-margin); acoustic leak detection is not sole-source IP — alternatives exist in the market; franchise brands are softer than regulatory/process moats.
+
+**Prior-pass kills added this run:**
+- CWCO (Consolidated Water, US/Caribbean): NO_MOAT_KILL — FY2025 GM 37% ($48.4M GP / $132.1M revenue); fails ≥45% gate; additional integrity: Bahamas WSC $21M receivables 71% delinquent; Cayman concession "temporary" pending OfReg negotiations
+- HYR.L (Hydrodec): NOT_PUBLIC_KILL — acquired Nov 2021 by Slicker Recycling; no longer listed
+- AUG.L (Augean): NOT_PUBLIC_KILL — delisted from LSE
+- RWI (Renewi): NOT_PUBLIC_KILL — acquired June 2025 by Macquarie Infrastructure; delisted
+
+**Sector 9 structural finding (confirmed across 3 geo passes, 44+ names):**
+Environmental/water/waste at $20-300M cap with ≥45% GM is globally structurally thin:
+- Development-stage clean-tech dominates the micro-cap tier (pre-revenue, losses, no floor)
+- Scaled operators with real moats are SIZE_KILL (Veolia, Xylem, Evoqua/Xylem, SUEZ, Severn Trent, United Utilities all >$1B)
+- Mid-cap names ($100-300M) typically have MOAT_SOFT (engineering services, distributor models, brand moats) or NO_MOAT (GM <45%)
+- Regulatory moat + high GM + profitable + $20-300M cap = extremely rare combination in this sector globally
+- Government ownership/concession creates regulated revenue but government is also the counterparty risk (as in CWCO Bahamas receivables)
+
+**Sector 9 status: EXHAUSTED globally (3 geo passes). Revive only with deep Japan/Korea/Taiwan lens (waste recycling precision chemistry or water analytical instruments — different sub-sectors than water treatment).**

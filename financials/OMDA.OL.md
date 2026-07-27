@@ -118,10 +118,57 @@ Non-EN rule: C≤2 (Euronext Growth Oslo; IFRS English filings exist; balance sh
 
 REVISIT FOR §5 PROMOTION: When (a) Annual report primary filing confirms gross margin ≥60%, financial debt manageable vs. EBITDA (≤3x net financial debt/EBITDA), and FCF NOK 60M+ → promote to QUEUED_HOT for §5 deep-dive.
 
-## Trust Summary
-- Revenue, EBITDA trend: ~ (aggregators / web search; English Euronext Growth filings exist but not directly fetched this session)
-- NI, gross margin, FCF, net financial debt: ⚠ UNCONFIRMED (key data gaps — require annual report PDF)
-- Price, market cap, analyst count/PT: ~ (web search aggregators)
-- Dividend: ~ (web search; directionally confirmed by multiple sources)
+## Run #61 Data Update (2026-07-27) — OMDA Annual Report Agent
+
+**New data confirmed by deep search (all PDF fetches still blocked 403; data from search snippets):**
+
+### Gross Margin (updated)
+| Period | GM% | Source | Tag |
+|--------|-----|--------|-----|
+| Q2 2025 | **~63.3%** | Investing.com earnings call snippet | ~ single-source |
+| FY2025 estimate | ~62-65% | Directional inference from Q2 data | ? |
+
+Note: 91-92% figure from Analyst Group Jan 2024 is a methodology artefact (Norwegian nature-of-expense format, not COGS-based GM). The 63.3% from Q2 2025 earnings call represents IFRS-calculated gross margin (revenue − cost of delivery). This directionally PASSES the ≥45% gate, but remains unconfirmed from primary filing.
+
+### Financial Debt Breakdown (updated)
+| Component | Estimated NOK M | Confidence |
+|-----------|----------------|------------|
+| Total gross debt (incl. IFRS 16 + earn-outs) | ~484-507 | ~ |
+| Cash | ~60 (Dec 2025), ~53.9 (Q1 2026) | ~ |
+| Net financial debt (bank only − cash, est.) | **~190-260** | ? analyst estimate |
+| True net debt / EBITDA FY2025 | **~1.6-2.2x** | ? derived — comfortable range |
+
+### Analyst Coverage & Price Targets (updated)
+| Broker | PT (NOK) | Source | Tag |
+|--------|---------|--------|-----|
+| DNB Carnegie (Benedicte Tolaas) | Not found publicly | Confirmed coverage | ~ |
+| Consensus range | NOK 57-65 | Aggregator snippets | ~ |
+
+### Valuation Update (2026-07-27)
+| Metric | Value | Tag |
+|--------|-------|-----|
+| Price | ~NOK 38.60-39.60 | ~ |
+| Shares | 20.51M | ~ |
+| Market cap | ~NOK 742-775M (~$67-70M USD) | ~ |
+| EV (cap + est. net debt ~NOK 230M) | ~NOK 972-1,005M | ? |
+| EV/EBITDA FY2025 | **~8.3-8.6x** | ? |
+| 52-week range | NOK 31.50-57.40 | ~ |
+
+### Valuation Thesis (run #61 update)
+- Current EV/EBITDA ~8-9x vs. VMS peers 15-25x (Constellation/Topicus)
+- At fair value 12x: EV ~NOK 1,404M → cap ~NOK 1,174M → ~NOK 57/sh (consistent with analyst PTs)
+- At 2x from current (~NOK 77-80): implies 16x EV/EBITDA (achievable for VMS compounder re-rating)
+- **Current price is AT or NEAR the buy-zone** — EV/EBITDA ~8-9x is cheap even for a cautious VMS multiple
+- Added to WATCHLIST Quality Bench run #61 as conditional entry (GM filing-anchored confirmation required before §5 promotion)
+
+### §5 Promotion Conditions (updated)
+PROCEED TO §5 OPUS WHEN: annual report primary filing directly fetched AND confirms (a) gross margin ≥60%, (b) net financial debt (bank) ≤NOK 300M (≤~2.5x EBITDA), (c) FCF ≥NOK 60M. If all three confirmed → promote to QUEUED_HOT for §5. If blocked by proxy, attempt alternate path (fetch direct from omda.com/investor-relations once proxy allows, or user manual download).
+
+## Trust Summary (updated run #61)
+- Revenue, EBITDA trend, guidance: ✓~ (multiple sources consistent, filing-anchored press releases cited)
+- Gross margin: ~ single-source (Q2 2025 63.3% from earnings call; directionally strong, passes gate IF confirmed)
+- FCF, net financial debt (bank component): ? unconfirmed (require annual report PDF notes — still 403 blocked)
+- Price, market cap, analyst count: ~ (web search aggregators)
+- Dividend: ~ confirmed by multiple sources (NOK 9.9M total paid)
 - Balance sheet totals: ~ (aggregators)
-- C cap: C≤2 (Euronext Growth Oslo; IFRS English filings exist; balance sheet complexity = quality uncertainty; two key metrics unconfirmed)
+- C cap: C≤2 (Euronext Growth Oslo; IFRS English filings exist; balance sheet complexity partially resolved — earn-out + IFRS 16 inflation confirmed; bank debt quantum remains unconfirmed)

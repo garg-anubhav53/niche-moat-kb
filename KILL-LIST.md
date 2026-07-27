@@ -2635,3 +2635,44 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 
 **Sector 9 2nd pass US status: 0 new QUEUED from ~23 names. 2nd consecutive 0-new pass (Nordic run #28 = 1st; US run #60 = 2nd) → Sector 9 US geo EXHAUSTED.**
 **Structural finding: US env/water at $20-300M cap with ≥45% GM is structurally thin. Development-stage clean-tech dominates the micro-cap tier; scaled operators with real moats are SIZE_KILL; mid-cap names lack durable moat. Exception: CWCO (water concession + desalination) — deferred to 3rd pass §4. REVIVE: UK AIM/ASX environmental/water 3rd pass (different regulatory/market context = potential untapped niche names).**
+
+---
+
+## Sector 9 3rd pass UK AIM/ASX kills (run #61, 2026-07-27)
+
+### Not-Public Kills (delisted / acquired / winding-up)
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|------------|
+| HYR.L | Hydrodec Group | 2026-07-27 | **NOT_PUBLIC_KILL**: Acquired Nov 2021 by Slicker Recycling; delisted from AIM; no longer publicly traded. Used-oil re-refining technology. |
+| AUG.L | Augean plc | 2026-07-27 | **NOT_PUBLIC_KILL**: Delisted from LSE AIM; UK hazardous waste treatment and disposal; acquired/taken private. |
+| RWI | Renewi plc | 2026-07-27 | **NOT_PUBLIC_KILL**: Acquired June 2025 by Macquarie Infrastructure and Real Assets; delisted from LSE/Euronext Amsterdam; Dutch-Belgian-UK waste-to-product company. |
+| PET.AX | Phoslock Environmental Technologies | 2026-07-27 | **NOT_PUBLIC_KILL**: Winding up/delisting from ASX; A$6.2M cash (June 2025); company in wind-down. CSIRO-origin phosphate lake remediation technology (binding excessive phosphate in drinking water catchments). |
+
+### No-Moat / GM-Gate Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| CWCO | Consolidated Water Co. (Cayman/Bahamas) | ~$130M | 2026-07-27 | **NO_MOAT_KILL**: FY2025 GM = 37% ($48.4M GP / $132.1M revenue) — fails ≥45% gate. Additional integrity concern: Bahamas WSC $21M receivables 71% delinquent; Cayman concession "temporary" pending OfReg negotiations — moat durability uncertain. Caribbean water concession + desalination does have some regulatory moat character but GM gate is absolute. |
+| PRV | Porvair plc (AIM) | ~£300M | 2026-07-27 | **NO_MOAT_KILL**: FY2025 GM = 35.4% (£68.7M GP / £193.98M revenue) — fails ≥45% gate. Aerospace/nuclear certified filtration consumables have genuine moat character (certifications take years to obtain, 60%+ of sales are consumables) but blended GM gate fails due to capital equipment portion of revenue mix. Net cash £17.1M; adj. OP £26.2M (13.5%). Gate is absolute; moat is real but insufficient to override GM gate. |
+
+### Cap-Too-Small / Not-Yet-Profitable / Development-Stage Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| SYM | Symphony Environmental Technologies (AIM) | <£30M | 2026-07-27 | **CAP_TOO_SMALL_KILL**: Sub-threshold market cap; oxo-biodegradable polymer additive masterbatches (d2w/d2p); patented additives licensed to packaging producers; near-profitable after 2025 restructuring but cap fails floor. |
+| MWG | Modern Water plc (AIM) | Micro-cap | 2026-07-27 | **CAP_TOO_SMALL_KILL + NOT_PROFITABLE**: Forward osmosis desalination membrane tech + water quality monitoring instruments; marginal/near-breakeven; proprietary membrane tech real but scale too small. |
+| FORG | EQTEC plc (AIM, formerly EQT) | Micro-cap | 2026-07-27 | **DEVELOPMENT_STAGE_KILL**: Advanced gasification waste-to-energy technology; pre-revenue project licensing stage; no commercial recurring revenue; no floor. |
+| RNWH | Renew Holdings plc (LSE Main) | ~£600M+ | 2026-07-27 | **SIZE_KILL**: >£500M cap threshold (way above). Also not AIM — listed on LSE Main Market. Engineering services for regulated UK infrastructure (water/rail/nuclear/energy); AMP8 framework contracts real; specialist skills durable moat — but far too large for this screen. |
+| FLC | Fluence Corporation (ASX) | ~A$96M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: Modular decentralised water/wastewater treatment technology; plug-and-play MABR/NIROBOX/SUBRE systems; still net losses in 2025; analysts expected first profit ~US$2.5M in 2026 but unconfirmed; no floor without profitability. |
+| CNQ | Clean TeQ Water Limited (ASX) | Small | 2026-07-27 | **DEVELOPMENT_STAGE_KILL**: Proprietary continuous ion exchange (CIX) + graphene-enhanced filtration for water purification and resource recovery; early commercial stage; pre-significant revenue; no floor. |
+| DEM | De.mem Limited (ASX) | Small | 2026-07-27 | **NOT_YET_PROFITABLE_KILL + CAP_TOO_SMALL**: Hollow fibre membrane water treatment with long-term service contracts; growing recurring revenue; trending toward profitability but not there; cap likely below threshold. |
+| CXL | Calix Limited (ASX) | ~A$112M | 2026-07-27 | **NOT_PROFITABLE_KILL**: Patent-protected flash calciner (kiln) platform — ACTI-Mag for wastewater, LEILAC CO2 capture, agricultural applications; multi-application optionality real but operating loss ~A$9M H1 FY26 (statutory loss larger due to impairment); targeting cash-flow neutrality end-2026; no floor yet. |
+| SDV | SciDev Limited (ASX) | ~A$21-67M | 2026-07-27 | **FLOOR_THIN_KILL**: Proprietary PFAS (forever chemical) water treatment chemistry + industrial water treatment service contracts; record H1 revenue A$50.3M, EBITDA A$3.2M, maiden NP ~A$100K; too thin a profit floor to support the moat thesis; PFAS regulatory demand is real but profitability too thin to qualify. |
+
+### Moat-Soft Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| EGL | The Environmental Group (ASX) | ~A$107M | 2026-07-27 | **MOAT_SOFT_KILL**: Multi-sector environmental engineering (air pollution, energy, waste, water PFAS) + EGL Water PFAS separation tech; FY25 EBITDA A$11.1M; FY26 EBITDA guided -21% to A$8.5-9.0M; specialist engineering capability is not a sole-source regulatory or process moat; PFAS division too small relative to total; execution risk. |
+| WAT.AX | Waterco Limited (ASX) | Mid-cap | 2026-07-27 | **MOAT_SOFT_KILL**: Pool/spa filtration equipment, chemical dosing, and water testing products for residential/commercial/agriculture; dealer/distributor network moat not durable (Pentair/Fluidra competition); A$244M revenue 2024; brand moat in pool sector is soft. |
+| RIV | Rivco Australia Ltd (ASX, formerly D2O Duxton Water) | ~A$226M | 2026-07-27 | **MOAT_SOFT_KILL**: Only ASX-listed water entitlement vehicle; 91.5 GL Southern Murray-Darling Basin portfolio; GM 99.4% (A$51.8M GP / A$52.1M FY2025 revenue); 53% net margin; BUT this is an asset-ownership/REIT model — the "moat" is the regulatory scarcity of the underlying asset class, not the company's competitive position. Any capital can purchase water entitlements; revenue volatile (+116% H1 2025 YoY = water price driven); investment manager (Duxton Capital) charges fees; not a business compounder. |
+| WATR | Water Intelligence plc (AIM) | ~£51M (~$65M USD) | 2026-07-27 | **MOAT_SOFT_KILL**: American Leak Detection (ALD) franchise network (74 US franchises, 46 states + international) + proprietary acoustic/infrared leak detection devices (Leakvue, Pulse); FY2025 revenue $90.4M, adj. EBITDA $16.5M (18.2%), PBT $6.4M (7.7% margin); net debt/EBITDA 1.17x; GM unconfirmed (likely 30-40% blended, franchise royalty high-margin + corporate store lower-margin); acoustic leak detection not sole-source IP; franchise brand moat softer than regulatory/process moat. Moat is real but not durable enough for bench. |
+
+**Sector 9 3rd pass UK AIM/ASX structural conclusion: 15 names, 0 new QUEUED. Combined with Nordic (run #28) and US (run #60): Sector 9 EXHAUSTED globally (3 geo passes, 44+ names total, 0 new QUEUED). Environmental/water at $20-300M cap / ≥45% GM is globally structurally thin: development-stage clean-tech dominates micro-cap; scaled operators are SIZE_KILL; mid-cap names fail GM gate or moat gate. Sector 9 closed — revive only with deep Japan/Korea/Taiwan geo lens on different sub-sectors (water analytical instruments, precision chemistry).**
