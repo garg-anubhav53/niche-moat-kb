@@ -2517,3 +2517,76 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | Various (~19 other Nordic/DACH names) | Mix of: cloud ERP vendors (too large/private), Nordic edtech, DACH HR software, Scandinavian retail/logistics SaaS | SIZE_KILL, NOT_PUBLIC_KILL, NO_MOAT_KILL, CAP_SOFT_KILL, INTEGRITY_KILL | Structural finding: The Nordic/DACH Sector 6 landscape at $20-300M cap is thin. Quality names are either private (Visma, Cegid, Unit4, Aareon, IFS — all confirmed NOT_PUBLIC) or over-capped (Tieto/Tietoevry SIZE_KILL, ATOSS CAP_SOFT_KILL, Vitec VITEC-B.ST already CAP_KILL). Of the 28 processed, only NTECH.ST cleared all triage gates at ≥10/12. |
 
 **Sector 6 3rd pass (Nordic/DACH) status: 1 new QUEUED_HOT (NTECH.ST 10/12); ~27 killed; net 1 survivor advancing to §5.**
+
+---
+
+## Run #59 Kills — 2026-07-27 | Sector 8 3rd Pass (Building & Infrastructure Products — US geo lens)
+
+*~35 names processed (US geo lens: Nasdaq/NYSE/OTC specialty building products micro- and small-cap). All data tools proxy-blocked — entire run in §2B web-search mode; all caps/prices tagged ~. Result: 0 new QUEUED; 2nd consecutive 0-new pass → Sector 8 EXHAUSTED.*
+
+### Seen Kills (already in KB)
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|-------------|
+| CCF | Chase Corporation | 2026-07-27 | **SEEN_KILL**: Specialty adhesives/sealants/coatings; already reviewed and killed run #16 (Sector 0 specialty chem/materials pass). Killed in the specialty chem run. |
+| CMT | Core Molding Technologies | 2026-07-27 | **SEEN_KILL**: SMC/FRP composite components; already reviewed and killed run #16 (Sector 0). |
+| SMID | Smith-Midland | 2026-07-27 | **SEEN_KILL**: Precast concrete (J-J Hooks patent); already on QUALITY BENCH (WATCHLIST.md); patented precast moat real; buy-zone ~$22-24. |
+| OFLX | Omega Flex | 2026-07-27 | **SEEN_KILL**: CSST gas piping duopoly; already on QUALITY BENCH (WATCHLIST.md); best US building products name in KB; buy-zone ~$190-220M cap. |
+
+### Not Public Kills
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|-------------|
+| FRTA | Forterra Inc. | 2026-07-27 | **NOT_PUBLIC_KILL**: Acquired by Quikrete in 2022; no longer independently listed. Had been specialty concrete/steel pipe manufacturer. |
+| ACA | Arcosa Inc. | 2026-07-27 | **NOT_PUBLIC_KILL (pending)**: Being acquired by CRH for $8.5B (announced June 2026). Specialty infrastructure products (aggregates, utility structures, transportation products). |
+
+### Size Kills (cap >$1.5B or revenue >$400M ceiling)
+| Ticker | Company | Cap/Rev | Date | Kill Reason |
+|--------|---------|---------|------|-------------|
+| PRM | Perimeter Solutions | ~$5.5B cap | 2026-07-27 | **SIZE_KILL**: Wildfire retardant + foam concentrates (SOLBERG brand); genuine regulatory contract moat; FM-approved PFAS-free foam; but cap ~$5.5B = 18× ceiling. REVIVE only if carve-out/spin changes scale. |
+| SSD | Simpson Manufacturing | ~$5B cap | 2026-07-27 | **SIZE_KILL**: Textbook code-certified structural connector moat (ICC/IBC approval lock-in); ~$5B cap = 17× ceiling. The quintessential Sector 8 moat franchise — just too large. |
+| TREX | Trex Company | ~$4-5B cap | 2026-07-27 | **SIZE_KILL**: Composite decking brand leader; patented formulations; ~$4-5B cap. |
+| AAON | AAON Inc. | ~$3-4B cap; rev ~$880M | 2026-07-27 | **SIZE_KILL**: Semi-custom commercial HVAC; genuine order-to-build pricing moat; rev ~$880M (2.2× revenue ceiling) + cap ~$3-4B. |
+| FIX | Comfort Systems USA | ~$4B cap | 2026-07-27 | **SIZE_KILL**: HVAC contractor; cap ~$4B. Also service contractor (no product manufacturing moat). |
+| IBP | Installed Building Products | ~$3B cap | 2026-07-27 | **SIZE_KILL**: Insulation installer; ~$3B cap; installation services not specialty products. |
+| GMS | GMS Inc. | ~$3-4B cap | 2026-07-27 | **SIZE_KILL**: Specialty building products distributor (wallboard, steel framing); ~$3-4B cap. Also distribution economics (low GM). |
+| UFPI | UFP Industries | ~$3-4B cap | 2026-07-27 | **SIZE_KILL**: Wood/lumber products manufacturer and distributor; ~$3-4B cap. Commodity lumber economics. |
+| APOG | Apogee Enterprises | rev ~$1.2-1.4B | 2026-07-27 | **SIZE_KILL**: Architectural glass + Kalwall (translucent panels); revenue ~$1.2-1.4B (3-3.5× revenue ceiling). Kalwall acquisition adds real code-spec moat but entity is too large. |
+| NX | Quanex Building Products | rev ~$1B+; cap ~$916M | 2026-07-27 | **SIZE_KILL**: OEM window/door components (vinyl profiles, IG spacers); revenue ~$1B+ above ceiling; cap $916M extended zone. |
+| PATK | Patrick Industries | rev ~$3-4B; cap ~$1-2B | 2026-07-27 | **SIZE_KILL**: Building components for manufactured housing/RV/marine; revenue far above ceiling. |
+| JELD | JELD-WEN Holding | rev ~$4B | 2026-07-27 | **SIZE_KILL**: Doors/windows/wall systems; revenue ~$4B. Also commodity-level economics. |
+| AZZ | AZZ Inc. | ~$1.5-2B cap | 2026-07-27 | **SIZE_KILL**: Hot-dip galvanizing + precoat metals; cap ~$1.5-2B borderline/above ceiling; revenue above ceiling. |
+| AMWD | American Woodmark | rev >$2B | 2026-07-27 | **SIZE_KILL + NO_MOAT_KILL**: Kitchen/bath cabinetry; revenue >$2B; commodity cabinetry with multiple competitors. |
+| IIIN | Insteel Industries | ~$500-700M cap | 2026-07-27 | **NO_MOAT_KILL**: Nation's largest steel wire reinforcing manufacturer (prestressed strand, WWR); commodity product; GM typically 15-25%; no sole-source/IP moat. CAP_SOFT concurrent ($500-700M extended zone). |
+| ROCK | Gibraltar Industries | ~$1.16B cap; rev >$1B | 2026-07-27 | **SIZE_KILL**: Specialty roofing/agtech/infrastructure products; cap $1.16B extended zone; revenue >$1B above ceiling. |
+| MG | Mistras Group | rev ~$700-800M | 2026-07-27 | **SIZE_KILL + SECTOR_ADJACENT_KILL**: NDT/structural inspection; revenue ~$700-800M above ceiling; inspection SERVICES not building products (Sector 5). |
+| CSWI | CSW Industrials | rev ~$700-800M | 2026-07-27 | **CAP_SOFT_KILL + SIZE_KILL**: RectorSeal specialty sealants/HVAC chemicals + other industrial brands; revenue ~$700-800M (2× revenue ceiling); cap ~$1.5B (boundary); well-covered (5+ analysts). Quality is real (RectorSeal contractor-brand moat) but too large + revenue ceiling exceeded. |
+| LBM | US LBM Holdings | rev >$5B | 2026-07-27 | **SIZE_KILL + NO_MOAT_KILL**: Specialty building products distributor; revenue >$5B; distribution economics (low GM). |
+
+### No-Moat / Low-GM / Sector-Adjacent Kills
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|-------------|
+| NWPX | NWPX Infrastructure (NW Pipe) | 2026-07-27 | **NO_MOAT_KILL**: Water transmission pipe + precast infrastructure; commodity pipe manufacturing; GM typically 15-25% (fails 45% gate); multiple competitors. Revenue likely at/above ceiling. |
+| BURCA | Burnham Holdings | 2026-07-27 | **NO_MOAT_KILL**: Boilers, radiators, HVAC products (multiple sub-brands); commodity boiler manufacturing with multiple competitors (Weil-McLain, Peerless, HTP, Slant/Fin); GM typically 30-38% (fails 45% gate); OTC Pink = liquidity concern. |
+| LMB | Limbach Holdings | 2026-07-27 | **NO_MOAT_KILL + SECTOR_ADJACENT**: HVAC/mechanical/plumbing installation contractor for mission-critical facilities; NOT a building products manufacturer; service contractor GM 15-25%; cap ~$400-600M extended zone. |
+| TECOGEN | Tecogen Inc. | 2026-07-27 | **NO_MOAT_KILL**: Micro-CHP (combined heat and power) systems + HVAC absorption chillers; cap ~$30-60M; GM probably 20-30% for CHP equipment (fails 45% gate); multiple competitors (Caterpillar, GE, 2G Energy, Yanmar); no sole-source regulatory moat. |
+| PLPC | Preformed Line Products | 2026-07-27 | **SIZE_KILL**: Engineered products for overhead/underground utility networks (connectors, dead-ends, anchors); revenue ~$500-600M (above ceiling); cap ~$500-700M extended zone. Spec-in moat is real but entity is too large. |
+| UFAB | Unique Fabricating | 2026-07-27 | **NO_MOAT_KILL + SECTOR_ADJACENT_KILL**: Foam/rubber/plastic NVH and sealing components; primarily automotive OEM (not building products); commodity component manufacturing; GM likely 25-35%. |
+| EML | Eastern Company | 2026-07-27 | **NO_MOAT_KILL**: Specialty industrial locks, hinges, latches for commercial vehicles, industrial equipment, utility infrastructure; specialty hardware manufacturing; GM likely 30-40% (fails 45% gate); multiple competitors (Southco, EMKA, Cam Lock, Regal Seating). Cap ~$150-200M would be in zone but moat gate fails. |
+
+### Price Kill
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|-------------|
+| PPIH | Perma-Pipe International Holdings | 2026-07-27 | **PRICE_KILL + NO_MOAT_KILL**: Pre-insulated specialty piping systems (district heating/cooling, data center cooling, industrial); cap ~$200-266M (in zone); BUT stock up ~130%+ 2025-26 (asymmetry spent); NOT sole-source (Logstor/Denmark, isoplus/Germany, MFLEX/UK, Watts Industries compete globally); GM probably 20-30% (engineered piping manufacturing, fails 45% gate). Data center cooling narrative inflating price. REVISIT IF: cap corrects >50% AND GM confirmed ≥40% from filing AND unique US regulatory certification documented. |
+
+### Integrity Kills
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|-------------|
+| SGBX | SG Blocks Inc. | 2026-07-27 | **INTEGRITY_KILL**: Designs/builds structures from modified shipping containers; development-stage economics; tiny micro-cap; pre-profitable; no durable floor. |
+| CITR | CitroTech Inc. | 2026-07-27 | **INTEGRITY_KILL (unverified)**: Described as specialty fire inhibitor/flame retardant treatments for manufactured wood/wildfire defense; formerly "General Enterprise Ventures" (⚠ rebranding = quality concern); development-stage characteristics; revenue/profitability unverifiable from available data; treat as INTEGRITY_KILL until primary filing confirms profitable operations. |
+
+### Sector-Adjacent Kill (forwarded to another sector)
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|-------------|
+| NSSC | Napco Security Technologies | 2026-07-27 | **SECTOR_ADJACENT_KILL (Sector 8) → FORWARD TO SECTOR 11 3rd pass**: Fire alarm systems, door-locking, intrusion detection hardware + StarLink cellular monitoring subscription (SaaS-like recurring revenue). Code-required under NFPA 72 = real moat, but this is security ELECTRONICS (Sector 11), not building products (Sector 8). Quality ≈ Q4 (GM ~58-62%; recurring SaaS-like subscription model; dealer channel lock-in). Cap ~$900M-1.1B = extended zone; 5-7 analysts likely = thick coverage but v5.1 routes Q≥4 to Bench. Asymmetry Gate likely FAIL at current price (well-followed, priced accordingly). ADD TO SECTOR 11 3rd PASS WORKLIST as Q≈4 extended-zone bench candidate pending §3.5 financial baseline. |
+
+**Sector 8 3rd pass US status: 0 new QUEUED from ~35 names. 2nd consecutive 0-new pass (EU pass run #55 = 1st; US pass run #59 = 2nd) → SECTOR 8 EXHAUSTED.**
+**Structural finding: US specialty building products at $20-300M cap with ≥45% GM is structurally empty. All quality names (SSD, TREX, AAON, PRM) are $3-5B+ cap. PE consolidation and M&A wave (GCP→Saint-Gobain, Forterra→Quikrete, Continental→Saint-Gobain) absorbed most micro-cap quality names. What remains at $20-300M: commodity manufacturers (low GM), service/installation businesses, and development-stage companies. REVIVE: Japan/Korea building materials (EDINET access), or Australian niche building products (ASX).**

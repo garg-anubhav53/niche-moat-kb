@@ -536,3 +536,86 @@ Searching for IDOX analogs in the UK AIM vertical SaaS space surfaced the follow
 
 **Sector 6 status:** ACTIVE (3 passes). 3rd pass: 1 new QUEUED_HOT (NTECH.ST). Consecutive 0-new streak from pass 1 (DACH mixed) broken by Nordic lens. Next pass if needed: UK AIM B2B SaaS re-screen (post-IDOX.L privatization), or Benelux enterprise SaaS (Exact-adjacent) or East-European tech exchanges (Warsaw GPW, Vienna, Prague).
 
+
+---
+
+## Sector 8 (Building & Infrastructure Products) — Pass 3 Coverage Notes (run #59, 2026-07-27) → **EXHAUSTED**
+
+**US geo lens (Nasdaq/NYSE/OTC specialty building products):** ~35 names processed; **0 new QUEUED**; 0 bench additions; **2nd consecutive 0-new pass → Sector 8 EXHAUSTED**.
+
+**All data tools proxy-blocked:** SEC EDGAR frames API (403), Yahoo Finance/snapshot.py (no price), SEC FTS (403). Entire run in §2B web-search mode; all caps/prices tagged ~.
+
+---
+
+### Structural Finding — Why US Specialty Building Products at $20-300M Cap is Exhausted
+
+The US specialty building products sector at the $20-300M cap / ≥45% GM intersection is **structurally empty** for four compounding reasons:
+
+1. **All quality moated names are large-cap:** The textbook US building products moats — SSD (Simpson Manufacturing, code-certified structural connectors), TREX (composite decking), AAON (semi-custom HVAC), PRM (Perimeter Solutions fire retardant) — are all $3-5B+ cap. These re-rated years ago and are now well-covered institutional positions.
+
+2. **PE/M&A consolidation absorbed the micro-cap quality layer:** GCP Applied Technologies (specialty construction chemicals → Saint-Gobain 2022); Forterra (specialty concrete/steel pipe → Quikrete 2022); Continental Building Products (→ Saint-Gobain 2020); W.R. Grace (→ Standard Industries 2021, private). The micro-cap building products moat names that survived the 2015-2022 wave are now either private or have been absorbed. IDOX.L (UK equivalent) was taken private May 2026 by MBO.
+
+3. **What remains at $20-300M cap fails the GM gate:** Commodity manufacturers (IIIN steel wire ~15-25% GM; NWPX pipe ~15-25%; BURCA boilers ~30-38%; TECOGEN CHP ~20-30%; EML hardware ~30-40%) universally fail the ≥45% GM threshold. Low GM = no pricing power moat.
+
+4. **Service/installation businesses dominate the residual:** LMB (Limbach HVAC contractor), MG (Mistras inspection services), FIX (Comfort Systems contractor) are service businesses with contractor GM (~15-25%), not specialty products manufacturers.
+
+**The notable exception encountered:** OFLX (Omega Flex) is already on the Quality Bench — it IS the $20-300M US specialty building products moat name. SMID (Smith-Midland) is also on bench. Both were found in earlier passes. Run #59 confirms no new additions exist in the US cap zone.
+
+---
+
+### Key Names Processed
+
+**SIZE_KILL dominated (18 of ~35):** PRM, SSD, TREX, AAON, FIX, IBP, GMS, UFPI, APOG, NX, JELD, PATK, AZZ, AMWD, ROCK, PLPC, MG, CSWI
+
+**NO_MOAT_KILL (7):** NWPX, BURCA, LMB, TECOGEN, UFAB, EML, IIIN
+
+**SECTOR_ADJACENT (2):** NSSC (→ forwarded Sector 11 3rd pass as Q≈4 bench candidate), MG (Sector 5)
+
+**NOT_PUBLIC (2):** FRTA (acquired Quikrete 2022), ACA (acquisition by CRH pending)
+
+**PRICE_KILL (1):** PPIH (130%+ run + NO_MOAT concurrent)
+
+**INTEGRITY_KILL (2):** SGBX, CITR
+
+**SEEN_KILL (4):** CCF, CMT, SMID, OFLX
+
+---
+
+### Notable Near-Miss: NSSC (Napco Security Technologies)
+
+The one genuinely high-quality name encountered was NSSC (Napco Security Technologies, Nasdaq, ~$900M-1.1B cap). Fire alarm systems + StarLink cellular monitoring subscription (SaaS-like recurring, dealer channel lock-in, NFPA 72 code-required). GM ~58-62%. Q≈4. But:
+- **SECTOR_ADJACENT**: Security electronics, not building products → Sector 11
+- **Extended zone** ($900M-1.1B) + 5-7 analysts likely → under v5.1 rules routes to Bench if Q≥4
+- **Asymmetry Gate**: at $900M-1.1B with thick analyst coverage, likely priced to fair value
+
+NSSC is forwarded to Sector 11 3rd pass worklist as a Q≈4 extended-zone bench candidate. Requires §3.5 financial baseline before formal bench designation.
+
+---
+
+**Sector 8 status: EXHAUSTED (3 passes complete: Canada/AU, EU, US; 2 consecutive 0-new-QUEUED passes after EU and US lens). REVIVE conditions: Japanese AIM/TSE building materials niche (EDINET access restored), or Australian ASX niche building products (different macro/regulatory context), or a specific corporate action (spin-off of specialty product division from large-cap building products conglomerate). Do not attempt a 4th US or European pass without a genuinely new angle.**
+
+---
+
+## Run #59 — Bench Re-Price (2026-07-27)
+
+*All prices tagged ~ (single-source web search, Yahoo/aggregators proxy-blocked). No promotions triggered.*
+
+| Ticker | Prior price | New price ~ | Buy-zone | Status |
+|--------|------------|-------------|---------|--------|
+| WINA | $385.44 | $385.44 ~ | ≤~20-22x PE | Unchanged; above zone |
+| CODA | ~$10.00 | ~$10.00 ~ | $8-10 / ≤$107M cap | At buy-zone upper bound; cap ~$112.7M NOT triggered (need ≤$107M) |
+| OFLX | ~$29.85 | ~$29.92 ~ | ~$190-220M cap | Stable; above zone |
+| JOUT | ~$43.48 | ~$45.96 ~ | ~$38-40 | ⚠ REBOUNDED — further from buy-zone (was $43.48 approaching; now $45.96; approaching note REMOVED) |
+| SMID | ~$30.22 | ~$30.28 ~ | ~$22-24 | Stable; above zone |
+| ETON | ~$37.57 | ~$42.32 ~ | ~$22-26 | Rebounded above zone; further from trigger |
+| XRF.AX | A$2.28 | A$2.12 ~ | A$1.40-1.65 | Declining slowly; still above zone (T-A$0.47 to upper bound A$1.65) |
+| JHD.L | ~143p | ~128.44p ~ | ~£200-250M cap | ⚠ APPROACHING — was 143p → now 128.44p; Jun 22 low was ~124p; MONITOR CLOSELY (T-~4.4p from Jun 22 low; revenue stabilization required before promotion) |
+| PHO.OL | NOK 64.10 | NOK 64.10 ~ | NOK ≤50-55 | Unchanged; above zone |
+| CUV.AX | A$10.24 | A$10.20 ~ | A$6-8 | Stable; above zone |
+| MEDI.OL | NOK 226 | NOK 226 ~ | ~$230-290M cap | Stable; above zone |
+| EKF.L | 25.40p | 25.40p ~ | pullback/acceleration | Unchanged |
+| CGS.L | 316.8p→260p | 260p ~ | ~200-230p | Confirmed 260p (prior 316.8p Jul 23 was a data error, reverted; T-30-60p from zone; not triggered) |
+
+**No promotions to QUEUED_HOT triggered this run.**
+
+**Notable: JHD.L at 128.44p is approaching its Jun 22 low of ~124p. The buy-zone (expressed as ~£200-250M cap) may be near. However, revenue must first stabilize (currently declining 2 consecutive years) before promotion to QUEUED_HOT is warranted. Monitor next run.**
