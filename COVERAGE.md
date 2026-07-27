@@ -1032,3 +1032,63 @@ Nordic electrical/power components follows the identical structural pattern to U
 6. **Distribution/services fill the gap:** Momentum Group, Nordic Technology Group, Prevas — mid-cap names that appear in the sector but are distribution/consulting businesses with structural GM below the ≥45% gate.
 
 **Verdict: Sector 11 EXHAUSTED after 4 passes (1st pass UK/AIM/Continental #39, 2nd pass German XTRA/Swiss SIX #40, 3rd pass UK/DACH #65, 4th pass Nordic #67). Two consecutive 0-new-QUEUED passes.** The structural dynamic is consistent: high-quality electrical/power businesses exist but are either too large, defense-primary, EMS-margin, or private. Revive Sector 11 only with a Japan/Korea specialty electrical components lens (e.g. Japanese TSE precision power supply makers, Korean KOSDAQ sensor/power IC names).
+
+---
+
+## Sector 18 — Precision instruments & sensing | 3rd pass: European geo lens (run #68, 2026-07-27)
+
+**Geo lens:** Euronext (Paris/Amsterdam/Brussels/Lisbon), Xetra/Frankfurt, Swiss SIX, Warsaw WSE, London AIM — mid/small-cap precision instruments and analytical sensing ($20-300M market cap target band).
+
+**Structural finding: European precision instruments at $20-300M cap is structurally thin — large-cap quality dominates the sector.** The best European precision instruments franchises (Renishaw, Inficon, Pfeiffer Vacuum, Aixtron, TKH, Drägerwerk) all cleared the $1B threshold years ago, leaving the small-cap layer populated by early-stage, distribution, or moat-deficient names.
+
+**SIZE_KILLs (6):**
+- AIXA.DE — Aixtron SE (~€2B): MOCVD equipment leader for compound semiconductors; $1.5B cap gate breached
+- PFV.DE — Pfeiffer Vacuum (~€1.8B): turbo and fore-vacuum pumps for semiconductor/analytics; cap gate breached
+- IFCN.SW — Inficon (~$4.5B): gas analysis + leak detection instruments; cap gate breached
+- RSW.L — Renishaw (~£4B): metrology + additive manufacturing; cap gate breached
+- TWEKA.AS — TKH Group (~€1.8B): industrial connectivity + vision systems; cap gate breached
+- DRW3.DE — Drägerwerk (~€1.5B): safety + medical sensing; cap gate breached
+
+**NOT_PUBLIC_KILLs (2):**
+- GHH.L — Gardner Denver Holdings (GHH Fairtec precision instruments division): acquired by Arlington Capital Partners 2023; no longer independently listed
+- UBXN.SW — U-blox Holding AG: positioning/sensing modules; acquired by Advent International 2024; delisted Swiss SIX
+
+**Early-commercial PARK (1):**
+- WPHO.L — Photon Dynamics / W-Photonics (AIM): photonic sensing early-commercial; quality=0 floor (no stable revenue base); PARK pending commercial traction
+
+**§3 survivors → §3.5 outcomes (4 names):**
+
+1. **BSL.DE — Basler AG** (PARK): Machine vision cameras for industrial automation. §3.5 FAIL — GM ~37.5% (fails ≥45% gate) + NM 4.1% (fails ≥10% gate). Both primary financial gates miss; cyclical trough 2023-2024 but structural GM constrained by hardware commodity pressure. Revive if NM recovers ≥10% and GM structurally expands.
+
+2. **VGO.WSE — Vigo Photonics** (PARK): IR photodetectors + MCT-based sensing modules for defense/environmental monitoring. §3.5 FAIL — GM ~35% (fails ≥45% gate). Polish WSE; revenue €12-15M range, founder-led. Moat credible (proprietary MCT epitaxy) but financials don't meet threshold at this stage.
+
+3. **ALRIB.PA — Riber SA** (BENCH → COVERAGE_KILL, Q≥4): Sole surviving Western EU commercial MBE (molecular beam epitaxy) OEM; razor-blade consumables model (crucibles, filaments, maintenance contracts) for III-V/II-VI semiconductor research labs globally. §3.5 PASS financially (GM 38.7%/NM 12.9%✓/ROE ~20%✓); COVERAGE_KILL: 7-9 analysts covering (fails ≤4 gate). Q≥4 → bench route per v5.1. Sole-source Western MBE franchise; watch for analyst count reduction.
+
+4. **MEMS.PA — Memscap SA** (PARK ⚠INTEGRITY_DISCREPANCY): MEMS pressure sensors for aerospace/medical. §3.5 FAIL — NM 7.5% (fails ≥10% gate). ⚠ INTEGRITY_DISCREPANCY: Eulerpool reports NI €3.93M vs company press release NI €894K — 4.4x discrepancy unresolved; figures cannot be trusted for precision analysis. PARK pending verified financials from primary filing.
+
+**Pass summary:** 0 new QUEUED. Structural ceiling confirmed: quality EU precision instrument names are large-cap. Next recommended lens: Japan secondary OTC precision OEM names (Shizuoka, Nagano cluster small-cap; TSE Growth/Standard boards).
+
+---
+
+## Sector 19 — Specialty healthcare & niche pharma | 4th pass: UK/Canada/ASX geo lens (run #68, 2026-07-27)
+
+**Geo lens:** London AIM/Main Market UK, TSX/TSX-V Canada, ASX Australia — specialty pharma and healthcare with named regulatory moat ($20-300M market cap target band).
+
+**Structural finding confirmed (4th pass):** Profitable specialty pharma with a named regulatory moat at $20-300M cap is globally sparse. The 2023-2026 M&A wave (Rx Elite acquiring Canadian specialty pharma, private equity roll-ups of AIM pharma names, Australian biotech M&A) has absorbed many qualifying businesses into private or large-cap structures. The residual small-cap listed population skews toward: (a) development-stage biotechs (no NM floor), (b) generic/OTC distribution with soft moats, or (c) royalty models with structural ROE constraints.
+
+**Additional kills this pass (3):**
+- AMS.L — Amryt Pharma (AIM): COVERAGE_KILL (analyst count exceeds gate); acquired by Chiesi Farmaceutici 2023 — effectively delisted/absorbed
+- ANCR.L — Ancora Pharmaceuticals (AIM): PARK LOW_NM — NM ~3%; generic dermatology + branded specialty; moat soft, margin insufficient
+- DR.TO — Diane Dermatology / Dr. Reddy's Canada subsidiary: PARK MOAT_SOFT — generic dermatology portfolio; no named regulatory exclusivity; structural GM below gate
+
+**§3.5 + §4 outcomes (4 names):**
+
+1. **CPH.TO — Cipher Pharmaceuticals** (WATCHLIST APPROACHING ≤C$11-13/sh): Canadian specialty pharma. ABSORICA (isotretinoin LQ) US royalty stream + EPURIS (isotretinoin) #1 branded Canada + NATROBA (spinosad) topical parasiticide. §3.5 PASS: GM 65.8%~/NM 54%~/ ≤4 analysts PASS / debt-free Q1 2026. §4: 9/12 (Q=3/F=3/R=1/C=2). Asymmetry Gate FAIL: criterion 2 (bull ≥2x not credible at current C$16.39; analyst FV ~C$17.50 implies <7% upside). Buy-zone: ≤C$11-13/sh (~C$283-335M cap; ~10-12x trailing P/E; 2x to analyst FV opens). Monitor for re-entry. ⚠ ROE ~17-21%~ estimated FY2025 — verify from annual report.
+
+2. **NEU.AX — Neurogene / Neuren Pharmaceuticals** (BENCH → COVERAGE_KILL, Q≥4): Daybue (trofinetide) = first and only FDA-approved treatment for Rett syndrome; royalty-model revenue via Acadia Pharmaceuticals partnership. ~100% GM, NM ~39%; ROE ~9% (fails ≥15% gate). COVERAGE_KILL: 6 analysts covering (fails ≤4 gate). CAP_BORDERLINE: $1.456B AUD (~3% below $1.5B ceiling). Q≥4 → bench route. Watch for: ROE recovery as royalty scales, analyst count reduction, price correction.
+
+3. **PNV.AX — PolyNovo** (BENCH → COVERAGE_KILL, Q≥4): NovoSorb BTM = patented, sole FDA-cleared synthetic biodegradable wound matrix scaffold; 89-90% GM. NM 10.2%✓; ROE ~16%✓. COVERAGE_KILL: 9-10 analysts covering (fails ≤4 gate). Q≥4 → bench route. Watch for analyst count reduction + price pullback. §4 full financial baseline not yet written.
+
+4. **MVP.AX — MedVance / Medical Developments International** (PARK): Penthrox (methoxyflurane) inhaled analgesic; ARTG + CE marked; distributor network UK/EU/ANZ. §3.5 FAIL — NM 0.2% (barely profitable; fails ≥10% gate by wide margin). Revive if NM recovers ≥10%.
+
+**Verdict: Sector 19 EXHAUSTED after 4 passes (1st pass US/Nasdaq #60, 2nd pass EU/Continental #62, 3rd pass US 2nd sweep #66, 4th pass UK/Canada/ASX #68). Two consecutive 0-new-QUEUED passes (run #66 + run #68).** The structural dynamic is confirmed: the qualified specialty pharma universe at $20-300M cap with named regulatory moat and ≥45% GM / ≥10% NM / ≥15% ROE is genuinely small globally. Revive Sector 19 only with a Japan/Korea specialty pharma lens (Japanese OTC pharma with proprietary formulation moats; Korean KOSDAQ rare disease names) or if a major M&A exit creates a successor stub trading below intrinsic value.

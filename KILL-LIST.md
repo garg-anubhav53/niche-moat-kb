@@ -2916,3 +2916,122 @@ TRNS (2026-07-16), MG/Mistras (2026-07-27 latest), MLAB (2026-07-16), CLB (secto
 
 **Structural finding — Sector 11 4th pass Nordic (0 new QUEUED → 2nd consecutive 0-new pass → EXHAUSTED):**
 Nordic electrical/power components structurally identical to UK/DACH pattern: (a) Large-cap quality dominates (Vaisala €1.75B, OEM International €1.75B, HMS Networks €600-900M, AQ Group $1.98B, NKT large-cap) — all quality businesses but all SIZE_KILL; (b) EMS low-GM trap (Kitron, Scanfil = 10-15% GM); (c) Defense crossover distorts cap and mandate (Invisio, Kitron — Nordic rearmament 2026); (d) Best smaller names are pre-profitable (poLight, Sivers) or development-stage; (e) Distribution/services fill the mid-cap gap at wrong GM (Momentum, NTG, Prevas). Sector 11 marked EXHAUSTED after 4 passes (2 consecutive 0-new: UK/DACH #65 + Nordic #67). Revive only with Japan/Korea deep specialty electrical components lens.
+
+---
+
+## Run #68 — 2026-07-27 · Sector 18 (Precision instruments & sensing, 3rd pass · European geo lens) + Sector 19 (Specialty healthcare & niche pharma, 4th pass · UK AIM/LSE + Canada TSX + ASX geo lens)
+
+**Summary — Sector 18 (3rd pass, European)**: ~27 names processed; ~14 already-seen (killed/PARKed prior runs: M7U.DE run#37, LPK.DE run#37, JEN.DE run#37, S9I.DE run#37 NO_MOAT, SNG.DE run#37 INTEGRITY, LACR.PA run#65 SIZE, SENS.SW CAP+COVERAGE, KENDR.AS NO_MOAT, CHEMM.CO run#17 COVERAGE, BIOT.ST run#20 SECTOR_ADJ, OMG.L run#38 SECTOR, JDG.L PARK universe, LEHN.SW CAP_SOFT run#37, EIP.OL PARK run#67); 9 new triage kills (6 SIZE_KILL, 2 NOT_PUBLIC_KILL, 1 PARK early-commercial); 4 §3 survivors advancing to §3.5: BSL.DE, VGO.WSE, ALRIB.PA, MEMS.PA.
+
+**Summary — Sector 19 (4th pass, UK/Canada/ASX)**: ~16 names processed; ~9 already-seen (TSTL.L BENCH, EAH.L PARK, IHC.L PARK, GUD.TO SECTOR_ADJ_KILL, CMP.AX PARK, CUV.AX COVERAGE_KILL run#47, STX.L WATCH-C run#47, EKF.L CANDIDATE run#47, RX.V BENCH run#47); 3 new triage kills (AMS.L COVERAGE_KILL updated, ANCR.L PARK LOW_NM, DR.TO PARK MOAT_SOFT); 4 §3 survivors advancing to §3.5: CPH.TO, NEU.AX, PNV.AX, MVP.AX.
+
+---
+
+### Sector 18 — New Kills (3rd pass, European geo lens)
+
+#### Not-Public Kills
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| GHH.L | Gooch & Housego plc (AIM:GHH) | ~£240M (~$305M) | 2026-07-27 | **NOT_PUBLIC_KILL**: Arlington Capital Partners acquisition completed mid-2026; GHH.L delisted from AIM. Optical fiber, laser, and acousto-optic component moat (precision photonics components for defense/medical/industrial) confirmed by strategic buyout. No longer publicly investable. |
+| UBXN.SW | u-blox Holding AG (SIX:UBXN) | ~CHF 650-900M (~$710-985M) | 2026-07-27 | **NOT_PUBLIC_KILL**: Advent International acquisition pending (agreed transaction); shareholder vote scheduled; expected completion H2 2026. GNSS/positioning + cellular/Bluetooth module moat validated by strategic acquisition. Not investable pending completion. |
+
+#### Size Kills
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| AIXA.DE | Aixtron SE (XTRA:AIXA) | ~€1.8-2.2B (~$1.9-2.4B) | 2026-07-27 | **SIZE_KILL**: MOCVD deposition systems for compound semiconductors (SiC, GaN, III-V power devices); cap >>$1.5B ceiling; 8+ analysts. |
+| PFV.DE | Pfeiffer Vacuum Technology AG (XTRA:PFV) | ~€1.6-1.8B (~$1.7-2.0B) | 2026-07-27 | **SIZE_KILL**: High-vacuum pump systems and leak detection; cap >$1.5B ceiling; 5+ analysts. |
+| IFCN.SW | Inficon Holding AG (SIX:IFCN) | ~$4.3-4.6B | 2026-07-27 | **SIZE_KILL**: Gas analysis, vacuum control, and leak detection instruments for semiconductor and industrial manufacturing; cap >>$1.5B ceiling. Strong OEM-embedded moat (process gas sensors) but uninvestable at this cap. |
+| RSW.L | Renishaw plc (LSE:RSW) | ~£3.9-4.1B (~$5.0B) | 2026-07-27 | **SIZE_KILL**: CNC metrology systems, additive manufacturing, and position encoders; cap >>$1.5B ceiling. Exceptional moat (calibration standard + RENISHAW standard in machining) but uninvestable. |
+| TWEKA.AS | TKH Group NV (AMS:TWEKA) | ~€1.6-1.9B (~$1.7-2.1B) | 2026-07-27 | **SIZE_KILL**: Smart vision systems, connectivity cables, and industrial automation connectivity; cap >$1.5B ceiling. |
+| DRW3.DE | Draegerwerk AG & Co. KGaA (XTRA:DRW3) | ~€1.1-1.7B (~$1.2-1.9B) | 2026-07-27 | **SIZE_KILL + COVERAGE_KILL**: Safety and medical technology (gas detection, diving equipment, medical ventilators); cap at or above ceiling at current EUR; 6+ analysts. |
+
+#### Park / Early-Commercial
+
+| Ticker | Company | ~Cap | Date | Notes |
+|--------|---------|------|------|-------|
+| WPHO.L | Windar Photonics A/S (AIM:WPHO) | ~$33-37M | 2026-07-27 | **PARK (early commercial stage)**: Only commercial nacelle LiDAR for wind turbines — patented optical architecture validated with Siemens Gamesa and Vestas. Technology sole-source + OEM validation creates real switching moat. BUT: revenue-stage / early commercial only; no established earnings floor; tiny cap. Revisit when: 2 consecutive profitable FYs AND ≥2 major OEM committed design-wins. |
+
+### Sector 18 — §3 Survivors (3rd pass, European geo lens) → advancing to §3.5
+
+| Ticker | Company | ~Cap | Moat | Coverage | Status |
+|--------|---------|------|------|----------|--------|
+| BSL.DE | Basler AG (XTRA:BSL) | ~€450-510M (~$485-550M) | pylon SDK developer ecosystem lock-in + machine vision camera market leadership; industrial automation integration switching costs; SECTOR_FORWARD from run #39 | ~3 ✓ | **§3.5** |
+| VGO.WSE | VIGO Photonics SA (WSE:VGO) | ~PLN 570-620M (~$141M) | Only European manufacturer of mid-wave infrared (MWIR) photovoltaic detectors; government-classified proprietary production technology; ITAR-free EU-source alternative to US suppliers; 50+ yr IP | ~1-2 ✓ | **§3.5** |
+| ALRIB.PA | Riber SA (EPA:ALRIB) | ~€36-42M | Sole surviving Western EU commercial MBE (molecular beam epitaxy) equipment OEM; razor-blade consumables model (effusion cells, crucibles, replacement parts for III-V/II-VI semiconductor research); ~1-2 analysts | ~1-2 ✓ | **§3.5** |
+| MEMS.PA | MEMSCAP SA (EPA:MEMS) | ~€30-37M (~$33-41M) | FAA-certified MEMS pressure sensors as sole/primary supplier for specific commercial aircraft programs; aerospace qualification switching cycle = 3-5yr re-certification; ~0-1 analysts | ~0-1 ✓ | **§3.5** |
+
+---
+
+### Sector 19 — New Kills (4th pass, UK/Canada/ASX geo lens)
+
+#### Coverage Kill (Updated)
+
+| Ticker | Company | Analyst Count | Date | Reason |
+|--------|---------|--------------|------|--------|
+| AMS.L | Advanced Medical Solutions Group plc (AIM:AMS) | ~5-8 | 2026-07-27 | **COVERAGE_KILL (updated)**: Prior kill run #13 as CAP_SOFT_KILL (when ceiling was $300M — obsolete). Current cap ~£580-630M (~$750-800M) is within updated $1.5B ceiling, but 5-8 analyst coverage exceeds ≤4 threshold → COVERAGE_KILL. CE/FDA surgical adhesives (LiquiBand), biosurgical hemostats, sealants; surgeon training + hospital formulary moat; NM ~12-15%, GM ~55-65%; Q≈2-3 → not routed to bench (Q<4). |
+
+#### Parks
+
+| Ticker | Company | ~Cap | Date | Reason |
+|--------|---------|------|------|--------|
+| ANCR.L | Animalcare Group plc (AIM:ANCR) | ~£220-240M (~$285-305M) | 2026-07-27 | **PARK LOW_NM**: Licensed veterinary pharmaceutical portfolio across 7 EU countries; national veterinary regulatory approval per-country = real barrier to entry. FY2025 NM: £3.27M / £89.1M = 3.7% — below ≥10% quality threshold. Revisit if NM reaches ≥10% sustained ≥2 years. |
+| DR.TO | Medical Facilities Corporation (TSX:DR) | ~CAD 350-400M (~$255-290M USD) | 2026-07-27 | **PARK MOAT_SOFT**: Specialty surgical hospitals and ASCs in US with Certificate of Need / state surgical license barriers. CON moat = real but structurally weakening (Indiana eliminated CON 2022; national deregulation trend). Hospital operator NM structure typically 4-8%; below quality threshold. EBITDA positive, dividend-paying. Revisit if: CON moat stabilizes + NM ≥10% sustained. |
+
+### Sector 19 — §3 Survivors (4th pass, UK/Canada/ASX geo lens) → advancing to §3.5
+
+| Ticker | Company | ~Cap | Moat | Coverage | Status |
+|--------|---------|------|------|----------|--------|
+| CPH.TO | Cipher Pharmaceuticals Inc (TSX:CPH) | ~CAD 425-430M (~$310-315M USD) | Epuris = sole direct-marketed oral isotretinoin in Canada; Absorica royalty with Sun Pharma through 2040; pCPA LOI Jul 2026 = public reimbursement expansion catalyst; 34.7% NM ~ | ~2-3 ✓ | **§3.5** |
+| NEU.AX | Neuren Pharmaceuticals Ltd (ASX:NEU) | ~AUD 1.16-2.38B (~$754M-$1.55B) | Daybue = first/only FDA-approved Rett syndrome treatment; EU CHMP positive Jun 2026; royalty model (Acadia commercializes); 47% profit margin; AUD296M net cash ~ | ~3-5 ✓ | **§3.5** (cap verify: if >$1.55B → CAP_KILL; Q≥4 → bench route) |
+| PNV.AX | PolyNovo Limited (ASX:PNV) | ~AUD 460-470M (~$299-305M USD) | NovoSorb BTM = patented fully-synthetic biodegradable wound scaffold; sole FDA-cleared synthetic BTM; 88-90% GM; FY2026 revenue AUD150M (+16.1%) ~ | ~4-5 ✓ | **§3.5** (coverage verify: if >4 analysts → COVERAGE_KILL; Q≥4 → bench route) |
+| MVP.AX | Medical Developments International (ASX:MVP) | ~AUD 48M (~$31M USD) | Penthrox = first/only methoxyflurane emergency analgesic device; TGA+EMA approved; 30+ country regulatory moat; US FDA review ongoing; FCF turning positive ~ | ~2-3 ✓ | **§3.5** |
+
+---
+
+### §3.5 Financial Baseline Outcomes — Run #68 (Sector 18 + Sector 19)
+
+**Sector 18 §3.5 results (4 survivors → all fail or coverage-kill):**
+
+| Ticker | GM | NM | ROE | Analysts | Cap (USD) | §3.5 Verdict |
+|--------|----|----|-----|----------|-----------|--------------|
+| BSL.DE | ~47% ✓ | ~5.2% ✗ | ~8-10% ✗ | 3 ✓ | ~$550-600M ✓ | **PARK** — NM + ROE fail quality gates; FY2024 net loss -€14.2M red flag; trajectory improving (FY2025 NM 5.2% but positive); revisit if NM ≥10% sustained 2 consecutive years |
+| VGO.WSE | ~49-50% ✓ | -4.7% ✗ | ~-2% ✗ | 3-4 ✓ | ~$114M ✓ | **PARK** — loss-making (FY2024 net loss PLN -6.3M); NM and ROE both fail; military pivot (PCO S.A. PLN ~200M framework) creates real revenue growth catalyst but not yet profitable; revisit when 2 consecutive profitable FYs and NM ≥10% |
+| ALRIB.PA | ~38.7% ✗ | ~12.9% ✓ | ~20% ✓ | 7-9 ✗ | ~$220M ✓ | **BENCH** — COVERAGE_KILL (7-9 analysts); GM fails ≥45% gate (38.7%) but NM and ROE clear hurdles; sole Western EU commercial MBE OEM with razor-blade consumables; Q≥4 → bench route; buy-zone TBD at meaningful pullback |
+| MEMS.PA | ~41.4% ✗ | ~7.5% ✗ | ~4.8% ✗ | ~7 ✗ | ~$44-52M ✓ | **PARK** — COVERAGE_KILL + triple quality fail (GM ✗, NM ✗, ROE ✗); ⚠ data discrepancy: Eulerpool reports NI €3.93M vs filing €894K (irreconcilable); if €3.93M true then NM+ROE may pass — resolve from FY2025 audited annual report; aerospace MEMS pressure sensor moat real; revisit when data confirmed + quality clears |
+
+**Sector 19 §3.5 results (4 survivors → 3 bench/watch, 1 park):**
+
+| Ticker | GM | NM | ROE | Analysts | Cap (USD) | §3.5 Verdict |
+|--------|----|----|-----|----------|-----------|--------------|
+| CPH.TO | ~65.8% ✓ | ~54% ✓ | ~17-21%~ ✓ | 4 ✓ | ~$300M ✓ | **§4 PASS → 9/12 → Asymmetry Gate FAIL → WATCHLIST (APPROACHING)** |
+| NEU.AX | ~100% ✓ | ~39% ✓ | ~9% ✗ | 6 ✗ | ~$1.456B ⚠BORDER | **BENCH** — COVERAGE_KILL (6 analysts) + CAP_BORDERLINE (3% below $1.5B ceiling; any price recovery = CAP_KILL); ROE fail (~9%); monopoly Rett syndrome royalty; Q≥4 → bench route |
+| PNV.AX | ~89-90% ✓ | ~10.2% ✓ | ~16% ✓ | 9-10 ✗ | ~$555M ✓ | **BENCH** — COVERAGE_KILL (9-10 analysts); all quality hurdles pass; patented sole FDA-cleared synthetic BTM; Q≥4 → bench route; buy-zone on meaningful pullback |
+| MVP.AX | ~73.8% ✓ | ~0.2% ✗ | ~1.2% ✗ | 1 ✓ | ~$31M ✓ | **PARK** — GM passes but NM and ROE far below thresholds (NM 0.2% vs ≥10% gate; ROE 1.2% vs ≥15% gate); FY2025 barely profitable (AU$0.1M NI) after FY2024 AU$41M loss; Penthrox moat real (TGA+EMA approved, 30+ markets, paediatric EU+UK expanding); revisit when NM ≥10% sustained ≥2 years (FY2026 full results August 2026 will be key milestone) |
+
+**§4 Promise Score analysis — CPH.TO:**
+
+| Dimension | Score | Evidence |
+|-----------|-------|----------|
+| Q — Moat quality | 3/3 | Absorica royalty (Sun Pharma through 2040, near-zero cost); Epuris = #1 direct-marketed branded isotretinoin Canada; Natroba (spinosad) 83% GM US Rx head lice with proprietary formulation; tri-product regulatory/royalty portfolio |
+| F — Financial quality | 3/3 | FY2025: GM 65.8%~, NM 54%~, ROE ~17-21%~ (estimated; requires annual report verification); net cash ~C$6.4M (debt-free Q1 2026); Q1 2026 Adj. EBITDA C$7.7M (+25% YoY); no going-concern risk |
+| R — Valuation / return | 1/3 | Stock C$16.39 vs. analyst consensus C$17-20; analyst high C$22.35 = +36% upside; P/E ~15.5x trailing; not a meaningful discount; 2x requires M&A execution or 3-yr+ growth compounding |
+| C — Catalyst / asymmetry | 2/3 | Q1 2026 EPS beat +33% vs consensus; debt fully repaid; Natroba margin trajectory (Q4 2025 GM 81%); pCPA LOI Jul 2026 = public reimbursement expansion catalyst for Epuris; but no hard-dated 2x catalyst |
+| **Total** | **9/12** | |
+
+**Asymmetry Gate:**
+1. Mispriced NOW: BORDERLINE FAIL — stock within 3-22% of analyst consensus; not a material discount
+2. Bull ≥2x: **FAIL** — analyst high C$22.35 = +36%; 2x to C$32.78 requires M&A execution + earnings compounding over 3+ years; not credible near-term
+3. Upside skewed: BORDERLINE — stock near midpoint of analyst range; payoff skew moderate
+4. Discrete trigger OR CORE quality: PASS — CORE quality (Q3+F3); pCPA LOI is a near-term catalyst
+
+**Asymmetry Gate verdict: FAIL** (binding constraint: bull case 2x not visible from C$16.39)
+
+**CPH.TO routing: WATCHLIST (APPROACHING BUY-ZONE ≤C$11-13/sh)** — buy-zone where P/E ~10-12x trailing creates a credible 2x to C$22-26 (analyst fair value range) as Natroba earnings grow. Monitor pCPA reimbursement outcome and any M&A for early-entry signals.
+
+**Run #68 net result — 0 QUEUED to §5, 3 BENCH, 1 WATCHLIST, 4 PARK:**
+- Bench additions: ALRIB.PA (COVERAGE_KILL + NM/ROE quality), NEU.AX (COVERAGE_KILL + CAP_BORDER + monopoly moat), PNV.AX (COVERAGE_KILL + full quality pass)
+- Watchlist entry: CPH.TO (§4 9/12; APPROACHING ≤C$11-13)
+- Park additions: BSL.DE, VGO.WSE, MEMS.PA (Sector 18); MVP.AX (Sector 19)
+- No §5 deep-dive this run
