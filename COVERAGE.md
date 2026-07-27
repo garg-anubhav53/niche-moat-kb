@@ -1211,3 +1211,103 @@ Nordic electrical/power components follows the identical structural pattern to U
 - V6C.DE §5 complete: PARK Grade D (memo memos/V6C.DE-2026-07-27.md)
 
 **Sector status update (run #70):** Sector 14 3rd pass European/UK AIM complete. Coverage density in this geo lens is high — the next Sector 14 pass (if any) should target UK AIM specialty retail licensors (niche IP-backed format franchises) or Scandinavian branded niche micro-caps (Nasdaq First North, sub-€100M cap, pre-analyst-coverage window).
+
+---
+
+## Run #71 Coverage Update (2026-07-27)
+
+### CBOX.L §4 Resolution → BENCH
+
+CBOX.L §3.5 baseline was pending from run #70. Run #71 completed §4 scoring:
+- GM 52.5% ✓ · NM 10% ✓ · Net debt ~£18M ⚠ (Ambala acquisition; conservative figure — may be £9-18M range depending on components) · 1 analyst ✓
+- Promise score: 7.5/12 (QUEUED range)
+- **Asymmetry Gate FAIL:** (1) bull barely 2x at £89M cap; (2) net debt £18M removes hard cash floor; (3) payoff symmetric not skewed; (4) no discrete near-term trigger + not CORE-grade quality
+- **Result: BENCH.** Buy-zone ~120-145p / ~£55-65M cap where EV/NI ≈8-10x and debt burden shrinks relative to equity. Promote to QUEUED_HOT when: (a) price ≤145p AND (b) net debt ≤£10M or net cash trajectory confirmed.
+
+### ALPM.PA §5 Complete → GRADE C / CANDIDATE
+
+ALPM.PA §5 Opus adversarial red-team confirmed complete (from run #68b; finalized run #71):
+- Grade: C · Tier: CANDIDATE · Q3/F4/R2/C2 · Post-red-team conviction: 10.5/12
+- EV/EBIT: 5.37x vs 10-25x comps · Net cash ~€44M vs €135.7M market cap (32% floor)
+- PRIMARY RISK (FM-05): Single analyst (Portzamparc); extreme illiquidity ~€50-150k/day
+- Position sizing: 1.5-2.5% portfolio max; 3:1 asymmetry (2-2.5x bull vs ~0.86x bear floor)
+- Monitor: FY2026 H1 Sep 2026 + second analyst initiation
+- All data ~-trust (C≤2; French filings not accessed)
+- Memo: memos/ALPM.PA-2026-07-27.md
+
+### Bench Corrections
+
+**ETON price error corrected:** Prior STATE.md + WATCHLIST.md showed ETON at ~$29.44 ⚠APPROACHING buy-zone ($22-26) with "declining" note. Confirmed via run #71 background agent research: ETON is actually ~$38-42 (SURGED; at/near 52-wk high). The $29.44 price was stale or erroneous; the "declining/approaching" flag was wrong. Removed from approaching status.
+
+### §2B Sweep — Sector 14 4th Pass + Sector 17 4th Pass
+
+All §2A tools remain proxy-blocked (SEC EDGAR frames, fts.py, screen_eu.py all 403 Forbidden). §2B web-search sweep conducted via background sub-agent for:
+- **Sector 14 4th pass:** UK AIM specialty retail licensors / Scandinavian branded niche
+- **Sector 17 4th pass:** US semiconductor / electronics supply chain micro-cap ($20-300M cap)
+
+See STATE.md run #71 queue update for §2B results summary.
+
+### Coverage Denominator Update (run #71)
+
+- Universe: 225 (unchanged — CBOX.L already counted in run #70 as name #225; status updated QUEUED→BENCH)
+- Quality Bench (WATCHLIST.md): 30 names (CBOX.L added)
+- WATCH: 3 (FAA.VI A, REC.L B, STX.L C)
+- CORE: 1 (EUZ.DE B)
+- CANDIDATE confirmed: ALPM.PA C (§5 COMPLETE; Q3/F4/R2/C2)
+- Queued §5: 2 (6858.T BLOCKED Oct/Nov, ADMCM.HE deferred) + OMDA.OL BENCH §5 blocked
+- ETON price correction: actual ~$38-42 (far above $22-26 buy-zone; approaching flag removed)
+
+**Sector status updates (run #71):**
+- Sector 14: 3rd pass CBOX.L resolved → BENCH (1 consecutive 0-QUEUED_HOT pass complete; 4th pass UK AIM §2B sweep result determines if 2nd consecutive → EXHAUSTED)
+- Sector 17: 4th pass US/global semi supply chain §2B sweep conducted (see STATE.md for results; ACTIVE-SPARSE status continues)
+- Sector 18: ALPM.PA §5 COMPLETE → CANDIDATE C (run #71 confirmation)
+
+### §2B Sector 14 4th Pass Kill Tables (run #71, 2026-07-27)
+
+**Sector 14 4th pass geo lens:** UK AIM specialty retail licensors + Scandinavian branded niche micro-caps. All §2A tools proxy-blocked; §2B web-search only; all prices/financials tagged ~.
+
+**Result: 0 new consumer brand franchise licensors → 2nd consecutive 0-new-QUEUED_HOT pass → Sector 14 EXHAUSTED.**
+
+**Named kills:**
+
+| Ticker | Company | Kill Type | Key Reason |
+|--------|---------|-----------|------------|
+| W7L.L | Warpaint London plc (AIM London) | NO_MOAT_KILL | GM 40.46% ~ — fails ≥45% gate; value mass-market cosmetics (W7 brand); competitive vs. Makeup Revolution, ELF, Superdrug own-label; no supply-chain lock-in |
+| FOI-B.ST | Footway Group AB (Nasdaq First North Stockholm) | COVERAGE_KILL | 5-8 analysts ~ — above ≤4 gate; online footwear marketplace lacks franchise moat thesis |
+
+**Survivors entering triage:**
+
+| Ticker | Company | Status | Routing |
+|--------|---------|--------|---------|
+| FRAN.L | Franchise Brands plc (AIM London) | QUEUED_CONDITIONAL | GM 58.67% ~ ✓; cap ~£250M borderline extended zone; 3-5 analysts ~ AMBIGUOUS → confirm ≤4 from primary AIM annual report; if ≤4 → QUEUED §4 (7-8/12 estimated); if 5+ → COVERAGE_KILL |
+| ANP.L | Anpario plc (AIM London) | QUEUED ~7/12 (Sector 7) | GM 51.4% ~ ✓; 4 analysts ✓ (at gate); net cash £12.4M ~ ✓; profitable; cap ~£84M ✓; B2B agri-nutrition → belongs Sector 7, not Sector 14 |
+
+**Structural note — Sector 14 EXHAUSTED after 4 passes:** Consumer brand franchise licensors at ≤4 analysts + £20-300M cap + ≥45% GM in UK AIM / Scandinavian exchanges is a structurally thin universe. The branded consumer companies that exist at this cap are nearly universally ≥5 analysts (consumer/retail generalist coverage broad). The paradigm exception (CBOX.L) was already found in pass 3. Remaining AIM branded consumer names at £20-300M are either: (a) covered >4 analysts, (b) below 45% GM gate (mass-market retail), or (c) non-UK domiciled with regulatory/corporate governance concerns. **Revive Sector 14 only with a Japan/Korea ethnic-community franchise niche lens or Australian branded franchisors (ASX primary franchise licensors at A$20-300M cap).**
+
+---
+
+### §2B Sector 17 4th Pass Kill Table (run #71, 2026-07-27)
+
+**Sector 17 4th pass geo lens:** US semiconductor/electronics supply chain micro-cap ($20-300M cap). All §2A tools proxy-blocked; §2B web-search only; all data tagged ~.
+
+**Result: 0 new QUEUED → 4th consecutive 0-new pass → Sector 17 EXHAUSTED.**
+
+**Kill summary:**
+
+| Ticker | Company | Cap ~ | Kill Type | Key Reason |
+|--------|---------|-------|-----------|------------|
+| DAIO | Data I/O Corporation | ~$35M ~ | NOT_YET_PROFITABLE_KILL | GM ~50% ✓; cap in-zone; BUT net loss FY2026 + revenue -47% YoY automotive/IoT capex freeze; genuine SWITCHING_COST moat (programmer adapters/yield qualification) but quality=0 at trough |
+| (32+ others from prior pass 3 triage) | US semi supply chain names | >$300M or <$20M | SIZE_KILL / PRICE_KILL | AI supercycle 2025-2026 inflated virtually all US-listed semiconductor supply chain names above $300M cap; those remaining in zone fail GM gate (<45%) or are loss-making development stage |
+
+**Structural note — Sector 17 EXHAUSTED after 4 passes:** The AI semiconductor supercycle 2025-2026 has inflated all US-listed semiconductor supply chain companies with ≥45% GM above $300M cap or $1.5B+ range. The only cap-qualifying survivor (DAIO ~$35M) is NOT_YET_PROFITABLE (trough losses). The pattern is structurally self-reinforcing: (a) AI-driven companies re-rate past ceiling instantly; (b) commodity/services semiconductor companies with thin GM (<45%) stay below ceiling; (c) niche micro-cap semiconductor tool companies either get acquired (VECO→ACLS) or suffer cyclical losses (DAIO). **Revive Sector 17 only with Japan secondary semiconductor OEM lens (EDINET access restored for non-EN yuho) or Korean KOSDAQ semiconductor sub-niche not yet reviewed (e.g. specialty semiconductor chemicals sub-segment below KC Tech cap).**
+
+---
+
+### Coverage Statistics Update (run #71, final)
+
+- Universe: 229 (+4 this run: FRAN.L QUEUED_CONDITIONAL, ANP.L QUEUED, W7L.L NO_MOAT_KILL, DAIO NOT_YET_PROFITABLE_KILL)
+- Quality Bench (WATCHLIST.md): 30 names (CBOX.L added this run)
+- CANDIDATE confirmed: ALPM.PA C (§5 COMPLETE; Q3/F4/R2/C2; memo memos/ALPM.PA-2026-07-27.md)
+- Sector 14: EXHAUSTED (4 passes, 2 consecutive 0-new-QUEUED_HOT)
+- Sector 17: EXHAUSTED (4 passes, 4 consecutive 0-new)
+- Sector 18: ALPM.PA §5 COMPLETE → CANDIDATE C confirmed

@@ -3121,3 +3121,28 @@ The following names were killed during enumeration before detailed triage (cover
 - New QUEUED: CBOX.L (Cake Box Holdings PLC, AIM; 7.5/12; §3.5 complete; buy-zone ~£1.40-1.60/sh)
 - Sector 14 status: 3rd pass European/UK AIM lens complete; 1 consecutive pass with 1 survivor; next pass if any: UK AIM specialty retail licensors or Scandinavian branded niche micro-caps
 - KB fixes this run: LEHN.SW FY2025/26 actuals + strategic review (score 8.5→8.0); TSTL.L OPH 510(k) cleared May 2025 (catalyst updated); ALPM.PA memo path corrected financials→memos; V6C.DE §5 PARK D memo memos/V6C.DE-2026-07-27.md
+
+---
+
+## Run #71 — 2026-07-27 · Sector 14 4th Pass + Sector 17 4th Pass (§2B web-search sweep)
+
+**Summary:** §2B web-search (all §2A tools proxy-blocked). Sector 14 4th pass: UK AIM specialty retail licensors + Scandinavian branded niche. Sector 17 4th pass: US semiconductor/electronics supply chain micro-cap. New kills: W7L.L (NO_MOAT_KILL), DAIO (NOT_YET_PROFITABLE_KILL). Sector 14 → EXHAUSTED (2nd consecutive 0-new-QUEUED_HOT pass). Sector 17 → EXHAUSTED (4th consecutive 0-new pass).
+
+### Sector 14 4th Pass — No-Moat Kill
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|-------------|
+| W7L.L | Warpaint London plc (AIM London) | ~£130-160M ~ | 2026-07-27 | **NO_MOAT_KILL** — Colour cosmetics brand owner (W7 brand; value mass-market cosmetics for UK grocery/independents + export markets ~70 countries; own-brand + private-label OEM). GM 40.46% ~ (from annual report snippets) — FAILS ≥45% GM gate. The W7 brand is a legitimate value cosmetics brand, but at 40% blended GM the economics signal commodity competition (Superdrug own-label, Makeup Revolution, ELF, multiple mass-market alternatives at similar price points). 4-6 AIM analysts. No regulatory or supply-chain lock-in moat. Kill trigger: GM gate. |
+
+### Sector 17 4th Pass — Not Yet Profitable Kill
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|-------------|
+| DAIO | Data I/O Corporation (Nasdaq: DAIO) | ~$35M ~ | 2026-07-27 | **NOT_YET_PROFITABLE_KILL** — Semiconductor device programming equipment and software (programming centres for microcontrollers, flash, FPGA in automotive/IoT/industrial; ROBO-PRO automation; SentriX security provisioning). Cap ~$35M (in-zone). GM ~50% (passes gate). BUT net loss in FY2026 (consensus net loss; continuing operating losses); revenue -47% YoY (severe demand destruction from automotive/IoT capex freeze). No stable earnings floor. Genuine SWITCHING_COST moat (programming yield qualification at assembly lines; chip-type-specific programming adapters = spec-in stickiness) but quality=0 at trough (losses). Anti-value-trap rule: quality=0 at current losses → NOT_YET_PROFITABLE_KILL. Revisit if: (a) 2 consecutive quarters net income positive + revenue recovery confirmed + cap ≤$150M. |
+
+**Run #71 §2B net result — 0 QUEUED_HOT, 0 BENCH, 2 kills:**
+- W7L.L → NO_MOAT_KILL (GM 40.46% < 45% gate)
+- DAIO → NOT_YET_PROFITABLE_KILL (net loss FY2026; revenue -47% YoY)
+- Sector 14: 4th pass → 0 new consumer brand franchise licensors → 2nd consecutive 0-new → **EXHAUSTED**
+- Sector 17: 4th pass → 0 new semi/electronics supply chain → 4th consecutive 0-new → **EXHAUSTED**
+- Survivors from §2B sweep sent to triage: FRAN.L → QUEUED_CONDITIONAL (coverage ambiguous 3-5; if ≤4 from primary AIM filing → QUEUED §4; if 5+ → COVERAGE_KILL); ANP.L → QUEUED ~7/12 (belongs Sector 7 B2B agri-nutrition, not Sector 14)
