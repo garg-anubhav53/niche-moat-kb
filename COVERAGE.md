@@ -1115,7 +1115,7 @@ Nordic electrical/power components follows the identical structural pattern to U
 | ALPM.PA | Precia Molen SA | 11/12 | §5 DEEP-DIVE | EV/EBIT 5.37x, record 10.1% EBIT margin, net cash €44M ✓ |
 | V6C.DE | Viscom SE | 9/12 | QUEUED | Trough FY2025 confirmed ✓; FY2026 first positive EBIT guidance |
 | LEHN.SW | LEM Holding SA | 8.5/12 | QUEUED | FY2025/26 results due Jul 28 2026; net debt CHF 90.1M |
-| M7U.DE | Nynomic AG | 8.5/12 | QUEUED | 71% GM; EBIT +€2.0M FY2025 ✓; cap ~€132.7M corrected |
+| M7U.DE | Nynomic AG | 8.5/12 → Grade C / WATCH (run #73) | §5 COMPLETE — WATCH Grade C (Q2/F3/R2/C2 = 9/20) | Actual price ~€16/sh (~€105M cap); 71% "GM" = Rohertrag artifact; buy-zone <€12; memo: memos/M7U.DE-2026-07-27.md |
 | NDAP.AS | Nedap NV | PRICE_KILL | BENCH | €645M cap; 20.2x EV/EBIT; bench at €300-350M cap |
 | ALRIB.PA | Riber SA | PRICE_KILL | BENCH | €249M cap post H1 2026 spike; 47.8x P/E; GM 38.7% ✓; bench at €74-138M |
 
@@ -1130,7 +1130,7 @@ Nordic electrical/power components follows the identical structural pattern to U
 
 **§5 outcomes:**
 - ALPM.PA §5 DEEP-DIVE complete (run #68b): §5 red-team 10.5/12; MOAT CONFIRMED (OIML regulatory recertification + SCADA integration); 3:1 asymmetry confirmed; partial position sizing 1.5-2.5%; memo: financials/ALPM.PA-2026-07-27.md
-- All other §3.5 names deferred to future §5 runs (V6C.DE, LEHN.SW, M7U.DE all QUEUED)
+- V6C.DE §5 complete run #72 → PARK Grade D; M7U.DE §5 complete run #73 → WATCH Grade C (memo: memos/M7U.DE-2026-07-27.md); LEHN.SW QUEUED (strategic review catalyst pending)
 
 **Sector 18 status: 3 passes complete.** Pass 1 (Japan, run #22 deferred queue) + Pass 2 (US+Taiwan, run #46) + Pass 3 (European, runs #68a+#68b). Next pass: Japan secondary OTC precision instruments (non-EN yuho; EDINET if proxy cleared) — e.g. Ono Sokki 6858.T already in deferred queue.
 
@@ -1359,3 +1359,73 @@ See STATE.md run #71 queue update for §2B results summary.
 - Sector 18: 4th pass US geo lens complete; 0 new QUEUED_HOT; 1 CANDIDATE MASS; structural finding: profitable US precision instruments $20-300M cap category nearly extinct due to M&A wave
 - §7 REFLECT complete (mandatory run #72 = 72%3=0): bench re-priced 33 names; 6823.T IN BUY-ZONE (⚑non-EN); OMDA.OL OUT; XRF.AX missed dip trigger; PHO.OL Q2 imminent
 - Deferred queue resolved: FRAN.L → PARK (NM 6.3%; franchise aggregator); ANP.L → CANDIDATE 8/12
+
+---
+
+### §5 M7U.DE Run #73 Outcome (2026-07-27)
+
+**Nynomic AG (M7U.DE) §5 OPUS adversarial red-team complete.**
+
+Result: **Grade C / WATCH (Q2/F3/R2/C2 = 9/20)**
+
+Key findings:
+- §4 price was 21% stale (€20.20 vs actual ~€16/sh); corrected cap ~€105M
+- "71% gross margin" = German Rohertrag accounting artifact (excludes production labor); true operating GM plausibly 40-50%
+- Three-year revenue decline: €118M → €92.6M (-21.5%)
+- Thesis triple-counted one cyclical variable (FY2026 revenue recovery) as three separate items
+- LayTec moat real but narrower than §4 implied: foundational patents expired ~2002-2005, direct competitor (Advanced Energy UV400), Aixtron in-sourcing non-hypothetical, Chinese entrant unverified
+- EBIT-to-NI gap unresolved (~€8M annualized): requires primary FY2025 Geschäftsbericht access (goodwill impairment or minority drag unexplained)
+- Structural valuation discount: Scale segment, low free float, German holding-company structure — persistent cheapness confirmed by comparable set (Cenit, Softing, historical Nynomic)
+- Buy zone: <€12/sh (~€79M cap); only after H1 FY2026 confirms recovery
+- Upgrade trigger: H1 FY2026 ≥€45M rev + ≥€2.0M EBIT + guidance reaffirmed + primary filing access → C→4 re-score
+
+Memo: memos/M7U.DE-2026-07-27.md
+
+---
+
+### §2B Sector 0 6th Pass — US Specialty Chem/Materials (run #73, 2026-07-27)
+
+**Geo lens:** US Nasdaq/NYSE specialty chemicals & materials ($20-300M cap; profitable; ≥45% GM). All §2A tools proxy-blocked; §2B web-search; web-search budget 200/200 EXHAUSTED mid-run — triage performed with available data.
+
+**Result: 0 new QUEUED; 0 new CANDIDATES; 17 kills (13 new + 4 already-seen); 2 deferred (status unverifiable with exhausted web budget).**
+
+**21 names harvested, triage results:**
+
+| Ticker | Company | Kill Type | Reason |
+|--------|---------|-----------|--------|
+| SRDX | Surmodics Inc | CAP_SOFT_KILL | ~$300M cap at/above $300M limit; borderline |
+| LFCR | Lifecore Biomedical | ALREADY_SEEN_KILL | Seen in Sector 0 2nd pass (run #16 SECTOR_KILL) |
+| FTK | Flotek Industries | CAP_SOFT_KILL + SECTOR_ADJACENT_KILL | ~$800M cap; oilfield fracking chemistry = oil services adjacent |
+| CCF | Chase Corporation | CAP_SOFT_KILL | ~$1.1B cap; specialty functional polymers |
+| ODC | Oil-Dri Corporation | LOW_GM_KILL | Sorbent minerals (cat litter, industrial absorbents) = expected GM <45% |
+| AVD | American Vanguard | ALREADY_SEEN SECTOR_ADJACENT_KILL | Already in universe |
+| FF | FutureFuel Corp | ALREADY_SEEN PARK | Already in universe as FF PARK |
+| ANIK | Anika Therapeutics | ALREADY_SEEN CANDIDATE | Already in universe as ANIK CANDIDATE |
+| UFPT | UFP Technologies | CAP_SOFT_KILL + SECTOR_ADJACENT | ~$800M cap; defense packaging exposure |
+| PLAB | Photronics | ALREADY_SEEN CAP_SOFT_KILL | Already in universe; ~$1.4B cap |
+| ROG | Rogers Corporation | CAP_SOFT_KILL | ~$1.2B cap |
+| ECVT | Ecovyst Inc | CAP_SOFT_KILL + SECTOR_ADJACENT | ~$700M cap; petroleum refining catalyst |
+| NGVT | Ingevity Corporation | SIZE_KILL | ~$800M cap; $1.6B revenue |
+| IOSP | Innospec Inc | SIZE_KILL | ~$2.4B cap |
+| HWKN | Hawkins Inc | SIZE_KILL | ~$1.9B cap (also seen as NO_MOAT prior pass) |
+| BCPC | Balchem Corp | SIZE_KILL | ~$3.5B cap |
+| MTX | Minerals Technologies | SIZE_KILL | ~$1.5B cap (in KILL-LIST.md) |
+| SXT | Sensient Technologies | SIZE_KILL | ~$1.4B cap (seen prior pass) |
+| KWR | Quaker Houghton | SIZE_KILL | ~$3.0B cap (in KILL-LIST.md) |
+
+**Deferred (web budget exhausted — cannot verify):**
+- **NANX** (Nanophase Technologies OTC) — ~$45M cap / ~$50M rev; PlasmArc nanoparticle synthesis for sunscreen actives; GM unknown; status as OTC vs exchange-listed unverified; defer to next pass when web budget available
+- **AGFS** (AgroFresh Solutions) — ~$200M cap / ~$105M rev; EPA-registered 1-MCP ethylene inhibitor for produce freshness; de facto sole commercial supplier; POTENTIAL TAKE-PRIVATE by Paine Schwartz (2023-24) — public status unverified; NOT_PUBLIC_KILL if confirmed private
+
+**Structural finding (Sector 0 6th pass US lens):** US specialty chemicals at $20-300M cap with ≥45% GM and profitability is nearly exhausted. Most quality names either (a) SIZE_KILL / CAP_SOFT_KILL on AI/ag/pharma re-rating above $300M, (b) already absorbed into Entegris/Ashland/Olin/Innospec/Stepan at premium, or (c) already seen in prior passes. The structural M&A wave that absorbed specialty chemicals micro-caps parallels the precision instruments pattern. **Revive Sector 0 only with European (Euronext/XETRA) specialty materials geo lens: German Specialty Chemicals sub-segment (e.g. Evonik spin-offs, Lanxess mid-size); Dutch/Belgian fine chemistry cluster; or Scandinavian bio-based specialty materials.**
+
+---
+
+### Coverage Statistics Update (run #73, final)
+
+- Universe: 251 (unchanged; no new names passed triage to add to universe count)
+- M7U.DE: QUEUED → WATCH Grade C (§5 complete)
+- Quality Bench (WATCHLIST.md): 33 names (6823.T price corrected ¥2,316→¥3,585 ABOVE ZONE)
+- WATCH count: 4 (FAA.VI Grade A; REC.L Grade B; STX.L Grade C; M7U.DE Grade C new)
+- Sector 0: 6th pass US lens complete; 0 new QUEUED; structural: US spec chem at $20-300M nearly exhausted; THIN → next pass European geo lens
+

@@ -3195,3 +3195,27 @@ The following names were killed during enumeration before detailed triage (cover
 | FEIM | Frequency Electronics | 18 — defense timing/frequency | PARK | Defense frequency standards/oscillators (GPS-disciplined, military-spec); 29% GM fails gate; gov-contract revenue lumpiness; ~$747M cap also above ceiling |
 
 **Run #72 Sector 18 US kill tally: 5 CAP_KILL + 2 CAP_SOFT_KILL + 3 NOT_YET_PROFITABLE_KILL + 3 LOW_GM_KILL + 1 PARK(AZTA) + 2 PARK = 16 killed/parked; 1 CANDIDATE (MASS 7/12)**
+
+---
+
+## Run #73 Sector 0 US Specialty Chemicals 6th Pass (2026-07-27)
+
+**New kills from Sector 0 6th pass (US geo lens):**
+
+| Ticker | Company | Sector | Status | Kill Reason |
+|--------|---------|--------|--------|-------------|
+| SRDX | Surmodics Inc | 0 — specialty surface coatings for medical devices | CAP_SOFT_KILL | ~$300M cap at/above $300M limit; hydrophilic/drug-eluting coatings spec'd into FDA OEM devices = real moat, but cap borderline; revisit if corrects below $200M |
+| FTK | Flotek Industries | 0 — oilfield fracking chemistry | CAP_SOFT_KILL + SECTOR_ADJACENT_KILL | ~$800M cap; proprietary complex nano-fluid (CnF) for oil well completions; oilfield chemistry = adjacent to commoditized oil services; dual kill |
+| CCF | Chase Corporation | 0 — specialty functional polymers | CAP_SOFT_KILL | ~$1.1B cap; moisture-blocking barrier films and cable specialty materials; genuine process moat in cable construction standards; but cap 3.7x limit |
+| ODC | Oil-Dri Corporation of America | 0 — sorbent minerals | LOW_GM_KILL | ~$280M cap / ~$390M rev; calcium montmorillonite specialty minerals (cat litter, industrial absorbents, pesticide carriers); moat = proprietary mine deposits; but minerals/mining = expected GM <45%; no GM verification available |
+| UFPT | UFP Technologies | 0 — specialty composites | CAP_SOFT_KILL + SECTOR_ADJACENT | ~$800M cap / ~$400M rev; custom foam/composite medical device packaging; defense packaging exposure flag (defense = primary customer risk); dual kill |
+| ROG | Rogers Corporation | 0 — PTFE/LCP specialty polymers | CAP_SOFT_KILL | ~$1.2B cap; PTFE/LCP laminates for 5G antennas + EV battery foams; genuine design-in moat; but cap 4x limit |
+| ECVT | Ecovyst Inc | 0 — silica + refinery catalysts | CAP_SOFT_KILL + SECTOR_ADJACENT | ~$700M cap; specialty silicas + sulfuric acid regeneration for petroleum refining; oil refinery = SECTOR_ADJACENT |
+| NGVT | Ingevity Corporation | 0 — activated carbon + pine chemicals | SIZE_KILL | ~$800M cap / ~$1.6B rev; sole/near-sole EVAP canister activated carbon (EPA/CARB mandated spec-in = real moat) but revenue 4x ceiling and cap 2.7x limit |
+| IOSP | Innospec Inc | 0 — fuel specialty additives | SIZE_KILL | ~$2.4B cap / ~$1.9B rev; EPA-registered fuel additive packages; cap 8x limit |
+| BCPC | Balchem Corp | 0 — microencapsulated specialty ingredients | SIZE_KILL | ~$3.5B cap / ~$950M rev; microencapsulation for human nutrition + animal feed; cap 11.7x limit |
+| NANX | Nanophase Technologies | 0 — nanocrystalline ZnO/TiO2 | DATA_INSUFFICIENT | ~$45M cap / ~$50M rev; OTC stock; PlasmArc nanoparticle synthesis for sunscreen mineral actives; GM unverified (web budget exhausted); public status/exchange uncertain; DEFER to next pass |
+| AGFS | AgroFresh Solutions | 0 — post-harvest specialty chemistry | STATUS_UNVERIFIED | ~$200M cap / ~$105M rev; EPA-registered 1-MCP ethylene inhibitor; de facto sole commercial supplier for produce shelf-life extension = genuine REGULATORY moat; BUT potential take-private by Paine Schwartz (2023-24) — public status unverifiable with exhausted web budget; if confirmed private = NOT_PUBLIC_KILL; if still public = §3.5 candidate; DEFER to next pass |
+
+**Run #73 Sector 0 kill tally:** 9 new SIZE/CAP kills + 2 SECTOR_ADJACENT kills + 1 LOW_GM kill + 2 deferred + 4 already-seen = 21 names triaged; 0 new QUEUED
+
