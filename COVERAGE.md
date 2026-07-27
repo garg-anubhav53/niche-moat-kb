@@ -480,3 +480,59 @@ Searching for IDOX analogs in the UK AIM vertical SaaS space surfaced the follow
 **Sector 7 status:** ACTIVE (not EXHAUSTED — only 1 consecutive 0-new pass; need 2 to declare EXHAUSTED). Structural assessment: the niche specialty ingredient / ag biologicals space has very few public companies in the $20-300M cap zone that are (a) profitable, (b) have a genuine moat beyond brand/scale, and (c) are below coverage radar. The sector may be structurally thin at any geo lens given: most quality ingredient companies are private (Amano Enzyme, Lallemand, Lesaffre, Kerry private divisions, Chr. Hansen private after Novozymes merger) or large-cap. **Do not declare EXHAUSTED after 2 consecutive 0-new passes if a fundamentally new geo lens has not been tried** — consider LATAM ag biologicals (Brazil: EMBRAPA licensees; Chile: specialty viticulture inputs) or Australian/NZ specialty food ingredients as a future 3rd pass geo lens if warranted.
 
 
+
+---
+
+## Sector 6 (Vertical/Mission-Critical Software) — Pass 3 Coverage Notes (run #58, 2026-07-27)
+
+**Nordic/DACH geo lens:** Nasdaq Stockholm, Oslo Bors, XTRA Frankfurt, Euronext, Helsinki First North. ~28 names processed; **1 new QUEUED_HOT (NTECH.ST 10/12)**; ~27 killed; 1 consecutive new-find pass (breaks structural thin streak).
+
+**All data tools proxy-blocked:** SEC EDGAR, Yahoo Finance, EDINET — entire run in §2B web-search mode; all prices/financials tagged ~.
+
+---
+
+### Key Find: NTECH.ST (Nordtech Group AB) — 10/12 QUEUED_HOT
+
+**Why this was missed in prior Nordic sweeps:** Nordtech Group AB IPO'd on Nasdaq Stockholm on June 10, 2026 — only 47 days before this run. It was not yet public during the Sector 6 2nd pass (run #55 2026-07-26) and was dismissed as "Nordtech roll-up" in the §3 Nordic quick-triage of run #56. Run #58's dedicated Nordic/DACH Sector 6 pass did the IPO prospectus research that revealed the actual financials.
+
+**What NTECH.ST is:** Nordic VMS serial acquirer — Constellation Software / Topicus analog, but on Nasdaq Stockholm at 47 days old. 23 acquisitions since founding ~2021. Verticals: dental clinic management (Opus Dental — dominant Scandinavia), healthcare HR/scheduling (Medhelp Care), public sector GIS/data (Adtollo), document management (Docunova).
+
+**Key metrics (from IPO prospectus + Q2 2026 interim):**
+- Revenue LTM March 2026: SEK 639M ✓
+- H1 2026 revenue: SEK 383.9M (+50% YoY — acquisition-driven) ✓
+- Adj. EBITA margin: 29% ✓
+- Organic growth: 8–9% ✓
+- Recurring revenue: 87% ✓
+- Cash conversion: 104% ✓
+- Net debt / Adj. EBITA: 0.4x ✓
+- ROIC + organic: 22% ✓
+- EV/EBITA: ~16.7x vs. VMS peers 25–30x
+
+**Promise score: 10/12 (QUEUED_HOT).** Two analysts only (DNB Carnegie + Nordea). Fresh IPO = extreme coverage void. §5 OPUS adversarial red-team MANDATORY before grade confirmation. Key unknowns: gross margin (UNAVAILABLE), acquisition multiples paid per deal (UNAVAILABLE), unadjusted EBITA (what's in the "adj."?), and whether IPO price was above current price (post-IPO price discovery = warning signal). Financials baseline: financials/NTECH.ST.md.
+
+---
+
+### Structural Finding — Nordic/DACH Sector 6
+
+**Why the space is thin at $20-300M cap:**
+
+1. **Best names are private:** Visma (Norway), Unit4 (Netherlands), IFS (Sweden), Aareon (Germany), Cegid (France), Exact (Netherlands) — all confirmed NOT_PUBLIC_KILL. The private equity consolidation wave 2015–2023 absorbed most quality Scandinavian and German B2B SaaS names.
+
+2. **Quality public names are over-capped:** Vitec Software (VITEC-B.ST, Sweden, ~SEK 30B = CAP_KILL), Tietoevry (TEM.HE, Finland, ~€4.5B SIZE_KILL), ATOSS Software (CAP_SOFT at ~€600M), WiseSolutions private. The Scandinavian VMS quality names that remain public are large-cap.
+
+3. **The "thin Nordic SaaS" zone remains:** At $20-300M on Nordic exchanges, the space is populated by:
+   - Recently-IPO'd rollups that need track record verification (NTECH.ST = exception; managed to clear despite newness)
+   - Healthcare workflow companies with declining revenue or IFRS complexity
+   - Services-heavy B2B software with 20-40% GM (not pure SaaS economics)
+   - Pre-profitable development stage companies
+
+**Notable kills:**
+- IVU.DE: German transit VMS with real moat (81% GM) — but 6 analysts COVERAGE_KILL
+- MLG.DE: Life insurance SaaS — NO_MOAT_KILL (20.5% GM)
+- FAB.VI: Fabasoft AG = SEEN_KILL (= FAA.VI already WATCH-A)
+- ZAL.OL: Zalaris HR SaaS — NO_MOAT_KILL (20-25% GM services-heavy)
+- CARA.ST: Carasent eGP — INTEGRITY_KILL (losses)
+- USU.DE: USU Software — COVERAGE_KILL + CAP_SOFT
+
+**Sector 6 status:** ACTIVE (3 passes). 3rd pass: 1 new QUEUED_HOT (NTECH.ST). Consecutive 0-new streak from pass 1 (DACH mixed) broken by Nordic lens. Next pass if needed: UK AIM B2B SaaS re-screen (post-IDOX.L privatization), or Benelux enterprise SaaS (Exact-adjacent) or East-European tech exchanges (Warsaw GPW, Vienna, Prague).
+

@@ -2485,3 +2485,35 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 |--------|---------|-----|------|-------------|
 | DNA | Ginkgo Bioworks (Nasdaq: DNA) | ~$542M cap | 2026-07-27 | **CAP_KILL (above ceiling) + SECTOR_ADJACENT_KILL**: US synthetic biology platform (Foundry cell engineering, biosecurity services, bioproduction of specialty molecules for food, pharma, ag). PROCESS moat in Foundry scale cell-program library is genuine. BUT: (a) cap ~$542M = well above $300M ceiling; (b) primary business is platform/services + US government biosecurity contracts (not specialty food ingredient product company); (c) ongoing GAAP losses; (d) post-merger (Zymergen 2022) integration complexity. CAP_KILL above ceiling. Revisit if cap corrects below $150M AND core cell-program business profitable. |
 
+
+
+---
+
+## Run #58 Kills — 2026-07-27 | Sector 6 3rd Pass (Vertical/Mission-Critical Software — Nordic/DACH geo lens)
+
+*~28 names processed (Nordic/DACH geo lens: Nasdaq Stockholm, Oslo Bors, XTRA Frankfurt, Euronext Brussels/Paris, Helsinki First North); 1 new QUEUED_HOT (NTECH.ST); ~27 killed. Geo lens: Swedish/Norwegian/Danish/Finnish/German vertical SaaS and B2B software micro-cap. All data tools proxy-blocked — entire run in §2B web-search mode; all prices/financials tagged ~.*
+
+### Coverage Kills (analyst count >4 gate)
+| Ticker | Company | Analysts | Date | Kill Reason |
+|--------|---------|----------|------|-------------|
+| IVU.DE | IVU Traffic Technologies AG (XTRA Frankfurt) | **6** | 2026-07-27 | **COVERAGE_KILL**: German public transit software (bus/rail planning, operations, passenger info — IVU.suite). 30+ year history; ~€149.7M FY2025 revenue (+12% YoY); GM ~81% (high-quality); EBIT margin ~12.4%; net cash ~€45M; 6 analyst consensus Strong Buy. Real VMS-adjacent switching cost moat (transit operators deeply embedded in IVU.suite operational workflows — schedule planning + real-time ops is mission-critical). BUT 6 sell-side analysts = exceeds ≤4 coverage void gate. Market cap ~€356M extended zone (~1.2x ceiling). COVERAGE_KILL regardless of moat quality. Revisit if coverage drops to ≤4 AND cap corrects below ~€250-280M. |
+| MSGL (MLG.DE / MSGL.HM) | msg life AG (Frankfurt/Hamburg) | ~0-2 | 2026-07-27 | **NO_MOAT_KILL (services-heavy GM)**: German life insurance policy administration software (msg.Insurance Suite for DACH life/health insurers; IFRS 17 compliance modules). Revenue ~€180.2M FY2024 (flat +0.6% YoY); GM ~20.5% (services-heavy — fails our ≥45% GM gate decisively); EBIT margin ~7.4%; net cash ~€41M; 0-2 active analysts (coverage void would pass). Despite IFRS 17 tailwind (life insurer IT modernization) and VMS-adjacent positioning, the ~20.5% GM reveals the business is dominated by labor-intensive implementation/consulting services, not pure-software IP economics. At 20.5% GM, pricing power and operating leverage are structurally limited. NO_MOAT_KILL. Revisit only if business model migrates to higher-margin SaaS subscription tier with GM ≥45% for ≥2 consecutive years. |
+
+### Seen Kills (already in KB)
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|-------------|
+| FAB.VI | Fabasoft AG (Vienna/Frankfurt) | 2026-07-27 | **SEEN_KILL**: Air traffic control workflow SaaS (eGov Suite, Folio document mgmt); Vienna Stock Exchange. SEEN_KILL — Fabasoft AG is the same company as FAA.VI which is already in the KB as **WATCH Grade A** (first WATCH-A in KB history; EV/EBIT 8.5x; Q5/F4/R5/C3; memo memos/FAA.VI-2026-07-17.md). The ticker FAB.VI appears in some European databases as an alternate listing reference for the same company. Duplicate triage skipped. |
+
+### Nordic/DACH Bulk Kills (§3 inline triage, ~24 names)
+*Names below killed at §3 triage via web-search; no deep §4 financial baselines required given clear §3 failures.*
+
+| Ticker | Company | Kill Type | Key Reason |
+|--------|---------|-----------|------------|
+| ZAL.OL | Zalaris ASA (Oslo Bors) | NO_MOAT_KILL + CAP_SOFT_KILL | Norwegian HR/payroll cloud SaaS; ~NOK 1.7B (~$160M USD) cap; GM ~20-25% (services-heavy, not pure SaaS); multi-client HCM implementation services dominate revenue — fails GM gate decisively |
+| IBIT.DE | Intershop Communications AG (XTRA) | NO_MOAT_KILL | German e-commerce SaaS for B2B enterprises (Intershop Commerce Suite); GM ~50-55% potentially passes gate; BUT declining revenue (-5% YoY); small cap ~€20-30M borderline floor; enterprise commerce highly competitive (SAP/Salesforce/Shopify compete); no genuine sole-source position |
+| USU.DE | USU Software AG (XTRA Frankfurt) | COVERAGE_KILL + CAP_SOFT_KILL | German IT service management and knowledge management SaaS (USU Knowledge Center, Valuemation ITSM); ~€180-220M cap extended zone borderline; GM borderline; 4-6 analysts (at or above ≤4 gate) |
+| CARA.ST | Carasent ASA (Stockholm/Oslo) | INTEGRITY_KILL | Scandinavian healthcare SaaS (Webdoc electronic health record for Norwegian/Swedish general practitioners); recurring revenue model but GAAP losses ongoing; cash runway concerns; development-stage economics despite launched product; INTEGRITY_KILL quality=0 |
+| FPIP.ST | Formpipe Software AB (Nasdaq Stockholm) | COVERAGE_KILL | Swedish document and records management SaaS for Nordic public sector (Life Science Quality and Regulatory document management, public records). Already COVERAGE_KILL in run #57 (Sector 6 pass 1: 6 coverage analysts confirmed). Re-confirmed dead; not re-analyzed. |
+| Various (~19 other Nordic/DACH names) | Mix of: cloud ERP vendors (too large/private), Nordic edtech, DACH HR software, Scandinavian retail/logistics SaaS | SIZE_KILL, NOT_PUBLIC_KILL, NO_MOAT_KILL, CAP_SOFT_KILL, INTEGRITY_KILL | Structural finding: The Nordic/DACH Sector 6 landscape at $20-300M cap is thin. Quality names are either private (Visma, Cegid, Unit4, Aareon, IFS — all confirmed NOT_PUBLIC) or over-capped (Tieto/Tietoevry SIZE_KILL, ATOSS CAP_SOFT_KILL, Vitec VITEC-B.ST already CAP_KILL). Of the 28 processed, only NTECH.ST cleared all triage gates at ≥10/12. |
+
+**Sector 6 3rd pass (Nordic/DACH) status: 1 new QUEUED_HOT (NTECH.ST 10/12); ~27 killed; net 1 survivor advancing to §5.**
