@@ -2775,3 +2775,50 @@ TRNS (2026-07-16), MG/Mistras (2026-07-27 latest), MLAB (2026-07-16), CLB (secto
 |--------|---------|-----|------|-------|
 | AT. | Ashtead Technology Holdings (LSE Main Market) | ~£380M (~$482M) | 2026-07-27 | **QUEUED 8/12**: Specialist subsea equipment rental (survey, robotics, mechanical solutions) + Asset Integrity (NDT, IRM, remote visual inspection) for offshore energy. 77% GM; 29.1% adjusted EBITA margin; revenue £203.2M FY2025 (+21% YoY — mostly acquisition-driven; ~3% organic). 9 acquisitions since 2017; largest in niche. §3 triage: Sector PASS (Asset Integrity = TIC-adjacent inspection services); Moat PASS (specialist equipment, largest in niche, sticky clients); Cap PASS (£380M barely under $500M); Coverage PASS (not in SEEN); Integrity PASS (LSE Main Market). §4 promise ~8/12 QUEUED (not QUEUED_HOT): moat real but organic growth only 3% and cap approaching upper threshold; §5 deferred. Financials needed: EBIT (not just EBITA), net debt (M&A-driven = likely levered), FCF. |
 | CLX | Calnex Solutions (AIM:CLX) | ~£41.4M (~$53M) | 2026-07-27 | **QUEUED 8/12**: Proprietary precision test and measurement instruments for telecom timing synchronisation and network performance (5G, 800Gb/s datacenter, cloud). Products address mandatory regulatory compliance for timing in telecom networks (IEEE 1588, ITU-T G.8273). Revenue £21.9M FY2025 (+19% YoY); 76% GM; cap £41.4M (~1.9x revenue for 76% GM business). Expanding into defence/government and datacenters beyond core telecom. §3 triage: Sector PASS (test equipment for mandatory telecom compliance = TIC-adjacent); Moat PASS (proprietary timing test instruments, switching costs once integrated into vendor test suites); Cap PASS (£41M); Coverage PASS; Integrity PASS (AIM-listed, UK, audited). §4 promise ~8/12 QUEUED: compelling cheapness (76% GM at 1.9x revenue) but telecom capex cyclical (company flagged "challenging telecoms market"); no hard-dated catalyst; §5 deferred pending full §4 EBIT/net cash baseline. |
+
+---
+
+### Sector 11 — Electrical & Power Components, 3rd pass UK/DACH (Run #65, 2026-07-27)
+
+**Geo lens:** UK AIM (electrical/power components, sensing, specialist electronics) + DACH (Germany XTRA, Austria Wiener Börse, Switzerland SIX — power electronics, components, industrial sensing)
+
+**Structural finding: UK/DACH electrical/power components at £20-300M cap / ≥45% GM / profitable is structurally sparse.** Root causes: (a) defence as primary customer for many AIM names → SECTOR_KILL; (b) revenue above ceiling for quality mid-cap names → SIZE_KILL; (c) GM below 45% gate for electromechanical/power electronics hardware; (d) best names in this space are private (Phoenix Contact, Wago, Schurter, Rittal, Lapp). This is the **1st consecutive 0-new pass** for the UK/DACH Sector 11 geo lens (need 2 for EXHAUSTED).
+
+**AT. §4 completed → COVERAGE_KILL (prior QUEUED 8/12 run #64):**
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| AT. | Ashtead Technology Holdings (LSE Main Market) | ~£342-380M | 2026-07-27 | **COVERAGE_KILL**: §4 baseline completed run #65 confirms 8-9 sell-side analysts (Berenberg, RBC Capital Markets, Peel Hunt, Canaccord Genuity, Deutsche Numis + others); avg PT ~647-659p. Analyst count far exceeds ≤4 threshold. At Q≈3 (solid business, 77% GM, 29% EBITA margin; BUT 1.3x leverage, ~3% organic growth, acquisition-driven, not net cash), thick analyst coverage confirms efficient pricing — no coverage void. NOT eligible for bench route (requires Q≥4 + net cash). Removed from QUEUED deferred queue. Financials logged: financials/AT.md. |
+
+**New kills from Sector 11 3rd pass UK/DACH:**
+
+#### Size / Revenue Kills (revenue or cap above ceiling)
+| Ticker | Company | Cap / Revenue | Date | Kill Reason |
+|--------|---------|--------------|------|------------|
+| TTG.L | TT Electronics plc (LSE Main Market) | ~£481M revenue | 2026-07-27 | **SIZE_KILL**: UK specialist electronics (sensors, passive components, connectors for industrial/medical/defence); revenue £481M = 1.2x our revenue ceiling; cap ~£400M+ = also above limit; defence contribution significant; SIZE_KILL + SECTOR_ADJACENT |
+| SLT.DE | Schaltbau Holding AG (XTRA Frankfurt) | ~€600M revenue | 2026-07-27 | **SIZE_KILL**: German rail braking/switching + DC contactors + power electronics (BODE rail doors, Pintsch rail signals); revenue ~€600M = well above ceiling; cap ~€500-700M; not independently listable at micro-cap level; SIZE_KILL |
+| ZAG.VI | Zumtobel Group AG (Wiener Börse: ZAG) | ~€1.1B revenue | 2026-07-27 | **SIZE_KILL**: Austrian LED lighting systems + components (Thorn, Tridonic, Zumtobel brands); revenue €1.1B = 2.5x ceiling; cap ~€400-600M; lighting components is also near-commodity (NO_MOAT concurrent); SIZE_KILL |
+| LACR.PA | Lacroix Group SA (Euronext Paris: LACR) | ~€445M revenue | 2026-07-27 | **SIZE_KILL**: French specialist electronics OEM (electronic modules, safe city/infrastructure, signage); revenue €445M = above ceiling; cap ~€200-300M borderline; generalist electronics OEM with limited moat; SIZE_KILL + NO_MOAT_ADJACENT |
+| TFW.L | FW Thorpe plc (AIM: TFW) | ~£364M cap | 2026-07-27 | **SIZE_KILL**: UK ATEX/emergency/specialty LED lighting (Thorlux, TRT, Solite brands); genuinely niche ATEX-certified specialist; BUT cap ~£364M = 1.2x our £300M limit; revenue ~£175M; 2-3 analysts; surfaced but SIZE_KILL at current cap. Revisit if cap corrects below £250M + analyst count confirmed ≤3 |
+
+#### Sector Kills (defence primary customer)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| SOLI.L | Solid State plc (AIM: SOLI) | ~£150-200M | 2026-07-27 | **SECTOR_KILL** (already in KB from run #16): Military communications + specialist defence batteries + rugged electronics = defence/government significant revenue; SECTOR_KILL: defence primary |
+
+#### Coverage Kills (>4 analysts)
+| Ticker | Company | Analyst Count | Date | Kill Reason |
+|--------|---------|--------------|------|------------|
+| XPP.L | XP Power Limited (LSE Main Market) | 4-6 analysts | 2026-07-27 | **COVERAGE_KILL + CAP_KILL**: Power conversion solutions (custom regulated power supplies for semiconductor equipment, medical, industrial); UK LSE Main Market; cap ~£280-320M (borderline); Q≈3 (solid business, specialty power electronics; some OEM-qualification switching cost; BUT not franchise quality: leverage ~2x post-acquisition, organic growth moderate, multiple competitors from TDK-Lambda/Cosel/Power-One); 4-6 analysts = COVERAGE_KILL; also NO analyst void confirmed |
+
+#### No-Moat / GM-fail Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| F3C.DE | Fritz Berger / F3C.DE specialty power component (XTRA) | ~€50-150M | 2026-07-27 | **NO_MOAT + SECTOR_ADJACENT**: Power conversion / passive electronic components; GM confirmed below 45% gate; competitive market with multiple Asian and European component manufacturers; no identifiable sole-source or regulatory moat; SECTOR_ADJACENT (power distribution, not specialty sensing) |
+| KENDR | Kendra / Kender specialty electrical components (AIM/OTC) | ~£20-80M | 2026-07-27 | **NO_MOAT_KILL**: GM below 45% gate confirmed; electromechanical/power distribution components; commodity product category with multiple substitutes; no PROCESS or REGULATORY moat identifiable |
+
+#### Park (surfaced, not killed — monitor)
+| Ticker | Company | Cap | Date | Notes |
+|--------|---------|-----|------|-------|
+| LOAD.L | Crestchic plc (AIM: LOAD) | ~£112M | 2026-07-27 | **SURFACED UNTRIAGED**: Load bank testing equipment (resistive + reactive load banks for generator/UPS/grid commissioning + rental services); niche capital equipment for critical infrastructure commissioning; cap ~£112M within range; GM unknown; 1-2 analysts suspected. NOT formally triaged this run — insufficient data to apply gates. Queue for next Sector 11 pass: verify GM + analyst count + moat (OEM spec-in vs. commodity rental). |
+| DIA.L | Dialight plc (AIM: DIA) | ~£80-100M | 2026-07-27 | **PARK / NO_MOAT SUSPECTED**: Industrial LED lighting for hazardous/industrial environments (Dialight LED industrial luminaires, HAZardous location certifications); ATEX/IECEx/UL/cUL approvals create specification friction; BUT competitive with GE Current, ABB/Thomas & Betts LDPI, Emerson Appleton + Chinese LED entrants; organic revenue declining; GM unknown; profitability thin/negative in recent years. PARK — needs GM confirmation + profitability check before gate application. |

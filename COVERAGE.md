@@ -900,3 +900,39 @@ Environmental/water/waste at $20-300M cap with ≥45% GM is globally structurall
 Despite 20+ targeted searches, no viable publicly-listed French, German, or Nordic small-cap pure-play TIC company under $500M was identified in the 2025-2026 listed universe. The PE consolidation of European TIC mid-market is confirmed structurally complete at this geo lens. Sector 5 2nd pass complete.
 
 **Sector 5 status: ACTIVE (2 passes complete; 2 new QUEUED from 2nd pass UK/Europe; structural PE consolidation limits 3rd pass value unless targeting very small ASX/Nasdaq secondary names).**
+
+---
+
+## Sector 11 (Electrical & Power Components) — Pass 3 Coverage Notes (run #65, 2026-07-27)
+
+**Geo lens:** UK AIM (electrical/power components, sensing, specialist electronics) + DACH (Germany XTRA, Austria Wiener Börse, Switzerland SIX — power electronics, components, industrial sensing)
+
+**Names processed: ~12** | **New QUEUED: 0** | **AT. §4 → COVERAGE_KILL** | **Consecutive 0-new passes (this geo lens): 1**
+
+**AT. §4 completed → COVERAGE_KILL:**
+- AT. (Ashtead Technology, LSE Main Market): Confirmed 8-9 analysts (Berenberg, RBC, Peel Hunt, Canaccord, Deutsche Numis + others); avg PT ~647-659p. Q≈3 (solid 77% GM, 29% EBITA margin; BUT 1.3x leverage, ~3% organic growth, not net cash). AT. was QUEUED 8/12 from run #64 pending §4 baseline; §4 completion confirms COVERAGE_KILL. Logged at financials/AT.md.
+
+**Kill summary:**
+| Ticker | Kill Reason |
+|--------|------------|
+| TFW.L | SIZE_KILL (£364M cap > limit) |
+| XPP.L | COVERAGE_KILL (4-6 analysts, Q≈3, leverage) |
+| TTG.L | SIZE_KILL (£481M revenue > ceiling) |
+| SLT.DE | SIZE_KILL (~€600M revenue > ceiling) |
+| ZAG.VI | SIZE_KILL (€1.1B revenue > ceiling) |
+| LACR.PA | SIZE_KILL (~€445M revenue > ceiling) |
+| F3C.DE | NO_MOAT_KILL + SECTOR_ADJACENT |
+| KENDR | NO_MOAT_KILL (GM < 45% gate) |
+| LOAD.L | UNTRIAGED — surfaced (load bank testing £112M cap); insufficient data; queue for next pass |
+| DIA.L | PARK — industrial LED ATEX lighting; declining revenue; GM/profitability unverified; PARK pending full triage |
+
+**Structural finding (confirmed this pass):** UK/DACH electrical/power components at £20-300M cap / ≥45% GM / profitable is structurally sparse:
+- (a) Defence as primary customer for many AIM specialist electronics names → SECTOR_KILL (Solid State SOLI.L already killed prior run; multiple XTRA defence electronics names)
+- (b) Revenue above ceiling for quality mid-cap names → SIZE_KILL (Schaltbau €600M, Zumtobel €1.1B, TT Electronics £481M, Lacroix €445M)
+- (c) GM below 45% gate for electromechanical/power electronics hardware (connectors, passive components, power distribution = GM 20-35% typical)
+- (d) Best names in space are private: Phoenix Contact, Wago, Schurter, Lapp, Rittal — none publicly listed at accessible cap
+
+**NSSC §4 baseline completed (bench addition):**
+- NSSC (Napco Security Technologies, Nasdaq): §4 baseline logged at financials/NSSC.md; confirmed on Quality Bench (price ~$35-37, well above buy-zone $22-26; 91% services GM; $115M net cash; 6 analysts — bench route under v5.1). FY2025: revenue $181.6M, GM 55.6%, NI $43.4M, FCF $51.4M.
+
+**Sector 11 status: ACTIVE — 1st consecutive 0-new pass (UK/DACH geo lens). Need 2 consecutive for EXHAUSTED. Next pass: Sector 11 4th pass with Nordic (Oslo Bors/Nasdaq First North) geo lens for power electronics, or consider Sector 17 4th pass Japan secondary OEM semiconductor supply chain.**
