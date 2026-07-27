@@ -1035,7 +1035,7 @@ Nordic electrical/power components follows the identical structural pattern to U
 
 ---
 
-## Sector 18 — Precision instruments & sensing | 3rd pass: European geo lens (run #68, 2026-07-27)
+## Sector 18 — Precision instruments & sensing | 3rd pass: European geo lens, sub-run (a) (run #68a, 2026-07-27)
 
 **Geo lens:** Euronext (Paris/Amsterdam/Brussels/Lisbon), Xetra/Frankfurt, Swiss SIX, Warsaw WSE, London AIM — mid/small-cap precision instruments and analytical sensing ($20-300M market cap target band).
 
@@ -1062,7 +1062,7 @@ Nordic electrical/power components follows the identical structural pattern to U
 
 2. **VGO.WSE — Vigo Photonics** (PARK): IR photodetectors + MCT-based sensing modules for defense/environmental monitoring. §3.5 FAIL — GM ~35% (fails ≥45% gate). Polish WSE; revenue €12-15M range, founder-led. Moat credible (proprietary MCT epitaxy) but financials don't meet threshold at this stage.
 
-3. **ALRIB.PA — Riber SA** (BENCH → COVERAGE_KILL, Q≥4): Sole surviving Western EU commercial MBE (molecular beam epitaxy) OEM; razor-blade consumables model (crucibles, filaments, maintenance contracts) for III-V/II-VI semiconductor research labs globally. §3.5 PASS financially (GM 38.7%/NM 12.9%✓/ROE ~20%✓); COVERAGE_KILL: 7-9 analysts covering (fails ≤4 gate). Q≥4 → bench route per v5.1. Sole-source Western MBE franchise; watch for analyst count reduction.
+3. **ALRIB.PA — Riber SA** (BENCH → COVERAGE_KILL, Q≥4): Sole surviving Western EU commercial MBE (molecular beam epitaxy) OEM; razor-blade consumables model (crucibles, filaments, maintenance contracts) for III-V/II-VI semiconductor research labs globally. §3.5 PASS financially (GM 38.7%/NM 12.9%✓/ROE ~20%✓); COVERAGE_KILL: 7-9 analysts covering (fails ≤4 gate). Q≥4 → bench route per v5.1. Sole-source Western MBE franchise; watch for analyst count reduction. *Note: run #68b observed PRICE_KILL concurrent (€249M cap post H1 2026 spike; 47.8x P/E) — both routes converge to BENCH.*
 
 4. **MEMS.PA — Memscap SA** (PARK ⚠INTEGRITY_DISCREPANCY): MEMS pressure sensors for aerospace/medical. §3.5 FAIL — NM 7.5% (fails ≥10% gate). ⚠ INTEGRITY_DISCREPANCY: Eulerpool reports NI €3.93M vs company press release NI €894K — 4.4x discrepancy unresolved; figures cannot be trusted for precision analysis. PARK pending verified financials from primary filing.
 
@@ -1070,7 +1070,7 @@ Nordic electrical/power components follows the identical structural pattern to U
 
 ---
 
-## Sector 19 — Specialty healthcare & niche pharma | 4th pass: UK/Canada/ASX geo lens (run #68, 2026-07-27)
+## Sector 19 — Specialty healthcare & niche pharma | 4th pass: UK/Canada/ASX geo lens (run #68a, 2026-07-27) → **EXHAUSTED**
 
 **Geo lens:** London AIM/Main Market UK, TSX/TSX-V Canada, ASX Australia — specialty pharma and healthcare with named regulatory moat ($20-300M market cap target band).
 
@@ -1085,13 +1085,54 @@ Nordic electrical/power components follows the identical structural pattern to U
 
 1. **CPH.TO — Cipher Pharmaceuticals** (WATCHLIST APPROACHING ≤C$11-13/sh): Canadian specialty pharma. ABSORICA (isotretinoin LQ) US royalty stream + EPURIS (isotretinoin) #1 branded Canada + NATROBA (spinosad) topical parasiticide. §3.5 PASS: GM 65.8%~/NM 54%~/ ≤4 analysts PASS / debt-free Q1 2026. §4: 9/12 (Q=3/F=3/R=1/C=2). Asymmetry Gate FAIL: criterion 2 (bull ≥2x not credible at current C$16.39; analyst FV ~C$17.50 implies <7% upside). Buy-zone: ≤C$11-13/sh (~C$283-335M cap; ~10-12x trailing P/E; 2x to analyst FV opens). Monitor for re-entry. ⚠ ROE ~17-21%~ estimated FY2025 — verify from annual report.
 
-2. **NEU.AX — Neurogene / Neuren Pharmaceuticals** (BENCH → COVERAGE_KILL, Q≥4): Daybue (trofinetide) = first and only FDA-approved treatment for Rett syndrome; royalty-model revenue via Acadia Pharmaceuticals partnership. ~100% GM, NM ~39%; ROE ~9% (fails ≥15% gate). COVERAGE_KILL: 6 analysts covering (fails ≤4 gate). CAP_BORDERLINE: $1.456B AUD (~3% below $1.5B ceiling). Q≥4 → bench route. Watch for: ROE recovery as royalty scales, analyst count reduction, price correction.
+2. **NEU.AX — Neuren Pharmaceuticals** (BENCH → COVERAGE_KILL, Q≥4): Daybue (trofinetide) = first and only FDA-approved treatment for Rett syndrome; royalty-model revenue via Acadia Pharmaceuticals partnership. ~100% GM, NM ~39%; ROE ~9% (fails ≥15% gate). COVERAGE_KILL: 6 analysts covering (fails ≤4 gate). CAP_BORDERLINE: $1.456B AUD (~3% below $1.5B ceiling). Q≥4 → bench route. Watch for: ROE recovery as royalty scales, analyst count reduction, price correction.
 
 3. **PNV.AX — PolyNovo** (BENCH → COVERAGE_KILL, Q≥4): NovoSorb BTM = patented, sole FDA-cleared synthetic biodegradable wound matrix scaffold; 89-90% GM. NM 10.2%✓; ROE ~16%✓. COVERAGE_KILL: 9-10 analysts covering (fails ≤4 gate). Q≥4 → bench route. Watch for analyst count reduction + price pullback. §4 full financial baseline not yet written.
 
-4. **MVP.AX — MedVance / Medical Developments International** (PARK): Penthrox (methoxyflurane) inhaled analgesic; ARTG + CE marked; distributor network UK/EU/ANZ. §3.5 FAIL — NM 0.2% (barely profitable; fails ≥10% gate by wide margin). Revive if NM recovers ≥10%.
+4. **MVP.AX — Medical Developments International** (PARK): Penthrox (methoxyflurane) inhaled analgesic; ARTG + CE marked; distributor network UK/EU/ANZ. §3.5 FAIL — NM 0.2% (barely profitable; fails ≥10% gate by wide margin). Revive if NM recovers ≥10%.
 
-**Verdict: Sector 19 EXHAUSTED after 4 passes (1st pass US/Nasdaq #60, 2nd pass EU/Continental #62, 3rd pass US 2nd sweep #66, 4th pass UK/Canada/ASX #68). Two consecutive 0-new-QUEUED passes (run #66 + run #68).** The structural dynamic is confirmed: the qualified specialty pharma universe at $20-300M cap with named regulatory moat and ≥45% GM / ≥10% NM / ≥15% ROE is genuinely small globally. Revive Sector 19 only with a Japan/Korea specialty pharma lens (Japanese OTC pharma with proprietary formulation moats; Korean KOSDAQ rare disease names) or if a major M&A exit creates a successor stub trading below intrinsic value.
+**Verdict: Sector 19 EXHAUSTED after 4 passes (1st pass US/Nasdaq #60, 2nd pass EU/Continental #62, 3rd pass US 2nd sweep #66, 4th pass UK/Canada/ASX #68a). Two consecutive 0-new-QUEUED passes (run #66 + run #68a).** The structural dynamic is confirmed: the qualified specialty pharma universe at $20-300M cap with named regulatory moat and ≥45% GM / ≥10% NM / ≥15% ROE is genuinely small globally. Revive Sector 19 only with a Japan/Korea specialty pharma lens (Japanese OTC pharma with proprietary formulation moats; Korean KOSDAQ rare disease names) or if a major M&A exit creates a successor stub trading below intrinsic value.
+
+---
+
+## Sector 18 (Precision instruments & sensing) — Pass 3 Coverage Notes, sub-run (b) (run #68b, 2026-07-27)
+
+**European geo lens (XTRA Frankfurt / SIX Swiss / Euronext Paris/Amsterdam/Brussels):** ~32 names processed.
+
+**Instant kills — large-cap and defense:**
+- IFX.DE (Infineon Technologies, XTRA): ~€30B cap — SIZE_KILL; automotive/power semiconductor moat real but far above gate
+- STMIT.MI (STMicroelectronics, Euronext Milan): ~€20B cap — SIZE_KILL; STM32 MCU and SiC moat real but far above gate
+- SGO.PA (Saint-Gobain, Euronext Paris): ~€25B cap — SIZE_KILL; specialty glass/building products; large diversified industrial
+- TKA.DE (ThyssenKrupp, XTRA): ~€4B+ — NO_MOAT_KILL + SIZE_KILL; diversified industrial conglomerate, steel/automotive commodity
+- LBIRD.PA (Latecoere, Euronext Paris): ~€200-400M — SECTOR_KILL defense; aerospace structures/wiring for Airbus/Boeing with military content
+- LPK.DE (Lippert, XTRA): ~22% GM — LOW_GM_KILL; precision clamping/workholding for machine tools; structurally GM-limited by metal fabrication economics
+- Additional names from XTRA/Euronext precision instruments sweep: Carl Zeiss Meditec (CARL.DE) SIZE_KILL ~€3.5B; Stabilus (STM.DE) SIZE_KILL ~€900M; various covered/private names
+
+**§3.5 baseline names (6 completed):**
+
+| Ticker | Company | Score | Routing | Key Metric |
+|--------|---------|-------|---------|------------|
+| ALPM.PA | Precia Molen SA | 11/12 | §5 DEEP-DIVE | EV/EBIT 5.37x, record 10.1% EBIT margin, net cash €44M ✓ |
+| V6C.DE | Viscom SE | 9/12 | QUEUED | Trough FY2025 confirmed ✓; FY2026 first positive EBIT guidance |
+| LEHN.SW | LEM Holding SA | 8.5/12 | QUEUED | FY2025/26 results due Jul 28 2026; net debt CHF 90.1M |
+| M7U.DE | Nynomic AG | 8.5/12 | QUEUED | 71% GM; EBIT +€2.0M FY2025 ✓; cap ~€132.7M corrected |
+| NDAP.AS | Nedap NV | PRICE_KILL | BENCH | €645M cap; 20.2x EV/EBIT; bench at €300-350M cap |
+| ALRIB.PA | Riber SA | PRICE_KILL | BENCH | €249M cap post H1 2026 spike; 47.8x P/E; GM 38.7% ✓; bench at €74-138M |
+
+**Additional conditional bench (§3.5 not run):**
+- SENS.SW (Sensirion AG, SIX): Swiss MEMS precision sensor manufacturer; factory-calibrated humidity/CO2/PM sensors; HVAC/medical/industrial OEM design-in moat; cap above CHF 500-600M buy-zone estimate; BENCH conditional on §3.5 completion
+
+**Why European precision instruments at €20-300M cap is structurally thin:**
+1. **Best names are private:** Micro-Epsilon (process/displacement sensors; private), Heidenhain (encoders; private), Kistler (force/pressure sensors; private), Mahr (surface roughness; private), Renishaw plc excepted (UK AIM/large-cap). The highest-quality European precision instrument makers are typically family-owned engineering companies with no reason to list.
+2. **M&A wave removed recent public names:** ISRA VISION (machine vision) → Cognex 2021; First Sensor (MEMS/pressure sensors) → TE Connectivity 2020; Stemmer Imaging (computer vision) → went private 2021; Vaisala (environmental sensing) → Finnish family still public but SIZE_KILL at €1.75B.
+3. **Remaining listed names split into:** (a) large-cap (Infineon, STMicro, Zeiss, Endress+Hauser) — all SIZE_KILL; (b) AOI/inspection equipment sub-niche (Viscom V6C.DE, Nordson ASYMTEK) — thin; (c) specialty measurement instruments holding companies (Nynomic M7U.DE photonics) — thin.
+4. **Notable exceptions found:** Precia Molen (ALPM.PA) is the standout — EV/EBIT 5.37x at record profitability on a niche process weighing franchise that is genuinely invisible to English-language investors. LEM Holding (LEHN.SW) is a recovery play on current transducers with a hard-dated catalyst. Viscom (V6C.DE) is a cyclical recovery on AOI inspection at book value.
+
+**§5 outcomes:**
+- ALPM.PA §5 DEEP-DIVE complete (run #68b): §5 red-team 10.5/12; MOAT CONFIRMED (OIML regulatory recertification + SCADA integration); 3:1 asymmetry confirmed; partial position sizing 1.5-2.5%; memo: financials/ALPM.PA-2026-07-27.md
+- All other §3.5 names deferred to future §5 runs (V6C.DE, LEHN.SW, M7U.DE all QUEUED)
+
+**Sector 18 status: 3 passes complete.** Pass 1 (Japan, run #22 deferred queue) + Pass 2 (US+Taiwan, run #46) + Pass 3 (European, runs #68a+#68b). Next pass: Japan secondary OTC precision instruments (non-EN yuho; EDINET if proxy cleared) — e.g. Ono Sokki 6858.T already in deferred queue.
 
 ---
 

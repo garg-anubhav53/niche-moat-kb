@@ -2919,7 +2919,7 @@ Nordic electrical/power components structurally identical to UK/DACH pattern: (a
 
 ---
 
-## Run #68 — 2026-07-27 · Sector 18 (Precision instruments & sensing, 3rd pass · European geo lens) + Sector 19 (Specialty healthcare & niche pharma, 4th pass · UK AIM/LSE + Canada TSX + ASX geo lens)
+## Run #68a — 2026-07-27 · Sector 18 (Precision instruments & sensing, 3rd pass · European geo lens) + Sector 19 (Specialty healthcare & niche pharma, 4th pass · UK AIM/LSE + Canada TSX + ASX geo lens)
 
 **Summary — Sector 18 (3rd pass, European)**: ~27 names processed; ~14 already-seen (killed/PARKed prior runs: M7U.DE run#37, LPK.DE run#37, JEN.DE run#37, S9I.DE run#37 NO_MOAT, SNG.DE run#37 INTEGRITY, LACR.PA run#65 SIZE, SENS.SW CAP+COVERAGE, KENDR.AS NO_MOAT, CHEMM.CO run#17 COVERAGE, BIOT.ST run#20 SECTOR_ADJ, OMG.L run#38 SECTOR, JDG.L PARK universe, LEHN.SW CAP_SOFT run#37, EIP.OL PARK run#67); 9 new triage kills (6 SIZE_KILL, 2 NOT_PUBLIC_KILL, 1 PARK early-commercial); 4 §3 survivors advancing to §3.5: BSL.DE, VGO.WSE, ALRIB.PA, MEMS.PA.
 
@@ -3035,6 +3035,36 @@ Nordic electrical/power components structurally identical to UK/DACH pattern: (a
 - Watchlist entry: CPH.TO (§4 9/12; APPROACHING ≤C$11-13)
 - Park additions: BSL.DE, VGO.WSE, MEMS.PA (Sector 18); MVP.AX (Sector 19)
 - No §5 deep-dive this run
+
+---
+
+## Sector 18 3rd Pass European Kills (run #68b, 2026-07-27, XTRA/SIX/Euronext geo lens)
+
+### Size Kills (>€1.5B market cap — far above $20-300M gate)
+
+| Ticker | Company | Cap (est.) | Date | Kill Reason |
+|--------|---------|-----------|------|------------|
+| IFX.DE | Infineon Technologies AG (XTRA: IFX) | ~€30B+ | 2026-07-27 | **SIZE_KILL**: German semiconductor company (automotive ICs, power semiconductors, security chips). Moat real — Infineon is #1 or #2 in automotive power semiconductors globally. But €30B+ cap far above $300M gate; 20+ analysts. SIZE_KILL. |
+| STMIT.MI | STMicroelectronics NV (Euronext Milan: STMIT; also NYSE: STM) | ~€20B+ | 2026-07-27 | **SIZE_KILL**: Swiss-Italian semiconductor (automotive/industrial STM32 MCUs, SiC power modules, MEMS sensors). Real broad-based semiconductor moat. But €20B+ cap far above gate; 20+ analysts. SIZE_KILL. |
+| SGO.PA | Compagnie de Saint-Gobain SA (Euronext Paris: SGO) | ~€25B+ | 2026-07-27 | **SIZE_KILL**: French specialty glass and building materials (performance glass, insulation, pipe systems). Large diversified industrial, not precision instruments niche. €25B+ cap. SIZE_KILL. |
+
+### Sector Kills (defense primary customer)
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| LBIRD.PA | Latecoere SA (Euronext Paris: LBIRD) | ~€200-400M | 2026-07-27 | **SECTOR_KILL**: French aerospace equipment and systems manufacturer (aircraft interconnection systems, onboard equipment — cockpit doors, cargo doors, fuselage sections, wiring). Primary customers are aircraft OEMs (Airbus, Boeing) with significant defense/military aircraft content. Aerospace structures = defense primary. SECTOR_KILL. |
+
+### Low-GM Kills (gross margin below ≥45% gate)
+
+| Ticker | Company | GM | Date | Kill Reason |
+|--------|---------|---|------|------------|
+| LPK.DE | Lippert GmbH & Co. KG (XTRA: LPK) | ~22% | 2026-07-27 | **LOW_GM_KILL**: German manufacturer of precision clamping technology for machine tools (lathe chucks, indexing tables, tailstocks, workholding systems). Process moat in precision metal machining; serves machine tool OEMs. BUT: GM ~22% confirmed well below ≥45% gate — metal-cutting hardware is structurally GM-limited by material costs. LOW_GM_KILL. |
+
+### No-Moat Kills
+
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|------------|
+| TKA.DE | ThyssenKrupp AG (XTRA: TKA) | 2026-07-27 | **NO_MOAT_KILL + SIZE_KILL**: German diversified industrial conglomerate (steel, automotive components, industrial services). No durable sole-source moat at consolidated entity level; steel is commodity-priced; Elevator Technology division sold to PE 2020; automotive/industrial portfolio faces multi-competitor markets. NO_MOAT_KILL + SIZE_KILL concurrent. |
 
 ---
 
