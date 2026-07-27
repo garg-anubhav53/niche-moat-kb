@@ -2820,7 +2820,7 @@ TRNS (2026-07-16), MG/Mistras (2026-07-27 latest), MLAB (2026-07-16), CLB (secto
 #### Park (surfaced, not killed — monitor)
 | Ticker | Company | Cap | Date | Notes |
 |--------|---------|-----|------|-------|
-| LOAD.L | Crestchic plc (AIM: LOAD) | ~£112M | 2026-07-27 | **SURFACED UNTRIAGED**: Load bank testing equipment (resistive + reactive load banks for generator/UPS/grid commissioning + rental services); niche capital equipment for critical infrastructure commissioning; cap ~£112M within range; GM unknown; 1-2 analysts suspected. NOT formally triaged this run — insufficient data to apply gates. Queue for next Sector 11 pass: verify GM + analyst count + moat (OEM spec-in vs. commodity rental). |
+| LOAD.L | Crestchic plc (AIM: LOAD) | ~£122M (401p acquisition price) | 2026-07-27 | **NOT_PUBLIC_KILL** (resolved run #67 2026-07-27): Load bank hire/sale — resistive+reactive+combined loadbanks for generator/UPS/grid commissioning; hire revenue ~58% of total (H1 2022); 49-50% GM (improving from 44% H1 2021); H1 2022 revenue £21.3M (+35% YoY from £15.8M); UK HQ Burton-on-Trent + USA + Middle East + Belgium + Germany + France + Singapore + South Korea; AIM Company of the Year Shares Awards 2022. Acquired by Aggreko Limited via Court-sanctioned scheme of arrangement at 401p/share cash; scheme sanctioned Feb 20 2023, effective Feb 22 2023; AIM delisted concurrent. TDR Capital (Aggreko private equity owner) acquirer — business absorbed into Aggreko load testing rental fleet. M&A validates hire-model loadbank moat thesis. Prior UNTRIAGED flag (run #65) cleared. |
 | DIA.L | Dialight plc (AIM: DIA) | ~£80-100M | 2026-07-27 | **PARK / NO_MOAT SUSPECTED**: Industrial LED lighting for hazardous/industrial environments (Dialight LED industrial luminaires, HAZardous location certifications); ATEX/IECEx/UL/cUL approvals create specification friction; BUT competitive with GE Current, ABB/Thomas & Betts LDPI, Emerson Appleton + Chinese LED entrants; organic revenue declining; GM unknown; profitability thin/negative in recent years. PARK — needs GM confirmation + profitability check before gate application. |
 
 ---
@@ -2866,3 +2866,53 @@ TRNS (2026-07-16), MG/Mistras (2026-07-27 latest), MLAB (2026-07-16), CLB (secto
 |--------|---------|-----|------|------------|
 | SXTP | SciSparc Ltd (Nasdaq: SXTP) | ~$5-30M | 2026-07-27 | **CAP_TOO_SMALL_KILL**: CNS-focused specialty pharma (early-stage pipeline; ~$1M revenue). Cap ~$5-30M and revenue ~$1M far below our $20M minimum. JURISDICTION_CONCERN concurrent (Israeli management structure). |
 | AMS | American Shared Hospital Services (NYSE American: AMS) | ~$11.6M | 2026-07-27 | **CAP_TOO_SMALL_KILL**: Shared Gamma Knife / stereotactic radiosurgery equipment leasing to hospitals; niche medical equipment rental with physician-training continuity (genuine switching cost niche). BUT market cap $11.6M below our $20M minimum floor — too small for this screen. |
+
+---
+
+## Run #67 — Sector 11 4th Pass Nordic/Oslo Bors/Nasdaq First North (2026-07-27)
+
+### Size Kills
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| HMSI.ST | HMS Networks AB (Nasdaq Stockholm) | ~SEK 26-28B (~€600-900M) | 2026-07-27 | **SIZE_KILL**: Industrial IoT gateway and protocol converter technology — connects PLCs/field devices to industrial networks and IoT (Anybus, Ewon, IIOT platforms); revenue €268M FY2024; high GM (asset-light hardware+SW), profitable. Cap ~€600-900M substantially above €500M ceiling. Quality bench candidate if cap contracts significantly. |
+| AQ.ST | AQ Group AB (Nasdaq Stockholm) | ~$1.98B | 2026-07-27 | **SIZE_KILL**: Manufactures electrical components, cables, sheet metal/thermoplastic parts for demanding industrial customers (automotive, defense, white goods, telecom). Q2 2026 record net sales. Cap ~$1.98B, above ceiling. |
+| OEM-B.ST | OEM International AB (Nasdaq Stockholm) | ~SEK 20B (~€1.75B) | 2026-07-27 | **SIZE_KILL**: Value-added distribution of electronic/industrial components in Northern/Central/Eastern Europe (38+ countries). Net margin 11.5%; GM ~30-35% (distributor). Cap ~€1.75B, above ceiling. Already killed Sector 10 3rd pass run #52. |
+| VAIAS.HE | Vaisala Oyj (Nasdaq Helsinki) | ~€1.75B | 2026-07-27 | **SIZE_KILL**: Environmental and industrial measurement instruments (weather sensors, humidity, CO2, liquid measurement). Revenue €597M FY2025; very high GM ~60%+; profitable; Helsinki main board. Cap ~€1.75B, above ceiling. Gold-standard Nordic precision sensing franchise. |
+| MYCR.ST | Mycronic AB (Nasdaq Stockholm) | ~$6.9B | 2026-07-27 | **SIZE_KILL**: High-tech SMT assembly equipment and display jet printing systems for electronics manufacturing industry; EBIT margin 37%. Cap ~$6.9B, far above ceiling. Already noted Sector 17 2nd pass run #48. |
+| NKT.CO | NKT A/S (Nasdaq Copenhagen) | Large-cap | 2026-07-27 | **SIZE_KILL**: High-voltage power cable manufacturer for offshore wind, interconnectors, grid infrastructure. Large-cap, well above €500M ceiling. |
+
+### Sector Kill (defense primary)
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| IVSO.ST | Invisio Communications AB (Nasdaq Stockholm) | ~SEK 5-8B (~€450-700M) | 2026-07-27 | **SECTOR_KILL**: Tactical communication headsets and hearing protection systems — primary customers are military and law enforcement globally. Revenue dominated by defense sector. Hard SECTOR_KILL: defense-primary. Also borderline SIZE_KILL concurrent. |
+
+### Low-GM / No-Moat Kills
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| KIT.OL | Kitron ASA (Oslo Bors) | ~NOK 3.5B (~€310M) | 2026-07-27 | **LOW_GM_KILL**: Electronics Manufacturing Services (EMS) — manufactures electronics assemblies for defense, medical, clean energy, and industrial customers across Norway, Sweden, Lithuania, Germany, Poland. EMS business model: GM ~10-15%, well below ≥45% gate. Profitable, large revenues, credible business; structurally ineligible on GM. Significant defense revenue exposure in 2026 Nordic rearmament cycle. |
+| SCANFL.HE | Scanfil Oyj (Nasdaq Helsinki) | ~€350M | 2026-07-27 | **LOW_GM_KILL**: EMS (electronics manufacturing services) for industrial, medtech, clean tech, telecom customers. Finland-based, international operations. EMS GM ~10-15%, well below ≥45% gate. Profitable. Structurally same kill as Kitron. |
+| COIN.ST | Concentric AB (Nasdaq Stockholm) | ~SEK 3-4B (~€270-350M) | 2026-07-27 | **LOW_GM_KILL**: Hydraulic and fluid management components (gear pumps, hydraulic motors, valves) for heavy industry and commercial vehicles. GM ~30-35%, below ≥45% gate. Also not primarily electrical/power — hydraulic/mechanical adjacency. |
+| MMGR.ST | Momentum Group AB (Nasdaq Stockholm) | ~SEK 3-5B (~€270-450M) | 2026-07-27 | **LOW_GM_KILL**: Distribution of industrial and technical components including electrical, automation, safety products. Distribution margin structure well below ≥45% gate. |
+| NTG.OL | Nordic Technology Group ASA (Euronext Growth Oslo) | ~NOK 1.6B (~€145M) | 2026-07-27 | **LOW_GM_KILL**: Technology components and systems distribution for industrial and oil-and-gas sectors. Distribution margin profile (~15-25%) below ≥45% gate. |
+| PREV.ST | Prevas AB (Nasdaq First North Stockholm) | ~SEK 1-2B (~€90-180M) | 2026-07-27 | **NO_MOAT_KILL**: Embedded systems, IoT, and industrial electronics engineering consulting and product development services. Pure professional services business — fungible human capital, no durable product or IP moat. |
+
+### Not-Yet-Profitable Kills
+
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| SGG.ST | Sensys Gatso Group AB (Nasdaq Stockholm) | ~€55M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: Traffic speed and red-light enforcement sensors and systems for law enforcement globally; revenue ~$77M FY2025. Net loss FY2025 (earnings down 182% vs FY2024 profit) — no stable earnings floor established. Business potentially interesting on profitability recovery; revisit if 2 consecutive profitable years confirmed. |
+| PLT.OL | poLight ASA (Oslo Bors) | <€50M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: Tunable lens technology — TLens optical actuator for compact autofocus in smartphones, automotive, and industrial cameras; adjusts focal length by applying pressure to a polymer lens. Development/early-commercial stage; pre-profitable. No stable earnings floor. |
+| SIVE.ST | Sivers Semiconductors AB (Nasdaq Stockholm) | <€100M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: RF ICs and radar sensor chips — mmWave radar chips, 5G chipsets, radar-on-chip for automotive/industrial sensing. Development stage; ongoing losses. No stable earnings floor. |
+
+### Park / Uncertain
+
+| Ticker | Company | Cap | Date | Notes |
+|--------|---------|-----|------|-------|
+| EIP.OL | Elliptic Labs ASA (Oslo Bors) | ~NOK 500-900M (~€50-80M) | 2026-07-27 | **PARK 5/12**: Software AI sensor algorithms (proximity and presence detection via ultrasonic sensing — AI INNER platform replacing hardware IR sensors in smartphones); revenue $11.6M FY2024; NI $0.8M (marginally profitable). Cap in range. Software GM very high (~80-90%+). BUT: extreme OEM customer concentration (2-3 smartphone OEMs = ~100% revenue; likely Samsung-dominated); one design-in/design-out decision = binary revenue outcome; floor quality near-zero; catalyst unpredictable (OEM design cycles 18-24mo). Score 5/12 (moat 1, quality 1, coverage 2, valuation 1, catalyst 0, floor 0). Revisit if: revenue diversifies to ≥5 OEM customers AND ARR > $25M. |
+| EFO1V.HE | Efore Oyj (Nasdaq Helsinki) | ~€20-40M | 2026-07-27 | **PARK (marginal, GM uncertain)**: Custom power supplies for telecom, medical, industrial applications; Finland-based; historical Powertech + Poweregem + Powernet acquisitions building niche installed base. Cap in range. Marginal profitability (near-breakeven). GM uncertain — custom power supply manufacturers typically 30-40% (below ≥45% gate) but medical-grade specialization could push higher. Insufficient filing-anchored data to gate definitively. Revisit if: confirmed GM ≥45% filing-anchored + sustained profitability ≥2 years. |
+
+**Structural finding — Sector 11 4th pass Nordic (0 new QUEUED → 2nd consecutive 0-new pass → EXHAUSTED):**
+Nordic electrical/power components structurally identical to UK/DACH pattern: (a) Large-cap quality dominates (Vaisala €1.75B, OEM International €1.75B, HMS Networks €600-900M, AQ Group $1.98B, NKT large-cap) — all quality businesses but all SIZE_KILL; (b) EMS low-GM trap (Kitron, Scanfil = 10-15% GM); (c) Defense crossover distorts cap and mandate (Invisio, Kitron — Nordic rearmament 2026); (d) Best smaller names are pre-profitable (poLight, Sivers) or development-stage; (e) Distribution/services fill the mid-cap gap at wrong GM (Momentum, NTG, Prevas). Sector 11 marked EXHAUSTED after 4 passes (2 consecutive 0-new: UK/DACH #65 + Nordic #67). Revive only with Japan/Korea deep specialty electrical components lens.

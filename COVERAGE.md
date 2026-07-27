@@ -980,3 +980,55 @@ Profitable specialty pharma with a named first-and-only regulatory moat in the $
 **Structural finding verdict: 1st consecutive 0-new pass (US geo lens).** Sector 19 3rd pass complete. Two consecutive 0-new passes needed to mark Sector 19 EXHAUSTED for this geo lens.
 
 **Sector 19 status: ACTIVE — 1st consecutive 0-new pass (US Nasdaq/NYSE geo lens). Need 2 consecutive for EXHAUSTED (this geo lens). Next pass: Sector 19 4th pass with new geo lens (non-US: UK AIM specialty pharma not yet covered, or ASX biotech secondary, or Euronext specialty MedTech).**
+
+---
+
+## Sector 11 — Electrical & Power Components — 4th Pass: Nordic / Oslo Bors / Nasdaq First North (Run #67, 2026-07-27)
+
+**Geo lens:** Norway Oslo Bors + Nasdaq First North Sweden/Finland/Denmark + Euronext Growth Oslo  
+**Names processed:** ~18  
+**New QUEUED:** 0  
+**Consecutive 0-new pass count:** 2 (UK/DACH run #65 + Nordic run #67) → **Sector 11 EXHAUSTED**
+
+### Names Triaged
+
+| Ticker | Exchange | Verdict | Reason |
+|--------|----------|---------|--------|
+| HMSI.ST (HMS Networks) | Nasdaq Stockholm | SIZE_KILL | ~€600-900M cap >> ceiling; already in SEEN (run #39 as HMS.ST) |
+| AQ.ST (AQ Group) | Nasdaq Stockholm | SIZE_KILL | ~$1.98B cap above ceiling |
+| OEM-B.ST (OEM International) | Nasdaq Stockholm | SIZE_KILL | ~€1.75B cap; also LOW_GM (distribution); already SEEN (run #52) |
+| VAIAS.HE (Vaisala) | Nasdaq Helsinki | SIZE_KILL | ~€1.75B cap; very high quality but far above ceiling |
+| MYCR.ST (Mycronic) | Nasdaq Stockholm | SIZE_KILL | ~$6.9B cap; already SEEN (run #48) |
+| NKT.CO (NKT A/S) | Nasdaq Copenhagen | SIZE_KILL | Large-cap power cables; above ceiling |
+| IVSO.ST (Invisio) | Nasdaq Stockholm | SECTOR_KILL | Defense-primary: tactical military/LE communication headsets |
+| KIT.OL (Kitron) | Oslo Bors | LOW_GM_KILL | EMS business, GM ~10-15% |
+| SCANFL.HE (Scanfil) | Nasdaq Helsinki | LOW_GM_KILL | EMS business, GM ~10-15% |
+| COIN.ST (Concentric) | Nasdaq Stockholm | LOW_GM_KILL | Hydraulic components, GM ~30-35% |
+| MMGR.ST (Momentum Group) | Nasdaq Stockholm | LOW_GM_KILL | Distribution, thin GM |
+| NTG.OL (Nordic Technology Group) | Euronext Growth Oslo | LOW_GM_KILL | Distribution for industrial/O&G, thin GM |
+| PREV.ST (Prevas) | Nasdaq First North | NO_MOAT_KILL | Engineering services consulting; no product moat |
+| SGG.ST (Sensys Gatso) | Nasdaq Stockholm | NOT_YET_PROFITABLE_KILL | Net loss FY2025; traffic enforcement sensors |
+| PLT.OL (poLight) | Oslo Bors | NOT_YET_PROFITABLE_KILL | Development-stage tunable lens tech; pre-profitable |
+| SIVE.ST (Sivers Semiconductors) | Nasdaq Stockholm | NOT_YET_PROFITABLE_KILL | Development-stage RF/mmWave chips; ongoing losses |
+| EIP.OL (Elliptic Labs) | Oslo Bors | PARK 5/12 | Software AI sensors (ultrasonic proximity/presence); $11.6M rev; marginally profitable; but extreme OEM customer concentration + thin floor |
+| EFO1V.HE (Efore) | Nasdaq Helsinki | PARK (GM uncertain) | Custom power supplies; marginal profitability; GM unconfirmed — may be below ≥45% gate |
+
+**LOAD.L (Crestchic) resolution:** NOT_PUBLIC_KILL — acquired by Aggreko at 401p/share, scheme effective Feb 22 2023, AIM delisted. Business: loadbank hire/sale, 49-50% GM, ~£42-45M annualised revenue. M&A validates moat thesis. UNTRIAGED flag from run #65 cleared.
+
+### Structural Finding — Sector 11 EXHAUSTED
+
+Nordic electrical/power components follows the identical structural pattern to UK/DACH (run #65):
+
+1. **Large-cap quality dominates:** Vaisala (€1.75B), OEM International (€1.75B), HMS Networks (€600-900M), AQ Group ($1.98B), NKT (large-cap) are genuinely high-quality businesses — all qualify on moat/GM — but all SIZE_KILL. The sector produces great companies, just not at our size.
+
+2. **EMS low-GM trap fills the mid-cap layer:** Kitron (NOK 3.5B, 10-15% GM) and Scanfil (€350M, 10-15% GM) are the best-known Nordic industrial electronics manufacturing services names. EMS is structurally ineligible on GM.
+
+3. **Defense crossover:** Nordic rearmament 2026 is pulling electronics businesses (Kitron, Invisio) toward defense revenue — both mandate and size move unfavorably.
+
+4. **Development-stage fills the small-cap layer:** poLight, Sivers Semiconductors — genuine IP but pre-profitable, no stable floor. Elliptic Labs barely profitable with extreme OEM concentration.
+
+5. **Private equivalents:** Phoenix Contact, Wago, Schurter (DACH), and similarly structured Nordic specialty electrical component manufacturers are either private or have long been absorbed into larger groups.
+
+6. **Distribution/services fill the gap:** Momentum Group, Nordic Technology Group, Prevas — mid-cap names that appear in the sector but are distribution/consulting businesses with structural GM below the ≥45% gate.
+
+**Verdict: Sector 11 EXHAUSTED after 4 passes (1st pass UK/AIM/Continental #39, 2nd pass German XTRA/Swiss SIX #40, 3rd pass UK/DACH #65, 4th pass Nordic #67). Two consecutive 0-new-QUEUED passes.** The structural dynamic is consistent: high-quality electrical/power businesses exist but are either too large, defense-primary, EMS-margin, or private. Revive Sector 11 only with a Japan/Korea specialty electrical components lens (e.g. Japanese TSE precision power supply makers, Korean KOSDAQ sensor/power IC names).
