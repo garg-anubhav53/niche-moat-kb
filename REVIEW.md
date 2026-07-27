@@ -623,4 +623,142 @@ Files edited this run:
 - **UNIVERSE.md**: Size 223→224; HLS.TSX PARK added to inline list and universe map; MEG→ONT rename noted
 - **STATE.md**: Total runs 68→69; Universe size 223→224; Sector 18 VGO.WSE kill reason corrected; HLS.TSX added to inline list; queue note + run #69 log row appended
 - **COVERAGE.md**: Run #69 coverage notes appended
+
+---
+
+## §7 REFLECT — Run #72 (2026-07-27)
+
+**Run #72 — §7 REFLECT mandatory (72%3=0). Bench has 33 names. Sector 18 4th pass US geo lens this run.**
+
+### 1. Full Bench Re-Price (all 33 names — all prices ~ web-search; snapshot.py proxy-blocked)
+
+All prices updated via web-search sub-agents. Key movements and corrections:
+
+| Ticker | Prior price | New price ~ | Buy-zone | Status |
+|--------|------------|-------------|---------|--------|
+| WINA | ~$373 | ~$385-388 (Jul 17) → ~$373 (Jul 27 ~) | ≤~20-22x PE | Stable; above zone |
+| CODA | $10.00 ($112.5M cap) | ~$10.00 (~$112.5M cap) | $8-10 / ≤$107M cap | ⚠ APPROACHING — T-$5.5M from ≤$107M cap trigger; price flat since run #68 |
+| OFLX | $29.75 | $30.28 (Jul 22) | ~$190-220M cap | Minor ↑; above zone |
+| 4549.T | ~¥2,907 | ~¥2,600 range (conflicting ¥2,271-2,907) | ¥2,000-2,400 | Above zone (multiple sources conflicting; leave at ¥2,907 proxy) |
+| **6823.T** | **~¥3,585 (DATA ERROR)** | **~¥2,316** | ¥2,200-2,400 | **⚠ DATA ERROR CORRECTED → IN BUY-ZONE** (¥3,585 above 52-wk high of ¥2,918 = impossible; 52-wk range confirmed ¥1,952-2,918; current ¥2,316 within zone; CANNOT PROMOTE — ⚑non-EN + EDINET proxy-blocked) |
+| EKF.L | ~25-27p | ~25.80p | pullback/acceleration | Stable; above zone |
+| 6742.T | ~¥864 | ~¥864 | ¥720 area | Above zone; unchanged |
+| CGS.L | ~260p (DATA ERROR) | ~313p (est. post-ex-div) | ~200-230p | **DATA ERROR CORRECTED** — prior 260p was wrong; agent found pre-ex-div 326-327p; ex-div Jul 23 2026 / 14p dividend Aug 25; estimated post-ex-div ~313p; T-~83-113p from zone |
+| ETON | ~$38-42 | ~$37.50 (Jul 2) | ~$22-26 | Stable; above zone; approaching-flag remains REMOVED |
+| SMID | ~$30.28 | ~$30.28 (Jul 26) | ~$22-24 | Stable; above zone |
+| EPEN.ST | ~SEK 141-156 | ~SEK 141-156 (Jul data ⚠ conflicting) | SEK 115-130 | Above zone; quality TBD ⚑non-EN |
+| JOUT | ~$45.96 | ~$44.78-45.96 (Jul 14-15) | ~$38-40 | Stable; T-$5 to trigger |
+| RX.V | ~C$14.65 | ~C$14.65 (Jul ~) | ≤C$10-11 | Above zone; unchanged |
+| MEDI.OL | ~NOK 232 | ~NOK 226 (Jul 20) | ~$230-290M USD cap | ↓ from 232; above zone |
+| SECARE.ST | ~SEK 22.05 | ~SEK 22.05 | TBD ⚑non-EN | Stable/declining; quality/buy-zone TBD |
+| NZX:SKL | ~NZD 5.43 | ~NZD 5.43 | ~NZD 350-450M cap | Stable; above zone |
+| XRF.AX | ~A$2.28 | ~A$2.28 (recovered) | A$1.40-1.65 | Above zone; **MISSED TRIGGER — see note below** |
+| IVU.DE | ~€20.00 (~€354M) | ~€20.00-21.67 (~€354-383M) | ≤~€200-250M cap | ⚠ APPROACHING; cap declining |
+| NSSC | ~$35-37 | ~$36.67 (Jul 16) | ~$22-26 | Stable; above zone |
+| JHD.L | ~128.44p | ~128.44p | ~£200-250M cap | Stable; above zone |
+| PHO.OL | ~NOK 58.80 | ~NOK 58.80 | ≤NOK 50-55 | ⚠ APPROACHING — T-NOK 3.80; Q2 earnings Jul 29 IMMINENT (today) |
+| CUV.AX | ~A$10.24 | ~A$9-10 (conflicting ⚠) | A$6-8 | Above zone; ⚠ conflicting sources |
+| OMDA.OL | ~NOK 37.90 (AT ZONE) | ~NOK 47.00 | ≤NOK 35-40 | **OUT OF BUY-ZONE** — rallied +24% from AT-ZONE Jul 17; AT-ZONE flag REMOVED |
+| CER.L | ~1,100p (stale Jun 27) | ~1,045p (Jul 10) | ~850-900p | ↓ from stale Jun 27 data; T-~145p from zone |
+| TSTL.L | ~400-450p | ~400p (Jul 3) | ~220-260p / ~£130-155M cap | Above zone; OPH catalyst fired; new catalyst = ORL 510(k) |
+| CPH.TO | ~C$16.39 | ~C$16.39 (Jul 16) | ≤C$11-13 | Above zone |
+| NEU.AX | ~US$1.456B cap | AUD 16.46 (~AUD 2.09B) | ~A$900M-1.1B cap | CAP_BORDERLINE; any recovery → CAP_KILL |
+| **PNV.AX** | **TBD** | **~AUD 0.855 (~AUD 873.92M cap)** | **~A$800M-1.0B (provisional)** | **FIRST PRICE — cap ~AUD 873.92M near lower bound of provisional zone; §4 baseline REQUIRED before promotion** |
+| CBOX.L | ~195p (~£89.1M) | ~202.50p (~£92.5M) | ~120-145p / ~£55-65M cap | Slight ↑; above zone |
+| NDAP.AS | ~€87-89 | ~€101.60 (~€755M) | ~€45-53/sh (~€300-350M cap) | ⚠ SIGNIFICANT RALLY +14-17%; well above zone |
+| ALRIB.PA | ~€11.70 | ~€9.96 | €3.50-9.00 (two-tier buy-zone) | ↓ from spike; approaching €7-9/sh upper zone |
+| **SENS.SW** | **TBD** | **~CHF 57.40 (⚠ conflicting CHF 57-79)** | **CHF 500-600M cap (provisional)** | **FIRST PRICE — ⚠ conflicting; §3.5 REQUIRED** |
+
+**Key findings this bench run:**
+
+1. **6823.T IN BUY-ZONE** (data error corrected): The ¥3,585 figure was a fabrication/data-error — above the confirmed 52-wk HIGH of ¥2,918. Actual price ¥2,316 (stock down -24.56% past year) IS within the ¥2,200-2,400 buy-zone. **CANNOT PROMOTE** — ⚑non-EN primary filing required; EDINET proxy-blocked. **Flag for human review: Rion IN zone, awaiting EN filing access.**
+
+2. **OMDA.OL OUT OF BUY-ZONE**: Was AT TOP of ≤NOK 35-40 zone on Jul 17 (NOK 37.90); by Jul 27 has rallied to NOK 47.00 (+24%). AT-ZONE flag removed. §5 eligibility suspended until price retraces.
+
+3. **XRF.AX MISSED TRIGGER** (Jul 9 2026): Price dipped to A$1.74/cap A$220.64M (within zone A$1.40-1.65/A$200-235M) on Jul 9, then recovered to A$2.28 before this REFLECT run. Root cause: snapshot.py proxy-blocked prevents real-time dip catching; §7 REFLECT every-3rd-run cadence is insufficient when price volatility is high. Standing limitation — cannot resolve until snapshot.py or equivalent live price feed restored.
+
+4. **PHO.OL Q2 2026**: Q2 earnings release due today (Jul 29 2026). Q2 data not yet indexed at time of search. Results could push price below NOK 55 trigger. Monitor immediately.
+
+5. **PNV.AX first price**: AUD 0.855 / cap AUD 873.92M. Near the lower bound of provisional ~A$800M-1.0B zone. But §4 baseline NOT yet written — do NOT promote until §4 complete and Asymmetry Gate re-verified at this price.
+
+6. **CGS.L data error**: Prior 260p was pre-correction 338p that was itself an ex-div adjustment artifact. Agent confirmed 326-327p pre-ex-div; ex-div Jul 23 2026 / 14p dividend → estimated post-ex-div ~313p. True T-83-113p from 200-230p buy-zone.
+
+### 2. Deferred Queue Resolutions
+
+**(a) FRAN.L — Franchise Brands plc (AIM: FRAN) → PARK:**
+
+Resolved from QUEUED_CONDITIONAL run #71. §3.5 financial baseline from web-search agents:
+- Revenue £142.2M (+2% YoY FY2025); GM ~59-60% ✓; NM 6.3% (£9M NI) ⚠; cap ~£227M (~120p implied at 192.43M shares); ~3 analysts ~
+- Multi-brand franchise management: Metro Rod, Pirtek Europe (hydraulic hose B2B), Willow Pumps, Filta, ChipsAway, Oven Clean, Barking Mad, Azura
+- Moat: franchise royalty model + franchisee switching costs + non-discretionary services = real but thin moat. Not a niche precision moat — a franchise aggregator.
+- §4 preliminary: Q=2-3 (NM 6.3% = sub-bench; no sole-source; 3 analysts; analyst PT ~320p = 2.7x from 120p)
+- Quality: Q2-3 = sub-bench quality under v5.1 (bench requires Q≥4 + durable moat + real floor)
+- **Verdict: PARK** (NM 6.3% = Q2-3; franchise aggregator ≠ niche moat CORE bench quality; Asymmetry Gate borderline; revisit at ~80-100p / ~£150-190M cap where P/NI ~17-19x and 2x to 320p analyst PT becomes more credible from trough entry)
+
+**(b) ANP.L — Anpario plc (AIM: ANP) → CANDIDATE:**
+
+Resolved from QUEUED ~7/12 run #71. §3.5 from web-search:
+- FY2025 Rev £47.1M (+23%, beat consensus £45.5M); GM ~47-51% ✓; net cash (debt-free); 1-2 analysts ✓; cap ~£88-116M ~ (varying sources); profitable
+- Key product: Orego-Stim (oregano-based phytogenic — natural antibiotic alternative for poultry/livestock; sold 80+ countries); also Porcinol, Acid-Buf, Halamid, AmpLIPhy (new 2026)
+- Moat: proprietary phytogenic formulations; natural antibiotic-alternative regulatory tailwind (antibiotic resistance legislation); global distribution in 80+ countries; Morningstar acknowledged narrow moat
+- §4 score: Moat=2 (genuine phytogenic IP moat; distribution lock-in) / Quality=1 (GM 47-51% ✓; profitable; but NM thin ~; cap ~£95-105M) / Coverage=2 (1-2 analysts = coverage void ✓) / Valuation=1 (at ~120p not obviously cheap) / Catalyst=1 (Asia+ME growth strong; AmpLIPhy new 2026) / Floor=1 (net cash ✓ but NM thin) = **~8/12 QUEUED**
+- Asymmetry Gate: FAIL at current ~520-570p (~£95-105M cap) — analyst target ~570p = only +0-10% upside; 2x to 1,040p requires non-consensus re-rate scenario
+- Buy-zone: ~285-353p / ~£48-60M cap (entry where 2x to analyst PT ~570p opens; ~10-12x PE on trough NM = rational trough entry)
+- **Verdict: CANDIDATE** (buy-zone ~285-353p / ~£48-60M cap; add to UNIVERSE.md as CANDIDATE; monitor for pullback; FY2026 revenue + AmpLIPhy traction are key catalysts to monitor)
+
+### 3. Data Quality Audit (2 recent financial baselines sampled)
+
+**financials/OMDA.OL.md (run #57 §4 baseline):**
+- All revenue/EBITDA figures correctly sourced from English EGM filings (FY2025 Rev NOK 496M ✓, EBITDA 24% ✓)
+- GM ~63.3% correctly tagged ~ (single-source Q2 2025 Investing.com snippet; not primary-filing anchored)
+- Open items clearly disclosed: financial debt unconfirmed (IFRS 16 + earn-outs inflate nominal; actual bank debt unknown); §5 blocked until annual report PDF confirmed
+- Limitations: appropriately disclosed; trust tags correct; no fabricated claims
+- **Data quality: PASS**
+
+**financials/NSSC.md (run #65 §4 baseline per REVIEW run #66 audit):**
+- Figures correctly tagged ~ (single-source web aggregator; primary 10-K not read)
+- Services GM ~91% ✓ (plausible for high-margin subscription); net cash $115M ✓; recurring rev >50% ✓
+- C=2 cap correctly applied; open items disclosed
+- Standing limitation: FY2026 annual results (June 2026) not yet filed at time of writing
+- **Data quality: PASS (conditional — update when FY2026 10-K available)**
+
+### 4. Universe Exploration Audit — Sector 18 4th Pass US Geo Lens
+
+**20 names surfaced. 17 new to universe (RELL already seen as NO_MOAT_KILL run #54; DAIO already seen as NOT_YET_PROFITABLE_KILL run #71; OFLX already on bench).**
+
+§3/§4 triage results:
+
+| Ticker | Name | Cap | GM | Status | Kill/Route |
+|--------|------|-----|-----|--------|------------|
+| **MASS** | 908 Devices | $247M | 51% | **CANDIDATE** 7/12 | Miniaturized GXMS/HPMS; sole-source gov/defense; pre-profit 2027 target; buy-zone ≤$150-180M cap |
+| HBIO | Harvard Bioscience | $27M | 59% | PARK | Moat softer (BTX has Lonza/BioRad competition); restructuring; very small/illiquid; turnaround ≠ niche moat archetype |
+| FEIM | Frequency Electronics | $747M | 29% GAAP / 41% adj | PARK | Sole-source military space timing = Q4 moat; but GM 29% GAAP below threshold; loss year; $747M cap already prices 2029 aspirational; Asymmetry Gate FAIL |
+| RPID | Rapid Micro Biosystems | $172M | unclear | NOT_YET_PROFITABLE_KILL | Early commercial stage; deeply pre-profit; quarterly revenue $8M only |
+| POCI | Precision Optics | ~$35-50M | 23.6% | LOW_GM_KILL | GM well below 45%; micro-optics moat real but margins too thin |
+| VIAV | Viavi Solutions | $9.74B | 57.55% | CAP_KILL | Ideal moat archetype but +148% run in 2026 → $9.74B; was ideal at <$1B |
+| AZTA | Azenta | $1.23B | 44.3% | PARK | GM just below 45%; operating losses; split business |
+| CTS | CTS Corporation | $1.72B | 38.5% | CAP_SOFT_KILL | Above $1.5B cap; GM below 45% |
+| IIN | IntriCon | $221M | 27-28% | LOW_GM_KILL | GM well below 45% |
+| INVZ | Innoviz Technologies | $161M | negative | NOT_YET_PROFITABLE_KILL | Negative GM; deeply pre-profit |
+| AEVA | Aeva Technologies | ~$500-700M | unclear | NOT_YET_PROFITABLE_KILL | Pre-scale; FMCW LiDAR interesting but pre-revenue-scale |
+| OUST | Ouster | $2.4B | 43-46% | CAP_KILL | Above $1.5B |
+| PLAB | Photronics | $1.98B | 35% | CAP_SOFT_KILL | Above cap + GM below 45% |
+| ALGM | Allegro MicroSystems | $8.58B | 50% | CAP_KILL | Far too large |
+| LASR | nLIGHT | $4.1B | 33.1% | CAP_KILL | Too large + GM below 45% |
+| KN | Knowles Corporation | $3.17B | 40-43% | CAP_KILL | Too large |
+| INVE | Identiv | $89M | 17.4% | LOW_GM_KILL | GM far below 45%; sold IoT assets |
+| RELL | (already seen) | — | — | SEEN (NO_MOAT_KILL run #54) | — |
+| DAIO | (already seen) | — | — | SEEN (NOT_YET_PROFITABLE run #71) | — |
+| OFLX | (already on bench) | — | — | BENCH | — |
+
+**Structural note:** Pure-play profitable US-listed precision instruments/metrology at $20-300M cap is nearly extinct as a public company category. M&A wave 2020-2025 absorbed almost every quality name (FARO→Ametek, MTS Systems→Amphenol, NI→Emerson, Measurement Specialties→TE Connectivity). The AI/defense supercycle re-rated surviving quality names past $1.5B (VIAV $9.74B, OUST $2.4B, ALGM $8.58B). The sole quality survivor in our cap range (MASS) is pre-profit. **Sector 18 US: 4th pass = 0 new QUEUED; 1 CANDIDATE (MASS). This is the 1st consecutive 0-new pass for Sector 18 US specifically.** European lens (run #68) also found only 1 grade-C CANDIDATE (ALPM.PA). Sector 18 is structurally sparse globally at the micro-cap public equity level.
+
+### 5. Systemic Fixes Shipped This Run
+
+- **WATCHLIST.md**: 11 price updates (6823.T DATA ERROR corrected ¥3,585→¥2,316 + IN-BUY-ZONE flag; OFLX $30.28; MEDI.OL NOK 226; OMDA.OL NOK 47 OUT-OF-ZONE; CER.L 1,045p; CBOX.L 202.50p; NDAP.AS €101.60 big rally; ALRIB.PA €9.96 declined; PNV.AX AUD 0.855 FIRST PRICE; SENS.SW CHF 57.40 FIRST PRICE; CGS.L ~313p DATA ERROR corrected)
+- **STATE.md**: Total runs 71→72; Universe size 234→251; Sector 18 passes 3→4 (US lens added); FRAN.L QUEUED_CONDITIONAL→PARK; ANP.L QUEUED→CANDIDATE; MASS CANDIDATE added; 16 new Sector 18 US kills added; run #72 queue update note added
+- **UNIVERSE.md**: 17 new Sector 18 US entries; FRAN.L status updated; ANP.L status updated
+- **COVERAGE.md**: Sector 18 4th pass US geo lens notes added
+- **KILL-LIST.md**: 16 Sector 18 US 4th pass kills appended
+- **Key finding flagged for human review**: Rion (6823.T) IN buy-zone ¥2,316 — cannot promote due to ⚑non-EN + EDINET proxy-blocked; human action needed if EDINET access restored
 - **REVIEW.md**: This §7 REFLECT audit entry

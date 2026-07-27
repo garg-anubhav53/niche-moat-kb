@@ -1311,3 +1311,51 @@ See STATE.md run #71 queue update for §2B results summary.
 - Sector 14: EXHAUSTED (4 passes, 2 consecutive 0-new-QUEUED_HOT)
 - Sector 17: EXHAUSTED (4 passes, 4 consecutive 0-new)
 - Sector 18: ALPM.PA §5 COMPLETE → CANDIDATE C confirmed
+
+---
+
+### §2B Sector 18 4th Pass Kill Table (run #72, 2026-07-27)
+
+**Sector 18 4th pass geo lens:** US Nasdaq/NYSE precision instruments & sensing ($20-300M cap; profitable). All §2A tools proxy-blocked; §2B web-search only; all data tagged ~.
+
+**Result: 0 new QUEUED_HOT; 1 CANDIDATE (MASS); 16 kills (2 size, 5 cap, 2 cap-soft, 4 low-GM, 3 not-yet-profitable, 0 no-moat).**
+
+**Kill summary:**
+
+| Ticker | Company | Cap ~ | Kill Type | Key Reason |
+|--------|---------|-------|-----------|------------|
+| VIAV | Viavi Solutions | ~$9.74B ~ | CAP_KILL | Way above $300M ceiling; optical/network test instruments |
+| ALGM | Allegro MicroSystems | ~$8.58B ~ | CAP_KILL | Post-IPO re-rate; sensor ICs (Hall-effect, magnetic) |
+| LASR | nLIGHT | ~$4.1B ~ | CAP_KILL | Laser manufacturing; well above ceiling |
+| KN | Knowles Corporation | ~$3.17B ~ | CAP_KILL | MEMS microphones + precision capacitors; above ceiling |
+| OUST | Ouster | ~$2.4B ~ | CAP_KILL | LiDAR sensor post-merger; above ceiling |
+| PLAB | Photronics | ~$1.98B ~ | CAP_SOFT_KILL | $1.98B cap + 35% GM — fails ≥45% GM gate; photomask specialist |
+| CTS | CTS Corporation | ~$1.72B ~ | CAP_SOFT_KILL | $1.72B cap; sensors/actuators for automotive/industrial; dual kill: cap + moat-soft |
+| RPID | Rapid Micro Biosystems | ~$172M ~ | NOT_YET_PROFITABLE_KILL | GM pre-profit; automated sterility testing; genuine SWITCHING_COST moat (pharma line release qualification) but losses continue; quality=0 |
+| AEVA | Aeva Technologies | pre-profit ~ | NOT_YET_PROFITABLE_KILL | FMCW LiDAR; technology interesting but no revenue/profit floor |
+| INVZ | Innoviz Technologies | negative GM ~ | NOT_YET_PROFITABLE_KILL | Solid-state LiDAR (BMW OEM design-win) but negative GM = structural not cyclical |
+| POCI | Precision Optics Corporation | ~$35-50M ~ | LOW_GM_KILL | 23.6% GM — well below ≥45% gate; contract optical assembly |
+| IIN | Intelligent Systems | ~$27-28M GM ~ | LOW_GM_KILL | 27-28% blended GM — fails ≥45% gate; payment processing SaaS mixed with lower-margin services |
+| INVE | Identiv | ~17.4% GM ~ | LOW_GM_KILL | 17.4% GM — severely below gate; RFID/IoT physical security reader hardware + software; hardware drags GM |
+| AZTA | Azenta | losses ~ | PARK | 44.3% GM ✓; semiconductor automation (Brooks Automation spin) + genomics storage; GM passes gate BUT operating losses ongoing; complex restructuring; $1.5B+ cap at cycle peak — revisit if: profitable + cap <$300M |
+| HBIO | Harvard Bioscience | ~$27M cap ~ | PARK | 59% GM ✓ impressive; scientific instruments (electrophysiology, perfusion, spectrophotometry); BUT $27M cap = below $20M threshold after adjusting for thin float; micro-micro-cap with minimal analyst coverage and highly illiquid; revisit if cap recovers to $30-50M+ with stable earnings |
+| FEIM | Frequency Electronics | ~$747M GM 29% ~ | PARK | Defense timing/frequency electronics (GPS disciplined oscillators, frequency standards for military); 29% GM fails gate; gov-contract revenue lumpiness; above $300M cap |
+
+**Survivor entering §4:**
+
+| Ticker | Company | Status | Routing |
+|--------|---------|--------|---------|
+| MASS | 908 Devices | CANDIDATE 7/12 | ~$247M cap ~; 51% GM ✓; niche mass spectrometry (handheld/desktop portable MS); SWITCHING_COST + proprietary platform; Asymmetry Gate FAIL at current cap ~$247M; buy-zone ≤$150-180M cap (~$9-11/sh); not yet profitable |
+
+**Structural note — US precision instruments $20-300M profitable nearly extinct:** The M&A wave (2015-2024) absorbed virtually all sub-$300M profitable US precision instrument companies (Danaher, Ametek, Fortive, Roper acquisition patterns). Remaining US-listed names are either: (a) re-rated past $300M ceiling (VIAV, ALGM, etc.), (b) development-stage unprofitable (RPID, AEVA, INVZ), (c) low-GM service/assembly shops (POCI, INVE), or (d) defense contractors with lumpy revenue (FEIM). Pure-play profitable small-cap US companies in interferometry, flow measurement, and spectroscopy are almost entirely private. **Revive Sector 18 only with: Japan primary lens (EDINET access restored); Germany/Switzerland Mittelstand instruments (XETRA/SIX with EN 20-F or EN annual summaries); or Australian ASX specialist instruments (AU micro-cap instruments).**
+
+---
+
+### Coverage Statistics Update (run #72, final)
+
+- Universe: 251 (+17 this run: 1 CANDIDATE MASS, 2 PARK HBIO/FEIM, 3 NOT_YET_PROFITABLE_KILL, 1 LOW_GM_KILL POCI, 5 CAP_KILL, 2 CAP_SOFT_KILL, 1 LOW_GM_KILL IIN, 1 LOW_GM_KILL INVE, 1 PARK AZTA; +FRAN.L→PARK, ANP.L→CANDIDATE resolved)
+- Quality Bench (WATCHLIST.md): 33 names (PNV.AX + SENS.SW added conditional this run)
+- CANDIDATE confirmed this run: ANP.L (8/12; buy-zone ~285-353p/£48-60M cap); MASS/908 Devices (7/12; buy-zone ≤$150-180M cap)
+- Sector 18: 4th pass US geo lens complete; 0 new QUEUED_HOT; 1 CANDIDATE MASS; structural finding: profitable US precision instruments $20-300M cap category nearly extinct due to M&A wave
+- §7 REFLECT complete (mandatory run #72 = 72%3=0): bench re-priced 33 names; 6823.T IN BUY-ZONE (⚑non-EN); OMDA.OL OUT; XRF.AX missed dip trigger; PHO.OL Q2 imminent
+- Deferred queue resolved: FRAN.L → PARK (NM 6.3%; franchise aggregator); ANP.L → CANDIDATE 8/12

@@ -3146,3 +3146,52 @@ The following names were killed during enumeration before detailed triage (cover
 - Sector 14: 4th pass → 0 new consumer brand franchise licensors → 2nd consecutive 0-new → **EXHAUSTED**
 - Sector 17: 4th pass → 0 new semi/electronics supply chain → 4th consecutive 0-new → **EXHAUSTED**
 - Survivors from §2B sweep sent to triage: FRAN.L → QUEUED_CONDITIONAL (coverage ambiguous 3-5; if ≤4 from primary AIM filing → QUEUED §4; if 5+ → COVERAGE_KILL); ANP.L → QUEUED ~7/12 (belongs Sector 7 B2B agri-nutrition, not Sector 14)
+
+---
+
+## Run #72 — 2026-07-27 · Sector 18 4th Pass US Nasdaq/NYSE (precision instruments & sensing)
+
+**§2B web-search sweep (all §2A tools proxy-blocked). 16 kills + 1 CANDIDATE (MASS, not killed).**
+
+### CAP_KILLs (5)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| VIAV | Viavi Solutions | 18 — precision instruments/test | ~$9.74B ~ | 2026-07-27 | CAP_KILL — far exceeds $300M ceiling; optical/network test + instruments; well-covered large-cap |
+| ALGM | Allegro MicroSystems | 18 — sensor ICs | ~$8.58B ~ | 2026-07-27 | CAP_KILL — Hall-effect + magnetic sensor ICs; post-IPO re-rate; no sub-$300M entry point |
+| LASR | nLIGHT | 18 — industrial laser | ~$4.1B ~ | 2026-07-27 | CAP_KILL — laser manufacturing (fiber/semiconductor lasers for defense/industrial); above ceiling |
+| KN | Knowles Corporation | 18 — MEMS sensors | ~$3.17B ~ | 2026-07-27 | CAP_KILL — MEMS microphones + precision capacitors; defense/med/consumer; above ceiling |
+| OUST | Ouster | 18 — LiDAR | ~$2.4B ~ | 2026-07-27 | CAP_KILL — LiDAR sensor (post Velodyne merger 2023); above ceiling |
+
+### CAP_SOFT_KILLs (2 — cap + additional failing factor)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| PLAB | Photronics | 18 — photomasks | ~$1.98B ~ | 2026-07-27 | CAP_SOFT_KILL — $1.98B cap (above ceiling) + 35% GM (below ≥45% gate); photomask specialist for chip/FPD manufacturing; dual kill |
+| CTS | CTS Corporation | 18 — sensors/actuators | ~$1.72B ~ | 2026-07-27 | CAP_SOFT_KILL — $1.72B cap (above ceiling); sensors + actuators for auto/industrial/medical; moat-soft (broad ODM competition); dual kill |
+
+### NOT_YET_PROFITABLE_KILLs (3)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| RPID | Rapid Micro Biosystems | 18 — pharma bioburden testing | ~$172M ~ | 2026-07-27 | NOT_YET_PROFITABLE_KILL — automated growth-based rapid sterility testing (CGMP pharma release); genuine SWITCHING_COST moat (line release qualification = locked-in); GM positive but net losses ongoing; quality=0; revisit if 2 consecutive Qs net income positive + cap ≤$150M |
+| AEVA | Aeva Technologies | 18 — FMCW LiDAR | pre-profit ~ | 2026-07-27 | NOT_YET_PROFITABLE_KILL — FMCW LiDAR technology (differentiating velocity detection vs ToF); no revenue floor; development stage |
+| INVZ | Innoviz Technologies | 18 — solid-state LiDAR | negative GM ~ | 2026-07-27 | NOT_YET_PROFITABLE_KILL — solid-state LiDAR (BMW OEM design-win); negative GM = structural (not cyclical); hardware cost above revenue per unit |
+
+### LOW_GM_KILLs (4)
+
+| Ticker | Company | Sector | GM ~ | Kill Date | Kill Reason |
+|--------|---------|--------|------|-----------|-------------|
+| POCI | Precision Optics Corporation | 18 — contract optical assembly | ~23.6% ~ | 2026-07-27 | LOW_GM_KILL — 23.6% GM; contract optical lens/assembly (defense/medical optics); below ≥45% gate; assembly/manufacturing economics, not IP-owning niche |
+| IIN | Intelligent Systems | 18 — payment tech/fintech | ~27-28% ~ | 2026-07-27 | LOW_GM_KILL — 27-28% blended GM; payment processing SaaS + services; sector misfit (not precision instruments); below ≥45% gate |
+| INVE | Identiv | 18 — RFID/IoT security | ~17.4% ~ | 2026-07-27 | LOW_GM_KILL — 17.4% GM; RFID/IoT physical security reader hardware + embedded software; hardware revenue severely drags blended GM below gate |
+| AZTA | Azenta | 18 — semi automation/genomics | losses ~ | 2026-07-27 | PARK (not LOW_GM_KILL) — 44.3% GM passes gate BUT operating losses + restructuring + $1.5B+ peak cap; see PARK table; kill conditional on continued losses |
+
+### PARKs — Not killed, not QUEUED (2 structural parks)
+
+| Ticker | Company | Sector | Status | Park Reason |
+|--------|---------|--------|--------|-------------|
+| HBIO | Harvard Bioscience | 18 — scientific instruments | PARK | 59% GM ✓; BUT ~$27M cap = below effective $30M floor for investable liquidity; revisit if cap $30-50M+ with 2 quarters stable profitability |
+| FEIM | Frequency Electronics | 18 — defense timing/frequency | PARK | Defense frequency standards/oscillators (GPS-disciplined, military-spec); 29% GM fails gate; gov-contract revenue lumpiness; ~$747M cap also above ceiling |
+
+**Run #72 Sector 18 US kill tally: 5 CAP_KILL + 2 CAP_SOFT_KILL + 3 NOT_YET_PROFITABLE_KILL + 3 LOW_GM_KILL + 1 PARK(AZTA) + 2 PARK = 16 killed/parked; 1 CANDIDATE (MASS 7/12)**
