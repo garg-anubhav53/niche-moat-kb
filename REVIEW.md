@@ -406,3 +406,77 @@ Under v5.1, Coverage and Cap are ROUTERS not KILLERS for Q≥4. Two names from p
 - UNIVERSE.md: Universe size 105→125; rotation cursor updated; 20 new names added.
 - COVERAGE.md: Sector 9 2nd pass US section added.
 - KILL-LIST.md: Run #60 Sector 9 2nd pass US kills appended (21 names).
+
+---
+
+## §7 REFLECT — Run #63 (2026-07-27)
+
+**Mandatory REFLECT (63 % 3 = 0). Bench now has 26 names (25 prior + TSTL.L added this run).**
+
+**1. Full bench re-price (all 25 pre-existing entries; all prices tagged ~; TSTL.L is new, price TBD):**
+
+| Ticker | New price ~ | Buy-zone | Status |
+|--------|------------|---------|--------|
+| WINA | ~$386 | ≤~20-22x PE | Stable; above zone |
+| CODA | ~$11.78 (~$132M cap) | $8-10 / ≤$107M cap | ↑+20% from $9.84; ABOVE zone; approaching-note REMOVED |
+| OFLX | ~$29.75 | ~$190-220M cap | Stable; above zone |
+| 4549.T | ~¥2,354 | ¥2,000-2,400 | ⚠ **IN BUY-ZONE** — EDINET proxy-blocked; §5 still blocked pending proxy fix |
+| 6823.T | ~¥3,453 | ~¥2,200-2,400 | Slight ↓; above zone |
+| ETON | ~$42.32 | ~$22-26 | Stable; above zone |
+| SMID | ~$30.28 | ~$22-24 | Stable; above zone |
+| EPEN.ST | ~SEK 97-99 | SEK 115-130 | BELOW zone lower boundary (SEK 97-99 < SEK 115); BUT quality not confirmed → DO NOT promote; monitor |
+| JOUT | ~$44.78 | ~$38-40 | Slightly below zone upper bound; T-$4.78 to trigger |
+| RX.V | ~C$14.50 | ≤C$10-11 | Above zone |
+| MEDI.OL | ~NOK 226 | ~$230-290M USD cap | Above zone |
+| CGS.L | ~260p | ~200-230p | Stable; T-30-60p from zone |
+| 6742.T | ~¥864 | ~¥720 | Above zone |
+| SECARE.ST | ~SEK 22.05 | TBD ⚑non-EN | Declining; quality/buy-zone still TBD pending Swedish filing |
+| NZX:SKL | ~NZD 5.43 (~NZD 1.05B) | ~NZD 350-450M cap | Declining; well above zone |
+| XRF.AX | ~A$2.28 | A$1.40-1.65 | T-A$0.63 from upper bound; above zone |
+| IVU.DE | ~€18-20 (~€310-345M cap) | ≤~€200-250M cap | ⚠ APPROACHING (price ≤€20 but cap still ~€310-345M above ≤€250M trigger; NOT fired) |
+| NSSC | ~$35-37 | ~$22-26 | Stable; well above zone |
+| JHD.L | ~128.44p | ~£200-250M cap | ⚠ APPROACHING (Jul 22 low ~119p confirmed below zone; recovered; revenue stabilization condition NOT met) |
+| PHO.OL | ~NOK 59.2 | ≤NOK 50-55 | ⚠ APPROACHING (T-NOK 4-9 from trigger; declining from NOK 64.1) |
+| CUV.AX | ~A$9.13-10.20 | A$6-8 | Slight pullback; above zone |
+| OMDA.OL | ~NOK 39 | ≤NOK 35-40 | ⚠ **IN/AT BUY-ZONE** — annual report PDF 403-blocked; §5 still blocked pending proxy fix |
+| CER.L | ~1,070p (~£315.9M cap) | ~850-900p / ~£250-265M cap | Above zone; §3.5 COMPLETE this run |
+| TSTL.L | ⚠ PRICE CHECK REQUIRED | TBD | NEW — added this run; last known ~£215-220M cap from UNIVERSE; buy-zone TBD |
+
+**Buy-zone triggers active:** 4549.T IN zone; OMDA.OL IN/AT zone. Both blocked by proxy (EDINET / annual report PDF). No bench promotions this run. PHO.OL and IVU.DE approaching.
+
+**2. v5.1 false-negative audit — run #63:**
+
+- **TSTL.L (Tristel plc, AIM UK):** Medical device decontamination consumables (chlorine dioxide — Tristel Trio, Tristel Sporicidal). CONSUMABLE + REGULATORY moat: each device type requires specific CE/MHRA regulatory approval; hospital infection-control protocols specify Tristel by brand → formulary lock-in; hospitals repurchase on consumable cycle. 81% GM (confirmed UNIVERSE.md). Profitable; net cash. US FDA 510(k) in progress (binary catalyst for US market entry). 6 AIM analysts. **Killed run #44 under pre-v5.1 COVERAGE_KILL (6 analysts)**. Under v5.1, 6 analysts routes to bench for Q≥4 names (not KILLED). With 81% GM + regulatory+consumable moat → Q4 defensible. **ADDED TO QUALITY BENCH run #63.** Buy-zone TBD — price-check required next bench agent run; last known cap ~£215-220M.
+
+**3. CER.L §3.5 completion (run #63 key deliverable):**
+
+§3.5 agent completed with primary filing data. Key confirmed findings:
+- **Net cash £34.4M** ✓ (FY2025 year-end; zero bank debt)
+- **FCF £10.9M** ~ (OCF £13.2M − capex £2.3M; 24% FCF margin)
+- **Dilution negligible** ✓ (~0.2% options; all treasury-settled; no new equity issuances; Louis Hall Jun 2025 sale was secondary, no new shares)
+- **Revenue model CRITICAL REVISION:** NOT pure SaaS. ~35% truly recurring ARR (£19.1M support/maintenance/cloud hosting); ~65% is UPFRONT licence recognition at customer go-live (not rateable). The Omantel £42.5M deal will generate one large licence recognition event on implementation completion (expected H2 FY2026), not a spread.
+- **H1 FY2026 revenue £18.0M** (-14% YoY) — confirmed timing headwind, not demand collapse; Omantel go-live expected H2.
+- **§4 score revised 8/12** (from provisional 9/12): Business quality 2→1 (35% recurring confirmed vs. implied 100%; revenue lumpy; FCF conversion 47%). Floor quality remains 2/2 (confirmed net cash + FCF).
+- **Buy-zone confirmed: ~850-900p / ~£250-265M cap**. §5 eligible on next dip to ≤900p.
+
+**4. NTECH.ST §5 Opus adversarial pass (this run's red-team result):**
+
+Opus correctly identified that Nordtech's dental portfolio (Opus Dental, Opus Prodentus) was FABRICATED — Opus Dental is owned by Planmeca Oy (Helsinki-based dental equipment manufacturer), NOT by Nordtech. Nordtech's actual business (InfoMentor education, Thea Commerce, FinMeas, Reqtest, Benchmarking Alliance) has no dental asset. §4 moat claim rested entirely on this fabricated asset. PARK Grade D (Q2/F2/R2/C2). Confirms Opus adversarial pass is working correctly — Sonnet first-pass can invent subsidiary claims that Opus red-team catches.
+
+**5. Sector 5 TIC 1st pass (run #63) — summary:**
+
+Agent returned 25 names. Of these, the vast majority were ALREADY IN SEEN SET from prior incidental passes (killed in runs 2026-07-16 through 2026-07-27 during other sector sweeps). **New names triaged this run:**
+- **RCDO (Ricardo PLC, LSE)** — SECTOR_KILL: Defence operating segment (engineering testing for defence OEMs). ~£265M cap.
+- **TIC (TIC Solutions, NYSE)** — PARK: Post-IPO (Feb 2025, formed from NV5+Acuren merger); broad-based industrial NDT at $2.2B revenue guidance scale; not narrow-niche moat; integration execution risk.
+- **MEG (Montrose Environmental Group, NYSE)** — PARK: Environmental testing roll-up; PFAS + lab accreditation angle interesting but GM/margin structure unverified; analyst count unknown; revisit Sector 5 2nd pass.
+- **FORM (FormFactor, Nasdaq)** — SIZE_ROUTER: ~$3.12B cap, above extended zone; probe card niche moat real (35% global market share, HBM4 tailwind, IP-protected designs) but price extended at current cap. Note as quality reference; not bench-eligible until meaningful cap pullback.
+
+**Already-confirmed SEEN names re-encountered (no new entries required):** TRNS, MG, MLAB, CLB, NEOG, VREX, TISI, AEHR, COHU, COTN, JDG.L (PARK 5/12), PRV.L, EKF.L (CANDIDATE 7/12 in UNIVERSE), NCYT.L, JFS.L (James Fisher, defense → SECTOR_KILL already logged). CODA on bench; defense segment ~10% minority; primary business civilian marine inspection; KEEP on bench.
+
+**6. Systemic fixes shipped this run:**
+- WATCHLIST.md: All 25 prior entries re-priced; TSTL.L added (#26); CER.L entry updated (§3.5 complete, quality 8/12, net cash £34.4M ✓, 35% recurring confirmed); JHD.L + PHO.OL last-verified dates updated to 2026-07-27; OMDA.OL + CER.L approach/zone notes current.
+- financials/CER.L.md: Full §3.5 completion written — net cash, FCF, dilution, capex, revenue model (35% recurring clarification), H1 FY2026 data, governance notes, revised §4 8/12.
+- KILL-LIST.md: RCDO (SECTOR_KILL), TIC (PARK), MEG (PARK), FORM (SIZE_ROUTER) appended — Sector 5 1st pass new names.
+- COVERAGE.md: Sector 5 1st pass coverage notes added.
+- UNIVERSE.md: Sector 5 names (RCDO, TIC, MEG, FORM) added; universe size updated.
+- STATE.md: Total runs 62→63; Sector 5 pass count 0→1; deferred queue updated (4549.T + OMDA.OL IN zone but blocked; CER.L §3.5 complete; TSTL.L new bench); run #63 log entry added.

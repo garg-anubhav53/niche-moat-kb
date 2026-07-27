@@ -820,3 +820,48 @@ Environmental/water/waste at $20-300M cap with ≥45% GM is globally structurall
 - Next action: Sector 5 Testing/Inspection/Certification 1st pass; revisit CER.L §5 when §3.5 complete
 
 **Sector 6 status: ACTIVE (4 passes complete; 1 new survivor CER.L Bench conditional; next pass: Sector 5 1st pass or fresh geo lens).**
+
+---
+
+## Sector 5 — Testing/Inspection/Certification, 1st pass (Run #63, 2026-07-27)
+
+**Agent enumerated ~25 companies across Nasdaq/NYSE, LSE/AIM, SWX.** Majority were ALREADY IN SEEN SET from prior incidental passes (killed during other sector sweeps, primarily 2026-07-16 run #57 and 2026-07-20 run #46):
+
+**ALREADY-SEEN (confirmed in prior KB entries, no new entries needed):**
+
+| Ticker | Status | Kill/UNIVERSE date | Kill reason |
+|--------|--------|--------------------|-------------|
+| TRNS (Transcat) | KILL | 2026-07-16 | Calibration services; prior kill (cap or coverage reason logged) |
+| MG (Mistras Group) | KILL | 2026-07-27 | SIZE_KILL + SECTOR_ADJACENT (NDT services) |
+| MLAB (Mesa Labs) | KILL | 2026-07-16 | Cap graduated above limit |
+| CLB (Core Labs) | KILL | 2026-07-16 | SECTOR_KILL (oilfield) |
+| NEOG (Neogen Corp) | KILL | 2026-07-16 | SIZE_KILL (~$2-3B cap) |
+| VREX (Varex Imaging) | KILL | 2026-07-16 | Cap out of range |
+| TISI (Team Inc) | KILL | 2026-07-16 | Heavy leverage; distressed |
+| AEHR (Aehr Test) | KILL | 2026-07-21 | SIZE_KILL (~$2.2B+) |
+| COHU (Cohu Inc) | KILL | 2026-07-16 | Extended zone + not field TIC |
+| COTN.SW (Comet Holding) | KILL | 2026-07-16 | SIZE_KILL/CAP_KILL |
+| PRV.L (Porvair) | KILL | 2026-07-16+27 | NO_MOAT_KILL (35.4% GM fails ≥45% gate) |
+| NCYT.L (Novacyt) | KILL | 2026-07-16 | Post-COVID cliff; going-concern |
+| JFS.L (James Fisher) | KILL | prior | SECTOR_KILL (JFD submarine rescue/military) |
+| JDG.L (Judges Scientific) | PARK 5/12 | 2026-07-16 | UNIVERSE.md (FY2025 EPS -47%; Jefferies double-downgrade) |
+| EKF.L (EKF Diagnostics) | CANDIDATE 7/12 | 2026-07-16 | UNIVERSE.md (deep-dived; 51% GM; catalyst absent; BUY ZONE: £80M cap) |
+| CODA (Coda Octopus) | BENCH | prior | WATCHLIST bench (patented Echoscope 3D sonar; defense segment ~10% minority; keep on bench) |
+
+**Delistings/take-privates confirmed (not public investments):**
+- NVEE (NV5 Global) — merged into TIC Solutions (TIC), delisted Aug 4, 2025
+- MRL (Marlowe PLC) — acquired by Mitie for £366M EV, delisted Aug 5, 2025
+- SPT (Spirent) — acquired by Keysight, delisted Dec 2025
+- SXS (Spectris) — acquired by KKR ~£4.2B, delisted Dec 2025
+- APPS (Applus Services) — taken private TDR Capital + I Squared 2024
+
+**NEW names triaged this run:**
+
+| Ticker | Company | Triage Result | Reason |
+|--------|---------|---------------|--------|
+| RCDO.L | Ricardo PLC (LSE, ~£265M) | SECTOR_KILL | Defence engineering testing segment; hard exclusion |
+| TIC | TIC Solutions (NYSE, ~$877M-1.5B) | PARK | Broad industrial NDT; $2.2B revenue scale; integration risk; not narrow niche |
+| MEG | Montrose Environmental (NYSE, ~$807-943M) | PARK | PFAS regulatory angle interesting; GM/margins unverified (likely fails ≥45% gate for environmental services); analyst count unknown; revisit 2nd pass |
+| FORM | FormFactor (Nasdaq, ~$3.12B) | SIZE_ROUTER | Probe card niche moat real (HBM4 tailwind, IP designs); cap $3.12B above extended zone; quality reference |
+
+**Sector 5 1st pass summary:** 4 new triaged; 0 QUEUED; 1 SECTOR_KILL; 3 PARK/route. 20+ ALREADY-SEEN re-confirmed. **Sector 5 remains ACTIVE** (1st pass complete; 2nd pass should add Europe/UK geo lens — UK AIM TIC names beyond already-seen EKF/PRV/JDG; Continental European TIC like Intertek-adjacent small-caps, German DIN certification software, French environmental testing labs; also MEG §3.5 verification).

@@ -2722,3 +2722,26 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | SPA.L | Sievert Larson plc (AIM) | ~£56-80M | 2026-07-27 | **PARK**: Specialist software for professional services management (timesheet, billing, WIP management); GM ~55.5%; revenue £33.4M +3% organic; cap £56-80M in zone; thin NM; no hard-dated catalyst; not Q≥4 franchise quality (11 analysts or competitive pressure); insufficient asymmetry; PARK not QUEUED. |
 
 **Sector 6 4th pass UK AIM B2B SaaS structural conclusion: ~21 names processed (including 6 already-SEEN); 1 new QUEUED (CER.L 9/12 → Quality Bench conditional); ~12 new kills. Structural: the remaining UK AIM B2B SaaS names in $20-300M zone are either (a) large-cap SIZE_KILLs, (b) service-heavy with thin GM, (c) effectively delisted, or (d) multi-segment with diluted moat. CER.L (telecom BSS/OSS billing) is the standout quality exception — differentiated by 81.5% GM, 37% NM, record backlog £82.1M, and accelerating bookings. Sector 6 4th pass complete.**
+
+### Sector 5 — Testing/Inspection/Certification, 1st pass (Run #63, 2026-07-27)
+
+**ALREADY-SEEN names re-encountered (not new entries; confirmed in prior kills or UNIVERSE):**
+TRNS (2026-07-16), MG/Mistras (2026-07-27 latest), MLAB (2026-07-16), CLB (sector-adj kill), NEOG (2026-07-16 size), VREX (2026-07-16), TISI (2026-07-16), AEHR (2026-07-21 size), COHU (2026-07-16), COTN.SW (2026-07-16 size), PRV.L (2026-07-16+2026-07-27), NCYT.L (2026-07-16), JFS.L/James Fisher (SECTOR_KILL prior), JDG.L (UNIVERSE PARK 5/12), EKF.L (UNIVERSE CANDIDATE 7/12), CODA (WATCHLIST bench — keep; defense ~10% minority).
+
+**NEW names triaged this run:**
+
+#### Sector Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| RCDO.L | Ricardo PLC (LSE) | ~£265M (~$340M) | 2026-07-27 | **SECTOR_KILL**: Explicit "Defence" operating segment providing engineering testing services to defence OEMs. Automotive emissions/rail/energy core business is genuine TIC; defence segment triggers hard exclusion regardless of revenue share. |
+
+#### Size Router (extended zone note, not hard kill — revisit if cap corrects)
+| Ticker | Company | Cap | Date | Note |
+|--------|---------|-----|------|------|
+| FORM | FormFactor Inc (Nasdaq) | ~$3.12B | 2026-07-27 | **SIZE_ROUTER (extended zone)**: Probe card market leader (~35% global share); HBM4 AI chip test tailwind; IP-protected probe tip designs qualify per chip = sole-source per design; strong niche moat. BUT cap $3.12B = well above $1.5B extended zone threshold. Not eligible for bench until meaningful pullback. Quality reference noted. |
+
+#### Park (real moat, insufficient asymmetry / quality unverified)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| TIC | TIC Solutions Inc (NYSE) | ~$877M–$1.5B (volatile; IPO Feb 2025 at $12; ~$7 mid-2026) | 2026-07-27 | **PARK**: Formed from NV5 Global + Acuren merger (delisted NVEE). North American industrial NDT + NADCAP-accredited labs + pipeline inspection. Revenue $1.53B FY2025; guided $2.15-2.25B FY2026. Moat is real (NADCAP + ISO 17025 accreditation) but BROAD — not narrow-niche; $2.2B revenue scale removes the "overlooked niche" asymmetry. Post-merger integration execution risk. REVISIT IF: Integration proven (2 years post-IPO) + stock revisits $5-8/sh + cap ≤$600M. |
+| MEG | Montrose Environmental Group (NYSE) | ~$807-943M | 2026-07-27 | **PARK**: Environmental testing roll-up; PFAS regulatory enforcement tailwind (EPA mandates driving multi-year lab contracts); NELAP/DoD ELAP accreditation creates regulatory switching cost; DOE/EPA anchor clients (sticky government contracts). Revenue $830.5M (+19.3% FY2025). ATTRACTIVE ANGLE but: (a) GM/EBITDA margin structure unverified — environmental services typically 15-25% EBITDA, not 45%+ GM gate; (b) analyst count unknown (probably 5-8 analysts given $800M+ cap); (c) roll-up model depends on integration quality. REVISIT Sector 5 2nd pass: confirm GM ≥45% and analyst count before §4 score. |
