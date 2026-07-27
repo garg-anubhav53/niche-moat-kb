@@ -3219,3 +3219,77 @@ The following names were killed during enumeration before detailed triage (cover
 
 **Run #73 Sector 0 kill tally:** 9 new SIZE/CAP kills + 2 SECTOR_ADJACENT kills + 1 LOW_GM kill + 2 deferred + 4 already-seen = 21 names triaged; 0 new QUEUED
 
+---
+
+## Run #74 — 2026-07-27 · Sector 1 6th Pass US+European geo lens (medical dx & consumables)
+
+**§2B web-search sweep (all §2A tools proxy-blocked). 16 US kills + 4 European kills + 1 PARK. 0 new QUEUED. Sector 1 EXHAUSTED (6th pass, 2nd consecutive 0-new pass).**
+
+### SECTOR_KILLs (2)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| LPTH | LightPath Technologies | 1 — infrared optics (defense EO/IR primary) | ~$60-80M ~ | 2026-07-27 | SECTOR_KILL — defense counter-UAS targeting systems = primary revenue; ITAR-controlled optics manufacturing; hard SECTOR_KILL |
+| STRZ | Starz (Lionsgate spin-off) | 1 — entertainment/media (sector misfit) | ~$3-5B ~ | 2026-07-27 | SECTOR_KILL — premium cable/streaming entertainment network; sector misfit (entertainment media); outside scope entirely |
+
+### SECTOR_ADJACENT_KILLs (4)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| SPIR | Spire Global | 1 — satellite data analytics (sector misfit) | ~$100-150M ~ | 2026-07-27 | SECTOR_ADJACENT_KILL — orbital weather/maritime/AIS satellite data analytics; sector misfit (not medical dx); kill |
+| FDXF | (LTL trucking/freight) | 1 — freight logistics (sector misfit) | ~unknown ~ | 2026-07-27 | SECTOR_ADJACENT_KILL — LTL freight/trucking logistics; sector misfit; outside Sector 1 scope entirely |
+| PBYI | Puma Biotechnology | 1 — oncology therapeutic (sector misfit) | ~$100-150M ~ | 2026-07-27 | SECTOR_ADJACENT_KILL — neratinib/Nerlynx HER2+ breast cancer therapeutic; pharma not diagnostics; SECTOR_ADJACENT |
+| MITK | Mitek Systems | 1 — digital identity/fintech (sector misfit) | ~$200-300M ~ | 2026-07-27 | SECTOR_ADJACENT_KILL — mobile check capture + ID verification + biometric authentication for banks/fintechs; fintech not medical dx; kill |
+
+### SIZE_KILL (1)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| LMAT | LeMaitre Vascular | 1 — specialty vascular surgery supplies | ~$1.9B ~ | 2026-07-27 | SIZE_KILL — ~$1.9B cap; 6.3x above $300M ceiling; excellent business (50%+ GM, profitable, niche vascular surgical supply moat) but far exceeds cap limit |
+
+### CAP_SOFT_KILLs (2)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| CSTL | Castle Biosciences | 1 — oncology genomic dx (melanoma RNA panels) | ~$410M ~ | 2026-07-27 | CAP_SOFT_KILL — ~$410M cap above $300M ceiling; genuine moat (DecisionDx MolDX coverage + NCCN guidelines) but routed by cap; bench route v5.1 |
+| SBS.DE | STRATEC SE | 1 — IVD automation OEM (European) | ~€400-600M ~ | 2026-07-27 | CAP_SOFT_KILL — ~€400-600M cap above €300M ceiling; real IVD co-development sole-source OEM moat (bioMérieux, DiaSorin partnerships) but cap routes to bench; v5.1 bench route |
+
+### MOAT_SOFT_KILLs (4)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| RXST | RxSight | 1 — adjustable PCIOL (cataract surgery) | ~$600-800M ~ | 2026-07-27 | MOAT_SOFT_KILL — Light Adjustable Lens first-mover position threatened by Alcon competing adjustable PCIOL (NEXT IOL program); competitive durability uncertain; moat too soft |
+| HCAT | Health Catalyst | 1 — healthcare analytics software (sector misfit) | ~$250-350M ~ | 2026-07-27 | MOAT_SOFT_KILL — healthcare data analytics platform (Data OS); sector misfit (IT not dx consumables); moat soft vs Epic/Oracle/Workday; thin NM; kill |
+| ANGO | AngioDynamics | 1 — vascular access + ablation | ~$300-400M ~ | 2026-07-27 | MOAT_SOFT_KILL — legacy vascular access (PICCs, ports) in secular decline; NanoKnife reimbursement battles unresolved; moat contested; NM thin; MOAT_SOFT |
+| ALERS.PA | Eurobio Scientific | 1 — molecular dx + HLA typing (European) | ~€80-150M ~ | 2026-07-27 | MOAT_SOFT_KILL — 65% revenue = third-party distribution (dilutes manufacturing moat); NM only 2.9%; GM 45.5% (marginal pass); Q=2; moat too diluted for thesis |
+
+### NOT_YET_PROFITABLE_KILLs (3)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| MDXH | MDxHealth SA | 1 — urine genomic prostate cancer dx | ~$130M ~ | 2026-07-27 | NOT_YET_PROFITABLE_KILL — pre-profit; urine RNA genomic panels (Resolve DX, GPS) with AUA guideline reference; moat plausible but fails profitability gate; revisit if profitable 2 consecutive Qs + cap ≤$150M |
+| BDSX | Biodesix | 1 — lung nodule dx | ~$90M ~ | 2026-07-27 | NOT_YET_PROFITABLE_KILL — pre-profit; Nodify lung nodule dx platform (CMS coverage, ATS/ACCP guideline embedding); moat plausible but fails profitability gate |
+| ICAD | iCAD | 1 — AI mammography dx | ~$70-100M ~ | 2026-07-27 | NOT_YET_PROFITABLE_KILL — pre-profit; ProFound AI mammography cancer detection (FDA-cleared, RadNet captive install base); moat plausible but fails profitability gate |
+
+### DEVELOPMENT_STAGE_KILLs (2)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| GALT | Galectin Therapeutics | 1 — clinical-stage pharma (sector misfit) | ~$50M ~ | 2026-07-27 | DEVELOPMENT_STAGE_KILL — galectin-3 inhibitor (belapectin) for NASH cirrhosis; Phase 2/3; no revenue; sector misfit (pharma not dx); development-stage; fails all gates |
+| OCEA | Ocean Biomedical | 1 — clinical-stage biomedical | ~$50-100M ~ | 2026-07-27 | DEVELOPMENT_STAGE_KILL — clinical-stage biomedical (malaria, IPF); pre-revenue; development-stage; fails all gates |
+
+### NOT_PUBLIC_KILLs (2)
+
+| Ticker | Company | Sector | Notes | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| IDS.L | Immunodiagnostic Systems | 1 — vitamin D + specialist immunoassay (AIM London) | ~£40-80M cap (historical) ~ | 2026-07-27 | NOT_PUBLIC_KILL — possibly acquired by PerkinElmer; AIM delisting likely; public status unverifiable; genuine niche vitamin D assay moat (IDS-iSYS platform) but not independently listed |
+| RBPH.DE | R-Biopharm AG | 1 — food safety + allergen testing reagents (XETRA) | ~€100-200M cap (historical) ~ | 2026-07-27 | NOT_PUBLIC_KILL — taken private ~2018; no longer XETRA-listed; genuine REGULATORY moat (AOAC-validated food allergen reference methods, EU allergen regulation) but not accessible as public equity |
+
+### PARK (1 — post-COVID profitability unverified)
+
+| Ticker | Company | Sector | Cap ~ | Park Date | Park Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| ALBSYX.PA | Biosynex SA | 1 — rapid antigen tests (Euronext Growth) | ~€30-80M ~ | 2026-07-27 | PARK — rapid antigen test manufacturer (COVID, flu, RSV); COVID windfall unwound; FY2025 post-COVID normalized profitability unverified; lateral flow manufacturing capability = plausible moat; revisit when FY2025 full-year results confirm NM ≥5% sustained + non-COVID revenue >50% |
+
+**Run #74 Sector 1 kill tally:** 2 SECTOR_KILLs + 4 SECTOR_ADJACENT_KILLs + 1 SIZE_KILL + 2 CAP_SOFT_KILLs + 4 MOAT_SOFT_KILLs + 3 NOT_YET_PROFITABLE_KILLs + 2 DEVELOPMENT_STAGE_KILLs + 2 NOT_PUBLIC_KILLs + 1 PARK = 21 names triaged; 0 new QUEUED; Sector 1 EXHAUSTED (6th pass, 2nd consecutive 0-new pass — US profitable medical dx $20-300M structurally thin; development-stage dominates micro-cap; European dx moats privatized/acquired)
+
