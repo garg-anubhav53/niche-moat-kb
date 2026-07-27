@@ -2745,3 +2745,33 @@ TRNS (2026-07-16), MG/Mistras (2026-07-27 latest), MLAB (2026-07-16), CLB (secto
 |--------|---------|-----|------|------------|
 | TIC | TIC Solutions Inc (NYSE) | ~$877M–$1.5B (volatile; IPO Feb 2025 at $12; ~$7 mid-2026) | 2026-07-27 | **PARK**: Formed from NV5 Global + Acuren merger (delisted NVEE). North American industrial NDT + NADCAP-accredited labs + pipeline inspection. Revenue $1.53B FY2025; guided $2.15-2.25B FY2026. Moat is real (NADCAP + ISO 17025 accreditation) but BROAD — not narrow-niche; $2.2B revenue scale removes the "overlooked niche" asymmetry. Post-merger integration execution risk. REVISIT IF: Integration proven (2 years post-IPO) + stock revisits $5-8/sh + cap ≤$600M. |
 | MEG | Montrose Environmental Group (NYSE) | ~$807-943M | 2026-07-27 | **PARK**: Environmental testing roll-up; PFAS regulatory enforcement tailwind (EPA mandates driving multi-year lab contracts); NELAP/DoD ELAP accreditation creates regulatory switching cost; DOE/EPA anchor clients (sticky government contracts). Revenue $830.5M (+19.3% FY2025). ATTRACTIVE ANGLE but: (a) GM/EBITDA margin structure unverified — environmental services typically 15-25% EBITDA, not 45%+ GM gate; (b) analyst count unknown (probably 5-8 analysts given $800M+ cap); (c) roll-up model depends on integration quality. REVISIT Sector 5 2nd pass: confirm GM ≥45% and analyst count before §4 score. |
+
+### Sector 5 — Testing/Inspection/Certification, 2nd pass UK/Europe (Run #64, 2026-07-27)
+
+**Geo lens:** UK LSE/AIM + Euronext Growth Oslo + Nasdaq First North Stockholm + Continental European TIC (French environmental testing, German DIN/certification, Scandinavian inspection services)
+
+**Structural finding: PE has absorbed virtually all European mid-market TIC.** Normec (~€2B, Astorg PE), Phenna (Oakley Capital), Kiwa (private), Socotec (Cobepa), Apave (acquired by Bureau Veritas Jan 2025 for €1.3B), Element Materials Technology (private), LGC Group (private). The listed small-cap European TIC opportunity set is essentially empty.
+
+**NEW names triaged this run:**
+
+#### Divestiture Kills (TIC thesis extinguished by corporate action)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| ININ | ININ Group AS (Euronext Growth Oslo) | ~NOK 388M (~$36M) | 2026-07-27 | **DIVESTITURE_KILL**: ININ Group (via its subsidiary Qben Infra) sold Nordic Inspekt Group AB — its entire TIC platform (NDT inspection, rope-access, Norway/Sweden/Finland operations) — to Framheim Capital Partners AS for 150M SEK in April 2026. Post-divestiture, ININ Group operates only Rail and Power infrastructure. TIC thesis gone. Pre-divestiture Nordic Inspekt was the only meaningful Nordic small-cap TIC roll-up. NOT viable as a TIC investment. |
+| QBEN | Qben Infra AB (Nasdaq First North Premier Stockholm) | ~894M SEK (~$84M) | 2026-07-27 | **DIVESTITURE_KILL**: Qben Infra listed Nov 2024 as parent of Nordic Inspekt Group TIC platform. Divested Nordic Inspekt Group to Framheim Capital Partners alongside ININ Group in April 2026. Post-divestiture, Qben refocusing on power infrastructure (grid/energy transition services). Not a TIC play. If Nordic Inspekt ever re-lists or Framheim seeks an exit, revisit. |
+
+#### Park confirmed (§3.5 financial baseline)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| MEG | Montrose Environmental Group (NYSE) | ~$790-943M | 2026-07-27 | **PARK CONFIRMED §3.5**: GM 40.3% < 45% gate confirmed (run #63 partial §3.5 indicated unverified; run #64 scout confirms 40.3% gross margin from FY2025 annual results). Generic environmental roll-up ($830.5M FY2025 revenue); remediation/assessment/lab mix dilutes GM. NELAP/DoD ELAP accreditation creates some switching cost but moat is broad not narrow-niche. PARK maintained. |
+
+#### Already-SEEN bench confirmation
+| Ticker | Company | Notes |
+|--------|---------|-------|
+| TSTL.L | Tristel plc (AIM) | **ALREADY-SEEN BENCH (confirmed run #64)**: Added to Quality Bench run #63 (v5.1 false-negative — 6 AIM analysts, 81% GM, regulatory+consumable moat). Not a new find this run. Buy-zone set run #64: ~220-260p / ~£130-155M cap. |
+
+#### New QUEUED candidates (survive §3 triage — TIC-adjacent)
+| Ticker | Company | Cap | Date | Notes |
+|--------|---------|-----|------|-------|
+| AT. | Ashtead Technology Holdings (LSE Main Market) | ~£380M (~$482M) | 2026-07-27 | **QUEUED 8/12**: Specialist subsea equipment rental (survey, robotics, mechanical solutions) + Asset Integrity (NDT, IRM, remote visual inspection) for offshore energy. 77% GM; 29.1% adjusted EBITA margin; revenue £203.2M FY2025 (+21% YoY — mostly acquisition-driven; ~3% organic). 9 acquisitions since 2017; largest in niche. §3 triage: Sector PASS (Asset Integrity = TIC-adjacent inspection services); Moat PASS (specialist equipment, largest in niche, sticky clients); Cap PASS (£380M barely under $500M); Coverage PASS (not in SEEN); Integrity PASS (LSE Main Market). §4 promise ~8/12 QUEUED (not QUEUED_HOT): moat real but organic growth only 3% and cap approaching upper threshold; §5 deferred. Financials needed: EBIT (not just EBITA), net debt (M&A-driven = likely levered), FCF. |
+| CLX | Calnex Solutions (AIM:CLX) | ~£41.4M (~$53M) | 2026-07-27 | **QUEUED 8/12**: Proprietary precision test and measurement instruments for telecom timing synchronisation and network performance (5G, 800Gb/s datacenter, cloud). Products address mandatory regulatory compliance for timing in telecom networks (IEEE 1588, ITU-T G.8273). Revenue £21.9M FY2025 (+19% YoY); 76% GM; cap £41.4M (~1.9x revenue for 76% GM business). Expanding into defence/government and datacenters beyond core telecom. §3 triage: Sector PASS (test equipment for mandatory telecom compliance = TIC-adjacent); Moat PASS (proprietary timing test instruments, switching costs once integrated into vendor test suites); Cap PASS (£41M); Coverage PASS; Integrity PASS (AIM-listed, UK, audited). §4 promise ~8/12 QUEUED: compelling cheapness (76% GM at 1.9x revenue) but telecom capex cyclical (company flagged "challenging telecoms market"); no hard-dated catalyst; §5 deferred pending full §4 EBIT/net cash baseline. |

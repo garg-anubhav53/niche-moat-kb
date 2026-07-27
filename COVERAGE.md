@@ -865,3 +865,38 @@ Environmental/water/waste at $20-300M cap with ≥45% GM is globally structurall
 | FORM | FormFactor (Nasdaq, ~$3.12B) | SIZE_ROUTER | Probe card niche moat real (HBM4 tailwind, IP designs); cap $3.12B above extended zone; quality reference |
 
 **Sector 5 1st pass summary:** 4 new triaged; 0 QUEUED; 1 SECTOR_KILL; 3 PARK/route. 20+ ALREADY-SEEN re-confirmed. **Sector 5 remains ACTIVE** (1st pass complete; 2nd pass should add Europe/UK geo lens — UK AIM TIC names beyond already-seen EKF/PRV/JDG; Continental European TIC like Intertek-adjacent small-caps, German DIN certification software, French environmental testing labs; also MEG §3.5 verification).
+
+---
+
+## Sector 5 (Testing/Inspection/Certification) — Pass 2 Coverage Notes (run #64, 2026-07-27)
+
+**UK/Europe TIC geo lens + MEG §3.5 GM verification:** ~10 names processed; 2 new QUEUED (AT., CLX); 2 DIVESTITURE_KILL (ININ, QBEN); MEG confirmed PARK.
+
+**Structural finding (key): PE has absorbed virtually all European mid-market TIC.** The listed European small/mid-cap TIC space at $20-500M is nearly empty:
+- France: Apave (€1.3B — acquired BV Jan 2025), Socotec (Cobepa PE), Intertek/SGS France (large-cap)
+- Germany: TÜV SÜD, TÜV Rheinland, DEKRA — all private/foundation-owned; no listed German niche TIC under $500M found
+- Benelux: Normec (€2B, Astorg PE — leading Benelux/German TIC consolidator, private)
+- Scandinavia: Nordic Inspekt Group (the one meaningful roll-up) sold to private equity (Framheim Capital, Apr 2026); Bravida (BRAV.ST) does technical installation not TIC
+- UK: Phenna Group (Oakley Capital PE), Element Materials Technology (private), LGC Group (private), Eurofins (large-cap)
+
+**Divestiture Kills:**
+| Ticker | Company | Kill | Notes |
+|--------|---------|------|-------|
+| ININ | ININ Group AS (Euronext Growth Oslo) | DIVESTITURE_KILL | Nordic Inspekt TIC platform sold Apr 2026 to Framheim Capital Partners for 150M SEK; post-divestiture = Rail + Power only |
+| QBEN | Qben Infra AB (Nasdaq First North Stockholm) | DIVESTITURE_KILL | Same Nordic Inspekt divestiture Apr 2026; refocusing on power infrastructure grid/energy transition |
+
+**MEG §3.5 confirmed:**
+| Ticker | GM | Revenue | Conclusion |
+|--------|-----|---------|-----------|
+| MEG (Montrose Environmental, NYSE) | 40.3% ~ | $830.5M FY2025 | PARK confirmed — GM < 45% gate; generic roll-up; NELAP/DoD ELAP accreditation creates some switching cost but moat not narrow-niche at $830M scale |
+
+**New QUEUED (TIC-adjacent, survive §3 triage):**
+| Ticker | Company | Cap | GM | Notes |
+|--------|---------|-----|----|-------|
+| AT. | Ashtead Technology Holdings (LSE) | ~£380M ~ | 77% ~ | Subsea equipment rental + Asset Integrity NDT; 29.1% EBITA; £203M revenue FY2025 +21% (acquisition-driven, ~3% organic); 9 acquisitions since 2017; largest in niche; §4 promise 8/12 QUEUED; §5 deferred pending EBIT/net debt full baseline |
+| CLX | Calnex Solutions (AIM) | ~£41M ~ | 76% ~ | Telecom timing test equipment for 5G/800Gb mandatory compliance; £21.9M revenue +19% YoY; §4 promise 8/12 QUEUED; §5 deferred pending full §4 EBIT/net cash baseline |
+
+**Not found:**
+Despite 20+ targeted searches, no viable publicly-listed French, German, or Nordic small-cap pure-play TIC company under $500M was identified in the 2025-2026 listed universe. The PE consolidation of European TIC mid-market is confirmed structurally complete at this geo lens. Sector 5 2nd pass complete.
+
+**Sector 5 status: ACTIVE (2 passes complete; 2 new QUEUED from 2nd pass UK/Europe; structural PE consolidation limits 3rd pass value unless targeting very small ASX/Nasdaq secondary names).**
