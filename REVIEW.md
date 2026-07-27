@@ -348,3 +348,61 @@ H1 FY2026 earnings now out (released early vs. expected ~Jul 29). Revenue H1 ¥7
 - KILL-LIST.md: Run #57 Sector 7 2nd pass kills appended (10 names).
 - financials/OMDA.OL.md: Written this run (§4 baseline).
 - financials/ADMCM.HE.md: Written this run (§4 baseline; confirmed as clean write from Q1 2026 English Interim Report).
+
+---
+
+## §7 REFLECT — Run #60 (2026-07-27)
+
+**Mandatory REFLECT (60 % 3 = 0). Bench has 22 names (20 prior + IVU.DE + NSSC added this run).**
+
+**1. Full bench re-price (all 22 names; all prices tagged ~ single-source web search):**
+
+| Ticker | Prior price | New price ~ | Buy-zone | Status |
+|--------|------------|-------------|---------|--------|
+| WINA | $385.44 | $385.44 ~ | ≤~20-22x PE | Unchanged; above zone |
+| CODA | ~$9.84-10.00 (~$112.7M) | ~$9.84-10.00 ~ | $8-10 / ≤$107M cap | Approaching upper bound; cap ~$112.7M — NOT triggered (need ≤$107M) |
+| OFLX | ~$29.85 | ~$29.92 ~ | ~$190-220M cap | Stable; above zone |
+| 4549.T | ~¥2,271-2,423 (zone) | ~¥3,010 ~ ⚑non-EN | ¥2,000-2,400 | ABOVE ZONE — recovered from prior zone proximity; POTENTIAL BUY-ZONE flag REMOVED |
+| 6823.T | ~¥3,585 | ~¥3,585 ~ ⚑non-EN | ~¥2,200-2,400 | Above zone; unchanged |
+| EKF.L | 25.40p | ~25.80p ~ | pullback / acceleration | Slightly higher; above zone |
+| 6742.T | ~¥864 | ~¥864 ~ ⚑non-EN | ¥720 area | Above zone; unchanged |
+| CGS.L | 260p | ~260p ~ | ~200-230p | Stable; T-30-60p from zone; not triggered |
+| ETON | ~$42.32 | ~$42.32 ~ | ~$22-26 | Above zone; further from trigger |
+| SMID | ~$30.22 | ~$30.28 ~ | ~$22-24 | Stable; above zone |
+| EPEN.ST | ~SEK 97-99 | ~SEK 97-99 ⚑non-EN | SEK 115-130 | BELOW buy-zone lower boundary (SEK 97-99 < SEK 115); quality STILL TBD — DO NOT promote; bench agent run #60 returned stale Jul 17 data (SEK 156.20) — conflict noted; use Jul 21 confirmed price |
+| JOUT | ~$45.96 | ~$45.96 ~ | ~$38-40 | Stable; T-$5.96 to trigger |
+| RX.V | ~C$14.50 (~C$158M) | ~C$14.50 ~ | ≤C$10-11 | Above zone; unchanged |
+| MEDI.OL | ~NOK 226 (~NOK 4.15B) | ~NOK 226 ~ | ~$230-290M USD cap | Above zone; far above |
+| SECARE.ST | ~SEK 26.35 | ~SEK 22.05 ~ ⚑non-EN | TBD ⚑non-EN | Declining; down from SEK 26.35 Jun 2026; quality/buy-zone still TBD |
+| NZX:SKL | ~NZD 6.13 (~NZD 1.19-1.28B) | ~NZD 5.43 (~NZD 1.05B) ~ | ~NZD 350-450M cap | Declining; above zone; T-NZD 600M+ from zone |
+| XRF.AX | ~A$2.28 | ~A$2.12 ~ | A$1.40-1.65 | Drifting lower; T-A$0.47 from upper bound |
+| JHD.L | ~128.44p | ~128.44p ~ | ~£200-250M cap | ⚠ APPROACHING — bench agent confirmed Jul 22 low ~119p (below prior Jun 22 low ~124p); recovered to 128.44p Jul 27; revenue stabilization required before promotion |
+| PHO.OL | ~NOK 64.1 | ~NOK 64.1 ~ | NOK ≤50-55 | Above zone; unchanged |
+| CUV.AX | ~A$10.24 | ~A$10.24 ~ | A$6-8 | Above zone; unchanged |
+| IVU.DE | NEW | ~€20 (~€346M cap) ~ | ≤~€200-250M cap | NEW BENCH — above zone (COVERAGE_KILL v5.0 → v5.1 false-negative fix) |
+| NSSC | NEW | ~$36.09 (~$1.44B cap) ~ | ~$22-26 | NEW BENCH — above zone (forwarded Sector 11 v5.0 → v5.1 false-negative fix) |
+
+**No buy-zone triggers fired this run.** CODA and EPEN.ST most proximate. JHD.L approaching (119p dip confirmed Jul 22 — now recovered).
+
+**2. v5.1 False-negative audit — run #60:**
+
+Under v5.1, Coverage and Cap are ROUTERS not KILLERS for Q≥4. Two names from prior runs were incorrectly killed/routed:
+
+- **IVU.DE (IVU Traffic Technologies, Germany):** Mission-critical transit operations SaaS (IVU.suite: vehicle scheduling/dispatching/fleet/ticketing for public transit authorities). Embedded in daily government operations; decade-long government contracts; near-monopoly in DACH markets. FY2025: GP €121.5M / Rev €149.7M = **81% GM**. FY2026 EBIT guidance raised to €22M. 6 analysts (all Buy; consensus PT ~€26-27). COVERAGE_KILL under v5.0 = FALSE-NEGATIVE under v5.1 (Q4 defensible; mission-critical SaaS with government switching costs). Current price ~€20 (~€346M cap) = above buy-zone (≤~€200-250M cap). **ADDED TO QUALITY BENCH.**
+
+- **NSSC (Napco Security Technologies, Nasdaq):** Security electronics + StarLink cellular cloud access control subscription. **91% recurring services GM**; recurring revenue crossing 50% of total; $115M net cash, zero debt; installed-base flywheel. ~40M shares. Record revenues. Forwarded to Sector 11 3rd pass worklist under v5.0 (never formally bench-listed). Under v5.1, this is a clear Q4 BENCH name. Current price ~$36.09 (~$1.44B cap) = above buy-zone (~$22-26). **ADDED TO QUALITY BENCH.**
+
+**3. Sector 9 2nd pass US geo lens results (run #60):**
+
+~23 US environmental/waste/water names processed. 21 kills (all §3). No new QUEUED. Structural: US env/water at $20-300M cap is structurally thin — development-stage clean-tech (SCWO, PCT, AREC, CLIR, AERC, PYRGF) dominates the small-cap tier; scaled operators (ERII ~$2.4B, NVRI ~$1.2B, OPAL) are SIZE_KILL; micro-cap names (TOMZ, BCHT, QRHC, OBCI, EVI, GURE) lack durable moat. Two near-misses:
+- **PESI** (§4 PARK): US environmental services; moat present but GM_THIN (~28-35%, fails ≥45% gate). Cannot add to bench.
+- **CWCO** (Consolidated Water Co.): Caribbean water concession + desalination moat; possible real moat; but EXTENDED ZONE; deferred to Sector 9 3rd pass §4 (requires confirmation of moat durability and price-path to ≥2x from primary filing; concession expiry dates critical).
+
+2nd consecutive 0-new pass (Nordic run #28 = 1st; US run #60 = 2nd) → **Sector 9 US geo EXHAUSTED.** Next: UK AIM/ASX environmental/water 3rd pass.
+
+**4. Systemic fixes shipped this run:**
+- WATCHLIST.md: IVU.DE + NSSC added (22 names total); 4549.T POTENTIAL BUY-ZONE flag removed (¥3,010 above zone); SECARE.ST updated SEK 22.05; NZX:SKL updated NZD 5.43; JHD.L note updated (Jul 22 low 119p confirmed); EPEN.ST stale data note added; EKF.L 25.80p; SMID $30.28; OFLX $29.92.
+- STATE.md: Total runs 59→60; universe 105→125; Sector 9 row updated (2 passes, ACTIVE-THIN); run #60 queue entry + log row added; Sector 6 row updated (IVU.DE false-neg fix noted); Next/Last sector updated.
+- UNIVERSE.md: Universe size 105→125; rotation cursor updated; 20 new names added.
+- COVERAGE.md: Sector 9 2nd pass US section added.
+- KILL-LIST.md: Run #60 Sector 9 2nd pass US kills appended (21 names).

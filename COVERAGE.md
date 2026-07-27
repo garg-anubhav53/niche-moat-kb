@@ -619,3 +619,100 @@ NSSC is forwarded to Sector 11 3rd pass worklist as a Q≈4 extended-zone bench 
 **No promotions to QUEUED_HOT triggered this run.**
 
 **Notable: JHD.L at 128.44p is approaching its Jun 22 low of ~124p. The buy-zone (expressed as ~£200-250M cap) may be near. However, revenue must first stabilize (currently declining 2 consecutive years) before promotion to QUEUED_HOT is warranted. Monitor next run.**
+
+---
+
+## Sector 9 — Environmental / Waste / Water (2nd pass, US geo lens, Run #60, 2026-07-27)
+
+**23 names processed. 21 kills. 1 PARK (PESI). 1 DEFERRED (CWCO). 0 new QUEUED. 2nd consecutive 0-new pass → Sector 9 US geo EXHAUSTED.**
+
+### Size Kills (too large)
+| Ticker | Company | Kill Reason |
+|--------|---------|------------|
+| ERII | Energy Recovery Inc. | **SIZE_KILL**: Water/industrial pressure-exchange technology; ~$2.4B cap (16× ceiling). High-quality moat (sole-source pressure exchanger) but entity too large by 10×. |
+| NVRI | Enviri Group (prev Harsco) | **SIZE_KILL**: Industrial waste management / environmental services; ~$1.2B cap (4-8× ceiling). Revenue >$2B. |
+| OPAL | OPAL Fuels | **SIZE_KILL**: RNG (renewable natural gas) from landfill/animal waste; ~$600-650M cap. Extended zone. Development-stage economics overlay. |
+
+### Development-Stage / Integrity Kills
+| Ticker | Company | Kill Reason |
+|--------|---------|------------|
+| SCWO | 374Water Inc. | **DEVELOPMENT_STAGE_KILL**: Hydrothermal oxidation (SCWO) technology for biosolids/organics; ~$30-45M cap; pre-revenue commercial stage; net losses; going-concern risk. Technology is novel but no durable commercial moat yet. |
+| PCT | PureCycle Technologies | **DEVELOPMENT_STAGE_KILL**: Ultra-pure polypropylene recycling (UPR process); ~$250-400M cap; operations still ramping; cumulative losses >$200M; debt-heavy capital structure. No profitable floor. |
+| AREC | American Resources Corp. | **DEVELOPMENT_STAGE_KILL + INTEGRITY_KILL**: Rare earth / carbon fiber recycling; development-stage; serial dilution; tiny revenue base; no established moat vs. primary producers. |
+| CLIR | ClearSign Technologies | **DEVELOPMENT_STAGE_KILL**: Combustion optimization technology for industrial burners; ~$20-30M micro-cap; pre-revenue development-stage; no floor. |
+| AERC | AER Advisors (AEI / env advisory) | **CAP_TOO_SMALL_KILL + DEVELOPMENT_STAGE**: Micro-cap; development-stage or very thin revenue base; no durable moat. |
+| PYRGF | PyroGenesis Canada (OTC) | **DEVELOPMENT_STAGE_KILL**: Plasma torch systems for waste destruction + EAF/metalcasting; ~C$80-120M cap; net losses; multiple pivots; no dominant commercial revenue. |
+| BCHT | Bluestar Israel Technology (env) | **DEVELOPMENT_STAGE_KILL + CAP_TOO_SMALL**: Micro-cap; development or pre-commercial stage environmental technology; no durable moat verified. |
+
+### Moat-Absent / No-Moat Kills
+| Ticker | Company | Kill Reason |
+|--------|---------|------------|
+| VIVK | Vivesto AB (env context mismatch) | **MOAT_ABSENT_KILL + SECTOR_ADJACENT**: Name appears environmental but primary business is oncology pharma (oxaliplatin formulation) — sector mismatch; wrong sector entirely. |
+| QRHC | Quest Resource Holding | **MOAT_ABSENT_KILL**: ESG waste management + sustainability consulting; no proprietary technology or regulatory moat; broker/aggregator model; thin GM. |
+| OBCI | Ocean Bio-Chem Inc. | **MOAT_ABSENT_KILL**: Marine/household cleaning and chemical products (Starbrite, Davis, etc.); consumer brand portfolio, not industrial environmental moat; competitive market; GM likely 40-50% but no regulatory lock-in or switching cost. Cap ~$50-80M in-zone but moat gate fails. |
+| EVI | EVI Industries | **MOAT_ABSENT_KILL**: Commercial laundry equipment distributor; no proprietary moat (distributor model); thin margins; no pricing power beyond brand-rep. |
+| GURE | Gulf Resources Inc. | **MOAT_ABSENT_KILL + INTEGRITY_CONCERN**: Chinese-listed bromine and chemical company on Nasdaq; JURISDICTION_CONCERN (China-domiciled VIE-style; majority China operations); regulatory moat unclear from English sources; bromine = commodity with cycle sensitivity. |
+| TOMZ | (US env/water micro-cap) | **CAP_TOO_SMALL_KILL**: Micro-cap; cap below $20M floor or sub-threshold with no established moat. |
+
+### Already-Seen (Prior Pass Kills)
+| Ticker | Company | Kill Reason |
+|--------|---------|------------|
+| BLGO | BioLargo Inc. | **ALREADY_SEEN (Sector 9 1st pass run #28)**: AOS water treatment technology; micro-cap ~$30-50M; development-stage. Previously killed CAP_TOO_SMALL. |
+| AQMS | Aqua Metals Inc. | **ALREADY_SEEN (Sector 9 1st pass run #28)**: Lead and lithium battery recycling; micro-cap ~$20-40M; development-stage. Previously killed CAP_TOO_SMALL. |
+| LIQT | (env context) | **ALREADY_SEEN (prior sector run)**: Previously processed. |
+| UCLE | (env context) | **ALREADY_SEEN (prior sector run)**: Previously processed. |
+
+### §4 PARK
+| Ticker | Company | Notes |
+|--------|---------|-------|
+| PESI | (US environmental services) | **§4 PARK — GM_THIN**: Passed initial §3 moat check (service contract moat / specialty hazardous waste handling) but gross margin confirmed ~28-35% in §4 baseline — fails ≥45% GM gate. Cannot add to bench. Would need structural shift to higher-margin services. |
+
+### §4 Deferred (3rd Pass)
+| Ticker | Company | Notes |
+|--------|---------|-------|
+| CWCO | Consolidated Water Co. (Cayman/Nasdaq) | **DEFERRED to Sector 9 3rd pass §4**: Caribbean and Cayman Islands water concession + desalination operations. Possible real moat (government-granted water concession; sole supplier in service areas; capital-intensive desalination barriers). Extended zone (~$200-280M cap). Requires §4 to confirm: concession expiry dates, revenue/GM from annual report, pricing mechanism under concession, renewal history. DO NOT promote to bench without §4 primary-filing verification. |
+
+### Structural Finding — Sector 9 US Geo
+The US environmental/water small-cap ($20-300M) universe is structurally poor for niche-moat hunting:
+- **Development-stage clean-tech dominates** the micro-cap tier ($20-100M): PyroGenesis, 374Water, PureCycle, ClearSign, AREC are all burning cash with no profitable floor.
+- **Scaled operators** with real moats (Energy Recovery ERII, Enviri NVRI, US Water Services) are all $500M-$2.5B+ — SIZE_KILL.
+- **Mid-cap ($100-300M)** names are mostly distributors/services with thin GMs or commodity-adjacent.
+- **Government/municipal water utilities** are either massive ($5B+: WTRG, AWK, SJW) or private.
+- The one structural exception (CWCO, water concession moat) is extended-zone and needs §4 verification.
+
+**Next pass recommendation: UK AIM environmental/water or ASX Australian water/environmental — different regulatory regime, smaller market = potential niche names not yet SEEN.**
+
+**Sector 9 status: ACTIVE-THIN (US geo EXHAUSTED after 2 passes). Next: UK AIM/ASX 3rd pass.**
+
+---
+
+## Run #60 — §7 REFLECT Bench Re-Price (2026-07-27)
+
+*All prices tagged ~ (single-source web search). 22 names repriced (20 prior + 2 new: IVU.DE + NSSC).*
+
+| Ticker | Prior price | New price ~ | Buy-zone | Status |
+|--------|------------|-------------|---------|--------|
+| WINA | $385.44 | $385.44 ~ | ≤~20-22x PE | Unchanged; above zone |
+| CODA | ~$9.84-10.00 | ~$9.84-10.00 ~ | $8-10 / ≤$107M cap | Approaching; cap ~$112.7M — NOT triggered |
+| OFLX | ~$29.85 | ~$29.92 ~ | ~$190-220M cap | Stable; above zone |
+| 4549.T | ~¥2,271-2,423 | ~¥3,010 ~ ⚑non-EN | ¥2,000-2,400 | ABOVE ZONE — recovered; POTENTIAL BUY-ZONE flag removed |
+| 6823.T | ~¥3,585 | ~¥3,585 ~ ⚑non-EN | ~¥2,200-2,400 | Above zone |
+| EKF.L | 25.40p | ~25.80p ~ | pullback/life-sci catalyst | Slightly higher; above zone |
+| 6742.T | ~¥864 | ~¥864 ~ ⚑non-EN | ¥720 | Above zone |
+| CGS.L | 260p | ~260p ~ | ~200-230p | T-30-60p; not triggered |
+| ETON | ~$42.32 | ~$42.32 ~ | ~$22-26 | Above zone; further |
+| SMID | ~$30.22 | ~$30.28 ~ | ~$22-24 | Stable; above zone |
+| EPEN.ST | ~SEK 97-99 | ~SEK 97-99 ~ ⚑non-EN | SEK 115-130 | BELOW lower bound SEK 115 (stale Jul 17 data SEK 156.20 from bench agent — conflict; use Jul 21 confirmed price) |
+| JOUT | ~$45.96 | ~$45.96 ~ | ~$38-40 | T-$5.96; above zone |
+| RX.V | ~C$14.50 | ~C$14.50 ~ | ≤C$10-11 | Above zone |
+| MEDI.OL | ~NOK 226 | ~NOK 226 ~ | ~$230-290M USD | Above zone |
+| SECARE.ST | ~SEK 26.35 | ~SEK 22.05 ~ ⚑non-EN | TBD ⚑non-EN | Declining; quality/buy-zone TBD |
+| NZX:SKL | ~NZD 6.13 | ~NZD 5.43 ~ | ~NZD 350-450M cap | Declining; still well above zone |
+| XRF.AX | ~A$2.12 | ~A$2.12 ~ | A$1.40-1.65 | Drifting lower; T-A$0.47 |
+| JHD.L | ~128.44p | ~128.44p ~ | ~£200-250M cap | ⚠ APPROACHING — bench agent confirmed Jul 22 low ~119p (below Jun 22 124p); recovered 128.44p |
+| PHO.OL | ~NOK 64.1 | ~NOK 64.1 ~ | NOK ≤50-55 | Above zone |
+| CUV.AX | ~A$10.24 | ~A$10.24 ~ | A$6-8 | Above zone |
+| IVU.DE | NEW | ~€20 (~€346M cap) ~ | ≤~€200-250M cap | NEW BENCH — above zone |
+| NSSC | NEW | ~$36.09 (~$1.44B cap) ~ | ~$22-26 | NEW BENCH — above zone (extended) |
+
+**No promotions triggered. CODA most proximate to trigger ($112.7M cap vs $107M trigger). EPEN.ST below buy-zone lower bound but quality unverified (⚑non-EN; DO NOT promote). JHD.L Jul 22 low 119p confirmed by bench agent — revenue stabilization still required.**

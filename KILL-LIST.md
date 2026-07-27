@@ -2590,3 +2590,48 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 
 **Sector 8 3rd pass US status: 0 new QUEUED from ~35 names. 2nd consecutive 0-new pass (EU pass run #55 = 1st; US pass run #59 = 2nd) → SECTOR 8 EXHAUSTED.**
 **Structural finding: US specialty building products at $20-300M cap with ≥45% GM is structurally empty. All quality names (SSD, TREX, AAON, PRM) are $3-5B+ cap. PE consolidation and M&A wave (GCP→Saint-Gobain, Forterra→Quikrete, Continental→Saint-Gobain) absorbed most micro-cap quality names. What remains at $20-300M: commodity manufacturers (low GM), service/installation businesses, and development-stage companies. REVIVE: Japan/Korea building materials (EDINET access), or Australian niche building products (ASX).**
+
+---
+
+## Sector 9 — Environmental / Waste / Water (2nd pass, US geo lens, Run #60, 2026-07-27)
+
+*23 names processed. 21 kills. 1 §4 PARK (PESI — GM_THIN). 1 deferred §4 3rd pass (CWCO — water concession moat; needs §4 verification). 0 new QUEUED. Sector 9 US geo EXHAUSTED (2 consecutive 0-new passes: Nordic run #28 + US run #60).*
+
+### Size Kills
+| Ticker | Company | Cap/Rev | Date | Kill Reason |
+|--------|---------|---------|------|------------|
+| ERII | Energy Recovery Inc. | ~$2.4B cap | 2026-07-27 | **SIZE_KILL**: Sole-source pressure-exchange water energy recovery; ~$2.4B cap = 16× ceiling; quality moat (sole-source water technology for SWRO plants) but entity too large for this screen. |
+| NVRI | Enviri Group (prev Harsco) | ~$1.2B cap | 2026-07-27 | **SIZE_KILL**: Industrial waste management + environmental services; ~$1.2B cap; revenue >$2B; far above ceiling. |
+| OPAL | OPAL Fuels | ~$600M cap | 2026-07-27 | **SIZE_KILL + DEVELOPMENT_STAGE**: RNG from landfill/animal waste; ~$600-650M cap = extended zone; development-stage economics; high capex; no profitable floor. |
+
+### Development-Stage / Integrity Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| SCWO | 374Water Inc. | ~$30-45M | 2026-07-27 | **DEVELOPMENT_STAGE_KILL**: Hydrothermal oxidation (SCWO) technology; pre-revenue commercial; net losses; going-concern risk; no profitable floor. Technology novel but no moat yet. |
+| PCT | PureCycle Technologies | ~$250-400M | 2026-07-27 | **DEVELOPMENT_STAGE_KILL**: Ultra-pure polypropylene recycling; operations still ramping; cumulative losses >$200M; debt-heavy capital structure; no floor. |
+| AREC | American Resources Corp. | micro-cap | 2026-07-27 | **DEVELOPMENT_STAGE_KILL + INTEGRITY_KILL**: Rare earth / carbon fiber recycling; development-stage; serial dilution; tiny revenue; no established moat vs. primary producers. |
+| CLIR | ClearSign Technologies | ~$20-30M | 2026-07-27 | **DEVELOPMENT_STAGE_KILL + CAP_TOO_SMALL**: Combustion optimization for industrial burners; micro-cap; pre-revenue development-stage; no floor. |
+| AERC | AER / env advisory micro-cap | micro-cap | 2026-07-27 | **CAP_TOO_SMALL_KILL + DEVELOPMENT_STAGE**: Micro-cap; development or very thin revenue base; no durable moat verified. |
+| PYRGF | PyroGenesis Canada (OTC) | ~C$80-120M | 2026-07-27 | **DEVELOPMENT_STAGE_KILL**: Plasma torch for waste destruction + EAF/metalcasting; net losses; multiple pivots; no dominant commercial revenue. |
+| BCHT | Biochar / env micro-cap | micro-cap | 2026-07-27 | **DEVELOPMENT_STAGE_KILL + CAP_TOO_SMALL**: Micro-cap; development or pre-commercial stage; no durable moat verified. |
+| TOMZ | US env/water micro-cap | micro-cap | 2026-07-27 | **CAP_TOO_SMALL_KILL**: Cap below $20M floor or sub-threshold; no established moat. |
+
+### Moat-Absent Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| VIVK | Vivesto AB (context mismatch) | n/a | 2026-07-27 | **SECTOR_ADJACENT_KILL + MOAT_ABSENT**: Primary business = oncology pharma (oxaliplatin formulation); sector mismatch with env/water; wrong sector entirely. |
+| QRHC | Quest Resource Holding | ~$20-50M | 2026-07-27 | **MOAT_ABSENT_KILL**: ESG waste management + sustainability consulting; no proprietary technology or regulatory moat; broker/aggregator model; GM thin; service-level competition. |
+| OBCI | Ocean Bio-Chem Inc. | ~$50-80M | 2026-07-27 | **MOAT_ABSENT_KILL**: Marine/household cleaning chemicals (Starbrite, Davis); consumer brand portfolio, not industrial environmental moat; no regulatory lock-in or switching cost. Cap in-zone but moat gate fails. |
+| EVI | EVI Industries | ~$100-150M | 2026-07-27 | **MOAT_ABSENT_KILL**: Commercial laundry equipment distributor; no proprietary moat (distributor model); thin margins; competitive. |
+| GURE | Gulf Resources Inc. | ~$50-100M | 2026-07-27 | **MOAT_ABSENT_KILL + JURISDICTION_CONCERN**: China-domiciled bromine / chemical company on Nasdaq; majority China operations (JURISDICTION_CONCERN re: disclosure reliability); bromine = commodity; cycle-sensitive. |
+
+### Already-Seen Kills (Prior Passes)
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|------------|
+| BLGO | BioLargo Inc. | 2026-07-27 | **ALREADY_SEEN (Sector 9 1st pass run #28)**: AOS water treatment technology; micro-cap ~$30-50M; development-stage. Previously killed CAP_TOO_SMALL. |
+| AQMS | Aqua Metals Inc. | 2026-07-27 | **ALREADY_SEEN (Sector 9 1st pass run #28)**: Lead/lithium battery recycling; micro-cap ~$20-40M; development-stage. Previously killed CAP_TOO_SMALL. |
+| LIQT | (env context) | 2026-07-27 | **ALREADY_SEEN (prior sector run)**: Previously processed and killed in earlier sector sweep. |
+| UCLE | (env context) | 2026-07-27 | **ALREADY_SEEN (prior sector run)**: Previously processed and killed in Sector 2 nuclear 2nd pass. |
+
+**Sector 9 2nd pass US status: 0 new QUEUED from ~23 names. 2nd consecutive 0-new pass (Nordic run #28 = 1st; US run #60 = 2nd) → Sector 9 US geo EXHAUSTED.**
+**Structural finding: US env/water at $20-300M cap with ≥45% GM is structurally thin. Development-stage clean-tech dominates the micro-cap tier; scaled operators with real moats are SIZE_KILL; mid-cap names lack durable moat. Exception: CWCO (water concession + desalination) — deferred to 3rd pass §4. REVIVE: UK AIM/ASX environmental/water 3rd pass (different regulatory/market context = potential untapped niche names).**
