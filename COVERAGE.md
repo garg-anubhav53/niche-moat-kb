@@ -757,3 +757,66 @@ Environmental/water/waste at $20-300M cap with ≥45% GM is globally structurall
 - Government ownership/concession creates regulated revenue but government is also the counterparty risk (as in CWCO Bahamas receivables)
 
 **Sector 9 status: EXHAUSTED globally (3 geo passes). Revive only with deep Japan/Korea/Taiwan lens (waste recycling precision chemistry or water analytical instruments — different sub-sectors than water treatment).**
+
+
+---
+
+## Sector 6 (Vertical/mission-critical software & data) — Pass 4 Coverage Notes (run #62, 2026-07-27)
+
+**UK AIM B2B SaaS re-screen (post-IDOX privatization):** ~21 names processed (incl. 6 already-SEEN from prior passes); 12 new kills; 1 new QUEUED. Structural finding: UK AIM B2B SaaS at ≤£500M cap / ≥45% GM is structurally thin — quality names are private, SIZE_KILL'd, or already processed.
+
+**Already-SEEN / prior pass kills (6):**
+- IDOX.L: NOT_PUBLIC_KILL (taken private run #55 — Bowmark Capital buyout Dec 2024)
+- SFT.L (Sopheon): NOT_PUBLIC_KILL (acquired Apryse run #55)
+- FNTL.L (Fonix Mobile): NO_MOAT_KILL (carrier billing middleware; run #55)
+- TRB.L (Tribal Group): COVERAGE_KILL (3-5 analysts; run #55/56)
+- APTD.L (Aptitude Software): PARK Grade D (run #56 §5)
+- ELCO.L (Elecosoft): PARK Grade D (run #55/56)
+
+**New kills — Size kills (>£500M / ~$700M+):**
+- KNOS.L (Kainos Group, ~£700M): SIZE_KILL — digital transformation and Workday implementation services; AIM-listed but market cap at ceiling; genuine digital services business but too large
+- GBG.L (GB Group, ~£700M-1B): SIZE_KILL — identity verification and fraud detection SaaS; genuine recurring revenue moat; too large for our screen
+- ALPH.L (Alpha Financial Markets, ~£1B+): SIZE_KILL — wealth/asset management consulting and tech services; too large
+
+**New kills — Coverage kills:**
+- TRCS.L (Tracsis, ~£170M): COVERAGE_KILL (19-20 analysts) + MOAT_SOFT — transport and rail data analytics SaaS; too many analysts; genuine data moat but not sufficiently concentrated
+
+**New kills — No moat / GM gate:**
+- BKS.L (Brickworks, UK — not the Australian BKS; AIM data/analytics company): NO_MOAT_KILL (GM 35.52% — fails ≥45% gate) + reclassified SECTOR_ADJACENT Sector 15 (financial data/benchmarking)
+
+**New kills — Cap too small / pre-profitable:**
+- TIDE.L (Tide Platform, AIM): CAP_TOO_SMALL_KILL — SME banking and fintech; £5.9M revenue; pre-profitable; no floor
+- CKT.L (Checkit, AIM): CAP_TOO_SMALL_KILL — connected worker SaaS for frontline operations; ~$18.2M ARR; pre-profitable; no floor
+
+**New kills — Not public / zombie:**
+- PTRO.L (Petrofac, restructuring rump, AIM): NOT_PUBLIC_KILL — £498k market cap zombie; oilfield services restructuring vehicle; no investable equity
+
+**New kills — Integrity / structural concern:**
+- ESYS.L (Ebiquity, restructured as eSystems?): INTEGRITY_CONCERN — restructuring losses + operating losses; structural integrity concern; not investable
+
+**New kills — Sector kill:**
+- PEN.L (Pennant, AIM): SECTOR_KILL (defense training primary customer — ~50%+ revenue from MoD/defense training simulation systems)
+
+**New parks:**
+- ACSO.L (Accesso Technology, AIM): PARK — leisure/theme park ticketing and queue management SaaS; revenue declining (FY2024 ~$147M vs prior year higher); EBITDA thin; moat erosion vs in-house alternatives; no catalyst
+- SPA.L (Spinnaker Acquisitions): PARK — low-conviction; GM ~55.5%; thin NM; no visible catalyst; monitor for change in fundamentals
+
+**Single quality survivor:**
+- **CER.L (Cerillion plc, AIM, ~£315.8M cap / ~$397M USD):** 9/12 QUEUED → Quality Bench conditional
+  - Telecom BSS/OSS billing SaaS (Cerillion Skyline) for mid-market and challenger operators globally
+  - FY2025: Revenue ~£45.4M~, GM ~81.5%~, NM ~37%~, NI ~£16.6M~ (all single-source)
+  - H1 FY2026: Backlog £82.1M (record, +44% from £56.9M FY2025); orders doubled; largest contract in company history
+  - 7 analysts all Strong Buy; consensus PT ~1,996p; current ~1,070p (~46% discount; below 52-wk low ~1,170p)
+  - Score: 9/12 (Moat=1, Quality=2, Coverage=0 [7 analysts → v5.1 Bench route], Valuation=2, Catalyst=2, Floor=2)
+  - §3.5 INCOMPLETE: net cash, FCF, dilution, capex require primary AIM filing verification
+  - Buy-zone: ~850-900p / ~£250-265M cap (≥2x to ~£500-530M on backlog conversion + re-rating)
+  - Bench conditional pending §3.5 — see financials/CER.L.md
+
+**Sector 6 pass 4 structural conclusions:**
+- UK AIM B2B SaaS at ≤£500M cap has been effectively exhausted: 4 passes, 21 unique names this pass, total 70+ names across all passes
+- Quality survivors from all 4 passes: IDOX.L (private), APTD.L PARK, ELCO.L PARK, NTECH.ST PARK (Nordic), IVU.DE BENCH, CER.L BENCH conditional
+- Structural dynamic confirmed: AIM SaaS names at quality tier either (a) get acquired/privatized (IDOX, Sopheon), (b) scale above £500M (Kainos, GB Group, Alpha Financial), or (c) get covered by >4 analysts (Tracsis)
+- Only CER.L survived all gates this pass — moat confirmed real (mission-critical telecom billing), economics strong (81.5% GM, 37% NM), catalyst real (record backlog), valuation gap real (46% discount to consensus)
+- Next action: Sector 5 Testing/Inspection/Certification 1st pass; revisit CER.L §5 when §3.5 complete
+
+**Sector 6 status: ACTIVE (4 passes complete; 1 new survivor CER.L Bench conditional; next pass: Sector 5 1st pass or fresh geo lens).**

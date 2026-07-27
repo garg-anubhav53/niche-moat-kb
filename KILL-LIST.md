@@ -2676,3 +2676,49 @@ Same structural result as US 1st pass (run #35): development-stage losses domina
 | WATR | Water Intelligence plc (AIM) | ~£51M (~$65M USD) | 2026-07-27 | **MOAT_SOFT_KILL**: American Leak Detection (ALD) franchise network (74 US franchises, 46 states + international) + proprietary acoustic/infrared leak detection devices (Leakvue, Pulse); FY2025 revenue $90.4M, adj. EBITDA $16.5M (18.2%), PBT $6.4M (7.7% margin); net debt/EBITDA 1.17x; GM unconfirmed (likely 30-40% blended, franchise royalty high-margin + corporate store lower-margin); acoustic leak detection not sole-source IP; franchise brand moat softer than regulatory/process moat. Moat is real but not durable enough for bench. |
 
 **Sector 9 3rd pass UK AIM/ASX structural conclusion: 15 names, 0 new QUEUED. Combined with Nordic (run #28) and US (run #60): Sector 9 EXHAUSTED globally (3 geo passes, 44+ names total, 0 new QUEUED). Environmental/water at $20-300M cap / ≥45% GM is globally structurally thin: development-stage clean-tech dominates micro-cap; scaled operators are SIZE_KILL; mid-cap names fail GM gate or moat gate. Sector 9 closed — revive only with deep Japan/Korea/Taiwan geo lens on different sub-sectors (water analytical instruments, precision chemistry).**
+
+---
+
+## Sector 6 Pass 4 kills — UK AIM B2B SaaS re-screen (run #62, 2026-07-27)
+
+### Size Kills (cap >$400M USD / >~£300M; extended zone)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| KNOS.L | Kainos Group plc (AIM) | ~£700M | 2026-07-27 | **SIZE_KILL**: UK government digital services SaaS + Workday implementation partner; strong moat but far above $400M ceiling. |
+| GBG.L | GB Group plc (AIM) | ~£700M–1B | 2026-07-27 | **SIZE_KILL**: Identity verification and location intelligence platform; genuine regulatory-adjacent moat but cap 2-3x ceiling. |
+| ALPH.L | Alpha FX Group plc (AIM) | ~£1B+ | 2026-07-27 | **SIZE_KILL**: FX risk management + payments for corporates; niche but cap far above ceiling; 7+ analysts. |
+
+### Coverage / Moat-Soft Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| TRCS.L | Tracsis plc (AIM) | ~£200M+ | 2026-07-27 | **COVERAGE_KILL + MOAT_SOFT**: UK transport data analytics + rail event management software; 19-20 analyst estimates; EBITDA margin ~14.8%; multi-segment revenue (software + professional services + traffic data surveys = diluted moat signal); >4 analyst gate exceeded regardless of quality. |
+
+### No-Moat Kills (GM below 45% gate or moat absent)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| BKS.L | Beeks Financial Cloud Group plc (AIM) | ~£50M | 2026-07-27 | **NO_MOAT_KILL + SECTOR_ADJACENT**: Cloud proximity hosting for financial markets (exchanges, ECNs, brokers); GM ~35.52% — fails ≥45% GM gate; infrastructure-economics margins not software margins; sector-adjacent to Sector 15 (financial infrastructure) not vertical SaaS. |
+
+### Cap-Too-Small Kills (revenue <$20M or cap too small)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| TIDE.L | Tideway plc (AIM) | ~$30M | 2026-07-27 | **CAP_TOO_SMALL_KILL**: Revenue £5.9M (far below $20M minimum); cap ~$30M at floor. Utility billing software niche. |
+| CKT.L | Checkit plc (AIM) | ~$30.8M | 2026-07-27 | **CAP_TOO_SMALL_KILL**: Revenue ~$18.2M (below $20M minimum); cap ~$30.8M; operations management SaaS for frontline workers; pre-profitable. |
+
+### Not-Public / Delisted Kills
+| Ticker | Company | Date | Kill Reason |
+|--------|---------|------|------------|
+| PTRO.L | Petrel Resources / (AIM micro-cap) | 2026-07-27 | **NOT_PUBLIC_KILL**: Market cap ~£498k; effectively delisted / zombie listing; no operational revenue; no re-entry possible. |
+
+### Integrity / Structural-Concern Kills
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| ESYS.L | Elecosoft plc (AIM) | ~£50M | 2026-07-27 | **INTEGRITY_CONCERN + STRUCTURAL_CONCERN**: UK AIM construction project management SaaS (Powerproject, Asta); repeated restructuring charges; operating losses in most recent periods; structural revenue decline; no stable earnings floor verified; moat thesis undermined by competitive erosion and restructuring cycle. |
+| PEN.L | Pentest People / Pen Test Partners / (AIM security software) | ~£30-60M | 2026-07-27 | **SECTOR_KILL_RISK**: Cybersecurity training/simulation software; significant revenue from defense/military training simulation adjacency; sector-adjacent to defense primary customer — SECTOR_KILL applied conservatively. |
+
+### Park (real moat, insufficient asymmetry)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| ACSO.L | Accesso Technology Group plc (AIM) | ~£200M | 2026-07-27 | **PARK**: Queue management, ticketing, and guest experience SaaS for theme parks and attractions; revenue declining £155M→£146M guidance; EBITDA margin ~14.8% thin; service-heavy revenue mix reduces pure SaaS economics; no hard-dated catalyst; insufficient asymmetry at current price for a QUEUED designation. Moat is real (theme park operator switching cost in ticketing + queue management is genuine) but economics too thin today. Revisit if revenue stabilizes + NM expands + cap corrects below £120M. |
+| SPA.L | Sievert Larson plc (AIM) | ~£56-80M | 2026-07-27 | **PARK**: Specialist software for professional services management (timesheet, billing, WIP management); GM ~55.5%; revenue £33.4M +3% organic; cap £56-80M in zone; thin NM; no hard-dated catalyst; not Q≥4 franchise quality (11 analysts or competitive pressure); insufficient asymmetry; PARK not QUEUED. |
+
+**Sector 6 4th pass UK AIM B2B SaaS structural conclusion: ~21 names processed (including 6 already-SEEN); 1 new QUEUED (CER.L 9/12 → Quality Bench conditional); ~12 new kills. Structural: the remaining UK AIM B2B SaaS names in $20-300M zone are either (a) large-cap SIZE_KILLs, (b) service-heavy with thin GM, (c) effectively delisted, or (d) multi-segment with diluted moat. CER.L (telecom BSS/OSS billing) is the standout quality exception — differentiated by 81.5% GM, 37% NM, record backlog £82.1M, and accelerating bookings. Sector 6 4th pass complete.**
