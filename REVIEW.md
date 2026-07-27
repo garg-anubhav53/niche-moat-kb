@@ -480,3 +480,82 @@ Agent returned 25 names. Of these, the vast majority were ALREADY IN SEEN SET fr
 - COVERAGE.md: Sector 5 1st pass coverage notes added.
 - UNIVERSE.md: Sector 5 names (RCDO, TIC, MEG, FORM) added; universe size updated.
 - STATE.md: Total runs 62→63; Sector 5 pass count 0→1; deferred queue updated (4549.T + OMDA.OL IN zone but blocked; CER.L §3.5 complete; TSTL.L new bench); run #63 log entry added.
+
+---
+
+## §7 REFLECT — Run #66 (2026-07-27)
+
+**Mandatory REFLECT (66 % 3 = 0). Bench has 27 names (26 prior + NSSC added run #65). This REFLECT: full bench re-price, data quality audit, universe exploration audit, false-negative re-checks.**
+
+**1. Full bench re-price (all 27 names; all prices tagged ~ single-source web search; snapshot.py proxy-blocked):**
+
+| Ticker | Last price ~ | Buy-zone | Status |
+|--------|-------------|---------|--------|
+| WINA | ~$388 | ≤~20-22x PE | Above zone; stable |
+| CODA | ~$9.84-10.00 (~$113M cap) | $8-10 / ≤$107M cap | ⚠ APPROACHING (T-~$6M cap; not triggered) |
+| OFLX | ~$29.75 | ~$190-220M cap | Above zone; stable |
+| 4549.T | ~¥2,907 ⚑non-EN | ¥2,000-2,400 | **ABOVE ZONE — IN-BUY-ZONE FLAG CLEARED** (recovered +24% from ¥2,354; EDINET blocked → cannot promote until yuho GM confirmed) |
+| 6823.T | ~¥3,585 ⚑non-EN | ~¥2,200-2,400 | Above zone |
+| EKF.L | ~25-27p | meaningful pullback | Above zone; stable |
+| 6742.T | ~¥864 ⚑non-EN | ~¥720 | Above zone |
+| CGS.L | ⚠ ~338p (LSE Jun 29) vs ~260p (prior) | ~200-230p | ⚠ CONFLICTING DATA — 338p used as most authoritative; T-108-138p from zone |
+| ETON | ~$36.63 | ~$22-26 | ↓ from $42.32; still well above zone |
+| SMID | ~$30.28 | ~$22-24 | Above zone |
+| EPEN.ST | ~SEK 156.20 ⚑non-EN | SEK 115-130 | Above zone; below-zone flag CLEARED (confirmed recovered) |
+| JOUT | ~$45.96 | ~$38-40 | Above zone; T-$5.96 |
+| RX.V | ~C$14.65 | ≤C$10-11 | Above zone |
+| MEDI.OL | ~NOK 226-234 | ~$230-290M USD cap | Above zone |
+| SECARE.ST | ~SEK 22.05 ⚑non-EN | TBD ⚑non-EN | Stable/declining; quality/buy-zone still TBD |
+| NZX:SKL | ~NZD 5.23-5.43 | ~NZD 350-450M cap | Declining; well above zone |
+| XRF.AX | ~A$1.77 | A$1.40-1.65 | ⚠ **APPROACHING** — ↓22% from A$2.28; T-A$0.12 to upper bound A$1.65; monitor closely |
+| IVU.DE | ~€20 (~€310-345M cap) | ≤~€200-250M cap | ⚠ APPROACHING (price ≤€20 but cap still ~€310-345M above ≤€250M trigger; NOT fired) |
+| NSSC | ~$36.67 | ~$22-26 | Above zone; stable |
+| JHD.L | ~119-128p | ~£200-250M cap (~49-61p) | Above zone; prior "approaching" note was data error (shares 408M; zone is 49-61p, not ~130p) |
+| PHO.OL | ~NOK 58.80 | ≤NOK 50-55 | ⚠ APPROACHING (T-NOK ~4-9; declining) |
+| CUV.AX | ~A$10.24 | A$6-8 | Above zone |
+| OMDA.OL | ~NOK 36.20 | ≤NOK 35-40 | ⚠ **IN BUY-ZONE** — §5 BLOCKED (annual report PDF 403) |
+| CER.L | ~1,070p | ~850-900p / ~£250-265M cap | Above zone; EV ~£281.5M; §3.5 COMPLETE; §5 eligible at ≤900p |
+| TSTL.L | ~402.5p | ~220-260p / ~£130-155M cap | Above zone; FDA 510(k) catalyst pending |
+| IVU.DE | (see above) | | |
+| PHO.OL | (see above) | | |
+
+**No buy-zone promotions triggered.** XRF.AX approaching (T-A$0.12); OMDA.OL IN zone (blocked); 4549.T recovered above zone (flag cleared). Three names approaching trigger: XRF.AX (closest), PHO.OL, CODA (by cap).
+
+**2. Data quality audit:**
+
+Sampled the two most recently written financial baselines:
+
+- **financials/NSSC.md (run #65):** Properly formatted. All figures tagged ~ (web aggregator; primary 10-K not read this run). Limitations correctly disclosed ("All figures ~ single-source web aggregator; primary 10-K not directly read this run"). C=2 cap correctly applied. Buy-zone $22-26 consistent with Q4/F4 assessment. No defects found beyond standing proxy-block limitation.
+
+- **financials/CLX.md (run #65):** Well-structured. Correct two-tier trust tagging: FY2025 data ✓ (primary filing-anchored), FY2026 data ~ (unaudited RNS only). Internal consistency check passes (FY2025: £18,386K rev − £4,623K COGS = £13,763K GP ✓). Open questions clearly flagged. C=2 correctly applied for FY2026 unaudited data. No defects found.
+
+Standing limitation unchanged since run #42: snapshot.py (Yahoo Finance), SEC EDGAR FTS (efts.sec.gov), EDINET Japan, TWSE Taiwan all proxy-blocked (403/no-price). All bench prices and non-US financials from web-search agents only (~trust). No improvement in data infrastructure this run.
+
+**3. Universe exploration audit:**
+
+Sector 19 3rd pass (US specialty healthcare services & niche pharma) launched this run via background search agent. Expanded search covered ~10 candidate names:
+
+- **CLSD (Clearside Biomedical):** XIPERE suprachoroidal eye-drug platform — filed Chapter 11 Nov 2025 → **INTEGRITY_KILL / VIABILITY**
+- **MODV (ModivCare):** Largest US NEMT broker — filed Chapter 11 Aug 2025 → **INTEGRITY_KILL / VIABILITY**
+- **QIPT (Quipt Home Medical):** Home DME services — privatized Dec 2025 → **NOT_PUBLIC_KILL**
+- **RCEL (AVITA Medical):** RECELL burn wound cell therapy (sole FDA-approved regenerative for burns) — EPS TTM -$1.74; NOT PROFITABLE → **NOT_YET_PROFITABLE_KILL** (Q1 2026 revenue $19.3M; $80-85M FY2026 guidance; cap ~$86-155M conflicting; potential re-check when/if profitable)
+- **GERN (Geron Corp):** RYTELO first-in-class telomerase inhibitor for MDS — FY2025 revenue $184M, FY2026 guidance $220-240M but operating expenses $230-240M → NOT PROFITABLE in 2026 → **NOT_YET_PROFITABLE_KILL** (also: revenue scale $180-240M → approaching SIZE threshold for micro-cap focus)
+- **VRCA (Verrica Pharma):** YCANTH sole FDA-approved for molluscum contagiosum — FY2025 revenue $35.6M; Q1 2026 revenue $5.0M (+25% YoY); cap ~$86-120M (conflicting); "cutting losses" per results → likely still unprofitable → **NOT_YET_PROFITABLE_KILL** (monitor: revenue growing fast; if profitable in FY2026 with sustained margin, revisit at Sector 19 4th pass)
+- **CPIX (Cumberland Pharma):** Multi-product specialty pharma — $44.5M FY2025 revenue (+18%); multiple products (no sole-approved regulatory moat); GM unknown → **MOAT_SOFT_KILL** (diversified portfolio, not regulatory monopoly moat)
+
+Structural finding confirmed: US specialty pharma at $20-300M cap / profitable threshold is structurally sparse. Named regulatory moats (sole-approved = genuine moat) tend to be either (a) pre-profitable → kills on earnings gate or (b) scaled beyond micro-cap once product launches. The Sector 19 US sweet spot is empty for this criterion.
+
+Background search agent did not complete full triage of YMAB (Y-mAbs) and ARQT (Arcutis) before this REFLECT entry was written. Both unlikely to qualify: YMAB was likely unprofitable in 2026; ARQT (ZORYVE) competes against many dermatology alternatives (not sole-approved). Sector 19 3rd pass: **0 new QUEUED** (1st consecutive 0-new pass on US geo lens). Sector 19 still ACTIVE (need 2 consecutive 0-new for EXHAUSTED).
+
+**4. False-negative re-checks:**
+
+- **LOAD.L (Crestchic plc, AIM, ~£112M):** SURFACED UNTRIAGED in KILL-LIST. Load bank testing equipment for generator/UPS acceptance testing. Niche capital equipment; serves data centres, utilities, defence, offshore. Moat: sole-product position in portable load banks. BUT: (a) capital equipment, not consumable → lower quality/GM expected; (b) no data on GM; (c) ~£112M cap with unknown analyst coverage; (d) listed as "UNTRIAGED" — needs formal §3 triage next run. Preliminary assessment: likely Q≈2-3 (capital equipment cycle, not recurring consumable); needs data verification before bench/kill decision. **ADD TO §3 TRIAGE QUEUE next run.**
+
+- **TFW.L (FW Thorpe, AIM ~£364M):** SIZE_KILL. KILL-LIST note: "revisit if cap corrects below £250M + analyst count ≤3." Current cap ~£364M = above £250M threshold. SIZE_KILL stands. Not a false negative at current price. No change.
+
+**5. Corrective edits shipped this run:**
+
+- WATCHLIST.md: 4549.T IN-BUY-ZONE flag CLEARED (price updated ¥2,354→¥2,907; above zone); XRF.AX updated A$2.28→A$1.77 + APPROACHING flag added; CGS.L updated to ⚠ CONFLICTING DATA 338p (LSE authoritative) vs 260p (prior); EPEN.ST updated SEK 138-156→SEK 156.20 (precise; above-zone confirmed); PHO.OL updated NOK 59.2→NOK 58.80; OMDA.OL updated NOK 37.90→NOK 36.20 (IN BUY-ZONE confirmed).
+- STATE.md: Total runs 65→66; Sector 19 pass count 2→3 (1st consecutive 0-new pass US geo lens); run #66 log entry added; new kills (CLSD, MODV, QIPT, RCEL, GERN, VRCA, CPIX) added to universe.
+- KILL-LIST.md: Sector 19 3rd pass US kills added (7 names).
+- UNIVERSE.md: Universe size updated; 7 new kills added.

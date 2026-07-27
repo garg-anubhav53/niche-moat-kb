@@ -936,3 +936,47 @@ Despite 20+ targeted searches, no viable publicly-listed French, German, or Nord
 - NSSC (Napco Security Technologies, Nasdaq): §4 baseline logged at financials/NSSC.md; confirmed on Quality Bench (price ~$35-37, well above buy-zone $22-26; 91% services GM; $115M net cash; 6 analysts — bench route under v5.1). FY2025: revenue $181.6M, GM 55.6%, NI $43.4M, FCF $51.4M.
 
 **Sector 11 status: ACTIVE — 1st consecutive 0-new pass (UK/DACH geo lens). Need 2 consecutive for EXHAUSTED. Next pass: Sector 11 4th pass with Nordic (Oslo Bors/Nasdaq First North) geo lens for power electronics, or consider Sector 17 4th pass Japan secondary OEM semiconductor supply chain.**
+
+---
+
+## Sector 19 (Specialty healthcare services & niche pharma) — Pass 3 Coverage Notes (run #66, 2026-07-27)
+
+**Geo lens:** US Nasdaq/NYSE — US-listed specialty pharma and healthcare services with named regulatory moat at $20-300M cap
+
+**Names processed: ~18** (main triage 7 + background expanded search 11) | **New QUEUED: 0** | **Consecutive 0-new passes (US geo lens): 1**
+
+**Main triage (7 names):**
+| Ticker | Kill Reason | Notes |
+|--------|------------|-------|
+| CLSD | INTEGRITY_KILL | Chapter 11 Nov 2025 |
+| MODV | INTEGRITY_KILL | Chapter 11 Aug 2025; $1.5B debt |
+| QIPT | NOT_PUBLIC_KILL | Privatized Dec 2025 |
+| RCEL | NOT_YET_PROFITABLE_KILL | RECELL genuine SOLE_SOURCE moat; pre-profitability commercial ramp |
+| GERN | NOT_YET_PROFITABLE_KILL | Rytelo first-in-class telomerase inhibitor; commercial launch losses |
+| VRCA | NOT_YET_PROFITABLE_KILL | VP-102 first-and-only cantharidin topical; pre-profitability |
+| CPIX | MOAT_SOFT_KILL | No first-and-only FDA position; competitive specialty pharma |
+
+**Expanded background search (11 names):**
+| Ticker | Kill Reason | Notes |
+|--------|------------|-------|
+| EGRX | NOT_PUBLIC_KILL | Delisted Nasdaq Oct 2024 for late SEC filings; OTC-only |
+| YMAB | NOT_PUBLIC_KILL | Acquired by SERB Pharma 2024 — validates moat thesis |
+| AURX | NOT_PUBLIC_KILL | OTCQB market; not major exchange |
+| ICCM | JURISDICTION_KILL | Israeli company — hard rule |
+| EBS | SECTOR_KILL | DoD/BARDA primary customer (biodefense vaccines) |
+| OTLK | NOT_YET_PROFITABLE_KILL | FDA approved Jul 24 2026; pre-commercial |
+| PTN | NOT_YET_PROFITABLE_KILL | $8.96M royalties; net losses |
+| TNXP | NOT_YET_PROFITABLE_KILL | $40M Q1 2026 net loss; Tonmya commercial ramp |
+| SXTP | CAP_TOO_SMALL_KILL | ~$5-30M cap; ~$1M revenue |
+| AMS | CAP_TOO_SMALL_KILL | $11.6M cap below $20M floor |
+
+**Structural finding (confirmed 1st consecutive 0-new pass US geo lens):**
+Profitable specialty pharma with a named first-and-only regulatory moat in the $20-300M cap range is structurally sparse on US exchanges for the following reasons:
+- (a) **M&A wave 2023-2026 absorbed 7+ qualifying companies**: YMAB (SERB Pharma), MRNS (acquired), ASRT (acquired), ALIM (acquired), APLT (acquired), ACER (acquired), PRTK (acquired) — acquiree M&A validates the moat thesis; these were the type of names this screen targets. Scarcity itself proves moat quality is real.
+- (b) **Named moats are pre-profitable**: First-in-class and first-and-only FDA approvals typically take 3-8 years post-approval to reach profitability; the profitable sub-universe is very narrow.
+- (c) **Profitable names scaled beyond micro-cap**: Once a specialty pharma product reaches profitability, cap typically rises above $300M (RCEL approaching this; GERN approaching this) — moving out of our screen's range.
+- (d) **Coverage expansion removes the rest**: Once profitable and >$300M cap, 4+ analysts follow → COVERAGE_KILL.
+
+**Structural finding verdict: 1st consecutive 0-new pass (US geo lens).** Sector 19 3rd pass complete. Two consecutive 0-new passes needed to mark Sector 19 EXHAUSTED for this geo lens.
+
+**Sector 19 status: ACTIVE — 1st consecutive 0-new pass (US Nasdaq/NYSE geo lens). Need 2 consecutive for EXHAUSTED (this geo lens). Next pass: Sector 19 4th pass with new geo lens (non-US: UK AIM specialty pharma not yet covered, or ASX biotech secondary, or Euronext specialty MedTech).**

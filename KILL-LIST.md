@@ -2822,3 +2822,47 @@ TRNS (2026-07-16), MG/Mistras (2026-07-27 latest), MLAB (2026-07-16), CLB (secto
 |--------|---------|-----|------|-------|
 | LOAD.L | Crestchic plc (AIM: LOAD) | ~£112M | 2026-07-27 | **SURFACED UNTRIAGED**: Load bank testing equipment (resistive + reactive load banks for generator/UPS/grid commissioning + rental services); niche capital equipment for critical infrastructure commissioning; cap ~£112M within range; GM unknown; 1-2 analysts suspected. NOT formally triaged this run — insufficient data to apply gates. Queue for next Sector 11 pass: verify GM + analyst count + moat (OEM spec-in vs. commodity rental). |
 | DIA.L | Dialight plc (AIM: DIA) | ~£80-100M | 2026-07-27 | **PARK / NO_MOAT SUSPECTED**: Industrial LED lighting for hazardous/industrial environments (Dialight LED industrial luminaires, HAZardous location certifications); ATEX/IECEx/UL/cUL approvals create specification friction; BUT competitive with GE Current, ABB/Thomas & Betts LDPI, Emerson Appleton + Chinese LED entrants; organic revenue declining; GM unknown; profitability thin/negative in recent years. PARK — needs GM confirmation + profitability check before gate application. |
+
+---
+
+## Run #66 — Sector 19 3rd Pass US Geo Lens (2026-07-27)
+
+### Integrity Kills (bankruptcy — no earnings floor)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| CLSD | Clearside Biomedical Inc (Nasdaq: CLSD) | ~$15-30M | 2026-07-27 | **INTEGRITY_KILL**: Suprachoroidal injection platform (CLS-AX for AMD; FDA-approved drug delivery technology). Chapter 11 bankruptcy filed Nov 2025 — no earnings floor; not investable regardless of moat quality. |
+| MODV | Modivcare Inc (Nasdaq: MODV) | ~$5-30M | 2026-07-27 | **INTEGRITY_KILL**: Largest US non-emergency medical transportation (NEMT) Medicaid broker + personal care services. Chapter 11 bankruptcy filed Aug 2025; $1.5B debt load. NEMT margins structurally thin; no stable earnings floor. |
+
+### Not-Public Kills (privatized, delisted, acquired, OTC)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| QIPT | Quipt Home Medical Inc (Nasdaq: QIPT) | N/A | 2026-07-27 | **NOT_PUBLIC_KILL**: Home medical equipment (respiratory therapy DME, oxygen, CPAP/BiPAP; Medicare billing lock-in). Privatized Dec 2025 — taken private; no longer listed on major exchange. |
+| EGRX | Eagle Pharmaceuticals Inc (OTC: EGRX) | ~$100-200M | 2026-07-27 | **NOT_PUBLIC_KILL**: Hospital specialty injectable formulations (vasopressin, bendamustine; FDA-approved specialty injectables with market exclusivity). Delisted from Nasdaq Oct 2024 for late SEC filings — OTC-only listing does not meet major-exchange requirement. |
+| YMAB | Y-mAbs Therapeutics Inc (Nasdaq: YMAB) | N/A | 2026-07-27 | **NOT_PUBLIC_KILL**: Danyelza (naxitamab) — first-and-only FDA-approved antibody for relapsed/refractory neuroblastoma; orphan drug; rare pediatric oncology genuine SOLE_SOURCE moat. Acquired by SERB Pharma 2024 — M&A validates moat thesis; confirms that quality Sector 19 names get absorbed (7+ names absorbed 2023-2026 M&A wave). |
+| AURX | Aura Biosciences Inc (OTCQB: AURX) | ~$50-100M | 2026-07-27 | **NOT_PUBLIC_KILL**: VLP (virus-like particle) drug conjugate for conjunctival melanoma (AU-011); ophthalmic oncology niche; first-in-class platform. OTCQB market — not major exchange; NOT_YET_PROFITABLE concurrent. |
+
+### Jurisdiction Kill (hard rule — no exceptions)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| ICCM | IceCure Medical Ltd (Nasdaq: ICCM) | ~$20-50M | 2026-07-27 | **JURISDICTION_KILL**: Israeli company (IceCure Medical Ltd). ProSense cryoablation system — liquid nitrogen cryoablation for breast tumors, renal, thyroid; FDA-cleared minimally invasive tumor ablation. Hard JURISDICTION KILL: Israel — no exceptions regardless of moat quality per standing methodology. |
+
+### Sector Kill (primary customer military/defense/weapons)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| EBS | Emergent BioSolutions Inc (NYSE: EBS) | ~$100-300M | 2026-07-27 | **SECTOR_KILL**: Biodefense vaccines and medical countermeasures — BioThrax anthrax vaccine (sole-source DoD/BARDA strategic national stockpile contract); smallpox vaccine; naloxone injection. Primary customer is DoD/BARDA for anthrax and smallpox biodefense — hard SECTOR_KILL: company whose primary customer is military/defense/weapons. CAP_SOFT concurrent (cap borderline extended zone without exceptional asymmetry post-sector kill). |
+
+### Not-Yet-Profitable Kills (no stable earnings floor)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| RCEL | Avita Medical Inc (Nasdaq: RCEL) | ~$300-500M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: RECELL system — first-and-only FDA-cleared autologous cell spray for burns and acute traumatic wounds (genuine SOLE_SOURCE moat); burn center adoption with procedure-level lock-in. BUT commercial expansion pre-profitability — net losses; no stable earnings floor. Revisit when profitable ≥2 consecutive years. |
+| GERN | Geron Corporation (Nasdaq: GERN) | ~$800M-1.5B | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: Rytelo (imetelstat) — first-in-class telomerase inhibitor for lower-risk MDS and myelofibrosis (genuine SOLE_SOURCE moat); orphan drug FDA approval 2024; patent protection ~2034. BUT commercial launch losses ongoing — no stable earnings floor. Revisit when profitable ≥2 consecutive years + net cash confirmed. |
+| VRCA | Verrica Pharmaceuticals Inc (Nasdaq: VRCA) | ~$50-200M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: VP-102 — first-and-only FDA-approved cantharidin topical for molluscum contagiosum (pediatric skin condition; genuine SOLE_SOURCE moat); orphan-adjacent niche. BUT commercial launch phase — net losses; no stable earnings floor. Revisit when profitable. |
+| OTLK | Outlook Therapeutics Inc (Nasdaq: OTLK) | ~$50-150M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: LYTENAVA (bevacizumab-vikg) — ophthalmic bevacizumab for wet AMD; FDA approval obtained Jul 24 2026 (day of this run). Pre-commercial — zero product revenue yet; no earnings floor established. Revisit in 2-3 years if commercial ramp succeeds and profitability established. |
+| PTN | Palatin Technologies Inc (NYSE American: PTN) | ~$30-80M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: Vyleesi (bremelanotide) — FDA-approved melanocortin receptor agonist for HSDD in premenopausal women; royalty model via Pfizer partnership. BUT thin $8.96M royalties with ongoing net losses — no stable earnings floor. |
+| TNXP | Tonix Pharmaceuticals Holding Corp (Nasdaq: TNXP) | ~$50-200M | 2026-07-27 | **NOT_YET_PROFITABLE_KILL**: Tonmya (sodium oxybate) — FDA-approved CNS drug for fibromyalgia; complex drug product with some regulatory protection. BUT $40M Q1 2026 net loss — commercial launch burn; no stable earnings floor established. |
+
+### Cap-Too-Small Kills (below $20M minimum)
+| Ticker | Company | Cap | Date | Kill Reason |
+|--------|---------|-----|------|------------|
+| SXTP | SciSparc Ltd (Nasdaq: SXTP) | ~$5-30M | 2026-07-27 | **CAP_TOO_SMALL_KILL**: CNS-focused specialty pharma (early-stage pipeline; ~$1M revenue). Cap ~$5-30M and revenue ~$1M far below our $20M minimum. JURISDICTION_CONCERN concurrent (Israeli management structure). |
+| AMS | American Shared Hospital Services (NYSE American: AMS) | ~$11.6M | 2026-07-27 | **CAP_TOO_SMALL_KILL**: Shared Gamma Knife / stereotactic radiosurgery equipment leasing to hospitals; niche medical equipment rental with physician-training continuity (genuine switching cost niche). BUT market cap $11.6M below our $20M minimum floor — too small for this screen. |
