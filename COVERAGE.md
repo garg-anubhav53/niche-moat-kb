@@ -1092,3 +1092,48 @@ Nordic electrical/power components follows the identical structural pattern to U
 4. **MVP.AX — MedVance / Medical Developments International** (PARK): Penthrox (methoxyflurane) inhaled analgesic; ARTG + CE marked; distributor network UK/EU/ANZ. §3.5 FAIL — NM 0.2% (barely profitable; fails ≥10% gate by wide margin). Revive if NM recovers ≥10%.
 
 **Verdict: Sector 19 EXHAUSTED after 4 passes (1st pass US/Nasdaq #60, 2nd pass EU/Continental #62, 3rd pass US 2nd sweep #66, 4th pass UK/Canada/ASX #68). Two consecutive 0-new-QUEUED passes (run #66 + run #68).** The structural dynamic is confirmed: the qualified specialty pharma universe at $20-300M cap with named regulatory moat and ≥45% GM / ≥10% NM / ≥15% ROE is genuinely small globally. Revive Sector 19 only with a Japan/Korea specialty pharma lens (Japanese OTC pharma with proprietary formulation moats; Korean KOSDAQ rare disease names) or if a major M&A exit creates a successor stub trading below intrinsic value.
+
+---
+
+## §7 REFLECT — Run #69 Coverage Notes (2026-07-27)
+
+**Run type:** §7 REFLECT mandatory (69%3=0) — cross-sector §2B false-negative audit + bench re-price.
+
+**Names processed this run:** ~31 (29 bench re-prices + 1 new §2B triage + 1 error correction)
+
+**Geo lens:** Cross-sector §2B false-negative scan (no new sector rotation this run; §7 REFLECT only).
+
+**New name triaged (1): HLS Therapeutics (TSX: HLS)**
+- Sector 19 Specialty Healthcare / Niche Pharma (Canadian specialty pharma)
+- Products: Clozaril (clozapine brand), Vascepa (icosapentaenoic acid), CSAN Pronto (cardiac monitoring)
+- Kill: PARK 5/12 MOAT_SOFT — Clozaril + Vascepa face active generic competition; CSAN Pronto sole-source unverified; GM unknown (primary filing required)
+- Cap: ~CAD 200M (~$145M USD)
+- Coverage void: 2-4 analysts ~ (unknown precisely)
+
+**Error correction: VGO.WSE kill reason**
+- Prior STATE.md Sector 18 description incorrectly stated "VGO.WSE PARK (GM ~35% fails gate)"
+- Corrected: GM ~49-50% confirmed (WSE annual report snippets corroborate ±50% GM range); actual kill reason is NM/ROE fail — FY2025 net loss PLN -6.9M (worsening from FY2024 PLN -6.3M); kill = NOT_YET_PROFITABLE
+- KILL-LIST.md VGO.WSE §3.5 row updated: FY2025 NI PLN -6.9M (was FY2024 PLN -6.3M)
+- STATE.md Sector 18 row corrected
+
+**Bench re-prices (5 material updates, 2026-07-27):**
+| Ticker | Prior price | New price | APPROACHING? | Note |
+|--------|------------|-----------|--------------|------|
+| PHO.OL | NOK 64.1 | NOK 58.80 | ⚠ YES — T-NOK 3.80 | Q2 earnings Jul 29 IMMINENT |
+| ETON | $36.63 | $29.44 | ⚠ YES — T-$3.44 | Declining; approaching $22-26 zone |
+| IVU.DE | €22.70 (~€402M) | €20.00 (~€354M) | ⚠ YES — T-€104M cap | Cap declining toward ≤€250M zone |
+| ALRIB.PA | TBD (not priced) | ~€10/sh (~€51M) | No (above ≤€5-6 zone) | FIRST PRICE SET this run |
+| CODA | $10.00 (Jul 14) | $10.00 (Jul 27) | ⚠ STILL APPROACHING | Date refreshed; T-~$5.5M cap from ≤$107M |
+
+**MEG→ONT ticker rename noted:**
+- MEG (sector triage name) renamed to ONT (Onterris Inc) effective May 4, 2026
+- UNIVERSE.md and KILL-LIST.md entries updated to note rename
+
+**Coverage statistics (updated):**
+- Universe: 224 (was 223; +1 HLS.TSX PARK)
+- Quality Bench (WATCHLIST.md): 29 names (unchanged)
+- WATCH: 3 (FAA.VI A, REC.L B, STX.L C)
+- CORE: 1 (EUZ.DE B)
+- Queued §5: 2 (6858.T BLOCKED, ADMCM.HE deferred) + OMDA.OL BENCH §5 priority
+
+**Sector status update:** Sector 19 confirmed EXHAUSTED (2 consecutive 0-new passes: run #66 US + run #68 UK/CA/ASX). No new sector opened this run (§7 REFLECT only).

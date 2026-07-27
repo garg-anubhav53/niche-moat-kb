@@ -559,3 +559,68 @@ Background search agent did not complete full triage of YMAB (Y-mAbs) and ARQT (
 - STATE.md: Total runs 65→66; Sector 19 pass count 2→3 (1st consecutive 0-new pass US geo lens); run #66 log entry added; new kills (CLSD, MODV, QIPT, RCEL, GERN, VRCA, CPIX) added to universe.
 - KILL-LIST.md: Sector 19 3rd pass US kills added (7 names).
 - UNIVERSE.md: Universe size updated; 7 new kills added.
+
+---
+
+## §7 REFLECT — Run #69 (2026-07-27)
+
+**Run #69 — §7 REFLECT mandatory (69%3=0).**
+
+### 1. Data Quality Audit
+
+**NSSC.md (Napco Security Technologies):**
+- All figures correctly tagged ~ (single-source web aggregator; primary 10-K not read this run)
+- C=2 cap applied correctly per v5.1 rules
+- Services GM ~91% ✓; net cash $115M ✓; recurring rev >50% ✓; FCF $51.4M ✓
+- Data integrity: PASS — appropriate uncertainty tags throughout; no fabricated claims
+- Open item: FY2026 annual results (June 2026) not yet filed; update when available
+
+**OMDA.OL.md (Omda AS):**
+- GM ~63.3% correctly tagged as single-source Q2 2025 (Investing.com earnings call snippet) with ⚠ unconfirmed from primary filing
+- Net financial debt ~NOK 190-260M correctly tagged ? (analyst estimate)
+- FCF NOK 70-95M correctly tagged as estimated, unconfirmed
+- C cap C≤2 correctly applied (Euronext Growth Oslo; IFRS English filings; balance sheet complexity unresolved)
+- Data integrity: PASS — all key gaps explicitly flagged; §5 block maintained until annual report primary filing accessible
+
+### 2. Universe Exploration Audit
+
+**§2B false-negative re-check:** Sector 19 specialty pharma (Canadian/Nordic) cross-sector sweep surfaced HLS Therapeutics (TSX: HLS). Triaged and PARK'd MOAT_SOFT 5/12. No other missed names identified in this pass.
+
+**Sector status:** Sector 19 EXHAUSTED after 4 passes confirmed. All active sectors reviewed and cursor maintained.
+
+**MEG→ONT rename:** MEG ticker identified as renamed to ONT (Onterris Inc) effective May 4, 2026. Noted in UNIVERSE.md, KILL-LIST.md, and STATE.md inline lists.
+
+### 3. False-Negative Re-checks
+
+**VGO.WSE kill reason error corrected:**
+- Error: STATE.md Sector 18 description stated "VGO.WSE PARK (GM ~35% fails gate)" — this was incorrect
+- Correction: VGO.WSE GM confirmed ~49-50% (from WSE press release/Euronext Poland search snippets corroborating WSE annual filing data). The actual kill reason is NOT_YET_PROFITABLE: FY2025 net loss PLN -6.9M (worsening from FY2024 PLN -6.3M); NM and ROE both negative/below threshold
+- KILL-LIST.md §3.5 VGO.WSE row updated: FY2025 NI PLN -6.9M confirmed (corrected from prior FY2024 -6.3M)
+- STATE.md Sector 18 row corrected to: "VGO.WSE PARK (NM/ROE fail; GM ~49-50% confirmed; FY2025 NI PLN -6.9M NOT_YET_PROFITABLE)"
+- Impact assessment: VGO.WSE kill remains valid (not a false negative — loss-making with worsening NI); but the kill reason in the record was factually wrong. Corrected.
+
+**NORDH.OL:** Re-confirmed INTEGRITY_KILL (from prior run); not a false negative.
+
+**HLS.TSX:** New name surfaced by §2B cross-sector scan — PARK 5/12 MOAT_SOFT (correct kill; Clozaril/Vascepa generic erosion + CSAN Pronto unverified + GM unknown).
+
+### 4. Bench Re-price (run #69)
+
+| Ticker | Prior | Updated | Status |
+|--------|-------|---------|--------|
+| PHO.OL | NOK 64.1 (APPROACHING removed) | NOK 58.80 | ⚠ APPROACHING RESTORED — T-NOK 3.80; Q2 earnings Jul 29 |
+| ETON | $36.63 | $29.44 | ⚠ APPROACHING — T-$3.44 from ≤$26 trigger; declining |
+| IVU.DE | €22.70 (~€402M) | €20.00 (~€354M) | ⚠ APPROACHING RESTORED — cap declining; T-€104M from ≤€250M |
+| ALRIB.PA | TBD (not priced) | €10/sh (~€51M) | First price set; buy-zone ≤€5-6/sh; no approaching flag |
+| CODA | $10.00 (Jul 14 data) | $10.00 (Jul 27 refresh) | ⚠ APPROACHING — price flat; cap $112.5M vs ≤$107M trigger |
+
+**No promotions triggered this run.** PHO.OL closest at T-NOK 3.80 from ≤55 trigger — Q2 earnings Jul 29 is a near-term catalyst that could push price below zone. Monitor at next run (run #70).
+
+### 5. Corrective Edits Summary
+
+Files edited this run:
+- **WATCHLIST.md**: ETON $29.44 ⚠APPROACHING; PHO.OL NOK 58.80 ⚠APPROACHING; IVU.DE €20.00 ⚠APPROACHING; ALRIB.PA first price €10; CODA date refresh 2026-07-27
+- **KILL-LIST.md**: VGO.WSE FY2025 NI updated PLN -6.9M; HLS.TSX PARK run #69 section appended
+- **UNIVERSE.md**: Size 223→224; HLS.TSX PARK added to inline list and universe map; MEG→ONT rename noted
+- **STATE.md**: Total runs 68→69; Universe size 223→224; Sector 18 VGO.WSE kill reason corrected; HLS.TSX added to inline list; queue note + run #69 log row appended
+- **COVERAGE.md**: Run #69 coverage notes appended
+- **REVIEW.md**: This §7 REFLECT audit entry

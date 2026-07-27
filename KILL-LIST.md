@@ -2997,7 +2997,7 @@ Nordic electrical/power components structurally identical to UK/DACH pattern: (a
 | Ticker | GM | NM | ROE | Analysts | Cap (USD) | §3.5 Verdict |
 |--------|----|----|-----|----------|-----------|--------------|
 | BSL.DE | ~47% ✓ | ~5.2% ✗ | ~8-10% ✗ | 3 ✓ | ~$550-600M ✓ | **PARK** — NM + ROE fail quality gates; FY2024 net loss -€14.2M red flag; trajectory improving (FY2025 NM 5.2% but positive); revisit if NM ≥10% sustained 2 consecutive years |
-| VGO.WSE | ~49-50% ✓ | -4.7% ✗ | ~-2% ✗ | 3-4 ✓ | ~$114M ✓ | **PARK** — loss-making (FY2024 net loss PLN -6.3M); NM and ROE both fail; military pivot (PCO S.A. PLN ~200M framework) creates real revenue growth catalyst but not yet profitable; revisit when 2 consecutive profitable FYs and NM ≥10% |
+| VGO.WSE | ~49-50% ✓ | -4.7% ✗ | ~-2% ✗ | 3-4 ✓ | ~$114M ✓ | **PARK** — loss-making (FY2025 net loss PLN -6.9M; FY2024 PLN -6.3M — losses worsening); NM and ROE both fail; military pivot (PCO S.A. PLN ~200M framework) creates real revenue growth catalyst but not yet profitable; revisit when 2 consecutive profitable FYs and NM ≥10% |
 | ALRIB.PA | ~38.7% ✗ | ~12.9% ✓ | ~20% ✓ | 7-9 ✗ | ~$220M ✓ | **BENCH** — COVERAGE_KILL (7-9 analysts); GM fails ≥45% gate (38.7%) but NM and ROE clear hurdles; sole Western EU commercial MBE OEM with razor-blade consumables; Q≥4 → bench route; buy-zone TBD at meaningful pullback |
 | MEMS.PA | ~41.4% ✗ | ~7.5% ✗ | ~4.8% ✗ | ~7 ✗ | ~$44-52M ✓ | **PARK** — COVERAGE_KILL + triple quality fail (GM ✗, NM ✗, ROE ✗); ⚠ data discrepancy: Eulerpool reports NI €3.93M vs filing €894K (irreconcilable); if €3.93M true then NM+ROE may pass — resolve from FY2025 audited annual report; aerospace MEMS pressure sensor moat real; revisit when data confirmed + quality clears |
 
@@ -3035,3 +3035,20 @@ Nordic electrical/power components structurally identical to UK/DACH pattern: (a
 - Watchlist entry: CPH.TO (§4 9/12; APPROACHING ≤C$11-13)
 - Park additions: BSL.DE, VGO.WSE, MEMS.PA (Sector 18); MVP.AX (Sector 19)
 - No §5 deep-dive this run
+
+---
+
+## Run #69 — 2026-07-27 · §7 REFLECT (cross-sector §2B false-negative audit + bench re-price)
+
+**Summary — §7 REFLECT run #69**: §2B false-negative re-check; 1 new name triaged (HLS Therapeutics → PARK 5/12 MOAT_SOFT); VGO.WSE kill reason corrected (FY2025 NI PLN -6.9M, losses worsening vs. prior -6.3M; STATE.md Sector 18 description corrected from incorrect "GM ~35% fails gate" to confirmed "NM/ROE fail; GM ~49-50% confirmed; NOT_YET_PROFITABLE"); bench re-price complete (5 updates: PHO.OL ⚠APPROACHING NOK 58.80; ETON ⚠APPROACHING $29.44; IVU.DE ⚠APPROACHING €20.00; ALRIB.PA first price €10; CODA date refresh); 0 §5 deep-dives; Sector 19 EXHAUSTED confirmed.
+
+### Run #69 — §2B New Triage Kill
+
+| Ticker | Company | Cap | Date | Kill reason |
+|--------|---------|-----|------|-------------|
+| HLS.TSX | HLS Therapeutics Inc (TSX: HLS) | ~CAD 200M (~$145M USD) | 2026-07-27 | **PARK 5/12 MOAT_SOFT** — Canadian specialty pharma; three-product portfolio: (1) Clozaril (clozapine brand — primary schizophrenia; innovator brand being displaced by generic substitution in Canada; moat ERODING); (2) Vascepa (icosapentaenoic acid / icosapentaenoic — cardiovascular risk reduction; generic competition entered Canada 2022; royalty/exclusivity eroding); (3) CSAN Pronto patient monitoring system (cardiac rehabilitation monitoring; sole-source positioning plausible but unverified; revenue and GM unknown from web sources). GM UNKNOWN (primary filing required; cannot gate-pass without GM). NM unknown. All data ~/ unconfirmed. MOAT_SOFT: two of three products face active generic erosion; CSAN Pronto is the sole potentially durable moat element but is unverified and small-scale. Promise 5/12. Revisit only if: (a) CSAN Pronto revenues disclosed and growing (≥C$10M+); (b) Clozaril erosion stabilizes; (c) GM ≥45% confirmed from primary TSX filing. |
+
+**Run #69 §7 REFLECT net result — 0 QUEUED to §5, 0 BENCH additions, 0 WATCHLIST, 1 PARK:**
+- Park additions: HLS.TSX (MOAT_SOFT 5/12; eroding Clozaril/Vascepa + unverified CSAN Pronto)
+- WATCHLIST bench re-prices: PHO.OL NOK 58.80 ⚠APPROACHING; ETON $29.44 ⚠APPROACHING; IVU.DE €20.00 ⚠APPROACHING; ALRIB.PA first price €10/sh; CODA date refresh 2026-07-27
+- Error correction: VGO.WSE FY2025 NI updated PLN -6.9M (from FY2024 -6.3M); STATE.md Sector 18 description corrected
