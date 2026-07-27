@@ -286,3 +286,65 @@ All 17 bench names re-priced as of 2026-07-21 via WebSearch agents. Full updated
 - STATE.md: Total runs 53→54; Universe size 74→81; RELL PARK→NO_MOAT_KILL; +7 new universe entries (NVEC PARK, SVCO COVERAGE_KILL, GSIT INTEGRITY_KILL, INTT PARK, ADIG TRIPLE_KILL, OCTV SIZE_KILL, GUD.TO SECTOR_ADJACENT_KILL); ASX:XRF QUEUED→BENCH corrected; Sector 10 passes 3→4; Sector 17 status updated to reflect shortlist complete; run #54 log entry added; queue updated note added.
 - COVERAGE.md: Sector 17 shortlist §3-§4 triage section added; Sector 10 4th pass section added.
 - KILL-LIST.md: Run #54 entries added (NVEC, SVCO, GSIT, INTT, ADIG, OCTV, GUD.TO).
+
+---
+
+### 2026-07-27 — §7 REFLECT run #57 (57%3=0)
+
+**1. Bench re-pricing (20 names — snapshot.py proxy-blocked; all prices via web search agents ~):**
+
+| Ticker | Last price | Buy-zone | Status |
+|--------|-----------|----------|--------|
+| WINA | ~$385 | ≤~20-22x PE | Above zone |
+| CODA | ~$9.84–$10.00 (~$112.7M cap) | $8-10 / ≤$107M cap | ⚠ APPROACHING (T-~$5.7M cap) |
+| OFLX | ~$29.85 (~$308M cap) | ~$190-220M cap | Above zone |
+| 4549.T | ~¥2,271–2,423 | ¥2,000–2,400 | ⚠ POTENTIAL BUY-ZONE (within range; EDINET proxy-blocked → cannot promote) |
+| 6823.T | ~¥3,585 | ~¥2,200–2,400 | Above zone |
+| EKF.L | ~25.4p (~£110.6M cap) | meaningful pullback | Above zone |
+| 6742.T | ~¥864 | ~¥720 area | Above zone (corrected from prior ¥608 error) |
+| CGS.L | ~316.8p | ~200-230p | Above zone (rebounded; ⚠ UNCERTAIN DATA — was 260p → 316.8p; approaching note removed) |
+| ETON | ~$37.57 (~$1.03B cap) | ~$22-26 | Above zone |
+| SMID | ~$30.22 | ~$22-24 | Above zone |
+| EPEN.ST | ~SEK 97-99 | SEK 115-130 | BELOW zone; quality TBD ⚑non-EN — DO NOT promote |
+| JOUT | ~$43.48 | ~$38-40 | ⚠ APPROACHING (T-~$3.48; drifting lower) |
+| RX.V | ~C$14.50 (~C$158M cap) | ≤C$10-11 | Above zone |
+| MEDI.OL | ~NOK 226 (~NOK 4.15B cap) | ~$230-290M USD cap | Above zone (far above) |
+| SECARE.ST | ~SEK 26.35 | TBD ⚑non-EN | Quality/buy-zone not yet set |
+| NZX:SKL | ~NZD 6.13 (~NZD 1.2B cap) | ~NZD 350-450M cap | Above zone |
+| XRF.AX | ~A$2.28 (~A$323M cap) | A$1.40-1.65 | Above zone |
+| JHD.L | ~143p | ~£200-250M cap | Above zone; RECENTLY APPROACHED (Jun 22 ~124p) |
+| PHO.OL | ~NOK 64.1 (~NOK 1.74B cap) | NOK ≤50-55 | NEW BENCH — above zone |
+| CUV.AX | ~A$10.24 (~A$516M cap) | A$6-8 | NEW BENCH — above zone |
+
+No buy-zone triggers fired. CODA, JOUT most proximate to trigger; 4549.T within zone but EDINET proxy-blocked.
+
+**2. False-negative re-check — pre-v5.1 COVERAGE_KILLs:**
+
+Under v5.1, Cap/Coverage/Price are ROUTERS not KILLERS for Q≥4 names. Two run #47 COVERAGE_KILLs were Q=4 regulatory monopolies wrongly killed on coverage alone:
+
+- **PHO.OL (Photocure ASA):** Sole FDA+EMA approved BLC photodiagnosis agent; 94% GM; debt-free; NOK 293.8M net cash; patent Dec 2036; 390+ US BLC systems; Q=4. COVERAGE_KILL (5-7 analysts) was CORRECT under pre-v5.1 rules; INCORRECT under v5.1. **REVIVED TO QUALITY BENCH.** Existing baseline financials/PHO.OL.md confirmed. Current price ~NOK 64.1 = above buy-zone NOK ≤50-55. Bench-monitor only.
+
+- **CUV.AX (Clinuvel Pharmaceuticals):** Sole approved EPP drug (SCENESSE); FDA 2019 / EMA 2014; no therapeutic alternative; Q=4. Same correction. **REVIVED TO QUALITY BENCH.** §4 financial baseline not yet written (CUV.AX financials/CUV.AX.md = pending; write next run with ASX filing access). Current ~A$10.24 = above buy-zone A$6-8.
+
+Additional false-negative check — run #56 CAP_SOFT_KILLs ATOSS Software SE and PSAN (PSI Software SE): Both killed on CAP_SOFT_KILL + COVERAGE_KILL. Under v5.1, coverage is a router for Q≥4. Both may be Q≥4 (German labor-law compliance HR SaaS; energy grid management software) but insufficient §4 data to confirm Q-score from web sources alone. **Flagged but NOT added to bench this run.** Require §4 Q-score verification from primary filing (German annual report / Geschäftsbericht) before any bench consideration.
+
+**3. §4 financial baselines completed this run:**
+
+- **ADMCM.HE (Admicom Oyj) — 9/12 QUEUED:** Helsinki First North Growth Market. FAS accounting. English Q1 2026 Interim Report used as primary source. Key confirmed: Revenue FY2025 EUR 37.7M (+6.1%); Q1 2026 EUR 9.5M; EBITDA 32.3% FY2025; EBIT 20.1%; NI EUR 5.31M; FCF EUR 7.88M; Net cash EUR 7.03M (Mar 31, 2026); NRR >106%; churn <6%; 96% recurring; guidance cut July 8: ARR 3-10%, revenue 2-6%. Price ~EUR 25 (~); 4 analysts; PT EUR 45-57. QUEUED (Catalyst=0; Finnish construction downturn → ARR Q1 2026 QoQ decline). REVISIT: Finnish construction PMI recovery + ARR returns to growth 2+ consecutive quarters. Baseline: financials/ADMCM.HE.md.
+
+- **OMDA.OL (Omda AS) — 9/12 QUEUED:** Euronext Growth Oslo (EGM). IFRS. English filings available. VMS serial acquirer in Nordic healthcare ancillary clinical software (ProSang blood mgmt 100% market share Sweden+Denmark; Cytodose; Predicare/Aweria; Dermicus; Saab Public Safety Solutions acquired Jun 2026). Revenue NOK 496M (+16% FY2025); EBITDA 24% FY2025 (13%→24% margin expansion); 79-82% recurring; 2-4 analysts; NOK 59 PT (64% upside); EV/EBITDA ~7-9x vs VMS peers 15-25x. KEY DATA GAPS: net financial debt unconfirmed (IFRS 16 + earn-outs inflate nominal D/E to ~1485%; actual financial debt unknown); gross margin unconfirmed. QUEUED (Floor=1 due to balance sheet opacity; §5 requires annual report PDF to confirm financial debt and gross margin). Baseline: financials/OMDA.OL.md.
+
+**4. 6858.T §5 gate re-check (H1 FY2026 earnings):**
+
+H1 FY2026 earnings now out (released early vs. expected ~Jul 29). Revenue H1 ¥7,690M (+21.2% YoY) = BEAT. NI H1 ¥353M = SOFT (only 44% of ¥800M full-year guidance; requires ¥447M in H2). Management held FY2026 guidance unchanged — H2 back-weighting is expected for capital equipment companies (order backlog deliveries skew H2). Gate (a): SOFT PASS — guidance maintained but NI tracking soft; not a clean "on track." Gate (b): STILL BLOCKED — EDINET proxy-blocked; yuho gross margin cannot be verified. §5 requires BOTH gates. **Next milestone: Q3 FY2026 results (Oct/Nov 2026).**
+
+**5. Sector 7 2nd pass:** 10 names; ALL killed; 0 new QUEUED; 1st consecutive 0-new pass. Structural finding: Sector 7 is thin because viable specialty ingredient/ag biologicals at $20-300M cap are either pre-commercial, distressed, or in adjacent sectors. See COVERAGE.md for full triage notes. Sector 7 remains ACTIVE (need 2 consecutive 0-new for EXHAUSTED).
+
+**6. Systemic fixes shipped this run:**
+- WATCHLIST.md: PHO.OL and CUV.AX added to Quality Bench (v5.1 false-negative revives); JHD.L price updated ~143p + RECENTLY APPROACHED BUY-ZONE note (Jun 22 ~124p inside zone).
+- STATE.md: Total runs 55→57 (stale counter corrected); run #56 push status PENDING→OK; run #57 log entry added; deferred queue updated (6858.T gates updated; ADMCM.HE + OMDA.OL added as QUEUED); universe size 90→104.
+- UNIVERSE.md: ADMCM.HE + OMDA.OL status updated to QUEUED with §4 written; PHO.OL + CUV.AX added as BENCH; 10 Sector 7 2nd pass kills added; universe size 92→104.
+- COVERAGE.md: §7 REFLECT false-negative correction section added; Sector 7 2nd pass coverage notes added.
+- KILL-LIST.md: Run #57 Sector 7 2nd pass kills appended (10 names).
+- financials/OMDA.OL.md: Written this run (§4 baseline).
+- financials/ADMCM.HE.md: Written this run (§4 baseline; confirmed as clean write from Q1 2026 English Interim Report).

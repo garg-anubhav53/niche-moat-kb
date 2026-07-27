@@ -433,3 +433,50 @@ Searching for IDOX analogs in the UK AIM vertical SaaS space surfaced the follow
 **Sector 8 status:** ACTIVE (2 passes complete). 1st consecutive 0-new-QUEUED pass for EU geo lens (pass 1 was Canada/AU). Next Sector 8 pass: US geo lens (specialty building products, US OTC/Nasdaq micro-cap — Trex, Simpson Manufacturing, Gibraltar already above $300M; look for sub-$300M specialty niche names) or Japan non-EN building materials (EDINET when access restored).
 
 ---
+
+## §7 REFLECT — Run #57 (2026-07-27): Bench False-Negative Corrections (PHO.OL, CUV.AX)
+
+**Trigger:** Run 57 = 57%3=0 → mandatory §7 REFLECT. Standing false-negative check: pre-v5.1 COVERAGE_KILLs re-examined for Q≥4 names wrongly killed on coverage count alone.
+
+**Finding:** Two names killed in run #47 (2026-07-20) on COVERAGE_KILL are Q=4 regulatory monopolies and should be on the Quality Bench under v5.1 rules (coverage = ROUTER not KILLER for Q≥4).
+
+| Ticker | Kill reason (pre-v5.1) | Q-score | v5.1 outcome | Buy-zone |
+|--------|------------------------|---------|--------------|----------|
+| PHO.OL | COVERAGE_KILL (5-7 analysts on Oslo Børs; run #47) | Q=4 (94% GM regulatory monopoly; sole FDA+EMA approved BLC agent; patent Dec 2036; 390+ US hospital systems) | BENCH (revived to WATCHLIST.md Quality Bench) | NOK ≤50-55/sh (~NOK 1.3-1.4B cap); current ~NOK 64.1 = ABOVE zone |
+| CUV.AX | COVERAGE_KILL (7 ASX analysts; run #47) | Q=4 (sole approved drug for EPP; SCENESSE FDA 2019 / EMA 2014; no therapeutic alternative; rare disease regulatory monopoly) | BENCH (revived to WATCHLIST.md Quality Bench) | A$6-8/sh (~A$300-400M cap); current ~A$10.24 = ABOVE zone |
+
+**Action taken:** Both added to WATCHLIST.md Quality Bench (run #57 §7 REFLECT). Neither triggers QUEUED_HOT today (both above buy-zone). Monitoring mode. CUV.AX §4 baseline not yet written — write on next run with filing access.
+
+---
+
+## Sector 7 (Specialty Food & Ag Ingredients) — Pass 2 Coverage Notes (run #57, 2026-07-27)
+
+**Geo lens: European/UK AIM + US OTC/Nasdaq specialty ingredient names not captured in 1st pass (Japan/Korea/US micro-cap).**
+
+**Pass result:** 10 names processed; ALL killed; 0 new QUEUED; 1st consecutive 0-new pass.
+
+**Structural finding:** The Sector 7 2nd pass confirms the structural thinness identified in pass 1. The viable specialty ingredient / ag biologicals niche at $20-300M cap is structurally thin for four reasons:
+
+1. **Pre-commercial dominates:** The most scientifically interesting names (Cibus, BIOX, BioHarvest, Evogene, Ginkgo) are pre-profitable development-stage companies with cash runway risks — they fail the anti-value-trap quality gate (earnings floor required)
+2. **Distressed adjacents:** Several names (BIOX, NAII) show severe financial distress (90%+ stock declines, ongoing losses) rather than value mispricing — asymmetry gates fail badly
+3. **Adjacent-sector pollution:** CDXS (pharma biocatalysis), AVD (crop chemicals) and DNA (platform services) appear in food/ag screens but are not specialty ingredient businesses
+4. **Size/coverage kills:** MGPI ($536M revenue) and AVD ($515M revenue) are above ceiling; pre-v5.1 kills (MGPI coverage, Treatt coverage) confirmed again
+
+**Individual kills summary:**
+
+| Ticker | Company | Kill Type | Key Reason |
+|--------|---------|-----------|------------|
+| TTTRF/TET.L | Treatt plc | NO_MOAT_KILL + COVERAGE_KILL | GM ~26% fails gate; 8 analysts; natural extract supplier commodity-adjacent |
+| CBUS | Cibus Inc | INTEGRITY_KILL | Pre-commercial; $3.6M revenue; cash runway Q1 2027 only |
+| BIOX | Bioceres Crop Solutions | INTEGRITY_KILL | 90%+ stock decline; large GAAP losses; Argentine peso exposure |
+| CDXS | Codexis | SECTOR_ADJACENT_KILL | Primarily pharma biocatalysis; pre-profitable |
+| BHST | BioHarvest Sciences | CAP_TOO_SMALL_KILL | ~$40M cap at/below effective floor; pre-profitability |
+| MGPI | MGP Ingredients | SIZE_KILL + NO_MOAT_KILL | $536M revenue above ceiling; ingredient GM very low |
+| AVD | American Vanguard | SIZE_KILL + SECTOR_ADJACENT | $515M revenue above ceiling; crop chemicals not food ingredients |
+| NAII | Natural Alternatives International | INTEGRITY_KILL | Net loss -$13.6M FY2025; ~$20M cap near floor |
+| DNA | Ginkgo Bioworks | CAP_KILL + SECTOR_ADJACENT | ~$542M cap above ceiling; platform/services not specialty ingredient |
+| EVGN | Evogene Ltd | CAP_TOO_SMALL_KILL | ~$5M cap far below floor; pre-commercial; already killed run #26 |
+
+**Sector 7 status:** ACTIVE (not EXHAUSTED — only 1 consecutive 0-new pass; need 2 to declare EXHAUSTED). Structural assessment: the niche specialty ingredient / ag biologicals space has very few public companies in the $20-300M cap zone that are (a) profitable, (b) have a genuine moat beyond brand/scale, and (c) are below coverage radar. The sector may be structurally thin at any geo lens given: most quality ingredient companies are private (Amano Enzyme, Lallemand, Lesaffre, Kerry private divisions, Chr. Hansen private after Novozymes merger) or large-cap. **Do not declare EXHAUSTED after 2 consecutive 0-new passes if a fundamentally new geo lens has not been tried** — consider LATAM ag biologicals (Brazil: EMBRAPA licensees; Chile: specialty viticulture inputs) or Australian/NZ specialty food ingredients as a future 3rd pass geo lens if warranted.
+
+
