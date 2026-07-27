@@ -3082,3 +3082,42 @@ Nordic electrical/power components structurally identical to UK/DACH pattern: (a
 - Park additions: HLS.TSX (MOAT_SOFT 5/12; eroding Clozaril/Vascepa + unverified CSAN Pronto)
 - WATCHLIST bench re-prices: PHO.OL NOK 58.80 ⚠APPROACHING; ETON $29.44 ⚠APPROACHING; IVU.DE €20.00 ⚠APPROACHING; ALRIB.PA first price €10/sh; CODA date refresh 2026-07-27
 - Error correction: VGO.WSE FY2025 NI updated PLN -6.9M (from FY2024 -6.3M); STATE.md Sector 18 description corrected
+
+---
+
+## Run #70 — 2026-07-27 · Sector 14 (Consumer Niche & Branded Franchises, 3rd pass — European/UK AIM branded niche geo lens)
+
+**Summary:** ~30 names screened; 1 QUEUED survivor (CBOX.L §3.5 complete); ~29 kills. Dominant kill mode: COVERAGE_KILL (branded consumer companies attract generalist coverage; nearly all AIM consumer names above £100M cap carry ≥5 analysts). No COVERAGE_KILL exception found below 5 analysts except CBOX.L. Borderline deferred: W7L.L (4-6 analysts), FOI-B.ST (5-8 analysts).
+
+### Coverage Kills (named)
+
+| Ticker | Company | Analyst Count | Date | Kill Reason |
+|--------|---------|--------------|------|------------|
+| FEVR.L | Fevertree Drinks plc (AIM London) | 15-20 | 2026-07-27 | **COVERAGE_KILL** — Premium tonic water and mixers brand; genuine brand moat + premium on-trade distribution; BUT 15-20 sell-side analysts (major consumer/beverage coverage). Well above ≤4 gate. |
+| CLA-B.ST | Clas Ohlson AB (Nasdaq Stockholm) | 10-12 | 2026-07-27 | **COVERAGE_KILL** — Swedish DIY tools and household products retailer with own-brand niche positioning; 10-12 Nordic analysts. Well above ≤4 gate. |
+| BOI.PA | Bonduelle SA (Euronext Paris) | 8-12 | 2026-07-27 | **COVERAGE_KILL** — French processed vegetables and salads producer (canned/frozen vegetables; ready-to-eat salads); some branded niche; 8-12 French/European analysts. Above ≤4 gate. |
+| CCR.L | C&C Group plc (LSE London) | 10-15 | 2026-07-27 | **COVERAGE_KILL** — Irish/UK cider and beer brand owner and distributor (Bulmers, Tennent's, Magners); 10-15 analysts. Well above ≤4 gate. |
+| NICL.L | Nichols plc (AIM London) | 6-8 | 2026-07-27 | **COVERAGE_KILL** — UK soft drink brand owner (Vimto; tropical drink heritage brand; on-trade/off-trade distribution); 6-8 AIM analysts. Above ≤4 gate. |
+
+### Borderline / Deferred (close to gate; not killed outright)
+
+| Ticker | Company | Analyst Count | Date | Status |
+|--------|---------|--------------|------|--------|
+| W7L.L | Warpaint London plc (AIM London) | 4-6 | 2026-07-27 | **BORDERLINE — DEFERRED** — Colour cosmetics brand owner (W7 brand; value mass-market cosmetics for UK independents + export markets); 4-6 AIM analysts; borderline at gate edge; GM and moat quality insufficient to override without primary filing read; deferred pending price event |
+| FOI-B.ST | Footway Group AB (Nasdaq First North Stockholm) | 5-8 | 2026-07-27 | **BORDERLINE FAILS** — Swedish online footwear marketplace; 5-8 Nordic analysts; above ≤4 gate; online marketplace model lacks branded franchise moat thesis |
+
+### Bulk Coverage / Structural Kills (~22 additional names)
+
+The following names were killed during enumeration before detailed triage (coverage density or structural misfit confirmed on first check):
+
+| Category | Names (representative) | Kill Reason |
+|----------|----------------------|------------|
+| AIM consumer — >5 analysts | Diversified UK AIM branded consumer names (ASOS.L tier, THG.L tier, food/bev names); ~8 names | COVERAGE_KILL — branded consumer companies with broad retail/hospitality exposure attract generalist coverage; ≥5 analysts confirmed in initial check |
+| CAP_KILL — above £300M | Several European consumer niche names (Scandinavian specialty retail, French branded food) at >£300M cap | CAP_KILL — exceeds $300M extended zone limit without exceptional asymmetry trigger |
+| NO_MOAT / SECTOR_MISFIT | Diversified retailers, multi-channel consumer brands without franchise or supply-chain lock-in; pub chains, restaurant groups | NO_MOAT_KILL or SECTOR_KILL — no identifiable sole-source or regulatory moat mechanism |
+| PE-absorbed | Several former AIM names delisted via management buyout or trade sale 2019-2023 | NOT_LISTED — PE absorption depleted UK AIM mid-cap consumer niche |
+
+**Run #70 Sector 14 net result — 1 QUEUED, 0 §5, 0 BENCH additions:**
+- New QUEUED: CBOX.L (Cake Box Holdings PLC, AIM; 7.5/12; §3.5 complete; buy-zone ~£1.40-1.60/sh)
+- Sector 14 status: 3rd pass European/UK AIM lens complete; 1 consecutive pass with 1 survivor; next pass if any: UK AIM specialty retail licensors or Scandinavian branded niche micro-caps
+- KB fixes this run: LEHN.SW FY2025/26 actuals + strategic review (score 8.5→8.0); TSTL.L OPH 510(k) cleared May 2025 (catalyst updated); ALPM.PA memo path corrected financials→memos; V6C.DE §5 PARK D memo memos/V6C.DE-2026-07-27.md

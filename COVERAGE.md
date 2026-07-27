@@ -1178,3 +1178,36 @@ Nordic electrical/power components follows the identical structural pattern to U
 - Queued §5: 2 (6858.T BLOCKED, ADMCM.HE deferred) + OMDA.OL BENCH §5 priority
 
 **Sector status update:** Sector 19 confirmed EXHAUSTED (2 consecutive 0-new passes: run #66 US + run #68 UK/CA/ASX). No new sector opened this run (§7 REFLECT only).
+
+---
+
+## Sector 14 (Consumer Niche & Branded Franchises) — Pass 3 Coverage Notes (run #70, 2026-07-27)
+
+**Geo lens:** European/UK AIM branded niche consumer franchises. ~30 names screened.
+
+**Dominant kill mode: COVERAGE_KILL.** Branded consumer companies at >£50M cap on AIM or European exchanges are almost universally covered by generalist consumer/retail analysts. The ≤4-analyst gate is highly effective at eliminating the large majority of the sector. Key named coverage kills:
+
+| Ticker | Company | Analysts | Gate result |
+|--------|---------|---------|------------|
+| FEVR.L | Fevertree Drinks plc | 15-20 | COVERAGE_KILL |
+| CLA-B.ST | Clas Ohlson AB | 10-12 | COVERAGE_KILL |
+| BOI.PA | Bonduelle SA | 8-12 | COVERAGE_KILL |
+| CCR.L | C&C Group plc | 10-15 | COVERAGE_KILL |
+| NICL.L | Nichols plc | 6-8 | COVERAGE_KILL |
+| W7L.L | Warpaint London plc | 4-6 | BORDERLINE — DEFERRED |
+| FOI-B.ST | Footway Group AB | 5-8 | BORDERLINE FAILS |
+
+**Structural finding: PE absorption depleted UK AIM mid-cap consumer niche.** The 2018-2023 UK PE buyout wave absorbed a large portion of viable £50-200M AIM consumer franchisors (Ergomed, SourceBioscience, Medica, and many consumer brand mid-caps). The residual AIM consumer universe is either: (a) too covered (franchise-grade branded consumer companies that attracted institutional analyst solicitation), (b) too large (extended zone without asymmetry), or (c) too weak in moat (diversified retail/hospitality without regulatory or supply-chain lock-in).
+
+**Productive exception: ethnic/religious-community niche franchise licensors.** CBOX.L (Cake Box Holdings, AIM, ~£86-90M cap) is the paradigm case — UK's only scaled egg-free celebration cake franchise chain targeting South Asian and halal communities. Market is large enough for one scaled operator but small enough to be unattractive to major UK bakery chains. The franchise-supply-chain lock-in (mandatory ingredient purchase = ~45% franchisee cost back to HQ) creates embedded recurring revenue. GM 52.5% (FY2025) exceeds the 45% gate. 1 analyst (Shore Capital house broker). Result: QUEUED 7.5/12; buy-zone ~£1.40-1.60/sh.
+
+**Coverage denominator update (run #70):**
+- Universe: 225 (was 224; +1 CBOX.L QUEUED)
+- Quality Bench (WATCHLIST.md): 29 names (unchanged from run #69)
+- WATCH: 3 (FAA.VI A, REC.L B, STX.L C)
+- CORE: 1 (EUZ.DE B)
+- Queued §5: 2 (6858.T BLOCKED, ADMCM.HE deferred) + OMDA.OL BENCH §5 priority
+- LEHN.SW score 8.5→8.0 (FY2025/26 actuals confirmed; strategic review disclosed — M&A optionality added but hard-dated catalyst score reduced)
+- V6C.DE §5 complete: PARK Grade D (memo memos/V6C.DE-2026-07-27.md)
+
+**Sector status update (run #70):** Sector 14 3rd pass European/UK AIM complete. Coverage density in this geo lens is high — the next Sector 14 pass (if any) should target UK AIM specialty retail licensors (niche IP-backed format franchises) or Scandinavian branded niche micro-caps (Nasdaq First North, sub-€100M cap, pre-analyst-coverage window).

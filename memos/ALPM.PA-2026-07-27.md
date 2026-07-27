@@ -465,3 +465,85 @@ For a patient investor with a 3–5 year horizon, a 1.5–2.5% portfolio positio
 *Sources: EQS/GlobeNewswire (Apr 20, 2026) — revenue/EBIT/NI/dividend; Boursorama (Apr 21, 2026) — Portzamparc PT; Precia Molen investor pages (preciamolen.com); MarketScreener — Dibal acquisition announcement (Mar 2025); Dibal Group press release — PRECIA DIBAL PESAGE SAS; French Hidden Champions Substack — competitor and moat analysis; Multiples.vc — valuation comps; Precia Annual Report 2020/2021 (preciamolen.com/wp-content); Precia Annual Report 2021 — CREATIVE IT acquisition; Precia FY2022 press release (preciamolen.com) — revenue confirmation; Alpha Spread — operating margin trend; BusinessResearchCompany / GIIResearch — industrial weighing market size; MarketScreener — shareholding data (Escharavil family); Portzamparc High Five May 2026 (Le Conseil Patrimoine); OIML R50 standard — belt scale certification requirements.*
 
 *Trust legend: ✓ = filing-anchored; ~ = single-source or inferred; C≤2 confidence cap applies throughout.*
+
+---
+
+## METHOD SUMMARY BLOCK
+
+```
+GRADE: C  ·  TIER: CANDIDATE
+Q 3/5 · F 4/5 · R 2/5 · C 2/5
+
+Financial baseline:
+  Rev: €136.1M (2019) → €168.9M (2024) → €169.0M (2025); CAGR +3.7%
+  GM%: ~78-79% (cost-by-nature format; gross margin per aggregator, not COGS-function)
+  EBIT margin: 10.1% FY2025 (record); FY2020 trough ~5-6% (estimated)
+  Net income: €11.0M FY2025
+  Net cash/debt: ~€44M net cash ~ (Dec 31, 2025 estimated; primary filing required)
+  Shares: ~5.41M ~
+  FCF: ~€8-14M/yr est. (EBIT €17.1M less taxes/interest/capex; not filing-anchored)
+  P/E: ~12.3x ~ | EV/EBIT: 5.37x ~ | EV/Rev: 0.54x ~
+  Fair-value estimate: 10-14x EV/EBIT on process-only EBIT = €160-280M EV → equity ~€200-320M
+  Market cap: ~€135.7M ~ | Price: ~€25.00 ~
+  [Source: EQS/GlobeNewswire Apr 2026; Portzamparc PT; financials/ALPM.PA.md + ALPM.PA-2026-07-27.md; as-of 2026-07-27]
+
+Financials verified against primary filing: NO — all data web-search; AMF/Euronext Growth filing in French not accessed (proxy-blocked); C≤2 mandatory cap applies
+
+Base rate: "Regional industrial micro-cap niche incumbents with regulatory lock-in and single-analyst coverage in France have re-rated ~2-3 of N times over 3-5 yr horizons when clean earnings become visible post-corporate-action; the swing factor is always second-analyst initiation or a corporate event forcing institutional attention. Many remain cheap for 3-7+ years without a forcing event."
+
+Skeptic's checklist: 
+  - Revenue recognition: PLAUSIBLE (subscription/service contracts standard; Legal-for-Trade billing cycle well-established)
+  - Revenue durability: CONFIRMED via COVID 2020 resilience (-4.9% organic vs -10-20% typical industrial peers)
+  - Competitive capture: PLAUSIBLE (installed base protected by regulatory recertification cost; new installations competitive)
+  - Moat stickiness 3/5/10yr: PLAUSIBLE (regulatory requirement is not repealed; software integration deepening; 10yr risk is digital/AI disruption of hardware)
+  - Customer concentration: UNVERIFIED (no disclosure accessible from web sources; industrial process customer base may be concentrated)
+  - Pricing power: PLAUSIBLE (EBIT margins stable/improving at record; no evidence of margin erosion despite competition)
+  - Accounting quality: UNVERIFIED (cost-by-nature format, French AMF filing in French, not read; Dibal gain treatment in FY2025 EBIT unknown)
+  - Ownership/dilution: CONFIRMED (Escharavil family 59.1% voting; no dilution history; dividend consistent)
+  - Input/supply dependency: PLAUSIBLE (global supply base; no single-source material dependency identified; EUR/USD FX exposure moderate)
+  - Management credibility: CONFIRMED (75yr operating history; disciplined bolt-on M&A track record; B1+ Banque de France credit)
+
+  Count: 3 CONFIRMED, 4 PLAUSIBLE, 2 UNVERIFIED, 0 RED-FLAG
+  Open questions to resolve: customer concentration, recurring service % of revenue, Dibal segment EBIT (was it margin-accretive or dilutive?), net cash balance from balance sheet, Portzamparc PT exact current figure
+
+Buy-zone: ≤€22-23 (on FY2026 headline revenue "decline" narrative; EV/EBIT ~4.5-4.8x; better asymmetry)
+Current price (~€25): already represents attractive entry at 5.37x EV/EBIT (3:1 asymmetry)
+Upgrade trigger: (a) Second analyst initiates coverage — single most valuable catalyst; (b) FY2026 H1 results Sept 2026 confirm organic growth +3%+ and EBIT margin ≥10.5% on clean process base
+Downgrade trigger: (a) FY2026 EBIT below €13M (implies commercial weighing was profitable); (b) Portzamparc PT revision below €30; (c) Large unrelated M&A >€15M
+
+Asymmetry-to-risk in one sentence: Precia Molen is a genuine regional-incumbent process weighing business trading at 5.37x EV/EBIT with 32% of cap in net cash — a 3:1 risk-reward that is compelling in theory but constrained in practice by permanent trading illiquidity and the absence of a near-term institutional-grade catalyst to close the valuation gap.
+
+OPUS RED-TEAM RESULT (12 checks):
+  FM-01 MOAT: PARTIALLY VALID — installed base moat real; new project wins competitive
+  FM-02 CYCLICALITY: REAL BUT MANAGEABLE — COVID confirms resilience; EU deindustrialisation tail risk
+  FM-03 TECH OBSOLESCENCE: MONITOR — physics protects industrial core; software risk 5-10yr
+  FM-04 DIVESTITURE REVENUE HOLE: REAL NEAR-TERM NARRATIVE RISK — FY2026 headline lower; economics likely improve
+  FM-05 SINGLE ANALYST / ILLIQUIDITY: HIGH-PRIORITY STRUCTURAL RISK — most binding constraint on re-rating
+  FM-06 CUSTOMER CONCENTRATION: UNRESOLVABLE FROM WEB — assume LOW risk; verify from annual report
+  FM-07 FAMILY GOVERNANCE: REAL STRUCTURAL CONSTRAINT — limits M&A premium upside; not acute risk
+  FM-08 FRENCH LABOR COST: REAL BUT PARTIALLY MITIGATED — operating leverage risk in downturns
+  FM-09 DIBAL DIVESTITURE QUALITY: PROBABLY UPSIDE — divestiture likely quality-improving; FY2026 confirms
+  FM-10 NET CASH SUSTAINABILITY: DISMISSED — cash real and growing; risk is underdeployment
+  FM-11 M&A / CAPITAL ALLOCATION: WATCH CLOSELY — track record disciplined; cash overhang growing
+  FM-12 ACCOUNTING OPACITY: OPACITY REAL; MANIPULATION LOW — Dibal gain treatment unknown; monitor
+
+  Red-team survival: thesis survives; 2 high-priority structural risks (FM-04, FM-05) are market-structure not business-quality issues
+
+RISK PROFILE:
+  Load-bearing assumption: Dibal divestiture is margin-accretive AND organic process revenue grows 3-4% annually → proves by FY2026 H1 results (Sept 2026)
+  Clean operating earnings: EBIT €17.1M FY2025 (includes 5mo of commercial weighing); process-only EBIT estimated €14-17M FY2026; at 10x EV/EBIT = fair value ~€180-210M EV = equity ~€220-250M
+  Informative trigger: FY2026 H1 results (September 2026) — tests process-only EBIT margin and organic growth simultaneously
+  Moat durability 3yr: SOLID (regulatory recertification cost protects installed base through economic cycles)
+  Moat durability 5yr: SOLID-MODERATE (software integration deepening via CREATIVE IT; hardware moat defensible)
+  Moat durability 10yr: MODERATE (digital/AI metrology risk manageable; depends on software transition success)
+  Revenue-quality decomposition: ~25-35% recurring (service/calibration, est.); ~65-75% capital equipment (new installs, project replacements); COVID 2020 test (-4.9% organic) confirms service cushion is real
+  Flip-disclosure: Primary AMF filing reveals Dibal segment EBIT was profitable (not dilutive) → FY2026 process-only EBIT falls below €13M → thesis structurally impaired
+  Return if nothing re-rates: Dividend yield ~2.2% at €25 + modest FCF compounding → ~3-5% p.a. total return; uninspiring but capital is preserved by the net cash floor
+
+HUMAN VERIFICATION CHECKLIST (before any capital — must independently confirm):
+  1. Read primary French AMF annual report (preciamolen.com) — verify net cash balance (balance sheet line) and recurring service revenue % (segment/geographic split in notes)
+  2. Confirm Dibal segment EBIT contribution from FY2024 annual report (the most load-bearing unknown — was commercial weighing margin-accretive or dilutive?)
+  3. Verify customer concentration: read Risks section of annual report for "significant customer" / "top customer" disclosure
+  4. Confirm Portzamparc PT is current (€37.80 or €36.70 — data diverges between April and May 2026 sources; call Portzamparc if necessary)
+  5. Check trading liquidity: confirm daily average volume (€ value) on Euronext Growth Paris over trailing 3 months to calibrate exit timeline realistically
+```
