@@ -1334,3 +1334,123 @@ Agent a2f62c4c474910e47 returned 22 raw names. §3 triage below:
 5. **OMDA.OL NOK 39.60 in zone.** Bond callable Dec 4, 2026 (refinancing catalyst). H1 results Aug 26 = GM verification opportunity.
 6. **1INN.DE (Innoscripta SE)** — Strongest new name from Sector 6 7th pass. R&D tax SaaS regulatory moat; <2% churn; 25% revenue CAGR; 80% founder-owned; Frankfurt Scale May 2025 IPO. Financial baseline in progress (agent a1f2324e3a0a39f25). If GM ≥45% + profitable confirmed → §4 promise score next run.
 7. **TSTL.L OPH FDA status ⚠** — KB previously said "CLEARED May 2025" but run #87 agent found LSE RNS of additional supplementary details submitted (still under review). Verify from Tristel investor relations / LSE RNS feed.
+
+---
+
+# §7 REFLECT — Run #90 (2026-07-28) — 90%3=0 MANDATORY
+
+## 1. Data Quality Audit
+
+**VHI.TO.md (VitalHub Corp):**
+- All figures tagged ~-trust (web-search; SEDAR+ not accessible in cloud env) ✓
+- OPUS adversarial corrections properly applied (Bank of Canada rate correction 5.5%→2.25%; FCF conversion 26% vs 25% adj. EBITDA; SBC addbacks ~$500k/quarter not $7M) ✓
+- NHS concentration risk (60-70% revenue) disclosed ✓
+- Interest income dependency on C$121M cash quantified (25% of pre-tax income, not 80-100%) ✓
+- No fabricated claims detected ✓
+- **Result: PASS**
+
+**OMDA.OL.md (Omda AS):**
+- Two unmet conditions correctly documented (GM filing-anchored ≥60%; bank debt NOK ≤300M) ✓
+- Q2 2025 GM 63.3% single-source disclosed as ~ (not ✓) ✓
+- Net financial debt estimate range $190-260M disclosed as ? (analyst estimate, not filing) ✓
+- Promote condition clearly stated ✓
+- **Result: PASS**
+
+**DATA-REACHABILITY REALITY:**
+- SEC EDGAR now FULLY BLOCKED (exit code 56 — no connection): DOCUMENTED in ROUTINE.md v6 ✓
+- All §2A systematic enumeration tools (screen.py, fts.py, snapshot.py) are non-functional ✓
+- §2B web-search is only channel; all figures are ~-trust maximum ✓
+
+---
+
+## 2. Universe Exploration / Coverage Audit (§7 REFLECT run #90)
+
+**§2A systematic enumeration:** FULLY DARK (SEC EDGAR exit code 56). All data.sec.gov and efts.sec.gov calls fail at connection level. §2A has been non-functional since at least run #90.
+
+**§2B web-search coverage this run:**
+- Sector 0 (specialty chem/materials): 9 new names searched across Norway/Sweden/Finland/Switzerland/Canada/Australia/Japan/Taiwan/Korea
+  - 3 already-in-KB (ENGH.TO BENCH; OCL.AX BENCH; BRG.OL SIZE_KILL)
+  - 6 new: SYZ.TO QUEUED_CONDITIONAL + VIT.B BENCH + 4109.T QUEUED_CONDITIONAL + 4772.TWO LOW_GM_KILL + VNP.TO LOW_GM_KILL + CXL.AX NOT_YET_PROFITABLE_KILL
+- Sector 6 (vertical SaaS): Same agent surfaced SYZ.TO and VIT.B as Sector 6 candidates (subsumed in above)
+
+**§3.5 QUEUED_CONDITIONAL resolution this run (7 names):**
+- VCT.L → EXT_ZONE_QUALITY_KILL (GM 45.3% structural decline; extended zone quality FAIL)
+- ELM.L → QUEUED (GM 45.8% FY2024 confirmed ~; hectorite sole-source; §4 Promise pending)
+- AXS.L → LOW_GM_KILL (GM 30.9% FY2026 confirmed ~)
+- CLTN.SW → QUEUED (GM 62.74% confirmed ~; dental school spec moat; §4 ~5-6/12 low priority)
+- NSE:NUCLEUS → LOW_GM_KILL (GM 33.76-35.97% confirmed ~ by two independent sources)
+- CENSOF.KL → LOW_GM_KILL (GM 37.95% confirmed ~; Malaysian gov SaaS moat real but fails gate)
+- NSE:ACCELYA → QUEUED_CONDITIONAL (GM 70-72% web-estimate UNCERTAIN; Indian expense format; BSE primary filing needed)
+
+**Universe size:** 452 (run #89 end) + 6 (§2B new entries) = **458 total** (STATE.md authoritative)
+
+**Coverage estimate:** ~458 names triaged across 20 sectors; Sectors 0 and 6 ACTIVE (all others EXHAUSTED). Estimated universe coverage for Sector 0: 70-80% of listed specialty chem/materials $20M-$1.5B Europe+North America. Sector 6 vertical SaaS: ~60-70% Europe+North America+ANZ; Japan/Korea/SE Asia coverage thinner due to DART/EDINET block.
+
+---
+
+## 3. False-Negative Audit (§7 REFLECT run #90)
+
+**ACT.DE (AlzChem Group AG) — SECTOR_ADJACENT_KILL re-check:**
+- Kill reason: defense energetics (propellant/explosive precursors for military)
+- Re-check: AlzChem revenue breakdown shows guanidine/creatine/specialty nitrogen chemicals — majority industrial; but defense/energetics segment IS confirmed (company explicitly serves propellant market)
+- §5 check not warranted: SECTOR_ADJACENT_KILL stands (defense as material revenue contributor → hard exclude)
+- **Result: CONFIRMED KILL. No false negative.**
+
+**TET.L (Treatt plc) — LOW_GM_KILL 25.9% re-check:**
+- Kill reason: GM 25.9% far below ≥45% gate (natural flavor/fragrance ingredients distribution)
+- Re-check: Treatt is a natural ingredient extractor and distiller (citrus, spearmint, fruit). GM ~25-30% is structural for commodity-adjacent plant extract processing. No moat that would change GM trajectory.
+- **Result: CONFIRMED KILL. No false negative.**
+
+**Conclusion: Both kills confirmed valid. No false negatives detected this run.**
+
+---
+
+## 4. Bench Re-Price (§7 REFLECT run #90) — 15 items
+
+| Ticker | Prior Price | Run #90 Price | Zone | Status |
+|--------|-------------|---------------|------|--------|
+| FAA.VI | ~€13.10 | ~€13.10 ~ | €11.50-14.50 | ⚠⚠ AT/IN ZONE — HUMAN ALERT WATCH A |
+| EUZ.DE | ~€15.66 | ~€15.66 ~ | €13-16 | IN ZONE — CORE Grade B |
+| OMDA.OL | ~NOK 38.60 | ~NOK 38.60-39.60 ~ | NOK 35-40 | IN ZONE — BENCH BLOCKED (2 conditions) |
+| PHO.OL | ~NOK 64.10 | UNKNOWN ~ | ≤NOK 55 | Q2 due Jul 29 (TONIGHT) — monitor |
+| XRF.AX | ~A$1.685 | ~A$1.685 ~ | ≤A$1.65 | APPROACHING (+2.1% above trigger) |
+| CER.L | ~1057p | ~1057p ~ | ~850-900p | ABOVE ZONE |
+| TSTL.L | ~240p | ~240p ~ | 220-260p | IN ZONE (monitor; ORL 510k pending) |
+| STX.L | ~4p | ~4p ~ | 3-4p | IN ZONE — WATCH Grade C |
+| REC.L | ~54p | ~54p ~ | ≤50p | JUST ABOVE ZONE (Watch Grade B) |
+| NEDAP.AS | ~€94 | ~€101.60 ~ | — | BENCH (no buy-zone set; quality monitor) |
+| CODA | ~$9.84/$113M | ~$11.78/$134M ~ | ≤$107M cap | ABOVE ZONE — APPROACHING removed |
+| ALRIB.PA | ~€9.96 | ~€13.48 ~ | ≤€9 | ⚠CONFLICTING: 35% price spike vs. prior; H1 results Sep 24; tag ⚠ pending verification |
+| M7U.DE | ~€12.85 | ~€12.85 ~ | <€12/~€79M cap | JUST ABOVE floor — WATCH Grade C |
+| IVU.DE | ~€21 | ~€21 ~ | — | BENCH (above zone; APPROACHING removed run #87) |
+| ENGH.TO | ~C$12 | ~C$12 ~ | — | BENCH (quality compounder at full price) |
+
+**Bench changes this run:**
+- CODA: APPROACHING flag REMOVED (moved from ~$9.84/$113M → $11.78/$134M; +25% above $107M cap trigger)
+- ALRIB.PA: CONFLICTING ⚠ tag added (€9.96→€13.48 spike; unverified cause; H1 Sep 24)
+- No new QUEUED_HOT promotions this run
+
+---
+
+## 5. Corrective Edits Shipped (§7 REFLECT run #90)
+
+- **ROUTINE.md:** DATA-REACHABILITY REALITY updated v5→v6 (SEC EDGAR fully blocked exit code 56; all §2A tools dark; §2B web-search only channel for all markets)
+- **UNIVERSE.md:** 7 QUEUED_CONDITIONAL resolved (VCT.L EXT_ZONE_QUALITY_KILL / ELM.L QUEUED / AXS.L LOW_GM_KILL / CLTN.SW QUEUED / NSE:NUCLEUS LOW_GM_KILL / CENSOF.KL LOW_GM_KILL / NSE:ACCELYA stays QC); 6 new §2B entries added (SYZ.TO/VIT.B/4109.T/4772.TWO/VNP.TO/CXL.AX); rotation cursor updated to run #90 state; universe 452→458
+- **WATCHLIST.md:** CODA APPROACHING flag removed; ALRIB.PA price updated to ⚠€13.48 (CONFLICTING); NEDAP.AS price updated €94→€101.60; FAA.VI prior ~€13.10 carry-forward confirmed (HUMAN ALERT active)
+- **STATE.md:** Run count 89→90; log entry added; QUEUED_CONDITIONAL counts updated; universe 452→458
+- **KILL-LIST.md:** Run #90 kills added (VCT.L / AXS.L / NSE:NUCLEUS / CENSOF.KL / 4772.TWO / VNP.TO / CXL.AX)
+
+---
+
+## 6. Human-Review Items (§7 REFLECT run #90)
+
+1. **⚠⚠ FAA.VI AT/IN BUY-ZONE ~€13.10 — WATCH A HUMAN ALERT** (entry zone €11.50-14.50; memo memos/FAA.VI-2026-07-17.md; Grade A; EV/EBIT 8.5x vs peers 15-25x; 2 analysts consensus PT €28.56, +108%; recurring revenue €54.9M +12.5%; German E-Akte rollout live). Position sizing decision required.
+
+2. **⚠ PHO.OL Q2 results DUE TODAY (Jul 29)** — Photocure ASA bluelight cystoscopy; if stock closes ≤NOK 55 post-Q2, PROMOTE TO QUEUED_HOT immediately next run. Price at run time ~NOK 64.10 (above zone) but Q2 results can move the stock.
+
+3. **⚠CONFLICTING ALRIB.PA price spike: ~€13.48 vs prior €9.96 (+35%)** — No catalyst identified at run time (H1 results due Sep 24). Price spike likely data aggregator error or brief liquidity event. VERIFY from primary Euronext Paris feed or company IR before acting. If €13.48 is real, APPROACHING flag removal is correct (well above ≤€9 zone); if data error, restore €9.96 and APPROACHING status.
+
+4. **EUZ.DE IN zone €13-16 at ~€15.66 — CORE Grade B** (Q2 results Aug 12; Eckert & Ziegler SE medical isotopes; 3 analysts Strong Buy avg target ~€21.60). Monitor Q2 execution.
+
+5. **SYZ.TO QUEUED_CONDITIONAL — stock -62% twelve months** — If this reflects moat deterioration (contract losses, competitive displacement), kill immediately. If sentiment/sector rotation only, 60% GM + 25% EBITDA + NRR 108% could be compelling at C$93M cap. Requires SEDAR+ primary filing access (not available in current cloud env). Manual download or alternate env recommended.
+
