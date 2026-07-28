@@ -2,6 +2,28 @@
 **Date:** 2026-07-28 | **Run #87** | **Source:** web aggregators + official EQS News preliminary results announcements
 **Trust:** ~ (aggregators); ~ (EQS News press releases for official preliminary results — filing-adjacent but not directly read annual report)
 
+> ## ⚠ SUPERSEDED BY §5 RED-TEAM — see `memos/1INN.DE-2026-07-28.md` (Run #88)
+> The OPUS red-team found **five load-bearing errors in this baseline**. Do not use the figures below without
+> reading the memo first. Corrections:
+> 1. **"IPO proceeds ~€218M raised at IPO" is FALSE.** The May 2025 IPO was a **100% secondary placement**;
+>    all €218M went to founders Hohenester and Meyer personally. **The company received €0.** Actual net cash
+>    is ~€25M ± (Q3-2025: ~€39M cash vs ~€13M bank debt), less the €40M dividend paid 22 Apr 2026.
+> 2. **"Revenue model: Pure SaaS, annual/multi-year contracts (auto-renewal)" is FALSE.** Per the company's
+>    own description, revenue is *"ergebnisorientierte Lizenzgebühren, die nur fällig werden, wenn Kunden die
+>    Forschungszulage erhalten"* — **success fees contingent on the customer receiving the grant.** Nothing is
+>    contracted or recurring. "<2% churn" is undefined for this model.
+> 3. **"GM ~96-98% ~ / GM GATE CHECK: PASS" is not supported.** The 96-98% figures trace to **issuer-paid**
+>    Warburg research (Scale rules require the issuer to commission and fund its own research); SimplyWallSt
+>    says 70.8%. No primary gross-profit line was obtained. **GM is ⚠ DISCREPANT and NOT load-bearing.**
+> 4. **FY2025 revenue is €103.41M ~ (EQS preliminary), not €104.4M.** EBIT of €63.6M is **adjusted** (both
+>    2024 and 2025 are adjusted for IPO costs). FY2024 conflicts across sources (€64.71M / €65.3M) ⚠.
+> 5. **The €216.50 analyst PT is issuer-funded and must be removed from the valuation case.** The §4
+>    Asymmetry Gate passed on it. Derived quarterlies also show growth decelerating from **+93% (H1-2025) to
+>    +41.5% (H2-2025)**, and FY2026 guidance implies a **57.1% EBIT margin — 10.6pts below the Q1-2026 67.7%**
+>    that was extrapolated as a trend.
+>
+> **§5 outcome: Asymmetry Gate FAIL (2 of 4). GRADE C · TIER PARK. Q2 · F2 · R2 · C2.**
+
 ---
 
 ## Exchange & Listing
