@@ -959,3 +959,135 @@ Agent a513ac9410d23b112 completed. Results: BUB.AX (Bubs Australia, ASX) QUEUED 
 - **financials/VHI.TO.md**: CORRECTION applied — interest income was wrongly estimated at BoC 5.5%; corrected to 2.25%; core EBIT ~C$2.7M/quarter (business IS operationally self-sustaining); SBC ~C$2M/yr not C$7M
 - **Key findings for human review**: (1) OMDA.OL back at ≤NOK 38-40 — CANNOT auto-promote (GM unconfirmed); Oslo filing access → QUEUED_HOT immediately. (2) PHO.OL Q2 earnings Jul 29 — monitor for ≤NOK 55 close. (3) VHI.TO CANDIDATE Grade C (≤C$5.50 buy-zone; do not initiate at C$6.95 — symmetric risk/reward; takeout optionality is primary 2x driver).
 - **REVIEW.md**: This §7 REFLECT audit entry
+
+---
+
+# §7 REFLECT — Run #81 (2026-07-28)
+
+*Trigger: 81 % 3 = 0 → mandatory every 3rd run. Coverage: bench re-price (all WATCHLIST names); data quality audit (3 financials/*.md); false-negative check (2 recent kills re-verified); universe exploration audit; corrective fixes shipped.*
+
+*Agent data sources this run: acba79ff1fa42ef1b (LEHN.SW Q1 FY2027 + OMDA.OL GM); a634055c77cee0287 (PHO.OL Q2 + STX.L + FAA.VI prices); a0e1a9a7b4205daf9 (Japan/Korea Sector 18 5th pass). All prices ~-trust (web search only; no direct filing access in cloud env).*
+
+---
+
+## 1. Bench Re-Price (§7 REFLECT run #81)
+
+**Most important finding: LEHN.SW → LOW_GM_KILL (executed this run)**
+
+FY2025/26 GM = **40.0% confirmed at SIX filing level** (LEM Holding SA EQS ad-hoc announcement May 26, 2026). Management explicitly stated "40% is the new floor" — no recovery path to prior 46.6% peak. Kill condition from run #75 ("downgrade to LOW_GM_KILL if H1 FY2026/27 confirms sustained ≤42% GM") is met via management forward guidance. Removed from Deferred Queue; added to KILL-LIST as LOW_GM_KILL.
+
+Note: Q1 FY2026/27 (Apr-Jun 2026) results were due Jul 28 per LEM financial calendar but were not yet indexed in web search at time of agent run. Strategic review (potential sale/merger, initiated May 2026) remains live — if M&A transaction announced before kill is permanent, reconsider; for now GM gate controls.
+
+**FAA.VI (Fabasoft AG) — ⚠IN BUY-ZONE confirmed**
+
+Agent confirmed Fabasoft AG (FAA.VI, Vienna Stock Exchange) at **~€13.10** on Jul 24-26, 2026. This is consistent with the run #75 note ("FAA.VI at €13.10-13.35 IN zone"). FAA.VI is WATCH Grade A — highest-quality WATCH name in the KB. Stock is -25% YTD on broad technology sector de-rating, NOT company-specific issues. FY2025/2026 annual results (released June 5, 2026) showed revenue and earnings growth. Market cap ~€140M. PE ~14.5x, ROE ~23.5%, FCF positive. Ex-dividend July 13, 2026. Analyst consensus strong buy, median PT ~€28.
+
+**Status: FAA.VI IN buy-zone at €13.10. WATCH Grade A. Any further dip to ≤€12 = QUEUED_HOT immediately (no analyst coverage blocker — ≤4 thin-coverage gate applies). No action yet pending confirmation of exact buy-zone floor.**
+
+**PHO.OL (Photocure ASA) — Price conflict RESOLVED; Q2 NOT yet released**
+
+Agent confirmed: PHO.OL = Photocure ASA (confirmed identity). Price ~**NOK 64.1** as of Jul 28, 2026. Prior stale entry (NOK 58.80-60.80 from Jul 6 source) corrected. Q2 2026 results due July 29 — NOT yet released as of agent run. Buy-zone ≤NOK 50-55. At NOK 64.1, stock is T-NOK ~9-14 ABOVE zone. No promotion trigger. Monitor for post-Q2 pullback.
+
+**OMDA.OL (Omda AS) — IN zone, BLOCKED (both blockers remain)**
+
+Price updated: ~**NOK 36-38** (Jul 28) vs prior ~37.90-40.00. Still within ≤NOK 35-40 buy-zone.
+
+Agent LEHN/OMDA run confirmed:
+- GM: ~63.3% from Q2 2025 earnings call transcript (Investing.com) — better provenance than prior single-source but still NOT filing-anchored from annual PDF. Full-year 2025 GM unconfirmed.
+- Net Debt/EBITDA: ~3.6x (NOK 424.6M net debt / NOK 117M FY2025 EBITDA) — modestly improved from 3.8x prior estimate. Still above 3.0x comfort threshold.
+- CANNOT PROMOTE: (1) GM not filing-anchored; (2) leverage 3.6x > 3.0x threshold. Blockers unchanged.
+- Positive: 2026 guidance reaffirmed (NOK 500-525M rev + 10-20% inorganic; EBITDA 28-32%). EBITDA margin 30% in FY2025 (record). Q1 2026 EBITDA 20% (lower — seasonality).
+
+**STX.L (Shield Therapeutics) — ABOVE zone; no kill triggers**
+
+Agent confirmed STX.L = Shield Therapeutics PLC (AIM London). Price ~**9-10p** (Jul 28). Buy-zone 3.0-4.0p (per STATE.md WATCH entry). Well above zone. No kill triggers found — business accelerating materially in 2026: ACCRUFeR US sales +56% YoY (FY2025 $45.8M), positive OCF achieved Q4 2025, pediatric FDA approval Feb 2026 (orphan exclusivity to Dec 2028). H1-2026 results due Sept 2026 = next catalyst. Grade C WATCH rating confirmed appropriate (REMS moat is documented as fabricated per run #48 §7 note; iron supplement oral drug is real product but moat from STATE.md note is REMS-based = regulatory moat via formulation only; not sole-source).
+
+**ALRIB.PA (Riber SA) — Approaching upper buy-zone bound**
+
+~€9.96 (Jul 27, stable from run #80). Approaching upper bound of €7-9/sh lower buy-zone. Export license risk >€8M (China-targeted French export control) is a structural overhang. Monitor. No action until ≤€9.00 ceiling.
+
+**CODA (Coda Octopus) — BORDERLINE; stable**
+
+~$10.00 (~$115M cap) · Jul 28. T+$8M ABOVE ≤$107M cap trigger. Q2 FY2026 beat confirmed (prior run). Further dip to $8-9/sh / ≤$107M cap = PROMOTE to QUEUED_HOT.
+
+**IVU.DE — ⚠APPROACHING; declining**
+
+~€18.05-20.00 (~€320-354M cap) · Jul 28. Declining toward ≤€250M buy-zone trigger. T-~€70-104M cap. 6 analysts → bench route v5.1. Monitor closely; at current pace of ~€1-2M/month decline, approaching zone in 3-6 months.
+
+**XRF.AX — ABOVE zone; APPROACHING FLAG confirmed REMOVED (run #80)**
+
+~A$2.12-2.28 · Jul 28 (confirmed from run #80 bench agent). Buy-zone A$1.40-1.65. APPROACHING flag correctly removed run #80. T-~A$0.47-0.63 from zone ceiling. Not approaching.
+
+**TSTL.L (Tristel) — ABOVE zone; ORL 510(k) pending**
+
+~450p (~£266M cap) · Jul 27 (confirmed WATCHLIST.md). OPH (ophthalmic/ultrasound probe) 510(k) CLEARED May 2025 drove re-rating 260p→450p. ORL (oronasal/rhinolaryngology) 510(k) = next US category catalyst (still pending). Buy-zone 220-260p / ~£130-155M cap. Not approaching.
+
+**All other bench names (from run #80 — no dedicated re-price agent this run):**
+WINA (~$386-388, PE ~34x, above ≤20-22x zone), OFLX (~$30.28, above zone), 4549.T (~¥2,907, above ¥2,000-2,400 zone; EDINET blocked), 6823.T (~¥3,585, above ¥2,200-2,400 zone; EDINET blocked), EKF.L (~25-27p, above zone), 6742.T (~¥864, above ¥720 zone), CGS.L (~313p post ex-div, above 200-230p zone), ETON (~$38-42, above $22-26 zone), SMID (~$30.28, above $22-24 zone), EPEN.ST (~SEK 141-156, above 115-130 zone; conflicting data), RX.V (~C$14.65, above ≤C$10-11 zone), MEDI.OL (~NOK 226, above ~$230-290M USD cap zone), SECARE.ST (~SEK 22.05, TBD zone), NZX:SKL (~NZD 5.43, above NZD 350-450M cap zone), NSSC (~$35-37, above $22-26 zone), JHD.L (~128.44p, above ~49-61p zone), CUV.AX (~A$9-10, above A$6-8 zone), CER.L (~1,057p, above 850-900p zone), CPH.TO (~C$16.39, above ≤C$11-13 zone), NEU.AX (~US$1.456B cap, above A$900M-1.1B zone), PNV.AX (~AUD 873.92M cap, near lower provisional zone — §4 baseline required before promotion), CBOX.L (~202.5p, above 120-145p zone), NDAP.AS (~€83.50, above €300-350M cap zone), SENS.SW (~CHF 57.40, above CHF 500-600M cap zone — §3.5 NOT YET RUN), HSN.AX (~A$857-908M cap, above A$400-500M zone), ENGH.TO (~C$1.53B, above C$800M-1.0B zone), OCL.AX (~A$1.2-1.77B cap, above A$700-900M zone), GTK (~NZD $3.68-3.92, above NZD ≤$3.00 zone), RDY.AX (~A$1.60-1.65, above A$1.25-1.35 zone — FY26 results Aug 27 2026), JOUT (~$44-46, above $38-40 zone). **No additional promotions triggered.**
+
+**EUZ.DE (CORE Grade B — tracked in STATE.md):** Prior price €13.16-15.66 (run #80 range); earlier run #75 confirmed €13.30 IN buy-zone €13-16. No dedicated EUZ.DE price agent this run. Maintain: LIKELY STILL IN ZONE at or near €13-16 range. Next dedicated re-price needed.
+
+---
+
+## 2. Data Quality Audit (run #81)
+
+**LEHN.SW.md (financials/LEHN.SW.md) — UPGRADED FROM ~ TO ✓ FOR FY2025/26 GM**
+
+Prior entry had FY2025/26 GM as ~-tagged (web aggregator). This run's agent (acba79ff1fa42ef1b) confirmed FY2025/26 GM = **40.0% at SIX filing level** (EQS ad-hoc announcement Art. 53 LR, May 26, 2026). This upgrades the critical GM metric from ~ to ✓. All other FY2025/26 metrics (revenue CHF 287.7M, EBIT CHF 24.4M, FCF CHF 31.7M) remain ~-tagged from web aggregators. Price discrepancy: prior ~CHF 441-458 vs agent-found ~CHF 483 (possibly reflects M&A rally on strategic review news). **PASS — key GM metric now filing-confirmed; kill executed correctly on ✓ data.**
+
+**VHI.TO.md (financials/VHI.TO.md) — STANDING PASS**
+
+All figures ~-tagged (SEDAR+ inaccessible in cloud env). Buddy Healthcare acquisition (Jul 13, 2026, €8.6M/~C$13M) captured last run. ARR C$99.1M, revenue C$31.9M Q1 FY2026. Net cash ~C$108M post-Buddy (zero long-term debt). All trust tags correct. **PASS — appropriately ~-tagged; no inflated ✓.**
+
+**OMDA.OL bench entry — GM STILL UNCONFIRMED**
+
+GM ~63.3% sourced from Q2 2025 earnings call transcript (Investing.com) — better than prior single-source but NOT filing-anchored. FY2025 annual PDF (Apr 10, 2026) still 403-blocked in cloud env. Agent searched all available web sources: gross margin not surfaced as a headline figure in accessible annual report disclosures. EBITDA (30% FY2025) and revenue are confirmed from press releases; gross profit line unavailable from these sources. **PASS — correctly blocking promotion on unconfirmed GM; no false upgrade.**
+
+---
+
+## 3. False-Negative Check (run #81)
+
+**CYRX (CryoPort Inc) — LOW_GM_KILL from run #79: CORRECT KILL**
+
+CryoPort = temperature-controlled logistics/cryogenic shipping for life science industry (clinical trials, CAR-T cell therapies, biologics). Revenue model: logistics service fees. GM ~35-40% structural (services business = labor + logistics cost + infrastructure). Meets LOW_GM_KILL threshold (below 40% gate). No moat structure — shippers are interchangeable; CryoPort competes with World Courier, Cryogene, PharmaLex on service quality. No proprietary consumable, no switching cost beyond relationship inertia. **Confirmed correct kill — not a false negative.**
+
+**AKYA (Akoya Biosciences) — M&A_KILL from run #79 (QTRX acquisition): CORRECT KILL**
+
+Akoya Biosciences was acquired by Quanterix Corporation (QTRX). This was confirmed in STATE.md as M&A_KILL. Quanterix completed the acquisition — name no longer independently traded. No further action possible for public investors. **Confirmed correct kill — M&A_KILL is permanent and correct.**
+
+---
+
+## 4. Universe Exploration Audit (run #81)
+
+**Sector 18 (Precision Instruments & Sensing) — 5th pass Japan/Korea OTC geo lens:**
+
+This run completed the 5th pass of Sector 18 with a Japan/Korea OTC geographic lens. Agent a0e1a9a7b4205daf9 searched for Japan/Korea listed microcap precision instruments names with market cap under ~$300M USD. Names assessed (from agent partial output + structural analysis):
+
+- **Rion Co. Ltd. (6823.T)**: Already on Quality BENCH (WATCHLIST.md) at ~¥3,585 — ABOVE buy-zone ¥2,200-2,400. Not a new find; ALREADY_SEEN_KILL applies.
+- **OVAL Corporation (7727.T)**: Japanese flowmeter maker founded 1949. PD + Coriolis + vortex + ultrasonic flowmeters. Custody transfer certified for petroleum (Japan NTA — National Tax Agency certification for taxable petroleum transactions). This IS a regulatory moat signal. However: (a) non-English filer (C≤2 cap); (b) EDINET proxy-blocked — yuho GM unverifiable; (c) analyst coverage likely 0-2 (thin-coverage gate ≤4 could PASS, but verification impossible without filing access). Cannot progress to QUEUED without yuho GM + NI verification. → **DEFERRED: flag for EDINET restoration. If EDINET accessible in future: verify GM ≥40%, NI >0, and moat depth (NTA certification scope + OEM switching cost). Tentative §4 score estimate: 6-7/12 range (moat plausible but structural: Japan precision flowmeter is a crowded space with Yokogawa/Endress+Hauser/Emerson competition; custody transfer niche is real but limited TAM).**
+
+Structural note: Japan OTC precision instruments at ¥3-30B cap / ≥40% GM is thin but not empty. Primary barrier in this run is EDINET proxy-blocking — most viable Japan names cannot be verified. This is a proxy/tool constraint, not a structural exhaustion.
+
+**Sector 18 5th pass result: 0 new QUEUED** (OVAL deferred pending EDINET; Rion already on bench). This is the **2nd consecutive 0-new pass** (4th pass US run #72 = 0 new; 5th pass Japan/Korea run #81 = 0 new). Per ROUTINE.md rotation rules: → **Sector 18 EXHAUSTED**. Revive condition: EDINET proxy restored → Japan OTC precision instruments sweep; or Korea KRX exchange accessible → Korean precision names (e.g., Hantek, Daeil Systems, etc.); or down-cap sweep of Japan Prime Market <¥3B cap names.
+
+**Overall coverage gaps (systemic):**
+- EDINET proxy-blocked: ~200+ Japan TSE/OTC names with potential moats inaccessible for primary filing verification
+- Korean KRX: structurally unexplored (no KRX-specific agent run; language barrier + DART filing system blocked)
+- Taiwan TWSE: screen_tw.py proxy-blocked; 3 passes done with web-search fallback
+- LATAM: only 1 name (WINE.RO Romanian lead) explored; BM&F Bovespa Brazil entirely unexplored (C≤2 cap + language barrier)
+
+---
+
+## 5. Systemic Fixes Shipped This Run
+
+- **LEHN.SW → LOW_GM_KILL**: FY2025/26 GM = 40.0% (SIX filing ✓); management "40% is new floor" = sustained <42% confirmed; removed from Deferred Queue; added to KILL-LIST. financials/LEHN.SW.md updated with kill note.
+- **WATCHLIST.md bench re-prices updated**: PHO.OL ~NOK 64.1 (PRICE CONFLICT RESOLVED; Q2 due Jul 29); OMDA.OL ~NOK 36-38 (price update; Net Debt/EBITDA updated 3.8x→3.6x); ALRIB.PA ~€9.96 (stable, approaching upper €7-9 zone); FAA.VI €13.10 IN zone (WATCH Grade A — tracked via STATE.md, not bench)
+- **STATE.md**: Run 80→81; Sector 18 5th pass EXHAUSTED (2nd consecutive 0-new); LEHN.SW removed from Deferred Queue (LOW_GM_KILL); WATCH count maintained (FAA.VI IN zone noted); total_runs 80→81
+- **KILL-LIST.md**: LEHN.SW appended as LOW_GM_KILL; Sector 18 5th pass Japan/Korea kills appended (Rion ALREADY_SEEN; OVAL deferred pending EDINET)
+- **Key findings for human review**:
+  1. **LEHN.SW LOW_GM_KILL executed** — LEM Holding FY2025/26 GM 40.0% filing-confirmed; management "40% is new floor"; no buy-zone for this name going forward.
+  2. **FAA.VI (Fabasoft AG) IN zone at €13.10** — WATCH Grade A; -25% YTD on sector weakness; fundamentals intact; monitor for ≤€12 dip → QUEUED_HOT.
+  3. **PHO.OL Q2 results due Jul 29** — price ~NOK 64.1; monitor post-Q2 for dip to ≤NOK 55.
+  4. **OMDA.OL IN zone but BLOCKED** — leverage 3.6x still elevated; GM still unconfirmed; H1 2026 interim expected Aug 2026 = next GM verification opportunity.
+  5. **Sector 18 EXHAUSTED** — 2nd consecutive 0-new pass; revive only with EDINET access or Korea KRX sweep.
+- **REVIEW.md**: This §7 REFLECT audit entry

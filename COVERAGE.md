@@ -1606,3 +1606,28 @@ Memo: memos/M7U.DE-2026-07-27.md
 
 **Sector 13 status: EXHAUSTED** — 2 consecutive 0-new-QUEUED passes (Pass 2: UK AIM+Nordic, run #78; Pass 3: global web, run #80). Revive only with: Japan OTC EDINET screen when proxy restored (secondary rail component makers below Nippon Signal — platform door control, crossing barrier systems, rail grinding equipment). Note: CARA (Carasent ASA, Oslo) flagged as valid Sector 6 6th pass target — Norwegian EHR/clinical SaaS, genuine peer to Omda.
 
+---
+
+## Sector 18 (Precision Instruments & Sensing) — Pass 5 Coverage Notes (run #81, 2026-07-28)
+
+**Japan/Korea OTC geo lens:** ~3 names processed (1 bench confirmation, 1 deferred pending EDINET, 1 LOW_GM_KILL from deferred queue); 0 new QUEUED. 2nd consecutive 0-new pass → **Sector 18 EXHAUSTED.**
+
+**Screen:** §2B web-search (all §2A tools proxy-blocked; EDINET unreachable in cloud env). Geo lens: Japan TSE secondary OTC + Korea KOSDAQ/KOSPI precision instruments; $20-300M cap range.
+
+**§7 REFLECT Deferred Queue resolution:**
+- LEHN.SW (LEM Holding SA, SIX) — LOW_GM_KILL executed: FY2025/26 GM 40.0% ✓ SIX filing; management "40% is new floor"; kill condition from run #75 met without H1 FY2026/27 data
+
+**Japan OTC names triaged:**
+- 6823.T / Rion Co. Ltd (TSE) — ALREADY_SEEN (on Quality Bench; FY2026 record results; above buy-zone ¥2,200-2,400 at ¥3,585; EDINET proxy-blocked)
+- 7727.T / OVAL Corporation (TSE) — DEFERRED_PENDING_EDINET: Coriolis/ultrasonic flow measurement; NTA custody transfer certification = regulatory moat; ~¥20-25B cap (~$140-175M); GM and NI unverifiable without EDINET; C≤2 max non-English filer; added to UNIVERSE as DEFERRED_PENDING_EDINET
+
+**Korean names:** No viable candidates identified at web-search level within $20-300M cap, ≥45% GM, profitable criteria. Korean precision instruments at this cap range (KOSDAQ-listed) are either defense-adjacent (SECTOR_KILL) or below investable floor.
+
+**Why Sector 18 is structurally exhausted globally:**
+- **US pass exhausted (run #72):** Profitable US precision instruments $20-300M cap nearly extinct — M&A wave (Danaher, Thermo Fisher, etc.) absorbed quality micro-cap names; AI/defense supercycle re-rated survivors past $1.5B
+- **European pass exhausted (run #68):** Quality European precision instruments €20-300M very thin — best names private/acquired; ALPM.PA (Precia Molen) is the sole §5 survivor (CANDIDATE Grade C)
+- **Japan/Korea pass (run #81):** Quality names either already on bench (Rion), filing-blocked (OVAL), or above cap ceiling (Nippon Signal)
+- **Best remaining lead:** 7727.T/OVAL Corporation — deferred until EDINET proxy restored; NTA regulatory moat is the strongest undiscovered Japan precision moat in the KB pipeline
+
+**Sector 18 status: EXHAUSTED** — 2 consecutive 0-new-QUEUED passes (Pass 4: US Nasdaq/NYSE geo lens, run #72; Pass 5: Japan/Korea OTC geo lens, run #81). Revive condition: EDINET proxy restored → priority screen of 7727.T/OVAL Corporation (NTA-certified flow measurement) + any additional TSE precision instrument names below Rion/OVAL cap level.
+

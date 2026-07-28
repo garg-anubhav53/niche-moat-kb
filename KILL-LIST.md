@@ -3495,3 +3495,29 @@ Structural finding: The US Nasdaq/NYSE life-sci tools universe in $20-300M cap z
 
 **Structural finding (Sector 13 global 3rd pass):** Rail & transport safety at small-cap ($20-300M, ≥45% GM, profitable) is globally exhausted. Quality rail signaling/ATCS is dominated by Alstom (Urbalis 400 CBTC), Siemens Mobility (Trainguard), Thales, Hitachi Rail, Nippon Signal — all large-cap. Surviving listed small-caps are either (a) jurisdiction-excluded (India: KERNEX; China SOE: CRSC/3969.HK; Israel: RVSN), (b) maintenance services without proprietary lock-in (EGN), (c) commodity manufacturing (RAIL/FreightCar), or (d) already in the KB (FEW.F, 6742.T, TRCS.L). Best path to revival: Japan OTC EDINET screen when proxy restored — secondary rail component makers (platform screen door components, rail grinding, interlocking subcomponents) may exist below Nippon Signal.
 
+---
+
+## Sector 18 (Precision Instruments & Sensing) — 5th Pass Japan/Korea OTC Geo Lens (run #81, 2026-07-28)
+
+### LOW_GM_KILL (Deferred Queue promotion)
+
+| Ticker | Company | GM | Kill Date | Kill Reason |
+|--------|---------|-----|-----------|-------------|
+| LEHN.SW | LEM Holding SA (SIX Swiss Exchange) | 40.0% ✓ (SIX filing-anchored; FY2025/26) | 2026-07-28 | LOW_GM_KILL — FY2025/26 gross margin 40.0% confirmed at SIX filing level (✓). Management explicitly stated "40% is the new floor" (FY2025/26 earnings call, May 2026). Kill condition from run #75 §7 REFLECT: "downgrade to LOW_GM_KILL if H1 FY2026/27 confirms sustained ≤42% GM" — met via filing confirmation + management forward guidance without waiting for H1 FY2026/27 results (due Jul 28 per LEM calendar; not indexed at time of this run). Structural: "Fit for Growth" restructuring achieved EBIT improvement but permanently lowered GM from ~46.6% (FY2023/24 peak) to ~40% by exiting high-cost product lines. Strategic review M&A optionality (initiated May 2026) noted but does not override the GM gate. Removed from Deferred Queue item 7. financials/LEHN.SW.md updated. |
+
+### Already Seen / Bench Confirmations
+
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| 6823.T | Rion Co. Ltd (TSE, Japan) | ALREADY_SEEN — on Quality Bench (acoustic/vibration instruments + hearing aids); FY2026 record results confirmed by bench agent run #80 (EPS ¥271, revenue +17%, ¥3,585 = above buy-zone ¥2,200-2,400); EDINET proxy-blocked — yuho verification still required before promotion; bench status maintained | 2026-07-28 |
+
+### Deferred Pending EDINET
+
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| 7727.T | OVAL Corporation (TSE, Japan) | DEFERRED_PENDING_EDINET — precision flow measurement instruments (Coriolis + ultrasonic + differential pressure); NTA (National Measurement Training Association) custody transfer certification = regulatory moat; sole domestic precision measurement specialist at sub-¥30B (~$200M) cap. GM and NI unverifiable without EDINET (proxy-blocked in cloud env). C≤2 max (non-English filer, primary yuho in Japanese). Cannot progress to QUEUED without filing access. Add as DEFERRED_PENDING_EDINET to UNIVERSE. Revive condition: EDINET proxy restored. | 2026-07-28 |
+
+**Run #81 Sector 18 5th pass kill tally:** 1 LOW_GM_KILL (LEHN.SW from deferred queue) + 1 ALREADY_SEEN (6823.T/Rion) + 1 DEFERRED_PENDING_EDINET (7727.T/OVAL) = 0 new QUEUED. **2nd consecutive 0-new-QUEUED pass (1st: US Nasdaq/NYSE run #72; 2nd: Japan/Korea OTC run #81) → SECTOR 18 EXHAUSTED.**
+
+**Structural finding (Sector 18 Japan/Korea 5th pass):** Profitable Japanese/Korean precision instruments at $20-300M cap is structurally thin in the EDINET-accessible web-searchable layer. Quality names are either (a) already on the KB bench (6823.T/Rion), (b) filing-blocked until EDINET proxy restored (7727.T/OVAL), or (c) above $300M cap ceiling (6741.T/Nippon Signal at ~$550-750M). Korean precision instrument makers (Hanwha, Doosan precision segments) are either defense-adjacent or large-cap. Revive Sector 18 only when EDINET proxy is restored — 7727.T/OVAL is the primary target.
+

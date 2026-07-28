@@ -55,10 +55,11 @@
 | Metric | FY2025/26 Actual | vs FY2024/25 | Trust |
 |---|---|---|---|
 | Revenue | CHF 287.7M | -6.3% | ~ (web aggregators consistent) |
+| **Gross Margin** | **40.0%** | vs 43.2% prior year | **✓ (SIX filing-anchored; run #81 §7 REFLECT agent confirmed; management: "40% is new floor")** |
 | EBIT | CHF 24.4M | +29.2% | ~ |
 | EBIT margin | 8.5% | vs 6.1% prior year | ~ |
 | FCF | CHF 31.7M | significant improvement | ~ |
-| Net financial debt | TBD — Q1 FY2026/27 results Jul 28 may update | — | ? |
+| Net financial debt | ~CHF 58-64M est. (CHF 90.1M − CHF 31.7M FCF) | significant reduction | ~ est. |
 
 **⚠ NOTE on STRATEGIC OPTIONS:** LEM disclosed in May 2026 that the Board has initiated a **strategic review including potential sale or merger**. This materially changes the catalyst picture — if a transaction occurs, holders would receive a control premium. Monitor for M&A developments.
 
@@ -86,7 +87,21 @@
 | Floor quality | 1/2 | Net debt CHF 90.1M real risk; bear case is severe (-94%); FCF recovering but leveraged |
 | **TOTAL** | **8.0/12** | (catalyst proximity revised 2→1.5 post FY2025/26 results release; strategic options review adds optionality but doesn't replace hard-dated catalyst score) |
 
+## ⛔ LOW_GM_KILL — Run #81 (2026-07-28)
+
+**Status: LOW_GM_KILL** — removed from Deferred Queue; added to KILL-LIST.
+
+Kill trigger: FY2025/26 GM = **40.0%** confirmed at SIX primary filing level (✓). Management stated **"40% is the new floor"** (FY2025/26 earnings call, May 2026). Kill condition established in run #75 §7 REFLECT was: *"downgrade to LOW_GM_KILL if H1 FY2026/27 confirms sustained ≤42% GM."* Filing-confirmed 40.0% GM + explicit management forward guidance that this is the structural floor = condition met without waiting for H1 FY2026/27.
+
+Q1 FY2026/27 results were listed as due Jul 28, 2026 per LEM financial calendar but were not indexed at time of this run (run #81 2026-07-28). No upward revision possible from Q1 data even if released — management guidance makes ≥43% GM implausible without a restructuring reversal that has not been signalled.
+
+Strategic review M&A optionality (May 2026 announcement) noted but does not override the GM gate — the gate is applied on standalone business economics, not M&A event premium.
+
+---
+
 ## Routing
-**QUEUED** — 8.0/12 (rounded 8/12). Does not clear §5 threshold (requires ≥10/12). FY2025/26 results RELEASED May 26, 2026 (revenue CHF 287.7M -6.3%; EBIT CHF 24.4M +29.2%; EBIT margin 8.5%; FCF CHF 31.7M) — confirms "Fit for Growth" is delivering EBIT improvement but revenue recovery still incomplete. **Strategic options review** (potential sale/merger) is the primary new catalyst. If M&A transaction announced, price spike likely; if review concludes "no deal," stock may weaken. Score would rise to 10-11/12 if: (a) strategic review yields credible transaction bid, OR (b) FY2026/27 H1 confirms revenue inflection above CHF 300M + EBIT margin ≥10%. Net debt is the primary floor risk.
+**⛔ LOW_GM_KILL** (run #81, 2026-07-28). Prior routing below for record:
+
+**PRIOR QUEUED** — 8.0/12 (rounded 8/12). Does not clear §5 threshold (requires ≥10/12). FY2025/26 results RELEASED May 26, 2026 (revenue CHF 287.7M -6.3%; EBIT CHF 24.4M +29.2%; EBIT margin 8.5%; FCF CHF 31.7M) — confirms "Fit for Growth" is delivering EBIT improvement but revenue recovery still incomplete. **Strategic options review** (potential sale/merger) is the primary new catalyst. If M&A transaction announced, price spike likely; if review concludes "no deal," stock may weaken. Score would rise to 10-11/12 if: (a) strategic review yields credible transaction bid, OR (b) FY2026/27 H1 confirms revenue inflection above CHF 300M + EBIT margin ≥10%. Net debt is the primary floor risk.
 
 *Sources: LEM FY2024/25 EQS ad-hoc (27 May 2025); LEM H1 FY2024/25 announcement (Nov 2024); LEM H1 FY2025/26 announcement (Nov 2025); LEM FY2025/26 annual results (May 26, 2026); LEM financial calendar; MarketScreener consensus. ✓ for revenue/EBIT/NI/GM/bookings/FCF; ~ for net debt/price/shares; ~ for FY2025/26 actuals (web aggregators).*
