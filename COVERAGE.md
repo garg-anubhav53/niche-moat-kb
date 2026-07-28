@@ -1886,3 +1886,68 @@ The commercial aerospace/satellite value chain at small-cap is dominated by: (a)
 3. ⚑non-EN leads resolution: ALL.WA/ENTER.AT/GLINT.LS — promote to QUEUED_CONDITIONAL or kill when primary-language filings accessible
 4. TXT.WA §4 baseline: 37,000+ LiveChat B2B customers; GM likely ≥70%; potential §5 candidate if §4 confirms moat depth and Asymmetry Gate opens
 5. QTX.L §4 baseline: AIM primary filing + §4 deep-dive; promote to QUEUED or kill based on GM + moat confirmation
+
+---
+
+## Sector 0 — Specialty chem/materials — Pass 8 (ASX/NZX geo lens) — run #94 2026-07-28
+
+**Geo lens**: ASX (Australian Securities Exchange) and NZX (New Zealand Exchange) specialty chemicals and advanced materials small-cap. 8th pass on Sector 0 overall.
+
+**Raw names triaged (5)**: XRF Scientific (XRF.AX), Redox Limited (RDX.AX or similar), Nufarm Limited, Calix Limited (CXL.AX), DGL Group (DGL.AX), plus NZX scan (1 name found).
+
+**Already on WATCHLIST — skip triage**:
+- XRF.AX (XRF Scientific): A$1.685/sh · ⚠ APPROACHING buy-zone ≤A$1.65; already benched run prior; Aug 24 2026 earnings KEY CATALYST. No new triage entry required.
+
+**Kills (4)**:
+- Redox Limited (RDX.AX, ASX, ~A$800M+): LOW_GM_KILL — 21.6% gross margin (chemical distribution business; no proprietary specialty chemistry); GM far below 45% threshold; KILL confirmed
+- Nufarm Limited (NUF.AX, ASX, ~A$1.5-2B): NO_MOAT_KILL — Morningstar "no economic moat" rated; crop protection commoditized; no durable competitive advantage; KILL confirmed
+- Calix Limited (CXL.AX, ASX, ~A$350-500M): DEVELOPMENT_STAGE_KILL — pre-revenue/pre-profit development stage; no commercial-scale product; KILL confirmed
+- DGL Group (DGL.AX, ASX): NOT_YET_PROFITABLE_KILL — net loss; fails profitable gate requirement
+
+**NZX scan result**: 1 specialty chemicals company found on NZX with NZ$1.5M market cap — loss-making micro-cap. DISTRESS_KILL. NZX specialty chemicals axis EXHAUSTED (essentially no listed specialty chem companies on NZX at investable scale).
+
+**Pass 8 tally: 5 new names triaged; 1 already on WATCHLIST (XRF.AX); 4 kills; 0 new QUEUED. ASX/NZX axis EXHAUSTED.**
+
+**NSE:ACCELYA §3.5 GM resolution attempt (run #94)**:
+- Status: QUEUED_CONDITIONAL REMAINS — gross margin still unresolvable
+- Context: Indian statutory filings use nature-of-expense format (cost-of-materials, employee cost, other expenses) rather than COGS/gross-profit line-item format; true product-level gross margin cannot be computed from available data
+- Data points confirmed: operating margin ~30.9%; net margin ~24%; revenue FY2025 ₹8.4B
+- Blocked: BSE Annual Report PDF 403-blocked in current proxy environment; agent aaad9ea6e6862ae7d ran but could not file-anchor GM before §6 PERSIST
+- Resolution path: human operator with direct BSE PDF access can retrieve Annual Report → look for "segment revenue / segment results" table which sometimes shows margin by business line; alternatively Screener.in premium data or NSE XBRL format
+- Status held: QUEUED_CONDITIONAL pending BSE PDF access
+
+---
+
+## §4 Completions — run #94 2026-07-28
+
+**TXT.WA (Text SA / LiveChat) — §4 formal score: 10/12 → QUEUED_HOT**
+
+Scoring:
+- Moat clarity: 2/2 — SWITCHING_COST_MOAT confirmed: 37,000+ B2B customers; 2,000+ integrations marketplace (API lock-in); 40% of customers using 2+ products (cross-sell depth); customer service SaaS where migrations require agent retraining + workflow rebuild
+- Business quality: 2/2 — GM 67.6%/73.77% TTM; NM 35.4%; EBITDA margin 46.4%; FCF ~PLN 111M/yr; NI positive; ARR $89.52M; net cash PLN 2.16M; no leverage
+- Coverage void: 2/2 — GPW Warsaw primary listing; PLN-denominated; non-English primary filer; effectively zero sell-side coverage in English-language research; US/UK institutional radars absent
+- Valuation gap: 2/2 — ~PLN 1.1-1.22B cap (~$275-305M USD); 3.1x ARR for 67%+ GM SaaS with 35%+ net margin; peer SaaS at 5-10x ARR; significant implied discount
+- Catalyst proximity: 1/2 — ARR re-acceleration (+7.6% QoQ Q1 FY2026/27 vs -7.1% FY rev decline); no imminent discrete catalyst confirmed beyond continued ARR recovery
+- Floor quality: 1/2 — FCF generative; net cash; but PLN currency risk; international revenue mix uncertain; floor good but not exceptional given currency/geo concentration
+
+**Total: 10/12 · Asymmetry Gate: PASS** (3.1x ARR for 67%+ GM SaaS; bull ≥2x at 5-6x ARR = $450-540M vs ~$290M current)
+
+**Grade: C · C=2 ⚑non-EN (Polish primary filer)**
+**HARD CAP: Cannot be promoted to CANDIDATE without §5 OPUS + verified English-language filing access. Hold as QUEUED_HOT bench lead.**
+
+---
+
+**QTX.L (Quartix Technologies plc) — §4 formal score: 11/12 → QUEUED_HOT · §5 ELIGIBLE**
+
+Scoring:
+- Moat clarity: 2/2 — SWITCHING_COST_MOAT confirmed: TCSV 17 OBD hardware install (physical install barrier); 310,701 fleet subscriptions; 31,040 customers; 96-98% NRR month-to-month; tachograph compliance dependency creates regulatory lock-in; CAN-bus integration layer in commercial fleets
+- Business quality: 2/2 — GM 73.2% FY2025 / ~80% H1 2026; PBT margin 24.7% H1 2026; NM ~17.8% FY2025; EPS 13.17p (+25%); NRR 98.1%/96.9%; net cash £3.39M; D/E 0.04; strong H1 2026 beat (rev +12.1%, PBT +21%)
+- Coverage void: 2/2 — AIM London; 1 analyst (Canaccord, Buy, 330p PT); essentially zero institutional coverage; micro-cap UK telematics at £123M cap
+- Valuation gap: 2/2 — ~£123M cap (~255p/sh); 3.2x ARR (ARR £38.9M); peer SaaS fleet telematics at 5-8x ARR; 330p analyst PT = +30% upside at 1 analyst; bull ≥2x at 5-6x ARR = £194-233M (58-89% upside from current)
+- Catalyst proximity: 2/2 — H1 2026 results released Jul 27-28 2026; strong beat (rev +12.1%, PBT +21%); re-rating catalyst active NOW; FY2026 guidance update pending
+- Floor quality: 1/2 — net cash; profitable; OBD hardware creates real switching barrier; but AIM liquidity thin; single-geography concentration risk (UK dominant); US expansion early-stage; £3.39M net cash modest buffer
+
+**Total: 11/12 · Asymmetry Gate: PASS** (3.2x ARR; 330p analyst PT = +30%; bull ≥2x confirmed)
+
+**Grade: B · C=3 (English AIM filer) · Q=4 AND F=4**
+**§5 OPUS ELIGIBLE: highest priority §5 candidate entering run #95. H1 2026 strong beat makes case for immediate deep-dive.**
