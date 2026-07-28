@@ -1797,3 +1797,46 @@ The ag biologicals industry is dominated by private companies and large-cap stra
 4. India biopesticide: if India jurisdiction added to allowed list in future (currently JURISDICTION_KILL)
 
 **Net result: 0 new QUEUED from pass 5; 2nd consecutive 0-new pass → Sector 7 EXHAUSTED.**
+
+## Sector 4 (Aerospace/Satellite Commercial) — Pass 6 Coverage Notes (run #92, 2026-07-28)
+
+**Pass 6: European/Nordic Geo Lens (2nd consecutive 0-new-QUEUED → EXHAUSTED)**
+
+Screen criteria: Non-defense primary commercial aerospace; LEO/GEO satellite subsystems; RF/mmWave/avionics components; European or Nordic listed; cap <$500M. Web-search mode (DATA-REACHABILITY v6 — all external feeds proxy-blocked).
+
+**10 new names screened (none QUEUED):**
+
+| Ticker | Company | Country | ~Cap | Disposition |
+|--------|---------|---------|------|-------------|
+| FTC.L | Filtronic plc | UK | £520-560M | SIZE_KILL (£520-560M ≈ $660-710M > $500M); SpaceX sole-source E-band GaN SSPA moat — added to WATCHLIST bench conditional §3.5 |
+| SSIT.L | Seraphim Space Investment Trust | UK | £357-469M | INVESTMENT_TRUST_KILL (listed fund holding private space cos; not operating business) |
+| AVIO.MI | Avio SpA | Italy | €1.8-2.0B | SIZE_KILL |
+| ETL.PA | Eutelsat Communications | France | €2.3-2.4B | SIZE_KILL |
+| SESG.PA | SES S.A. | Luxembourg | ~$3.26B | SIZE_KILL |
+| HUBN.SW | Huber+Suhner AG | Switzerland | CHF 3.4B | SIZE_KILL (significant run-up) |
+| EXA.PA | Exail Technologies | France | €1.5-2B | PENDING_ACQUISITION_KILL (Thales tender Jul 6 2026; €134/sh; delisting imminent) |
+| NOD.OL | Nordic Semiconductor | Norway | ~$3.84B | SIZE_KILL |
+| FQT.VI | Frequentis AG | Austria | ~€955M | SIZE_KILL |
+| ASTRO.OL | Astrocast SA | Switzerland | <€10M | DISTRESS_KILL (NOK 0.24/sh) |
+| OHB.DE | OHB SE | Germany | ~€5.36B | SIZE_KILL (already seen; noted for record) |
+
+**Also cleared from §3.5 queue (QUEUED_CONDITIONAL resolutions):**
+- ENSI.L: LOW_GM_KILL + NOT_YET_PROFITABLE_KILL (GM 38-40% audited; NI -£2.73M)
+- MLUAV.PA: REVENUE_TOO_SMALL_KILL + SECTOR_KILL_SUSPECTED (€13.4M < $20M; loitering munitions defense product)
+- NSE:ACCELYA: QUEUED_CONDITIONAL REMAINS (GM unresolved from Indian nat-of-expense format; BSE Annual Report agent aaad9ea6e6862ae7d ran but did not file-anchor GM before §6 PERSIST; priority §3.5 next run)
+
+**Structural finding — why Sector 4 European/Nordic is structurally thin at small-cap:**
+The commercial aerospace/satellite value chain at small-cap is dominated by: (a) component/subsystem suppliers that have already been repriced on the 2024-2026 commercial space boom (FTC.L +216% 52W; HUBN.SW CHF 58→195 in 6 months; NOD.OL +50% on NTN narrative); (b) satellite operators that are inherently large-cap by capital requirements (ETL.PA, SESG.PA, SES); (c) launch primes with government backing and capital-intensive balance sheets (AVIO.MI); (d) acquisition targets no longer independently listed (EXA.PA→Thales, Mynaric→Rocket Lab). The true small-cap commercial aerospace moat businesses either operate in adjacent sectors (FQT.VI is ATM software at €955M, better suited for Sector 6) or haven't listed yet.
+
+**Pass 6 tally: 10 new, 11 kills (including SSIT.L), 0 new QUEUED. 2nd consecutive 0-new-QUEUED → Sector 4 EXHAUSTED.**
+
+**Geo/sub-theme coverage completed through pass 6:**
+- Passes 1-4: US/UK geo lens (all US/UK names exhausted — see prior STATE.md entries runs ~14-60)
+- Pass 5 (run #91): European/Nordic geo lens — 15 names; 2 QUEUED_CONDITIONAL (ENSI.L/MLUAV.PA); 0 confirmed QUEUED; 1st consecutive 0-new
+- Pass 6 (run #92): European/Nordic geo lens continued — 10 new names; 0 QUEUED; 2nd consecutive 0-new → EXHAUSTED
+
+**Revive conditions for Sector 4:**
+1. Down-cap sweep: sub-£100M AIM/Euronext Growth commercial space component makers (e.g. Skyora, Oxford Space Systems if listed); verify no defense primary
+2. Deep-tech IPO pipeline: European commercial space IPOs on AIM/Euronext Growth (2026 pipeline has several candidates — revisit quarterly)
+3. FTC.L pullback: if Filtronic cap retreats below £250-300M (major pullback from current £520-560M); §3.5 GM verification then needed
+4. NSE:ACCELYA resolution: if BSE Annual Report GM ≥45% confirmed → promote to QUEUED (Sector 6 VMS, not Sector 4)

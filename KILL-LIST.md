@@ -3902,3 +3902,56 @@ Previously killed, re-confirmed this pass:
 | CXL.AX | Calix Ltd (ASX Australia) | Specialty chem/materials §2B fresh names run #90 | 2026-07-28 | **NOT_YET_PROFITABLE_KILL** | NOT_YET_PROFITABLE_KILL (run #90 2026-07-28, §2B fresh names): Calix Ltd — ASX Australia, advanced lime/mineral calcination technology company; primary technology LEILAC (Low Emissions Intensity Lime And Cement) — CO2 capture technology for lime and cement plants using electric calciner; also ACTI-Mag specialty mineral products for water treatment and agriculture. PROCESS moat genuine (LEILAC carbon capture integration technology is genuinely novel; key partnerships with HeidelbergMaterials, Tarmac). **Kill reason:** Pre-commercial — LEILAC is in demonstration phase (Lixhe LEILAC-2 pilot plant Belgium); not yet generating commercial-scale EBITDA-positive revenue from the technology; GM borderline 41-43% ~; EBIT negative; heavy R&D + capex for technology commercialization; 3-5 year path to profitability. NOT_YET_PROFITABLE_KILL per hard rule: must be EBIT+ to enter queue. Revisit when LEILAC reaches commercial revenue recognition + EBIT+. |
 
 **Run #89 Sector 0 §3.5 resolution kill tally (12 kills):** 5 LOW_GM_KILL (IQE.L 3.8% GM + NOT_YET_PROFITABLE / HOLCO.AS masterbatch GM structural / GURP.SW composites GM structural / SWTQ.SW TICKER_ERROR + composites GM / CRI.PA blended low + SIZE) + 4 CAP/SIZE_KILL (BRG.OL ~$1.37B SIZE / ELK.OL ~€1.15B CAP / TESB.BR ~€2B revenue SIZE / WAF.DE TICKER_ERROR Siltronic + SIZE) + 1 TICKER_ERROR_KILL (COTN.SW actually Comet Holding + CAP) + 1 CAP_TOO_SMALL_KILL (HDD.L ~£25M) + 1 NOT_YET_PROFITABLE_KILL (BERKM.PA ~€40M pre-profit). **KB data corrections applied this run:** WAF.DE = Siltronic AG (not Wacker); COTN.SW = Comet Holding AG (not Coltene; correct Coltene = CLTN.SW); SWTQ.SW = Schweiter Technologies (not Swiss Water decaf). **Sector 6 SE Asia 9th pass kill tally (2 kills):** 2 MOAT_WEAK_KILL (MFEC.BK IT services generalist / SGX:ITS competitive HRMS). **Sector 0 remaining QUEUED_CONDITIONAL (3):** VCT.L (Victrex PEEK — GM borderline, primary filing required); ELM.L (Elementis — GM conflict 36% vs 46.88% TTM ⚠; hectorite mine sole-source moat; primary filing verification required); AXS.L (Accsys acetylated wood — GM likely 20-35% LOW_GM_LIKELY from wood modification economics; primary filing required). **New QUEUED_CONDITIONAL (4):** CLTN.SW (correct Coltene Holding dental composites; 65.5% GM ✓ web ~ / $265M rev ~ / $320M cap ~); NSE:ACCELYA (Accelya Solutions India airline cargo/BSP billing SaaS); NSE:NUCLEUS (Nucleus Software banking lending SaaS); CENSOF.KL (Censof Holdings Malaysian government financial SaaS). **Sector 6 SE Asia 9th pass status: 1st consecutive 0-confirmed-QUEUED on SE Asia lens; 3 QUEUED_CONDITIONAL promoted to deferred queue.**
+
+---
+
+## Run #91 §3.5 Resolution Kills (2026-07-28) — ENSI.L + MLUAV.PA
+
+### LOW_GM_KILL + NOT_YET_PROFITABLE_KILL (1 — §3.5 resolution)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| ENSI.L | EnSilica plc (AIM London — fabless ASIC design) | Aerospace/satellite commercial (Sector 4 §3.5 resolution run #91/92) | 2026-07-28 | **LOW_GM_KILL + NOT_YET_PROFITABLE_KILL** | LOW_GM_KILL (run #92 2026-07-28, Sector 4 §3.5 resolution): EnSilica FY2025 (year ended May 31 2025) audited GM = 40% (RNS primary source ✓); H1 FY2026 (6M to Nov 2025) audited GM = 38% (H1 2026 results RNS ✓); BOTH BELOW ≥45% gate (HARD FAIL). ALSO NOT_YET_PROFITABLE_KILL: NI FY2025 = -£2.73M (loss); H1 FY2026 also loss. Revenue £27.5M FY2026 ✓ (≥$20M passes). Customer mix: predominantly commercial (automotive, satellite, industrial — NOT defense primary). Full FY2026 audited report not available until Oct 2026. Decision: KILL — GM structural (custom ASIC design services with significant engineering-cost drag; unlikely to reach ≥45% GM without fundamental business model change). |
+
+### REVENUE_TOO_SMALL_KILL + SECTOR_KILL_SUSPECTED (1 — §3.5 resolution)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| MLUAV.PA | Embention SL (Euronext Growth Paris — UAV avionics) | Aerospace/satellite commercial (Sector 4 §3.5 resolution run #91/92) | 2026-07-28 | **REVENUE_TOO_SMALL_KILL + SECTOR_KILL_SUSPECTED** | REVENUE_TOO_SMALL_KILL (run #92 2026-07-28, Sector 4 §3.5 resolution): Revenue FY2025 = €13.4M (~$14.7M USD) < $20M minimum gate (HARD FAIL). GM ~62%~ (aggregator unverified — could not confirm from primary filing); NI +€5.0M FY2025 (positive ✓). ALSO SECTOR_KILL_SUSPECTED: strong defense evidence found — Veronte Autopilot KAI product (loitering munitions / kamikaze UAV); "Veronte Defense Capabilities" product page; "defense avionics" listed as primary growth driver; civil/defense split NOT publicly disclosed. Even without SECTOR_KILL, revenue gate hard fail alone is sufficient. Decision: KILL — revenue too small ($14.7M < $20M) + defense exposure suspected. |
+
+---
+
+## Run #92 Kills (2026-07-28) — Sector 4 6th Pass European/Nordic Geo Lens
+
+### SIZE_KILL (8 — Sector 4 6th pass)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| FQT.VI | Frequentis AG (Vienna Stock Exchange / Frankfurt) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~€955M cap >> $500M threshold. World #1 ATC voice comms (30% global market share; DO-178C certified; 150 countries). Revenue €580M, EBIT €47M (8.1% margin). Quality moat genuine (mission-critical ATM switching cost) but cap well above size gate. |
+| AVIO.MI | Avio SpA (Borsa Italiana STAR) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~€1.8-2.0B cap >> $500M threshold. Sole European listed commercial launch prime (Vega C); P120C/P160C for Ariane 6; €2.1B backlog. Moat genuine but far above size gate. |
+| ETL.PA | Eutelsat Communications (Euronext Paris) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~€2.3-2.4B cap >> threshold. OneWeb LEO constellation (648 sats); European sovereign Starlink alternative (IRIS2). Cap far above gate. |
+| SESG.PA | SES S.A. (Euronext Paris / Luxembourg) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~$3.26B cap >> threshold. O3b mPOWER MEO; maritime/aviation satcom; govt networks. TTM revenue $3.44B. Far above gate. |
+| HUBN.SW | Huber+Suhner AG (SIX Swiss Exchange) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~CHF 3.4B (~$3.8B) >> threshold. Space-qualified RF connectors/cables (200 MRad; 65 GHz). Stock +200%+ in 6 months on space/defense demand. Far above gate. |
+| NOD.OL | Nordic Semiconductor (Oslo Stock Exchange) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~$3.84B cap >> threshold. NTN satellite IoT SoC chips; Bluetooth LE global leader. Satellite is one dimension of broader IoT chip business. Far above gate. |
+| FTC.L | Filtronic plc (AIM London) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~£520-560M (~$660-710M) > $500M threshold. SpaceX sole-source E-band GaN SSPA (Cerus 32) supplier; $62.5M record order; Sedgefield plant capacity >£200M. Moat very strong — added to WATCHLIST bench (conditional §3.5 required) for dip monitoring. |
+| OHB.DE | OHB SE (Frankfurt/Xetra) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **SIZE_KILL** | SIZE_KILL: ~€5.36B cap >> threshold. German satellite manufacturer/integrator; 80% ESA/EU institutional. Far above gate. |
+
+### PENDING_ACQUISITION_KILL (1 — Sector 4 6th pass)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| EXA.PA | Exail Technologies (Euronext Paris / SBF 120) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **PENDING_ACQUISITION_KILL** | Thales announced July 6 2026 acquisition of Gorgé family controlling stake + 100% tender offer at €134/sh (€3.9B EV). Delisting imminent. Moat genuine (#1 Europe maritime robotics, #2 naval inertial nav, space inertial sensors) but pending delisting = no investable listed vehicle. Kill. |
+
+### DISTRESS_KILL (1 — Sector 4 6th pass)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| ASTRO.OL | Astrocast SA (Euronext Growth Oslo) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **DISTRESS_KILL** | Stock at NOK 0.24/sh — micro-cap distressed valuation (<€10M cap). European LEO IoT nanosatellite operator (18 sats; M2M IoT). Revenue insufficient to sustain operations at scale. Speculative/distressed — not Quality Bench material. |
+
+### INVESTMENT_TRUST_KILL (1 — Sector 4 6th pass)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| SSIT.L | Seraphim Space Investment Trust (LSE Main Market) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **INVESTMENT_TRUST_KILL** | Listed investment trust holding 20-50 private space-tech companies. Not an operating business — no direct moat to underwrite. Cap £357-469M. Wrong vehicle type for KB methodology (we underwrite operating business moats, not fund NAV). |
+
+**Run #92 Sector 4 6th pass tally (10 new names): 8 SIZE_KILL + 1 PENDING_ACQUISITION_KILL + 1 DISTRESS_KILL + 1 INVESTMENT_TRUST_KILL = 11 kills (including SSIT.L), 0 new QUEUED. 2nd consecutive 0-new-QUEUED → Sector 4 EXHAUSTED.**
