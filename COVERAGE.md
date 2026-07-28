@@ -1429,3 +1429,40 @@ Memo: memos/M7U.DE-2026-07-27.md
 - WATCH count: 4 (FAA.VI Grade A; REC.L Grade B; STX.L Grade C; M7U.DE Grade C new)
 - Sector 0: 6th pass US lens complete; 0 new QUEUED; structural: US spec chem at $20-300M nearly exhausted; THIN → next pass European geo lens
 
+---
+
+## Sector 3 (Industrial precision components) — Pass 5 Coverage Notes (run #75, 2026-07-28)
+
+**US+European geo lens (§2B web-search; all data tools proxy-blocked).** Cap band: $20–400M extended zone (Q≥4). GM gate: ≥46.5%.
+
+**Names processed (7):** VPG, AMCO.L, NNBR, TPCS (4 new); MLAB, PRV, JDG.L (3 already-seen)
+
+### Kill Table (4 new)
+
+| Ticker | Company | Kill Reason |
+|--------|---------|-------------|
+| VPG | Vishay Precision Group | LOW_GM_KILL — Q1 2026 GM 39.0%; FY2025 ~40%; fails ≥46.5% gate; competitive precision sensors, not regulatory monopoly |
+| AMCO.L | Amco International (AIM, IPO Dec 2024) | LOW_GM_KILL (GM ~38.4%) + SECTOR_ADJACENT_KILL (defense machining segment in IPO prospectus) |
+| NNBR | NN Inc. | LOW_GM_KILL — FY2025 adjusted GM ~20%; precision component manufacturing with high overhead; heavy debt load |
+| TPCS | TechPrecision Corporation | SECTOR_KILL — ~99% defense revenue (Ranor nuclear submarine fabrication + Stadco defense aerospace); going-concern risk |
+
+**Already-seen (3):** MLAB CAP_KILL (2026-07-16; $549M cap), PRV NO_MOAT_KILL, JDG.L PARK 5/12
+
+**Structural finding (Sector 3 5th pass):** US industrial precision at $20-400M with ≥46.5% GM is extremely thin. The dominant patterns:
+- **Defense SECTOR_KILL:** Most precision machined components in the small-cap space serve defense primary customers (TPCS, AMCO.L partially, numerous prior runs)
+- **LOW_GM structural barrier:** Precision component manufacturing (ball screws, rollers, precision balls, transducers) is inherently overhead-heavy, yielding 20-40% GM rather than the 46.5%+ needed for a regulatory/process moat characterization
+- **M&A absorbed quality layer:** Roper, Ametek, Esterline (now TransDigm), Precision Castparts (Berkshire) absorbed most quality industrial precision names 2015-2025
+- **Survivors in our cap range tend to be either cyclical or defense-adjacent**
+
+**Positive exceptions already in KB:** DETEC.HE / SINT.ST (run #20); ALPM.PA (Sector 18 CANDIDATE precision weighing, EV/EBIT 5.37x); XRF.AX (Sector 10 BENCH mining lab consumables, 48% GM)
+
+**Sector 3 status:** THIN — 5th pass, 1st consecutive 0-new pass. Need 2nd consecutive 0-new pass for EXHAUSTED. Revive with Japan/Korea secondary precision instruments geo lens when EDINET proxy access restored.
+
+### Coverage Statistics Update (run #75)
+
+- Universe: 276 (+4 Sector 3 5th pass kills)
+- Sector 3: 5th pass, THIN (1st consecutive 0-new); 2nd consecutive needed for EXHAUSTED
+- EUZ.DE CORE Grade B: IN buy-zone €13.30 (most important §7 REFLECT finding)
+- CODA WATCHLIST bench: APPROACHING flag removed ($11.78 > $10.00 prior, Q2 beat +18%)
+- Quality Bench (WATCHLIST.md): 31 entries (unchanged this run)
+

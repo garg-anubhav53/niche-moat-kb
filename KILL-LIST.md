@@ -3293,3 +3293,29 @@ The following names were killed during enumeration before detailed triage (cover
 
 **Run #74 Sector 1 kill tally:** 2 SECTOR_KILLs + 4 SECTOR_ADJACENT_KILLs + 1 SIZE_KILL + 2 CAP_SOFT_KILLs + 4 MOAT_SOFT_KILLs + 3 NOT_YET_PROFITABLE_KILLs + 2 DEVELOPMENT_STAGE_KILLs + 2 NOT_PUBLIC_KILLs + 1 PARK = 21 names triaged; 0 new QUEUED; Sector 1 EXHAUSTED (6th pass, 2nd consecutive 0-new pass — US profitable medical dx $20-300M structurally thin; development-stage dominates micro-cap; European dx moats privatized/acquired)
 
+---
+
+## Sector 3 (Industrial precision components) — 5th pass US+European geo lens (run #75, 2026-07-28)
+
+**Screen:** §2B web-search fallback (SEC EDGAR + all data tools proxy-blocked; web-search only). Geo lens: US Nasdaq/NYSE + European XETRA/Euronext. Cap band: $20–400M extended zone (Q≥4). GM gate: ≥46.5%.
+
+**Result: 7 names processed; 4 new kills; 3 already-seen; 0 new QUEUED. Sector 3 remains THIN (1st consecutive 0-new pass; 2nd consecutive needed for EXHAUSTED).**
+
+### LOW_GM_KILLs (3)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| VPG | Vishay Precision Group | 3 — precision sensors + measurement systems (force/torque/pressure transducers) | ~$480–650M ~ | 2026-07-28 | LOW_GM_KILL — Q1 2026 gross margin 39.0% confirmed; FY2025 blended ~40%; FY2026 target ≥46.5% not met; revenue -4.9% YoY Q1 2026; no moat evidence at GM level consistent with REGULATORY MONOPOLY — competitive precision sensors business; extended cap zone but killed on GM gate |
+| AMCO.L | Amco International Holdings plc (AIM London) | 3 — precision machining components (AIM IPO Dec 2024) | ~£30–60M ~ | 2026-07-28 | LOW_GM_KILL (GM ~38.4% fails ≥46.5% gate) + SECTOR_ADJACENT_KILL (defense machining segment disclosed in IPO prospectus — significant defense revenue adjacency); AIM IPO Dec 2024; early public life; too early to assess post-IPO operating trajectory; both kill reasons independently sufficient |
+| NNBR | NN Inc. (Nasdaq: NNBR) | 3 — precision components (ball screws, rollers, precision balls, medical/aerospace/auto components) | ~$100–200M ~ | 2026-07-28 | LOW_GM_KILL — FY2025 adjusted gross margin ~20% (precision component manufacturing with high overhead; GAAP GM lower still); no consistent ≥46.5% path visible; significant net debt from acquisition legacy; cap borderline zone but fails GM gate decisively |
+
+### SECTOR_KILLs (1)
+
+| Ticker | Company | Sector | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|--------|-------|-----------|-------------|
+| TPCS | TechPrecision Corporation (Nasdaq: TPCS) | 3 — precision aerospace/defense machined components (Ranor + Stadco subsidiaries) | ~$20–50M ~ | 2026-07-28 | SECTOR_KILL — ~99% revenue from defense customers (US DoD, prime contractors, naval systems); Ranor (heavy fabrication for nuclear submarines + military naval vessels) + Stadco (aerospace structural components, primarily defense contracts); going-concern risk noted in recent filings; SECTOR_KILL (defense primary customer) applies regardless of valuation |
+
+**Already-seen (3):** MLAB CAP_KILL (2026-07-16; cap grown $350M→$549M), PRV NO_MOAT_KILL (GM 35.4%), JDG.L PARK 5/12 (FY2025 EPS -47%)
+
+**Run #75 Sector 3 5th pass kill tally:** 3 LOW_GM_KILLs + 1 SECTOR_KILL = 4 new kills; 3 already-seen; 0 new QUEUED; 1st consecutive 0-new pass → Sector 3 remains THIN (need 2nd consecutive 0-new pass for EXHAUSTED)
+
