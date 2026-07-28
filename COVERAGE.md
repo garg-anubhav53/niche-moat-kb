@@ -1574,3 +1574,35 @@ Memo: memos/M7U.DE-2026-07-27.md
 
 **Sector 12 status: EXHAUSTED** — 2 consecutive 0-new-QUEUED passes (Pass 3: Nordic/Canada/Australia, run #49; Pass 4: US, run #79). Revive Sector 12 only with: (a) Japan secondary OTC life-sci instruments geo lens (EDINET when proxy access restored — Ono Sokki 6858.T already in deferred queue; other Nikkei TSE life-sci tool names); OR (b) a currently-burning-cash US company returns to sustained profitability at ≤$300M cap (e.g. BLFS, CTKB, QTRX). Monitor BLFS quarterly results — biopreservation media moat is the best candidate for eventual re-entry.
 
+---
+
+## Sector 13 (Rail & Transport Safety Systems) — Pass 3 Coverage Notes (run #80, 2026-07-28)
+
+**Global web lens:** ~16 names processed; 0 new QUEUED. 2nd consecutive 0-new pass → **Sector 13 EXHAUSTED.**
+
+**Screen:** §2B web-search (all §2A tools proxy-blocked). Geo lens: global — US/Nasdaq/NYSE, UK AIM/LSE, ASX, Oslo Børs, TSE (Japan), HKEX; $20-300M cap range, rail/transport safety systems / signaling / ATC equipment.
+
+**Names triaged (13 new kills + 3 already-seen):**
+- RVSN (JURISDICTION_KILL — Israel)
+- KERNEX (JURISDICTION_KILL — India)
+- 3969.HK / CRSC (JURISDICTION_KILL — China SOE, HKEX-listed)
+- HBLENGINE (SIZE_KILL ~$2B + JURISDICTION_KILL India concurrent)
+- 6741 / Nippon Signal (SIZE_KILL ~$700M+; EDINET proxy-blocked)
+- WAB / Wabtec (SIZE_KILL ~$18B)
+- AZJ / Aurizon (WRONG_SECTOR_KILL — rail operator not safety OEM + SIZE_KILL ~A$5B)
+- EGN / Engenco (NO_MOAT_KILL — maintenance services, no proprietary signaling)
+- RAIL / FreightCar America (WRONG_SECTOR_KILL + NO_MOAT_KILL — commodity railcar manufacturing)
+- CARA / Carasent (WRONG_SECTOR_KILL — Sector 6 EHR SaaS, not rail; useful Omda peer-comp)
+- TRCS.L (ALREADY_SEEN — COVERAGE_KILL from prior pass)
+- 6742.T / Kyosan Electric (ALREADY_SEEN — on Quality Bench as CANDIDATE)
+- NORDH / Nordhealth (ALREADY_SEEN — INTEGRITY_KILL in UNIVERSE)
+- Large-cap private/unlistable: Alstom (€6B), Siemens Mobility (unlisted), Thales (€15B), Hitachi Rail (unlisted sub), Mitsubishi Electric Rail Systems (unlisted sub) → SIZE_KILL or NOT_PUBLIC
+
+**Why Sector 13 is structurally exhausted globally:**
+- **Conglomerate dominance:** Rail signaling is dominated by 5 global integrators (Alstom, Siemens Mobility, Thales, Hitachi, Nippon Signal) all at large-cap ($500M+). No profitable independent small-cap signaling OEM exists in a democratic jurisdiction.
+- **Jurisdiction exclusions remove remaining names:** India (KERNEX) and China (CRSC/3969.HK) have genuine small-cap rail signaling companies but are jurisdiction-excluded. Israel (RVSN) is jurisdiction-excluded. These three countries account for the bulk of small-cap rail safety activity globally.
+- **Survivors are maintenance, not safety systems:** Small-cap ASX/UK rail names (EGN, RAIL) are maintenance services or commodity manufacturing — no proprietary safety-system moat.
+- **KB already holds sector's best names:** FEW.F (Frauscher Sensortechnik — axle counter specialist, the best remaining small-cap), 6742.T (Kyosan Electric — rail interlocking, on bench). Both are already tracked.
+
+**Sector 13 status: EXHAUSTED** — 2 consecutive 0-new-QUEUED passes (Pass 2: UK AIM+Nordic, run #78; Pass 3: global web, run #80). Revive only with: Japan OTC EDINET screen when proxy restored (secondary rail component makers below Nippon Signal — platform door control, crossing barrier systems, rail grinding equipment). Note: CARA (Carasent ASA, Oslo) flagged as valid Sector 6 6th pass target — Norwegian EHR/clinical SaaS, genuine peer to Omda.
+

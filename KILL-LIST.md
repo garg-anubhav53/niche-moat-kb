@@ -3462,3 +3462,36 @@ Structural finding: The US Nasdaq/NYSE life-sci tools universe in $20-300M cap z
 
 **Structural finding (Sector 12 US 4th pass):** The US life-sci tools market in $20-300M profitable/high-GM zone is structurally thin due to: (1) 2020-2022 SPAC/biotech-tools bubble created dozens of now-burning-cash companies ($100-600M cap, continuous losses — TWST, SEER, NAUT, LAB, QTRX, BLFS, ABCL, ABSI, CODX, MRVI); (2) Profitable names in zone (MLAB, SRDX, HBIO) were already processed in prior passes; (3) Large profitable tools companies (RGEN, NEOG, CTKB, FLGT, OSUR, PACB) all above $300M cap ceiling; (4) Service-based CROs (BASS, CYRX) fail GM gate. The sector is now structurally exhausted at this geo lens.
 
+---
+
+## Sector 13 (Rail & Transport Safety) — 3rd Pass Global Web Lens (run #80, 2026-07-28)
+
+### JURISDICTION_KILLs
+
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| RVSN | Rail Vision Ltd (Nasdaq) | Israeli company; AI-based railway obstacle detection (ML-based front-end and side cameras for freight/passenger rail); genuine regulatory-moat potential; BUT Israel = JURISDICTION_KILL per ROUTINE.md | 2026-07-28 |
+| KERNEX | Kernex Microsystems (India) Ltd (NSE) | Indian rail signaling (locomotive collision avoidance, ATP systems for Indian Railways); government-mandated railway safety systems — genuine regulatory moat within India; BUT India not in explicit trustworthy-democracy approved list → JURISDICTION_KILL | 2026-07-28 |
+| 3969.HK | China Railway Signal & Communication Corp (HKEX) | Hong Kong-listed Chinese SOE (mainland China primary operations); signaling + telecom systems for Chinese high-speed rail; genuine sole-source for China rail network; BUT HK-listed Chinese SOE = JURISDICTION_KILL (China/VIE/SOE excluded) | 2026-07-28 |
+
+### SIZE_KILLs
+
+| Ticker | Company | Cap ~ | Reason | Date |
+|--------|---------|-------|--------|------|
+| HBLENGINE | HBL Engineering Ltd (BSE/NSE, India) | ~$2B USD | Indian industrial controls/power electronics (includes some rail electronics segment); SIZE_KILL: cap well above $300M ceiling; also JURISDICTION_KILL (India) concurrent | 2026-07-28 |
+| 6741 | Nippon Signal Co. Ltd (TSE, Japan) | ~$700M+ | Japanese rail signaling and traffic safety systems (interlocking, ATC, level crossing control, automated platform doors); genuine PROCESS+REGULATORY moat (JIS-certified, JR Group sole-qualified); BUT cap above $300M ceiling; EDINET proxy-blocked — cannot verify financials; SIZE_KILL | 2026-07-28 |
+| WAB | Wabtec Corporation (NYSE) | ~$18B | Global rail equipment/signaling conglomerate (former GE Transportation + Faiveley); genuine platform moat across braking, signaling, and locomotive systems; cap 60x limit → SIZE_KILL | 2026-07-28 |
+| AZJ | Aurizon Holdings (ASX) | ~A$5B+ | Australian rail freight operator (coal and bulk commodities); WRONG_SECTOR_KILL (rail operator, not safety-equipment OEM) + SIZE_KILL (cap far above ceiling) | 2026-07-28 |
+
+### NO_MOAT / WRONG_SECTOR_KILLs
+
+| Ticker | Company | Reason | Date |
+|--------|---------|--------|------|
+| EGN | Engenco Ltd (ASX) | Australian rail maintenance and engineering services (rolling stock repair, fleet maintenance, overhaul); maintenance/services business — no proprietary safety-system technology, no regulatory certification lock-in; NO_MOAT_KILL (services without sole-source) | 2026-07-28 |
+| RAIL | FreightCar America Inc (Nasdaq) | US commodity railcar manufacturer (aluminum and steel hopper, gondola, flatcar bodies); commodity manufacturing — multiple competing railcar OEMs (Trinity, Greenbrier, FreightCar); no sole-source or safety-system regulatory moat; WRONG_SECTOR_KILL (not rail safety systems) + NO_MOAT_KILL | 2026-07-28 |
+| CARA | Carasent ASA (Oslo Børs) | Norwegian healthcare EHR/clinical workflow software (WinMed GP EHR, Ahlta hospital system, Meona pharmacy); Sector 6 (vertical healthcare SaaS) — NOT Sector 13 (rail safety); surfaced in rail-safety search due to misleading partial name match; WRONG_SECTOR_KILL; NOTE: valid Sector 6 Omda peer-comp (Norwegian healthcare SaaS, OSE-listed) — flag for Sector 6 6th pass re-screen | 2026-07-28 |
+
+**Run #80 Sector 13 3rd pass kill tally:** 3 JURISDICTION_KILLs + 4 SIZE_KILLs + 3 NO_MOAT/WRONG_SECTOR_KILLs + 3 ALREADY_SEEN (TRCS.L COVERAGE_KILL / 6742.T CANDIDATE on bench / NORDH INTEGRITY_KILL) + large-cap private/not-public (Alstom/Thales/Siemens Mobility/Hitachi Rail/Mitsubishi Electric) SIZE_KILL or NOT_PUBLIC = 16 total; 0 new QUEUED. **2nd consecutive 0-new-QUEUED pass (pass 2 UK AIM+Nordic was also 0) → SECTOR 13 EXHAUSTED.**
+
+**Structural finding (Sector 13 global 3rd pass):** Rail & transport safety at small-cap ($20-300M, ≥45% GM, profitable) is globally exhausted. Quality rail signaling/ATCS is dominated by Alstom (Urbalis 400 CBTC), Siemens Mobility (Trainguard), Thales, Hitachi Rail, Nippon Signal — all large-cap. Surviving listed small-caps are either (a) jurisdiction-excluded (India: KERNEX; China SOE: CRSC/3969.HK; Israel: RVSN), (b) maintenance services without proprietary lock-in (EGN), (c) commodity manufacturing (RAIL/FreightCar), or (d) already in the KB (FEW.F, 6742.T, TRCS.L). Best path to revival: Japan OTC EDINET screen when proxy restored — secondary rail component makers (platform screen door components, rail grinding, interlocking subcomponents) may exist below Nippon Signal.
+
