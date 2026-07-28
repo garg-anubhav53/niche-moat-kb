@@ -1840,3 +1840,49 @@ The commercial aerospace/satellite value chain at small-cap is dominated by: (a)
 2. Deep-tech IPO pipeline: European commercial space IPOs on AIM/Euronext Growth (2026 pipeline has several candidates — revisit quarterly)
 3. FTC.L pullback: if Filtronic cap retreats below £250-300M (major pullback from current £520-560M); §3.5 GM verification then needed
 4. NSE:ACCELYA resolution: if BSE Annual Report GM ≥45% confirmed → promote to QUEUED (Sector 6 VMS, not Sector 4)
+
+---
+
+## Sector 6 — Vertical/mission-critical software & data — Pass 10 (SW Europe: Borsa Italiana/EGM, GPW Warsaw, AIM UK, Athens SE, Euronext Lisbon, TSX Canada lens) — run #93 2026-07-28
+
+**Geo lens**: SW European micro/small-cap software exchanges — Borsa Italiana main + EGM (Italy), GPW Warsaw + NewConnect (Poland), AIM London (UK SW Europe focus), Athens SE (Greece), Euronext Lisbon (Portugal), TSX/TSX-V (Canada cross-reference). 10th pass on Sector 6 overall.
+
+**Raw names triaged (16)**: DIG360 (Digital360 SpA), SPD.EGM (Spindox SpA), WAS.WA (Wasko SA), SPACE.AT (Space Hellas SA), WIIT.MI (Wiit SpA), ABS.WA (Asseco Business Solutions SA), ALL.WA (Ailleron SA), ENTER.AT (Entersoft SA), GLINT.LS (Glintt Global SA), TXT.MI (TXT e-solutions SpA), XPR.MI (Exprivia SpA), NSP.EGM (Neosperience SpA), GRW.EGM (Growens SpA), TXT.WA (Text SA / LiveChat), QTX.L (Quartix Technologies), plus sub-threshold candidates examined and rejected without triage entry.
+
+**Kills (4)**:
+- DIG360 (Digital360 SpA, EGM Italy, ~€35M): MOAT_ABSENT_KILL — B2B IT/cybersecurity media and advisory platform; no durable software moat; revenue from advertising + sponsorship + advisory
+- SPD.EGM (Spindox SpA, EGM Italy): SERVICES_KILL — automotive digital engineering services; GM likely <45% (IT services/staff augmentation model)
+- WAS.WA (Wasko SA, GPW Warsaw, ~€39M): SERVICES_KILL — IT systems integration for Polish energy/railways; GM likely <45%; no proprietary software IP
+- SPACE.AT (Space Hellas SA, Athens SE, ~€46M): SERVICES_KILL — network security/enterprise IT integration; GM likely <45% (Cisco/HP/Dell integrator + managed services)
+
+**New Bench entries (2)**:
+- WIIT.MI (Wiit SpA, Borsa Italiana, ~€850M cap): CAP_SOFT_KILL → bench route v5.1; sole AWS Premier Partner Italy + SAP Gold; dedicated cloud for SAP RISE (BTP); 3-7yr managed service contracts; recurring subscription model; buy-zone ≤€400M cap; §3.5 pending Borsa Italiana annual report
+- ABS.WA (Asseco Business Solutions SA, GPW Warsaw, ~€680M cap): CAP_SOFT_KILL → bench route v5.1; SAP Business One + WEBCON BPS workflow platform; ~30% Polish SME ERP market share; CEE expansion; buy-zone ≤€350M cap; ⚑non-EN C≤2; §3.5 pending GPW annual report
+
+**Non-EN leads, C≤2 (3)**:
+- ALL.WA (Ailleron SA, GPW Warsaw): Polish fintech/banking SaaS — workflow platforms, mobile banking, insurance software; multi-year lock-in if core banking integration confirmed; ⚑non-EN; §3.5 pending GPW filing
+- ENTER.AT (Entersoft SA, Athens SE): Greek ERP/CRM/WMS for Balkans and SE Europe mid-market; multi-year ERP implementation lock-in; ⚑non-EN; §3.5 pending Athens SE filing
+- GLINT.LS (Glintt Global SA, Euronext Lisbon): Portuguese healthcare/pharmacy software (GHAF HIS, prescription management); sole-source in several Portuguese hospital clusters; ⚑non-EN; §3.5 pending Lisbon filing
+
+**Services/Defense-uncertain leads (4)**:
+- TXT.MI (TXT e-solutions SpA, Borsa Italiana): aerospace/embedded software + retail planning (dual division); defense adjacency uncertain — classification DEFENSE_UNCERTAIN; Italian filing required to confirm civilian vs defense revenue split; C≤2
+- XPR.MI (Exprivia SpA, Borsa Italiana): digital transformation consulting/IT services for telecoms/energy/healthcare; SERVICES_UNCERTAIN — GM likely <45% if services-heavy; Italian filing required
+- NSP.EGM (Neosperience SpA, EGM Italy): AI-powered digital CX platform targeting luxury/fashion/retail; EGM micro-cap; profitability UNVERIFIED; EGM filing required before gate assessment
+- GRW.EGM (Growens SpA, EGM Italy, formerly Mailup): post-divestiture of Mailup email platform (sold ~2023); new B2B marketing tech revenue model POST-DIVESTITURE_UNVERIFIED; EGM filing required
+
+**QUEUED §4 (2)**:
+- TXT.WA (Text SA / LiveChat, GPW Warsaw): B2B customer service SaaS platform; 37,000+ business customers; 2,000+ integrations marketplace; international SaaS (US/EU/global); recurring subscription model; GM likely ≥70%+ (pure SaaS); profitable; QUEUED §4 — baseline required
+- QTX.L (Quartix Technologies, AIM UK): vehicle tracking telematics SaaS; 27,000+ fleet subscription customers UK/France/US; subscription-only model; ~86% recurring revenue ~; profitable; QUEUED §4 — §4 baseline + AIM primary filing required
+
+**NSE:ACCELYA**: QUEUED_CONDITIONAL maintained (reviewed this pass). GM HIGH CONFIDENCE ≥45% from economic analysis (likely 55-65%); BSE Annual Report 403-blocked; anti-fabrication rule prevents promotion. Next review when BSE/NSE PDF access restored.
+
+**Pass 10 tally: 16 names triaged; 4 kills; 2 bench (WIIT.MI/ABS.WA); 3 ⚑non-EN leads C≤2 (ALL.WA/ENTER.AT/GLINT.LS); 4 services/defense-uncertain leads (TXT.MI/XPR.MI/NSP.EGM/GRW.EGM); 2 QUEUED §4 (TXT.WA/QTX.L); NSE:ACCELYA QUEUED_CONDITIONAL maintained.**
+
+**Sector 6 cumulative status after Pass 10**: 10 passes completed. Geo lenses covered: US/UK/ASX/TSX/NZX (passes 1-5), Japan/Korea (pass 6), TSXV+DACH+Benelux (pass 7), DACH §3.5 resolution (pass 8), SE Asia (pass 9), SW Europe (pass 10). Next lens candidates: Nordic/Scandinavian VMS deeper dive or Benelux/French Euronext Growth second pass.
+
+**Revive conditions for Sector 6 SW Europe axis**:
+1. §3.5 on WIIT.MI (Borsa Italiana annual report): if GM ≥45% + NI positive confirmed → move from bench CONDITIONAL to bench confirmed; promote to QUEUED_HOT when cap ≤€400M
+2. §3.5 on ABS.WA (GPW Warsaw annual report ⚑non-EN): if GM ≥45% + NI positive confirmed → move from bench CONDITIONAL to bench confirmed; promote to QUEUED_HOT when cap ≤€350M
+3. ⚑non-EN leads resolution: ALL.WA/ENTER.AT/GLINT.LS — promote to QUEUED_CONDITIONAL or kill when primary-language filings accessible
+4. TXT.WA §4 baseline: 37,000+ LiveChat B2B customers; GM likely ≥70%; potential §5 candidate if §4 confirms moat depth and Asymmetry Gate opens
+5. QTX.L §4 baseline: AIM primary filing + §4 deep-dive; promote to QUEUED or kill based on GM + moat confirmation

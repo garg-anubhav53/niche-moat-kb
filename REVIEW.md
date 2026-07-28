@@ -1454,3 +1454,85 @@ Agent a2f62c4c474910e47 returned 22 raw names. §3 triage below:
 
 5. **SYZ.TO QUEUED_CONDITIONAL — stock -62% twelve months** — If this reflects moat deterioration (contract losses, competitive displacement), kill immediately. If sentiment/sector rotation only, 60% GM + 25% EBITDA + NRR 108% could be compelling at C$93M cap. Requires SEDAR+ primary filing access (not available in current cloud env). Manual download or alternate env recommended.
 
+---
+
+## §7 REFLECT — run #93 (2026-07-28)
+
+*§7 REFLECT mandatory — 93 % 3 = 0*
+
+### 1. Bench Re-Price (run #93 — all prices ~ single-source web; snapshot.py proxy-blocked per DATA-REACHABILITY REALITY v6)
+
+Key movements vs prior WATCHLIST.md state:
+
+| Ticker | Prior status | Run #93 status | Change |
+|--------|-------------|----------------|--------|
+| CODA | ~$11.78 ($134M cap) APPROACHING REMOVED | ~$9.84-10.00 ($112-113M cap) ⚠APPROACHING | **APPROACHING RESTORED** — pulled back from $12+ highs; AT zone ceiling $8-10; $112-113M cap is T+$5-6M above ≤$107M trigger; promote when cap ≤$107M |
+| FAA.VI | ~€13.10-13.35 HUMAN ALERT ACTIVE | ~€13.10-13.35 ⚠⚠ HUMAN ALERT ACTIVE | Confirmed AT/BELOW ≤€13.75 buy-zone (Jul 24 €13.35; Jul 26 €13.10); no thesis-breaking news; §5 OPUS required |
+| XRF.AX | ~A$1.685 ⚠APPROACHING | ~A$1.685 ⚠APPROACHING | Confirmed 2.1% above A$1.65 ceiling; monitor daily |
+| PHO.OL | ~NOK 65 pre-Q2 spike | ~NOK 65-69.89 ⚠⚠ URGENT | Q2 2026 results DUE TODAY Jul 29; pre-earnings spike +14%; ABOVE zone ≤NOK 50-55; PROMOTE if closes ≤NOK 55 |
+| EUZ.DE | ~€13.10-13.30 AT ZONE BOTTOM | ~€13.10-13.30 AT ZONE BOTTOM ⚠ | Confirmed at 52W low range; Q2 results Aug 12 2026; CORE Grade B = franchise hold; promote when ≤€13 sustained + §3.5 filing confirms GM ≥45% |
+| OMDA.OL | ~NOK 39.60 IN BUY-ZONE | ~NOK 39.60 IN BUY-ZONE ⚠HIGH_LEVERAGE | TWO BLOCKERS remain: (1) GM unconfirmed from filing; (2) Net Debt/EBITDA ~3.6x; bond callable Dec 4 2026 |
+| WIIT.MI | Not in KB | ~€850M cap ~ BENCH ADDED | NEW — Sector 6 SW Europe Pass 10; sole AWS Premier Partner Italy + SAP Gold; buy-zone ≤€400M cap; §3.5 pending |
+| ABS.WA | Not in KB | ~€680M cap ~ ⚑non-EN BENCH ADDED | NEW — Sector 6 SW Europe Pass 10; SAP Business One + WEBCON BPS; buy-zone ≤€350M cap; ⚑non-EN §3.5 pending; C≤2 |
+| All others | Various | No material change | Prices carried forward; see WATCHLIST.md for full table |
+
+### 2. Data Quality Audit
+
+**CODA price reconciliation (CRITICAL FIX)**: WATCHLIST.md showed ~$11.78 "APPROACHING FLAG REMOVED run #90" — this reflected a Q2 2025 earnings beat that moved price to ~$11.78. However bench agents in runs #87/#89 confirmed price had since pulled back to ~$9.84-10.00 (AT zone ceiling $8-10). Cap ~$112-113M is T+$5-6M above ≤$107M trigger. Correction shipped: APPROACHING flag restored in WATCHLIST.md. Monitor for cap ≤$107M to trigger QUEUED_HOT promotion.
+
+**FAA.VI data integrity check**: Three independent sources confirm ~€13.10-13.35 (Jul 24-26 closes). 52-wk range €10.45 (Apr 15 tariff-panic low) – €17.45. YTD -16%. No corporate events between run #86 and run #93. HUMAN ALERT still valid. memos/FAA.VI-2026-07-17.md thesis intact.
+
+**NSE:ACCELYA proxy block**: All BSE India PDFs, Screener.in, Trendlyne, all major aggregators returned HTTP 403 this run. Economic GM estimate HIGH CONFIDENCE ≥45% (likely 55-65% based on airline BSP SaaS economics + IATA mandate moat + 30.9% operating margin), but anti-fabrication hard rule requires primary filing for GM confirmation. Status: QUEUED_CONDITIONAL maintained. Next action: BSE Annual Report PDF when access restored.
+
+**EUZ.DE data conflict resolved**: A bench sub-agent returned €15.66 for EUZ.DE early in run #93 — this is stale (prior run #91 high). WATCHLIST.md's €13.10-13.30 (run #92 updated) is the authoritative current price. No WATCHLIST.md update required for EUZ.DE.
+
+**DATA-REACHABILITY v6 status**: No change — SEC EDGAR, Yahoo Finance snapshot.py, EDINET, DART, TWSE all proxy-BLOCKED. §2A fully disabled. Web search only. All bench prices remain tagged ~ (single-source web).
+
+### 3. False-Negative Re-Check
+
+**TXT.WA (Text SA / LiveChat)**: Surfaced Sector 6 SW Europe Pass 10. LiveChat is a pure-play B2B SaaS customer service platform with 37,000+ business customers globally, 2,000+ marketplace integrations (creates network lock-in), subscription-only model, and international revenue (US, EU, global). GM likely ≥70%+ (pure SaaS; no COGS other than hosting). Profitable. This is a plausible false-negative — §4 baseline required urgently.
+
+**QTX.L (Quartix Technologies)**: AIM UK fleet telematics SaaS. 27,000+ subscription customers in UK/France/US. Subscription-only model. ~86% recurring revenue. Tachograph integration adds regulatory compliance lock-in (EU commercial fleet mandate). Profitable. AIM filer — §4 + AIM primary filing required. Potential quality bench or QUEUED candidate.
+
+**WIIT.MI**: Could be false-negative if Borsa Italiana filing reveals GM well above 45% (AWS Premier + SAP Gold MSP model should have high gross margins). Italian EGM/MTA filers accessible in principle (non-blocked). §3.5 priority next pass.
+
+**3 ⚑non-EN leads (ALL.WA/ENTER.AT/GLINT.LS)**: All held at C≤2. Banking/ERP/healthcare SaaS in their respective markets — all have plausible switching-cost moats. Polish GPW and Athens SE filings potentially accessible but require non-English reading. Mark as priority for next non-EN diligence pass.
+
+**Prior false-negative checks (runs #90/91)**: ACT.DE SECTOR_ADJACENT_KILL confirmed valid (defense revenues primary). TET.L LOW_GM_KILL confirmed valid (GM 38.4% structural). No reversals.
+
+### 4. Universe Exploration Audit
+
+**Sector 6 cumulative progress**: 10 passes now complete. All major English-language VMS geographies covered (US/UK/ASX/TSX/NZX passes 1-5; Japan/Korea pass 6; TSXV+DACH+Benelux pass 7). SE Asia axis EXHAUSTED (2 consecutive 0-confirmed-QUEUED: passes 9+8). SW Europe Pass 10 complete. Remaining fresh ground: Nordic/Scandinavian VMS deeper dive; Benelux/French Euronext Growth second pass.
+
+**§4 pipeline**: TXT.WA and QTX.L are the most actionable new finds from run #93. Both are profitable SaaS businesses with recurring revenue and measurable subscriber counts. §4 baselines should be written in next 1-2 runs before §5 eligibility window.
+
+**Deferred queue (20 items)**: Japan/Korea top-5 (071200.KS/030520.KQ/3921.T/3969.T/053580.KQ) all still DART/EDINET-blocked. NSE:ACCELYA (item 18) still BSE-blocked. ENSI.L (item 19) and MLUAV.PA (item 20) remain QUEUED_CONDITIONAL — §3.5 required (AIM filing for ENSI.L; Euronext Growth AMF filing for MLUAV.PA).
+
+**Priority next run**: §4 baselines for TXT.WA (LiveChat) and QTX.L (Quartix) OR Sector 6 Nordic/Scandinavian 11th pass.
+
+### 5. Corrective Edits Shipped (run #93)
+
+1. **WATCHLIST.md**: CODA price updated $11.78→$9.84-10.00; APPROACHING flag restored; WIIT.MI and ABS.WA new bench entries added (two new rows).
+2. **KILL-LIST.md**: 4 Sector 6 SW Europe Pass 10 kills appended (DIG360 MOAT_ABSENT_KILL; SPD.EGM/WAS.WA/SPACE.AT SERVICES_KILL).
+3. **COVERAGE.md**: Sector 6 Pass 10 SW Europe summary appended with full breakdown + revive conditions.
+4. **UNIVERSE.md**: 15 new entries appended (2 QUEUED §4 + 7 leads/conditional + 2 bench + 4 kills); universe: 471→486.
+5. **STATE.md**: Run #93 prepended to Last sector run log; universe count 471→486; Sector 6 passes 9→10; total runs 92→93.
+
+### 6. Human-Review Items (§7 REFLECT run #93)
+
+1. **⚠⚠ FAA.VI AT/IN BUY-ZONE ~€13.10-13.35 — WATCH A HUMAN ALERT ACTIVE** (AT/BELOW ≤€13.75 buy-zone since run #86; Jul 24 close €13.35, Jul 26 close €13.10; memo memos/FAA.VI-2026-07-17.md; Grade A; EV/EBIT ~8.5x vs peers 15-25x; 2 analysts consensus PT €28.56 = +108%; recurring ARR growing mid-double-digits). **Position sizing decision required by human operator.**
+
+2. **⚠⚠ PHO.OL Q2 results DUE TODAY (Jul 29)** — Photocure ASA bluelight cystoscopy; stock at ~NOK 65-69.89 (pre-earnings spike +14%; ABOVE buy-zone ≤NOK 50-55); **if stock closes ≤NOK 55 post-Q2 results, PROMOTE TO QUEUED_HOT immediately next run.**
+
+3. **⚠ CODA APPROACHING flag restored at $9.84-10.00 (~$112-113M cap)** — cap $5-6M above ≤$107M trigger; Echoscope 3D sonar sole product, net cash, 66% GM — genuine Asymmetry Gate candidate if cap ≤$107M. Monitor closely.
+
+4. **⚠ XRF.AX APPROACHING A$1.685 (2.1% above A$1.65 ceiling)** — Promote to QUEUED_HOT if closes ≤A$1.65. FY2026 9M revenue +10.6% YoY; Bruker CGA acquisition Apr 2026. Monitor daily.
+
+5. **⚠ EUZ.DE AT ZONE BOTTOM €13.10-13.30** — Q2 results Aug 12 2026; base-effect soft Q2 2025 comparator; CORE Grade B = franchise hold regardless. Promote to QUEUED_HOT if ≤€13 sustained + §3.5 filing confirms GM ≥45%.
+
+6. **NSE:ACCELYA QUEUED_CONDITIONAL** — GM HIGH CONFIDENCE ≥45% (likely 55-65%) from economic analysis; anti-fabrication rule requires primary filing. BSE Annual Report 403-blocked. Next review when filing access restored.
+
+7. **TXT.WA (LiveChat/Text SA) §4 baseline — PRIORITY** — 37,000+ B2B customers; international SaaS; 2,000+ integrations marketplace; GM likely ≥70%; potential QUEUED/QUEUED_HOT candidate. **Priority §4 baseline next run.**
+
+8. **QTX.L (Quartix Technologies) §4 baseline** — AIM UK; 27,000+ fleet telematics subscribers; subscription-only model; ~86% recurring; tachograph compliance lock-in. **§4 + AIM primary filing next run.**
+

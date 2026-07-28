@@ -3955,3 +3955,23 @@ Previously killed, re-confirmed this pass:
 | SSIT.L | Seraphim Space Investment Trust (LSE Main Market) | Aerospace/satellite commercial (Sector 4 6th pass run #92) | 2026-07-28 | **INVESTMENT_TRUST_KILL** | Listed investment trust holding 20-50 private space-tech companies. Not an operating business — no direct moat to underwrite. Cap £357-469M. Wrong vehicle type for KB methodology (we underwrite operating business moats, not fund NAV). |
 
 **Run #92 Sector 4 6th pass tally (10 new names): 8 SIZE_KILL + 1 PENDING_ACQUISITION_KILL + 1 DISTRESS_KILL + 1 INVESTMENT_TRUST_KILL = 11 kills (including SSIT.L), 0 new QUEUED. 2nd consecutive 0-new-QUEUED → Sector 4 EXHAUSTED.**
+
+---
+
+## Sector 6 SW Europe 10th pass kills — run #93 2026-07-28
+
+### MOAT_ABSENT_KILL (1 — Sector 6 SW Europe Pass 10)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| DIG360 | Digital360 SpA (Borsa Italiana EGM Italy, ~€35M cap) | Vertical/mission-critical software & data (Sector 6 SW Europe Pass 10 run #93) | 2026-07-28 | **MOAT_ABSENT_KILL** | B2B IT/cybersecurity media and advisory platform; no durable software moat; contestable content/events/advisory model (advertising + sponsorship + consulting fees); no recurring software subscription lock-in; competing media properties can replicate; no regulatory lock-in. |
+
+### SERVICES_KILL (3 — Sector 6 SW Europe Pass 10)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| SPD.EGM | Spindox SpA (Borsa Italiana EGM Italy) | Vertical/mission-critical software & data (Sector 6 SW Europe Pass 10 run #93) | 2026-07-28 | **SERVICES_KILL** | Automotive digital engineering services; staff augmentation + project consulting for automotive OEMs; GM likely <45% (IT services/staff augmentation margin profile); no proprietary software IP or product moat; contestable services work. |
+| WAS.WA | Wasko SA (GPW Warsaw Poland, ~€39M cap) | Vertical/mission-critical software & data (Sector 6 SW Europe Pass 10 run #93) | 2026-07-28 | **SERVICES_KILL** | IT systems integration for Polish energy sector and railways; hardware/software systems integrator; GM likely <45% (systems integrator margin profile); no durable proprietary software IP; competing Polish IT integrators can provide identical services. |
+| SPACE.AT | Space Hellas SA (Athens Exchange Greece, ~€46M cap) | Vertical/mission-critical software & data (Sector 6 SW Europe Pass 10 run #93) | 2026-07-28 | **SERVICES_KILL** | Network security and enterprise IT infrastructure integration services; Cisco/HP/Dell integrator + managed services; GM likely <45% (integration/managed services margin profile); no proprietary software or durable moat; reseller/integrator model without switching-cost IP. |
+
+**Run #93 Sector 6 SW Europe Pass 10 tally (16 raw names): 1 MOAT_ABSENT_KILL + 3 SERVICES_KILL = 4 kills; 2 bench (WIIT.MI/ABS.WA); 7 leads/conditional (ALL.WA/ENTER.AT/GLINT.LS ⚑non-EN C≤2; TXT.MI DEFENSE_UNCERTAIN; XPR.MI SERVICES_UNCERTAIN; NSP.EGM PROFITABILITY_UNVERIFIED; GRW.EGM POST-DIVESTITURE_UNVERIFIED); 2 QUEUED §4 (TXT.WA/QTX.L); NSE:ACCELYA QUEUED_CONDITIONAL maintained.**
