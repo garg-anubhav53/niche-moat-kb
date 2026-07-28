@@ -95,20 +95,27 @@
 
 ---
 
-## ⚠ Key Risk: Operating Profitability vs. Interest Income
+## Operating Profitability — Corrected Analysis (run #78 OPUS revision)
 
-**The core concern:** Operating income (ex-interest on C$121M cash) appears slim.
+**Corrected framework:** Bank of Canada policy rate 2.25% as of Jul 2026 (not 5.5%). Interest income materially lower than initial estimate.
 
 | | Estimate |
 |--|---------|
-| Interest income on C$121M @ ~5.5% | ~C$6–7M/year (~C$1.5–1.75M/quarter) |
+| Interest income on C$121M @ ~2.25–3% blended | ~C$2.8–3.6M/year (~C$0.8–1.0M/quarter) ~ |
 | Q1 2026 pre-tax income | C$3,602,054 |
-| Q1 2026 est. core operating income (ex-interest) | ~C$1.85–2.1M |
+| Q1 2026 est. core EBIT (pre-tax minus interest income) | ~C$2.6–2.8M/quarter (~C$10.4–11.2M annualised) ~ |
+| Q1 2026 GAAP EBITDA | C$6,528,302 |
+| Q1 2026 implied D&A | ~C$3.7–3.9M/quarter ~ |
 | FY2025 Net Income | C$6,110,000 |
-| FY2025 est. interest income | ~C$6M |
-| FY2025 est. core operating income (ex-interest) | ~C$0–1M |
+| FY2025 est. interest income | ~C$3.0–4.0M ~ (NOT C$6M — BoC rate correction) |
+| FY2025 est. core operating income (ex-interest) | ~C$2.1–3.1M ~ |
 
-**Implication:** At current scale, the business generates minimal GAAP operating income without interest income from its cash pile. As acquisition pace continues and cash depletes, this dependency resolves — but it's a transitional risk. Adj. EBITDA (~C$27–29M TTM) is a better proxy for cash generation quality, as it adds back: D&A (~C$12M), stock comp (~C$7M), and acquisition transaction costs.
+**Revised finding:** The business IS operationally self-sustaining (~8% GAAP operating margin). Interest income represents ~25% of pre-tax income — not the 80-100% initially suggested. The more concerning metric is FCF conversion: Q1'26 cash rose only ~C$2.1M vs C$7.99M adj. EBITDA = ~26% conversion. EV/Adj.EBITDA ~10.5x becomes ~34x EV/GAAP-EBIT.
+
+**Adj. EBITDA addbacks (OPUS-corrected):**
+- D&A (acquired intangibles amortisation): ~C$11–12M/year; rising to ~C$15–16M post-Novari/Induction/Buddy ~
+- Stock-based compensation: ~C$2M/year (~C$500k/quarter) ~ — NOT C$7M as initially estimated
+- Recurring "one-time" restructuring/integration/FX: ~C$1M/quarter ~
 
 ---
 

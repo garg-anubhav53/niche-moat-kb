@@ -1470,24 +1470,86 @@ Memo: memos/M7U.DE-2026-07-27.md
 
 ## Sector 7 (Specialty food & ag ingredients) — Pass 3 Coverage Notes (run #78, 2026-07-28)
 
-**ASX/NZ specialty food ingredients geo lens:** Web searches for ASX-listed and NZX-listed specialty food ingredient micro-caps returned industry analysis reports, large agricultural conglomerates, and already-captured names — no listable micro-cap names with the required niche GM + moat characteristics were surfaced.
+**ASX/NZ/LATAM geo lens:** 6 non-immediate-kill names surfaced from ASX and BVB (Romania); 1 new QUEUED (BUB.AX); 2 new leads (CLV.AX GM below floor; WINE.RO non-English filer). Sector 7 remains ACTIVE — counter RESET (prior 2nd-pass streak broken by BUB.AX advancing to QUEUED).
 
-**Why ASX/NZ specialty food ingredients is structurally thin:**
-- **Private/cooperative structure:** Most qualifying names are private (Murray Goulburn cooperative successor Saputo, Fonterra NZ cooperative, Synlait private), part of large listed agricultural conglomerates (GrainCorp, Elders, Ridley Corp — already captured or SIZE_KILL), or too small to be listed (start-up/private food tech)
-- **Quality names already captured:** Prior passes (run #26 LWAY, run #57 European pass) captured the addressable universe; remaining names are commodity processors (GM <30%) or development-stage
-- **NZ:** Primary producers dominate (A2 Milk Company — already reviewed; SIZE_KILL prior pass); specialty ingredients niche very thin at NZX level
-- **ASX food ingredients at $20-300M cap:** Web searches returned Bubs Australia (infant formula — not specialty ingredient), Wattle Health (similar), Freedom Foods (not listed), a2 (SIZE_KILL); no novel specialty ingredient names with ≥45% GM
+**Immediate kills (10):**
 
-**Net result:** 0 new QUEUED names. **2nd consecutive 0-new pass** (1st: run #57, European/UK AIM+US OTC geo lens; 2nd: run #78, ASX/NZ geo lens) → **Sector 7 = EXHAUSTED.**
+| Ticker/Name | Kill Reason |
+|-------------|-------------|
+| CVT.NZ (Comvita) | UNPROFITABLE_KILL — mānuka honey consumer health; structural oversupply drove losses; NZD 85M cap |
+| CBO.AX (Cobram Estate Olives) | SIZE_KILL — A$1.14-1.61B cap (3-5× ceiling); premium EVOO; GM 56% but far above size gate |
+| SHV.AX (Select Harvests) | SIZE_KILL + COMMODITY_KILL — A$550M cap (~$346M USD, above ceiling); commodity almond grower; no GM data; no specialty-ingredient moat |
+| BFC.AX | ADMIN_KILL — in administration |
+| RIC.AX | LOW_GM_KILL — GM ~8%; animal feed commodity |
+| SEK.NZ (Seeka) | LOW_GM_KILL — GM ~28%; post-harvest logistics, not specialty ingredient |
+| Synteza STZ.RO | SHELL_KILL — revenue ~$75K; shell company |
+| Lallemand / Lesaffre | NOT_PUBLIC_KILL — private companies |
+| Roquette / Cosucra | NOT_PUBLIC_KILL — private companies |
+| Duas Rodas (Brazil) | NOT_PUBLIC_KILL + JURISDICTION consideration (Brazilian private company) |
 
-**Sector 7 status: EXHAUSTED** (2 consecutive 0-new passes). Revive only with LATAM ag biologicals geo lens or Japan specialty functional food ingredient geo lens (EDINET when proxy access restored).
+**Non-kill survivors (4 total — triaged below):**
+
+| Ticker | Company | Exch | GM | Cap | Triage outcome |
+|--------|---------|------|----|-----|----------------|
+| BUB.AX | Bubs Australia | ASX | 48% | A$121M (~$76M USD) | **QUEUED** — passes initial triage |
+| CLV.AX | Clover Corporation | ASX | ~33-36% ~ | A$161M (~$100M USD) | **SEEN** — GM below 40% floor; router |
+| WINE.RO | Purcari Wineries | BVB Romania | ~49% | ~$165M USD | **LEAD** — non-English filer; grade C max; hold pending Romanian filing review |
+| WBA.AX (Webster) | Webster Ltd | ASX | unknown | unknown | **SEEN/STALE** — stale data; complex agricultural conglomerate; not specialty ingredients |
+
+**BUB.AX (Bubs Australia Limited) — QUEUED:**
+- Sector 7 specialty food: goat-milk infant formula; 52% share of Australian goat infant formula market
+- GM 48% — passes 40% floor ✓; ASX-listed English filer ✓; clean jurisdiction (Australia) ✓
+- Revenue A$103M FY2025 (+29% YoY); cap A$121M; 3 analysts, all Strong Buy
+- Moat hypothesis: niche brand + certified organic goat dairy supply chain; USDA organic certification for US exports; formula brand loyalty high (formula parents very brand-sticky); supply chain barriers to goat milk infant formula (specialised goat dairy processing requirements)
+- Risk: consumer brand in infant formula is contested (Nestlé, Danone, a2 Milk have capital to enter goat milk); not a regulatory monopoly; but 52% domestic market share + niche supply chain create meaningful switching cost for retailers and brand recognition for consumers
+- **§4 Promise Score assessment pending.** Key questions: (1) What is the churn/retention rate among retailers? (2) Is the goat supply chain truly differentiated from larger dairy processors? (3) US expansion traction (USDA organic certification obtained — revenue contribution?). QUEUED pending full §4 baseline.
+
+**CLV.AX (Clover Corporation) — SEEN:**
+- Proprietary Nu-Mega Driphorm encapsulation technology for omega-3/DHA powders in infant formula
+- GM ~33-36% — below 40% floor; router on GM alone
+- Revenue A$86M FY2025 (+38% YoY); cap A$161M
+- Note: ingredient supplier moat (encapsulation IP) is potentially interesting; re-evaluate if ASX filing confirms GM ≥40%
+
+**WINE.RO (Purcari Wineries) — LEAD:**
+- BVB (Bucharest Stock Exchange) listed; Romanian company with vineyards in Moldova, Romania, Bulgaria
+- GM ~49% Q3 2025; EBITDA margin 26%; revenue RON 437M (+14% YoY); cap ~$165M USD; 2 analysts
+- NON-ENGLISH FILER: annual reports in Romanian (BVB); cap grade C max per non-English filer rule; HOLD as LEAD — do not qualify as CANDIDATE until primary Romanian filings read and confirmed
+- Geographic/appellation moat hypothesis: Purcari wine from the Purcari region of Moldova = distinctive EU wine appellation with premium positioning; ~2,000 ha vineyards; first Eastern European winery to IPO
+
+**Sector 7 status: ACTIVE** (3rd pass returned 1 new QUEUED — BUB.AX; prior consecutive-0-new streak was broken; 2nd consecutive 0-new status RESET. Note: 1st pass run #26 found LWAY; 2nd pass run #57 found 0 new QUEUED; 3rd pass run #78 found 1 new QUEUED = NOT exhausted. Next pass: 4th pass Japan specialty functional food ingredient geo lens (EDINET when proxy access restored) or LATAM ag biologicals).
+
+---
+
+## Sector 10 (Value-added/sole-line distribution) — Pass 5 Coverage Notes (run #78, 2026-07-28)
+
+**East-European/Balkans geo lens (WSE Warsaw, BVB Bucharest, PSE Prague):** ~9 names processed; 0 new QUEUED; 2 new SEEN/LEAD (APT.WA, WINE.RO already counted in Sector 7); 7 immediate kills. **2nd consecutive 0-new QUEUED pass** (1st: run #54 Canada/DACH lens) → **Sector 10 = EXHAUSTED.**
+
+**Names processed:**
+
+| Ticker | Company | Kill/Outcome Reason |
+|--------|---------|---------------------|
+| SNT.WA | Synektik (WSE Poland) | SIZE_KILL + LOW_GM_KILL — PLN 2.1-2.6B cap (~$520-650M USD = 2× ceiling); GM 18.7% (distributor typical; well below 40% floor); dual kill |
+| APT.WA | Apator S.A. (WSE Poland) | **SEEN** — utility meter manufacturer; PLN 806M cap (~$202M USD, within range); GM ~25% (below floor); non-English filer (Polish); smart meter EU mandate tailwind is interesting but GM fails gate |
+| GRN.WA | Grodno S.A. (WSE Poland) | UNPROFITABLE_KILL — electrical/lighting distributor; operating loss –PLN 20M TTM; margin compression from distributor economics |
+| RMAH.RO | Farmaceutica Remedia (BVB Romania) | LOW_GM_KILL — pharma distributor; GM 5.6% (1/7th of our floor); commodity pharma distribution |
+| COTE.RO | Conpet S.A. (BVB Romania) | SECTOR_KILL — crude oil pipeline company; energy infrastructure ≠ specialty distribution |
+| DIGI.RO | Digi Communications (BVB Romania) | SIZE_KILL — ~$3.8B cap telecom; 10× ceiling |
+| ARS.RO | Aerostar S.A. (BVB Romania) | SECTOR_ADJACENT_KILL — MRO + defense components; defense primary customer |
+| STZ.RO | Sinteza S.A. (BVB Romania) | SHELL_KILL — revenue ~$75K; near-dormant shell company |
+| ASBISc | ASBIS Enterprises (CY + WSE) | SIZE_KILL — IT distributor PLN 2.5B revenue; well above ceiling; commodity IT distribution |
+
+**Structural finding (Sector 10 5th pass):** East-European/Balkan listed distribution at $20-300M USD cap with ≥40% GM is structurally near-empty. BVB Romania surface area (energy + pharma + telecom + defense) produces only commodity-margin or SECTOR_KILL names. WSE Warsaw has APT.WA (meter manufacturing, interesting EU mandate tailwind but GM 25% fails floor) and SNT.WA (surgical robots + radiopharmaceuticals, dual kill on size + GM). No specialty sole-line distributor with genuine moat found in this geo lens.
+
+**Sector 10 status: EXHAUSTED** (2 consecutive 0-new QUEUED passes: run #54 Canada/DACH lens + run #78 East-European/Balkans lens). Revive only with Japan domestic OTC sole-distributor geo lens (non-EN; EDINET when proxy access restored) or Korean domestic specialty distributor lens.
+
+---
 
 ### Coverage Statistics Update (run #78)
 
-- Universe: 302 (unchanged this run — Sector 7 pass returned 0 new names; Sector 10 5th pass pending agent completion)
-- Sector 7: 3rd pass, **EXHAUSTED** (2nd consecutive 0-new pass — MARKED EXHAUSTED)
-- Sector 10: 5th pass ASX/East-European distribution — agent running; 0 new names expected (pending confirmation)
-- VHI.TO §5: IN PROGRESS run #78 — financials/VHI.TO.md complete; OPUS adversarial pass running; Grade B
+- Universe: **308** (+6 new entries: BUB.AX QUEUED + CLV.AX SEEN + WINE.RO LEAD + APT.WA SEEN + SHV.AX SIZE_KILL + CVT.NZ UNPROFITABLE_KILL; immediate kills added to KILL-LIST.md only)
+- Sector 7: 3rd pass, **ACTIVE** — 1 new QUEUED (BUB.AX); 2 new leads (CLV.AX, WINE.RO); consecutive-0-new streak RESET
+- Sector 10: 5th pass, **EXHAUSTED** (2nd consecutive 0-new QUEUED pass)
+- VHI.TO §5: **COMPLETE** — Grade C; Asymmetry Gate FAIL at C$6.95; buy-zone ≤C$5.50; SHREWD moat genuine; see memos/VHI.TO-2026-07-28.md
 - OMDA.OL bench: back at ≤NOK 38-40 buy-zone boundary (CANNOT promote — GM unconfirmed; filing required)
 - PHO.OL bench: Jul 23 touched NOK 55.80 (T-0.80 from ≤55 trigger); Q2 earnings Jul 29
 - Quality Bench (WATCHLIST.md): 34 entries (unchanged this run)

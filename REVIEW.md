@@ -939,11 +939,11 @@ OMDA.OL blocked from QUEUED_HOT (unconfirmed GM). Moat thesis (ProSang 100% bloo
 
 ## 4. Universe Exploration Audit (run #78)
 
-**Sector 7 3rd pass — ASX/NZ specialty food ingredients: 0 new names → EXHAUSTED**
+**Sector 7 3rd pass — ASX/NZ/LATAM specialty food ingredients: 1 new QUEUED (BUB.AX) → ACTIVE**
 
-Web searches for ASX/NZ specialty food ingredient micro-caps returned industry reports and large agricultural conglomerates — no listable micro-cap names with niche GM + moat characteristics. This is the **2nd consecutive 0-new pass** (1st was run #57). → **Sector 7 = EXHAUSTED.** Structural reason: most qualifying names are private, part of large cooperatives (Fonterra), or already captured in prior sweeps.
+Agent a513ac9410d23b112 completed. Results: BUB.AX (Bubs Australia, ASX) QUEUED — goat milk infant formula, GM 48%, A$121M cap, 52% Australian goat milk market share, certified organic supply chain moat, 3 analysts (≤4 ceiling), ASX English filer ✓. CLV.AX (Clover Corporation) SEEN — Nu-Mega Driphorm omega-3 encapsulation tech, GM ~33-36% (below 40% floor). WINE.RO (Purcari Wineries, BVB Romania) LEAD — GM ~49% passes floor but BVB/Romanian filings non-English; grade cap C max; hold until primary filing reviewed. 10 immediate kills (CVT.NZ unprofitable, BFC.AX in-administration, CBO.AX/SHV.AX size, RIC.AX/SEK.NZ low-GM, shell/private names). **Sector 7 = ACTIVE** (3rd pass; BUB.AX breaks consecutive-0 streak; structural thin confirmed but not exhausted).
 
-**Sector 10 5th pass (East-European distribution):** Pending agent a513ac9410d23b112 completion. Preliminary results: 0 new names. Will update COVERAGE.md and KILL-LIST.md on completion.
+**Sector 10 5th pass (East-European/Balkans):** COMPLETE. 8 kills (SNT.WA/DIGI.RO/ASBISc size; GRN.WA unprofitable; RMAH.RO low-GM; COTE.RO/ARS.RO sector-kill; STZ.RO shell). APT.WA (Apator, WSE Poland, utility meters) SEEN — GM ~25% fails 40% floor. 0 new QUEUED — 2nd consecutive 0-new pass (prior: run #54). → **Sector 10 = EXHAUSTED.**
 
 ---
 
@@ -951,10 +951,11 @@ Web searches for ASX/NZ specialty food ingredient micro-caps returned industry r
 
 - **WATCHLIST.md**: 5 updates — OMDA.OL CRITICAL (NOK 47→38-40; OUT→⚠AT BUY-ZONE BOUNDARY); PHO.OL (Jul 23 55.80 boundary touch + Q2 Jul 29 catalyst note); XRF.AX (A$2.12 price conflict noted; APPROACHING maintained); JOUT (stale Jul 15 → Jul 28 $44-46); CODA ($11.78→$11.99)
 - **financials/VHI.TO.md**: NEW — Q1 FY2026, FY2025, FY2024 baselines; EV decomposition; Buddy Healthcare captured; interest income dependency analysis; all ~-trust
-- **memos/VHI.TO-2026-07-28.md**: PENDING (OPUS adversarial agent a0071f229d2af3116 running)
-- **STATE.md**: PENDING update (runs 77→78; Sector 7 EXHAUSTED; QUEUED_HOT resolved; sector rotation line)
-- **UNIVERSE.md**: PENDING update (VHI.TO §5 COMPLETE; Buddy Healthcare acquisition; sector sweep kills)
-- **COVERAGE.md**: PENDING (Sector 7 EXHAUSTED note)
-- **KILL-LIST.md**: PENDING (sector sweep kills)
-- **Key findings for human review**: (1) OMDA.OL back at ≤NOK 38-40 — CANNOT auto-promote (GM unconfirmed); Oslo filing access → QUEUED_HOT immediately. (2) PHO.OL Q2 earnings Jul 29 — monitor for ≤NOK 55 close. (3) VHI.TO §5 Grade B — memos/VHI.TO-2026-07-28.md pending OPUS pass.
+- **memos/VHI.TO-2026-07-28.md**: COMPLETE — **Grade C** (OPUS downgraded from B; Asymmetry Gate FAIL at C$6.95; buy-zone ≤C$5.50; SHREWD moat genuine; Zesty/Buddy/Attend Anywhere exposed to NHS App disintermediation; FCF conversion ~26%; acquisitions at/above own multiple)
+- **STATE.md**: COMPLETE — runs 77→78; Sector 7 ACTIVE (BUB.AX QUEUED); Sector 10 EXHAUSTED; QUEUED_HOT 0 (VHI.TO RESOLVED → CANDIDATE Grade C); Universe 302→320; sector rotation updated
+- **UNIVERSE.md**: COMPLETE — VHI.TO §5 COMPLETE / CANDIDATE Grade C; Buddy Healthcare; BUB.AX QUEUED; CLV.AX SEEN; WINE.RO LEAD; APT.WA SEEN; all 4 new entries added
+- **COVERAGE.md**: COMPLETE — Sector 7 3rd pass ACTIVE (1 QUEUED BUB.AX); Sector 10 5th pass EXHAUSTED; kill tables documented
+- **KILL-LIST.md**: COMPLETE — Sector 7 3rd pass kills appended (CVT.NZ unprofitable, BFC.AX admin, CBO.AX/SHV.AX size, RIC.AX/SEK.NZ low-GM, shell/private kills); Sector 10 5th pass kills appended (SNT.WA/DIGI.RO/ASBISc size, GRN.WA unprofitable, RMAH.RO low-GM, COTE.RO/ARS.RO sector, STZ.RO shell; Sector 10 EXHAUSTED declared)
+- **financials/VHI.TO.md**: CORRECTION applied — interest income was wrongly estimated at BoC 5.5%; corrected to 2.25%; core EBIT ~C$2.7M/quarter (business IS operationally self-sustaining); SBC ~C$2M/yr not C$7M
+- **Key findings for human review**: (1) OMDA.OL back at ≤NOK 38-40 — CANNOT auto-promote (GM unconfirmed); Oslo filing access → QUEUED_HOT immediately. (2) PHO.OL Q2 earnings Jul 29 — monitor for ≤NOK 55 close. (3) VHI.TO CANDIDATE Grade C (≤C$5.50 buy-zone; do not initiate at C$6.95 — symmetric risk/reward; takeout optionality is primary 2x driver).
 - **REVIEW.md**: This §7 REFLECT audit entry

@@ -3319,3 +3319,84 @@ The following names were killed during enumeration before detailed triage (cover
 
 **Run #75 Sector 3 5th pass kill tally:** 3 LOW_GM_KILLs + 1 SECTOR_KILL = 4 new kills; 3 already-seen; 0 new QUEUED; 1st consecutive 0-new pass → Sector 3 remains THIN (need 2nd consecutive 0-new pass for EXHAUSTED)
 
+---
+
+## Sector 7 (Specialty food & ag ingredients) — 3rd pass ASX/NZ/LATAM geo lens (run #78, 2026-07-28)
+
+**Screen:** §2B web-search. Geo lens: ASX + NZX + LATAM. Survivors: BUB.AX → QUEUED; CLV.AX → SEEN (GM below floor); WINE.RO → LEAD (non-English filer). Kills below.
+
+### UNPROFITABLE / ADMIN KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| CVT.NZ | Comvita Limited (NZX) | NZD 85M (~$50M USD) | 2026-07-28 | UNPROFITABLE_KILL — mānuka honey consumer health products; FY2025 revenue NZD 211M but structural oversupply in mānuka honey sector drove operating losses; GM ~42% adequate but profitability not sustained; brand moat real (UMF-certified mānuka; NZ geographic scarcity) but financial floor absent at current price |
+| BFC.AX | Beston Global Food Company (ASX) | n/k (micro) | 2026-07-28 | ADMIN_KILL — in administration; delisted or near-delisted; no investable equity |
+
+### SIZE_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| CBO.AX | Cobram Estate Olives Limited (ASX) | A$1.14–1.61B (~$720M–$1.0B USD) | 2026-07-28 | SIZE_KILL — market cap 2.5–3.5× ceiling (>A$500M); Australia's largest olive grower and premium EVOO producer; GM 56% and vertical integration genuine quality but far outside our size mandate |
+| SHV.AX | Select Harvests Limited (ASX) | A$550M (~$346M USD) | 2026-07-28 | SIZE_KILL + COMMODITY_KILL — A$550M cap exceeds $300M USD ceiling; world's 3rd-largest almond grower (commodity agricultural product); no specialty-ingredient moat; EBITDA margin ~20.7% but almond prices are commodity-driven |
+
+### LOW_GM KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| RIC.AX | Ridley Corporation Limited (ASX) | n/k | 2026-07-28 | LOW_GM_KILL — GM ~8%; animal feed and livestock nutrition; commodity agri-processing, not specialty ingredient |
+| SEK.NZ | Seeka Limited (NZX) | NZD n/k | 2026-07-28 | LOW_GM_KILL — GM ~28%; post-harvest logistics and cool storage for kiwifruit; not specialty food ingredient; distribution economics not ingredient moat |
+
+### SHELL / NOT_PUBLIC KILLs
+
+| Ticker/Name | Exchange | Kill Date | Kill Reason |
+|-------------|----------|-----------|-------------|
+| Synteza STZ.RO | BVB Romania | 2026-07-28 | SHELL_KILL — revenue ~$75K; near-dormant shell company; not investable |
+| Lallemand Inc. | Private (Canada) | 2026-07-28 | NOT_PUBLIC_KILL — private specialty fermentation ingredients company; no listed equity |
+| Lesaffre | Private (France) | 2026-07-28 | NOT_PUBLIC_KILL — private specialty yeast/fermentation ingredients; no listed equity |
+| Roquette Frères | Private (France) | 2026-07-28 | NOT_PUBLIC_KILL — private specialty plant-based ingredient producer; no listed equity |
+| Cosucra | Private (Belgium) | 2026-07-28 | NOT_PUBLIC_KILL — private specialty pea protein / chicory inulin producer; no listed equity |
+| Duas Rodas | Private (Brazil) | 2026-07-28 | NOT_PUBLIC_KILL — private Brazilian specialty food ingredient company |
+
+**Run #78 Sector 7 3rd pass kill tally:** 2 UNPROFITABLE/ADMIN_KILLs + 2 SIZE_KILLs + 2 LOW_GM_KILLs + 6 NOT_PUBLIC/SHELL_KILLs = 12 kills; 1 new QUEUED (BUB.AX); 2 new leads (CLV.AX SEEN, WINE.RO LEAD non-English filer). Sector 7 ACTIVE (consecutive-0-new streak reset).
+
+---
+
+## Sector 10 (Value-added/sole-line distribution) — 5th pass East-European/Balkans geo lens (run #78, 2026-07-28)
+
+**Screen:** §2B web-search. Geo lens: WSE Warsaw + BVB Bucharest + PSE Prague + Balkan markets. Survivors: APT.WA → SEEN (GM 25% below floor); WINE.RO → LEAD (counted in Sector 7). All others: immediate kills below.
+
+### SIZE_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| SNT.WA | Synektik S.A. (WSE Poland) | PLN 2.1–2.6B (~$520–650M USD) | 2026-07-28 | SIZE_KILL + LOW_GM_KILL — cap ~$520-650M USD = 2× ceiling; GM 18.7% (distributor-typical; well below 40% floor); dual kill. Note: moat hypothesis was interesting (sole radiopharmaceutical manufacturer in Poland + Siemens preferred partner for surgical robots) but size and GM make it uninvestable |
+| DIGI.RO | Digi Communications N.V. (BVB Romania) | ~$3.8B cap | 2026-07-28 | SIZE_KILL — pan-European cable/telecoms operator; 10× ceiling; not distribution |
+| ASBISc | ASBIS Enterprises Plc (CY + WSE listed) | Revenue PLN 2.5B+ | 2026-07-28 | SIZE_KILL — IT distribution at $4B+ revenue scale; commodity IT distributor; 10-20× revenue ceiling; not specialty sole-line distribution |
+
+### UNPROFITABLE KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| GRN.WA | Grodno S.A. (WSE Poland) | PLN 162M (~$40M USD) | 2026-07-28 | UNPROFITABLE_KILL — electrical and lighting fixture distributor; PLN 1.17B TTM revenue but operating loss –PLN 20M TTM; distributor margin compression from competition; no moat evidence |
+
+### LOW_GM KILLs
+
+| Ticker | Company | GM | Kill Date | Kill Reason |
+|--------|---------|----|-----------|-|
+| RMAH.RO | Farmaceutica Remedia S.A. (BVB Romania) | 5.6% | 2026-07-28 | LOW_GM_KILL — Romanian pharma distributor and retail pharmacy chain; GM 5.6% = 1/7th of our 40% floor; commodity pharma distribution economics; RON 75M cap (~$16M USD) |
+
+### SECTOR_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| COTE.RO | Conpet S.A. (BVB Romania) | n/k | 2026-07-28 | SECTOR_KILL — crude oil pipeline company; energy infrastructure (pipeline tolls) ≠ specialty distribution; sector excluded |
+| ARS.RO | Aerostar S.A. (BVB Romania) | n/k | 2026-07-28 | SECTOR_ADJACENT_KILL — aerospace MRO + defense components; defense primary customer; SECTOR_KILL applies |
+
+### SHELL KILLs
+
+| Ticker | Company | Kill Date | Kill Reason |
+|--------|---------|-----------|-------------|
+| STZ.RO | Sinteza S.A. (BVB Romania) | 2026-07-28 | SHELL_KILL — revenue ~$75K; near-dormant shell company; no investable business |
+
+**Run #78 Sector 10 5th pass kill tally:** 3 SIZE_KILLs + 1 UNPROFITABLE_KILL + 1 LOW_GM_KILL + 2 SECTOR_KILLs + 1 SHELL_KILL = 8 kills; 1 SEEN (APT.WA GM below floor); 0 new QUEUED → **2nd consecutive 0-new QUEUED pass → Sector 10 EXHAUSTED.** (1st consecutive: run #54 Canada/DACH lens; 2nd consecutive: run #78 East-European/Balkans lens).
+
