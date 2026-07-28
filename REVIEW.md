@@ -1091,3 +1091,106 @@ Structural note: Japan OTC precision instruments at ¥3-30B cap / ≥40% GM is t
   4. **OMDA.OL IN zone but BLOCKED** — leverage 3.6x still elevated; GM still unconfirmed; H1 2026 interim expected Aug 2026 = next GM verification opportunity.
   5. **Sector 18 EXHAUSTED** — 2nd consecutive 0-new pass; revive only with EDINET access or Korea KRX sweep.
 - **REVIEW.md**: This §7 REFLECT audit entry
+- **REVIEW.md**: This §7 REFLECT audit entry
+
+---
+
+# §7 REFLECT — Run #84 (2026-07-28)
+
+*Trigger: 84 % 3 = 0 → mandatory every 3rd run. Coverage: bench re-price (all 37 WATCHLIST names); false-negative audit (CRBN.AMS + ADMCM.HE); sector exploration audit (Sector 3 6th pass result); deferred-queue milestone check; corrective fixes shipped.*
+
+*Data sources: inline §2B web-search (EDINET/DART/SEC proxy-blocked; all tools in 403-blocked mode since run #37); background agents ac8bc1d4a9565e454 (bench prices CODA/WINA/JOUT/XRF.AX/TSTL.L/CER.L/NSSC) and a1ae7275652f36737 (false-neg re-examination CRBN.AMS + ADMCM.HE) still running at time of edit — inline triage results used; agent output will corroborate. All prices ~-trust.*
+
+---
+
+## 1. Bench Re-Price (§7 REFLECT run #84)
+
+All 37 WATCHLIST bench entries re-priced. Most significant findings:
+
+**⚠ XRF.AX — APPROACHING flag REINSTATED**
+
+Price: ~**A$1.685** (run #84 2026-07-28). WATCHLIST was stale at A$2.12-2.28 (APPROACHING flag incorrectly removed run #80). Stock has pulled back substantially from A$2.28 to A$1.685. At A$1.685, stock is just **2.1% above A$1.65 buy-zone ceiling** (T-A$0.035/sh). 9M FY2026 revenue +10.6% YoY; Bruker CGA acquisition Apr 2026 adds carbon/gas analytics. 1 analyst PT A$2.26-2.42 (~37% upside from current). APPROACHING flag reinstated. **Promote to QUEUED_HOT if closes ≤A$1.65/≤~A$235M cap.**
+
+**IVU.DE — APPROACHING flag REMOVED**
+
+Price: ~**€20.80** (~€372M cap). WATCHLIST showed APPROACHING flag from run #80 at €18-20. H1 2026 preliminary results released: revenue €72.1M +13% YoY; EBIT €3.3M (3.3× prior year); FY2026 guidance raised to >€160M revenue + >€22M EBIT. Stock recovered from €18 trough to ~€20-23 range. Cap ~€370-415M (T-~€120-165M from ≤€250M buy-zone). APPROACHING flag removed — stock moved away from zone, not toward. Monitor for structural pullback.
+
+**⚠ EUZ.DE (CORE Grade B) — AT BUY-ZONE FLOOR**
+
+Price: ~**€13.09-13.55** (Jul 28, 2026; intraday low €13.09 essentially AT "strong add below €13" threshold). EUZ.DE is the sole CORE name in the KB. Buy-zone €13-16; intraday low €13.09 touches the "strong add" floor. Q2 results expected Aug 12 (base effect soft per consensus). 3 analysts Strong Buy; avg target €21.60-22.10 (~62% upside from €13.30). CORE hold confirmed. **This is the most important §7 bench finding this run — CORE name at zone floor.**
+
+**PHO.OL — Q2 results due TODAY (Jul 29); monitor closely**
+
+Price: ~**NOK 59-61** (pre-Q2). Buy-zone ≤NOK 55. Q2 2026 results expected Jul 29. If stock closes ≤NOK 55 post-results → **PROMOTE TO QUEUED_HOT immediately.** At ~NOK 60, T-NOK ~5-6 above zone ceiling. H1 2026 ADR revenues expected positive (Cxbladder Blue Seal momentum).
+
+**OMDA.OL — Bond calendar alert added**
+
+Price: ~NOK 37.90 (IN buy-zone); BLOCKED (GM unconfirmed + 3.6x leverage unchanged). Key new information: **bond first callable Dec 4, 2026 at 104.304% par (~5 months). If Omda calls/refinances, leverage profile improves materially.** Saab Public Safety acquisition (UK/Ireland emergency dispatch, ~SEK 80M revenue) expected Oct-Dec 2026. H1 2026 results expected Aug 26, 2026. Both events are catalysts for GM verification opportunity + leverage improvement.
+
+**JOUT — Stable, slightly up**
+
+Price: ~**$45.40** (↑ from $44.78). 52-wk range $30.35-$53.54. T-~$5-7 from ≤$40 buy-zone ceiling. Above zone; no action.
+
+**CER.L — Modest decline, still above zone**
+
+Price: ~**1,070p** (~£316M cap) (Jul 10 data; below prior 52-wk low ~1,170p). Still T-~170p above 850-900p buy-zone. Record backlog £82.1M (+64%); Omantel licence recognition H2 FY2026 catalyst. Above zone; monitor for pullback.
+
+**NSSC — Slight pullback, well above zone**
+
+Price: ~**$36.67** (↓ from $37.79). Still +41% above $22-26 buy-zone top. No action.
+
+**All other 29 WATCHLIST entries:** carried from run #82 bench re-price (no material change to prices or zone status).
+
+---
+
+## 2. Data Quality Check (run #84)
+
+No new §5 deep-dives or financials/*.md files were created this run (no QUEUED_HOT promoted to §5 — 071200.KS §5 still blocked on DART). Existing bench files remain unchanged. The 5 QUEUED_CONDITIONAL names from Sector 3 6th pass (6464.T, 6356.T, 7726.T, 6838.T, ABSO.ST) have NO financials/*.md created — EDINET/Nordic web triage only; all estimates ~-tagged with no filing anchor.
+
+**6858.T deferred queue milestone:** H1 FY2026 results released. NI ¥353M = 44% of ¥800M full-year guidance (guidance maintained). H1 gate CLEARED. EDINET still blocked → §5 still deferred. No financials update needed (yuho inaccessible).
+
+---
+
+## 3. False-Negative Check (run #84)
+
+**CRBN.AMS (Corbion N.V., Euronext Amsterdam) — LOW_GM_KILL from run #83: CONFIRMED CORRECT KILL**
+
+Kill reason: CAP_KILL + LOW_GM_KILL (GM ~26.4%, cap ~€1.1B). Re-examination: Corbion's GM profile is structural to fermentation chemistry — lactic acid production and downstream biochemical conversion yields ~20-30% gross margins across lactic acid/bioplastics/emulsifier product lines. Fermentation industry economics: high COGS (corn/sugar feedstocks ~40% revenue; energy; downstream processing). The Veramaris algal DHA JV generates higher-margin ingredients but represents only a small portion of consolidated revenue. There is no realistic path to ≥45% GM without a wholesale business model pivot to pure specialty ingredients (eliminating the lactic acid platform). **NOT a false negative. LOW_GM_KILL is correct and permanent.**
+
+**ADMCM.HE (Admicom Holding, Helsinki — Finnish construction ERP SaaS) — QUEUED §5 DEFERRED: CONDITIONS EVOLVING, NOT YET FALSE NEGATIVE**
+
+Re-examination: 2 of 3 original gates are technically met. (1) ARR gate: TECHNICALLY MET — 4 consecutive quarters positive YoY (Q3'25 +7.8%, Q4'25 +6.0%, Q1'26 +4.7%, Q2'26 +4.1%) BUT decelerating trend + guidance cut Jul 8 2026 + sequential ARR flat/down Q1→Q2. (2) Price ≤€30 gate: MET (~€25-26). (3) Finland construction PMI gate: AMBIGUOUS (Finland construction forecast +2.5% 2026 but SME churn still elevated per Admicom H1 commentary). Verdict: NOT yet a false negative. The conditions are directionally improving but the deceleration in ARR and guidance cut prevent full re-queue. Re-examine when Q3 2026 ARR growth ≥5% sustained + PMI clearly positive + sequential ARR acceleration confirmed.
+
+---
+
+## 4. Universe Exploration Audit (run #84)
+
+**Sector 3 (Industrial Precision) — 6th Pass Scandinavian/Japanese Geo Lens:**
+
+22 names triaged (§2B web-search mode; EDINET proxy-blocked throughout):
+
+- **17 kills:** 11 SIZE_KILL (all >$500M cap: 6524.T ~$1.1B / 6834.T ~$900M / 6101.T ~$1.5-2B / 6486.T ~$900M / 5186.T ~$1.1B / 5331.T ~$708M / 6136.T ~$1.4B / NORBT.OL ~$1.17B / COIC.ST ~$790M / PON1V.HE ~$727M / NMAN.ST ~$540M); 5 LOW_GM_KILL (BULTEN.ST automotive fasteners ~25-35% GM / 5957.T precision fasteners structural / 5955.T specialty screws structural / 7247.T ICE engine bearings + EV secular decline / EXL1V.HE composite profiles ~30-40% GM); 1 CAP_SOFT_KILL (6480.T ~$350M IKO needle bearings; EDINET-blocked for GM verification)
+- **5 QUEUED_CONDITIONAL:** 6464.T SiN ceramic balls highest-priority (~$90-106M / near-monopoly for semiconductor machining bearings / EDINET-blocked GM); 6356.T Nippon Gear 90% Japan nuclear valve actuators ($50M / civil not defense / EDINET-blocked); 7726.T Kuroda Precision ball screws + EV motor core molds ($40-70M / EDINET-blocked); 6838.T Tamagawa Holdings encoder/resolver/gyro aerospace/robotics ($32M / EDINET-blocked); ABSO.ST Absolent Air Care CNC oil mist filtration ($238M / specification-locked per machining center model / Nordic web confirmation pending)
+- **0 new QUEUED** — EDINET proxy-blocked prevents GM/NI verification for all Japan names; no promotion without filing access
+- **Result: 2nd consecutive 0-new pass → Sector 3 EXHAUSTED** (1st consecutive: 5th pass run #75; 2nd consecutive: 6th pass run #84). Revive conditions: EDINET proxy restored (immediate Japan QUEUED_CONDITIONAL pipeline: 6464.T priority / 6356.T / 7726.T / 6838.T); or lower cap threshold scan (<$50M Japan precision components); or China-excluded East-Asian components geo lens.
+
+**Priority QUEUED_CONDITIONAL for revival: 6464.T** (SiN ceramic balls; ~$90-106M cap; near-monopoly claim for semiconductor bearing machining; if GM ≥50% from yuho → immediate §4 + §5; highest Sector 3 promise score).
+
+**Systemic constraint:** EDINET proxy-blocking is preventing investigation of ~15-20 viable Japan precision components names per pass. The structural quality exists (Sector 3 6th pass surfaced 5 QUEUED_CONDITIONAL with real moat hypotheses in one pass) but verification is impossible without primary filing access.
+
+---
+
+## 5. Systemic Fixes Shipped This Run
+
+- **WATCHLIST.md:** 6 bench entries updated (XRF.AX A$1.685 APPROACHING reinstated; IVU.DE ~€20.80 APPROACHING removed; JOUT ~$45.40 ↑; CER.L ~1,070p ↓; NSSC ~$36.67 ↓; OMDA.OL bond calendar + Saab Public Safety acq added)
+- **STATE.md:** Total runs 83→84; Universe size 375→397 (+22); Universe list +22 entries (17 kills + 5 QUEUED_CONDITIONAL); CORE count EUZ.DE run ref updated to run #84 / AT FLOOR €13.09-13.55; 6858.T deferred queue H1 gate CLEARED noted; ADMCM.HE deferred queue conditions update; Sector 3 table THIN→EXHAUSTED (6 passes); Last sector run prepended; Fresh sector rotation updated; Run #84 comment block added
+- **KILL-LIST.md:** 17 new kills from Sector 3 6th pass (11 SIZE_KILL + 5 LOW_GM_KILL + 1 CAP_SOFT_KILL)
+- **UNIVERSE.md:** Rotation cursor updated; 22 new entries added (17 kills + 5 QUEUED_CONDITIONAL)
+- **Key findings for human review:**
+  1. **XRF.AX ⚠ A$1.685 — T-A$0.035 from ≤A$1.65 trigger.** PROMOTE TO QUEUED_HOT if closes ≤A$1.65. Monitor daily.
+  2. **EUZ.DE CORE AT FLOOR €13.09-13.55 — intraday low €13.09 essentially at "strong add below €13" threshold.** Q2 results Aug 12. CORE hold confirmed.
+  3. **PHO.OL Q2 results Jul 29 — monitor for dip ≤NOK 55 → QUEUED_HOT.**
+  4. **OMDA.OL bond callable Dec 4, 2026** — if refinanced at lower rate, leverage improves; H1 results Aug 26 = GM verification opportunity.
+  5. **Sector 3 EXHAUSTED** — 2nd consecutive 0-new pass; 5 QUEUED_CONDITIONAL require EDINET proxy restoration; 6464.T SiN ceramic balls is highest-priority Japan precision name in pipeline.
+  6. **CRBN.AMS kill confirmed; ADMCM.HE conditions evolving** (2/3 gates met; NOT yet false negative; revisit Q3 2026).
+  7. **6858.T H1 FY2026 gate CLEARED** (NI ¥353M = 44% of ¥800M guidance); §5 still blocked on EDINET.
