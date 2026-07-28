@@ -1554,3 +1554,23 @@ Memo: memos/M7U.DE-2026-07-27.md
 - PHO.OL bench: Jul 23 touched NOK 55.80 (T-0.80 from ≤55 trigger); Q2 earnings Jul 29
 - Quality Bench (WATCHLIST.md): 34 entries (unchanged this run)
 
+
+---
+
+## Sector 12 (Life-science tools & lab consumables) — Pass 4 Coverage Notes (run #79, 2026-07-28)
+
+**US geo lens:** ~17 names processed; 0 new QUEUED. 2nd consecutive 0-new pass → **Sector 12 EXHAUSTED.**
+
+**Screen:** §2B web-search (SEC EDGAR API proxy-blocked; all §2A tools unavailable). Geo lens: US Nasdaq/NYSE, $20-300M cap range, life-science tools / lab consumables / reagents / bioprocess instruments.
+
+**Names triaged (17 new):** BLFS (NOT_YET_PROFITABLE_KILL), QTRX (NOT_YET_PROFITABLE_KILL), TWST (NOT_YET_PROFITABLE_KILL), SEER (DEVELOPMENT_STAGE_KILL), NAUT (DEVELOPMENT_STAGE_KILL), LAB (NOT_YET_PROFITABLE_KILL), ABCL (NOT_YET_PROFITABLE_KILL), ABSI (DEVELOPMENT_STAGE_KILL), CODX (NOT_YET_PROFITABLE_KILL), MRVI (NOT_YET_PROFITABLE_KILL+CAP_KILL), CTKB (CAP_KILL), OSUR (CAP_KILL+COVERAGE_KILL), FLGT (CAP_KILL), PACB (NOT_YET_PROFITABLE_KILL+CAP_KILL), CYRX (LOW_GM_KILL), BASS (LOW_GM_KILL+CAP_TOO_SMALL_KILL), AKYA (M&A_KILL). Already-seen: MLAB (CAP_KILL prior pass), SRDX (CAP_SOFT_KILL prior pass), HBIO (PARK Sector 18 US pass), DNA (CAP_KILL Sector 7 prior pass).
+
+**Why US life-sci tools is structurally exhausted in $20-300M zone:**
+- **Pre-profitable tools bubble:** The 2020-2022 SPAC/biotech-tools IPO wave created a large cohort of now-burning-cash companies (TWST, SEER, NAUT, LAB, QTRX, BLFS, ABCL, ABSI, CODX, MRVI) trading in the $100-600M cap range but running ongoing operating losses. These will not enter the investable universe until profitable.
+- **Profitable names too large:** The genuinely profitable US life-sci tools companies with durable moats are above the $300M cap ceiling: RGEN (Repligen, ~$2B), NEOG (Neogen, ~$2.5B), CTKB (Cytek, ~$400-700M), OSUR (~$400-700M), FLGT (~$500-700M), PACB (~$600-900M).
+- **Service businesses fail GM gate:** Service-oriented companies (CYRX cold chain, BASS CRO) have ~30-35% GM — below the ≥45% floor. No proprietary platform moat.
+- **Prior passes captured remaining quality names:** MLAB (pass 1, CAP_KILL), SRDX (pass 2, CAP_SOFT_KILL), HBIO (pass 3/Sector 18, PARK below investable floor). UK/European pass 1 captured EKF.L and TSTL.L.
+- **M&A consolidation ongoing:** Large tools companies (Danaher, Thermo Fisher, Bio-Techne) systematically acquire profitable $50-300M tools niche companies; AKYA (M&A_KILL) is a current example.
+
+**Sector 12 status: EXHAUSTED** — 2 consecutive 0-new-QUEUED passes (Pass 3: Nordic/Canada/Australia, run #49; Pass 4: US, run #79). Revive Sector 12 only with: (a) Japan secondary OTC life-sci instruments geo lens (EDINET when proxy access restored — Ono Sokki 6858.T already in deferred queue; other Nikkei TSE life-sci tool names); OR (b) a currently-burning-cash US company returns to sustained profitability at ≤$300M cap (e.g. BLFS, CTKB, QTRX). Monitor BLFS quarterly results — biopreservation media moat is the best candidate for eventual re-entry.
+

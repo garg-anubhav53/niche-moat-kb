@@ -3400,3 +3400,65 @@ The following names were killed during enumeration before detailed triage (cover
 
 **Run #78 Sector 10 5th pass kill tally:** 3 SIZE_KILLs + 1 UNPROFITABLE_KILL + 1 LOW_GM_KILL + 2 SECTOR_KILLs + 1 SHELL_KILL = 8 kills; 1 SEEN (APT.WA GM below floor); 0 new QUEUED → **2nd consecutive 0-new QUEUED pass → Sector 10 EXHAUSTED.** (1st consecutive: run #54 Canada/DACH lens; 2nd consecutive: run #78 East-European/Balkans lens).
 
+
+---
+
+## Sector 7 (Specialty Food & Ag Ingredients) — COVERAGE_KILL re-kill (run #79, 2026-07-28)
+
+### COVERAGE_KILL (§3.5 complete)
+
+| Ticker | Company | Analysts | Kill Date | Kill Reason |
+|--------|---------|----------|-----------|-------------|
+| BUB.AX | Bubs Australia Limited (ASX) | 7 analysts | 2026-07-28 | COVERAGE_KILL — §3.5 §3.5 baseline COMPLETE (run #79): Revenue A$102.5M FY25 (+29% on FY24 A$79.7M); GM ~48% (stable FY23-H1FY26); EBITDA +A$4.4M H1 FY26 (turnaround); first statutory profit FY25 A$5.5M; net cash ~A$16-17M; market cap ~A$72M (corrected from stale A$121M; A$0.081/sh × 894M shares). KILL REASON: 7 analysts > 4 threshold; Q<4 (brand/channel moat only — China cross-border ecommerce channel dependency, NOT structural lock-in; significant 16% YoY dilution; guidance cut mid-year; analyst avg PT A$0.19 vs A$0.081 = market already well-covered). Under v5.1, COVERAGE_KILL applies when name is also mediocre (Q<4, no standout structural moat). financials/BUB.AX.md |
+
+**Run #79 BUB.AX re-kill tally:** 1 COVERAGE_KILL. BUB.AX status: QUEUED (run #78) → COVERAGE_KILL (run #79). Sector 7 ACTIVE.
+
+---
+
+## Sector 12 (Life-science tools & lab consumables) — 4th pass US geo lens (run #79, 2026-07-28)
+
+**Screen:** §2B web-search (SEC EDGAR API proxy-blocked; all §2A tools unavailable). Geo lens: US Nasdaq/NYSE life-science tools, lab consumables, reagents, bioprocess instruments ($20-300M cap target). ~17 names triaged. **Result: 0 new QUEUED → 2nd consecutive 0-new pass → Sector 12 EXHAUSTED.**
+
+Structural finding: The US Nasdaq/NYSE life-sci tools universe in $20-300M cap zone is structurally thin for profitable, high-GM, moated businesses. Two dominant patterns: (1) Pre-COVID SPAC/IPO wave created dozens of pre-profitable tools companies (TWST, SEER, NAUT, LAB, QTRX, etc.) now trading $100-600M cap but burning cash heavily; (2) Profitable names in this range (BioLife, Surmodics, Mesa Labs) are either too small, already killed in prior passes, or failing GM gate. Structural result consistent with passes 1-3: prior passes covered UK/European and Nordic/Canada/Australia geo lenses; this US 4th pass confirms structural exhaustion.
+
+### NOT_YET_PROFITABLE_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| BLFS | BioLife Solutions Inc. (Nasdaq) | ~$100-200M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL — biopreservation media/cryoprotectants for cell/gene therapy; post-COVID restructuring (Sexton/Astero acquired divisions sold); revenue declined from $178M (2022 COVID peak) to ~$60-90M range; losses in FY2024-2025 following restructuring; GM ~50% est; genuine niche moat (proprietary formulations, cell therapy CRO customer lock-in) but NOT profitable → fails earnings floor gate |
+| QTRX | Quanterix Corporation (Nasdaq) | ~$250-450M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL — Simoa ultra-sensitive protein biomarker detection platform; Simoa platform has genuine scientific moat (attomolar sensitivity 1000× ELISA); GM ~50%~; BUT continuous operating losses; acquiring Akoya Biosciences (AKYA) — integration risk; R&D burn material; NOT profitable → fails earnings floor gate |
+| TWST | Twist Bioscience Corporation (Nasdaq) | ~$300-600M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL — synthetic DNA/oligonucleotide manufacturing; proprietary silicon-based DNA synthesis; niche platform moat (DNA data storage + NGS panel design + library prep); BUT continuous heavy losses ($100M+ annual burn historically); GM ~50%~ on product; NOT profitable → fails earnings floor gate; also potentially at/above $300M cap ceiling |
+| SEER | Seer Inc. (Nasdaq) | ~$100-250M ~ | 2026-07-28 | DEVELOPMENT_STAGE_KILL — proteomics sample prep (Proteograph XT); pre-profitability; limited recurring revenue; development stage → fails floor quality gate |
+| NAUT | Nautilus Biotechnology Inc. (Nasdaq) | ~$100-250M ~ | 2026-07-28 | DEVELOPMENT_STAGE_KILL — single-molecule protein sequencing; pre-revenue; development stage → fails earnings floor gate |
+| LAB | Standard BioTools Inc. (Nasdaq) | ~$100-300M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL — CyTOF mass cytometry platform (former Fluidigm + SomaLogic merger); genuine niche (mass cytometry = 40+ analyte simultaneous single-cell protein detection); BUT losses continue post-merger; GM ~40-50%~; NOT profitable → fails earnings floor gate |
+| ABCL | AbCellera Biologics Inc. (Nasdaq) | ~$300-600M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL — antibody discovery platform (AlphaSeq + machine learning); Canadian company (JURISDICTION: liberal democracy ✓); NOT profitable; platform revenues lumpy; fails earnings floor gate; CAP may also be at/above $300M ceiling |
+| ABSI | Absci Corporation (Nasdaq) | ~$200-400M ~ | 2026-07-28 | DEVELOPMENT_STAGE_KILL — AI-enabled drug discovery (generative AI + cell-line development); pre-revenue as AI drug partner; development stage → fails earnings floor gate |
+| CODX | Co-Diagnostics Inc. (Nasdaq) | ~$20-50M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL — PCR diagnostics kit manufacturer; post-COVID revenue cliff (COVID PCR kits → no longer significant demand); losses post-2022; CAP_BORDERLINE also (sub-$30M at times) → dual kill |
+| MRVI | Maravai LifeSciences (Nasdaq) | ~$400-700M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL + CAP_KILL — mRNA manufacturing components (CleanCap trinucleotide cap analogs, nucleoside analogs, plasmid DNA); post-COVID mRNA demand cliff caused revenue to collapse from $920M (2022) to ~$100-180M (2025); now reporting losses; CAP also above $300M ceiling → dual kill |
+
+### CAP_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| CTKB | Cytek Biosciences Inc. (Nasdaq) | ~$400-700M ~ | 2026-07-28 | CAP_KILL — spectral flow cytometry; GM ~50%~ est; recently approaching profitability; BUT cap ~$400-700M = above $300M ceiling → CAP_KILL; revisit if cap corrects below $300M |
+| OSUR | OraSure Technologies (Nasdaq) | ~$400-700M ~ | 2026-07-28 | CAP_KILL — oral fluid diagnostic collection (OraQuick HIV, oral sample kits); GM ~50%~; profitable~; BUT 7+ analysts + cap above $300M ceiling → dual kill (CAP_KILL + COVERAGE_KILL) |
+| FLGT | Fulgent Genetics Inc. (Nasdaq) | ~$500-700M ~ | 2026-07-28 | CAP_KILL — genomic testing services (somatic tumor profiling, carrier screening); service-based not platform-moat; cap above $300M ceiling → CAP_KILL |
+| PACB | Pacific Biosciences of California (Nasdaq) | ~$600-900M ~ | 2026-07-28 | NOT_YET_PROFITABLE_KILL + CAP_KILL — long-read sequencing (HiFi Revio platform); genuine technology moat (accuracy + read length vs. Illumina short-read); BUT continuous losses; cap above $300M ceiling → dual kill |
+
+### LOW_GM / SERVICE_KILLs
+
+| Ticker | Company | GM ~ | Kill Date | Kill Reason |
+|--------|---------|------|-----------|-------------|
+| CYRX | Cryoport Inc. (Nasdaq) | ~30-40% ~ | 2026-07-28 | LOW_GM_KILL — temperature-controlled cold chain logistics for cell/gene therapy (SmartPak cryogenic shippers, monitoring systems); service business not platform; GM ~30-40% fails ≥45% gate; NOT profitable consistently; service economics constrain moat purity |
+| BASS | Bioanalytical Systems Inc. (Nasdaq) | ~25-35% ~ | 2026-07-28 | LOW_GM_KILL + CAP_TOO_SMALL_KILL — pharmaceutical bioanalytical CRO + instruments; service-based (contract research); GM ~25-35% fails gate; cap ~$25-40M below effective investable floor → dual kill |
+
+### M&A_KILLs
+
+| Ticker | Company | Kill Date | Kill Reason |
+|--------|---------|-----------|-------------|
+| AKYA | Akoya Biosciences Inc. (Nasdaq) | 2026-07-28 | M&A_KILL — spatial biology/tissue imaging (PhenoCycler, COMET platforms); being acquired by Quanterix (QTRX) → deal removes investable float → M&A_KILL |
+
+**Run #79 Sector 12 US 4th pass kill tally:** 9 NOT_YET_PROFITABLE/DEVELOPMENT_STAGE_KILLs + 4 CAP_KILLs + 2 LOW_GM_KILLs + 1 M&A_KILL = 16 kills; 0 new QUEUED. **2nd consecutive 0-new-QUEUED pass (pass 3 was Nordic/Canada/Australia, also 0 new QUEUED) → SECTOR 12 EXHAUSTED.**
+
+**Structural finding (Sector 12 US 4th pass):** The US life-sci tools market in $20-300M profitable/high-GM zone is structurally thin due to: (1) 2020-2022 SPAC/biotech-tools bubble created dozens of now-burning-cash companies ($100-600M cap, continuous losses — TWST, SEER, NAUT, LAB, QTRX, BLFS, ABCL, ABSI, CODX, MRVI); (2) Profitable names in zone (MLAB, SRDX, HBIO) were already processed in prior passes; (3) Large profitable tools companies (RGEN, NEOG, CTKB, FLGT, OSUR, PACB) all above $300M cap ceiling; (4) Service-based CROs (BASS, CYRX) fail GM gate. The sector is now structurally exhausted at this geo lens.
+
