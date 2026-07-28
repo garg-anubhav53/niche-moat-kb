@@ -1194,3 +1194,143 @@ Re-examination: 2 of 3 original gates are technically met. (1) ARR gate: TECHNIC
   5. **Sector 3 EXHAUSTED** — 2nd consecutive 0-new pass; 5 QUEUED_CONDITIONAL require EDINET proxy restoration; 6464.T SiN ceramic balls is highest-priority Japan precision name in pipeline.
   6. **CRBN.AMS kill confirmed; ADMCM.HE conditions evolving** (2/3 gates met; NOT yet false negative; revisit Q3 2026).
   7. **6858.T H1 FY2026 gate CLEARED** (NI ¥353M = 44% of ¥800M guidance); §5 still blocked on EDINET.
+
+---
+
+# §7 REFLECT — Run #87 (2026-07-28)
+
+*Trigger: 87 % 3 = 0 → mandatory every 3rd run. Coverage: bench re-price (all bench names); Sector 6 7th pass TSXV+DACH+Benelux VMS triage; data quality audit; false-negative audit; corrective edits.*
+
+*Data sources: §2B web-search agents only (all tools proxy-blocked: SEC EDGAR, Yahoo Finance, EDINET, DART all 403/null). Bench agents: abcac1761ff2805d1 (FAA.VI/EUZ.DE/IVU.DE/ALRIB.PA/CODA), a78f7fe1d80b975cd (XRF.AX/JOUT/PHO.OL/OMDA.OL/TSTL.L). Sector 6 7th pass agent: a2f62c4c474910e47 (TSXV deeper + DACH + Benelux). 1INN.DE §3.5 agent: a1f2324e3a0a39f25 (pending at time of REVIEW.md write). All prices ~-trust.*
+
+---
+
+## 1. Bench Re-Price (§7 REFLECT run #87)
+
+| Ticker | Price (run #87) | Buy-zone | Status |
+|--------|----------------|---------|--------|
+| FAA.VI | ~€13.10 | ≤€13.75 (entry) | **⚠⚠ AT/BELOW entry — WATCH Grade A; human alert active** |
+| EUZ.DE | ~€13.16 | €13-16 | ⚠ IN BUY-ZONE — CORE Grade B; Q2 results Aug 12 |
+| IVU.DE | ~€21 | ≤€17.36/≤€250M cap | ABOVE zone; APPROACHING flag REMOVED (run #87) |
+| ALRIB.PA | ~€9.96 | ≤€9 | ABOVE zone; APPROACHING flag REMOVED (run #87) |
+| CODA | ~$9.84-10.00 (~$112.7M cap) | $8-10 / ≤$107M cap | ⚠ AT/APPROACHING zone ceiling (~$5.7M above trigger) |
+| XRF.AX | A$1.685 | ≤A$1.65 | ⚠ APPROACHING — 2.1% above trigger; earnings Aug 24 |
+| JOUT | ~$46.24 | ≤$40 | ABOVE zone; APPROACHING flag REMOVED (run #87) |
+| PHO.OL | ~NOK 59-60 | ≤NOK 55 | ABOVE zone; Q2 results Jul 29 (not yet indexed as of run) |
+| OMDA.OL | NOK 39.60 | ≤NOK 35-40 | ⚠ IN zone — BLOCKED (GM unconfirmed + 3.6x leverage) |
+| TSTL.L | ~387p | ≤260p | ABOVE zone; OPH under FDA review; ORL not yet submitted |
+| WINA / OFLX / NSSC / SMID / MEDI.OL / RX.V / SECARE.ST / NZX:SKL / CGS.L / ETON / JHD.L / 4549.T / 6742.T / 6823.T / CPH.TO / NEU.AX / PNV.AX / CBOX.L / NEDAP.AS / SENS.SW / HSN.AX / ENGH.TO / OCL.AX / RDY.AX / EKF.L / CUV.AX / CER.L / EPEN.ST | Per WATCHLIST | Various | All above respective buy-zones; no promotions triggered |
+
+**Key bench findings:**
+1. FAA.VI ⚠⚠ AT/BELOW entry €13.75 — the first WATCH Grade A in KB history is at/below memo entry. Human operator should investigate immediately.
+2. EUZ.DE IN zone €13-16. CORE Grade B confirmed. Q2 results Aug 12 — base effect soft; maintain CORE hold.
+3. IVU.DE recovered from €18 dip (run #86) back to ~€21. APPROACHING flag REMOVED.
+4. JOUT moved from $43.48 (run #86 APPROACHING) to $46.24. APPROACHING flag REMOVED — moving away.
+5. ALRIB.PA recovered from €9.49 (run #86 APPROACHING) to €9.96. APPROACHING flag REMOVED.
+6. XRF.AX confirmed A$1.685 — still 2.1% above A$1.65 trigger. APPROACHING active. Earnings Aug 24 is nearest catalyst.
+7. OMDA.OL ticked from NOK 37.90 to NOK 39.60 — still in zone, still blocked by both GM and leverage blockers.
+8. PHO.OL Q2 results expected Jul 29 — not yet indexed at time of run. Price ~NOK 59-60, above ≤NOK 55 zone.
+
+**No promotions to QUEUED_HOT this run** (XRF.AX closest; OMDA.OL in zone but blocked; PHO.OL above zone; CODA borderline by cap).
+
+---
+
+## 2. Data Quality Audit (§7 REFLECT run #87)
+
+**NTECH.ST (Nordtech Group AB):**
+- §5 OPUS adversarial pass (run #58/prior) correctly PARKed as Grade D.
+- **Critical catch:** §4 memo attributed Opus Dental, Medhelp Care, Adtollo, Docunova to Nordtech. Confirmed WRONG: Opus Dental is 100% Planmeca Oy (Finnish dental conglomerate). Nordtech's actual portfolio: InfoMentor, Reqtest, Benchmarking Alliance, Thea Commerce, FinMeas, BM System, Leaseright.
+- Demonstrates OPUS adversarial pass is working correctly — Sonnet first-pass can fabricate subsidiary lists; Opus red-team catches it.
+- GM 52.9% (below SaaS norms 75-85%). Broken IPO (88% greenshoe consumed). Cash conversion declining 91-95% (not 104% ✓ as §4 claimed). PARK Grade D confirmed.
+
+**VHI.TO (VitalHub Corp):**
+- CANDIDATE Grade C appropriate (buy-zone ≤C$5.50). Q1 FY2026: ARR C$99.1M (+34%), revenue C$31.9M (+47%), net cash C$121M.
+- C=2 appropriate — all figures ~-trust (SEDAR+ proxy-blocked). No filing-anchored confirmations.
+- FCF conversion only ~26% of adj. EBITDA (key weakness vs NHS SHREWD moat thesis).
+- NHS concentration 60-70% = structural single-customer risk.
+- Data integrity: PASS — all gaps correctly disclosed.
+
+**RDY.AX (ReadyTech Holdings):**
+- BENCH 7/12 appropriate. EV/ARR 2.3x vs peers 4-6x.
+- H1 FY26 revenue missed consensus -12.7%; FY27 targets withdrawn.
+- FY26 full-year results 27 Aug 2026 = nearest catalyst.
+- Data integrity: PASS — all figures ~-trust with gaps correctly disclosed.
+
+---
+
+## 3. Sector 6 7th Pass — TSXV + DACH + Benelux VMS Triage
+
+Agent a2f62c4c474910e47 returned 22 raw names. §3 triage below:
+
+**§3 KILLS (10 new names):**
+- CVO.TO (Coveo Solutions, TSX): MOAT_MISS — horizontal enterprise AI search, not vertical SaaS
+- ZDC.TSXV (Zedcor Inc): MOAT_MISS — hardware surveillance towers, not pure software vertical
+- GFT.DE (GFT Technologies): MOAT_MISS — IT consulting/services for banking, not product
+- D6H0.DE (DATAGROUP SE): MOAT_MISS — IT managed services/government IT outsourcing, not product
+- CTAC.AS (Ctac NV): MOAT_MISS — Dutch IT consulting, no product moat
+- CMCOM.AS (CM.com): MOAT_MISS — horizontal CPaaS/conversational commerce platform (competes Twilio/Sinch)
+- KEYW.EBR (Keyware Technologies): MOAT_WEAK + DECLINING_REVENUE (Belgian payments; revenue -5.9% 2024; micro-cap liquidity concern)
+- ECO.EBR (Econocom Group): MOAT_MISS + SIZE_KILL (€2.9B revenue IT services; too broad)
+- BYIT.AIM (Bytes Technology Group): MOAT_MISS — IT reseller, not vertical software
+- AMCO.AIM (Amcomri Group): MOAT_MISS — industrial engineering services, not software
+
+**ALREADY SEEN (in UNIVERSE from run #77 Sector 6 5th pass):**
+- QTRH.TO: NOT_PROFITABLE_KILL (confirmed — agent found organic revenue flat/declining, capex-heavy)
+- DND.TO: FLOOR_THIN_KILL (confirmed — massive debt, activist overhang, distressed)
+- STC.TO: MOAT_SOFT_KILL (confirmed — horizontal UCaaS, competitive vs RingCentral/8x8)
+- PSAN.DE: CAP_SOFT_KILL (already in UNIVERSE)
+- NEDAP.AS: ON BENCH as NDAP.AS (already tracked; ticker corrected to NEDAP.AS this run)
+
+**§3 KEEPS for §3.5 financial baseline:**
+1. **1INN.DE (Innoscripta SE)** — STRONGEST NEW FIND. R&D tax compliance SaaS; regulatory moat via BSFZ certification process; ~16% of all German BSFZ applications; <2% churn; 80% founder+employee owned; revenue ~25% p.a. growth; highly profitable per Warburg Research. Frankfurt Scale IPO May 2025. Financial baseline pending agent a1f2324e3a0a39f25 (§3.5 deferred if agent incomplete at persist time; add to QUEUED_CONDITIONAL queue).
+2. **CSH.DE (Cenit AG)** — PLM software for aerospace/auto manufacturing; genuine switching cost (3-5 yr spec/implementation cycles); ~€120M market cap. CONCERN: ~30-40% consulting drag on revenue likely pulls blended GM below ≥45% gate. Flag as QUEUED_CONDITIONAL pending GM from XETRA annual report filing.
+3. **SHF.DE (SNP SE)** — Near-sole-source automated SAP migration platform (CrystalBridge); 2027 SAP ECC end-of-support deadline = time-limited demand surge. ~€200M cap. CONCERN: project-based revenue (not recurring SaaS) → lower quality score; GM unverified. Flag as QUEUED_CONDITIONAL pending GM + revenue model verification from XETRA filing.
+
+**STATUS-UNCERTAIN:**
+- EQS.DE (EQS Group AG): Brockhaus Capital Management acquired EQS in late 2023. Agent a1f2324e3a0a39f25 tasked to verify listing status. If delisted → NOT_PUBLIC_KILL. If still listed → keep for §3.5.
+- ADVT.AIM (AdvancedAdvT Ltd): Insufficient data to characterize moat. Skip pending dedicated search.
+
+**Sector 6 7th pass result: 10 new kills, 3 QUEUED_CONDITIONAL, 0 new confirmed QUEUED.** Sector 6 remains ACTIVE (not 2 consecutive 0-new QUEUED — 1INN.DE/CSH.DE/SHF.DE are live leads pending §3.5 completion). 1st consecutive 0-confirmed-QUEUED; if §3.5 on 1INN.DE/CSH.DE/SHF.DE all result in kills → 8th pass needed.
+
+---
+
+## 4. False-Negative Audit (§7 REFLECT run #87)
+
+**EPEN.ST (Ependion AB, Sweden):**
+- Current price: ~SEK 141-156 (run #86 confirmed; buy-zone SEK 115-130).
+- ABOVE buy-zone by ~8-20%. Quality UNVERIFIED (⚑non-EN — Swedish primary filing required).
+- Correctly on WATCHLIST bench awaiting (a) price dip to ≤SEK 130 AND (b) quality confirmation from Swedish annual report.
+- NOT a false negative — bench placement correct.
+
+**QTRH.TO / DND.TO / STC.TO (Sector 6 7th pass re-examination):**
+- Agent independently described Quarterhill as "revenue flat/declining organically + capex-heavy + defense-adjacent" — NOT_PROFITABLE_KILL confirmed.
+- Agent described Dye & Durham as "massive debt load + governance/activist overhang" — FLOOR_THIN_KILL confirmed.
+- Agent described Sangoma as "high debt + declining revenue + competitive horizontal" — MOAT_SOFT_KILL confirmed.
+- No false negatives from prior run #77 kills.
+
+**ABSO.ST (Absolent Air Care, CNC oil mist filtration):**
+- LOW_GM_KILL 41.28%~ confirmed run #85. Kill stands.
+
+**Conclusion: No confirmed false negatives this run.**
+
+---
+
+## 5. Corrective Edits Shipped (§7 REFLECT run #87)
+
+- **WATCHLIST.md:** IVU.DE APPROACHING REMOVED (€18→€21 recovered); JOUT APPROACHING REMOVED ($43.48→$46.24 moved away); ALRIB.PA APPROACHING REMOVED (€9.49→€9.96 recovered); OMDA.OL price NOK 37.90→39.60 (still in zone, still blocked); PHO.OL Q2 status updated (DUE TODAY Jul 29, not yet indexed); TSTL.L ORL NOT YET SUBMITTED correction (⚠ prior 'in progress' was wrong — Tristel only has 'plans for FDA submission' per APIC Jun 2026); TSTL.L OPH status ⚠ (run #87 agent found additional supplementary details submitted, still under FDA review — conflicts with prior 'CLEARED May 2025' note; verify from Tristel IR); NEDAP.AS ticker corrected from NDAP.AS + price updated €83.50→€94 (~€700M cap; H1 2026 revenue +13%, operating margin 12.1%).
+- **EUZ.DE label:** Confirmed CORRECT throughout repo — "Eckert & Ziegler SE" in all files. No correction needed (prior concern was unfounded).
+- **STATE.md:** Run #87 log added; total runs 86→87; universe +10 new kills (CVO.TO/ZDC.TSXV/GFT.DE/D6H0.DE/CTAC.AS/CMCOM.AS/KEYW.EBR/ECO.EBR/BYIT.AIM/AMCO.AIM); 3 new QUEUED_CONDITIONAL (1INN.DE/CSH.DE/SHF.DE); EQS.DE status pending.
+- **UNIVERSE.md:** 10 new kills + 3 QUEUED_CONDITIONAL added; NEDAP.AS ticker note added.
+- **KILL-LIST.md:** 10 Sector 6 7th pass kills appended.
+
+---
+
+## 6. Human-Review Items (§7 REFLECT run #87)
+
+1. **⚠⚠ FAA.VI at ~€13.10 — WATCH Grade A at/below memo entry price €13.75.** Fair value €21-27 per §5 memo. EV/EBIT ~8.5x vs 15-25x peers. Fabasoft AG (Vienna) FY2026 results: revenue €90M (+3.7%), EBIT €15.7M (+18%), recurring revenue €54.9M (+12.5%). Human decision required on position sizing at entry.
+2. **EUZ.DE CORE Grade B in buy-zone €13-16.** Q2 results Aug 12 (base effect soft). 3 analysts Strong Buy avg target €21.60-22.10 (~62% upside). CORE hold.
+3. **XRF.AX A$1.685 — 2.1% above ≤A$1.65 trigger.** Earnings Aug 24 = nearest catalyst. PROMOTE TO QUEUED_HOT if closes ≤A$1.65.
+4. **PHO.OL Q2 results (Jul 29) not yet indexed at run time.** Monitor; PROMOTE TO QUEUED_HOT if stock closes ≤NOK 55 post-Q2.
+5. **OMDA.OL NOK 39.60 in zone.** Bond callable Dec 4, 2026 (refinancing catalyst). H1 results Aug 26 = GM verification opportunity.
+6. **1INN.DE (Innoscripta SE)** — Strongest new name from Sector 6 7th pass. R&D tax SaaS regulatory moat; <2% churn; 25% revenue CAGR; 80% founder-owned; Frankfurt Scale May 2025 IPO. Financial baseline in progress (agent a1f2324e3a0a39f25). If GM ≥45% + profitable confirmed → §4 promise score next run.
+7. **TSTL.L OPH FDA status ⚠** — KB previously said "CLEARED May 2025" but run #87 agent found LSE RNS of additional supplementary details submitted (still under review). Verify from Tristel investor relations / LSE RNS feed.
