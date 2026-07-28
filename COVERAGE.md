@@ -1757,3 +1757,43 @@ Memo: memos/M7U.DE-2026-07-27.md
 The global TIC industry has extreme cap concentration at the top. The 6 global TIC giants (SGS ~$9B, Intertek ~$6B, Bureau Veritas ~$9B, Eurofins ~€13B, ALS A$12.2B, Applus ~$1.5B) absorb all the high-margin testing work. The next tier (Neogen $1.9B+, MLAB $520M, Mistras $564M, TRNS $700-900M) is either above cap or fails GM due to service-heavy revenue mix. Quality niche TIC below $1.5B that has been captured in prior passes: Calnex Solutions (CLX, QUEUED 8/12, run #64). Remaining sub-$500M listed TIC is predominantly service businesses (NDT inspection, lab services = 30-40% GM) that structurally fail the ≥45% GM gate. **Revive only with a fresh angle: Japan OTC precision measurement niche (EDINET when restored), or EU specialty certification niche (sub-€100M DAkkS/ENAC accredited certifiers) at sub-$100M cap.**
 
 **Net result: 0 new QUEUED from pass 4; 2nd consecutive 0-new pass → Sector 5 EXHAUSTED.**
+
+---
+
+## Sector 7 (Specialty Food & Ag Ingredients) — Pass 5 Coverage Notes (run #86, 2026-07-28)
+
+**Sub-theme focus: Ag biologicals (biopesticides, bio-fungicides, bio-inoculants, microbial crop protection)**
+
+**Pass intent:** Exhaust publicly-listed ag biologicals companies with moat potential at $20M–$1.5B cap and ≥40% GM. 5th pass; prior pass (run #83) = 1st consecutive 0-new. This pass = 2nd consecutive 0-new → **Sector 7 EXHAUSTED**.
+
+**Names triaged this pass (7 total):**
+
+| Ticker | Company type | Kill type | Reason |
+|--------|-------------|-----------|--------|
+| SICT | Ag biologicals (identity unconfirmed) | QUEUED_CONDITIONAL | ⚑ non-English filer; C≤2 cap; primary filing unverified |
+| 4979.T | Japanese ag chemical/biological (TSE) | QUEUED_CONDITIONAL | ⚑ non-English filer (Japanese); EDINET 403-blocked; C≤2 cap |
+| BTLS | US ag biologicals early-stage | NOT_YET_PROFITABLE_KILL | Not yet profitable; hard gate fail |
+| MGRO | US ag biologicals micro-cap | NOT_YET_PROFITABLE_KILL + CAP_TOO_SMALL_KILL | Not profitable; cap <$20M (dual kill) |
+| NUF | Nufarm Limited (ASX:NUF) | SIZE_KILL | Revenue ~$2.3B USD >> $500M ceiling |
+| 4021.T | Nissan Chemical Corporation (TSE) | SIZE_KILL | Cap ~$6.25B USD = 4x above $1.5B ceiling |
+| 4996.T | Kumiai Chemical Industry (TSE, est.) | CAP_SOFT_KILL | ~$530M USD cap; mixed portfolio; EDINET blocked; Asymmetry Gate FAIL |
+
+**Pass 5 tally: 5 kills; 2 QUEUED_CONDITIONAL; 0 new QUEUED. 2nd consecutive 0-new → Sector 7 EXHAUSTED.**
+
+**Geo/sub-theme coverage completed through pass 5:**
+- Pass 1 (run ~#52): US ag specialty ingredient companies (broad Nasdaq/NYSE sweep)
+- Pass 2 (run ~#65): European specialty food ingredients (DACH + Nordic + France mid-caps)
+- Pass 3 (run #78): ASX/NZ/LATAM geo lens (BUB.AX, CLV.AX, WINE.RO surfaced; BUB COVERAGE_KILL, CLV SEEN GM<40%, WINE LEAD non-EN)
+- Pass 4 (run #83): Global web scout, 1st ag biologicals pass (0 new QUEUED — 1st consecutive 0-new)
+- Pass 5 (run #86): Ag biologicals deeper sweep — EXHAUSTED
+
+**Structural finding — why Sector 7 ag biologicals is structurally thin at public small-cap:**
+The ag biologicals industry is dominated by private companies and large-cap strategic subsidiaries. Key private players: Marrone Bio Innovations (acquired by UPL 2022), Certis Biologicals (private equity), Koppert Biological Systems (private, Netherlands), BioAg Alliance (Novozymes unit → Novonesis), Symborg (private, Spain), Som Phytopharma (private, India). Public ag biologicals at $20M–$1.5B cap with established profitability and ≥40% GM do not exist as a distinct category in the English-filing universe. Japanese ag chemical companies with biological product lines (4021.T Nissan Chemical, 4996.T Kumiai Chemical) are either too large (4021.T ~$6.25B) or have mixed portfolios without dominant moat products confirmable without primary EDINET access. BTLS and MGRO represent the only English-filing public pure-play ag biologicals small-caps surfaced, and both fail profitability gate.
+
+**Revive conditions for Sector 7:**
+1. EU bio-fungicide micro-caps: sub-€100M listed bio-fungicide or bio-inoculant specialists in France (Euronext Growth), Italy (AIM Italia), Spain (BME Growth), or Germany (Xetra), if English IR materials available
+2. LATAM biopesticide in English filings: Adama (Israeli entity — JURISDICTION_KILL), Crystal Crop (private), FMC (too large), AMVAC (private)
+3. QUEUED_CONDITIONAL resolution: SICT (primary filing) + 4979.T (EDINET restoration)
+4. India biopesticide: if India jurisdiction added to allowed list in future (currently JURISDICTION_KILL)
+
+**Net result: 0 new QUEUED from pass 5; 2nd consecutive 0-new pass → Sector 7 EXHAUSTED.**
