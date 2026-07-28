@@ -1631,3 +1631,59 @@ Memo: memos/M7U.DE-2026-07-27.md
 
 **Sector 18 status: EXHAUSTED** — 2 consecutive 0-new-QUEUED passes (Pass 4: US Nasdaq/NYSE geo lens, run #72; Pass 5: Japan/Korea OTC geo lens, run #81). Revive condition: EDINET proxy restored → priority screen of 7727.T/OVAL Corporation (NTA-certified flow measurement) + any additional TSE precision instrument names below Rion/OVAL cap level.
 
+---
+
+## Sector 6 (Vertical/Mission-Critical Software & Data) — Pass 6 Coverage Notes (run #82, 2026-07-28)
+
+**Japan/Korea vertical SaaS geo lens:** 23 names processed; 5 new QUEUED (1 QUEUED_HOT); 18 kills. Consecutive-0-new streak RESET — Sector 6 ACTIVE.
+
+**Screen:** §2B web-search (all §2A tools proxy-blocked; EDINET and DART unreachable in cloud env). Geo lens: Japan TSE/Growth Market + Korea KOSDAQ/KOSPI mission-critical software; $20-300M cap range. Non-English filers: C≤2 cap applied to all names.
+
+**Bench re-price (§7 REFLECT: NO — 82%3=1, skip):** 37 bench entries repriced 2026-07-28. Key updates:
+- GTK (Gentrack): MASSIVE RE-RATE — FY25 results triggered ~+37-100% spike; NZD$7.84 vs prior ≤NZD$3.00 buy-zone (now fully obsolete); §4 rewrite required at new price
+- PHO.OL: NOK 59-61 ↓ from 64.1; Q2 results due Jul 29 — key catalyst
+- CODA: $9.84 (~$113M cap) AT ZONE CEILING; ≤$107M cap trigger = PROMOTE
+- TSTL.L: 397.50p ↓ from ~450p (declining toward 220-260p buy-zone)
+- OMDA.OL: NOK 37.90 IN BUY-ZONE — still blocked (GM unconfirmed + 3.6x leverage)
+
+**QUEUED (5 new):**
+
+| Ticker | Company | Moat | Cap ~USD | Score | Notes |
+|--------|---------|------|---------|-------|-------|
+| 071200.KS | Infinitt Healthcare (인피니트헬스케어) | PACS medical imaging Korea #1 ~70% domestic share; 1,500+ hospital installations; exports = 61% of revenue and rising | ~$105M | 10/12 QUEUED_HOT | Net cash ≈95% mkt cap = EV ~$6M; extraordinary floor quality; ⚑non-EN C≤2; DART proxy-blocked; §5 HIGHEST PRIORITY |
+| 030520.KQ | Hancom (한글과컴퓨터) | Korean Hangul HWP format mandated in all Korean govt procurement (Ministry of Interior directive); dominates govt, military, education | ~$250M | 8/12 QUEUED | Regulatory monopoly moat; ⚑non-EN C≤2; DART proxy-blocked; §5 deferred |
+| 3921.T | NeoJapan (ネオジャパン) | Groupware desknet's NEO; 60% Japan municipalities (1,000+ local govts); 5M+ users; debt-free | ~$170M | 8/12 QUEUED | Government workflow lock-in; ⚑non-EN C≤2; EDINET proxy-blocked; §5 deferred |
+| 3969.T | Atled (アトレド) | X-point/Agile Works workflow automation SaaS; dominant in corporate approval workflows; 0.14%/mo churn (ultra-low) | ~$82M | 8/12 QUEUED | Ultra-low churn = sticky; ⚑non-EN C≤2; EDINET proxy-blocked; §5 deferred |
+| 053580.KQ | WebCash (웹케시) | #1 B2B treasury/cash management SaaS in Korea; "Accounting Nation" for SMEs; deep bank API integrations; earnings +28% YoY | ~$50-80M | 8/12 QUEUED | Mission-critical treasury moat; ⚑non-EN C≤2; DART proxy-blocked; §5 deferred |
+
+**KILLS (18):**
+
+| Ticker | Company | Kill Code | Reason |
+|--------|---------|-----------|--------|
+| 4431.T | Smaregi | CAP_SOFT_KILL | ~$330M cap above range; POS is competitive (Square/POSIM) |
+| 4435.T | Kaonavi | CAP_SOFT_KILL | ~$345M cap above range; HR SaaS competitive |
+| 3673.T | Broadleaf | CAP_SOFT_KILL | ~$520M cap above range (interesting auto-aftermarket ERP but too large) |
+| 4475.T | HENNGE | MOAT_SOFT_KILL | Enterprise IAM/email security — globally competitive, not niche sole-source |
+| 4323.T | Japan System Techniques | MOAT_SOFT_KILL | 4-segment business dilutes moat; hospital IT in Japan is competitive |
+| 2158.T | FRONTEO | MOAT_SOFT_KILL | AI legal discovery competitive vs Relativity/Nuix; 70x P/E speculative |
+| 5266.T | Infcurion | MOAT_SOFT_KILL | BaaS/embedded finance competitive; ticker unconfirmed; new IPO Oct 2025 |
+| 035600.KQ | KG Inicis | MOAT_SOFT_KILL | Payment gateway not sole-source; Korean PG market competitive |
+| 466410.KQ | Synapsoft | MOAT_SOFT_KILL | OCR/PDF document processing competitive (Adobe/ABBYY); no niche moat |
+| 4442.T | Valtes Holdings | LOW_GM_KILL | QA/testing = software services/labour arbitrage; GM likely <45% |
+| 4391.T | Logizard | CAP_TOO_SMALL_KILL | ~$26M cap; narrow warehouse SaaS niche |
+| 039290.KQ | InfoBank | CAP_TOO_SMALL_KILL | ~$21M cap; A2P SMS competitive |
+| 3762.T | TechMatrix | SIZE_KILL | ~$2B+ cap (¥300-400B) |
+| 4776.T | Cybozu | SIZE_KILL | ~$795M cap |
+| 3923.T | Rakus | SIZE_KILL | ~$2.5B cap |
+| 030190.KS | NICE Information Service | SIZE_KILL | ~$540M cap; above ceiling |
+| 475A.T | GIMIC | PARK | Physician directory moat (Japan medical advertising law) interesting but new IPO Dec 2025, unverified, borderline $38M cap, directory business thin GM likely |
+| 060850.KQ | YounglimwonSoftLab | PARK | Compliance ERP for pharma/medical device interesting switching-cost moat but ~$30M cap too small for asymmetry |
+
+**Structural finding — Japan/Korea VMS:**
+- **EDINET/DART proxy-blocked:** All 5 QUEUED names are non-English filers with C≤2 cap. §5 is deferred for all 5 until EDINET (Japan) or DART (Korea) filing access is restored. This is the binding constraint.
+- **Best names are filing-blocked:** 071200.KS (Infinitt) is arguably the most asymmetric name in the entire Run #82 QUEUED set (EV ~$6M vs $105M mkt cap = 17× book backing if net cash thesis confirmed). It is BLOCKED solely by DART proxy.
+- **Large-cap dominated:** The most attractive Japan vertical SaaS names (Cybozu, Rakus, Sansan, SmartHR) are all well above $300M cap — structurally out of range.
+- **Quality Korean names thin:** Korean KOSDAQ vertical SaaS at $20-300M cap is thin — most quality names either acquired by domestic conglomerates or below $20M micro-cap floor.
+
+**Sector 6 status: ACTIVE** — consecutive-0-new streak RESET (5 new QUEUED this pass). Next: Sector 7 4th pass Japan specialty functional food/ingredients geo lens.
+
