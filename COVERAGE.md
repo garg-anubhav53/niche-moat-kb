@@ -1951,3 +1951,96 @@ Scoring:
 
 **Grade: B · C=3 (English AIM filer) · Q=4 AND F=4**
 **§5 OPUS ELIGIBLE: highest priority §5 candidate entering run #95. H1 2026 strong beat makes case for immediate deep-dive.**
+
+---
+
+## Sector 6 (Vertical/Mission-Critical Software & Data) — Pass 11 (Canadian TSX/TSXV + Baltic geo lens) — run #95 2026-07-28
+
+**Geo lens:** Canadian TSX/TSXV + Baltic (Nasdaq Baltic — Tallinn, Riga, Vilnius) vertical SaaS and fleet/mobility software. 11th pass on Sector 6 overall.
+
+**Raw names triaged (9):** DAT.WA (DataWalk, GPW Warsaw), QTRH.TO (Quarterhill, TSX), STC.TO (Sangoma Technologies, TSX), TCS.TO (Tecsys Inc, TSX), Mapon Group (Riga, Latvia), Fobi AI (TSX-V), Copperleaf Technologies (TSX), WellStar Health (TSX-V mention), Urbanimmersive (TSX-V).
+
+**Kills / routes (8):**
+
+| Ticker | Company | Outcome | Key Reason |
+|--------|---------|---------|-----------|
+| DAT.WA | DataWalk (GPW Warsaw) | SECTOR_KILL | Law enforcement/intelligence analytics primary customer; hard exclusion per playbook |
+| QTRH.TO | Quarterhill (TSX) | ROUTE_LOW | Patent assertion entity + toll-road AI; thin gross margins; no sole-source VMS moat |
+| STC.TO | Sangoma Technologies (TSX) | ROUTE_LOW | UCaaS/telephony hardware-software bundle; competitive market; declining revenue; integration risk post-NetFortris |
+| Mapon Group | Mapon Group (Riga, Latvia) | BONDS | Not equity-listed; corporate bond issuer only; no publicly traded equity |
+| Fobi AI | Fobi AI (TSX-V) | REVENUE_COLLAPSE | Micro-cap; material revenue decline; pre-profitable; no durable moat |
+| Copperleaf | Copperleaf Technologies (TSX) | DELISTED | Acquired by IBM 2022; no longer publicly listed |
+| WellStar | WellStar Health (TSX-V mention) | NOT_YET_LISTED | Not publicly listed; private healthcare; cannot triage |
+| Urbanimmersive | Urbanimmersive (TSX-V) | ROUTE_LOW | Real estate photography software; ~C$5M revenue; no durable VMS moat at scale |
+
+**QUEUED_CONDITIONAL (1):**
+- **TCS.TO (Tecsys Inc, TSX)** — QUEUED_CONDITIONAL; supply chain execution SaaS (WMS, OMS, TMS) for healthcare distribution and 3PL verticals; genuine SWITCHING_COST moat claimed (mission-critical warehouse workflow integration, multi-year implementations, deep ERP embedding); gross margin unconfirmed from primary filing (≥45% gate required). §3.5 baseline required before promotion to QUEUED. Universe +1 → **487**.
+
+**Pass 11 tally: 9 names triaged; 1 QUEUED_CONDITIONAL (TCS.TO); 8 kills/routes. Baltic axis largely exhausted at this screen (no viable VMS equity found; Mapon bonds-only).**
+
+---
+
+## §5 Resolutions — run #95 2026-07-28
+
+### QTX.L (Quartix Technologies plc, AIM) → **Grade B− / WATCH** (§5 OPUS 12-mode complete)
+
+**Pre-flight corrections (3 brief inputs wrong):**
+
+| Brief said | Verified reality | Impact |
+|---|---|---|
+| Market cap ~£160M, EV ~£154M | **48.43M shares × 242.5p = £117.4M mcap; EV ≈ £111.8M** | Brief overstated mcap by +36% — all downstream multiples wrong |
+| NRR 98.1% | 98.1% is FY2025. **H1 2026 NRR = 96.9%** — fell 120bp in one half | Core moat metric stale and deteriorating |
+| 1 analyst (Canaccord, 360p) | **2 brokers**: Canaccord 330p Buy + Cavendish (house broker) 400p; consensus 365p | Mode 10 premise wrong |
+
+**12-mode results:**
+
+| Mode | Verdict | Key Finding |
+|------|---------|-------------|
+| 1 Anti-fabrication | CONFIRMED THREAT | FRC-prompted IAS 16 reclassification extended amortisation 4.2× (20 months → 7 years); like-for-like FY2025 GM ≈ FY2022 GM; brief mixes two accounting bases |
+| 2 Moat challenge | CONFIRMED THREAT | Company's own marketing cites no auto-renewal, short contracts as a selling point vs Samsara/Verizon; gross attrition 12.8% rising; Radius price-undercutting at £7.50/vehicle/mo |
+| 3 NRR quality | CONFIRMED THREAT | NRR fell to 96.9% H1 2026; gross new subscriptions −13% Q1 2026; sequential ARR Q2 ≈ 3% annualised; trap already triggered |
+| 4 Competitive pressure | PLAUSIBLE THREAT | Geotab acquired Verizon Connect UK/EU SME channel Oct 2025; Samsara–Allianz insurance-bundled telematics; Radius at £7.50 |
+| 5 GM ceiling | CONFIRMED THREAT | Margin "expansion" substantially accounting artifact; 2023 France 2G provision £3.8M = precedent for network-sunset liability; GM structurally capped ~75% |
+| 6 Bull scenario | PLAUSIBLE THREAT | Brief's 475-545p used wrong share count; corrected: 5–6× EV/ARR multiple expansion unsupported by any comp (Michelin Connected Fleet ≈ 3.2× EV/revenue) |
+| 7 Management alignment | WEAK (bear fails) | Insider ownership 40.3%; founder bought 200K shares at 178p Dec 2024; zero insider selling — genuine alignment strength |
+| 8 Balance sheet stress | PLAUSIBLE THREAT | FY2026 dividend ≈ 103% FCF; France 2G/3G sunset capex unfunded; PP&E £17M growing faster than revenue |
+| 9 AIM liquidity | PLAUSIBLE THREAT | 2.61% bid/ask spread; free float ~£40-50M; stock moved −10.56% in one session on reaffirmed guidance |
+| 10 Single-analyst risk | WEAK (premise wrong) | Two brokers not one; effective independent = 1 (Cavendish is house broker); Canaccord downgrade to Hold → marginal buyer disappears |
+| 11 Historical delivery | CONFIRMED THREAT | CEO left Oct 2023; forecasts cut £2.6M (8% FY2024 rev) same announcement; FY2021 revenue declined outright; FY2025 "beat" partly accounting policy change |
+| 12 DCF valuation | PLAUSIBLE THREAT | At 9.5–11% WACC + 2.0–2.5% terminal growth → intrinsic ~205–275p, midpoint ~240p; at 242.5p stock is approximately at fair value, not at margin-of-safety discount |
+
+**Corrected multiples (48.43M shares, EV £111.8M):** EV/ARR 2.88x (was 4.3x); EV/EBITDA 8.5x (was 11.7x); EV/Revenue 3.13x (was 4.2x); P/FCF 22.6x (was 31x); FY27e P/E 13.8x.
+
+**Final verdict:** CAUTIOUS — **Grade B → B−**. Four CONFIRMED threats prevent Grade B. Hold-if-owned / watch-for-entry-below-200p. Key monitor: Q3 2026 gross new subscriptions. DCF midpoint ~240p = approximately at fair value. Memo: memos/QTX.L-2026-07-28.md; financials: financials/QTX.L.md.
+
+---
+
+### TXT.WA (Text SA / LiveChat, GPW Warsaw) → **Grade C / QUEUED** (§5 Asymmetry Gate FAIL)
+
+**Gate result: FAIL — 3 of 4 criteria fail.**
+
+| Criterion | Result | Reason |
+|-----------|--------|--------|
+| 1. Mispriced now? | FAIL | EV $317M already exceeds bull-case EV $277M (3.1× ARR); stock AT fair value at best |
+| 2. Realistic bull ≥2x? | FAIL | 2× requires 7× ARR at current +4% ARR growth — not credible within 3-year horizon |
+| 3. Upside skewed? | BORDERLINE | ~47-69% bull vs 26-47% bear; not compelling given bear plausibility |
+| 4. Catalyst or CORE? | FAIL | No catalyst; GM compressing 82%→68%; NRR not disclosed; not CORE-grade |
+
+**C=2 hard cap** (⚑non-EN GPW Warsaw primary filer). Downgrade QUEUED_HOT → **QUEUED**. Monitor trigger: Q1 FY2026/27 (Aug 28, 2026) — NP decline <15% YoY AND ARR growth >8% YoY. Memo: memos/TXT.WA-2026-07-28.md; financials: financials/TXT.WA.md.
+
+---
+
+## Bench Dip-Check — run #95 2026-07-28
+
+**EUZ.DE (Eckert & Ziegler SE):** Price updated to ~€15.57–15.66 (mid-upper zone; buy-zone remains ≤€16; strong add below €13). Theranostics sector catalyst: Lu-177 PSMA (Pluvicto) rally +43% week of Jul 23 2026 on NPI Medical positive SPLASH trial extension data; EUZ.DE CORE thesis reinforced. NuWays AG initiating Buy coverage Jul 23 2026 noted. IN ZONE (mid-upper). No action required; continue monitoring for US analyst initiation.
+
+---
+
+## Coverage Statistics — run #95 2026-07-28
+
+- **Universe: 487** (+1: TCS.TO QUEUED_CONDITIONAL)
+- QTX.L: QUEUED_HOT → **Grade B− WATCH** (§5 OPUS 12-mode complete; share count corrected 48.43M; IAS 16 artifact; NRR trap triggered; DCF ~240p = fair value)
+- TXT.WA: QUEUED_HOT → **Grade C QUEUED** (Asymmetry Gate FAIL; EV > bull EV; C=2 hard cap)
+- TCS.TO: new entry QUEUED_CONDITIONAL (GM verification pending)
+- Bench: EUZ.DE €15.57–15.66 IN ZONE (mid-upper); Pluvicto/theranostics catalyst noted; NuWays AG Buy initiated
+- **Sector 6 status:** ACTIVE — 11 passes completed; geo lenses covered: US/UK/ASX/TSX/NZX (passes 1–5), Japan/Korea (pass 6), TSXV+DACH+Benelux (pass 7), DACH §3.5 resolution (pass 8), SE Asia (pass 9), SW Europe (pass 10), Canadian TSX/TSXV + Baltic (pass 11). Next lens candidates: Nordic/Scandinavian VMS deeper dive or Benelux/French Euronext Growth second pass.
