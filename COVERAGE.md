@@ -1466,3 +1466,29 @@ Memo: memos/M7U.DE-2026-07-27.md
 - CODA WATCHLIST bench: APPROACHING flag removed ($11.78 > $10.00 prior, Q2 beat +18%)
 - Quality Bench (WATCHLIST.md): 31 entries (unchanged this run)
 
+---
+
+## Sector 7 (Specialty food & ag ingredients) — Pass 3 Coverage Notes (run #78, 2026-07-28)
+
+**ASX/NZ specialty food ingredients geo lens:** Web searches for ASX-listed and NZX-listed specialty food ingredient micro-caps returned industry analysis reports, large agricultural conglomerates, and already-captured names — no listable micro-cap names with the required niche GM + moat characteristics were surfaced.
+
+**Why ASX/NZ specialty food ingredients is structurally thin:**
+- **Private/cooperative structure:** Most qualifying names are private (Murray Goulburn cooperative successor Saputo, Fonterra NZ cooperative, Synlait private), part of large listed agricultural conglomerates (GrainCorp, Elders, Ridley Corp — already captured or SIZE_KILL), or too small to be listed (start-up/private food tech)
+- **Quality names already captured:** Prior passes (run #26 LWAY, run #57 European pass) captured the addressable universe; remaining names are commodity processors (GM <30%) or development-stage
+- **NZ:** Primary producers dominate (A2 Milk Company — already reviewed; SIZE_KILL prior pass); specialty ingredients niche very thin at NZX level
+- **ASX food ingredients at $20-300M cap:** Web searches returned Bubs Australia (infant formula — not specialty ingredient), Wattle Health (similar), Freedom Foods (not listed), a2 (SIZE_KILL); no novel specialty ingredient names with ≥45% GM
+
+**Net result:** 0 new QUEUED names. **2nd consecutive 0-new pass** (1st: run #57, European/UK AIM+US OTC geo lens; 2nd: run #78, ASX/NZ geo lens) → **Sector 7 = EXHAUSTED.**
+
+**Sector 7 status: EXHAUSTED** (2 consecutive 0-new passes). Revive only with LATAM ag biologicals geo lens or Japan specialty functional food ingredient geo lens (EDINET when proxy access restored).
+
+### Coverage Statistics Update (run #78)
+
+- Universe: 302 (unchanged this run — Sector 7 pass returned 0 new names; Sector 10 5th pass pending agent completion)
+- Sector 7: 3rd pass, **EXHAUSTED** (2nd consecutive 0-new pass — MARKED EXHAUSTED)
+- Sector 10: 5th pass ASX/East-European distribution — agent running; 0 new names expected (pending confirmation)
+- VHI.TO §5: IN PROGRESS run #78 — financials/VHI.TO.md complete; OPUS adversarial pass running; Grade B
+- OMDA.OL bench: back at ≤NOK 38-40 buy-zone boundary (CANNOT promote — GM unconfirmed; filing required)
+- PHO.OL bench: Jul 23 touched NOK 55.80 (T-0.80 from ≤55 trigger); Q2 earnings Jul 29
+- Quality Bench (WATCHLIST.md): 34 entries (unchanged this run)
+

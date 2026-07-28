@@ -861,3 +861,100 @@ US industrial precision at $20-400M with ≥46.5% GM is extremely thin. The publ
 - **KILL-LIST.md**: 4 Sector 3 5th pass kills appended
 - **Key finding for human review**: EUZ.DE (CORE Grade B) at ~€13.30, approaching "strong add below €13" threshold — no automated action possible; human decision needed
 - **REVIEW.md**: This §7 REFLECT audit entry
+
+---
+
+# §7 REFLECT — Run #78 (2026-07-28)
+
+*Trigger: 78 % 3 = 0 → mandatory every 3rd run. Coverage: bench re-price (all WATCHLIST names); data quality audit (3 financials/*.md); false-negative check (2 recent kills re-verified); universe exploration audit; systemic fixes.*
+
+---
+
+## 1. Bench Re-Price (§7 REFLECT run #78)
+
+**Most important finding: OMDA.OL BACK AT BUY-ZONE BOUNDARY — ~NOK 38-40**
+
+OMDA.OL (Omda AS, Norway) retraced −15%+ from NOK 47.00 (Jul 27, OUT of zone) to ~NOK 38-40 (Jul 28), placing it back within the ≤NOK 35-40 buy-zone. HOWEVER: cannot promote to QUEUED_HOT — GM ~63%~ remains single-source unconfirmed (Oslo Bors primary filing required before §5 eligibility). If filing GM confirmed → QUEUED_HOT immediately. EV/EBITDA at ~8-9x is near the cheapest observed for this name; VMS compounder archetype at this multiple is asymmetric if thesis holds.
+
+**PHO.OL (Photocure ASA) — BOUNDARY TOUCH Jul 23; Q2 earnings Jul 29**
+
+PHO.OL touched NOK 55.80 on Jul 23 (T-NOK 0.80 from ≤NOK 55 trigger). Current ~NOK 55-60 · Jul 28. Q2 2026 earnings due tomorrow Jul 29. An earnings miss is the primary dip catalyst. Promote to QUEUED_HOT if price closes ≤NOK 55.
+
+**XRF.AX (XRF Scientific) — APPROACHING maintained; price conflict**
+
+Run #78 bench agent returned A$2.12 (likely stale Morningstar Jul 4 data). Run #76 confirmed A$1.74 Jul 28. APPROACHING flag maintained at A$1.74 — T-A$0.09 from ≤A$1.65 ceiling. Single dip below A$1.65 = PROMOTE immediately.
+
+**CODA (Coda Octopus) — minor uptick $11.78 → $11.99; above zone**
+
+CODA ticked up to ~$11.99 (~$137M cap). Remains T+$30M above ≤$107M trigger. Monitor for pullback to $8-10 zone.
+
+**JOUT (Johnson Outdoors) — stale price updated Jul 15 → Jul 28**
+
+Updated $45.96 Jul 15 → ~$44-46 Jul 28. Stable; T-~$4-6 from ≤$38-40 buy-zone.
+
+**IVU.DE — ~€20.00 declining; monitor**
+
+~€20 (~€354M cap) · Jul 27. Declining ~−6% in July. T-~€104M cap from ≤€250M trigger. Continued decline toward zone.
+
+**All other bench names: no material change.** WINA, OFLX, 4549.T, 6823.T, EKF.L, 6742.T, CGS.L, ETON, SMID, EPEN.ST, RX.V, MEDI.OL, SECARE.ST, NZX:SKL, NSSC, JHD.L, CUV.AX, CER.L, TSTL.L, CPH.TO, NEU.AX, PNV.AX, CBOX.L, NDAP.AS, ALRIB.PA, SENS.SW, HSN.AX, ENGH.TO, OCL.AX: all above respective buy-zones; no promotions triggered.
+
+---
+
+## 2. Data Quality Audit (run #78)
+
+**VHI.TO (financials/VHI.TO.md — NEW)**
+- All data ~-trust (web search summaries; SEDAR+ not accessible in cloud environment)
+- ARR, revenue, EBITDA figures sourced from press release summaries via web search
+- Trust tags applied correctly: all ~ throughout; no fabricated ✓ tags
+- Buddy Healthcare acquisition (Jul 13 2026, €8.6M/~C$13M) discovered this run — not in prior run #77 analysis
+- Operating profitability concern (core operating income ~C$0-2M/year without interest on C$121M cash) correctly flagged ⚠
+- **PASS — data appropriately ~-tagged; no inflated trust tags**
+
+**OMDA.OL (bench name — price data integrity)**
+- Price ~NOK 38-40 sourced from web search ~-trust; Oslo Bors not directly accessible
+- Price swing NOK 47→38-40 in 24h consistent with small-cap Norwegian illiquidity
+- GM ~63% remains single-source (Q2 2025 press release summary); filing-anchored ✓ NOT achieved → correctly blocking promotion
+- **PASS — correctly tagged; no false promotion**
+
+**PHO.OL (bench name — price + earnings status)**
+- Jul 23 dip to NOK 55.80 sourced ~-trust from web search
+- Q2 2026 earnings confirmed NOT yet reported as of Jul 28; due Jul 29
+- **PASS**
+
+**Standing limitation:** SEC EDGAR proxy-blocked (403 Forbidden) — structural cloud environment constraint. All US financials/*.md files remain ~-tagged. Non-US filers outside ASX/LSE limited to web aggregator data. This is structural, not a data integrity failure; correctly reflected throughout KB.
+
+---
+
+## 3. False-Negative Check (run #78)
+
+**PHO.OL — re-verified correct bench route**
+
+PHO.OL routed to bench despite 7 analysts (COVERAGE_KILL threshold). v5.1 bench route for Q≥4 durable-moat names with thick coverage is correct. FDA+EMA regulatory monopoly on blue-light cystoscopy (hexaminolevulinate HAL) to Dec 2036 is a genuine durable regulatory moat. **No false negative — bench placement correct.**
+
+**OMDA.OL — re-verified correctly blocked**
+
+OMDA.OL blocked from QUEUED_HOT (unconfirmed GM). Moat thesis (ProSang 100% blood mgmt market share Sweden+Denmark; regulatory revalidation switching cost) is real and documented. The block is procedural, not a thesis failure. **No false negative — block correctly applied pending GM filing.**
+
+---
+
+## 4. Universe Exploration Audit (run #78)
+
+**Sector 7 3rd pass — ASX/NZ specialty food ingredients: 0 new names → EXHAUSTED**
+
+Web searches for ASX/NZ specialty food ingredient micro-caps returned industry reports and large agricultural conglomerates — no listable micro-cap names with niche GM + moat characteristics. This is the **2nd consecutive 0-new pass** (1st was run #57). → **Sector 7 = EXHAUSTED.** Structural reason: most qualifying names are private, part of large cooperatives (Fonterra), or already captured in prior sweeps.
+
+**Sector 10 5th pass (East-European distribution):** Pending agent a513ac9410d23b112 completion. Preliminary results: 0 new names. Will update COVERAGE.md and KILL-LIST.md on completion.
+
+---
+
+## 5. Systemic Fixes Shipped This Run
+
+- **WATCHLIST.md**: 5 updates — OMDA.OL CRITICAL (NOK 47→38-40; OUT→⚠AT BUY-ZONE BOUNDARY); PHO.OL (Jul 23 55.80 boundary touch + Q2 Jul 29 catalyst note); XRF.AX (A$2.12 price conflict noted; APPROACHING maintained); JOUT (stale Jul 15 → Jul 28 $44-46); CODA ($11.78→$11.99)
+- **financials/VHI.TO.md**: NEW — Q1 FY2026, FY2025, FY2024 baselines; EV decomposition; Buddy Healthcare captured; interest income dependency analysis; all ~-trust
+- **memos/VHI.TO-2026-07-28.md**: PENDING (OPUS adversarial agent a0071f229d2af3116 running)
+- **STATE.md**: PENDING update (runs 77→78; Sector 7 EXHAUSTED; QUEUED_HOT resolved; sector rotation line)
+- **UNIVERSE.md**: PENDING update (VHI.TO §5 COMPLETE; Buddy Healthcare acquisition; sector sweep kills)
+- **COVERAGE.md**: PENDING (Sector 7 EXHAUSTED note)
+- **KILL-LIST.md**: PENDING (sector sweep kills)
+- **Key findings for human review**: (1) OMDA.OL back at ≤NOK 38-40 — CANNOT auto-promote (GM unconfirmed); Oslo filing access → QUEUED_HOT immediately. (2) PHO.OL Q2 earnings Jul 29 — monitor for ≤NOK 55 close. (3) VHI.TO §5 Grade B — memos/VHI.TO-2026-07-28.md pending OPUS pass.
+- **REVIEW.md**: This §7 REFLECT audit entry
