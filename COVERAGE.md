@@ -1734,3 +1734,26 @@ Memo: memos/M7U.DE-2026-07-27.md
 5. **Sole qualifying survivor:** ANP.L (Anpario plc, AIM) at CANDIDATE 8/12 — the only listed specialty food/ag ingredient company globally that clears: (a) cap $20-500M ✓, (b) GM ≥45% ✓ (51.4%), (c) profitable ✓, (d) genuine moat ✓ (SWITCHING_COST in natural antimicrobial-alternative feed actives), (e) coverage ≤4 analysts ✓, (f) non-defense ✓. Currently above buy-zone at ~£89M cap vs £48-60M trigger.
 
 **Sector 7 status: ACTIVE** — 1st consecutive 0-new-QUEUED pass (run #83). Prior streak was reset by BUB.AX in run #78, but BUB.AX was subsequently COVERAGE_KILL (run #79: 7 analysts, Q<4). Need 2nd consecutive 0 for EXHAUSTED. **Recommendation: do 1 more targeted pass (5th pass) focused exclusively on ag biologicals OTC/AIM names if proxy constraints ease; if 0-new, declare EXHAUSTED.** Key future re-entry trigger: AKBM.OL if cap corrects below $500M + consistent quarterly profitability; EDEN.AIM if revenue ≥£10M + consistent operating profit.
+
+---
+
+## Sector 5 (Testing/Inspection/Certification) — Pass 4 Coverage Notes (run #85, 2026-07-28)
+
+**Global web scout (§2B web-search mode; all systematic tools proxy-blocked):** 3 names killed; 0 new QUEUED. 2nd consecutive 0-new pass → **Sector 5 EXHAUSTED**.
+
+**QUEUED_CONDITIONAL resolution:**
+- ABSO.ST (Absolent Air Care Group, Nasdaq Stockholm) — QUEUED_CONDITIONAL from run #84 Sector 3 6th pass. GM baseline completed this run: GM 41.28% ~ (single financial aggregator source; absolentgroup.com WebFetch 403-blocked; tagged ~). Below ≥45% gate. Revenue declining -12.1% YoY (9M FY2025: SEK 928.5M). EBIT margin 8.98% FY2025 (SEK 128.7M / SEK 1,292.6M). Moat real (Filtermist brand 1969, Diversitech, recurring filter cassettes) but LOW_GM structural in industrial equipment manufacturing. → **LOW_GM_KILL** confirmed.
+
+**CAP_KILLs (2 — above $1.5B ceiling):**
+- NEOG (Neogen Corporation, Nasdaq) — food safety testing reagents, microbial/allergen/mycotoxin test kits; 3M Food Safety acquisition 2022; genuine REGULATORY+CONSUMABLE moat. BUT cap ~$1.88-2.23B = above $1.5B ceiling. **CAP_KILL.**
+- ALQ (ALS Limited, ASX) — global laboratory testing services for mining/environmental/food/pharma; largest independent mining lab network globally; genuine SCALE+ACCREDITATION moat. BUT cap ~A$12.2B (~$7.9B USD) = ~8x $1.5B ceiling. 8+ ASX analysts. **CAP_KILL.**
+
+**Names already in universe (not re-counted):**
+- MG (Mistras Group, NYSE) — NDT inspection services; cap ~$564M; already in universe from Sector 18 Pass 2 (run #46) as CAP_SOFT_KILL (~$580M)
+- MLAB (Mesa Laboratories, Nasdaq) — calibration services/instruments; cap ~$520M; already in universe from run #75 (Sector 3 5th pass) as CAP_KILL
+- TIC (Acuren Corp, NYSE) — industrial TIC services; already in universe from prior Sector 5 pass as PARK
+
+**Why Sector 5 TIC is structurally EXHAUSTED at $20M–$1.5B cap / ≥45% GM:**
+The global TIC industry has extreme cap concentration at the top. The 6 global TIC giants (SGS ~$9B, Intertek ~$6B, Bureau Veritas ~$9B, Eurofins ~€13B, ALS A$12.2B, Applus ~$1.5B) absorb all the high-margin testing work. The next tier (Neogen $1.9B+, MLAB $520M, Mistras $564M, TRNS $700-900M) is either above cap or fails GM due to service-heavy revenue mix. Quality niche TIC below $1.5B that has been captured in prior passes: Calnex Solutions (CLX, QUEUED 8/12, run #64). Remaining sub-$500M listed TIC is predominantly service businesses (NDT inspection, lab services = 30-40% GM) that structurally fail the ≥45% GM gate. **Revive only with a fresh angle: Japan OTC precision measurement niche (EDINET when restored), or EU specialty certification niche (sub-€100M DAkkS/ENAC accredited certifiers) at sub-$100M cap.**
+
+**Net result: 0 new QUEUED from pass 4; 2nd consecutive 0-new pass → Sector 5 EXHAUSTED.**
