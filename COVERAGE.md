@@ -1687,3 +1687,50 @@ Memo: memos/M7U.DE-2026-07-27.md
 
 **Sector 6 status: ACTIVE** — consecutive-0-new streak RESET (5 new QUEUED this pass). Next: Sector 7 4th pass Japan specialty functional food/ingredients geo lens.
 
+
+---
+
+## Sector 7 (Specialty Food & Ag Ingredients) — Pass 4 Coverage Notes (run #83, 2026-07-28)
+
+**Global web scout geo lens:** Broad coverage of specialty food/ag ingredient companies globally — US, UK/AIM, Europe, Norway, Japan, ASX, Korea. §2B web-search mode (all systematic APIs proxy-blocked: SEC EDGAR, Yahoo Finance, EDINET, DART, TWSE). 20+ names triaged; 0 new QUEUED; 4 new kills; ANP.L confirmed CANDIDATE 8/12 (already in UNIVERSE from run #71).
+
+### Names Triaged This Pass (run #83)
+
+| Ticker | Company | Outcome | Key Metrics / Kill Reason |
+|--------|---------|---------|--------------------------|
+| AKBM.OL | Aker BioMarine (Oslo) | CAP_KILL + NOT_YET_PROFITABLE | ~$800-900M cap; ~44% GM (near gate but cap well above ceiling); near-breakeven |
+| CRBN.AMS | Corbion N.V. (Amsterdam) | CAP_KILL + LOW_GM_KILL | ~€1.1B cap; ~26% GM — dual kill |
+| 4914.T | Takasago International (TSE) | CAP_KILL + LOW_GM_KILL | ~$770M cap; ~32% GM — dual kill |
+| EDEN.AIM | Eden Research (AIM) | NOT_YET_PROFITABLE_KILL | £28M cap; ~52% GM ✓; but NOT profitable (net loss; 2+ yrs to break-even per analysts) |
+| ANP.L | Anpario plc (AIM) | ALREADY_SEEN CANDIDATE 8/12 | £89M cap ~ vs buy-zone £48-60M; 51.4% GM ✓; 4 analysts ✓; §5 pending until in-zone |
+| BIOX | Bioceres Crop Solutions (Nasdaq) | ALREADY_SEEN INTEGRITY_KILL | Run #72; Argentine ag-biotech; ProFarm foreclosure + $247M net loss; DART-blocked |
+| MGPI | MGP Ingredients (Nasdaq) | ALREADY_SEEN SIZE_KILL | >$300M cap; wheat proteins (Arise, Fibersym, Proterra) + spirits; spirits dilutes moat |
+| AVD | American Vanguard (NYSE) | ALREADY_SEEN SECTOR_ADJACENT_KILL | Specialty/biorational pesticide registrations; sector-adjacent; inconsistent profitability |
+| NAII | Natural Alternatives International | ALREADY_SEEN INTEGRITY_KILL | Micro-cap; net loss; delayed 10-K filing |
+| HWKN | Hawkins Inc (Nasdaq) | ALREADY_SEEN CAP_KILL | ~$2.9B cap; primarily distribution/blending, not IP-moat |
+| TET.L | Treatt plc (LSE/AIM) | ALREADY_SEEN NO_MOAT_KILL + COVERAGE_KILL | £250-300M; 8 analysts; 26% GM fails gate; twice killed |
+| ODC | Oil-Dri Corporation | ALREADY_SEEN PRICE_KILL + CAP_SOFT_KILL | $1.35B cap; +120% 12-mo; re-rating complete |
+| RIC.AX | Ridley Corporation (ASX) | ALREADY_SEEN LOW_GM_KILL | ~8% GM; animal feed commodity |
+| SXT | Sensient Technologies (NYSE) | ALREADY_SEEN CAP_KILL | ~$4.2B cap |
+| BCPC | Balchem Corporation (Nasdaq) | ALREADY_SEEN CAP_KILL | ~$5.4B cap |
+| DAR | Darling Ingredients (NYSE) | ALREADY_SEEN CAP_KILL | ~$10B cap |
+| NSIS | Novonesis (Copenhagen) | ALREADY_SEEN CAP_KILL | ~$27B cap; mega-cap |
+| 600298.SS | Angel Yeast (Shanghai) | JURISDICTION_KILL | Mainland China; $4.6B cap |
+| WYNNSTAY / WYN.AIM | Wynnstay Group (AIM) | NO_MOAT_KILL | Agricultural feed distributor; low margin; no specialty moat |
+| OGN | Origin Enterprises (Dublin) | NO_MOAT_KILL | Agronomy services; no specialty ingredient IP |
+
+### Structural Finding (Sector 7 Pass 4 — Final Assessment)
+
+**Sector 7 is approaching structural exhaustion at the global level.** The specialty food/ag ingredients space at $20-500M cap / ≥45% GM / profitable intersection is extremely thin:
+
+1. **Quality leaders are all large-cap:** Novonesis (~$27B), IFF divesting food ingredients to CVC ($4.3B), Corbion (~€1.1B), Sensient (~$4.2B), Balchem (~$5.4B), Takasago (~$770M), Aker BioMarine (~$800-900M near-profitable) — all above the cap ceiling.
+
+2. **Ag biologicals listed space has profitability gaps:** Eden Research (NOT_YET_PROFITABLE), Bioceres/ProFarm (INTEGRITY_KILL on $247M loss), Marrone Bio (absorbed and in foreclosure). The technology moats are real but the commercial-stage profitability screen eliminates all.
+
+3. **Major sector players are private:** Lallemand (Canada), Lesaffre (France), Bioseutica (Italy, egg enzymes), Koppert (Netherlands), BioWorks (US), Sound Agriculture (US), Virginia Dare (US), Andermatt Biocontrol (Switzerland). The canonical moat players in this niche are overwhelmingly private — a structural feature of the specialty ingredient industry (family/PE-owned founder businesses that never listed).
+
+4. **M&A consolidation thinned the listed layer:** IFF/Frutarom ($7.1B 2018), Ingredion/Penford ($340M 2015), Ingredion absorbing Tate & Lyle ($5B announced Q2 2026), Chr. Hansen merging into Novonesis (2024). The sector is actively consolidating — the best listed small-caps become private or merge upward.
+
+5. **Sole qualifying survivor:** ANP.L (Anpario plc, AIM) at CANDIDATE 8/12 — the only listed specialty food/ag ingredient company globally that clears: (a) cap $20-500M ✓, (b) GM ≥45% ✓ (51.4%), (c) profitable ✓, (d) genuine moat ✓ (SWITCHING_COST in natural antimicrobial-alternative feed actives), (e) coverage ≤4 analysts ✓, (f) non-defense ✓. Currently above buy-zone at ~£89M cap vs £48-60M trigger.
+
+**Sector 7 status: ACTIVE** — 1st consecutive 0-new-QUEUED pass (run #83). Prior streak was reset by BUB.AX in run #78, but BUB.AX was subsequently COVERAGE_KILL (run #79: 7 analysts, Q<4). Need 2nd consecutive 0 for EXHAUSTED. **Recommendation: do 1 more targeted pass (5th pass) focused exclusively on ag biologicals OTC/AIM names if proxy constraints ease; if 0-new, declare EXHAUSTED.** Key future re-entry trigger: AKBM.OL if cap corrects below $500M + consistent quarterly profitability; EDEN.AIM if revenue ≥£10M + consistent operating profit.

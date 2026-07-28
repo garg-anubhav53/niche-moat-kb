@@ -3521,3 +3521,93 @@ Structural finding: The US Nasdaq/NYSE life-sci tools universe in $20-300M cap z
 
 **Structural finding (Sector 18 Japan/Korea 5th pass):** Profitable Japanese/Korean precision instruments at $20-300M cap is structurally thin in the EDINET-accessible web-searchable layer. Quality names are either (a) already on the KB bench (6823.T/Rion), (b) filing-blocked until EDINET proxy restored (7727.T/OVAL), or (c) above $300M cap ceiling (6741.T/Nippon Signal at ~$550-750M). Korean precision instrument makers (Hanwha, Doosan precision segments) are either defense-adjacent or large-cap. Revive Sector 18 only when EDINET proxy is restored — 7727.T/OVAL is the primary target.
 
+
+---
+
+## Sector 6 (Vertical/Mission-Critical Software & Data) — 6th Pass Japan/Korea SaaS Geo Lens (run #82, 2026-07-28)
+
+### SIZE_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| 3762.T | Tech Matrix Inc. (TSE, Japan) | sub-¥3B (~<$20M) | 2026-07-28 | SIZE_KILL — Japan IT services/software; cap below investable floor |
+| 4776.T | Cyberlinks Co. Ltd (TSE, Japan) | sub-¥3B (~<$20M) | 2026-07-28 | SIZE_KILL — Japan B2B software (document/print management); too small |
+| 3923.T | Rakus Co. Ltd (TSE, Japan) | ~¥35B (~$230M) but structural | 2026-07-28 | SIZE_KILL — Japan expense/invoice SaaS (楽楽精算); CAP_SOFT boundary; no EDINET-verified moat data accessible |
+| 3673.T | Broadleaf Co. Ltd (TSE, Japan) | ~¥12B (~$80M) | 2026-07-28 | SIZE_KILL — Japan automotive dealership ERP (QUANTUM/Blue; dealer management systems for Toyota/Honda/Nissan dealer networks); too small at web-search-accessible data layer; EDINET-blocked |
+| 030190.KS | NICE Information & Telecommunication | ~KRW 300B (~$220M) | 2026-07-28 | SIZE_KILL — Korean IT services/software (enterprise network infrastructure, security solutions); SIZE_KILL concurrent DART proxy-blocked |
+
+### CAP_SOFT_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| 4431.T | Sansan Inc. (TSE, Japan) | ~¥160-200B (~$1B+) | 2026-07-28 | CAP_SOFT_KILL — Japan B2B digital business card/contact management SaaS (Sansan, Bill One); cap significantly above $500M ceiling; COVERAGE well above 4-analyst gate |
+| 4435.T | Karte by Plaid Inc. (TSE, Japan) | ~¥80-120B (~$530-800M) | 2026-07-28 | CAP_SOFT_KILL — Japan customer data platform/CX analytics SaaS (KARTE product analytics); cap at/above ceiling; early-stage SaaS moat |
+
+### MOAT_SOFT_KILLs
+
+| Ticker | Company | Kill Date | Kill Reason |
+|--------|---------|-----------|-------------|
+| 4475.T | HENNGE K.K. (TSE, Japan) | 2026-07-28 | MOAT_SOFT_KILL — cloud SSO/MFA identity security SaaS for Japan enterprise (HENNGE One); genuine switching cost in identity/auth stacks; but SSO/MFA space increasingly commoditized by Okta/Microsoft Entra; GM unverifiable without EDINET; cap ~¥40-60B at boundary |
+| 4323.T | NSD Co. Ltd (TSE, Japan) | 2026-07-28 | MOAT_SOFT_KILL — Japan IT services/SI (financial + manufacturing verticals, primarily custom development); SI project-based revenue = insufficient moat purity; recurring revenue % unverified |
+| 2158.T | Fronteo Inc. (TSE, Japan) | 2026-07-28 | MOAT_SOFT_KILL — Japan AI legal analytics + drug discovery AI (KIBIT engine); moat hypothesis plausible but platform not yet sole-source embedded; profitability inconsistent; EDINET-blocked for GM verification |
+| 5266.T | Raksul Inc. (TSE, Japan) | 2026-07-28 | MOAT_SOFT_KILL — Japan B2B print/logistics/advertising marketplace (Raksul, Novasell, Hacobell); marketplace aggregator model, not SaaS moat; GM compressed by fulfilment costs |
+| 035600.KQ | KG ECI (KOSDAQ, Korea) | 2026-07-28 | MOAT_SOFT_KILL — Korean IT services/solutions (enterprise SI + security, financial sector-focused); SI-heavy revenue mix; DART proxy-blocked for moat/GM verification |
+| 466410.KQ | Kakaobank (KOSDAQ, Korea) | 2026-07-28 | MOAT_SOFT_KILL — Korean digital bank (Kakao affiliate; mobile-first bank); financial sector = excluded from specialty SaaS moat definition; banking license moat ≠ software switching-cost moat; CAP_KILL concurrent (~KRW 5-8T) |
+
+### LOW_GM_KILL
+
+| Ticker | Company | GM ~ | Kill Date | Kill Reason |
+|--------|---------|------|-----------|-------------|
+| 4442.T | Recruit Holdings subsidiary / WMT Tech (TSE, Japan) | <35% ~ | 2026-07-28 | LOW_GM_KILL — Japan IT services/HR tech; gross margin below ≥45% gate; EDINET-blocked confirmation |
+
+### CAP_TOO_SMALL_KILLs
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| 4391.T | Net One Systems Co. Ltd (TSE, Japan) | ~¥2-3B (~<$20M) | 2026-07-28 | CAP_TOO_SMALL_KILL — Japan network/security infrastructure; below investable floor |
+| 039290.KQ | DS Networks (KOSDAQ, Korea) | ~KRW 10-30B (~<$25M) | 2026-07-28 | CAP_TOO_SMALL_KILL — Korean network/IT solutions; below investable floor |
+
+**Run #82 Sector 6 6th pass kill tally:** 5 SIZE_KILLs + 2 CAP_SOFT_KILLs + 6 MOAT_SOFT_KILLs + 1 LOW_GM_KILL + 2 CAP_TOO_SMALL_KILLs + 2 PARKs (475A.T/060850.KQ) = 18 total kills; 5 new QUEUED (071200.KS QUEUED_HOT, 030520.KQ, 3921.T, 3969.T, 053580.KQ). Consecutive-0-new streak RESET — Sector 6 ACTIVE.
+
+**Structural finding (Sector 6 Japan/Korea 6th pass):** Japan/Korea vertical SaaS at the web-search-accessible layer is thin but productive: quality names with REGULATORY moat (071200.KS Infinitt Healthcare, PACS Korea #1) and SWITCHING_COST moat (030520.KQ Hancom, 3921.T NeoJapan, 3969.T Atled, 053580.KQ WebCash) exist but §5 deep-dives are blocked pending EDINET/DART proxy restoration.
+
+---
+
+## Sector 7 (Specialty Food & Ag Ingredients) — 4th Pass Global Specialty Food/Ag Web Scout (run #83, 2026-07-28)
+
+### CAP_KILL + NOT_YET_PROFITABLE_KILL
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| AKBM.OL | Aker BioMarine AS (Oslo Børs, Norway) | ~NOK 8.71B (~$800-900M USD) | 2026-07-28 | CAP_KILL + NOT_YET_PROFITABLE_KILL — Antarctic krill harvester; Superba Krill phospholipid omega-3, Lysoveta LPC-DHA, Qrill aquafeed. Moat hypothesis: sole-vessel access to sustainable Antarctic krill quota (quota-limited fishery); proprietary phospholipid-form absorption technology (PL+ platform); clinical IP behind branded B2B ingredients. GM reaching ~44% Q3 2025 (approaching ≥45% gate). NEAR-BREAKEVEN (Q3 2025 net profit $0.3M — not yet consistently profitable). BUT: cap ~$800-900M USD = well above $500M soft ceiling. Dual kill: CAP_KILL + NOT_YET_PROFITABLE. Re-entry trigger: cap <$500M + 2 consecutive profitable quarters + GM confirmed ≥45% from Oslo annual report. |
+
+### CAP_KILL + LOW_GM_KILL
+
+| Ticker | Company | Cap ~ | GM ~ | Kill Date | Kill Reason |
+|--------|---------|-------|------|-----------|-------------|
+| CRBN.AMS | Corbion N.V. (Euronext Amsterdam, Netherlands) | ~€1.1B | ~26% | 2026-07-28 | CAP_KILL + LOW_GM_KILL — global lactic acid and derivatives manufacturer (food preservation emulsifiers, Purac lactic acid, algal DHA Veramaris JV); PROCESS moat from fermentation scale advantages; regulatory approval embedded in customer formulations. GM ~26% = well below ≥45% gate. Cap ~€1.1B = well above $500M ceiling. Dual kill. Moat thesis is real but at wrong scale and wrong margin profile for this screen. |
+| 4914.T | Takasago International Corporation (TSE, Japan) | ~¥115.7B (~$770M USD) | ~32% | 2026-07-28 | CAP_KILL + LOW_GM_KILL — major Japanese flavor and fragrance house; 27-country global operations; proprietary chiral aroma chemical synthesis (sole-source for some chiral aroma applications); deep Japanese food/FMCG customer relationships. GM ~32% = below ≥45% gate. Cap ~$770M = above $500M ceiling. Dual kill. Quality business but wrong scale and wrong margin for this screen. |
+
+### NOT_YET_PROFITABLE_KILL
+
+| Ticker | Company | Cap ~ | Kill Date | Kill Reason |
+|--------|---------|-------|-----------|-------------|
+| EDEN.AIM | Eden Research plc (AIM, UK) | ~£28M (~$36M) | 2026-07-28 | NOT_YET_PROFITABLE_KILL — terpene-based biopesticide developer (Mevalone biofungicide, Cedroz bionematicide, Ecovelex); proprietary Sustaine microencapsulation platform (licensed to Certis, Sipcam etc.); EU regulatory approvals as biofungicide/bionematicide = genuine REGULATORY moat. GM ~52% ✓. BUT: revenue ~£4.9M (15 months to March 2026) = ~£4M annualized; NOT YET PROFITABLE (net loss; not expected profitable for 2+ years per analyst coverage). Development-stage/early-commercial. High-quality IP but premature for this screen. Re-entry: when revenue ≥£10M + consistent operating profit for 2 consecutive half-years. |
+
+### ALREADY_SEEN confirmations (no new KILL-LIST entry needed)
+
+Previously killed, re-confirmed this pass:
+- BIOX (Bioceres) — INTEGRITY_KILL (run #72)
+- MGPI (MGP Ingredients) — SIZE_KILL
+- AVD (American Vanguard) — SECTOR_ADJACENT_KILL
+- NAII (Natural Alternatives International) — INTEGRITY_KILL
+- HWKN (Hawkins Inc) — CAP_KILL
+- TET.L/TTTRF (Treatt plc) — NO_MOAT_KILL + COVERAGE_KILL (twice killed)
+- ODC (Oil-Dri Corp) — PRICE_KILL + CAP_SOFT_KILL
+- RIC.AX (Ridley Corporation) — LOW_GM_KILL (run #78)
+- SXT (Sensient Technologies) — CAP_KILL (prior pass)
+- BCPC (Balchem Corporation) — CAP_KILL (prior pass)
+
+**Run #83 Sector 7 4th pass kill tally:** 1 CAP_KILL+NOT_YET_PROFITABLE (AKBM.OL) + 2 CAP_KILL+LOW_GM_KILL (CRBN.AMS, 4914.T) + 1 NOT_YET_PROFITABLE (EDEN.AIM) = 4 new kills; 0 new QUEUED. **1st consecutive 0-new-QUEUED pass** (streak was reset by BUB.AX run #78; BUB.AX subsequently COVERAGE_KILL run #79). Sector 7 ACTIVE (need 2nd consecutive 0 for EXHAUSTED). ANP.L confirmed CANDIDATE status (already in UNIVERSE from run #71/72; at ~£89M cap above buy-zone £48-60M; §5 pending until in-zone).
+
+**Structural finding (Sector 7 4th pass):** Specialty food/ag ingredients at $20-500M cap / ≥45% GM / profitable is structurally thin across all geos. The industry's quality moat names (Novonesis, IFF, Givaudan, Chr. Hansen merged, Corbion, Sensient, Balchem, Takasago, Angel Yeast) are all either (a) large-cap ($500M+), (b) low-GM (<45%), (c) jurisdiction-excluded (mainland China), or (d) not yet profitable. The sole qualifying listed survivor at the right scale globally is ANP.L (Anpario plc, AIM) — already in KB at CANDIDATE 8/12 status. Major sector players (Lallemand, Lesaffre, Bioseutica, Koppert, Virginia Dare, BioWorks) are private. AG biologicals listed space (BIOX, Eden Research) has development-stage/early-commercial profitability problems. M&A consolidation wave (IFF divesting food ingredients to CVC; Ingredion absorbing Tate & Lyle; Frutarom absorbed by IFF) has further thinned the listed small-cap layer.
