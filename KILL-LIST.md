@@ -3975,3 +3975,43 @@ Previously killed, re-confirmed this pass:
 | SPACE.AT | Space Hellas SA (Athens Exchange Greece, ~€46M cap) | Vertical/mission-critical software & data (Sector 6 SW Europe Pass 10 run #93) | 2026-07-28 | **SERVICES_KILL** | Network security and enterprise IT infrastructure integration services; Cisco/HP/Dell integrator + managed services; GM likely <45% (integration/managed services margin profile); no proprietary software or durable moat; reseller/integrator model without switching-cost IP. |
 
 **Run #93 Sector 6 SW Europe Pass 10 tally (16 raw names): 1 MOAT_ABSENT_KILL + 3 SERVICES_KILL = 4 kills; 2 bench (WIIT.MI/ABS.WA); 7 leads/conditional (ALL.WA/ENTER.AT/GLINT.LS ⚑non-EN C≤2; TXT.MI DEFENSE_UNCERTAIN; XPR.MI SERVICES_UNCERTAIN; NSP.EGM PROFITABILITY_UNVERIFIED; GRW.EGM POST-DIVESTITURE_UNVERIFIED); 2 QUEUED §4 (TXT.WA/QTX.L); NSE:ACCELYA QUEUED_CONDITIONAL maintained.**
+
+## §2B Sector 0 Japan/Korea Specialty Chem 1st pass kills — run #96 2026-07-29
+
+### SECTOR_KILL (4 — Sector 0 Japan/Korea Pass 1)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 6855.T | Japan Electronic Materials Corp. (TSE) | Semiconductor testing instruments | 2026-07-29 | **SECTOR_KILL** | Makes probe cards (semiconductor testing instruments/contact pins for wafer-level testing), NOT specialty chemicals or materials. TSE-classified Technology sector. Revenue ~$190M and 18.6% net margin are strong but wrong sector for this KB's Sector 0 specialty chem/materials universe. |
+| 7871.T | Fukuvi Chemical Industry Co., Ltd. (TSE) | PVC architectural extrusion | 2026-07-29 | **SECTOR_KILL** | PVC extrusion manufacturer for architectural products (window profiles, wall cladding panels, drywall systems). Name contains "Chemical" but TSE-classifies as Capital Goods (architectural products). Net margin 4.1%; gross margin well below 45%; no specialty chemical moat. |
+| 032300.KQ | Korea Pharma Co., Ltd. (KOSDAQ) | Pharmaceutical | 2026-07-29 | **SECTOR_KILL** | Pharmaceutical drug manufacturer (amino acids, antibiotics, antihistamines). Not a specialty chemical or materials company. |
+| 018680.KQ | Seoul Pharma Co., Ltd. (KOSDAQ) | Pharmaceutical | 2026-07-29 | **SECTOR_KILL** | Pharmaceutical ODF (orally disintegrating film) manufacturer. Not a specialty chemical or materials company. |
+
+### CAP_KILL (5 — Sector 0 Japan/Korea Pass 1)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 4107.T | ISE Chemicals Corp. (TSE; AGC subsidiary) | Specialty chemicals — iodine/metallic compounds | 2026-07-29 | **CAP_KILL** | Market cap ~¥237B / ~$1.53B — just $30M above $1.5B ceiling. Also majority-owned by AGC Inc. (reduces free-float investability). NEAR-MISS: iodine business (top-tier Japan iodine supplier for LCD polarizing films, X-ray contrast media, pharmaceutical intermediates) is genuinely moated — Japan accounts for ~25-30% global iodine production and supply is geographically concentrated. Revisit if cap retreats below $1.5B. |
+| 4186.T | Tokyo Ohka Kogyo Co., Ltd. (TSE) | Photoresist chemicals | 2026-07-29 | **CAP_KILL** | Major photoresist and semiconductor process chemical manufacturer. Estimated market cap $2–4B — well outside $1.5B ceiling. Would be quality moat at smaller size. |
+| 4099.T | Shikoku Kasei Holdings Corp. (TSE) | Mixed specialty/commodity chem | 2026-07-29 | **CAP_KILL** | Market cap ~¥219–248B ($1.4–1.6B, borderline ceiling). Revenue ~¥80B ($513M) also exceeds $400M profile. Mixed business (carbon disulfide, pool disinfectants, chlorinated isocyanuric acid, building materials) limits blended moat argument. |
+| 005290.KQ | Dongjin Semichem Co., Ltd. (KOSDAQ) | Semiconductor process chemicals | 2026-07-29 | **CAP_KILL** | Market cap 3.01T KRW ≈ $2.2B; revenue 1.19T KRW ≈ $880M. Both metrics exceed ceiling by 2×+. Pioneer of Korean photoresist production. Well-covered. |
+| 014680.KS | Hansol Chemical Co., Ltd. (KOSPI) | Electronic-grade hydrogen peroxide | 2026-07-29 | **CAP_KILL** | Market cap ~$1.3B (passes cap); revenue $620M (fails $400M profile). Core product is electronic-grade H₂O₂ for semiconductor cleaning — a commodity even at high purity. Volume-driven, not formulation-moated. |
+
+### NO_MOAT_KILL (5 — Sector 0 Japan/Korea Pass 1)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 4406.T | New Japan Chemical Co., Ltd. (TSE) | Oleochemicals / plasticizers | 2026-07-29 | **NO_MOAT_KILL** | Oleochemicals, plasticizers, lubricants, coating resins — broadly commodity chemistry. Net margin 1.6% FY2025 (near-zero profitability). GM estimated 22–28% (well below 45% gate). Revenue ¥32.7B ($211M) in profile but insufficient margin quality. |
+| 4464.T | Soft99 Corporation (TSE) | Automotive care products | 2026-07-29 | **NO_MOAT_KILL** | Automotive care products (waxes, cleaners, fresheners) + porous PVA materials. Gross margin confirmed 38.3% — below 45% threshold. Operating margin near-zero (0.16%). Consumer brand, not regulatory-moated specialty chemical. |
+| 4094.T | Nihon Kagaku Sangyo Co., Ltd. (TSE) | Inorganic metal compounds | 2026-07-29 | **NO_MOAT_KILL** | Inorganic metal compounds (nickel, cobalt, chromium) + building materials. Blended gross margin (industrial chemicals + building products) estimated below 45%. Market cap $302M (in range) but moat does not pass. |
+| 4092.T | Nippon Chemical Industrial Co., Ltd. (TSE) | Mixed specialty/commodity inorganic | 2026-07-29 | **NO_MOAT_KILL** | Specialty electronic ceramics and battery materials mixed with commodity inorganic chemicals (chromium compounds, silicates). Revenue ¥38.8B ($251M) at market cap ¥17.1B ($110M) = 0.44× P/S — market values this as commodity. Net margin 7.2%; blended GM estimated 30–38%. |
+| — | AeKyung Chemical (KOSPI) | Surfactants / aspirational materials | 2026-07-29 | **NO_MOAT_KILL** | Core business is commodity surfactants for personal care and household cleaning. Transition to advanced materials (battery components, semiconductor packaging) is aspirational as of mid-2026. No confirmed specialty revenue segment with ≥45% GM to gate against. |
+
+### PROFIT_KILL (2 — Sector 0 Japan/Korea Pass 1)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 457190.KS | ISU Specialty Chemical Co., Ltd. (KOSPI) | Specialty chem — sole-source NP/TDM | 2026-07-29 | **PROFIT_KILL** | Net loss −4.11% TTM to Jun 2025. Revenue 376B KRW ($278M) in profile. Interesting products: NP (norylphenol) sole domestic Korean producer; TDM (chain transfer agent) world top-3 producer — genuine near-sole-source positions. But unprofitable. WATCH for future pass if returns to sustained profit. |
+| 336370.KQ | Solus Advanced Materials Co., Ltd. (KOSDAQ) | Battery/OLED advanced materials | 2026-07-29 | **PROFIT_KILL** | Net loss ₩41B in Q2 2025 alone (vs ₩5.2B profit same quarter prior year). Advanced materials (copper foil for EV batteries, OLED functional materials) in deep loss cycle tied to EV demand slowdown. Revenue forecast +21% p.a. but current financials disqualify. |
+
+**Run #96 Sector 0 Japan/Korea 1st pass tally (20 raw names): 4 SECTOR_KILL + 5 CAP_KILL + 5 NO_MOAT_KILL + 2 PROFIT_KILL = 16 kills; 2 CONDITIONAL (309710.KQ IT-Chem — too early post-IPO; 4999.T Cemedine — GM unconfirmed est. 38–48%); 2 QUEUED_CONDITIONAL (4975.T JCU HIGH_CONVICTION + 4973.T Japan Pure Chemical MEDIUM_CONVICTION — both ⚑non-EN C≤2 EDINET-blocked). Near-miss: 4107.T ISE Chemicals CAP_KILL at $1.53B (just $30M over ceiling; iodine supply moat; revisit below $1.5B or ceiling relaxation). Universe: 488→490.**

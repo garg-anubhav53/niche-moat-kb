@@ -2044,3 +2044,34 @@ Scoring:
 - TCS.TO: new entry QUEUED_CONDITIONAL (GM verification pending)
 - Bench: EUZ.DE €15.57–15.66 IN ZONE (mid-upper); Pluvicto/theranostics catalyst noted; NuWays AG Buy initiated
 - **Sector 6 status:** ACTIVE — 11 passes completed; geo lenses covered: US/UK/ASX/TSX/NZX (passes 1–5), Japan/Korea (pass 6), TSXV+DACH+Benelux (pass 7), DACH §3.5 resolution (pass 8), SE Asia (pass 9), SW Europe (pass 10), Canadian TSX/TSXV + Baltic (pass 11). Next lens candidates: Nordic/Scandinavian VMS deeper dive or Benelux/French Euronext Growth second pass.
+
+---
+
+## §2B Sector 0 Japan/Korea Specialty Chemicals — 1st Pass (run #96 2026-07-29)
+
+**Geographic lens:** Japan (TSE/JASDAQ) + Korea (KOSPI/KOSDAQ)
+**Prior coverage:** US, EU (Euronext/Xetra/AIM), ASX/NZX — all done in prior Sector 0 passes; Japan/Korea were blocked by EDINET/DART proxy issues.
+**Tool:** §2B web-search scout (§2A/EDINET/DART all proxy-blocked)
+**Total names:** 20 harvested and triaged
+
+| Category | Count | Names |
+|----------|-------|-------|
+| SECTOR_KILL | 4 | 6855.T / 7871.T / 032300.KQ / 018680.KQ |
+| CAP_KILL | 5 | 4107.T (near-miss; $1.53B) / 4186.T / 4099.T / 005290.KQ / 014680.KS |
+| NO_MOAT_KILL | 5 | 4406.T / 4464.T / 4094.T / 4092.T / AeKyung |
+| PROFIT_KILL | 2 | 457190.KS (ISU NP/TDM sole-source; watch if profitable) / 336370.KQ |
+| CONDITIONAL | 2 | 309710.KQ IT-Chem (too early post-IPO Aug 2025) / 4999.T Cemedine (GM unconfirmed 38–48%) |
+| QUEUED_CONDITIONAL | 2 | **4975.T JCU (HIGH CONVICTION — via-filling monopoly >60% GM)** / **4973.T Japan Pure Chemical (MEDIUM CONVICTION — noble-metal plating; GM unconfirmed)** |
+
+**Key findings:**
+1. **JCU Corporation (4975.T)** is the standout: near-monopoly in copper via-filling additives for HDI PCB and semiconductor package substrates; GM >60%; op margin 38.7%; AI accelerator tailwind drives demand; EV/EBIT well below 10× → potentially mispriced as commodity chemical. EDINET yuho required for ✓-grade.
+2. **Japan Pure Chemical (4973.T)**: noble-metal electroplating chemistry for semiconductor fabs; switching cost via qualification cycles; strong revenue growth (+19% 1H FY3/26); but GM unconfirmed (est. 50–65%*); FY2025 one-off ¥1.2B must be excluded. EDINET GM verification is the blocking condition.
+3. **Near-miss 4107.T ISE Chemicals**: Japan's top-tier iodine supplier (geographically concentrated supply moat) — CAP_KILL at $1.53B (just $30M above ceiling). Revisit if cap retreats.
+4. **Korea sweep was thin**: Semiconductor chem leaders (Dongjin, Hansol) oversized; battery materials in loss cycle; KOSDAQ specialty chem skews toward volume-competitive fine chemicals rather than sole-source formulation moats. Future Korea passes should target display functional materials and CDMO specialty chemical sub-sectors.
+5. **ISU Specialty Chemical (457190.KS)**: sole Korean NP producer + world top-3 TDM producer — genuine near-sole-source positions; PROFIT_KILL (net loss -4.11%); revisit when profitable.
+
+**Blocking condition for both QUEUED_CONDITIONAL entries:** EDINET proxy-blocked in cloud env. Until EDINET access restored, GM and NI cannot be ✓-grade confirmed for Japanese TSE filers. Both entries remain C≤2 and QUEUED_CONDITIONAL.
+
+**Universe count:** 490 (+2 from this pass)
+
+**Sector 0 status:** ACTIVE — Japan/Korea 1st pass complete. Next Sector 0 pass options: (1) deeper Korea KOSDAQ specialty chem (display materials, CDMO) web-search pass; (2) further Japanese TSE specialty chemical names beyond this batch; (3) Sector 0 QUEUED_CONDITIONAL §3.5 resolution when EDINET restored.

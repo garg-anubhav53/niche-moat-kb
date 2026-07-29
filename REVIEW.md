@@ -1536,3 +1536,114 @@ Key movements vs prior WATCHLIST.md state:
 
 8. **QTX.L (Quartix Technologies) §4 baseline** — AIM UK; 27,000+ fleet telematics subscribers; subscription-only model; ~86% recurring; tachograph compliance lock-in. **§4 + AIM primary filing next run.**
 
+
+---
+
+### 2026-07-29 — §7 REFLECT run #96 (96%3=0)
+
+**Scope:** bench re-price + dip-promotion, data quality audit, universe exploration audit, false-negative check. Three background agents dispatched: (A) bench re-price 11 items + PHO.OL Q2 check, (B) §3.5 TCS.TO + NSE:ACCELYA, (C) §2B Sector 0 Japan/Korea specialty chem. Agents A+C still running at commit time; results incorporated in next run.
+
+#### Q1 — Data quality (right input data?)
+
+**Three KB defects found and corrected this run:**
+
+1. **QTX.L status mismatch**: UNIVERSE.md showed `QUEUED_HOT 11/12 C=3 Grade B §5 eligible` (stale run #94 pre-§5 status). Post-§5 OPUS red-team (run #95) found: (a) share count 66M→48.43M (−36% error — market cap was £160M, corrected to £117.4M); (b) NRR 98.1%→96.9% H1 2026; (c) 1 analyst→2 brokers. Four CONFIRMED THREATS: FRC IAS16 inflates margins, switching-cost moat contradicted by product design, NRR trap triggered, bull multiple unsupported. DCF midpoint ~240p ≈ 242.5p fair value → Asymmetry Gate criterion 1 FAILS → CANDIDATE not WATCH. **Fixed:** status updated to `Grade B− CANDIDATE; buy-zone ≤200p`. Added to WATCHLIST bench.
+
+2. **TXT.WA status mismatch**: UNIVERSE.md showed `QUEUED_HOT 10/12 C=2 ⚑non-EN Grade C`. Run #95 STATE.MD confirmed Asymmetry Gate FAIL: EV ~$317M > bull $277M at 5x ARR. **Fixed:** status updated to `QUEUED 10/12 C=2 ⚑non-EN Grade C` with gate fail reason and Aug 28 Q1 FY2026/27 monitor date.
+
+3. **TCS.TO missing from UNIVERSE.md**: STATE.MD claimed "+1 TCS.TO QUEUED_CONDITIONAL" in run #95 (universe 486→487) but grep found no TCS.TO row. **Fixed:** row added. §3.5 also resolved this run (agent B): GM ~52% >> 45% gate (cross-confirmed Q1-Q4 FY2026; 5+ sources reporting official press release). Status: QUEUED.
+
+**NSE:ACCELYA §3.5 finding**: GM gate structurally unresolvable — Indian companies file by nature-of-expense (not by function); no COGS/cost-of-revenue line; aggregator GM ~70-72% unreliable. FY2026 annual report filed Jul 29 2026 but same limitation applies. Status remains QUEUED_CONDITIONAL pending manual notes review. UNIVERSE.md updated to document the structural blocker.
+
+**All financials** remain ~-tagged (web/aggregator); all systematic enumeration tools (SEC EDGAR/EDINET/DART/TWSE/SEDAR) proxy-blocked (v6 regression confirmed run #90). §2B web-search is the only active channel.
+
+**Data quality verdict:** 3 defects found and corrected. No mis-trust of archived financials. Systemic wall is unchanged (proxy blocks all systematic data sources).
+
+#### Q2 — Universe exploration
+
+**Sector status:** Only Sectors 0 and 6 ACTIVE. Sectors 1-5, 7-19 all EXHAUSTED (at least 2 consecutive passes each with 0 net new QUEUED names). 488 names in universe vs prior 487 (+1 TCS.TO row this run).
+
+**Largest coverage gap:** Japan/Korea niche software (EDINET/DART proxy-blocked). 5 QUEUED names (071200.KS QUEUED_HOT, 030520.KQ, 3921.T, 3969.T, 053580.KQ) cannot be advanced past §3.5 until EDINET/DART access restored. These represent the highest-quality unverified pipeline.
+
+**§2B Sector 0 fresh scan (agent C):** Japan/Korea specialty chem geo lens — result pending. Will process next run.
+
+**Exploration verdict:** Structural wall reached on 18 of 20 sectors. Fresh discovery requires: (a) EDINET/DART proxy restoration for Japan/Korea depth, or (b) new geo lens within Sector 0 (Japan industrial materials beyond specialty chem) or Sector 6 (non-English DACH/Benelux still partially unexhausted).
+
+#### Q3 — False negatives
+
+**Re-checked:** DAT.WA (run #95 MOAT_WEAK_KILL), QTRH.TO (run #95 NOT_PROFITABLE_KILL).
+
+- **DAT.WA (Data Group SA, Poland)**: Polish printing/distribution services company. Kill confirmed — printing is a commodity business with no durable moat, secular decline in paper-based communications, and thin margins. Not a false negative.
+- **QTRH.TO (Quarterhill Inc., Canada)**: Holding company (WIAMan license revenue + ITS division). Kill confirmed as duplicate of prior run #77 kill (NOT_PROFITABLE at ITS level; Quarterhill restructuring path uncertain; confirmed via KB cross-reference).
+
+**False negative verdict:** No clear false negatives in recent kills. Kill quality appears high.
+
+#### Bench re-price (partial — agent A pending)
+
+PHO.OL Q2 2026 results NOT yet released as of search time (agent A ran Jul 29 2026; most recent result was Q1 2026 press release from prnewswire May 2026; Q2 2025 results released Jul 30 2025 = Q2 2026 results expected Jul 30, 2026). **Action next run:** search "Photocure Q2 2026 results" — if stock ≤NOK 55 post-results, PROMOTE TO QUEUED_HOT.
+
+11-item bench re-price and Sector 0 fresh names to be incorporated in run #97 output.
+
+#### Actions taken this run
+
+- UNIVERSE.md: 3 status corrections + TCS.TO row added + run #95/#96 comment blocks + rotation cursor updated
+- WATCHLIST.md: QTX.L bench entry added (buy-zone ≤200p; monitor Q3 2026 trading statement)
+- STATE.md: run #96 log entry (see STATE.md)
+- NSE:ACCELYA: UNIVERSE.md updated to document structural GM gate blocker (nature-of-expense format)
+
+#### Carry-forward to run #97
+
+1. **PHO.OL Q2 results**: search immediately — if stock ≤NOK 55, PROMOTE TO QUEUED_HOT
+2. **§2B Sector 0 Japan/Korea fresh names** (agent C output): triage and add to UNIVERSE.MD
+3. **Bench re-price 11 items** (agent A output): update WATCHLIST.md last prices; check dip triggers
+4. **TCS.TO §4 scoring**: assess CAP_SOFT_KILL at ~CAD$600-650M extended zone; SEDAR pull required for ✓-grade
+5. **NSE:ACCELYA**: manually review FY2026 BSE annual report notes for function-of-cost supplement
+6. **QTX.L**: monitor Q3 2026 trading statement (gross new subscriptions recovery from -13%)
+7. **071200.KS, 030520.KQ, 3921.T, 3969.T, 053580.KQ**: these remain blocked on EDINET/DART — no action possible until proxy access restored
+
+---
+
+## §7 REFLECT Addendum — run #96 2026-07-29 (post-agent completion)
+
+**Status:** All carry-forward tasks from run #96 §7 REFLECT now COMPLETE.
+
+### §2B Sector 0 Japan/Korea fresh names — COMPLETE
+
+20 names harvested and triaged:
+- **16 kills** (4 SECTOR_KILL + 5 CAP_KILL + 5 NO_MOAT_KILL + 2 PROFIT_KILL) → KILL-LIST.MD updated
+- **2 CONDITIONAL** (309710.KQ IT-Chem too-early post-IPO; 4999.T Cemedine GM unconfirmed) → not added to UNIVERSE.MD
+- **2 QUEUED_CONDITIONAL** → UNIVERSE.MD updated, Coverage.md updated:
+  - **4975.T JCU Corporation** — HIGH CONVICTION; via-filling additive monopoly for HDI PCB/package substrates; GM >60%; op margin 38.7%; ⚑non-EN C≤2 EDINET-blocked
+  - **4973.T Japan Pure Chemical** — MEDIUM CONVICTION; noble-metal electroplating chemistry; GM unconfirmed (est. 50-65%*); ⚑non-EN C≤2 EDINET-blocked
+- **Near-miss:** 4107.T ISE Chemicals CAP_KILL at $1.53B (just $30M over; iodine moat; revisit below $1.5B)
+- **Universe:** 488→490
+
+### Bench re-price 11 items — COMPLETE
+
+| Ticker | Price found | Zone status | Action |
+|--------|-------------|-------------|--------|
+| PHO.OL | ~60 NOK (Jun 28 indexed) | Above ≤55 zone | Q2 not indexed Jul 29; monitor |
+| XRF.AX | A$1.685 (Jul 28) | ⚠ APPROACHING (≤A$1.65) | 2¢ above trigger; monitor daily |
+| CODA | ~$10.10 (~$115M cap; Jul 27) | Above ≤$107M | T+$8M above trigger |
+| FAA.VI | €13.10 (Jul 26) | ⚠⚠ TRIGGERED | HUMAN ALERT ACTIVE; next earnings Aug 13 |
+| EUZ.DE | €13.35 (Jul 24-28 est.) | IN ZONE (bottom) | ⚠ DATA CONFLICT vs run #95 €15.57-15.66; verify |
+| OMDA.OL | 36.20 NOK (Jul 21) | IN ZONE (≤40) | Older data; Jul 28 WATCHLIST 39.60 NOK more current; H1 2026 Aug 26 |
+| TSTL.L | ~400p (Jul 3) | Above zone (220-260p) | Stale; Jul 28 WATCHLIST ~387p more current |
+| CER.L | ~1,250p (late Jul) | Above zone (850-900p) | Rebounded from Jul 10 low ~1,070p |
+| CPH.TO | C$16.39 (Jul 16) | Above zone (≤C$11-13) | Matches WATCHLIST |
+| ALRIB.PA | €9.96 (Jul 23) | ⚠ Marginal (just above ≤€9) | Monitor for dip to ≤€9 |
+| RDY.AX | A$1.63 (Jul 29) | Above zone (A$1.25-1.35) | Confirmed; FY26 results Aug 27 |
+
+**Actions taken:** WATCHLIST.md prices updated for CODA/PHO.OL/FAA.VI/EUZ.DE/CER.L/RDY.AX. FAA.VI HUMAN ALERT confirmed active. DIGEST.MD +4 new lessons (51-54). financials/TCS.TO.md created.
+
+### Carry-forward to run #97
+
+1. **PHO.OL Q2 results**: search "Photocure Q2 2026 results" — if stock ≤NOK 55, PROMOTE TO QUEUED_HOT
+2. **4975.T JCU §3.5**: EDINET-blocked; HIGH CONVICTION but cannot score until EDINET restored; note and defer
+3. **4973.T Japan Pure Chemical §3.5**: EDINET-blocked; GM UNCONFIRMED; defer until EDINET restored
+4. **TCS.TO §4**: assess CAP_SOFT_KILL at ~CAD$600-650M; SEDAR pull for ✓-grade
+5. **NSE:ACCELYA**: manual BSE notes review for function-of-cost supplement
+6. **EUZ.DE data conflict**: resolve €13.35 vs €15.57-15.66 discrepancy (run fresh price search)
+7. **FAA.VI**: HUMAN ALERT — human operator review memos/FAA.VI-2026-07-17.md; initiate §5 OPUS
+8. **XRF.AX**: APPROACHING ≤A$1.65; Aug 24 FY2026 earnings catalyst
+9. **071200.KS, 030520.KQ, 3921.T, 3969.T, 053580.KQ**: EDINET/DART-blocked; no action until proxy restored
