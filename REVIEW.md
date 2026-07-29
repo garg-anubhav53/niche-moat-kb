@@ -1647,3 +1647,48 @@ PHO.OL Q2 2026 results NOT yet released as of search time (agent A ran Jul 29 20
 7. **FAA.VI**: HUMAN ALERT — human operator review memos/FAA.VI-2026-07-17.md; initiate §5 OPUS
 8. **XRF.AX**: APPROACHING ≤A$1.65; Aug 24 FY2026 earnings catalyst
 9. **071200.KS, 030520.KQ, 3921.T, 3969.T, 053580.KQ**: EDINET/DART-blocked; no action until proxy restored
+
+---
+
+## §7 REFLECT — run #96 2026-07-29 — FINAL COMPLETION (US Sector 0 9th pass + full bench + false-neg)
+
+### Sector 0 US geo lens 9th pass result
+
+3 new kills triaged; 0 new QUEUED; US axis EXHAUSTED (2nd consecutive 0-new pass: run #73 6th pass + run #96 9th pass):
+
+| Ticker | Company | Kill type | Notes |
+|--------|---------|-----------|-------|
+| DELT | Delta Technology Holdings Ltd (NYSE) | JURISDICTION_KILL | China-domiciled specialty chem (bromine compounds, intermediates); US-listed; all ops mainland China; VIE-adjacent structure; mainland-China opacity; excluded per hard JURISDICTION_KILL rule |
+| FSI | Flexible Solutions International Inc. (NYSE) | CAP_TOO_SMALL_KILL | ~$25-30M USD cap; genuine sole-source TPA (thermal polyaspartate) moat — sole commercial producer of biodegradable scale inhibitor; BUT cap below $20M minimum viable floor |
+| ESI | Element Solutions Inc. (NYSE) | SIZE_KILL | ~$5B USD cap; process moat in electronic materials qualification (ENIG/immersion tin/OSP/Micromax semiconductor packaging); BUT 16-17× our $300M ceiling; revenue $2.4B+ also above gate |
+
+**US axis EXHAUSTED.** Revive conditions: TWSE specialty materials lens OR Japan/Korea deeper industrial chemistry web lens (beyond run #96 pass already completed).
+
+### Bench re-price — remaining 5 items (JOUT / IVU.DE / WINA / NSSC / QTX.L)
+
+Items not in addendum table (addendum covered 11/14; remaining 3 from bench agent ac6d00b0f2f28e31d):
+
+| Ticker | Price (run #96) | Zone | Status |
+|--------|----------------|------|--------|
+| JOUT | ~$46.24 · 2026-07-28 ~ | ≤$40 | ABOVE zone |
+| IVU.DE | ~€21 (~€300M cap) · 2026-07-28 ~ | ≤€17.36/≤€250M cap | ABOVE zone |
+| WINA | ~$388-486 · 2026-07-28 ~ | ≤20-22× PE | ⚠CONFLICTING — PE range 34-43×; both figures above zone; data conflict persists |
+| NSSC | ~$36.67 · 2026-07-28 ~ | $22-26 | ABOVE zone |
+| QTX.L | ~242.5p (~£117.4M cap) · 2026-07-28 ~ | ≤200p (~£97M cap) | WATCH B− ZONE — DCF midpoint ~240p ≈ fair value; at zone boundary; Asymmetry Gate criterion 1 FAILS at current price; monitor Q3 2026 trading statement |
+
+**Complete 14-item bench re-price:** FAA.VI ⚠⚠ HUMAN ALERT IN ZONE + XRF.AX ⚠ APPROACHING + EUZ.DE ⚠ IN ZONE DATA CONFLICT + CODA ⚠ APPROACHING + OMDA.OL IN ZONE BLOCKED + QTX.L IN ZONE (no gate) + PHO.OL ABOVE + JOUT ABOVE + IVU.DE ABOVE + WINA ABOVE ⚠CONFLICTING + NSSC ABOVE + RDY.AX ABOVE + CER.L ABOVE + TSTL.L ABOVE. No new QUEUED_HOT promotions.
+
+### False-negative check
+
+**SRDX (Surmodics Inc.)**: CAP_SOFT_KILL run #73. Re-check: SRDX = specialty surface modification coatings for medical devices (hydrophilic/hydrophobic; blood contact coatings); ~$300M cap. Kill reason: borderline CAP_SOFT_KILL at $300M (our ceiling $300M; extended zone ceiling $450M). Business is US EDGAR-blocked so financials ~only. Moat: regulatory validation switching cost (device-class clearance tied to coating formulation). **NOT a false negative at $300M cap** — CAP_SOFT_KILL is calibrated for genuine asymmetry (need ≥2× from current to meet price gate; at $300M = full extended zone price). Revisit condition: SRDX <$200M cap (significant pullback required; not imminent). Kill confirmed correct.
+
+### Systemic fixes shipped — full run #96 scope
+
+- **KILL-LIST.md**: DELT JURISDICTION_KILL + FSI CAP_TOO_SMALL_KILL + ESI SIZE_KILL added (Cap Kills + Integrity Kills sections)
+- **WATCHLIST.md**: All 14 bench items repriced (Jul 28-29 2026 dates); FAA.VI HUMAN ALERT active; QTX.L bench entry added post-§5 Grade B−; EUZ.DE ⚠ DATA CONFLICT tagged; XRF.AX APPROACHING confirmed; CODA APPROACHING confirmed
+- **STATE.md**: Run #96 log prepended; Sector 0 table updated 8→9+JP/KR passes; US axis EXHAUSTED noted; 2 Japan/Korea QUEUED_CONDITIONALs noted
+- **COVERAGE.md**: Japan/Korea Sector 0 1st pass entry (2 QUEUED_CONDITIONALs; universe 490); US Sector 0 9th pass entry (3 kills; 0 QUEUED; US axis EXHAUSTED)
+- **UNIVERSE.md**: 3 status corrections (QTX.L/TXT.WA post-§5; TCS.TO row added); NSE:ACCELYA structural blocker documented; 4975.T + 4973.T QUEUED_CONDITIONAL rows added; universe 488→490
+- **Data quality verdict**: PASS. 3 defects corrected (QTX.L/TXT.WA status stale; TCS.TO missing row). No mis-trust tags. Structural proxy-block wall unchanged.
+- **Universe count**: 490 (authoritative: STATE.md/COVERAGE.md)
+- **REVIEW.md**: This §7 REFLECT entry

@@ -2101,3 +2101,25 @@ Scoring:
 5. **5217.T Techno Quartz**: Highest-conviction deferred name — pure-play quartz consumables at ~$130M (within range); quartz is a critical CVD/diffusion tube consumable with long fab qualification cycles. EDINET GM required; C≤2.
 
 **Sector 17 status:** EXHAUSTED (4 passes complete; no new confirmed QUEUED from this supplement pass). Next Sector 17 pass options: (1) run #97 — verify deferred names (5217.T / 4187.T / 6627.T / 112290.KQ / 036490.KQ); (2) resolve CONDITIONAL_KILL deferred names when EDINET accessible; (3) revive with lower cap threshold if needed.
+
+---
+
+## §2B Sector 0 US Specialty Chemicals — 9th Pass (run #96 2026-07-29)
+
+**Geographic lens:** US Nasdaq/NYSE
+**Tool:** §2B web-search scout (SEC EDGAR proxy-blocked; web-search only channel)
+**Total names triaged:** 3 new names (US specialty chem/materials screen — web-scout)
+**New QUEUED this pass:** 0
+**New kills this pass:** 3
+
+| Ticker | Company | Kill type | Cap | Notes |
+|--------|---------|-----------|-----|-------|
+| DELT | Delta Technology Holdings Ltd (NYSE) | JURISDICTION_KILL | — | China-domiciled specialty chemicals (bromine compounds, chemical intermediates); US-listed NYSE; all operations and assets exclusively in mainland China; mainland-China opacity + VIE-adjacent structure; excluded per hard JURISDICTION_KILL rule (mainland China/HK-VIE) |
+| FSI | Flexible Solutions International Inc. (NYSE) | CAP_TOO_SMALL_KILL | ~$25-30M USD | Sole commercial producer of thermal polyaspartate (TPA) — biodegradable scale inhibitor for irrigation/oilfield water treatment; genuine sole-source IP moat; BUT cap below $20M minimum viable floor |
+| ESI | Element Solutions Inc. (NYSE) | SIZE_KILL | ~$5B USD | US specialty electronic materials (plating chemicals, ENIG/immersion tin/OSP circuit board surface finishes, Micromax semiconductor packaging materials); genuine process moat in electronic materials qualification; BUT cap 16-17× our $300M ceiling; revenue $2.4B+ also above gate |
+
+**US axis EXHAUSTED (2nd consecutive 0-new pass):** run #73 (6th pass, Nasdaq/NYSE 2026-07-27) + run #96 (9th pass, Nasdaq/NYSE 2026-07-29). Revive conditions: (1) TWSE specialty materials geo lens; (2) Japan/Korea deeper industrial chemistry web lens (beyond run #96 Japan/Korea 1st pass already completed); (3) down-cap sweep <$20M US specialty chem if floor threshold revised.
+
+**Universe count:** 490 (unchanged — kills do not add to universe counter; Japan/Korea +2 already counted in run #96 Japan/Korea 1st pass entry above)
+
+**Sector 0 status:** ACTIVE — Japan/Korea 1st pass + US 9th pass both complete within run #96. Next fresh ground: TWSE specialty materials or Korea KOSDAQ specialty chem deeper web-search pass.
