@@ -2123,3 +2123,52 @@ Scoring:
 **Universe count:** 490 (unchanged — kills do not add to universe counter; Japan/Korea +2 already counted in run #96 Japan/Korea 1st pass entry above)
 
 **Sector 0 status:** ACTIVE — Japan/Korea 1st pass + US 9th pass both complete within run #96. Next fresh ground: TWSE specialty materials or Korea KOSDAQ specialty chem deeper web-search pass.
+
+---
+
+## §2B Sector 6 Vertical/Mission-Critical Software — Pass 12 — Fresh Sub-Niches (run #97 2026-07-29)
+
+**Geographic lens:** Multi-market — UK (AIM/LSE), Finland (Nasdaq Helsinki), Sweden (Nasdaq Stockholm), Japan (TSE), Korea (KOSPI/KOSDAQ)
+**Sub-niches swept:** Insurance/actuarial SaaS, legal tech, utility billing SaaS, transport/freight SaaS, mid-market ERP
+**Tool:** §2B web-search scout (all primary filing APIs proxy-blocked; web-search only channel)
+**Total names in sweep:** 17 (7 already-seen, 10 new)
+**New names added to universe:** 10 (+10 → universe 500)
+**New QUEUED_CONDITIONAL this pass:** 2 (LIME.ST, TEM1V.HE — both ⚑non-EN, GM pending filing)
+**New kills this pass (of new names):** 5
+**New parks this pass:** 3
+
+### Triage summary — new names only
+
+| Ticker | Company | Outcome | Kill/Queue reason |
+|--------|---------|---------|-------------------|
+| SPE.L | Sopheon plc (AIM) | ACQUIRED_KILL | Delisted 2023, acquired by Apax PE; no longer public |
+| SOLTEQ.HE | Solteq Oyj (Nasdaq Helsinki) | NI_GATE_FAIL_KILL | NI −€2.34M loss; cap €6.5M distressed |
+| LASER.ST | Lasernet Group AB (Nasdaq Stockholm) | PARK | Capital structure anomaly: net cash SEK 820M > market cap; post-divestiture rump; ⚑non-EN |
+| 4480.T | Medley Inc. (TSE) | PARK ⚑non-EN | Cap ~$400M above ceiling; NM 2.7% thin; EDINET blocked |
+| 4483.T | JMDC Inc. (TSE Prime) | CAP_KILL | Cap ~$1.2–1.34B; Japan medical big-data analytics SaaS |
+| 2175.T | SMS Co., Ltd. (TSE Prime) | CAP_SOFT_KILL | Cap ~$950M; Japan nursing/healthcare workforce platform |
+| 6095.T | MedPeer Inc. (TSE) | PARK ⚑non-EN | Declining op income −12% YoY; Japan physician community; EDINET blocked |
+| 012510.KS | Douzone Bizon (KOSPI) | CAP_KILL + M&A_KILL_PROBABLE | Cap ~$2.18B + EQT PE buyout process active Jun 2025 |
+| LIME.ST | Lime Technologies AB (Nasdaq Stockholm) | **QUEUED_CONDITIONAL C≤2 ⚑non-EN** | ~$313M cap; SEK 748M rev +9%; NI SEK 112M; GM pending Swedish Årsredovisning |
+| TEM1V.HE | Tecnotree Corporation (Nasdaq Helsinki) | **QUEUED_CONDITIONAL C≤2 ⚑non-EN** | €129.72M cap; €70.86M rev; NI €7.22M; order book +35%; GM pending Finnish filing |
+
+### Already-seen names (not double-counted)
+
+TRB.L (COVERAGE_KILL), TRCS.L (WRONG_SECTOR_KILL+ALREADY_SEEN), SFT.L (NOT_PUBLIC_KILL), AOF.DE (kill — prior pass), OCL.AX (Quality Bench), ALC.AX (PARK), ENGH.TO (Quality Bench)
+
+### Pass stats
+
+| Metric | Value |
+|--------|-------|
+| Names in sweep | 17 |
+| Already-seen (not counted) | 7 |
+| New names processed | 10 |
+| Kills | 5 |
+| Parks | 3 |
+| QUEUED_CONDITIONAL | 2 |
+| QUEUED (confirmed) | 0 |
+| Universe after | 500 |
+
+**Sector 6 status:** ACTIVE — Pass 12 complete. LIME.ST (Swedish vertical CRM) and TEM1V.HE (Finnish telecom BSS/OSS) held as QUEUED_CONDITIONAL pending GM confirmation from Swedish/Finnish annual filings. Pass 13 options: (1) resolve LIME.ST/TEM1V.HE via web-accessible annual report data; (2) deeper Nordic vertical SaaS lens (Danish/Norwegian listed); (3) UK AIM vertical software deeper pass.
+
+**Universe count:** 500 (+10 new names from Sector 6 Pass 12)

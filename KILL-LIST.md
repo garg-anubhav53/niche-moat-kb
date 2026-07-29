@@ -4047,3 +4047,29 @@ Previously killed, re-confirmed this pass:
 | 6055.T | Japan Material Co., Ltd. (TSE Prime) | Specialty gas supply systems + semiconductor equipment parts cleaning/coating | 2026-07-29 | **CONDITIONAL_KILL (LOW_GM_SUSPECTED + CAP_SOFT_KILL)** | CAP_SOFT_KILL: cap ~¥175-192B (~$1.1-1.3B) = extended zone (below $1.5B hard ceiling but v5.1 requires exceptional asymmetry in CAP_SOFT zone). LOW_GM_SUSPECTED: primarily an engineering/services business (installs/maintains specialty gas piping systems in fabs; cleans and coats semiconductor chamber parts) — fab engineering services typically carry 20-30% blended GM, well below 45% gate. Revenue ¥58B FY2026 +10% YoY. DEFER run #97 for EDINET GM verification; if GM <45% → LOW_GM_KILL. |
 
 **Run #96 Supplement tally (Agent 2 Sector 17 4th pass 2026-07-29): 2 CAP_KILL (357780.KQ Soulbrain / 6890.T Ferrotec) + 2 PRICE_KILL+CAP_SOFT_KILL (080580.KQ OKins / 6941.T Yamaichi) + 2 CONDITIONAL_KILL deferred (4047.T Kanto Denka / 6055.T Japan Material). 5 additional names deferred to run #97 for primary-data verification (5217.T Techno Quartz / 4187.T Osaka Organic Chemical / 6627.T Tera Probe / 112290.KQ Ycchem / 036490.KQ SK Materials). Universe: 490 (unchanged).**
+
+---
+
+## Sector 6 Vertical/Mission-Critical Software — Pass 12 (run #97 2026-07-29)
+
+### ACQUIRED_KILL (1 — Sector 6 Pass 12)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| SPE.L | Sopheon plc (AIM London) | Product lifecycle management (PLM) / innovation management SaaS | 2026-07-29 | **ACQUIRED_KILL** | Acquired by private equity (Apax Partners) and delisted from AIM in 2023. No longer a publicly tradeable equity. |
+
+### NI_GATE_FAIL_KILL (1 — Sector 6 Pass 12)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| SOLTEQ.HE | Solteq Oyj (Nasdaq Helsinki) | Retail/wholesale vertical ERP + SaaS — Nordic grocery/petrol/specialty | 2026-07-29 | **NI_GATE_FAIL_KILL** | Net income −€2.34M (loss-making FY2025). Revenue €32.1M; market cap ~€6.5M (distressed micro-cap). Fails NI gate (positive net income required). Operating margin negative. Speculative restructuring story, not a moat name. |
+
+### CAP_KILL (3 — Sector 6 Pass 12)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 4483.T | JMDC Inc. (TSE Prime) | Medical big-data analytics + pharmacy benefit management SaaS (Japan) | 2026-07-29 | **CAP_KILL** | Market cap ~$1.2–1.34B — exceeds $1.5B hard ceiling (well within CAP_KILL zone). Business moat genuine (largest claims-based health database in Japan; 5M+ lives; payer + hospital + pharmacy analytics SaaS; government mandated data standardization drives switching costs). Revenue ¥30.6B FY2025 +18% YoY; NI positive. Revisit if cap retreats significantly. |
+| 2175.T | SMS Co., Ltd. (TSE Prime) | Nursing/healthcare workforce platform + career SaaS (Japan) | 2026-07-29 | **CAP_KILL** | Market cap ~$950M — exceeds $1.5B? No — $950M is below $1.5B hard ceiling but triggers CAP_SOFT_KILL zone with insufficient asymmetry. Revised: ~¥140B = ~$950M = CAP_SOFT_KILL (coverage 10+ analysts; no exceptional asymmetry documented at web-search level). Business moat: dominant nursing career platform in Japan (Care-Fin, CareNet), statutory licensing marketplace for 1.9M registered nurses/care workers, network effects from density. Revenue ¥60.9B +11.5% YoY. Routing to CAP_KILL/CAP_SOFT_KILL; revisit if cap retreats below ¥50B (~$330M). |
+| 012510.KS | Douzone Bizon (KOSPI) | Korean mid-market ERP + cloud SaaS (iCUBE platform) | 2026-07-29 | **CAP_KILL + M&A_KILL_PROBABLE** | CAP_KILL: market cap ~$2.18B (₩2.9T) — far exceeds $1.5B hard ceiling. M&A_KILL_PROBABLE: EQT PE buyout process active Jun 2025 (multiple sources); if completed → ACQUIRED_KILL. Business moat genuine (leading mid-market ERP for Korean SMEs with iCUBE cloud; payroll/accounting/HR SaaS embedded; 200k+ SME customers). Not investable at current cap or pending PE exit. |
+
+**Run #97 Sector 6 Pass 12 tally (2026-07-29): 1 ACQUIRED_KILL (SPE.L) + 1 NI_GATE_FAIL_KILL (SOLTEQ.HE) + 3 CAP_KILL/CAP_SOFT_KILL (4483.T JMDC / 2175.T SMS / 012510.KS Douzone Bizon). 3 PARK (LASER.ST / 4480.T / 6095.T). 2 QUEUED_CONDITIONAL ⚑non-EN (LIME.ST / TEM1V.HE). 7 already-seen (TRB.L / TRCS.L / SFT.L / AOF.DE / OCL.AX / ALC.AX / ENGH.TO). Universe: 500 (+10 new names).**
