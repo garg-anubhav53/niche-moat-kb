@@ -4015,3 +4015,32 @@ Previously killed, re-confirmed this pass:
 | 336370.KQ | Solus Advanced Materials Co., Ltd. (KOSDAQ) | Battery/OLED advanced materials | 2026-07-29 | **PROFIT_KILL** | Net loss ₩41B in Q2 2025 alone (vs ₩5.2B profit same quarter prior year). Advanced materials (copper foil for EV batteries, OLED functional materials) in deep loss cycle tied to EV demand slowdown. Revenue forecast +21% p.a. but current financials disqualify. |
 
 **Run #96 Sector 0 Japan/Korea 1st pass tally (20 raw names): 4 SECTOR_KILL + 5 CAP_KILL + 5 NO_MOAT_KILL + 2 PROFIT_KILL = 16 kills; 2 CONDITIONAL (309710.KQ IT-Chem — too early post-IPO; 4999.T Cemedine — GM unconfirmed est. 38–48%); 2 QUEUED_CONDITIONAL (4975.T JCU HIGH_CONVICTION + 4973.T Japan Pure Chemical MEDIUM_CONVICTION — both ⚑non-EN C≤2 EDINET-blocked). Near-miss: 4107.T ISE Chemicals CAP_KILL at $1.53B (just $30M over ceiling; iodine supply moat; revisit below $1.5B or ceiling relaxation). Universe: 488→490.**
+
+---
+
+## Run #96 Supplement — Sector 17 4th Pass Japan/Korea Semiconductor Supply Chain (2026-07-29)
+
+*Agent 2 web-scout covering additional Sector 17 names beyond run #96 Sector 0 pass. Triage applied inline per §3 gates.*
+
+### CAP_KILL (2 — Sector 17 4th pass supplement)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 357780.KQ | Soulbrain Co., Ltd. (KOSDAQ) | Semiconductor process chemicals — high-purity HF / etchants / CMP | 2026-07-29 | **CAP_KILL** | Market cap 2.26T KRW ≈ $1.64B — exceeds $1.5B hard ceiling. Business moat is genuine (high-purity HF, specialty etchants, CMP slurries, CVD/ALD materials for Samsung/SK Hynix fabs; multi-year fab qualification cycles); revenue 923B KRW (~$624M) FY2025 +6.95% YoY. AI/HBM supercycle re-rating pushed cap firmly above investable range. Revisit if cap retreats below $1.5B. |
+| 6890.T | Ferrotec Corporation (TSE Standard) | Semiconductor equipment consumables — CVD-SiC focus rings / quartz / ceramics | 2026-07-29 | **CAP_KILL** | Market cap ~¥293B (~$2.0B) — exceeds $1.5B hard ceiling. Business moat genuine: CVD-SiC focus rings / edge rings for plasma etch chambers (Lam/TEL qualified; near-sole-source consumable; replaced per maintenance cycle); also quartz crucibles, vacuum seals, thermoelectric modules. Revenue ¥289B FY2026. Note: renamed from Ferrotec Holdings July 2025; some China production creates geopolitical exposure. |
+
+### PRICE_KILL + CAP_SOFT_KILL (2 — Sector 17 4th pass supplement)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 080580.KQ | OKins Electronics Co., Ltd. (KOSDAQ) | Semiconductor test sockets (burn-in / PION probes) + MEMS test services | 2026-07-29 | **PRICE_KILL + CAP_SOFT_KILL** | PRICE_KILL: +543% 12-month return on HBM burn-in socket demand surge — asymmetry spectacularly spent. CAP_SOFT_KILL: market cap ₩540.82B (~$395M) = above $300M extended zone. Business moat exists (PION contact technology for high-density HBM burn-in test sockets; proprietary spring-probe IP; MEMS sensor testing niche) but both kill gates trigger. Revisit if cap corrects below $200M. |
+| 6941.T | Yamaichi Electronics Co., Ltd. (TSE Prime) | Semiconductor test sockets + probe cards (HBM / LPDDR / SoC) | 2026-07-29 | **PRICE_KILL + CAP_SOFT_KILL** | PRICE_KILL: +128% 12-month return on HBM3/HBM4 burn-in test socket demand surge. CAP_SOFT_KILL: market cap ~¥157-201B (~$1.0-1.3B). Business moat genuine (dominant share in high-pin-count fine-pitch test sockets for advanced DRAM; HBM burn-in socket volumes multiplied by die stacking; Japan precision manufacturing excellence for sub-0.3mm pitch contacts). Revisit if cap corrects below ¥80B (~$530M). |
+
+### CONDITIONAL_KILL (deferred — EDINET verification required — Sector 17 4th pass supplement)
+
+| Ticker | Company | Sector | Kill date | Kill type | Kill reason |
+|--------|---------|--------|-----------|-----------|-------------|
+| 4047.T | Kanto Denka Kogyo Co., Ltd. (TSE Standard) | Specialty fluorine-based semiconductor gases — NF3 / WF6 / C4F6 | 2026-07-29 | **CONDITIONAL_KILL (LOW_GM_SUSPECTED + CAP_UNCERTAIN)** | Cap conflicting: ~¥87B ($580M) vs ~¥210B ($1.4B) — EDINET yuho required. FY2027 guidance: ¥95B revenue (+45% YoY), ordinary profit ¥10B (~10.5% OPM). Ordinary profit margin 10.5% on specialty gas manufacturing is inconsistent with ≥45% gross margin gate — LOW_GM_SUSPECTED. Moat hypothesis strong (one of very few global NF3/WF6 producers; NF3 is critical 3D NAND chamber cleaning gas; WF6 is sole industrialized tungsten CVD precursor globally; few producers globally). DEFER run #97: if EDINET yuho confirms GM <45% → LOW_GM_KILL; if cap >$1.5B → CAP_KILL. |
+| 6055.T | Japan Material Co., Ltd. (TSE Prime) | Specialty gas supply systems + semiconductor equipment parts cleaning/coating | 2026-07-29 | **CONDITIONAL_KILL (LOW_GM_SUSPECTED + CAP_SOFT_KILL)** | CAP_SOFT_KILL: cap ~¥175-192B (~$1.1-1.3B) = extended zone (below $1.5B hard ceiling but v5.1 requires exceptional asymmetry in CAP_SOFT zone). LOW_GM_SUSPECTED: primarily an engineering/services business (installs/maintains specialty gas piping systems in fabs; cleans and coats semiconductor chamber parts) — fab engineering services typically carry 20-30% blended GM, well below 45% gate. Revenue ¥58B FY2026 +10% YoY. DEFER run #97 for EDINET GM verification; if GM <45% → LOW_GM_KILL. |
+
+**Run #96 Supplement tally (Agent 2 Sector 17 4th pass 2026-07-29): 2 CAP_KILL (357780.KQ Soulbrain / 6890.T Ferrotec) + 2 PRICE_KILL+CAP_SOFT_KILL (080580.KQ OKins / 6941.T Yamaichi) + 2 CONDITIONAL_KILL deferred (4047.T Kanto Denka / 6055.T Japan Material). 5 additional names deferred to run #97 for primary-data verification (5217.T Techno Quartz / 4187.T Osaka Organic Chemical / 6627.T Tera Probe / 112290.KQ Ycchem / 036490.KQ SK Materials). Universe: 490 (unchanged).**

@@ -2075,3 +2075,29 @@ Scoring:
 **Universe count:** 490 (+2 from this pass)
 
 **Sector 0 status:** ACTIVE — Japan/Korea 1st pass complete. Next Sector 0 pass options: (1) deeper Korea KOSDAQ specialty chem (display materials, CDMO) web-search pass; (2) further Japanese TSE specialty chemical names beyond this batch; (3) Sector 0 QUEUED_CONDITIONAL §3.5 resolution when EDINET restored.
+
+---
+
+## §2B Sector 17 Japan/Korea Semiconductor Supply Chain — 4th Pass Supplement (run #96 Agent 2 2026-07-29)
+
+**Geographic lens:** Japan (TSE) + Korea (KOSPI/KOSDAQ)
+**Tool:** §2B web-search scout (EDINET/DART all proxy-blocked)
+**Total names scouted:** 17 (9 Japan + 8 Korea)
+**New kills this supplement (names not already in KILL-LIST from prior runs):**
+
+| Category | Count | Names |
+|----------|-------|-------|
+| CAP_KILL | 2 | 357780.KQ Soulbrain ($1.64B) / 6890.T Ferrotec (~$2.0B) |
+| PRICE_KILL + CAP_SOFT_KILL | 2 | 080580.KQ OKins (+543% YTD; $395M) / 6941.T Yamaichi (+128% YTD; $1.0-1.3B) |
+| CONDITIONAL_KILL (deferred run #97) | 2 | 4047.T Kanto Denka (LOW_GM_SUSPECTED 10.5% OPM + CAP_UNCERTAIN) / 6055.T Japan Material (LOW_GM_SUSPECTED engineering services + CAP_SOFT_KILL $1.1-1.3B) |
+| DEFERRED run #97 for primary-data verification | 5 | 5217.T Techno Quartz (~$130M) / 4187.T Osaka Organic Chemical (~$465-590M) / 6627.T Tera Probe (cap uncertain) / 112290.KQ Ycchem (~$220M) / 036490.KQ SK Materials (cap uncertain) |
+| Already processed (in KILL-LIST or UNIVERSE from prior runs) | 6 | 4973.T QUEUED_CONDITIONAL / 6855.T SECTOR_KILL / 005290.KQ CAP_KILL / 014680.KS CAP_KILL / 092070.KQ deferred #97 / 241770.KQ deferred #97 / 104830.KQ deferred #97 |
+
+**Key observations:**
+1. **Soulbrain (357780.KQ)**: Most important new name — genuine high-purity HF and specialty etchant moat for Samsung/SK Hynix, but AI/HBM re-rating pushed cap to $1.64B, firmly CAP_KILL. Monitor for cap correction below $1.5B.
+2. **Ferrotec (6890.T)**: CVD-SiC focus rings are a near-sole-source consumable for plasma etch chambers (Lam/TEL qualified). Exceptional moat quality but $2.0B cap = CAP_KILL. China production risk adds discount even if cap corrects.
+3. **Kanto Denka (4047.T)**: One of very few global NF3/WF6 producers; structurally important semiconductor gas moat. LOW_GM_SUSPECTED at 10.5% OPM — likely CONDITIONAL_KILL pending EDINET verification. Priority for run #97.
+4. **Japan Material (6055.T)**: Engineering/services business model (gas system installation + parts cleaning) — structurally LOW_GM_SUSPECTED; combined with $1.1-1.3B cap = dual kill pending confirmation.
+5. **5217.T Techno Quartz**: Highest-conviction deferred name — pure-play quartz consumables at ~$130M (within range); quartz is a critical CVD/diffusion tube consumable with long fab qualification cycles. EDINET GM required; C≤2.
+
+**Sector 17 status:** EXHAUSTED (4 passes complete; no new confirmed QUEUED from this supplement pass). Next Sector 17 pass options: (1) run #97 — verify deferred names (5217.T / 4187.T / 6627.T / 112290.KQ / 036490.KQ); (2) resolve CONDITIONAL_KILL deferred names when EDINET accessible; (3) revive with lower cap threshold if needed.
